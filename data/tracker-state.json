@@ -6,7 +6,7 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T13:44:47.556Z",
+    "lastUpdated": "2026-09-20T15:17:36.755Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-20T12:40:00.000Z",
     "lastScanSummary": "Grok Bot ingest self-check OK",
@@ -364,6 +364,18 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_probe_delete_me",
+          "html": "<strong>PROBE</strong> schema test — ignore",
+          "plain": "PROBE schema test — ignore",
+          "source": "probe",
+          "url": "https://judgementdaytracker.com",
+          "date": "2026-09-20",
+          "tags": [
+            "probe"
+          ],
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_202504_half_marathon",
           "html": "<strong>🇨🇳 Beijing half-marathon</strong> (Apr 2025): humanoid robots race humans — national showcase of bipedal endurance before the Games",
@@ -1136,6 +1148,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "probe_headline_key",
+      "at": "2026-09-20T15:17:36.755Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "schema probe",
+      "patchId": "probe_headline_key"
+    },
     {
       "id": "patch_bot_selfcheck",
       "at": "2026-09-20T13:44:47.556Z",
