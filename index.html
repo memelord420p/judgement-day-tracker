@@ -170,14 +170,46 @@
   .fighter-card[data-fighter="skynet"]:hover::before { border-color: var(--gold); }
   .fighter-card[data-fighter="skynet"]:hover { box-shadow: 0 20px 60px rgba(240,192,64,.15); }
 
-  /* SVG container */
+  /* Fighter portrait art */
   .fighter-icon {
-    width: 180px;
-    height: 200px;
+    width: 200px;
+    height: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    background: radial-gradient(ellipse at 50% 30%, rgba(255,255,255,.04), transparent 70%);
+  }
+  .fighter-icon::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(180deg, transparent 55%, rgba(10,10,15,.85) 100%);
+  }
+  .fighter-icon img.fighter-art {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    filter: contrast(1.05) saturate(1.05);
+    transition: transform .45s ease, filter .45s ease;
+  }
+  .fighter-card:hover .fighter-icon img.fighter-art {
+    transform: scale(1.06);
+    filter: contrast(1.1) saturate(1.1) brightness(1.05);
+  }
+  .fighter-card[data-fighter="t800"] .fighter-icon {
+    box-shadow: 0 0 40px rgba(255,0,0,.18), inset 0 0 40px rgba(255,0,0,.06);
+  }
+  .fighter-card[data-fighter="t1000"] .fighter-icon {
+    box-shadow: 0 0 40px rgba(0,240,255,.16), inset 0 0 40px rgba(0,200,255,.05);
+  }
+  .fighter-card[data-fighter="skynet"] .fighter-icon {
+    box-shadow: 0 0 40px rgba(240,192,64,.16), inset 0 0 40px rgba(240,192,64,.05);
   }
   .fighter-icon svg { width:100%; height:100%; }
 
@@ -378,7 +410,15 @@
     max-width: 900px;
     width: 100%;
   }
-  .detail-header .fighter-icon { width:120px; height:130px; flex-shrink:0; }
+  .detail-header .fighter-icon {
+    width: 160px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 14px;
+  }
+  .detail-header .fighter-icon::after {
+    background: linear-gradient(180deg, transparent 60%, rgba(10,10,15,.7) 100%);
+  }
   .detail-header-text { display:flex; flex-direction:column; gap:6px; }
   .detail-title {
     font-family:'Orbitron',sans-serif;
@@ -654,13 +694,14 @@ function renderSelectScreen() {
     </div>`;
   }).join('');
 
-  // icons
+  // icons — cinematic portraits (SVG fallback if image fails)
   const t800 = document.getElementById('icon-t800-sm');
   const t1000 = document.getElementById('icon-t1000-sm');
   const skynet = document.getElementById('icon-skynet-sm');
-  if (t800) t800.innerHTML = renderT800Svg();
-  if (t1000) t1000.innerHTML = renderT1000Svg();
-  if (skynet) skynet.innerHTML = renderSkynetSvg();
+  if (t800) t800.innerHTML = fighterPortraitHtml('t800');
+  if (t1000) t1000.innerHTML = fighterPortraitHtml('t1000');
+  if (skynet) skynet.innerHTML = fighterPortraitHtml('skynet');
+  logJDT('portraits mounted', Object.keys(FIGHTER_ART));
 
   setTimeout(() => {
     document.querySelectorAll('.fighter-progress-ring .ring-fill').forEach(el => {
@@ -732,7 +773,37 @@ async function loadTrackerState() {
   if (asOfEl) asOfEl.textContent = 'DATA LOAD FAILED — CHECK CONSOLE';
 }
 
-// ── SVG ART ──
+// ── CINEMATIC PORTRAITS (original concept art; SVG fallback) ──
+const FIGHTER_ART = {
+  t800: './assets/t800-endoskeleton.png',
+  t1000: './assets/t1000-liquid-metal.png',
+  skynet: './assets/skynet-network.png'
+};
+
+function fighterPortraitHtml(key) {
+  const src = FIGHTER_ART[key];
+  if (!src) {
+    console.warn('[Judgment Day Tracker] no portrait for', key);
+    return fallbackPortraitSvg(key);
+  }
+  return `<img class="fighter-art" src="${src}" alt="${escapeHtml(key)} portrait" loading="eager" decoding="async" data-fighter="${key}" onerror="window.__jdtPortraitFallback && window.__jdtPortraitFallback(this)"/>`;
+}
+
+function fallbackPortraitSvg(key) {
+  if (key === 't800') return renderT800Svg();
+  if (key === 't1000') return renderT1000Svg();
+  return renderSkynetSvg();
+}
+
+window.__jdtPortraitFallback = function (imgEl) {
+  const key = imgEl?.dataset?.fighter || 'skynet';
+  console.error('[Judgment Day Tracker] portrait failed, SVG fallback:', key);
+  const wrap = imgEl.parentElement;
+  if (!wrap) return;
+  wrap.innerHTML = fallbackPortraitSvg(key);
+};
+
+// ── SVG ART (fallback) ──
 function renderT800Svg() {
   return `<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
     <defs>
@@ -1212,10 +1283,7 @@ function showDetail(key) {
   const circum = 2 * Math.PI * 58;
   const offset = circum * (1 - d.overall / 100);
 
-  let iconHtml = '';
-  if(key === 't800') iconHtml = renderT800Svg();
-  else if(key === 't1000') iconHtml = renderT1000Svg();
-  else iconHtml = renderSkynetSvg();
+  let iconHtml = fighterPortraitHtml(key);
 
   let subcatsHtml = d.subcats.map((s, i) => {
     const milestonesHtml = s.milestones.map(m => {
