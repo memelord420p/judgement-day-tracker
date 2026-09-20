@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T15:17:36.755Z",
+    "lastUpdated": "2026-09-20T15:17:59.062Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-20T12:40:00.000Z",
-    "lastScanSummary": "Grok Bot ingest self-check OK",
-    "dataSource": "bot-selfcheck",
-    "updatedBy": "grok-bot:selfcheck",
+    "lastScanAt": "2026-09-20T16:17:58+01:00",
+    "lastScanSummary": "Sep 20 16:17 Dublin scan: Optimus ~5k Fremont component orders; Figure 03 at BMW Spartanburg sequencing; EU AI Act RFIs to 30+ providers; Matter LM shape-memory robot; Unitree kicks remote (comedy). T-800 54→56. T-1000 12→13.",
+    "dataSource": "judgment-day-watch-4h-scan",
+    "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 54,
+      "overall": 56,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -365,6 +365,51 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260907_unitree_kicks_remote",
+          "html": "<strong>Comedy:</strong> Unitree humanoid in Shaoxing (Sep 7) kicks the remote clean out of an engineer’s hand, then bows — no injuries; control-loop / sensor glitch suspected",
+          "plain": "Comedy: Unitree humanoid in Shaoxing (Sep 7) kicks the remote clean out of an engineer’s hand, then bows — no injuries; control-loop / sensor glitch suspected",
+          "source": "ChinaTechNews / Daily Jagran",
+          "url": "https://www.chinatechnews.com/2026/09/18/129376-humanoid-robot-kicks-remote-from-engineers-hand-during-china-test",
+          "date": "2026-09-07",
+          "tags": [
+            "comedy",
+            "unitree",
+            "fail"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260625_figure03_bmw_spartanburg",
+          "html": "<strong>Figure 03 @ BMW Spartanburg</strong> (Jun 2026): humanoid moves from body-shop sheet loading into logistics sequencing — unsorted parts into just-in-sequence trolleys (Figure 02 helped build 30k+ X3s)",
+          "plain": "Figure 03 @ BMW Spartanburg (Jun 2026): humanoid moves from body-shop sheet loading into logistics sequencing — unsorted parts into just-in-sequence trolleys (Figure 02 helped build 30k+ X3s)",
+          "source": "BMW Group Press",
+          "url": "https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en",
+          "date": "2026-06-25",
+          "tags": [
+            "figure",
+            "bmw",
+            "factory"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260907_optimus_fremont_5k",
+          "html": "<strong>Tesla Optimus</strong> (Sep 2026): Chinese supply-chain reports ~5,000-unit component orders as Fremont line ramps Gen 3 for internal Optimus Academy — not customer sales yet",
+          "plain": "Tesla Optimus (Sep 2026): Chinese supply-chain reports ~5,000-unit component orders as Fremont line ramps Gen 3 for internal Optimus Academy — not customer sales yet",
+          "source": "ZeroGantry / Jiemian",
+          "url": "https://zerogantry.com/articles/tesla-optimus-supply-chain-orders-for-5-000-units-signal-fremont-ramp",
+          "date": "2026-09-07",
+          "tags": [
+            "optimus",
+            "production",
+            "tesla"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_probe_delete_me",
           "html": "<strong>PROBE</strong> schema test — ignore",
           "plain": "PROBE schema test — ignore",
@@ -545,7 +590,7 @@
       "desc": "The T-1000 is composed of liquid metal that can shapeshift into any person or object of similar size, form bladed weapons, flow through openings, and reassemble from damage.",
       "color": "#00f0ff",
       "colorGlow": "rgba(0,200,255,.3)",
-      "overall": 12,
+      "overall": 13,
       "threat": "LOW",
       "threatColor": "#0f0",
       "subcats": [
@@ -750,6 +795,20 @@
       ],
       "id": "t1000",
       "headlines": [
+        {
+          "id": "t1000_hl_2026_matter_lm_shape_memory",
+          "html": "<strong>Matter (2026):</strong> liquid-metal shape-memory robot with embodied control loop — ~90% volumetric compression, 100+ recovery cycles, &lt;50s restore; still lab pipeline-bot, not a T-1000",
+          "plain": "Matter (2026): liquid-metal shape-memory robot with embodied control loop — ~90% volumetric compression, 100+ recovery cycles, <50s restore; still lab pipeline-bot, not a T-1000",
+          "source": "Matter / Cell Press",
+          "url": "https://www.cell.com/matter/abstract/S2590-2385(26)00122-0",
+          "date": "2026-01-01",
+          "tags": [
+            "liquid-metal",
+            "gallium",
+            "shape-memory"
+          ],
+          "fighterId": "t1000"
+        },
         {
           "id": "t1000_hl_001",
           "html": "<strong>Carnegie Mellon</strong> gallium robot melts through bars, re-solidifies on command",
@@ -1028,6 +1087,21 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260901_eu_ai_act_rfis",
+          "html": "<strong>EU AI Act enforcement begins</strong> (1 Sep 2026): Commission AI Office sends first RFIs to 30+ AI providers on safety/security + copyright/transparency (powers live since 2 Aug)",
+          "plain": "EU AI Act enforcement begins (1 Sep 2026): Commission AI Office sends first RFIs to 30+ AI providers on safety/security + copyright/transparency (powers live since 2 Aug)",
+          "source": "European Commission / 2eu.brussels",
+          "url": "https://2eu.brussels/en/news/commission-starts-ai-act-enforcement-involving-more-than-30-companies-and-discusses-cyber-risks-with-openai-and-anthropic",
+          "date": "2026-09-01",
+          "tags": [
+            "policy",
+            "eu-ai-act",
+            "enforcement"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_202609_ai_warfare_race",
           "html": "<strong>Sep 2026:</strong> Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
           "plain": "Sep 2026: Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
@@ -1148,6 +1222,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-20_scan_1617_dublin",
+      "at": "2026-09-20T15:17:59.062Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "4h scan: Optimus Fremont ramp + Figure 03 BMW logistics; EU AI Act first RFIs; LM shape-memory paper; Unitree remote-kick fail (no injury).",
+      "patchId": "patch_2026-09-20_scan_1617_dublin"
+    },
     {
       "id": "probe_headline_key",
       "at": "2026-09-20T15:17:36.755Z",
