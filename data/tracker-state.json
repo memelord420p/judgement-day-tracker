@@ -6,7 +6,7 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T12:37:41.955Z",
+    "lastUpdated": "2026-09-20T12:37:55.059Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-20T12:40:00.000Z",
     "lastScanSummary": "Catch-up: World Humanoid Robot Games 2025+2026; Beijing half-marathon; autonomous AI drones (Ukraine). T-800 52%, Skynet 65%.",
@@ -125,7 +125,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 52,
+      "overall": 46,
       "threat": "ELEVATED",
       "threatColor": "#f80",
       "subcats": [
@@ -1122,6 +1122,13 @@
     }
   },
   "changelog": [
+    {
+      "id": "chg_1789907875059",
+      "at": "2026-09-20T12:37:55.059Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch"
+    },
     {
       "id": "patch_2026-09-20_catchup_olympics_drones",
       "at": "2026-09-20T12:37:41.955Z",
