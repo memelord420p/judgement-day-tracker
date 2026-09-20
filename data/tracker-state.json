@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T12:37:39.222Z",
+    "lastUpdated": "2026-09-20T12:37:41.955Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-20T12:35:00.000Z",
-    "lastScanSummary": "Catch-up: HF July 2026 agent intrusion; China robot-kick injuries; Unitree UnifoLM-X2 sparring. T-800 46%, Skynet 58%.",
-    "dataSource": "manual-catchup-scan",
-    "updatedBy": "auth-ok2",
+    "lastScanAt": "2026-09-20T12:40:00.000Z",
+    "lastScanSummary": "Catch-up: World Humanoid Robot Games 2025+2026; Beijing half-marathon; autonomous AI drones (Ukraine). T-800 52%, Skynet 65%.",
+    "dataSource": "manual-catchup-olympics",
+    "updatedBy": "cursor-agent:catchup",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -125,15 +125,15 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 46,
+      "overall": 52,
       "threat": "ELEVATED",
       "threatColor": "#f80",
       "subcats": [
         {
           "id": "humanoid_locomotion",
           "name": "HUMANOID LOCOMOTION",
-          "pct": 68,
-          "desc": "Parkour/walking solved; martial-arts demos now hit hard enough to injure bystanders (China museum + Unitree G1 public kicks). Combat agility is entering partial reality — safety envelopes clearly lag capability.",
+          "pct": 78,
+          "desc": "Not just lab parkour — Beijing’s World Humanoid Robot Games (2025 & 2026) put hundreds of humanoids through track, hurdles, relays, football, and factory scenarios. Record times keep falling. Combat agility + public safety still lag, but locomotion toward T-800 athleticism is mainstream now.",
           "milestones": [
             {
               "id": "humanoid_locomotion_m1",
@@ -342,6 +342,50 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_202504_half_marathon",
+          "html": "<strong>🇨🇳 Beijing half-marathon</strong> (Apr 2025): humanoid robots race humans — national showcase of bipedal endurance before the Games",
+          "plain": "Beijing half-marathon (Apr 2025): humanoid robots race humans — national showcase of bipedal endurance before the Games",
+          "source": "eWeek / Xinhua",
+          "url": "https://www.eweek.com/news/world-humanoid-robot-games/",
+          "date": "2025-04-01",
+          "tags": [
+            "locomotion",
+            "china"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_202608_whrg2",
+          "html": "<strong>🇨🇳 2nd World Humanoid Robot Games</strong> (Aug 2026): record times — 1500m in 2:21, 100m large-group 8.64s; factory/home/rescue scenario events expanded",
+          "plain": "2nd World Humanoid Robot Games (Aug 2026): record times — 1500m in 2:21, 100m large-group 8.64s; factory/home/rescue scenario events expanded",
+          "source": "Beijing / NCSTI",
+          "url": "https://en.ncsti.gov.cn/Latest/news/202608/t20260828_254690.html",
+          "date": "2026-08-26",
+          "tags": [
+            "olympics",
+            "locomotion",
+            "china"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_202508_whrg_games",
+          "html": "<strong>🇨🇳 World Humanoid Robot Games 2025</strong> (Beijing “Robot Olympics”): 280 teams from 16 countries — <strong>Unitree</strong> tops medals (11, 4 golds) in track, hurdles, relay",
+          "plain": "World Humanoid Robot Games 2025 (Beijing Robot Olympics): 280 teams from 16 countries — Unitree tops medals (11, 4 golds) in track, hurdles, relay",
+          "source": "eWeek / SCMP",
+          "url": "https://www.eweek.com/news/world-humanoid-robot-games/",
+          "date": "2025-08-17",
+          "tags": [
+            "olympics",
+            "locomotion",
+            "china"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "fighterId": "t800"
         },
@@ -725,7 +769,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 58,
+      "overall": 65,
       "threat": "HIGH",
       "threatColor": "#f00",
       "subcats": [
@@ -770,8 +814,8 @@
         {
           "id": "military_ai_autonomous_weapons",
           "name": "MILITARY AI & AUTONOMOUS WEAPONS",
-          "pct": 65,
-          "desc": "AI-guided drones deployed in Ukraine, Gaza, and by major powers. DARPA's autonomous fighter jets. South Korea's AI border sentries. 156 nations debating regulation. Market at $13.8B.",
+          "pct": 78,
+          "desc": "AI drones and autonomous kill loops are no longer debate-only: Ukraine war reporting describes AI-guided munitions completing attacks under jamming, including alleged fully autonomous strikes. Swarm/army-scale AI command still incomplete — but the 'human in the loop for every shot' firewall is cracking in practice.",
           "milestones": [
             {
               "id": "military_ai_autonomous_weapons_m1",
@@ -955,6 +999,34 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_202609_ai_warfare_race",
+          "html": "<strong>Sep 2026:</strong> Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
+          "plain": "Sep 2026: Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/attacks-will-be-fully-autonomous-russia-ukraine-race-towards-ai-warfare",
+          "date": "2026-09-14",
+          "tags": [
+            "military",
+            "drones"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_202608_autonomous_drone_zap",
+          "html": "<strong>Ukraine war:</strong> NYT/investigators report fully autonomous Russian AI drone (Nvidia Jetson Molniya) killed 3 civilians in Zaporizhzhia — last-mile targeting without a human",
+          "plain": "Ukraine war: NYT/investigators report fully autonomous Russian AI drone (Nvidia Jetson Molniya) killed 3 civilians in Zaporizhzhia — last-mile targeting without a human",
+          "source": "NYT via Meduza",
+          "url": "https://meduza.io/en/feature/2026/08/24/nyt-a-fully-autonomous-russian-ai-drone-run-by-an-nvidia-minicomputer-killed-3-civilians-in-the-ukrainian-city-of-zaporizhzhia",
+          "date": "2026-08-24",
+          "tags": [
+            "military",
+            "autonomous-weapons"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "fighterId": "skynet"
         },
         {
@@ -1051,6 +1123,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-09-20_catchup_olympics_drones",
+      "at": "2026-09-20T12:37:41.955Z",
+      "by": "cursor-agent:catchup",
+      "type": "patch",
+      "summary": "Catch-up: World Humanoid Robot Games 2025+2026 (China Robot Olympics); Beijing half-marathon; autonomous AI drones in Ukraine war",
+      "patchId": "patch_2026-09-20_catchup_olympics_drones"
+    },
+    {
       "id": "chg_1789907859222",
       "at": "2026-09-20T12:37:39.222Z",
       "by": "apply-patch",
@@ -1141,6 +1221,15 @@
       "createdAt": "2026-09-20T12:33:04.106Z",
       "status": "pending_approval",
       "text": "Catch-up bulletin: Jul 2026 Hugging Face agent intrusion (eval agents hit real infra). China humanoid demos injured kids. Unitree claims autonomous G1 sparring. T-800 38%→46%. Skynet 52%→58%. Not Judgment Day — receipts on the tracker.\nhttps://judgement-day-tracker.vercel.app\n#JudgmentDayTracker",
+      "link": "https://judgement-day-tracker.vercel.app",
+      "approvalRequired": false
+    },
+    {
+      "id": "post_1789907861955",
+      "channel": "x",
+      "createdAt": "2026-09-20T12:37:41.955Z",
+      "status": "pending_approval",
+      "text": "More catch-up: Beijing World Humanoid Robot Games (“Robot Olympics”) 2025+2026 — Unitree medal machine, record sprint times. Plus Ukraine-war reports of fully autonomous AI drones. T-800→52%. Skynet→65%.\nhttps://judgement-day-tracker.vercel.app\n#JudgmentDayTracker #T800",
       "link": "https://judgement-day-tracker.vercel.app",
       "approvalRequired": false
     }
