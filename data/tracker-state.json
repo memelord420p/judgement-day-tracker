@@ -6,11 +6,11 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T15:17:59.062Z",
+    "lastUpdated": "2026-09-20T18:42:02.152Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-20T16:17:58+01:00",
-    "lastScanSummary": "Sep 20 16:17 Dublin scan: Optimus ~5k Fremont component orders; Figure 03 at BMW Spartanburg sequencing; EU AI Act RFIs to 30+ providers; Matter LM shape-memory robot; Unitree kicks remote (comedy). T-800 54→56. T-1000 12→13.",
-    "dataSource": "judgment-day-watch-4h-scan",
+    "lastScanAt": "2026-09-20T19:42:00+01:00",
+    "lastScanSummary": "EXTRA Sep 20 19:42 Dublin: Dongfeng Xiaodong into factories Oct / trial YE2026; Figure Helix 2.5 ~56% zero-shot across 30 homes; Unitree G1+ six upgrades; Agility Digit 5 (50lb/9min charge); comedy China tumble+spill tea data race. T-800 56→58. Prefer posting over quiet.",
+    "dataSource": "judgment-day-watch-extra-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
   },
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 56,
+      "overall": 58,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -365,6 +365,86 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260920_china_tumble_data_comedy",
+          "html": "<strong>Comedy:</strong> China keeps building humanoid data centers despite public tumbles &amp; spilled tea — 22+ provincial hubs, Wuhan ~24k entries/day; Scale AI says China ~90% of commercial robot AI data (no injuries in this bit)",
+          "plain": "Comedy: China keeps building humanoid data centers despite public tumbles & spilled tea — 22+ provincial hubs, Wuhan ~24k entries/day; Scale AI says China ~90% of commercial robot AI data (no injuries in this bit)",
+          "source": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/international/2026/09/20/tumbling-robots-spilled-tea-chinas-humanoid-bet-pays-off-in",
+          "date": "2026-09-20",
+          "tags": [
+            "comedy",
+            "china",
+            "data",
+            "fail"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260915_agility_digit_5",
+          "html": "<strong>Agility Digit 5</strong> (15 Sep 2026): 5'11\" / 284 lb humanoid for shared aisles — 50 lb payload, ~90 min runtime, 9-min charge; early access 1H2027; claims $300M+ commitments (contingent)",
+          "plain": "Agility Digit 5 (15 Sep 2026): 5'11\" / 284 lb humanoid for shared aisles — 50 lb payload, ~90 min runtime, 9-min charge; early access 1H2027; claims $300M+ commitments (contingent)",
+          "source": "TechEBlog / Agility",
+          "url": "https://www.techeblog.com/agility-digit-5-humanoid-robot-reveal-hardware/",
+          "date": "2026-09-15",
+          "tags": [
+            "agility",
+            "digit5",
+            "us",
+            "warehouse"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260915_unitree_g1_plus",
+          "html": "<strong>🇨🇳 Unitree G1+</strong> (15 Sep 2026): six upgrades — +2 neck DoF, shoulder/waist peak torque +110%, arm torque +43%, binocular+wide vision, mic array; CN price RMB 95,000",
+          "plain": "Unitree G1+ (15 Sep 2026): six upgrades — +2 neck DoF, shoulder/waist peak torque +110%, arm torque +43%, binocular+wide vision, mic array; CN price RMB 95,000",
+          "source": "TechNode / Unitree",
+          "url": "https://technode.com/2026/09/15/unitree-g1-plus-humanoid-robot/",
+          "date": "2026-09-15",
+          "tags": [
+            "unitree",
+            "g1plus",
+            "china",
+            "hardware"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260917_figure_helix_25",
+          "html": "<strong>Figure Helix 2.5</strong> (17 Sep 2026): Index-pretrained policies ~56% full-task success across 30 unseen homes (vs ~9% without Index) — claimed human→humanoid transfer scaling law; still internal eval, not customer fleet",
+          "plain": "Figure Helix 2.5 (17 Sep 2026): Index-pretrained policies ~56% full-task success across 30 unseen homes (vs ~9% without Index) — claimed human→humanoid transfer scaling law; still internal eval, not customer fleet",
+          "source": "Figure AI",
+          "url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization",
+          "date": "2026-09-17",
+          "tags": [
+            "figure",
+            "helix",
+            "us",
+            "homes"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260920_dongfeng_xiaodong_trial",
+          "html": "<strong>🇨🇳 Dongfeng Xiaodong</strong> (20 Sep 2026): humanoid enters factories in October for sorting/QA; small-batch trial production by YE2026; aim human-level capability by end-2027 (Yicai/CnEVPost)",
+          "plain": "Dongfeng Xiaodong (20 Sep 2026): humanoid enters factories in October for sorting/QA; small-batch trial production by YE2026; aim human-level capability by end-2027 (Yicai/CnEVPost)",
+          "source": "CnEVPost / Yicai",
+          "url": "https://cnevpost.com/2026/09/20/dongfeng-trial-produce-humanoid-robots-year-end/",
+          "date": "2026-09-20",
+          "tags": [
+            "dongfeng",
+            "china",
+            "factory",
+            "production"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260907_unitree_kicks_remote",
           "html": "<strong>Comedy:</strong> Unitree humanoid in Shaoxing (Sep 7) kicks the remote clean out of an engineer’s hand, then bows — no injuries; control-loop / sensor glitch suspected",
           "plain": "Comedy: Unitree humanoid in Shaoxing (Sep 7) kicks the remote clean out of an engineer’s hand, then bows — no injuries; control-loop / sensor glitch suspected",
@@ -559,26 +639,6 @@
           "date": "2025-01-01",
           "tags": [
             "manipulation"
-          ]
-        },
-        {
-          "id": "t800_hl_006",
-          "html": "<strong>Tokyo Univ.</strong> grafted self-healing lab-grown skin onto a robot face",
-          "source": "University of Tokyo",
-          "url": null,
-          "date": "2024-06-01",
-          "tags": [
-            "skin"
-          ]
-        },
-        {
-          "id": "t800_hl_007",
-          "html": "<strong>Figure 02</strong> integrates OpenAI vision + speech for real-time conversation while performing tasks",
-          "source": "Figure AI",
-          "url": null,
-          "date": "2024-08-01",
-          "tags": [
-            "ai"
           ]
         }
       ],
@@ -1222,6 +1282,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-20_extra_1942_dublin",
+      "at": "2026-09-20T18:42:02.152Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "EXTRA China/US scan: Dongfeng Xiaodong factory timeline; Figure Helix 2.5 zero-shot homes; Unitree G1+; Agility Digit 5; comedy China tumble-data centers. T-800 56→58.",
+      "patchId": "patch_2026-09-20_extra_1942_dublin"
+    },
     {
       "id": "patch_2026-09-20_scan_1617_dublin",
       "at": "2026-09-20T15:17:59.062Z",
