@@ -1,0 +1,9 @@
+.vercel
+.DS_Store
+node_modules
+data/backups/
+data/patches/patch_*.json
+!data/patches/example-daily-patch.json
+*.log
+.env
+.env.*

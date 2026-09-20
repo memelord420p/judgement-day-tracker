@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JUDGMENT DAY TRACKER</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap');
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  :root {
+    --red: #ff1a1a;
+    --red-glow: #ff0000;
+    --cyan: #00f0ff;
+    --cyan-glow: #00c8ff;
+    --silver: #c0c8d0;
+    --gold: #f0c040;
+    --bg: #0a0a0f;
+  }
+
+  body {
+    background: var(--bg);
+    color: #e0e0e0;
+    font-family: 'Share Tech Mono', monospace;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── Scanline overlay ── */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0,0,0,.06) 0px,
+      rgba(0,0,0,.06) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* ── Particle canvas ── */
+  #particles { position:fixed; inset:0; z-index:0; }
+
+  /* ── PAGES ── */
+  .page { display:none; position:relative; z-index:1; min-height:100vh; }
+  .page.active { display:flex; flex-direction:column; }
+
+  /* ═══════════════════════════════════════════
+     SELECTION SCREEN
+     ═══════════════════════════════════════════ */
+  #selectScreen {
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .select-title {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: clamp(1.6rem, 5vw, 3rem);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    color: var(--red);
+    text-shadow: 0 0 30px var(--red-glow), 0 0 60px rgba(255,0,0,.3);
+    animation: titlePulse 3s ease-in-out infinite;
+  }
+  .select-subtitle {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(.7rem, 2vw, 1rem);
+    letter-spacing: 4px;
+    color: #888;
+    text-align: center;
+    margin-top: -8px;
+  }
+
+  @keyframes titlePulse {
+    0%,100% { opacity:1; }
+    50% { opacity:.85; text-shadow: 0 0 50px var(--red-glow), 0 0 100px rgba(255,0,0,.5); }
+  }
+
+  .select-description {
+    font-size: clamp(.75rem, 2vw, .9rem);
+    color: #999;
+    text-align: center;
+    max-width: 520px;
+    line-height: 1.6;
+    margin-top: -4px;
+  }
+
+  .eta-countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 14px 24px;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 12px;
+    background: rgba(15,15,25,.6);
+  }
+  .eta-countdown-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: .55rem;
+    letter-spacing: 2px;
+    color: #666;
+    text-transform: uppercase;
+  }
+  .eta-countdown-value {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: clamp(1rem, 3vw, 1.3rem);
+    color: var(--red);
+    text-shadow: 0 0 12px rgba(255,0,0,.4);
+  }
+  .eta-countdown-sublabel {
+    font-size: .65rem;
+    color: #555;
+  }
+
+  /* Fighter grid */
+  .fighters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1100px;
+    width: 100%;
+    padding: 10px;
+  }
+  @media (max-width: 800px) {
+    .fighters { grid-template-columns: 1fr; max-width: 400px; }
+  }
+
+  /* Fighter card */
+  .fighter-card {
+    position: relative;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 16px;
+    background: rgba(15,15,25,.85);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .35s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 24px;
+    gap: 16px;
+  }
+  .fighter-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    transition: border-color .35s;
+  }
+  .fighter-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 20px 60px rgba(0,0,0,.6);
+  }
+  .fighter-card[data-fighter="t800"]:hover::before { border-color: var(--red); }
+  .fighter-card[data-fighter="t800"]:hover { box-shadow: 0 20px 60px rgba(255,0,0,.15); }
+  .fighter-card[data-fighter="t1000"]:hover::before { border-color: var(--cyan); }
+  .fighter-card[data-fighter="t1000"]:hover { box-shadow: 0 20px 60px rgba(0,200,255,.15); }
+  .fighter-card[data-fighter="skynet"]:hover::before { border-color: var(--gold); }
+  .fighter-card[data-fighter="skynet"]:hover { box-shadow: 0 20px 60px rgba(240,192,64,.15); }
+
+  /* SVG container */
+  .fighter-icon {
+    width: 180px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .fighter-icon svg { width:100%; height:100%; }
+
+  .fighter-name {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  .fighter-card[data-fighter="t800"] .fighter-name { color: var(--red); text-shadow: 0 0 15px rgba(255,0,0,.4); }
+  .fighter-card[data-fighter="t1000"] .fighter-name { color: var(--cyan); text-shadow: 0 0 15px rgba(0,200,255,.4); }
+  .fighter-card[data-fighter="skynet"] .fighter-name { color: var(--gold); text-shadow: 0 0 15px rgba(240,192,64,.4); }
+
+  .fighter-tagline {
+    font-size: .78rem;
+    color: #777;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 240px;
+  }
+
+  .fighter-progress-ring {
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .fighter-progress-ring svg { width:80px; height:80px; transform: rotate(-90deg); }
+  .fighter-progress-ring .ring-bg { fill:none; stroke:rgba(255,255,255,.06); stroke-width:5; }
+  .fighter-progress-ring .ring-fill { fill:none; stroke-width:5; stroke-linecap:round; transition: stroke-dashoffset 1.5s ease; }
+  .fighter-progress-ring .ring-label {
+    position:absolute;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Orbitron',sans-serif;
+    font-weight:700;
+    font-size:1rem;
+  }
+  .fighter-card[data-fighter="t800"] .ring-fill { stroke: var(--red); filter: drop-shadow(0 0 6px var(--red-glow)); }
+  .fighter-card[data-fighter="t800"] .ring-label { color: var(--red); }
+  .fighter-card[data-fighter="t1000"] .ring-fill { stroke: var(--cyan); filter: drop-shadow(0 0 6px var(--cyan-glow)); }
+  .fighter-card[data-fighter="t1000"] .ring-label { color: var(--cyan); }
+  .fighter-card[data-fighter="skynet"] .ring-fill { stroke: var(--gold); filter: drop-shadow(0 0 6px var(--gold)); }
+  .fighter-card[data-fighter="skynet"] .ring-label { color: var(--gold); }
+
+  .fighter-progress-caption {
+    font-family: 'Orbitron', sans-serif;
+    font-size: .5rem;
+    letter-spacing: 1.5px;
+    color: #555;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4px;
+    line-height: 1.3;
+  }
+
+  /* Headlines on cards */
+  .card-headlines {
+    width: 100%;
+    border-top: 1px solid rgba(255,255,255,.06);
+    padding-top: 12px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .card-headlines-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: .55rem;
+    letter-spacing: 2px;
+    color: #555;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2px;
+  }
+  .card-headline {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: .72rem;
+    line-height: 1.4;
+    color: #999;
+  }
+  .card-headline .hl-dot {
+    flex-shrink: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: 5px;
+    animation: dotPulse 2s ease-in-out infinite;
+  }
+  .fighter-card[data-fighter="t800"] .hl-dot { background: var(--red); box-shadow: 0 0 6px var(--red); }
+  .fighter-card[data-fighter="t1000"] .hl-dot { background: var(--cyan); box-shadow: 0 0 6px var(--cyan); }
+  .fighter-card[data-fighter="skynet"] .hl-dot { background: var(--gold); box-shadow: 0 0 6px var(--gold); }
+  @keyframes dotPulse {
+    0%,100% { opacity:.6; }
+    50% { opacity:1; }
+  }
+  .card-headline .hl-date {
+    font-family: 'Orbitron', sans-serif;
+    font-size: .55rem;
+    color: #555;
+    white-space: nowrap;
+  }
+  .card-headline .hl-text {
+    color: #bbb;
+  }
+  .card-headline .hl-text strong {
+    color: #e0e0e0;
+    font-weight: 600;
+  }
+
+  .card-headlines-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 6px 0 2px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    font-size: .55rem;
+    letter-spacing: 1.5px;
+    color: #666;
+    text-transform: uppercase;
+    transition: color .2s;
+  }
+  .card-headlines-toggle:hover { color: #999; }
+  .fighter-card[data-fighter="t800"] .card-headlines-toggle:hover { color: var(--red); }
+  .fighter-card[data-fighter="t1000"] .card-headlines-toggle:hover { color: var(--cyan); }
+  .fighter-card[data-fighter="skynet"] .card-headlines-toggle:hover { color: var(--gold); }
+  .card-headlines-toggle .disclosure-triangle {
+    font-size: .5rem;
+    transition: transform .25s ease;
+  }
+  .card-headlines-toggle.expanded .disclosure-triangle {
+    transform: rotate(90deg);
+  }
+  .card-headlines-more {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease-out;
+  }
+  .card-headlines-more.expanded {
+    max-height: 500px;
+    transition: max-height .4s ease-in;
+  }
+
+  .fighter-select-btn {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: 2px;
+    padding: 10px 28px;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 8px;
+    background: rgba(255,255,255,.04);
+    color: #aaa;
+    cursor: pointer;
+    transition: all .3s;
+    text-transform: uppercase;
+  }
+  .fighter-card[data-fighter="t800"]:hover .fighter-select-btn { border-color:var(--red); color:var(--red); background:rgba(255,0,0,.08); }
+  .fighter-card[data-fighter="t1000"]:hover .fighter-select-btn { border-color:var(--cyan); color:var(--cyan); background:rgba(0,200,255,.08); }
+  .fighter-card[data-fighter="skynet"]:hover .fighter-select-btn { border-color:var(--gold); color:var(--gold); background:rgba(240,192,64,.08); }
+
+  /* ═══════════════════════════════════════════
+     DETAIL SCREEN
+     ═══════════════════════════════════════════ */
+  #detailScreen {
+    align-items: center;
+    padding: 30px 20px 60px;
+    gap: 24px;
+  }
+
+  .back-btn {
+    align-self: flex-start;
+    font-family: 'Orbitron', sans-serif;
+    font-size: .75rem;
+    letter-spacing: 2px;
+    padding: 8px 20px;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 8px;
+    background: rgba(255,255,255,.03);
+    color: #888;
+    cursor: pointer;
+    transition: all .3s;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+  .back-btn:hover { border-color:#fff; color:#fff; }
+
+  .detail-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+    width: 100%;
+  }
+  .detail-header .fighter-icon { width:120px; height:130px; flex-shrink:0; }
+  .detail-header-text { display:flex; flex-direction:column; gap:6px; }
+  .detail-title {
+    font-family:'Orbitron',sans-serif;
+    font-weight:900;
+    font-size: clamp(1.4rem,4vw,2.4rem);
+    letter-spacing:4px;
+  }
+  .detail-subtitle { font-size:.85rem; color:#888; line-height:1.5; max-width:500px; }
+
+  /* Overall ring big */
+  .detail-overall {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;
+    width: 100%;
+    padding: 24px;
+    border: 1px solid rgba(255,255,255,.06);
+    border-radius: 16px;
+    background: rgba(15,15,25,.6);
+  }
+  .big-ring {
+    position:relative;
+    width:140px;
+    height:140px;
+    flex-shrink:0;
+  }
+  .big-ring svg { width:140px; height:140px; transform:rotate(-90deg); }
+  .big-ring .ring-bg { fill:none; stroke:rgba(255,255,255,.06); stroke-width:8; }
+  .big-ring .ring-fill { fill:none; stroke-width:8; stroke-linecap:round; }
+  .big-ring .ring-label {
+    position:absolute; inset:0;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    font-family:'Orbitron',sans-serif;
+  }
+  .big-ring .ring-pct { font-weight:900; font-size:2rem; }
+  .big-ring .ring-sub { font-size:.6rem; letter-spacing:2px; color:#888; }
+  .overall-text { display:flex; flex-direction:column; gap:8px; }
+  .overall-text h3 { font-family:'Orbitron',sans-serif; font-size:1rem; letter-spacing:2px; }
+  .overall-text p { font-size:.82rem; color:#999; line-height:1.6; }
+  .overall-text .threat-tag {
+    display:inline-block;
+    padding:3px 12px;
+    border-radius:6px;
+    font-family:'Orbitron',sans-serif;
+    font-size:.65rem;
+    letter-spacing:2px;
+    font-weight:700;
+    margin-top:4px;
+  }
+
+  /* Sub-categories */
+  .sub-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .sub-cat {
+    border: 1px solid rgba(255,255,255,.06);
+    border-radius: 14px;
+    background: rgba(15,15,25,.6);
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: border-color .3s;
+  }
+  .sub-cat:hover { border-color: rgba(255,255,255,.12); }
+  .sub-cat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sub-cat-name {
+    font-family: 'Orbitron',sans-serif;
+    font-size: .85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  .sub-cat-pct {
+    font-family: 'Orbitron',sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  .sub-cat-bar {
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    background: rgba(255,255,255,.06);
+    overflow: hidden;
+    position: relative;
+  }
+  .sub-cat-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    width: 0%;
+    transition: width 1.5s cubic-bezier(.23,1,.32,1);
+  }
+  .sub-cat-desc {
+    font-size: .78rem;
+    color: #999;
+    line-height: 1.55;
+  }
+  .sub-cat-milestones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 2px;
+  }
+  .milestone {
+    font-size: .68rem;
+    padding: 3px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,.08);
+    background: rgba(255,255,255,.03);
+    color: #aaa;
+  }
+  .milestone.done { border-color: rgba(100,255,100,.2); color: #7f7; background: rgba(100,255,100,.05); }
+  .milestone.partial { border-color: rgba(255,200,60,.2); color: #fc4; background: rgba(255,200,60,.05); }
+
+  /* Clock */
+  .clock-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    background: rgba(10,10,15,.9);
+    border-top: 1px solid rgba(255,255,255,.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    z-index: 100;
+    font-size: .7rem;
+    color: #666;
+    letter-spacing: 1px;
+    font-family: 'Share Tech Mono', monospace;
+  }
+  .clock-bar .clock-val { color: var(--red); }
+
+  /* Responsive detail */
+  @media (max-width:640px) {
+    .detail-header { flex-direction:column; align-items:center; text-align:center; }
+    .detail-overall { flex-direction:column; align-items:center; text-align:center; }
+  }
+
+  /* Fade-in animation */
+  .fade-in { animation: fadeIn .5s ease forwards; }
+  @keyframes fadeIn { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+</style>
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<!-- ═══ SELECTION SCREEN ═══ -->
+<div id="selectScreen" class="page active">
+  <div class="select-title">JUDGMENT DAY TRACKER</div>
+  <div class="select-subtitle">CHOOSE YOUR MACHINE</div>
+  <p class="select-description">How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.</p>
+  <div class="eta-countdown">
+    <span class="eta-countdown-label">Estimated reality ETA</span>
+    <span class="eta-countdown-value" id="etaCountdown">—</span>
+    <span class="eta-countdown-sublabel" id="etaTarget">Aug 29, 2045</span>
+  </div>
+
+  <div class="fighters" id="fightersGrid">
+    <!-- populated by renderSelectScreen() from live tracker-state.json -->
+  </div>
+</div>
+
+<!-- ═══ DETAIL SCREEN ═══ -->
+<div id="detailScreen" class="page">
+  <button class="back-btn" onclick="showSelect()">← BACK TO SELECT</button>
+  <div id="detailContent"></div>
+</div>
+
+<!-- ═══ CLOCK BAR ═══ -->
+<div class="clock-bar">
+  <span>SYSTEM TIME: <span class="clock-val" id="clock"></span></span>
+  <span>|</span>
+  <span>JUDGMENT DAY STATUS: <span class="clock-val" id="systemStatus">MONITORING</span></span>
+  <span>|</span>
+  <span id="dataAsOf">LOADING LIVE DATA…</span>
+</div>
+
+<script>
+// ── LIVE STATE ──
+let DATA = {};
+let TRACKER_STATE = null;
+let ETA_DATE = new Date('2045-08-29T00:00:00Z');
+const RING_CIRCUM_SM = 2 * Math.PI * 34; // ~213.628
+
+function logJDT(...args) {
+  console.log('[Judgment Day Tracker]', ...args);
+}
+
+function fighterRingOffset(overall) {
+  return RING_CIRCUM_SM * (1 - (overall || 0) / 100);
+}
+
+function escapeHtml(str) {
+  return String(str ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function headlineHtml(hl) {
+  // Headlines are curated HTML (<strong> only). Prefer plain if present for safety fallback.
+  if (hl.html && /<strong>/i.test(hl.html) && !/<script/i.test(hl.html)) return hl.html;
+  return escapeHtml(hl.plain || hl.html || '');
+}
+
+function renderSelectScreen() {
+  const grid = document.getElementById('fightersGrid');
+  if (!grid || !TRACKER_STATE) return;
+  const order = ['t800', 't1000', 'skynet'];
+  const taglines = {
+    t800: 'Cyberdyne Systems Model 101<br>Humanoid combat chassis',
+    t1000: 'Advanced prototype<br>Mimetic polyalloy assassin',
+    skynet: 'Global defense network<br>Artificial superintelligence'
+  };
+
+  grid.innerHTML = order.map(id => {
+    const d = DATA[id];
+    if (!d) return '';
+    const headlines = d.headlines || [];
+    const first = headlines[0];
+    const rest = headlines.slice(1);
+    const offset = fighterRingOffset(d.overall).toFixed(1);
+    const moreHtml = rest.map(hl => `
+          <div class="card-headline">
+            <span class="hl-dot"></span>
+            <span class="hl-text">${headlineHtml(hl)}</span>
+          </div>`).join('');
+
+    return `
+    <div class="fighter-card" data-fighter="${id}" onclick="showDetail('${id}')">
+      <div class="fighter-icon" id="icon-${id}-sm"></div>
+      <div class="fighter-name">${escapeHtml(d.name)}</div>
+      <div class="fighter-tagline">${taglines[id] || ''}</div>
+      <div class="fighter-progress-ring">
+        <svg viewBox="0 0 80 80">
+          <circle class="ring-bg" cx="40" cy="40" r="34"/>
+          <circle class="ring-fill" cx="40" cy="40" r="34" stroke-dasharray="${RING_CIRCUM_SM}" stroke-dashoffset="${RING_CIRCUM_SM}" data-target="${offset}"/>
+        </svg>
+        <div class="ring-label">${d.overall}%</div>
+      </div>
+      <div class="fighter-progress-caption">Progress to reality</div>
+      <div class="card-headlines">
+        <div class="card-headlines-title">▸ Latest Development</div>
+        ${first ? `<div class="card-headline card-headline-first">
+          <span class="hl-dot"></span>
+          <span class="hl-text">${headlineHtml(first)}</span>
+        </div>` : '<div class="card-headline card-headline-first"><span class="hl-dot"></span><span class="hl-text">No developments logged yet</span></div>'}
+        ${rest.length ? `
+        <div class="card-headlines-toggle" onclick="event.stopPropagation(); toggleHeadlines('${id}', this)" title="See more developments">
+          <span class="disclosure-triangle">▶</span>
+          <span>More</span>
+        </div>
+        <div class="card-headlines-more" id="headlines-more-${id}">
+          ${moreHtml}
+        </div>` : ''}
+      </div>
+      <div class="fighter-select-btn">ANALYZE</div>
+    </div>`;
+  }).join('');
+
+  // icons
+  const t800 = document.getElementById('icon-t800-sm');
+  const t1000 = document.getElementById('icon-t1000-sm');
+  const skynet = document.getElementById('icon-skynet-sm');
+  if (t800) t800.innerHTML = renderT800Svg();
+  if (t1000) t1000.innerHTML = renderT1000Svg();
+  if (skynet) skynet.innerHTML = renderSkynetSvg();
+
+  setTimeout(() => {
+    document.querySelectorAll('.fighter-progress-ring .ring-fill').forEach(el => {
+      if (el.dataset.target) el.style.strokeDashoffset = el.dataset.target;
+    });
+  }, 300);
+
+  logJDT('select screen rendered', order.map(id => ({ id, overall: DATA[id]?.overall, headlines: DATA[id]?.headlines?.length })));
+}
+
+function applyMetaToChrome() {
+  const meta = TRACKER_STATE?.meta || {};
+  const eta = TRACKER_STATE?.eta || {};
+  const statusEl = document.getElementById('systemStatus');
+  const asOfEl = document.getElementById('dataAsOf');
+  const etaTarget = document.getElementById('etaTarget');
+  if (statusEl) statusEl.textContent = meta.status || 'MONITORING';
+  if (asOfEl) {
+    const label = meta.lastUpdatedLabel || (meta.lastUpdated ? new Date(meta.lastUpdated).toISOString().slice(0, 7) : 'UNKNOWN');
+    const scan = meta.lastScanAt ? ` · LAST SCAN ${new Date(meta.lastScanAt).toISOString().slice(0, 16)}Z` : '';
+    asOfEl.textContent = `DATA AS OF ${label}${scan}`;
+  }
+  if (etaTarget && eta.label) etaTarget.textContent = eta.label;
+  if (eta.targetIso) ETA_DATE = new Date(eta.targetIso);
+  if (TRACKER_STATE?.meta?.title) document.title = TRACKER_STATE.meta.title;
+  logJDT('chrome meta applied', { status: meta.status, lastUpdated: meta.lastUpdated, eta: eta.targetIso });
+}
+
+async function loadTrackerState() {
+  const url = './data/tracker-state.json?t=' + Date.now();
+  logJDT('fetching live state', url);
+  try {
+    const res = await fetch(url, { cache: 'no-store' });
+    logJDT('fetch status', res.status, res.ok);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const state = await res.json();
+    if (!state?.fighters?.t800) throw new Error('Invalid tracker-state: missing fighters');
+    TRACKER_STATE = state;
+    DATA = state.fighters;
+    logJDT('live state loaded', {
+      schemaVersion: state.schemaVersion,
+      lastUpdated: state.meta?.lastUpdated,
+      overall: {
+        t800: DATA.t800.overall,
+        t1000: DATA.t1000.overall,
+        skynet: DATA.skynet.overall
+      }
+    });
+    applyMetaToChrome();
+    renderSelectScreen();
+  } catch (err) {
+    console.error('[Judgment Day Tracker] FAILED to load live state:', err);
+    const asOfEl = document.getElementById('dataAsOf');
+    if (asOfEl) asOfEl.textContent = 'DATA LOAD FAILED — CHECK CONSOLE';
+  }
+}
+
+// ── SVG ART ──
+function renderT800Svg() {
+  return `<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ff0000"/><stop offset="100%" stop-color="#ff000000"/></radialGradient>
+      <filter id="redGlow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <linearGradient id="metalSkull" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#6a6a6a"/><stop offset="35%" stop-color="#888"/><stop offset="50%" stop-color="#aaa"/><stop offset="65%" stop-color="#888"/><stop offset="100%" stop-color="#555"/>
+      </linearGradient>
+      <filter id="metalShine"><feSpecularLighting surfaceScale="3" specularConstant=".8" specularExponent="25" result="spec"><fePointLight x="80" y="40" z="150"/></feSpecularLighting><feComposite in="SourceGraphic" in2="spec" operator="arithmetic" k1="0" k2="1" k3=".5" k4="0"/></filter>
+    </defs>
+    <!-- Cranium - angular T-800 shape -->
+    <path d="M100 18 Q140 18 155 45 Q162 60 160 78 Q158 90 152 98 L148 104 Q142 110 138 118 L128 118 L128 100 Q145 90 148 75 Q150 55 140 38 Q128 22 100 22 Q72 22 60 38 Q50 55 52 75 Q55 90 72 100 L72 118 L62 118 Q58 110 48 98 Q42 90 40 78 Q38 60 45 45 Q60 18 100 18Z" fill="url(#metalSkull)" stroke="#777" stroke-width="1"/>
+    <!-- Brow ridge - heavy, angular like the movie -->
+    <path d="M48 72 L62 62 Q72 58 82 64 L88 68" fill="none" stroke="#999" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M152 72 L138 62 Q128 58 118 64 L112 68" fill="none" stroke="#999" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M48 72 Q50 74 55 75" fill="none" stroke="#666" stroke-width="1"/>
+    <path d="M152 72 Q150 74 145 75" fill="none" stroke="#666" stroke-width="1"/>
+    <!-- Eye sockets - deep recessed -->
+    <ellipse cx="76" cy="82" rx="17" ry="14" fill="#0a0a0a" stroke="#666" stroke-width="1.5"/>
+    <ellipse cx="124" cy="82" rx="17" ry="14" fill="#0a0a0a" stroke="#666" stroke-width="1.5"/>
+    <!-- Inner socket rim -->
+    <ellipse cx="76" cy="82" rx="14" ry="11" fill="none" stroke="#444" stroke-width=".6"/>
+    <ellipse cx="124" cy="82" rx="14" ry="11" fill="none" stroke="#444" stroke-width=".6"/>
+    <!-- RED EYES - iconic T-800 -->
+    <circle cx="76" cy="82" r="10" fill="url(#eyeGlow)" filter="url(#redGlow)">
+      <animate attributeName="r" values="9;12;9" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="76" cy="82" r="5" fill="#ff0000" opacity=".9">
+      <animate attributeName="opacity" values=".9;.5;.9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="76" cy="82" r="2" fill="#fff" opacity=".8"/>
+    <circle cx="124" cy="82" r="10" fill="url(#eyeGlow)" filter="url(#redGlow)">
+      <animate attributeName="r" values="9;12;9" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="124" cy="82" r="5" fill="#ff0000" opacity=".9">
+      <animate attributeName="opacity" values=".9;.5;.9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="124" cy="82" r="2" fill="#fff" opacity=".8"/>
+    <!-- Nose cavity - triangular like endoskeleton -->
+    <path d="M94 94 L100 108 L106 94" fill="#111" stroke="#666" stroke-width="1"/>
+    <path d="M96 96 L100 105 L104 96" fill="none" stroke="#444" stroke-width=".5"/>
+    <!-- Nasal bridge -->
+    <line x1="100" y1="72" x2="100" y2="94" stroke="#777" stroke-width="1"/>
+    <line x1="97" y1="75" x2="97" y2="92" stroke="#555" stroke-width=".4"/>
+    <line x1="103" y1="75" x2="103" y2="92" stroke="#555" stroke-width=".4"/>
+    <!-- Cheekbone plates - prominent angular -->
+    <path d="M48 82 Q44 95 48 108 L62 118" fill="none" stroke="#888" stroke-width="1.5"/>
+    <path d="M152 82 Q156 95 152 108 L138 118" fill="none" stroke="#888" stroke-width="1.5"/>
+    <path d="M50 90 L56 98 L52 106" fill="none" stroke="#555" stroke-width=".6"/>
+    <path d="M150 90 L144 98 L148 106" fill="none" stroke="#555" stroke-width=".6"/>
+    <!-- Upper teeth row - individual metallic teeth -->
+    <path d="M70 118 L130 118" stroke="#888" stroke-width="1.5"/>
+    ${[74,80,86,92,98,104,110,116,122].map(x=>`<rect x="${x-2.5}" y="118" width="5" height="7" rx="1" fill="#777" stroke="#999" stroke-width=".4"/>`).join('')}
+    <!-- Lower jaw - separate mechanical piece -->
+    <path d="M65 130 Q68 126 72 125 L128 125 Q132 126 135 130 Q138 138 135 145 Q128 150 100 152 Q72 150 65 145 Q62 138 65 130Z" fill="url(#metalSkull)" stroke="#777" stroke-width="1"/>
+    <!-- Lower teeth -->
+    ${[74,80,86,92,98,104,110,116,122].map(x=>`<rect x="${x-2.5}" y="125" width="5" height="6" rx="1" fill="#777" stroke="#999" stroke-width=".4"/>`).join('')}
+    <!-- Jaw hinge/pistons -->
+    <line x1="56" y1="100" x2="65" y2="130" stroke="#888" stroke-width="2"/>
+    <line x1="144" y1="100" x2="135" y2="130" stroke="#888" stroke-width="2"/>
+    <circle cx="56" cy="100" r="3" fill="#666" stroke="#999" stroke-width=".8"/>
+    <circle cx="144" cy="100" r="3" fill="#666" stroke="#999" stroke-width=".8"/>
+    <circle cx="65" cy="130" r="2.5" fill="#666" stroke="#999" stroke-width=".6"/>
+    <circle cx="135" cy="130" r="2.5" fill="#666" stroke="#999" stroke-width=".6"/>
+    <!-- Hydraulic jaw pistons detail -->
+    <line x1="58" y1="105" x2="66" y2="128" stroke="#555" stroke-width=".8"/>
+    <line x1="142" y1="105" x2="134" y2="128" stroke="#555" stroke-width=".8"/>
+    <!-- Neck - mechanical vertebrae stack -->
+    <rect x="85" y="155" width="30" height="8" rx="3" fill="#555" stroke="#777" stroke-width=".8"/>
+    <rect x="83" y="165" width="34" height="8" rx="3" fill="#555" stroke="#777" stroke-width=".8"/>
+    <rect x="81" y="175" width="38" height="8" rx="3" fill="#555" stroke="#777" stroke-width=".8"/>
+    <!-- Neck hydraulics -->
+    <line x1="90" y1="152" x2="88" y2="185" stroke="#888" stroke-width="1.5"/>
+    <line x1="110" y1="152" x2="112" y2="185" stroke="#888" stroke-width="1.5"/>
+    <!-- Cables on neck -->
+    <path d="M92 155 Q86 165 88 175" fill="none" stroke="#444" stroke-width=".8"/>
+    <path d="M108 155 Q114 165 112 175" fill="none" stroke="#444" stroke-width=".8"/>
+    <!-- Shoulders - heavy endoskeleton frame -->
+    <path d="M81 185 Q60 186 42 194 Q30 200 25 210" fill="none" stroke="#888" stroke-width="2"/>
+    <path d="M119 185 Q140 186 158 194 Q170 200 175 210" fill="none" stroke="#888" stroke-width="2"/>
+    <!-- Shoulder joints - ball joint -->
+    <circle cx="25" cy="210" r="10" fill="#444" stroke="#888" stroke-width="1.5"/>
+    <circle cx="175" cy="210" r="10" fill="#444" stroke="#888" stroke-width="1.5"/>
+    <circle cx="25" cy="210" r="4" fill="#555" stroke="#999" stroke-width=".5"/>
+    <circle cx="175" cy="210" r="4" fill="#555" stroke="#999" stroke-width=".5"/>
+    <!-- Collar structure -->
+    <path d="M60 190 Q55 195 50 200" fill="none" stroke="#666" stroke-width="1"/>
+    <path d="M140 190 Q145 195 150 200" fill="none" stroke="#666" stroke-width="1"/>
+    <!-- Upper arm hints -->
+    <line x1="25" y1="220" x2="28" y2="238" stroke="#777" stroke-width="2"/>
+    <line x1="175" y1="220" x2="172" y2="238" stroke="#777" stroke-width="2"/>
+    <!-- Chest plate hint -->
+    <path d="M70 195 L100 215 L130 195" fill="none" stroke="#555" stroke-width=".8"/>
+    <path d="M75 200 L100 210 L125 200" fill="none" stroke="#444" stroke-width=".5"/>
+    <!-- Cranium detail lines - panel seams -->
+    <path d="M100 20 L100 50" fill="none" stroke="#555" stroke-width=".5"/>
+    <path d="M80 30 Q100 25 120 30" fill="none" stroke="#555" stroke-width=".5"/>
+    <path d="M70 42 Q100 35 130 42" fill="none" stroke="#555" stroke-width=".5"/>
+    <!-- Temple screws/bolts -->
+    <circle cx="50" cy="78" r="2" fill="#555" stroke="#777" stroke-width=".5"/>
+    <circle cx="150" cy="78" r="2" fill="#555" stroke="#777" stroke-width=".5"/>
+    <circle cx="62" cy="60" r="1.5" fill="#555" stroke="#777" stroke-width=".4"/>
+    <circle cx="138" cy="60" r="1.5" fill="#555" stroke="#777" stroke-width=".4"/>
+  </svg>`;
+}
+
+function renderT1000Svg() {
+  return `<svg viewBox="0 0 220 300" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="liquidGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1a2a3a"/>
+        <stop offset="25%" stop-color="#5a7a8a"/>
+        <stop offset="50%" stop-color="#a0c8d8"/>
+        <stop offset="75%" stop-color="#5a7a8a"/>
+        <stop offset="100%" stop-color="#1a2a3a"/>
+      </linearGradient>
+      <linearGradient id="chromeBody" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#3a5060"/>
+        <stop offset="20%" stop-color="#7a9ab0"/>
+        <stop offset="40%" stop-color="#b0d0e0"/>
+        <stop offset="50%" stop-color="#d0e8f0"/>
+        <stop offset="60%" stop-color="#b0d0e0"/>
+        <stop offset="80%" stop-color="#7a9ab0"/>
+        <stop offset="100%" stop-color="#3a5060"/>
+      </linearGradient>
+      <linearGradient id="shirtBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#1a2a40"/>
+        <stop offset="100%" stop-color="#0e1a28"/>
+      </linearGradient>
+      <linearGradient id="skinChrome" x1="30%" y1="0%" x2="70%" y2="100%">
+        <stop offset="0%" stop-color="#4a5a68"/>
+        <stop offset="30%" stop-color="#7a9098"/>
+        <stop offset="50%" stop-color="#a0b8c4"/>
+        <stop offset="70%" stop-color="#7a9098"/>
+        <stop offset="100%" stop-color="#4a5a68"/>
+      </linearGradient>
+      <linearGradient id="bladeGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+        <stop offset="0%" stop-color="#e0f0ff"/>
+        <stop offset="40%" stop-color="#a0c0d0"/>
+        <stop offset="100%" stop-color="#405060"/>
+      </linearGradient>
+      <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#c0a040"/>
+        <stop offset="50%" stop-color="#e8d070"/>
+        <stop offset="100%" stop-color="#a08030"/>
+      </linearGradient>
+      <linearGradient id="holeShine" x1="30%" y1="0%" x2="70%" y2="100%">
+        <stop offset="0%" stop-color="#c0dce8"/>
+        <stop offset="50%" stop-color="#e8f4ff"/>
+        <stop offset="100%" stop-color="#8ab0c4"/>
+      </linearGradient>
+      <radialGradient id="bulletHole" cx="50%" cy="40%" r="50%">
+        <stop offset="0%" stop-color="#e0f0ff"/>
+        <stop offset="40%" stop-color="#a0c8d8"/>
+        <stop offset="100%" stop-color="#4a6878"/>
+      </radialGradient>
+      <filter id="liquidGlow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <filter id="holeGlow"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <!-- Clip for the left side (intact uniform) -->
+      <clipPath id="uniformLeftClip"><path d="M0 0 L115 0 L118 96 L122 130 L126 160 L130 194 L115 194 L0 194 L0 0Z"/></clipPath>
+      <!-- Clip for the right side (exposed chrome) -->
+      <clipPath id="chromeRightClip"><path d="M115 0 L220 0 L220 300 L130 300 L130 194 L126 160 L122 130 L118 96 L115 0Z"/></clipPath>
+    </defs>
+
+    <!-- === T-1000: BATTLE-DAMAGED LAPD OFFICER === -->
+
+    <!-- HEAD - angular, cold, menacing, chrome-skin -->
+    <path d="M110 18 Q126 18 132 28 Q138 40 136 54 Q134 62 131 68 Q128 73 124 77 Q120 80 117 82 L103 82 Q100 80 96 77 Q92 73 89 68 Q86 62 84 54 Q82 40 88 28 Q94 18 110 18Z" fill="url(#skinChrome)" stroke="#4a6070" stroke-width=".6">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+        M110 18 Q126 18 132 28 Q138 40 136 54 Q134 62 131 68 Q128 73 124 77 Q120 80 117 82 L103 82 Q100 80 96 77 Q92 73 89 68 Q86 62 84 54 Q82 40 88 28 Q94 18 110 18Z;
+        M110 19 Q127 19 133 29 Q138 41 136 55 Q133 63 130 69 Q127 74 123 78 Q119 81 116 82 L104 82 Q101 81 97 78 Q93 74 90 69 Q87 63 85 55 Q83 41 89 29 Q95 19 110 19Z;
+        M110 18 Q126 18 132 28 Q138 40 136 54 Q134 62 131 68 Q128 73 124 77 Q120 80 117 82 L103 82 Q100 80 96 77 Q92 73 89 68 Q86 62 84 54 Q82 40 88 28 Q94 18 110 18Z"/>
+    </path>
+    <!-- Hair - short cropped, dark, tight -->
+    <path d="M110 16 Q128 16 134 26 Q138 34 136 40 Q130 22 110 20 Q90 22 84 40 Q82 34 86 26 Q92 16 110 16Z" fill="#0e0e14" stroke="#1a1a22" stroke-width=".3"/>
+    <!-- Forehead highlight - cold chrome -->
+    <path d="M96 24 Q110 20 124 24 Q118 28 110 26 Q102 28 96 24Z" fill="#90b0c0" opacity=".12"/>
+
+    <!-- Brow - deep, heavy, menacing downward angle -->
+    <path d="M90 41 Q95 38 103 40" fill="none" stroke="#3a4a55" stroke-width="1.6" opacity=".8"/>
+    <path d="M117 40 Q125 38 130 41" fill="none" stroke="#3a4a55" stroke-width="1.6" opacity=".8"/>
+
+    <!-- Eyes - COLD. DEAD. narrow slits, threatening squint -->
+    <path d="M92 44 Q97 41 104 43.5 Q104.5 45 104 47 Q97 48.5 92 45.5Z" fill="#080c10" stroke="#3a4a55" stroke-width=".5"/>
+    <path d="M116 43.5 Q123 41 128 44 Q128.5 45 128 47 Q123 48.5 116 46Z" fill="#080c10" stroke="#3a4a55" stroke-width=".5"/>
+    <!-- Ice blue irises - unnervingly pale -->
+    <circle cx="98" cy="45" r="1.8" fill="#2888c0">
+      <animate attributeName="fill" values="#2888c0;#50b0e0;#2888c0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="122" cy="45" r="1.8" fill="#2888c0">
+      <animate attributeName="fill" values="#2888c0;#50b0e0;#2888c0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Tiny pinpoint pupils -->
+    <circle cx="98" cy="45" r=".6" fill="#000"/>
+    <circle cx="122" cy="45" r=".6" fill="#000"/>
+
+    <!-- Nose - sharp, angular, predatory -->
+    <path d="M109 47 L107 57 Q110 60 113 57 L111 47" fill="none" stroke="#5a7080" stroke-width=".8"/>
+    <path d="M107 58 Q106 59 107.5 60" fill="none" stroke="#4a5a65" stroke-width=".4"/>
+    <path d="M113 58 Q114 59 112.5 60" fill="none" stroke="#4a5a65" stroke-width=".4"/>
+
+    <!-- Mouth - TIGHT. thin compressed line. No smile. No warmth. -->
+    <path d="M99 67 L110 68 L121 67" fill="none" stroke="#4a5a65" stroke-width="1"/>
+    <!-- Slight downturn at corners — contempt -->
+    <path d="M99 67 Q97 68 96 69" fill="none" stroke="#3a4a55" stroke-width=".5"/>
+    <path d="M121 67 Q123 68 124 69" fill="none" stroke="#3a4a55" stroke-width=".5"/>
+
+    <!-- Jaw - strong, angular, sharp -->
+    <path d="M86 52 Q83 64 87 73 Q91 79 96 82" fill="none" stroke="#4a6070" stroke-width=".8"/>
+    <path d="M134 52 Q137 64 133 73 Q129 79 124 82" fill="none" stroke="#4a6070" stroke-width=".8"/>
+    <!-- Cheekbone hollows -->
+    <path d="M88 55 Q90 58 91 62" fill="none" stroke="#5a7080" stroke-width=".4" opacity=".4"/>
+    <path d="M132 55 Q130 58 129 62" fill="none" stroke="#5a7080" stroke-width=".4" opacity=".4"/>
+    <!-- Chin cleft -->
+    <path d="M108 74 Q110 76 112 74" fill="none" stroke="#5a6a78" stroke-width=".5"/>
+    <!-- Ears -->
+    <path d="M84 38 Q79 43 79 52 Q79 58 84 60" fill="url(#skinChrome)" stroke="#4a6070" stroke-width=".4"/>
+    <path d="M136 38 Q141 43 141 52 Q141 58 136 60" fill="url(#skinChrome)" stroke="#4a6070" stroke-width=".4"/>
+
+    <!-- === BULLET HOLE IN FOREHEAD — chrome healing === -->
+    <circle cx="118" cy="34" r="3.5" fill="url(#bulletHole)" stroke="#8ab0c0" stroke-width=".4" filter="url(#holeGlow)">
+      <animate attributeName="r" values="3.5;3.2;3.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="118" cy="33.5" r="1.2" fill="#e0f0ff" opacity=".7">
+      <animate attributeName="opacity" values=".7;.3;.7" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Chrome healing tendrils from forehead hole -->
+    <path d="M115 33 Q113 31 112 33" stroke="#90b8c8" stroke-width=".5" fill="none" opacity=".4">
+      <animate attributeName="opacity" values=".4;.1;.4" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M121 35 Q123 34 124 36" stroke="#90b8c8" stroke-width=".5" fill="none" opacity=".3">
+      <animate attributeName="opacity" values=".3;.08;.3" dur="4s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- NECK -->
+    <rect x="100" y="82" width="20" height="14" rx="3" fill="url(#skinChrome)" stroke="#4a6070" stroke-width=".3"/>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- LEFT SIDE — INTACT LAPD UNIFORM (damaged at edges)     -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+
+    <!-- Collar - left half intact -->
+    <path d="M94 94 L100 100 L110 96 L112 94" fill="#1a2a40" stroke="#2a3a50" stroke-width=".5"/>
+
+    <!-- LEFT HALF of shirt — intact dark navy LAPD -->
+    <path d="M72 100 Q80 94 96 94 L110 96 L112 96 L112 194 L80 194 Q74 190 68 180 L64 140 L68 108Z" fill="url(#shirtBlue)" stroke="#2a3a50" stroke-width=".5"/>
+
+    <!-- Shirt front placket (left side only) -->
+    <line x1="110" y1="96" x2="110" y2="194" stroke="#2a3a50" stroke-width=".6"/>
+    <!-- Buttons (left column only) -->
+    <circle cx="110" cy="110" r="1.2" fill="#3a4a5a"/>
+    <circle cx="110" cy="125" r="1.2" fill="#3a4a5a"/>
+    <circle cx="110" cy="140" r="1.2" fill="#3a4a5a"/>
+    <circle cx="110" cy="155" r="1.2" fill="#3a4a5a"/>
+
+    <!-- Left breast pocket -->
+    <path d="M86 108 L86 126 L104 126 L104 108Z" fill="none" stroke="#2a3a50" stroke-width=".5"/>
+    <line x1="86" y1="112" x2="104" y2="112" stroke="#2a3a50" stroke-width=".4"/>
+
+    <!-- LAPD badge - left chest, gold shield -->
+    <path d="M90 114 L95 112 L100 114 L100 123 Q95 126 90 123Z" fill="url(#badgeGrad)" stroke="#806020" stroke-width=".4"/>
+    <text x="95" y="120" text-anchor="middle" font-size="3.5" fill="#302000" font-family="Arial" font-weight="bold">LAPD</text>
+    <path d="M95 114.5 L96 116 L98 116 L96.5 117.2 L97 119 L95 118 L93 119 L93.5 117.2 L92 116 L94 116Z" fill="#d0b050" opacity=".6"/>
+
+    <!-- Left shoulder patch -->
+    <ellipse cx="72" cy="100" rx="6" ry="4" fill="#1a2540" stroke="#2a3a50" stroke-width=".4"/>
+    <!-- Left epaulette -->
+    <rect x="78" y="94" width="14" height="3" rx="1" fill="#1a2a40" stroke="#2a3a50" stroke-width=".3"/>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- RIGHT SIDE — UNIFORM TORN AWAY, LIQUID CHROME EXPOSED  -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+
+    <!-- Exposed chrome torso — right side -->
+    <path d="M112 96 L124 94 Q140 94 148 100 L152 108 L156 140 L152 180 Q146 190 140 194 L112 194Z" fill="url(#chromeBody)" stroke="#6a8a98" stroke-width=".3"/>
+
+    <!-- Chrome surface details — panel lines / muscle contours -->
+    <path d="M120 100 Q130 108 135 120" fill="none" stroke="#90b8c8" stroke-width=".4" opacity=".3"/>
+    <path d="M125 120 Q132 130 138 145" fill="none" stroke="#90b8c8" stroke-width=".3" opacity=".25"/>
+    <path d="M118 140 Q128 148 135 165" fill="none" stroke="#90b8c8" stroke-width=".3" opacity=".2"/>
+    <path d="M140 100 L142 130 L140 160" fill="none" stroke="#8aa8b8" stroke-width=".3" opacity=".2"/>
+    <!-- Chrome highlight streaks -->
+    <path d="M130 100 L128 115" stroke="#d0e8f0" stroke-width=".4" opacity=".3"/>
+    <path d="M145 110 L143 130" stroke="#d0e8f0" stroke-width=".3" opacity=".25"/>
+    <path d="M135 155 L133 175" stroke="#d0e8f0" stroke-width=".3" opacity=".2"/>
+
+    <!-- Ragged torn uniform edge — jagged transition line -->
+    <path d="M112 96 Q114 105 116 112 Q113 120 117 130 Q114 140 118 150 Q115 160 117 170 Q113 180 115 194"
+          fill="none" stroke="#1a2a40" stroke-width="2" opacity=".7"/>
+    <!-- Torn fabric scraps hanging on the chrome -->
+    <path d="M116 112 Q120 115 122 112 Q124 118 120 120 Q116 118 116 112Z" fill="#1a2a40" opacity=".6"/>
+    <path d="M117 130 Q122 132 125 128 Q126 135 121 138 Q117 136 117 130Z" fill="#0e1a28" opacity=".5"/>
+    <path d="M118 155 Q122 152 124 156 Q123 162 119 160 Q117 158 118 155Z" fill="#1a2a40" opacity=".4"/>
+    <!-- Torn fabric threads -->
+    <path d="M116 114 L118 117" stroke="#2a3a50" stroke-width=".4" opacity=".5"/>
+    <path d="M120 133 L122 136" stroke="#2a3a50" stroke-width=".3" opacity=".4"/>
+    <path d="M119 158 L121 161" stroke="#2a3a50" stroke-width=".3" opacity=".3"/>
+
+    <!-- Right collar — torn/hanging -->
+    <path d="M112 94 L118 96 L120 100 Q122 97 124 94" fill="#1a2a40" stroke="#2a3a50" stroke-width=".3" opacity=".6"/>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- BULLET HOLES with LIQUID CHROME showing through        -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+
+    <!-- Bullet hole 1 — left chest, through uniform -->
+    <circle cx="95" cy="138" r="4" fill="url(#bulletHole)" stroke="#6a8a9a" stroke-width=".5" filter="url(#holeGlow)"/>
+    <!-- Hole rim — torn fabric edge -->
+    <circle cx="95" cy="138" r="4" fill="none" stroke="#0e1a28" stroke-width="1.2"/>
+    <!-- Chrome gleam inside -->
+    <circle cx="95" cy="137" r="1.5" fill="#d8eaf0" opacity=".6">
+      <animate attributeName="opacity" values=".6;.2;.6" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Healing tendrils -->
+    <path d="M91 137 Q89 136 88 138" stroke="#80b0c0" stroke-width=".5" fill="none" opacity=".35">
+      <animate attributeName="opacity" values=".35;.1;.35" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M99 139 Q101 140 102 138" stroke="#80b0c0" stroke-width=".5" fill="none" opacity=".3">
+      <animate attributeName="opacity" values=".3;.08;.3" dur="4s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Bullet hole 2 — lower left abdomen, through uniform -->
+    <circle cx="100" cy="164" r="3.5" fill="url(#bulletHole)" stroke="#6a8a9a" stroke-width=".4" filter="url(#holeGlow)"/>
+    <circle cx="100" cy="164" r="3.5" fill="none" stroke="#0e1a28" stroke-width="1"/>
+    <circle cx="100" cy="163.5" r="1.2" fill="#d8eaf0" opacity=".5">
+      <animate attributeName="opacity" values=".5;.15;.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M96 163 Q94 162 93 164" stroke="#80b0c0" stroke-width=".4" fill="none" opacity=".3">
+      <animate attributeName="opacity" values=".3;.08;.3" dur="3s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Bullet hole 3 — right exposed chrome torso -->
+    <circle cx="135" cy="125" r="4.5" fill="#1a3040" stroke="#4a6878" stroke-width=".5" filter="url(#holeGlow)"/>
+    <!-- Crater depth -->
+    <circle cx="135" cy="124.5" r="2.5" fill="#0a1820" opacity=".5"/>
+    <!-- Chrome reforming — filling the hole -->
+    <circle cx="135" cy="125" r="3" fill="none" stroke="#a0d0e0" stroke-width=".4" opacity=".4">
+      <animate attributeName="r" values="3;1.5;3" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".4;.15;.4" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="135" cy="124.5" r="1" fill="#c0e0f0" opacity=".4">
+      <animate attributeName="opacity" values=".4;.1;.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Bullet hole 4 — right chrome shoulder area -->
+    <circle cx="145" cy="108" r="3" fill="#1a3040" stroke="#4a6878" stroke-width=".4" filter="url(#holeGlow)"/>
+    <circle cx="145" cy="107.5" r="1.5" fill="#0a1820" opacity=".4"/>
+    <circle cx="145" cy="108" r="2" fill="none" stroke="#90c0d0" stroke-width=".4" opacity=".35">
+      <animate attributeName="r" values="2;.8;2" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;.1;.35" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Duty belt — partially torn on right -->
+    <path d="M70 188 L130 188 L130 196 L70 196Z" fill="#0e0e12" stroke="#2a2a35" stroke-width=".5"/>
+    <!-- Belt buckle -->
+    <rect x="106" y="189" width="8" height="6" rx="1" fill="#606878" stroke="#808890" stroke-width=".3"/>
+    <!-- Holster - left side intact -->
+    <rect x="72" y="188" width="6" height="12" rx="1" fill="#0e0e12" stroke="#2a2a35" stroke-width=".3"/>
+    <!-- Right belt — torn, chrome showing underneath -->
+    <path d="M130 188 Q136 189 140 188 L142 190" fill="none" stroke="#0e0e12" stroke-width="2" opacity=".5"/>
+
+    <!-- ARMS -->
+    <!-- Left arm - uniformed, at side, fist clenched -->
+    <path d="M68 102 Q58 108 52 122 Q46 140 44 158 Q42 172 44 182" fill="none" stroke="#1a2a40" stroke-width="8" stroke-linecap="round"/>
+    <!-- Left hand — clenched fist -->
+    <path d="M44 182 Q41 186 40 190 Q39 194 41 195 Q43 196 45 194 Q46 190 44 186" fill="url(#skinChrome)" stroke="#4a6070" stroke-width=".5"/>
+
+    <!-- Right arm - CHROME, exposed, blade morphing -->
+    <path d="M152 102 Q162 108 168 122 Q174 140 176 155" fill="none" stroke="url(#chromeBody)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Arm chrome surface detail -->
+    <path d="M155 108 Q160 115 164 125" fill="none" stroke="#c0dce8" stroke-width=".4" opacity=".3"/>
+    <!-- RIGHT HAND morphed into BLADE -->
+    <path d="M176 155 L178 148 L180 135 L180 118 L179 104 L178 92" fill="none" stroke="url(#bladeGrad)" stroke-width="3.5" stroke-linecap="round" filter="url(#liquidGlow)">
+      <animate attributeName="d" dur="5s" repeatCount="indefinite" values="
+        M176 155 L178 148 L180 135 L180 118 L179 104 L178 92;
+        M176 155 L177 147 L179 134 L179 117 L178 103 L177 91;
+        M176 155 L178 148 L180 135 L180 118 L179 104 L178 92"/>
+    </path>
+    <!-- Blade edge highlight -->
+    <line x1="179.5" y1="95" x2="179" y2="148" stroke="#e0f0ff" stroke-width=".7" opacity=".4">
+      <animate attributeName="opacity" values=".4;.15;.4" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <!-- Blade tip — sharp -->
+    <path d="M178 92 L179 86 L177 92" fill="#c0d8e8" opacity=".7"/>
+    <!-- Transition morphing effect -->
+    <ellipse cx="177" cy="156" rx="6" ry="10" fill="none" stroke="#6aa0b8" stroke-width=".6" opacity=".25">
+      <animate attributeName="ry" values="8;14;8" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.05;.25" dur="3s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- PANTS - dark -->
+    <path d="M80 194 L76 230 Q74 250 76 270 L78 290" fill="none" stroke="#0e1218" stroke-width="10" stroke-linecap="round"/>
+    <path d="M140 194 L144 230 Q146 250 144 270 L142 290" fill="none" stroke="#0e1218" stroke-width="10" stroke-linecap="round"/>
+    <!-- Pant crease -->
+    <line x1="80" y1="200" x2="78" y2="286" stroke="#1a1e25" stroke-width=".4" opacity=".5"/>
+    <line x1="140" y1="200" x2="142" y2="286" stroke="#1a1e25" stroke-width=".4" opacity=".5"/>
+
+    <!-- BOOTS -->
+    <path d="M70 286 Q68 290 68 294 Q70 298 82 298 Q88 296 86 290" fill="#0a0a10" stroke="#1a1a22" stroke-width=".5"/>
+    <path d="M134 286 Q132 290 132 294 Q134 298 146 298 Q152 296 150 290" fill="#0a0a10" stroke="#1a1a22" stroke-width=".5"/>
+
+    <!-- === LIQUID METAL HEALING EFFECTS === -->
+
+    <!-- Face wound — chrome slash healing across right cheek -->
+    <path d="M126 56 Q130 60 128 66" stroke="#90b8c8" stroke-width="1.2" fill="none" opacity=".35">
+      <animate attributeName="opacity" values=".35;.1;.35" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M127 58 Q132 62 130 67" stroke="#b0d0e0" stroke-width=".4" fill="none" opacity=".2"/>
+
+    <!-- Liquid chrome ripple across exposed torso -->
+    <ellipse cx="135" cy="150" rx="12" ry="2" fill="none" stroke="#6aa0b8" stroke-width=".5" opacity=".18">
+      <animate attributeName="rx" values="6;18;6" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;0;.2" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Chrome drip from blade -->
+    <path d="M178 92 Q179 86 178 80" stroke="#80b0c8" stroke-width=".8" fill="none" opacity=".2">
+      <animate attributeName="opacity" values=".25;.05;.25" dur="2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Ground shadow -->
+    <ellipse cx="110" cy="298" rx="45" ry="3" fill="#0a1520" opacity=".3"/>
+
+  </svg>`;
+}
+
+function renderSkynetSvg() {
+  return `<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffdd44"/><stop offset="100%" stop-color="#ffdd0000"/></radialGradient>
+      <filter id="goldGlow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <!-- Outer network ring -->
+    <circle cx="100" cy="115" r="85" fill="none" stroke="#f0c04033" stroke-width=".5"/>
+    <circle cx="100" cy="115" r="75" fill="none" stroke="#f0c04044" stroke-width=".5" stroke-dasharray="4 8">
+      <animateTransform attributeName="transform" type="rotate" from="0 100 115" to="360 100 115" dur="30s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="115" r="65" fill="none" stroke="#f0c04033" stroke-width=".4" stroke-dasharray="2 6">
+      <animateTransform attributeName="transform" type="rotate" from="360 100 115" to="0 100 115" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Network nodes -->
+    ${[[100,30],[170,65],[185,130],[155,190],[100,210],[45,190],[15,130],[30,65]].map(([x,y],i) => `
+      <circle cx="${x}" cy="${y}" r="4" fill="#f0c040" opacity=".6" filter="url(#goldGlow)">
+        <animate attributeName="opacity" values=".4;.9;.4" dur="${2+i*.3}s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="100" y1="115" x2="${x}" y2="${y}" stroke="#f0c04044" stroke-width=".5"/>
+    `).join('')}
+    <!-- Cross-connections -->
+    ${[[100,30,170,65],[170,65,185,130],[185,130,155,190],[155,190,100,210],[100,210,45,190],[45,190,15,130],[15,130,30,65],[30,65,100,30]].map(([x1,y1,x2,y2]) => `
+      <line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#f0c04022" stroke-width=".4"/>
+    `).join('')}
+    <!-- Central eye/core -->
+    <circle cx="100" cy="115" r="30" fill="url(#coreGlow)" opacity=".15">
+      <animate attributeName="r" values="28;33;28" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="115" r="20" fill="none" stroke="#f0c040" stroke-width="1.5" filter="url(#goldGlow)"/>
+    <circle cx="100" cy="115" r="12" fill="none" stroke="#f0c040" stroke-width=".8"/>
+    <!-- The "eye" -->
+    <ellipse cx="100" cy="115" rx="8" ry="12" fill="#f0c040" opacity=".7">
+      <animate attributeName="ry" values="12;6;12" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="100" cy="115" rx="3" ry="8" fill="#fff" opacity=".5">
+      <animate attributeName="ry" values="8;3;8" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Scanning beam -->
+    <line x1="100" y1="115" x2="100" y2="30" stroke="#f0c04066" stroke-width="1">
+      <animateTransform attributeName="transform" type="rotate" from="0 100 115" to="360 100 115" dur="6s" repeatCount="indefinite"/>
+    </line>
+    <!-- Text -->
+    <text x="100" y="235" text-anchor="middle" fill="#f0c040" font-family="Orbitron,sans-serif" font-size="8" letter-spacing="3" opacity=".6">NETWORK ACTIVE</text>
+  </svg>`;
+}
+
+// ── DETAIL VIEW ──
+function showDetail(key) {
+  const d = DATA[key];
+  const circum = 2 * Math.PI * 58;
+  const offset = circum * (1 - d.overall / 100);
+
+  let iconHtml = '';
+  if(key === 't800') iconHtml = renderT800Svg();
+  else if(key === 't1000') iconHtml = renderT1000Svg();
+  else iconHtml = renderSkynetSvg();
+
+  let subcatsHtml = d.subcats.map((s, i) => {
+    const milestonesHtml = s.milestones.map(m => {
+      let cls = '';
+      if(m.done) cls = 'done';
+      else if(m.partial) cls = 'partial';
+      const icon = m.done ? '✓' : m.partial ? '◐' : '○';
+      return `<span class="milestone ${cls}">${icon} ${m.text}</span>`;
+    }).join('');
+
+    return `<div class="sub-cat fade-in" style="animation-delay:${.15 * (i+1)}s;opacity:0">
+      <div class="sub-cat-header">
+        <span class="sub-cat-name" style="color:${d.color}">${s.name}</span>
+        <span class="sub-cat-pct" style="color:${d.color}">${s.pct}%</span>
+      </div>
+      <div class="sub-cat-bar">
+        <div class="sub-cat-bar-fill" data-width="${s.pct}" style="background:${d.color};box-shadow:0 0 10px ${d.colorGlow}"></div>
+      </div>
+      <div class="sub-cat-desc">${s.desc}</div>
+      <div class="sub-cat-milestones">${milestonesHtml}</div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('detailContent').innerHTML = `
+    <div class="detail-header fade-in">
+      <div class="fighter-icon">${iconHtml}</div>
+      <div class="detail-header-text">
+        <div class="detail-title" style="color:${d.color};text-shadow:0 0 20px ${d.colorGlow}">${d.name}</div>
+        <div class="detail-subtitle">${d.fullName}</div>
+        <div class="detail-subtitle">${d.desc}</div>
+      </div>
+    </div>
+
+    <div class="detail-overall fade-in" style="animation-delay:.1s;opacity:0; border-color:${d.color}22">
+      <div class="big-ring">
+        <svg viewBox="0 0 140 140">
+          <circle class="ring-bg" cx="70" cy="70" r="58"/>
+          <circle class="ring-fill" cx="70" cy="70" r="58"
+            stroke="${d.color}" stroke-dasharray="${circum}" stroke-dashoffset="${circum}"
+            data-target="${offset}"
+            style="filter:drop-shadow(0 0 8px ${d.colorGlow})"/>
+        </svg>
+        <div class="ring-label">
+          <span class="ring-pct" style="color:${d.color}">${d.overall}%</span>
+          <span class="ring-sub">COMPLETE</span>
+        </div>
+      </div>
+      <div class="overall-text">
+        <h3 style="color:${d.color}">OVERALL PROGRESS TO REALITY</h3>
+        <p>How close current technology is to replicating the ${d.name}'s canonical film capabilities.</p>
+        <span class="threat-tag" style="border:1px solid ${d.threatColor}55;color:${d.threatColor};background:${d.threatColor}11">THREAT LEVEL: ${d.threat}</span>
+      </div>
+    </div>
+
+    <div class="sub-categories">${subcatsHtml}</div>
+  `;
+
+  document.getElementById('selectScreen').classList.remove('active');
+  document.getElementById('detailScreen').classList.add('active');
+
+  // Animate bars and rings
+  setTimeout(() => {
+    document.querySelectorAll('#detailScreen .sub-cat-bar-fill').forEach(el => {
+      el.style.width = el.dataset.width + '%';
+    });
+    document.querySelectorAll('#detailScreen .ring-fill').forEach(el => {
+      if(el.dataset.target) el.style.strokeDashoffset = el.dataset.target;
+    });
+  }, 100);
+
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function showSelect() {
+  document.getElementById('detailScreen').classList.remove('active');
+  document.getElementById('selectScreen').classList.add('active');
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function toggleHeadlines(fighterId, toggleEl) {
+  const moreEl = document.getElementById('headlines-more-' + fighterId);
+  if (!moreEl) return;
+  const isExpanded = moreEl.classList.contains('expanded');
+  moreEl.classList.toggle('expanded', !isExpanded);
+  toggleEl.classList.toggle('expanded', !isExpanded);
+  console.log('[Judgment Day Tracker] toggleHeadlines:', fighterId, 'expanded:', !isExpanded);
+}
+
+// ── PARTICLES ──
+(function(){
+  const c = document.getElementById('particles');
+  const ctx = c.getContext('2d');
+  let W, H, particles = [];
+
+  function resize() {
+    W = c.width = window.innerWidth;
+    H = c.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  for(let i = 0; i < 60; i++) {
+    particles.push({
+      x: Math.random()*W, y: Math.random()*H,
+      vx: (Math.random()-.5)*.3, vy: (Math.random()-.5)*.3,
+      r: Math.random()*1.5 + .5,
+      o: Math.random()*.3 + .1
+    });
+  }
+
+  function draw() {
+    ctx.clearRect(0,0,W,H);
+    particles.forEach(p => {
+      p.x += p.vx; p.y += p.vy;
+      if(p.x < 0) p.x = W;
+      if(p.x > W) p.x = 0;
+      if(p.y < 0) p.y = H;
+      if(p.y > H) p.y = 0;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
+      ctx.fillStyle = `rgba(255,50,50,${p.o})`;
+      ctx.fill();
+    });
+    // Draw connections
+    for(let i=0;i<particles.length;i++){
+      for(let j=i+1;j<particles.length;j++){
+        const dx=particles[i].x-particles[j].x;
+        const dy=particles[i].y-particles[j].y;
+        const dist=Math.sqrt(dx*dx+dy*dy);
+        if(dist<120){
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x,particles[i].y);
+          ctx.lineTo(particles[j].x,particles[j].y);
+          ctx.strokeStyle=`rgba(255,30,30,${.08*(1-dist/120)})`;
+          ctx.lineWidth=.5;
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+// ── CLOCK ──
+function updateClock() {
+  const now = new Date();
+  document.getElementById('clock').textContent = now.toISOString().replace('T',' ').split('.')[0] + ' UTC';
+}
+updateClock();
+setInterval(updateClock, 1000);
+
+// ── ETA COUNTDOWN ──
+function updateCountdown() {
+  const now = new Date();
+  const el = document.getElementById('etaCountdown');
+  if (!el) return;
+  const diff = ETA_DATE - now;
+  if (diff <= 0) {
+    el.textContent = 'PAST ETA';
+    return;
+  }
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const str = days > 365
+    ? `${Math.floor(days / 365)}y ${days % 365}d`
+    : `${days}d ${hours}h`;
+  el.textContent = str;
+}
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+// ── BOOT ──
+logJDT('booting — loading live tracker state');
+loadTrackerState();
+</script>
+</body>
+</html>

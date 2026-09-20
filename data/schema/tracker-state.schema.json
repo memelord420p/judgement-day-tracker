@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://judgement-day-tracker.vercel.app/data/schema/tracker-state.schema.json",
+  "title": "JudgmentDayTrackerState",
+  "type": "object",
+  "required": ["schemaVersion", "meta", "eta", "social", "monitoring", "fighters", "changelog"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "meta": {
+      "type": "object",
+      "required": ["project", "status", "lastUpdated", "timezone"],
+      "properties": {
+        "project": { "type": "string" },
+        "title": { "type": "string" },
+        "tagline": { "type": "string" },
+        "description": { "type": "string" },
+        "status": { "type": "string" },
+        "lastUpdated": { "type": "string", "format": "date-time" },
+        "lastUpdatedLabel": { "type": "string" },
+        "lastScanAt": { "type": ["string", "null"], "format": "date-time" },
+        "lastScanSummary": { "type": ["string", "null"] },
+        "dataSource": { "type": "string" },
+        "updatedBy": { "type": "string" },
+        "timezone": { "type": "string" }
+      }
+    },
+    "eta": {
+      "type": "object",
+      "required": ["targetIso", "label"],
+      "properties": {
+        "targetIso": { "type": "string", "format": "date-time" },
+        "label": { "type": "string" },
+        "rationale": { "type": "string" }
+      }
+    },
+    "social": { "type": "object" },
+    "monitoring": { "type": "object" },
+    "fighters": {
+      "type": "object",
+      "required": ["t800", "t1000", "skynet"],
+      "additionalProperties": false,
+      "properties": {
+        "t800": { "$ref": "#/$defs/fighter" },
+        "t1000": { "$ref": "#/$defs/fighter" },
+        "skynet": { "$ref": "#/$defs/fighter" }
+      }
+    },
+    "changelog": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/changelogEntry" }
+    }
+  },
+  "$defs": {
+    "fighter": {
+      "type": "object",
+      "required": ["id", "name", "overall", "threat", "subcats", "headlines"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "fullName": { "type": "string" },
+        "desc": { "type": "string" },
+        "color": { "type": "string" },
+        "colorGlow": { "type": "string" },
+        "overall": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "threat": { "enum": ["LOW", "MODERATE", "ELEVATED", "HIGH", "CRITICAL"] },
+        "threatColor": { "type": "string" },
+        "subcats": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/subcat" }
+        },
+        "headlines": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/headline" }
+        }
+      }
+    },
+    "subcat": {
+      "type": "object",
+      "required": ["id", "name", "pct", "desc", "milestones"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "pct": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "desc": { "type": "string" },
+        "milestones": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/milestone" }
+        }
+      }
+    },
+    "milestone": {
+      "type": "object",
+      "required": ["id", "text"],
+      "properties": {
+        "id": { "type": "string" },
+        "text": { "type": "string" },
+        "done": { "type": "boolean" },
+        "partial": { "type": "boolean" }
+      }
+    },
+    "headline": {
+      "type": "object",
+      "required": ["id", "html"],
+      "properties": {
+        "id": { "type": "string" },
+        "html": { "type": "string" },
+        "plain": { "type": "string" },
+        "source": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] },
+        "date": { "type": ["string", "null"] },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "fighterId": { "type": "string" },
+        "subcatId": { "type": ["string", "null"] }
+      }
+    },
+    "changelogEntry": {
+      "type": "object",
+      "required": ["id", "at", "by", "type", "summary"],
+      "properties": {
+        "id": { "type": "string" },
+        "at": { "type": "string", "format": "date-time" },
+        "by": { "type": "string" },
+        "type": { "type": "string" },
+        "summary": { "type": "string" },
+        "patchId": { "type": "string" }
+      }
+    }
+  }
+}

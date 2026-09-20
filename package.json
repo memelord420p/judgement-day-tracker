@@ -1,0 +1,10 @@
+{
+  "name": "judgement-day-tracker",
+  "private": true,
+  "description": "Judgment Day Tracker — live state + Grok Bot monitoring playbook",
+  "scripts": {
+    "apply-patch": "node tools/apply-patch.js",
+    "apply-patch:dry": "node tools/apply-patch.js --dry-run",
+    "serve": "npx --yes serve -l 3456 ."
+  }
+}

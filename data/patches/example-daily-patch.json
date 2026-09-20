@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "patchId": "patch_2026-09-20_daily",
+  "createdAt": "2026-09-20T08:00:00.000Z",
+  "createdBy": "grok-bot:judgment-day-watch",
+  "requiresApproval": true,
+  "summary": "Example daily scan patch. Replace with a real Grok Bot output before applying.",
+  "evidence": [
+    {
+      "title": "Example only — do not apply",
+      "url": "https://example.com",
+      "whyRelevant": "Demonstrates the evidence array shape for future-proof audits."
+    }
+  ],
+  "ops": [
+    {
+      "op": "prepend_headline",
+      "fighterId": "t800",
+      "headline": {
+        "id": "t800_hl_example",
+        "html": "<strong>Example Corp</strong> ships a new humanoid demo — replace with real scan output",
+        "plain": "Example Corp ships a new humanoid demo — replace with real scan output",
+        "source": "Example",
+        "url": "https://example.com",
+        "date": "2026-09-20",
+        "tags": ["example"],
+        "subcatId": "humanoid_locomotion"
+      }
+    },
+    {
+      "op": "set_subcat_pct",
+      "fighterId": "t800",
+      "subcatId": "humanoid_locomotion",
+      "pct": 56,
+      "reason": "Example only"
+    },
+    {
+      "op": "set_milestone",
+      "fighterId": "t800",
+      "subcatId": "humanoid_locomotion",
+      "milestoneId": "humanoid_locomotion_m4",
+      "done": false,
+      "partial": true,
+      "reason": "Example only"
+    },
+    {
+      "op": "recompute_overall",
+      "fighterId": "t800"
+    },
+    {
+      "op": "set_threat",
+      "fighterId": "t800",
+      "threat": "MODERATE",
+      "threatColor": "#f80",
+      "reason": "Unchanged — example"
+    },
+    {
+      "op": "draft_social_post",
+      "channel": "x",
+      "post": {
+        "text": "T-800 watch: Example Corp demo landed. Overall still ~38%. Not Judgment Day — just another rung. #JudgmentDayTracker #T800",
+        "link": "https://judgement-day-tracker.vercel.app",
+        "approvalRequired": true
+      }
+    },
+    {
+      "op": "set_meta",
+      "fields": {
+        "lastScanAt": "2026-09-20T08:00:00.000Z",
+        "lastScanSummary": "Example scan — no real changes applied",
+        "dataSource": "grok-bot-scan",
+        "updatedBy": "grok-bot:judgment-day-watch"
+      }
+    }
+  ]
+}

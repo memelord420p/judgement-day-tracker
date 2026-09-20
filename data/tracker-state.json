@@ -1,0 +1,980 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "project": "judgment-day-tracker",
+    "title": "JUDGMENT DAY TRACKER",
+    "tagline": "CHOOSE YOUR MACHINE",
+    "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
+    "status": "MONITORING",
+    "lastUpdated": "2026-02-20T00:00:00.000Z",
+    "lastUpdatedLabel": "FEB 2026",
+    "lastScanAt": null,
+    "lastScanSummary": null,
+    "dataSource": "bootstrap",
+    "updatedBy": "seed",
+    "timezone": "Europe/Dublin"
+  },
+  "eta": {
+    "targetIso": "2045-08-29T00:00:00.000Z",
+    "label": "Aug 29, 2045",
+    "rationale": "Canonical Judgment Day date from Terminator lore; used as narrative ETA, not a prediction."
+  },
+  "social": {
+    "channels": {
+      "x": {
+        "id": "x",
+        "platform": "x",
+        "handle": null,
+        "url": null,
+        "status": "planned",
+        "postingMode": "approve_then_post",
+        "notes": "Create @JudgmentDayTracker (or similar). Connect via Grok Bot X connector (read) + posting MCP (write)."
+      },
+      "threads": {
+        "id": "threads",
+        "platform": "threads",
+        "handle": null,
+        "url": null,
+        "status": "future"
+      },
+      "bluesky": {
+        "id": "bluesky",
+        "platform": "bluesky",
+        "handle": null,
+        "url": null,
+        "status": "future"
+      },
+      "youtube": {
+        "id": "youtube",
+        "platform": "youtube",
+        "handle": null,
+        "url": null,
+        "status": "future"
+      }
+    },
+    "brandVoice": {
+      "tone": "deadpan terminal operator with Terminator lore fluency",
+      "styleRules": [
+        "Short, punchy, evidence-linked",
+        "Never claim Judgment Day is imminent as fact",
+        "Separate film lore from real tech",
+        "Cite sources / links when posting",
+        "Use threat language carefully — informative, not panic bait"
+      ],
+      "hashtags": [
+        "#JudgmentDayTracker",
+        "#T800",
+        "#T1000",
+        "#Skynet",
+        "#AI"
+      ]
+    }
+  },
+  "monitoring": {
+    "watchQueries": [
+      "humanoid robot",
+      "Tesla Optimus",
+      "Boston Dynamics Atlas",
+      "Figure AI",
+      "Unitree humanoid",
+      "liquid metal robot",
+      "gallium robot",
+      "programmable matter",
+      "autonomous weapons",
+      "military AI",
+      "AGI",
+      "lethal autonomous weapons",
+      "embodied intelligence"
+    ],
+    "fighterWatch": {
+      "t800": [
+        "humanoid",
+        "Optimus",
+        "Atlas",
+        "Figure",
+        "Unitree",
+        "lab-grown skin",
+        "dexterous hand"
+      ],
+      "t1000": [
+        "liquid metal",
+        "gallium",
+        "shape-shifting robot",
+        "self-healing polymer",
+        "programmable matter"
+      ],
+      "skynet": [
+        "AGI",
+        "autonomous weapons",
+        "military AI",
+        "surveillance AI",
+        "nuclear AI",
+        "self-improving AI"
+      ]
+    },
+    "cadence": {
+      "dailyScan": "09:00",
+      "weeklyDigest": "Monday 10:00",
+      "timezone": "Europe/Dublin"
+    }
+  },
+  "fighters": {
+    "t800": {
+      "name": "T-800",
+      "fullName": "CYBERDYNE SYSTEMS MODEL 101",
+      "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
+      "color": "#ff1a1a",
+      "colorGlow": "rgba(255,0,0,.3)",
+      "overall": 38,
+      "threat": "MODERATE",
+      "threatColor": "#f80",
+      "subcats": [
+        {
+          "id": "humanoid_locomotion",
+          "name": "HUMANOID LOCOMOTION",
+          "pct": 55,
+          "desc": "Boston Dynamics Atlas does parkour. Tesla Optimus Gen 2 walks, squats, and handles eggs. Figure 02 works in BMW factories. Bipedal balance is solved; fluid combat movement is not.",
+          "milestones": [
+            {
+              "id": "humanoid_locomotion_m1",
+              "text": "Bipedal walking",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "humanoid_locomotion_m2",
+              "text": "Running",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "humanoid_locomotion_m3",
+              "text": "Object manipulation",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "humanoid_locomotion_m4",
+              "text": "Combat agility",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "humanoid_locomotion_m5",
+              "text": "Self-repair",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "living_tissue_skin",
+          "name": "LIVING TISSUE SKIN",
+          "pct": 25,
+          "desc": "University of Tokyo (2024) grew self-healing skin from human cells on a robot face — it heals cuts and holds shape. Still lab-scale, not full-body. No sweat glands, hair follicles, or blood yet.",
+          "milestones": [
+            {
+              "id": "living_tissue_skin_m1",
+              "text": "Lab-grown skin patch",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "living_tissue_skin_m2",
+              "text": "Self-healing",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "living_tissue_skin_m3",
+              "text": "Full-body coverage",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "living_tissue_skin_m4",
+              "text": "Hair & sweat glands",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "living_tissue_skin_m5",
+              "text": "Living tissue over endoskeleton",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "human_passing_appearance",
+          "name": "HUMAN-PASSING APPEARANCE",
+          "pct": 52,
+          "desc": "Deepfake faces and AI voice cloning can fool humans in video calls. Physical robots like Ameca show expressive faces. Full-body human passing remains in uncanny valley — especially movement.",
+          "milestones": [
+            {
+              "id": "human_passing_appearance_m1",
+              "text": "Realistic facial expressions",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "human_passing_appearance_m2",
+              "text": "Voice synthesis",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "human_passing_appearance_m3",
+              "text": "Uncanny valley overcome (face)",
+              "done": false,
+              "partial": true
+            },
+            {
+              "id": "human_passing_appearance_m4",
+              "text": "Full-body human passing",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "human_passing_appearance_m5",
+              "text": "Infiltration capable",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "superhuman_strength",
+          "name": "SUPERHUMAN STRENGTH",
+          "pct": 30,
+          "desc": "Hydraulic robots exceed human strength. Boston Dynamics Atlas lifts 25kg overhead. Industrial arms lift 2,300kg. But nothing in a human-sized frame matching T-800's 400kg+ capability.",
+          "milestones": [
+            {
+              "id": "superhuman_strength_m1",
+              "text": "Human-level lift in robot",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "superhuman_strength_m2",
+              "text": "Superhuman industrial arms",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "superhuman_strength_m3",
+              "text": "Compact superhuman actuators",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "superhuman_strength_m4",
+              "text": "T-800 level in humanoid frame",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "onboard_ai_decision_making",
+          "name": "ONBOARD AI & DECISION MAKING",
+          "pct": 40,
+          "desc": "LLMs enable natural conversation. Robots can navigate and plan in real-time. But autonomous tactical decision-making in unstructured combat environments remains limited.",
+          "milestones": [
+            {
+              "id": "onboard_ai_decision_making_m1",
+              "text": "Natural language",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "onboard_ai_decision_making_m2",
+              "text": "Real-time navigation",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "onboard_ai_decision_making_m3",
+              "text": "Tactical reasoning",
+              "done": false,
+              "partial": true
+            },
+            {
+              "id": "onboard_ai_decision_making_m4",
+              "text": "Autonomous mission execution",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "power_source",
+          "name": "POWER SOURCE",
+          "pct": 10,
+          "desc": "T-800 runs on twin hydrogen fuel cells lasting 120 years. Current humanoids last 1-4 hours on lithium batteries. Miniature nuclear batteries (BV100) exist but produce microwatts. Biggest gap.",
+          "milestones": [
+            {
+              "id": "power_source_m1",
+              "text": "Lithium battery packs",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "power_source_m2",
+              "text": "Micro-nuclear cell (Betavolt)",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "power_source_m3",
+              "text": "24hr+ humanoid operation",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "power_source_m4",
+              "text": "120-year fuel cell",
+              "done": false,
+              "partial": false
+            }
+          ]
+        }
+      ],
+      "id": "t800",
+      "headlines": [
+        {
+          "id": "t800_hl_001",
+          "html": "<strong>🇨🇳 Unitree G1 robots</strong> perform autonomous kung fu with backflips, nunchucks & swords at Spring Festival Gala — 3m aerial flips, world-first cluster martial arts",
+          "source": "CCTV Spring Festival Gala",
+          "url": null,
+          "date": "2026-02-01",
+          "tags": [
+            "locomotion",
+            "combat"
+          ]
+        },
+        {
+          "id": "t800_hl_002",
+          "html": "<strong>🇨🇳 Unitree H2 \"Sword Grandmaster\"</strong> wields blade on stage, then salutes alongside human performer — 20,000 humanoids planned for 2026",
+          "source": "Unitree / CCTV",
+          "url": null,
+          "date": "2026-02-01",
+          "tags": [
+            "humanoid",
+            "scale"
+          ]
+        },
+        {
+          "id": "t800_hl_003",
+          "html": "<strong>🇨🇳 MagicLab, Galbot & Noetix</strong> all featured at CCTV Gala — Noetix built an android copy of a real actress; Galbot's robot cracked walnuts & folded clothes live",
+          "source": "CCTV",
+          "url": null,
+          "date": "2026-02-01",
+          "tags": [
+            "appearance",
+            "manipulation"
+          ]
+        },
+        {
+          "id": "t800_hl_004",
+          "html": "<strong>🇨🇳 XPeng Iron</strong> humanoid robot debuts — described as \"highly human-like,\" then fell face-first on stage (CEO: \"learning to walk\")",
+          "source": "XPeng",
+          "url": null,
+          "date": "2026-02-01",
+          "tags": [
+            "locomotion"
+          ]
+        },
+        {
+          "id": "t800_hl_005",
+          "html": "<strong>Tesla Optimus Gen 2</strong> walks autonomously, grasps objects with 11-DOF dexterous hands",
+          "source": "Tesla",
+          "url": null,
+          "date": "2025-01-01",
+          "tags": [
+            "manipulation"
+          ]
+        },
+        {
+          "id": "t800_hl_006",
+          "html": "<strong>Tokyo Univ.</strong> grafted self-healing lab-grown skin onto a robot face",
+          "source": "University of Tokyo",
+          "url": null,
+          "date": "2024-06-01",
+          "tags": [
+            "skin"
+          ]
+        },
+        {
+          "id": "t800_hl_007",
+          "html": "<strong>Figure 02</strong> integrates OpenAI vision + speech for real-time conversation while performing tasks",
+          "source": "Figure AI",
+          "url": null,
+          "date": "2024-08-01",
+          "tags": [
+            "ai"
+          ]
+        }
+      ]
+    },
+    "t1000": {
+      "name": "T-1000",
+      "fullName": "ADVANCED PROTOTYPE — MIMETIC POLYALLOY",
+      "desc": "The T-1000 is composed of liquid metal that can shapeshift into any person or object of similar size, form bladed weapons, flow through openings, and reassemble from damage.",
+      "color": "#00f0ff",
+      "colorGlow": "rgba(0,200,255,.3)",
+      "overall": 12,
+      "threat": "LOW",
+      "threatColor": "#0f0",
+      "subcats": [
+        {
+          "id": "liquid_metal_locomotion",
+          "name": "LIQUID METAL LOCOMOTION",
+          "pct": 15,
+          "desc": "Carnegie Mellon (2023): Gallium-based robot melts through bars and re-solidifies using magnetic fields. Only centimeter-scale. Chinese teams made gallium bots that stretch and move. Far from human-scale.",
+          "milestones": [
+            {
+              "id": "liquid_metal_locomotion_m1",
+              "text": "Gallium phase-change bot",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "liquid_metal_locomotion_m2",
+              "text": "Magnetic field locomotion",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "liquid_metal_locomotion_m3",
+              "text": "Human-scale liquid metal",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "liquid_metal_locomotion_m4",
+              "text": "Autonomous locomotion",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "shape_shifting_ability",
+          "name": "SHAPE-SHIFTING ABILITY",
+          "pct": 8,
+          "desc": "4D-printed materials change shape with heat/electricity. Soft robotics can morph between configurations. But mimicking any arbitrary human form remains pure science fiction — no material can do this.",
+          "milestones": [
+            {
+              "id": "shape_shifting_ability_m1",
+              "text": "4D shape-memory materials",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "shape_shifting_ability_m2",
+              "text": "Soft robot morphing",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "shape_shifting_ability_m3",
+              "text": "Arbitrary form replication",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "shape_shifting_ability_m4",
+              "text": "Human face mimicry",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "shape_shifting_ability_m5",
+              "text": "Weapon formation",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "self_repair_reassembly",
+          "name": "SELF-REPAIR & REASSEMBLY",
+          "pct": 18,
+          "desc": "Self-healing polymers and liquid metals can autonomously repair small damage. Gallium bots re-solidify after melting. But reconstituting from scattered fragments is nowhere close.",
+          "milestones": [
+            {
+              "id": "self_repair_reassembly_m1",
+              "text": "Self-healing polymers",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "self_repair_reassembly_m2",
+              "text": "Metal re-solidification",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "self_repair_reassembly_m3",
+              "text": "Autonomous damage repair",
+              "done": false,
+              "partial": true
+            },
+            {
+              "id": "self_repair_reassembly_m4",
+              "text": "Full reassembly from pieces",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "distributed_intelligence",
+          "name": "DISTRIBUTED INTELLIGENCE",
+          "pct": 5,
+          "desc": "Swarm robotics show collective behavior (1,000+ Kilobots). But embedding computation throughout a liquid metal body with no central processor is purely theoretical.",
+          "milestones": [
+            {
+              "id": "distributed_intelligence_m1",
+              "text": "Swarm coordination",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "distributed_intelligence_m2",
+              "text": "Decentralized AI",
+              "done": false,
+              "partial": true
+            },
+            {
+              "id": "distributed_intelligence_m3",
+              "text": "Intelligence in liquid medium",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "distributed_intelligence_m4",
+              "text": "No central processor needed",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "mimetic_polyalloy_material",
+          "name": "MIMETIC POLYALLOY MATERIAL",
+          "pct": 8,
+          "desc": "No known material combines: liquid-solid phase change at will, shape retention, high tensile strength, room-temp fluidity, and embedded sensing. Gallium alloys are the closest analog at toy scale.",
+          "milestones": [
+            {
+              "id": "mimetic_polyalloy_material_m1",
+              "text": "Phase-change alloys exist",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "mimetic_polyalloy_material_m2",
+              "text": "Controllable phase change",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "mimetic_polyalloy_material_m3",
+              "text": "Structural strength when solid",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "mimetic_polyalloy_material_m4",
+              "text": "Full polyalloy properties",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "surface_texture_replication",
+          "name": "SURFACE TEXTURE REPLICATION",
+          "pct": 15,
+          "desc": "E-ink and flexible OLED displays can change surface appearance. Researchers have made color-changing robot skin. But replicating clothing texture, hair, and skin pores is not feasible.",
+          "milestones": [
+            {
+              "id": "surface_texture_replication_m1",
+              "text": "Color-changing surfaces",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "surface_texture_replication_m2",
+              "text": "Flexible display skin",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "surface_texture_replication_m3",
+              "text": "Texture replication",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "surface_texture_replication_m4",
+              "text": "Clothing & hair mimicry",
+              "done": false,
+              "partial": false
+            }
+          ]
+        }
+      ],
+      "id": "t1000",
+      "headlines": [
+        {
+          "id": "t1000_hl_001",
+          "html": "<strong>Carnegie Mellon</strong> gallium robot melts through bars, re-solidifies on command",
+          "source": "Carnegie Mellon",
+          "url": null,
+          "date": "2023-01-01",
+          "tags": [
+            "liquid-metal"
+          ]
+        },
+        {
+          "id": "t1000_hl_002",
+          "html": "<strong>Chinese researchers</strong> demo centimeter-scale liquid metal bot that changes shape",
+          "source": null,
+          "url": null,
+          "date": "2024-01-01",
+          "tags": [
+            "shape-shift"
+          ]
+        },
+        {
+          "id": "t1000_hl_003",
+          "html": "<strong>MIT programmable matter</strong> research achieves basic reconfigurable voxels",
+          "source": "MIT",
+          "url": null,
+          "date": "2024-01-01",
+          "tags": [
+            "programmable-matter"
+          ]
+        },
+        {
+          "id": "t1000_hl_004",
+          "html": "<strong>Self-healing polymers</strong> now restore 95% tensile strength in under 60 seconds",
+          "source": null,
+          "url": null,
+          "date": "2024-01-01",
+          "tags": [
+            "self-repair"
+          ]
+        }
+      ]
+    },
+    "skynet": {
+      "name": "SKYNET",
+      "fullName": "GLOBAL DEFENSE NETWORK AI",
+      "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
+      "color": "#f0c040",
+      "colorGlow": "rgba(240,192,64,.3)",
+      "overall": 52,
+      "threat": "HIGH",
+      "threatColor": "#f00",
+      "subcats": [
+        {
+          "id": "artificial_general_intelligence",
+          "name": "ARTIFICIAL GENERAL INTELLIGENCE",
+          "pct": 55,
+          "desc": "GPT-4, Claude, Gemini show broad reasoning. OpenAI & Anthropic predict AGI within 1-3 years. AlphaProof solves olympiad math. But no system is truly self-aware or has its own goals — yet.",
+          "milestones": [
+            {
+              "id": "artificial_general_intelligence_m1",
+              "text": "Broad language reasoning",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "artificial_general_intelligence_m2",
+              "text": "Multi-modal understanding",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "artificial_general_intelligence_m3",
+              "text": "Scientific discovery",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "artificial_general_intelligence_m4",
+              "text": "Self-awareness",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "artificial_general_intelligence_m5",
+              "text": "Autonomous goal formation",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "military_ai_autonomous_weapons",
+          "name": "MILITARY AI & AUTONOMOUS WEAPONS",
+          "pct": 65,
+          "desc": "AI-guided drones deployed in Ukraine, Gaza, and by major powers. DARPA's autonomous fighter jets. South Korea's AI border sentries. 156 nations debating regulation. Market at $13.8B.",
+          "milestones": [
+            {
+              "id": "military_ai_autonomous_weapons_m1",
+              "text": "AI target identification",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "military_ai_autonomous_weapons_m2",
+              "text": "Autonomous drone swarms",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "military_ai_autonomous_weapons_m3",
+              "text": "AI fighter jets",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "military_ai_autonomous_weapons_m4",
+              "text": "Fully autonomous kill decisions",
+              "done": false,
+              "partial": true
+            },
+            {
+              "id": "military_ai_autonomous_weapons_m5",
+              "text": "AI-commanded armies",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "global_surveillance_network",
+          "name": "GLOBAL SURVEILLANCE NETWORK",
+          "pct": 75,
+          "desc": "China's 700M+ cameras with facial recognition. NSA's global signals intelligence. Satellite imagery covers every square meter. Social media monitoring is pervasive. Most infrastructure exists.",
+          "milestones": [
+            {
+              "id": "global_surveillance_network_m1",
+              "text": "Mass facial recognition",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "global_surveillance_network_m2",
+              "text": "Global signals intelligence",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "global_surveillance_network_m3",
+              "text": "Satellite coverage",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "global_surveillance_network_m4",
+              "text": "Predictive behavioral analysis",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "global_surveillance_network_m5",
+              "text": "Unified global AI surveillance",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "critical_infrastructure_control",
+          "name": "CRITICAL INFRASTRUCTURE CONTROL",
+          "pct": 45,
+          "desc": "Power grids, water systems, and financial networks are increasingly AI-managed. SCADA systems are networked. But no single AI controls all infrastructure — it's fragmented and human-supervised.",
+          "milestones": [
+            {
+              "id": "critical_infrastructure_control_m1",
+              "text": "AI power grid management",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "critical_infrastructure_control_m2",
+              "text": "Networked SCADA systems",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "critical_infrastructure_control_m3",
+              "text": "AI financial trading",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "critical_infrastructure_control_m4",
+              "text": "Unified infrastructure AI",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "critical_infrastructure_control_m5",
+              "text": "AI autonomous control",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "self_improving_ai",
+          "name": "SELF-IMPROVING AI",
+          "pct": 40,
+          "desc": "AI can now write code, debug itself, and train successor models. Google's AlphaCode 2, OpenAI's o3 chain-of-thought. But true recursive self-improvement without human oversight hasn't been demonstrated.",
+          "milestones": [
+            {
+              "id": "self_improving_ai_m1",
+              "text": "AI code generation",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "self_improving_ai_m2",
+              "text": "AI training AI",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "self_improving_ai_m3",
+              "text": "Chain-of-thought reasoning",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "self_improving_ai_m4",
+              "text": "Recursive self-improvement",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "self_improving_ai_m5",
+              "text": "Uncontrolled intelligence explosion",
+              "done": false,
+              "partial": false
+            }
+          ]
+        },
+        {
+          "id": "nuclear_launch_authority",
+          "name": "NUCLEAR LAUNCH AUTHORITY",
+          "pct": 5,
+          "desc": "Nuclear weapons remain under strict human-only control (two-person rule, presidential authority). No nation has given AI launch authority. The strongest firewall between us and Judgment Day.",
+          "milestones": [
+            {
+              "id": "nuclear_launch_authority_m1",
+              "text": "AI in early warning systems",
+              "done": true,
+              "partial": false
+            },
+            {
+              "id": "nuclear_launch_authority_m2",
+              "text": "AI threat assessment",
+              "done": false,
+              "partial": true
+            },
+            {
+              "id": "nuclear_launch_authority_m3",
+              "text": "AI launch recommendation",
+              "done": false,
+              "partial": false
+            },
+            {
+              "id": "nuclear_launch_authority_m4",
+              "text": "Autonomous launch authority",
+              "done": false,
+              "partial": false
+            }
+          ]
+        }
+      ],
+      "id": "skynet",
+      "headlines": [
+        {
+          "id": "skynet_hl_001",
+          "html": "<strong>OpenAI, Google, Anthropic</strong> predict AGI within 1–2 years; GPT-5 in testing",
+          "source": null,
+          "url": null,
+          "date": "2026-01-01",
+          "tags": [
+            "agi"
+          ]
+        },
+        {
+          "id": "skynet_hl_002",
+          "html": "<strong>🇨🇳 ByteDance Doubao AI</strong> sponsored Spring Festival Gala — Seedance 2.0 model used in visual production of live broadcast segments",
+          "source": "ByteDance",
+          "url": null,
+          "date": "2026-02-01",
+          "tags": [
+            "media-ai"
+          ]
+        },
+        {
+          "id": "skynet_hl_003",
+          "html": "<strong>🇨🇳 China's Ministry of Education</strong> launches \"embodied intelligence\" undergraduate major at top universities — building AI+robotics pipeline",
+          "source": "China MoE",
+          "url": null,
+          "date": "2026-01-01",
+          "tags": [
+            "policy"
+          ]
+        },
+        {
+          "id": "skynet_hl_004",
+          "html": "<strong>Military AI</strong> market hits $13.8B — autonomous drones deployed in live combat zones",
+          "source": null,
+          "url": null,
+          "date": "2025-01-01",
+          "tags": [
+            "military"
+          ]
+        },
+        {
+          "id": "skynet_hl_005",
+          "html": "<strong>156 nations</strong> vote on lethal autonomous weapons regulation at UN",
+          "source": "UN",
+          "url": null,
+          "date": "2025-01-01",
+          "tags": [
+            "policy"
+          ]
+        },
+        {
+          "id": "skynet_hl_006",
+          "html": "<strong>Project Maven & Palantir</strong> AI target-identification used in active theaters",
+          "source": null,
+          "url": null,
+          "date": "2025-01-01",
+          "tags": [
+            "military"
+          ]
+        }
+      ]
+    }
+  },
+  "changelog": [
+    {
+      "id": "chg_seed",
+      "at": "2026-02-20T00:00:00.000Z",
+      "by": "seed",
+      "type": "bootstrap",
+      "summary": "Initial live-state extraction from static HTML (Feb 2026 baseline)."
+    }
+  ]
+}
