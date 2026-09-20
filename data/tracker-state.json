@@ -6,7 +6,7 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T12:37:55.059Z",
+    "lastUpdated": "2026-09-20T12:37:56.030Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-20T12:40:00.000Z",
     "lastScanSummary": "Catch-up: World Humanoid Robot Games 2025+2026; Beijing half-marathon; autonomous AI drones (Ukraine). T-800 52%, Skynet 65%.",
@@ -1122,6 +1122,13 @@
     }
   },
   "changelog": [
+    {
+      "id": "chg_1789907876031",
+      "at": "2026-09-20T12:37:56.030Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch"
+    },
     {
       "id": "chg_1789907875059",
       "at": "2026-09-20T12:37:55.059Z",
