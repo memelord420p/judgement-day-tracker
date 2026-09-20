@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T13:42:24.300Z",
+    "lastUpdated": "2026-09-20T13:44:47.556Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-20T12:40:00.000Z",
-    "lastScanSummary": "Removed 6 empty headline stubs blanking Latest Development",
-    "dataSource": "ingest-healthcheck",
-    "updatedBy": "cursor-agent:healthcheck",
+    "lastScanSummary": "Grok Bot ingest self-check OK",
+    "dataSource": "bot-selfcheck",
+    "updatedBy": "grok-bot:selfcheck",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -1136,6 +1136,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_bot_selfcheck",
+      "at": "2026-09-20T13:44:47.556Z",
+      "by": "grok-bot:selfcheck",
+      "type": "patch",
+      "summary": "Bot self-check — confirm ingest auth",
+      "patchId": "patch_bot_selfcheck"
+    },
     {
       "id": "patch_healthcheck_1789911743",
       "at": "2026-09-20T13:42:24.300Z",
