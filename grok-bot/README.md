@@ -1,5 +1,7 @@
 # Judgment Day Watch — Grok Bot Setup
 
+**Start here:** [`00-BOOTSTRAP.md`](00-BOOTSTRAP.md) — one paste to create the Bot, X account, skills, and daily routine.
+
 Paste-ready playbook so **Grok Bot** (not a custom xAI API) monitors news, drafts tracker patches, and posts to X with approval.
 
 ## Architecture (future-proof)
@@ -16,9 +18,10 @@ No custom API required for MVP. Later you can add a custom MCP that runs `apply-
 
 ## One-time setup checklist
 
+0. **Create the brand X account** with Grok Bot’s cloud browser — [`08-create-x-account.md`](08-create-x-account.md) (you take over for CAPTCHA / phone / email codes)
 1. **Create Bot** in Grok Bot → New → Create new agent  
 2. **Edit Profile** using [`01-bot-profile.md`](01-bot-profile.md)  
-3. **Connect X** → Settings → Plugins / Connectors → X for Grok Bot (read: search, timeline, mentions, trends)  
+3. **Connect X** → Settings → Plugins / Connectors → X for Grok Bot (read: search, timeline, mentions, trends) — this can also create an X *developer* account for API credits  
 4. **(Optional write)** Add a posting MCP at [grok.com/connectors](https://grok.com/connectors) (OpenTweet, Blotato, or your own) — official X connector cannot post  
 5. Run the **first scan** manually using [`02-skill-daily-scan.md`](02-skill-daily-scan.md)  
 6. Save it as a **skill**, then create the **routine** from [`03-routines.md`](03-routines.md)  
@@ -36,6 +39,8 @@ No custom API required for MVP. Later you can add a custom MCP that runs `apply-
 | `05-connectors.md` | X read + write MCP + future site write-back |
 | `06-site-update-protocol.md` | How patches become live on Vercel |
 | `07-future-mcp.md` | Optional write-back MCP when you outgrow paste |
+| `08-create-x-account.md` | Grok Bot cloud-browser flow to create the brand X account |
+| `09-patch-api.md` | HTTP ingest: POST patches to Vercel → GitHub live state |
 
 ## Canonical data
 

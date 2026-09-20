@@ -6,6 +6,13 @@
         { "key": "Cache-Control", "value": "public, max-age=60, stale-while-revalidate=300" },
         { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=30, stale-while-revalidate=60" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
     }
   ],
   "cleanUrls": true,

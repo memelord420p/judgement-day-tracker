@@ -7,3 +7,4 @@ data/patches/patch_*.json
 *.log
 .env
 .env.*
+.ingest_secret

@@ -689,33 +689,47 @@ function applyMetaToChrome() {
   logJDT('chrome meta applied', { status: meta.status, lastUpdated: meta.lastUpdated, eta: eta.targetIso });
 }
 
+async function fetchStateJson(url) {
+  logJDT('fetching state', url);
+  const res = await fetch(url, { cache: 'no-store' });
+  logJDT('fetch status', url, res.status, res.ok);
+  if (!res.ok) throw new Error('HTTP ' + res.status + ' for ' + url);
+  const state = await res.json();
+  if (!state?.fighters?.t800) throw new Error('Invalid tracker-state: missing fighters');
+  return state;
+}
+
 async function loadTrackerState() {
-  const url = './data/tracker-state.json?t=' + Date.now();
-  logJDT('fetching live state', url);
-  try {
-    const res = await fetch(url, { cache: 'no-store' });
-    logJDT('fetch status', res.status, res.ok);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const state = await res.json();
-    if (!state?.fighters?.t800) throw new Error('Invalid tracker-state: missing fighters');
-    TRACKER_STATE = state;
-    DATA = state.fighters;
-    logJDT('live state loaded', {
-      schemaVersion: state.schemaVersion,
-      lastUpdated: state.meta?.lastUpdated,
-      overall: {
-        t800: DATA.t800.overall,
-        t1000: DATA.t1000.overall,
-        skynet: DATA.skynet.overall
-      }
-    });
-    applyMetaToChrome();
-    renderSelectScreen();
-  } catch (err) {
-    console.error('[Judgment Day Tracker] FAILED to load live state:', err);
-    const asOfEl = document.getElementById('dataAsOf');
-    if (asOfEl) asOfEl.textContent = 'DATA LOAD FAILED — CHECK CONSOLE';
+  const candidates = [
+    '/api/state?t=' + Date.now(),
+    './data/tracker-state.json?t=' + Date.now()
+  ];
+  let lastErr = null;
+  for (const url of candidates) {
+    try {
+      const state = await fetchStateJson(url);
+      TRACKER_STATE = state;
+      DATA = state.fighters;
+      logJDT('live state loaded from', url, {
+        schemaVersion: state.schemaVersion,
+        lastUpdated: state.meta?.lastUpdated,
+        overall: {
+          t800: DATA.t800.overall,
+          t1000: DATA.t1000.overall,
+          skynet: DATA.skynet.overall
+        }
+      });
+      applyMetaToChrome();
+      renderSelectScreen();
+      return;
+    } catch (err) {
+      lastErr = err;
+      console.warn('[Judgment Day Tracker] state candidate failed:', url, err);
+    }
   }
+  console.error('[Judgment Day Tracker] FAILED to load live state:', lastErr);
+  const asOfEl = document.getElementById('dataAsOf');
+  if (asOfEl) asOfEl.textContent = 'DATA LOAD FAILED — CHECK CONSOLE';
 }
 
 // ── SVG ART ──
