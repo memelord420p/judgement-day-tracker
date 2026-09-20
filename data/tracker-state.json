@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T12:00:56.256Z",
+    "lastUpdated": "2026-09-20T12:31:25.444Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-20T12:00:00.000Z",
     "lastScanSummary": "API smoke test — no score changes",
-    "dataSource": "api-smoke",
-    "updatedBy": "cursor-agent-smoke",
+    "dataSource": "x-handle-wireup",
+    "updatedBy": "cursor-agent",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -24,11 +24,11 @@
       "x": {
         "id": "x",
         "platform": "x",
-        "handle": null,
-        "url": null,
-        "status": "planned",
-        "postingMode": "approve_then_post",
-        "notes": "Create @JudgmentDayTracker (or similar). Connect via Grok Bot X connector (read) + posting MCP (write)."
+        "handle": "@judgementdayt",
+        "url": "https://x.com/judgementdayt",
+        "status": "live",
+        "postingMode": "auto",
+        "notes": "Brand account created via Grok Bot. Routines may auto-post bulletins; force:true/CRITICAL still need human OK."
       },
       "threads": {
         "id": "threads",
@@ -969,6 +969,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_x_handle_live",
+      "at": "2026-09-20T12:31:25.444Z",
+      "by": "cursor-agent",
+      "type": "patch",
+      "summary": "Set brand X channel to @judgementdayt live",
+      "patchId": "patch_x_handle_live"
+    },
     {
       "id": "patch_smoke_api",
       "at": "2026-09-20T12:00:56.256Z",
