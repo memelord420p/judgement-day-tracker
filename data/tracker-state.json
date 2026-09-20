@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T12:37:59.448Z",
+    "lastUpdated": "2026-09-20T12:38:41.640Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-20T12:40:00.000Z",
-    "lastScanSummary": "Catch-up: World Humanoid Robot Games 2025+2026; Beijing half-marathon; autonomous AI drones (Ukraine). T-800 52%, Skynet 65%.",
-    "dataSource": "manual-catchup-olympics",
-    "updatedBy": "cursor-agent:catchup",
+    "lastScanSummary": "Voice update: dual register — serious events + robot fail/win comedy",
+    "dataSource": "brand-voice-update",
+    "updatedBy": "cursor-agent:voice",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -53,21 +53,33 @@
       }
     },
     "brandVoice": {
-      "tone": "deadpan terminal operator with Terminator lore fluency",
+      "tone": "deadpan terminal operator with Terminator lore fluency — serious receipts, dry comedy",
       "styleRules": [
-        "Short, punchy, evidence-linked",
+        "Every scan should surface BOTH serious developments AND light-hearted fails/wins when they exist",
+        "Serious: cite sources; careful threat language",
+        "Comedy: witty and specific; safety injuries stay sober",
+        "Score changes only from material capability/safety evidence — viral fails alone do not dump scores",
+        "X posts: score line + one serious beat + one comedy beat when both exist",
         "Never claim Judgment Day is imminent as fact",
-        "Separate film lore from real tech",
-        "Cite sources / links when posting",
-        "Use threat language carefully — informative, not panic bait"
+        "Separate film lore from real tech"
       ],
       "hashtags": [
         "#JudgmentDayTracker",
         "#T800",
         "#T1000",
         "#Skynet",
+        "#RobotOlympics",
         "#AI"
-      ]
+      ],
+      "dualRegister": true,
+      "registers": {
+        "serious": "Agentic cyber, autonomous weapons, public injuries, policy — evidence-first, no panic bait",
+        "comedy": "Robot Olympics faceplants, wrong-way sprinters, kung-fu fails, victory dances — affectionate roast; never punch down on injured people"
+      },
+      "contentMix": {
+        "headlines": "~60% serious capability/safety/policy, ~40% memorable wins/fails when available",
+        "social": "Bulletin = score delta + one serious beat + one comedy beat when both exist"
+      }
     }
   },
   "monitoring": {
@@ -125,8 +137,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 46,
-      "threat": "ELEVATED",
+      "overall": 54,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -343,6 +354,12 @@
       "id": "t800",
       "headlines": [
         {
+          "fighterId": "t800"
+        },
+        {
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_202504_half_marathon",
           "html": "<strong>🇨🇳 Beijing half-marathon</strong> (Apr 2025): humanoid robots race humans — national showcase of bipedal endurance before the Games",
           "plain": "Beijing half-marathon (Apr 2025): humanoid robots race humans — national showcase of bipedal endurance before the Games",
@@ -505,7 +522,8 @@
             "ai"
           ]
         }
-      ]
+      ],
+      "threat": "ELEVATED"
     },
     "t1000": {
       "name": "T-1000",
@@ -769,8 +787,8 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 65,
-      "threat": "HIGH",
+      "overall": 66,
+      "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
         {
@@ -999,6 +1017,9 @@
       "id": "skynet",
       "headlines": [
         {
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_202609_ai_warfare_race",
           "html": "<strong>Sep 2026:</strong> Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
           "plain": "Sep 2026: Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
@@ -1122,6 +1143,28 @@
     }
   },
   "changelog": [
+    {
+      "id": "chg_1789907921640",
+      "at": "2026-09-20T12:38:41.640Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch"
+    },
+    {
+      "id": "patch_voice_serious_comedy",
+      "at": "2026-09-20T12:38:36.846Z",
+      "by": "cursor-agent:voice",
+      "type": "patch",
+      "summary": "Brand voice: serious events + light-hearted robot fails/wins",
+      "patchId": "patch_voice_serious_comedy"
+    },
+    {
+      "id": "chg_1789907900134",
+      "at": "2026-09-20T12:38:20.134Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch"
+    },
     {
       "id": "chg_1789907879448",
       "at": "2026-09-20T12:37:59.448Z",
@@ -1251,6 +1294,15 @@
       "createdAt": "2026-09-20T12:37:41.955Z",
       "status": "pending_approval",
       "text": "More catch-up: Beijing World Humanoid Robot Games (“Robot Olympics”) 2025+2026 — Unitree medal machine, record sprint times. Plus Ukraine-war reports of fully autonomous AI drones. T-800→52%. Skynet→65%.\nhttps://judgement-day-tracker.vercel.app\n#JudgmentDayTracker #T800",
+      "link": "https://judgement-day-tracker.vercel.app",
+      "approvalRequired": false
+    },
+    {
+      "id": "post_1789907916846",
+      "channel": "x",
+      "createdAt": "2026-09-20T12:38:36.846Z",
+      "status": "pending_approval",
+      "text": "New standing orders: we track the scary AND the slapstick. Agentic cyber + autonomous drones on one line. Robot Olympics faceplants + record sprints on the next. Same deadpan. Same tracker.\nhttps://judgement-day-tracker.vercel.app\n#JudgmentDayTracker #RobotOlympics",
       "link": "https://judgement-day-tracker.vercel.app",
       "approvalRequired": false
     }
