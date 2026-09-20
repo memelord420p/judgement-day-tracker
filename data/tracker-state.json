@@ -6,7 +6,7 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T12:38:36.846Z",
+    "lastUpdated": "2026-09-20T12:38:41.640Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-20T12:40:00.000Z",
     "lastScanSummary": "Voice update: dual register — serious events + robot fail/win comedy",
@@ -137,7 +137,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 46,
+      "overall": 54,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -354,6 +354,12 @@
       "id": "t800",
       "headlines": [
         {
+          "fighterId": "t800"
+        },
+        {
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_202504_half_marathon",
           "html": "<strong>🇨🇳 Beijing half-marathon</strong> (Apr 2025): humanoid robots race humans — national showcase of bipedal endurance before the Games",
           "plain": "Beijing half-marathon (Apr 2025): humanoid robots race humans — national showcase of bipedal endurance before the Games",
@@ -516,7 +522,8 @@
             "ai"
           ]
         }
-      ]
+      ],
+      "threat": "ELEVATED"
     },
     "t1000": {
       "name": "T-1000",
@@ -780,8 +787,8 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 65,
-      "threat": "HIGH",
+      "overall": 66,
+      "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
         {
@@ -1010,6 +1017,9 @@
       "id": "skynet",
       "headlines": [
         {
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_202609_ai_warfare_race",
           "html": "<strong>Sep 2026:</strong> Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
           "plain": "Sep 2026: Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
@@ -1133,6 +1143,13 @@
     }
   },
   "changelog": [
+    {
+      "id": "chg_1789907921640",
+      "at": "2026-09-20T12:38:41.640Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch"
+    },
     {
       "id": "patch_voice_serious_comedy",
       "at": "2026-09-20T12:38:36.846Z",
