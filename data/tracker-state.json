@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T12:33:04.106Z",
+    "lastUpdated": "2026-09-20T12:34:11.437Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-20T12:35:00.000Z",
     "lastScanSummary": "Catch-up: HF July 2026 agent intrusion; China robot-kick injuries; Unitree UnifoLM-X2 sparring. T-800 46%, Skynet 58%.",
     "dataSource": "manual-catchup-scan",
-    "updatedBy": "cursor-agent:catchup",
+    "updatedBy": "auth-probe",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -1041,6 +1041,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "auth_probe",
+      "at": "2026-09-20T12:34:11.437Z",
+      "by": "probe",
+      "type": "patch",
+      "summary": "auth probe",
+      "patchId": "auth_probe"
+    },
     {
       "id": "patch_2026-09-20_catchup_hf_robots",
       "at": "2026-09-20T12:33:04.106Z",
