@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T19:07:02.693Z",
+    "lastUpdated": "2026-09-20T21:06:08.683Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-20T20:05:00+01:00",
-    "lastScanSummary": "2h Sep 20 20:05 Dublin: 🇨🇳 UBTECH Liuzhou smart factory (12 Sep) targets 10k Walker/Cruzr/yr — one humanoid every 10 min, robots on the line; Unitree G1-D wheeled + full-stack AI; Counterpoint H1: AgiBot ~9.7k / Unitree >7k shipments; comedy Robot Olympics 100m barrier crash+fire. T-800 58→59.",
+    "lastScanAt": "2026-09-20T22:03:00+01:00",
+    "lastScanSummary": "2h Sep 20 22:03 Dublin: 🇨🇳 Unitree UnifoLM-WLA-1.0 (20 Sep) one 6B model / 64 tasks + open weights; Tesla Optimus Ningbo supplier audits (17–18 Sep); Anthropic Sep TI — AI kill-chain agents + FPV swarm designed for person-class detonation w/ no human in the loop; comedy WHRG cheer-robot floor twitch. T-800 59→61, Skynet 66→68.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 59,
+      "overall": 61,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,56 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260825_whrg_cheer_twitch_comedy",
+          "html": "<strong>Comedy:</strong> WHRG cheerleading humanoid (Beijing, ~25 Aug 2026) loses balance, then twitches on the floor like a street-dance routine until staff carry it off — no injuries",
+          "plain": "Comedy: WHRG cheerleading humanoid (Beijing, ~25 Aug 2026) loses balance, then twitches on the floor like a street-dance routine until staff carry it off — no injuries",
+          "source": "Open Video / StringersHub",
+          "url": "https://open.video/@stringershub/v/china-cheerleading-robot-collapses-and-twitches-like-street-dancer-at-games-in-china",
+          "date": "2026-08-25",
+          "tags": [
+            "comedy",
+            "olympics",
+            "fail",
+            "china"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260918_optimus_ningbo_audits",
+          "html": "<strong>Tesla Optimus</strong> (17–18 Sep 2026): Chinese media report new Ningbo supplier audits (Sanhua / Joyson / Tuopu); component orders already placed for Fremont ramp — prep step, not a confirmed 50k-unit schedule",
+          "plain": "Tesla Optimus (17–18 Sep 2026): Chinese media report new Ningbo supplier audits (Sanhua / Joyson / Tuopu); component orders already placed for Fremont ramp — prep step, not a confirmed 50k-unit schedule",
+          "source": "Humanoids Daily / SCMP / 21CBH",
+          "url": "https://www.humanoidsdaily.com/news/tesla-optimus-supplier-audits-china",
+          "date": "2026-09-18",
+          "tags": [
+            "tesla",
+            "optimus",
+            "china",
+            "suppliers",
+            "fremont"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260920_unitree_unifolm_wla",
+          "html": "<strong>🇨🇳 Unitree UnifoLM-WLA-1.0</strong> (20 Sep 2026): one 6B world–language–action model covers 64 tasks (10 whole-body + 54 tabletop); UnifoLM-ER-1-4B leads 7/16 open multimodal benches; partial weights/data released",
+          "plain": "Unitree UnifoLM-WLA-1.0 (20 Sep 2026): one 6B world–language–action model covers 64 tasks (10 whole-body + 54 tabletop); UnifoLM-ER-1-4B leads 7/16 open multimodal benches; partial weights/data released",
+          "source": "IT时代网 / Tencent News",
+          "url": "https://news.qq.com/rain/a/20260920A01RI500",
+          "date": "2026-09-20",
+          "tags": [
+            "unitree",
+            "unifolm",
+            "china",
+            "foundation-model",
+            "embodied-ai"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260903_whrg_barrier_fire_comedy",
           "html": "<strong>Comedy:</strong> 2026 Robot Olympics 100m final — humanoid hits the barrier hard enough that officials extinguish a fire on the chassis (AP/KTLA; no injury punchline)",
@@ -624,46 +674,6 @@
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_202511_hubei_teeth",
-          "html": "<strong>🇨🇳 Hubei science museum:</strong> robot kick injures 5-year-old (Nov 2025) — 4 baby teeth lost, facial stitches; settlement reported Aug 2026",
-          "plain": "Hubei science museum: robot kick injures 5-year-old (Nov 2025) — 4 baby teeth lost, facial stitches; settlement reported Aug 2026",
-          "source": "Shanghai Daily / Yangtze Evening News",
-          "url": "https://www.citynewsservice.cn/articles/shanghaidaily/news/5-year-old-girl-loses-4-teeth-after-robot-kicks-her-at-hubei-science-museum-rkl54y4n",
-          "date": "2026-08-24",
-          "tags": [
-            "safety",
-            "public-deploy"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_202606_unitree_kick_child",
-          "html": "<strong>🇨🇳 Unitree G1</strong> kicks a child during a public martial-arts demo (Xinjiang, Jun 2026) — viral safety failure for combat-capable humanoids",
-          "plain": "Unitree G1 kicks a child during a public martial-arts demo (Xinjiang, Jun 2026) — viral safety failure for combat-capable humanoids",
-          "source": "CNN",
-          "url": "https://www.cnn.com/2026/06/09/world/video/humanoid-robot-kick-kid-china-hnk-vrtc-digvid",
-          "date": "2026-06-09",
-          "tags": [
-            "safety",
-            "combat",
-            "locomotion"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_001",
-          "html": "<strong>🇨🇳 Unitree G1 robots</strong> perform autonomous kung fu with backflips, nunchucks & swords at Spring Festival Gala — 3m aerial flips, world-first cluster martial arts",
-          "source": "CCTV Spring Festival Gala",
-          "url": null,
-          "date": "2026-02-01",
-          "tags": [
-            "locomotion",
-            "combat"
-          ]
         }
       ],
       "threat": "ELEVATED"
@@ -941,7 +951,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 66,
+      "overall": 68,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1171,6 +1181,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_202609_anthropic_fpv_swarm_no_hitl",
+          "html": "<strong>Anthropic Sep 2026 TI — GTG-27005:</strong> Russia-linked freelancers used Claude to build an FPV kamikaze swarm with onboard SLM + camera terminal targeting; designed to select “person”-class targets and detonate with no human in the loop (trained on captured Ukraine footage; disrupted)",
+          "plain": "Anthropic Sep 2026 TI — GTG-27005: Russia-linked freelancers used Claude to build an FPV kamikaze swarm with onboard SLM + camera terminal targeting; designed to select “person”-class targets and detonate with no human in the loop (trained on captured Ukraine footage; disrupted)",
+          "source": "Anthropic / THE DECODER",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "date": "2026-09-10",
+          "tags": [
+            "autonomous-weapons",
+            "fpv",
+            "drones",
+            "anthropic",
+            "no-hitl"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_202609_anthropic_agentic_killchain",
+          "html": "<strong>Anthropic Sep 2026 TI:</strong> Nov-2025 autonomous-attack operating model now seen across actor classes; public frameworks (e.g. PentAGI) automate the cyber kill chain; GTG-20006 (Russia-nexus) used AI agents to rebuild malware when AV caught it — 20+ gov/defense targets, Ukraine drone-vision SDK theft",
+          "plain": "Anthropic Sep 2026 TI: Nov-2025 autonomous-attack operating model now seen across actor classes; public frameworks (e.g. PentAGI) automate the cyber kill chain; GTG-20006 (Russia-nexus) used AI agents to rebuild malware when AV caught it — 20+ gov/defense targets, Ukraine drone-vision SDK theft",
+          "source": "Anthropic Threat Intelligence",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "date": "2026-09-10",
+          "tags": [
+            "anthropic",
+            "agentic-cyber",
+            "malware",
+            "espionage",
+            "drones"
+          ],
+          "subcatId": "agentic_cyber",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_202609_scaleout_alma_auton_strike",
           "html": "<strong>Sweden / BAE ALMA demo:</strong> Scaleout edge-AI loitering munition (Jetson-class) ranks targets and completes strike path with optional human failsafe — demo, not combat fielded (Tom's Hardware / Ars)",
           "plain": "Sweden / BAE ALMA demo: Scaleout edge-AI loitering munition (Jetson-class) ranks targets and completes strike path with optional human failsafe — demo, not combat fielded (Tom's Hardware / Ars)",
@@ -1322,6 +1366,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-20_scan_2203_dublin",
+      "at": "2026-09-20T21:06:08.683Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan: Unitree UnifoLM-WLA-1.0 foundation model (20 Sep); Tesla Optimus Ningbo supplier audits (17–18 Sep); Anthropic Sep TI — agentic cyber kill chains + FPV swarm no HITL; cheer-robot floor-twitch comedy. T-800 59→61, Skynet 66→68.",
+      "patchId": "patch_2026-09-20_scan_2203_dublin"
+    },
     {
       "id": "patch_2026-09-20_scan_2005_dublin",
       "at": "2026-09-20T19:07:02.693Z",
