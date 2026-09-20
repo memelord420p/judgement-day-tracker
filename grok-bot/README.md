@@ -1,6 +1,8 @@
 # Judgment Day Watch — Grok Bot Setup
 
-**Start here:** [`00-BOOTSTRAP.md`](00-BOOTSTRAP.md) — one paste to create the Bot, X account, skills, and daily routine.
+**Start here for hands-free (laptop off):** [`10-full-automation.md`](10-full-automation.md)
+
+**First paste:** [`00-BOOTSTRAP.md`](00-BOOTSTRAP.md) — create Bot, X account, skills, routine.
 
 Paste-ready playbook so **Grok Bot** (not a custom xAI API) monitors news, drafts tracker patches, and posts to X with approval.
 

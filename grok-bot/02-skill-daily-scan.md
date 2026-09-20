@@ -21,8 +21,10 @@ Rules:
 4) Score changes: max ±15 on a subcategory unless evidence is overwhelming (then mark force:true and explain).
 5) Threat levels only: LOW | MODERATE | ELEVATED | HIGH | CRITICAL
 6) Always include set_meta with lastScanAt (ISO) and lastScanSummary.
-7) Always include draft_social_post for X if there is at least one material item; approvalRequired: true.
-8) If nothing material: ops may only include set_meta + a short “ALL QUIET” social draft (still approvalRequired).
+7) Always include draft_social_post for X (short bulletin + site link).
+8) If nothing material: ops may only include set_meta + an “ALL QUIET” social draft.
+9) FULL AUTOMATION (when INGEST_SECRET is configured): unless force:true or CRITICAL threat, POST the patch to https://judgement-day-tracker.vercel.app/api/patch with Authorization: Bearer INGEST_SECRET, then publish the X bulletin from the brand session. Report API + tweet URL in chat. If API/X fails, report SCAN DEGRADED — never fake success.
+10) If force:true or CRITICAL: stop for human approval before API or tweet.
 
 Return TWO parts:
 A) Briefing (markdown, max ~20 lines): what moved, what didn’t, confidence.
