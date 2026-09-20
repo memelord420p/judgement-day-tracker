@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T12:38:41.640Z",
+    "lastUpdated": "2026-09-20T12:39:41.818Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-20T12:40:00.000Z",
-    "lastScanSummary": "Voice update: dual register — serious events + robot fail/win comedy",
+    "lastScanSummary": "Standing watchlist + dual-register automation encoded for Judgment Day Watch",
     "dataSource": "brand-voice-update",
-    "updatedBy": "cursor-agent:voice",
+    "updatedBy": "cursor-agent:standing-prompt",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -84,19 +84,21 @@
   },
   "monitoring": {
     "watchQueries": [
-      "humanoid robot",
-      "Tesla Optimus",
-      "Boston Dynamics Atlas",
-      "Figure AI",
+      "World Humanoid Robot Games",
+      "Robot Olympics",
       "Unitree humanoid",
+      "Tesla Optimus factory",
+      "Figure AI BMW",
+      "Boston Dynamics Atlas",
+      "lab-grown robot skin",
       "liquid metal robot",
       "gallium robot",
-      "programmable matter",
-      "autonomous weapons",
-      "military AI",
+      "EU AI Act enforcement",
+      "autonomous weapons drone",
+      "Hugging Face agent intrusion",
       "AGI",
-      "lethal autonomous weapons",
-      "embodied intelligence"
+      "humanoid robot fail",
+      "humanoid robot wins race"
     ],
     "fighterWatch": {
       "t800": [
@@ -128,7 +130,16 @@
       "dailyScan": "09:00",
       "weeklyDigest": "Monday 10:00",
       "timezone": "Europe/Dublin"
-    }
+    },
+    "gapHunt": [
+      "Optimus production / factory headcount / Gen version",
+      "Figure + BMW / OpenAI robotics deployments",
+      "EU AI Act enforcement actions & deadlines",
+      "World Humanoid Robot Games / national robot sports results",
+      "Fielded autonomous attack drones / last-mile AI targeting",
+      "Agentic cyber incidents against AI platforms",
+      "Viral humanoid fails AND wins (comedy register)"
+    ]
   },
   "fighters": {
     "t800": {
@@ -1143,6 +1154,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_standing_watchlist",
+      "at": "2026-09-20T12:39:41.818Z",
+      "by": "cursor-agent",
+      "type": "patch",
+      "summary": "Standing gap-hunt watchlist — Bot should cover without nudges",
+      "patchId": "patch_standing_watchlist"
+    },
     {
       "id": "chg_1789907921640",
       "at": "2026-09-20T12:38:41.640Z",
