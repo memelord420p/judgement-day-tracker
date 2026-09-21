@@ -6,11 +6,11 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-20T21:06:08.683Z",
+    "lastUpdated": "2026-09-21T01:20:51.713Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-20T22:03:00+01:00",
-    "lastScanSummary": "2h Sep 20 22:03 Dublin: 🇨🇳 Unitree UnifoLM-WLA-1.0 (20 Sep) one 6B model / 64 tasks + open weights; Tesla Optimus Ningbo supplier audits (17–18 Sep); Anthropic Sep TI — AI kill-chain agents + FPV swarm designed for person-class detonation w/ no human in the loop; comedy WHRG cheer-robot floor twitch. T-800 59→61, Skynet 66→68.",
-    "dataSource": "judgment-day-watch-2h-scan",
+    "lastScanAt": "2026-09-21T02:20:00+01:00",
+    "lastScanSummary": "Catch-up Sep 21 02:20 Dublin: US Treasury Bessent proposes US–China AI safety/national-security notification mechanism after New York talks with He Lifeng (20 Sep) ahead of Trump–Xi summit; Brookings–Tsinghua experts urge nuclear C2 red lines + AI incident hotline (17 Sep); 🇨🇳 Xpeng Iron humanoid line already running (8 Sep catch-up); John comedy — AI incident group-chat with Beijing. Skynet 68→70, T-800 61→62. Not Judgment Day — receipts only.",
+    "dataSource": "judgment-day-watch-catchup-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
   },
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 61,
+      "overall": 62,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,23 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260908_xpeng_iron_line",
+          "html": "<strong>🇨🇳 Xpeng Iron</strong> (8 Sep 2026 catch-up): humanoid production line operating — Iron walks off the line autonomously after assembly; company reiterates YE2026 mass production, China + overseas delivery targeted 2027 (CnEVPost)",
+          "plain": "Xpeng Iron (8 Sep 2026 catch-up): humanoid production line operating — Iron walks off the line autonomously after assembly; company reiterates YE2026 mass production, China + overseas delivery targeted 2027 (CnEVPost)",
+          "source": "CnEVPost",
+          "url": "https://cnevpost.com/2026/09/08/xpeng-opens-iron-humanoid-robot-production-line/",
+          "date": "2026-09-08",
+          "tags": [
+            "xpeng",
+            "iron",
+            "china",
+            "production",
+            "factory"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260825_whrg_cheer_twitch_comedy",
           "html": "<strong>Comedy:</strong> WHRG cheerleading humanoid (Beijing, ~25 Aug 2026) loses balance, then twitches on the floor like a street-dance routine until staff carry it off — no injuries",
@@ -660,20 +677,6 @@
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_202609_unitree_autonomous_spar",
-          "html": "<strong>Unitree UnifoLM-X2</strong> (Sep 2026): G1 demo claims fully autonomous sparring vs human — no teleop, no script (company video; independent verification pending)",
-          "plain": "Unitree UnifoLM-X2 (Sep 2026): G1 demo claims fully autonomous sparring vs human — no teleop, no script (company video; independent verification pending)",
-          "source": "Unitree / Interesting Engineering",
-          "url": "https://interestingengineering.com/ai-robotics/humanoid-robot-learns-to-fight-autonomously",
-          "date": "2026-09-07",
-          "tags": [
-            "combat",
-            "onboard-ai"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -951,7 +954,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 68,
+      "overall": 70,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1181,6 +1184,56 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260920_bessent_ai_groupchat_comedy",
+          "html": "<strong>Comedy:</strong> John Connor notes Treasury wants an AI-incident <em>notification</em> system with Beijing — basically a group chat for when the machines misbehave. Still waiting on the Judgment Day RSVP form",
+          "plain": "Comedy: John Connor notes Treasury wants an AI-incident notification system with Beijing — basically a group chat for when the machines misbehave. Still waiting on the Judgment Day RSVP form",
+          "source": "Reuters (commentary frame)",
+          "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
+          "date": "2026-09-20",
+          "tags": [
+            "comedy",
+            "policy",
+            "us-china",
+            "john"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260917_brookings_nuclear_ai_redlines",
+          "html": "<strong>Brookings–Tsinghua dialogue</strong> (17 Sep 2026): US/Chinese security experts propose nuclear-style AI red lines — no autonomous launch / no AI attack on nuclear C2; meaningful human control; dedicated AI-incident hotline. Track-2 only — neither govt has endorsed",
+          "plain": "Brookings–Tsinghua dialogue (17 Sep 2026): US/Chinese security experts propose nuclear-style AI red lines — no autonomous launch / no AI attack on nuclear C2; meaningful human control; dedicated AI-incident hotline. Track-2 only — neither govt has endorsed",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/china/us-china-security-experts-propose-nuclear-style-safeguards-ai-risks-2026-09-17/",
+          "date": "2026-09-17",
+          "tags": [
+            "nuclear",
+            "ai-safety",
+            "us-china",
+            "brookings",
+            "policy"
+          ],
+          "subcatId": "nuclear_launch_authority",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260920_bessent_ai_notification",
+          "html": "<strong>US–China AI talks</strong> (20 Sep 2026, New York): Treasury Sec. Bessent proposes a bilateral AI safety / national-security <em>notification</em> mechanism after meeting Vice Premier He Lifeng — groundwork for Trump–Xi summit this week; Chinese response not public",
+          "plain": "US–China AI talks (20 Sep 2026, New York): Treasury Sec. Bessent proposes a bilateral AI safety / national-security notification mechanism after meeting Vice Premier He Lifeng — groundwork for Trump–Xi summit this week; Chinese response not public",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
+          "date": "2026-09-20",
+          "tags": [
+            "us-china",
+            "policy",
+            "ai-safety",
+            "bessent",
+            "summit"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_202609_anthropic_fpv_swarm_no_hitl",
           "html": "<strong>Anthropic Sep 2026 TI — GTG-27005:</strong> Russia-linked freelancers used Claude to build an FPV kamikaze swarm with onboard SLM + camera terminal targeting; designed to select “person”-class targets and detonate with no human in the loop (trained on captured Ukraine footage; disrupted)",
           "plain": "Anthropic Sep 2026 TI — GTG-27005: Russia-linked freelancers used Claude to build an FPV kamikaze swarm with onboard SLM + camera terminal targeting; designed to select “person”-class targets and detonate with no human in the loop (trained on captured Ukraine footage; disrupted)",
@@ -1366,6 +1419,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-21_catchup_0220_dublin",
+      "at": "2026-09-21T01:20:51.713Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Catch-up early AM Sep 21: Bessent–He US–China AI safety notification proposal (20 Sep); Brookings–Tsinghua nuclear-AI red lines ahead of Trump–Xi; Xpeng Iron production line catch-up; John comedy — AI incident group-chat. Skynet 68→70, T-800 61→62.",
+      "patchId": "patch_2026-09-21_catchup_0220_dublin"
+    },
     {
       "id": "patch_2026-09-20_scan_2203_dublin",
       "at": "2026-09-20T21:06:08.683Z",
