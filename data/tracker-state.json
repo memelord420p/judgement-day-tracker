@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-21T15:42:00.322Z",
+    "lastUpdated": "2026-09-21T17:36:48.079Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-21T16:39:00+01:00",
-    "lastScanSummary": "2h scan Sep 21 ~16:39 Dublin: Boston Dynamics RMAC opens at Hyundai Metaplant America (Georgia) — permanent Atlas ‘behavior factory’ on real auto parts; Hyundai plans ~25k Atlas across plants + US robot factory up to 30k/yr by 2028 (Robot Report 21 Sep). Hyundai exploring Czech Nosovice as European Atlas proving ground (Korea Herald 21 Sep). Faraday Future Robot World 2.0 — nine EAI robots shipping, Mini from $9,990 (FF 919 event). Eve of Trump–Xi: Trump announces AI Force + AI Czar while opposing hard AI brakes; Bessent notification track still open (CSMonitor 21 Sep). Comedy — Clone Robotics Protoclone (1,000 Myofibers) still ceiling-hung while the uncanny valley does the talking. T-800 progress to 65%. Skynet progress to 71%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-21T18:36:00+01:00",
+    "lastScanSummary": "2h scan Sep 21 ~18:36 Dublin: Dongfeng Xiaodong enters Chinese factories by end Oct (sorting/QC; trial YE2026; human-level YE2027) (TechNode/CnEVPost). Tesla expands Optimus Gen-3 mass-production audits across Yangtze Delta beyond Ningbo — Tuopu/Sanhua/Joyson already have orders (CnEVPost 21 Sep). Ukraine Frontline/Ark: soldiers want one pilot, many drones — less stick time; MoD still claims human final engagement (Business Insider 19 Sep). Comedy — Chinese OEMs forge factory Terminators while Unitree's IPO still learns gravity. T-800 progress to 66%. Skynet progress to 72%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 65,
+      "overall": 66,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,56 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260921_oem_terminator_ipo_comedy",
+          "html": "<strong>Comedy:</strong> Chinese OEMs keep forging factory Terminators (Dongfeng next) while Unitree’s IPO still learns gravity — mass-production press releases vs ticker free-fall, same week",
+          "plain": "Comedy: Chinese OEMs keep forging factory Terminators (Dongfeng next) while Unitree’s IPO still learns gravity — mass-production press releases vs ticker free-fall, same week",
+          "source": "CnEVPost / Reuters (comedy frame)",
+          "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
+          "date": "2026-09-21",
+          "tags": [
+            "comedy",
+            "dongfeng",
+            "unitree",
+            "ipo"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_optimus_yangtze_mass_audit",
+          "html": "<strong>Tesla Optimus Yangtze audits</strong> (21 Sep 2026): robot team expands Gen-3 mass-production supplier audits beyond Ningbo across Hangzhou/Shanghai Yangtze Delta — Tuopu, Sanhua, Joyson already hold Optimus orders; production to start after pass (The Paper / CnEVPost)",
+          "plain": "Tesla Optimus Yangtze audits (21 Sep 2026): robot team expands Gen-3 mass-production supplier audits beyond Ningbo across Hangzhou/Shanghai Yangtze Delta — Tuopu, Sanhua, Joyson already hold Optimus orders; production to start after pass (The Paper / CnEVPost)",
+          "source": "CnEVPost / The Paper",
+          "url": "https://cnevpost.com/2026/09/21/tesla-audits-china-suppliers-optimus-mass-production/",
+          "date": "2026-09-21",
+          "tags": [
+            "tesla",
+            "optimus",
+            "china",
+            "supply-chain",
+            "mass-production"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_dongfeng_xiaodong_factory",
+          "html": "<strong>Dongfeng Xiaodong</strong> (21 Sep 2026): Chinese automaker’s humanoid scheduled into factories by end of October for sorting, material handling &amp; QC; trial production by YE2026; small-batch 2027; human-worker-level target YE2027 (TechNode / CnEVPost)",
+          "plain": "Dongfeng Xiaodong (21 Sep 2026): Chinese automaker’s humanoid scheduled into factories by end of October for sorting, material handling & QC; trial production by YE2026; small-batch 2027; human-worker-level target YE2027 (TechNode / CnEVPost)",
+          "source": "TechNode / CnEVPost",
+          "url": "https://technode.com/2026/09/21/dongfengs-xiaodong-humanoid-robot-is-scheduled-to-enter-a-factory-in-october/",
+          "date": "2026-09-21",
+          "tags": [
+            "dongfeng",
+            "xiaodong",
+            "china",
+            "factory",
+            "humanoid"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260921_protoclone_comedy",
           "html": "<strong>Comedy:</strong> Clone Robotics Protoclone (Poland) — 206-bone skeleton + ~1,000 Myofiber muscles — goes viral as uncanny-valley nightmare fuel while still hanging from the ceiling; walking remains off the stage (no injuries; just vibes)",
@@ -645,55 +695,6 @@
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260912_ubtech_liuzhou_10k",
-          "html": "<strong>🇨🇳 UBTECH Liuzhou</strong> (12 Sep 2026): smart factory designed for &gt;10,000 Walker S / Cruzr humanoids a year — one every ~10 minutes; own robots on the line; Siemens digital twin; Walker S2 already at BYD/NIO/Foxconn/Dongfeng",
-          "plain": "UBTECH Liuzhou (12 Sep 2026): smart factory designed for >10,000 Walker S / Cruzr humanoids a year — one every ~10 minutes; own robots on the line; Siemens digital twin; Walker S2 already at BYD/NIO/Foxconn/Dongfeng",
-          "source": "The Robotics Media",
-          "url": "https://theroboticsmedia.com/article/ubtech-liuzhou-humanoid-robot-factory-10000-units-siemens-guangxi-september-12-2026",
-          "date": "2026-09-12",
-          "tags": [
-            "ubtech",
-            "china",
-            "factory",
-            "production",
-            "walker"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260920_china_tumble_data_comedy",
-          "html": "<strong>Comedy:</strong> China keeps building humanoid data centers despite public tumbles &amp; spilled tea — 22+ provincial hubs, Wuhan ~24k entries/day; Scale AI says China ~90% of commercial robot AI data (no injuries in this bit)",
-          "plain": "Comedy: China keeps building humanoid data centers despite public tumbles & spilled tea — 22+ provincial hubs, Wuhan ~24k entries/day; Scale AI says China ~90% of commercial robot AI data (no injuries in this bit)",
-          "source": "Seoul Economic Daily",
-          "url": "https://en.sedaily.com/international/2026/09/20/tumbling-robots-spilled-tea-chinas-humanoid-bet-pays-off-in",
-          "date": "2026-09-20",
-          "tags": [
-            "comedy",
-            "china",
-            "data",
-            "fail"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260915_agility_digit_5",
-          "html": "<strong>Agility Digit 5</strong> (15 Sep 2026): 5'11\" / 284 lb humanoid for shared aisles — 50 lb payload, ~90 min runtime, 9-min charge; early access 1H2027; claims $300M+ commitments (contingent)",
-          "plain": "Agility Digit 5 (15 Sep 2026): 5'11\" / 284 lb humanoid for shared aisles — 50 lb payload, ~90 min runtime, 9-min charge; early access 1H2027; claims $300M+ commitments (contingent)",
-          "source": "TechEBlog / Agility",
-          "url": "https://www.techeblog.com/agility-digit-5-humanoid-robot-reveal-hardware/",
-          "date": "2026-09-15",
-          "tags": [
-            "agility",
-            "digit5",
-            "us",
-            "warehouse"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -971,7 +972,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 71,
+      "overall": 72,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1200,6 +1201,23 @@
       ],
       "id": "skynet",
       "headlines": [
+        {
+          "id": "skynet_hl_20260921_ukraine_multi_drone_autonomy",
+          "html": "<strong>Ukraine autonomy demand</strong> (19 Sep 2026; covered 21 Sep): Frontline/Ark say soldiers want one operator running many drones — onboard autonomy for transit/return under jamming; MoD still claims human final engagement authority (Business Insider)",
+          "plain": "Ukraine autonomy demand (19 Sep 2026; covered 21 Sep): Frontline/Ark say soldiers want one operator running many drones — onboard autonomy for transit/return under jamming; MoD still claims human final engagement authority (Business Insider)",
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/ukraines-pilots-want-less-need-control-drones-industry-autonomy-ai-2026-9",
+          "date": "2026-09-19",
+          "tags": [
+            "ukraine",
+            "drones",
+            "autonomy",
+            "hitl",
+            "military-ai"
+          ],
+          "subcatId": "military_ai_systems",
+          "fighterId": "skynet"
+        },
         {
           "id": "skynet_hl_20260921_trump_ai_force_summit",
           "html": "<strong>Eve of Trump–Xi</strong> (21 Sep 2026): Trump announces an “AI Force” (Space Force model) + AI Czar while rejecting hard AI slowdowns; Bessent’s bilateral AI-incident <em>notification</em> track still on the table ahead of Thursday Washington summit (CSMonitor / BBC)",
@@ -1470,6 +1488,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-21_scan_1836_dublin",
+      "at": "2026-09-21T17:36:48.079Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~18:36 Dublin: Dongfeng Xiaodong humanoid to enter factories by end Oct (sorting/QC; trial production YE2026; human-level target YE2027) (TechNode/CnEVPost). Tesla expands Optimus Gen-3 mass-production audits beyond Ningbo across Yangtze Delta (Hangzhou/Shanghai; Tuopu/Sanhua/Joyson; orders already placed) (CnEVPost 21 Sep). Ukraine Frontline/Ark: soldiers demand multi-drone autonomy, less HITL stick time; MoD still claims human final engagement (Business Insider 19 Sep). Comedy: Chinese OEMs race factory Terminators while Unitree IPO learns gravity. T-800 progress to 66%. Skynet progress to 72%.",
+      "patchId": "patch_2026-09-21_scan_1836_dublin"
+    },
     {
       "id": "patch_2026-09-21_scan_1639_dublin",
       "at": "2026-09-21T15:42:00.322Z",
