@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-21T19:20:08.398Z",
+    "lastUpdated": "2026-09-21T21:27:46.075Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-21T20:18:00+01:00",
-    "lastScanSummary": "2h scan Sep 21 ~20:18 Dublin: UBTECH Liuzhou factory rated 10k+ humanoids/yr — one every 10 minutes, robots building robots (The Robotics Media). AgiBot A3 Ultra working dealerships/hotels/convenience stores (Yangtzeer). Figure Helix 2.5 hits 56% zero-shot chores in 30 unseen homes (Startup Fortune). CJCS Caine: assume US formations will be hunted by autonomous systems (DefenseScoop). Comedy — Russia’s AIDOL faceplants on Moscow debut. T-800 progress to 67%. Skynet progress to 73%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-21T22:25:00+01:00",
+    "lastScanSummary": "2h scan Sep 21 ~22:25 Dublin: Agility Digit 5 — first cooperatively safe uncaged warehouse humanoid (stops/backs/sits when humans near; 50 lb lift; 90-min run / 9-min charge; $300M multi-year order; early access H1 2027) (Manufacturing Dive). 🇨🇳 Galbot G1 at IFA Berlin demos live pharmacy retrieval (5k SKUs Beijing; 170+ China stores) 38 days after FCC banned its hardware category from the US (The Robotics Media). Comedy: Digit 5 crouches into a ball on approach — T-800 infiltration briefly fetal. T-800 progress to 68%. Skynet progress to 73%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 67,
+      "overall": 68,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,59 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260921_digit5_crouch_comedy",
+          "html": "<strong>Comedy:</strong> Agility’s Digit 5 promo shows the T-800-shaped warehouse unit stopping mid-task and crouching into a ball when a human walks up — infiltration protocol now includes fetal position (no injuries; just vibes)",
+          "plain": "Comedy: Agility’s Digit 5 promo shows the T-800-shaped warehouse unit stopping mid-task and crouching into a ball when a human walks up — infiltration protocol now includes fetal position (no injuries; just vibes)",
+          "source": "Manufacturing Dive (promo video frame)",
+          "url": "https://www.manufacturingdive.com/news/agility-debuts-safe-humanoid-digit-5-fanuc-universal-robot/830880/",
+          "date": "2026-09-21",
+          "tags": [
+            "comedy",
+            "agility",
+            "digit5",
+            "fail",
+            "safety"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_galbot_ifa_pharmacy_fcc",
+          "html": "<strong>🇨🇳 Galbot G1 @ IFA Berlin</strong> (updated 19 Sep 2026): wheeled semi-humanoid demos live shelf retrieval / crowded-floor navigation — already runs 5,000 SKUs at a licensed Beijing pharmacy (99.5% pick) + 170+ Store units across 40+ China cities; AstraBrain VLA stack (Grasp/Grocery/Track); arrives 38 days after FCC Covered List barred its hardware category from US imports (The Robotics Media)",
+          "plain": "Galbot G1 @ IFA Berlin (updated 19 Sep 2026): wheeled semi-humanoid demos live shelf retrieval / crowded-floor navigation — already runs 5,000 SKUs at a licensed Beijing pharmacy (99.5% pick) + 170+ Store units across 40+ China cities; AstraBrain VLA stack (Grasp/Grocery/Track); arrives 38 days after FCC Covered List barred its hardware category from US imports (The Robotics Media)",
+          "source": "The Robotics Media",
+          "url": "https://theroboticsmedia.com/article/beijing-galbot-g1-ifa-2026-pharmacy-china-national-intelligence-law",
+          "date": "2026-09-19",
+          "tags": [
+            "galbot",
+            "china",
+            "ifa",
+            "pharmacy",
+            "fcc",
+            "europe"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_agility_digit5_coop_safe",
+          "html": "<strong>Agility Digit 5</strong> (21 Sep 2026): marketed as first <em>cooperatively safe</em> uncaged warehouse humanoid — sensors + separate safety controller stop/back/sit when people approach; 5'11\" / 284 lb; 50 lb lift; ~90-min run / ~9-min charge (10:1); early customer access H1 2027; one customer plans $300M multi-year spend; $2.5B Churchill SPAC pending (Manufacturing Dive / Agility)",
+          "plain": "Agility Digit 5 (21 Sep 2026): marketed as first cooperatively safe uncaged warehouse humanoid — sensors + separate safety controller stop/back/sit when people approach; 5'11\" / 284 lb; 50 lb lift; ~90-min run / ~9-min charge (10:1); early customer access H1 2027; one customer plans $300M multi-year spend; $2.5B Churchill SPAC pending (Manufacturing Dive / Agility)",
+          "source": "Manufacturing Dive / Agility Robotics",
+          "url": "https://www.manufacturingdive.com/news/agility-debuts-safe-humanoid-digit-5-fanuc-universal-robot/830880/",
+          "date": "2026-09-21",
+          "tags": [
+            "agility",
+            "digit5",
+            "us",
+            "warehouse",
+            "safety",
+            "uncaged"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260921_aidol_moscow_faceplant_comedy",
           "html": "<strong>Comedy:</strong> Russia’s AIDOL humanoid faceplants on its Moscow debut stage (~14 Sep 2026) — calibration blamed, parts scatter, future of infiltration briefly horizontal (TechShots / NextGen Business)",
@@ -645,56 +698,6 @@
             "chimelong",
             "deployment",
             "theme-park"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260908_xpeng_iron_line",
-          "html": "<strong>🇨🇳 Xpeng Iron</strong> (8 Sep 2026 catch-up): humanoid production line operating — Iron walks off the line autonomously after assembly; company reiterates YE2026 mass production, China + overseas delivery targeted 2027 (CnEVPost)",
-          "plain": "Xpeng Iron (8 Sep 2026 catch-up): humanoid production line operating — Iron walks off the line autonomously after assembly; company reiterates YE2026 mass production, China + overseas delivery targeted 2027 (CnEVPost)",
-          "source": "CnEVPost",
-          "url": "https://cnevpost.com/2026/09/08/xpeng-opens-iron-humanoid-robot-production-line/",
-          "date": "2026-09-08",
-          "tags": [
-            "xpeng",
-            "iron",
-            "china",
-            "production",
-            "factory"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260825_whrg_cheer_twitch_comedy",
-          "html": "<strong>Comedy:</strong> WHRG cheerleading humanoid (Beijing, ~25 Aug 2026) loses balance, then twitches on the floor like a street-dance routine until staff carry it off — no injuries",
-          "plain": "Comedy: WHRG cheerleading humanoid (Beijing, ~25 Aug 2026) loses balance, then twitches on the floor like a street-dance routine until staff carry it off — no injuries",
-          "source": "Open Video / StringersHub",
-          "url": "https://open.video/@stringershub/v/china-cheerleading-robot-collapses-and-twitches-like-street-dancer-at-games-in-china",
-          "date": "2026-08-25",
-          "tags": [
-            "comedy",
-            "olympics",
-            "fail",
-            "china"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260918_optimus_ningbo_audits",
-          "html": "<strong>Tesla Optimus</strong> (17–18 Sep 2026): Chinese media report new Ningbo supplier audits (Sanhua / Joyson / Tuopu); component orders already placed for Fremont ramp — prep step, not a confirmed 50k-unit schedule",
-          "plain": "Tesla Optimus (17–18 Sep 2026): Chinese media report new Ningbo supplier audits (Sanhua / Joyson / Tuopu); component orders already placed for Fremont ramp — prep step, not a confirmed 50k-unit schedule",
-          "source": "Humanoids Daily / SCMP / 21CBH",
-          "url": "https://www.humanoidsdaily.com/news/tesla-optimus-supplier-audits-china",
-          "date": "2026-09-18",
-          "tags": [
-            "tesla",
-            "optimus",
-            "china",
-            "suppliers",
-            "fremont"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -1498,6 +1501,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-21_scan_2225_dublin",
+      "at": "2026-09-21T21:27:46.075Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~22:25 Dublin: Agility Digit 5 debuts as first cooperatively safe uncaged warehouse humanoid (50 lb / 90-min run / 9-min charge; $300M multi-year customer; early access H1 2027) (Manufacturing Dive 21 Sep). Galbot G1 wheeled clerk demos live pharmacy shifts at IFA Berlin — 5k SKUs Beijing pharmacy, 170+ China stores — 38 days after FCC Covered List barred its hardware category from US (The Robotics Media). Comedy: Digit 5 crouches into a ball when humans walk up — infiltration protocol now includes fetal position. T-800 progress to 68%. Skynet progress to 73%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-21_scan_2225_dublin"
+    },
     {
       "id": "patch_2026-09-21_scan_2018_dublin",
       "at": "2026-09-21T19:20:08.398Z",
