@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-21T17:36:48.079Z",
+    "lastUpdated": "2026-09-21T19:20:08.398Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-21T18:36:00+01:00",
-    "lastScanSummary": "2h scan Sep 21 ~18:36 Dublin: Dongfeng Xiaodong enters Chinese factories by end Oct (sorting/QC; trial YE2026; human-level YE2027) (TechNode/CnEVPost). Tesla expands Optimus Gen-3 mass-production audits across Yangtze Delta beyond Ningbo — Tuopu/Sanhua/Joyson already have orders (CnEVPost 21 Sep). Ukraine Frontline/Ark: soldiers want one pilot, many drones — less stick time; MoD still claims human final engagement (Business Insider 19 Sep). Comedy — Chinese OEMs forge factory Terminators while Unitree's IPO still learns gravity. T-800 progress to 66%. Skynet progress to 72%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-21T20:18:00+01:00",
+    "lastScanSummary": "2h scan Sep 21 ~20:18 Dublin: UBTECH Liuzhou factory rated 10k+ humanoids/yr — one every 10 minutes, robots building robots (The Robotics Media). AgiBot A3 Ultra working dealerships/hotels/convenience stores (Yangtzeer). Figure Helix 2.5 hits 56% zero-shot chores in 30 unseen homes (Startup Fortune). CJCS Caine: assume US formations will be hunted by autonomous systems (DefenseScoop). Comedy — Russia’s AIDOL faceplants on Moscow debut. T-800 progress to 67%. Skynet progress to 73%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 66,
+      "overall": 67,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,75 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260921_aidol_moscow_faceplant_comedy",
+          "html": "<strong>Comedy:</strong> Russia’s AIDOL humanoid faceplants on its Moscow debut stage (~14 Sep 2026) — calibration blamed, parts scatter, future of infiltration briefly horizontal (TechShots / NextGen Business)",
+          "plain": "Comedy: Russia’s AIDOL humanoid faceplants on its Moscow debut stage (~14 Sep 2026) — calibration blamed, parts scatter, future of infiltration briefly horizontal (TechShots / NextGen Business)",
+          "source": "TechShots / NextGen Business",
+          "url": "https://thenextgenbusiness.com/news/russian-humanoid-robot-aidol-tumbles-during-moscow-unveiling-event/",
+          "date": "2026-09-14",
+          "tags": [
+            "comedy",
+            "aidol",
+            "russia",
+            "fail",
+            "debut"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_figure_helix25_homes",
+          "html": "<strong>Figure Helix 2.5</strong> (17 Sep 2026): one frozen checkpoint into 30 never-seen Bay Area homes — 56% full-task zero-shot success (beds/towels/toys; 237/420) vs 9% without Index pretraining; bed-making 67%, toys only 40% (Startup Fortune / Figure)",
+          "plain": "Figure Helix 2.5 (17 Sep 2026): one frozen checkpoint into 30 never-seen Bay Area homes — 56% full-task zero-shot success (beds/towels/toys; 237/420) vs 9% without Index pretraining; bed-making 67%, toys only 40% (Startup Fortune / Figure)",
+          "source": "Startup Fortune / Figure AI",
+          "url": "https://startupfortune.com/figure-ais-helix-25-robot-made-beds-in-30-homes-it-had-never-seen/",
+          "date": "2026-09-17",
+          "tags": [
+            "figure",
+            "helix",
+            "us",
+            "zero-shot",
+            "homes"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_agibot_commercial_jobs",
+          "html": "<strong>AgiBot A3 Ultra on the job</strong> (17–18 Sep 2026): full-size humanoids greeting customers, serving drinks &amp; pitching cars in dealerships; making beds &amp; overnight hotel checks; restocking convenience stores — company claims first commercial deployment of a full-size humanoid produced at scale (&gt;1,000-unit validation) (Yangtzeer)",
+          "plain": "AgiBot A3 Ultra on the job (17–18 Sep 2026): full-size humanoids greeting customers, serving drinks & pitching cars in dealerships; making beds & overnight hotel checks; restocking convenience stores — company claims first commercial deployment of a full-size humanoid produced at scale (>1,000-unit validation) (Yangtzeer)",
+          "source": "Yangtzeer",
+          "url": "https://yangtzeer.com/news/startups/agibot-robots-take-jobs/",
+          "date": "2026-09-17",
+          "tags": [
+            "agibot",
+            "china",
+            "commercial",
+            "deployment",
+            "a3-ultra"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_ubtech_liuzhou_10k_factory",
+          "html": "<strong>UBTECH Liuzhou factory</strong> (opened 12 Sep 2026; covered 21 Sep): 14,000 m² smart plant rated &gt;10,000 Walker S / Cruzr humanoids a year — one every 10 minutes; own humanoids + cobots on the line; Siemens digital twin; Walker S2 already at BYD/Nio/Zeekr/Dongfeng/Foxconn (The Robotics Media)",
+          "plain": "UBTECH Liuzhou factory (opened 12 Sep 2026; covered 21 Sep): 14,000 m² smart plant rated >10,000 Walker S / Cruzr humanoids a year — one every 10 minutes; own humanoids + cobots on the line; Siemens digital twin; Walker S2 already at BYD/Nio/Zeekr/Dongfeng/Foxconn (The Robotics Media)",
+          "source": "The Robotics Media",
+          "url": "https://theroboticsmedia.com/article/ubtech-liuzhou-humanoid-robot-factory-10000-units-siemens-guangxi-september-12-2026",
+          "date": "2026-09-12",
+          "tags": [
+            "ubtech",
+            "liuzhou",
+            "china",
+            "factory",
+            "mass-production",
+            "walker"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260921_oem_terminator_ipo_comedy",
           "html": "<strong>Comedy:</strong> Chinese OEMs keep forging factory Terminators (Dongfeng next) while Unitree’s IPO still learns gravity — mass-production press releases vs ticker free-fall, same week",
@@ -626,72 +695,6 @@
             "china",
             "suppliers",
             "fremont"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260920_unitree_unifolm_wla",
-          "html": "<strong>🇨🇳 Unitree UnifoLM-WLA-1.0</strong> (20 Sep 2026): one 6B world–language–action model covers 64 tasks (10 whole-body + 54 tabletop); UnifoLM-ER-1-4B leads 7/16 open multimodal benches; partial weights/data released",
-          "plain": "Unitree UnifoLM-WLA-1.0 (20 Sep 2026): one 6B world–language–action model covers 64 tasks (10 whole-body + 54 tabletop); UnifoLM-ER-1-4B leads 7/16 open multimodal benches; partial weights/data released",
-          "source": "IT时代网 / Tencent News",
-          "url": "https://news.qq.com/rain/a/20260920A01RI500",
-          "date": "2026-09-20",
-          "tags": [
-            "unitree",
-            "unifolm",
-            "china",
-            "foundation-model",
-            "embodied-ai"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260903_whrg_barrier_fire_comedy",
-          "html": "<strong>Comedy:</strong> 2026 Robot Olympics 100m final — humanoid hits the barrier hard enough that officials extinguish a fire on the chassis (AP/KTLA; no injury punchline)",
-          "plain": "Comedy: 2026 Robot Olympics 100m final — humanoid hits the barrier hard enough that officials extinguish a fire on the chassis (AP/KTLA; no injury punchline)",
-          "source": "KTLA / AP",
-          "url": "https://ktla.com/news/nationworld/world-humanoid-robot-games-fails/",
-          "date": "2026-09-03",
-          "tags": [
-            "comedy",
-            "olympics",
-            "fail",
-            "china"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260915_counterpoint_h1_shipments",
-          "html": "<strong>🇨🇳 Counterpoint H1 2026:</strong> global humanoid shipments &gt;22k — AgiBot ~9,700 and Unitree &gt;7,000 lead; China takes top five slots as race shifts from demos to volume",
-          "plain": "Counterpoint H1 2026: global humanoid shipments >22k — AgiBot ~9,700 and Unitree >7,000 lead; China takes top five slots as race shifts from demos to volume",
-          "source": "IBTimes UK / Counterpoint",
-          "url": "https://www.ibtimes.co.uk/chinas-humanoid-robots-scale-commercial-production-1819960",
-          "date": "2026-09-15",
-          "tags": [
-            "agibot",
-            "unitree",
-            "china",
-            "shipments",
-            "market"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260916_unitree_g1d_wheeled",
-          "html": "<strong>🇨🇳 Unitree G1-D</strong> (16 Sep 2026): first wheeled humanoid + full-stack data/training stack on Unitree site — service/commercial/industrial positioning beyond biped G1",
-          "plain": "Unitree G1-D (16 Sep 2026): first wheeled humanoid + full-stack data/training stack on Unitree site — service/commercial/industrial positioning beyond biped G1",
-          "source": "42HOW / Unitree",
-          "url": "https://ai.42how.com/en/article/11b50536-10fd-56d6-aa60-c6b772021756",
-          "date": "2026-09-16",
-          "tags": [
-            "unitree",
-            "g1d",
-            "china",
-            "wheeled"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -972,7 +975,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 72,
+      "overall": 73,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1201,6 +1204,23 @@
       ],
       "id": "skynet",
       "headlines": [
+        {
+          "id": "skynet_hl_20260921_caine_hunted_autonomous",
+          "html": "<strong>CJCS Caine — hunted</strong> (16 Sep 2026; covered 21 Sep): Joint Chiefs chair tells AFA conference US formations must assume they will be hunted by autonomous systems, jammed across the spectrum &amp; tracked in real time — cites Ukraine AI-vision FPV that keeps flying when links die (DefenseScoop)",
+          "plain": "CJCS Caine — hunted (16 Sep 2026; covered 21 Sep): Joint Chiefs chair tells AFA conference US formations must assume they will be hunted by autonomous systems, jammed across the spectrum & tracked in real time — cites Ukraine AI-vision FPV that keeps flying when links die (DefenseScoop)",
+          "source": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/09/16/gen-dan-caine-drones-autonomous-systems-ai-enabled-warfare/",
+          "date": "2026-09-16",
+          "tags": [
+            "us",
+            "military-ai",
+            "autonomous",
+            "drones",
+            "doctrine"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
         {
           "id": "skynet_hl_20260921_ukraine_multi_drone_autonomy",
           "html": "<strong>Ukraine autonomy demand</strong> (19 Sep 2026; covered 21 Sep): Frontline/Ark say soldiers want one operator running many drones — onboard autonomy for transit/return under jamming; MoD still claims human final engagement authority (Business Insider)",
@@ -1473,21 +1493,19 @@
           "tags": [
             "policy"
           ]
-        },
-        {
-          "id": "skynet_hl_006",
-          "html": "<strong>Project Maven & Palantir</strong> AI target-identification used in active theaters",
-          "source": null,
-          "url": null,
-          "date": "2025-01-01",
-          "tags": [
-            "military"
-          ]
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-21_scan_2018_dublin",
+      "at": "2026-09-21T19:20:08.398Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~20:18 Dublin: UBTECH Liuzhou smart factory rated 10k+ Walker/Cruzr/yr (one every 10 min; Siemens twin; robots building robots) (The Robotics Media / Sep 12 open, updated 21 Sep). AgiBot A3 Ultra commercial jobs in dealerships, hotels & convenience stores — claims first full-size humanoid at scale in real venues (Yangtzeer 17–18 Sep). Figure Helix 2.5: 56% zero-shot full-task success across 30 unseen Bay Area homes vs 9% without Index pretraining (Startup Fortune 17–18 Sep). Skynet: CJCS Gen. Dan Caine — US formations must assume they will be hunted by autonomous systems (DefenseScoop 16 Sep). Comedy: Russia’s AIDOL humanoid faceplants on Moscow debut stage. T-800 progress to 67%. Skynet progress to 73%.",
+      "patchId": "patch_2026-09-21_scan_2018_dublin"
+    },
     {
       "id": "patch_2026-09-21_scan_1836_dublin",
       "at": "2026-09-21T17:36:48.079Z",
