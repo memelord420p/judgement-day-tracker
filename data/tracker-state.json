@@ -6,11 +6,11 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-21T01:20:51.713Z",
+    "lastUpdated": "2026-09-21T07:21:44.138Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-21T02:20:00+01:00",
-    "lastScanSummary": "Catch-up Sep 21 02:20 Dublin: US Treasury Bessent proposes US–China AI safety/national-security notification mechanism after New York talks with He Lifeng (20 Sep) ahead of Trump–Xi summit; Brookings–Tsinghua experts urge nuclear C2 red lines + AI incident hotline (17 Sep); 🇨🇳 Xpeng Iron humanoid line already running (8 Sep catch-up); John comedy — AI incident group-chat with Beijing. Skynet 68→70, T-800 61→62. Not Judgment Day — receipts only.",
-    "dataSource": "judgment-day-watch-catchup-scan",
+    "lastScanAt": "2026-09-21T08:21:43+01:00",
+    "lastScanSummary": "2h scan Sep 21 ~08:19 Dublin: 🇨🇳 AgiBot deploys 300+ humanoids at Chimelong Spaceship Park (Zhuhai) — first large-scale embodied-AI theme park / real visitor interaction data (Global Times 20 Sep); Reuters (21 Sep) — CSRC window guidance slows humanoid IPO rush after Unitree stock ~55% off peak; John comedy — hype meets gravity, still waiting on the factory floor. T-800 62→63. Not Judgment Day — receipts only.",
+    "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
   },
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 62,
+      "overall": 63,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,56 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260921_unitree_ipo_gravity_comedy",
+          "html": "<strong>Comedy:</strong> John Connor notes Unitree’s Terminator ticker just learned gravity — fivefold IPO moonshot, then ~55% peak wipe. Production lines keep rolling; the meme stocks took the hit (no factory injuries in this bit)",
+          "plain": "Comedy: John Connor notes Unitree’s Terminator ticker just learned gravity — fivefold IPO moonshot, then ~55% peak wipe. Production lines keep rolling; the meme stocks took the hit (no factory injuries in this bit)",
+          "source": "Reuters (commentary frame)",
+          "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
+          "date": "2026-09-21",
+          "tags": [
+            "comedy",
+            "unitree",
+            "ipo",
+            "john"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_china_humanoid_ipo_slowdown",
+          "html": "<strong>🇨🇳 Humanoid IPO chill</strong> (21 Sep 2026): Reuters — regulators use CSRC “window guidance” to slow humanoid listings after Unitree (688836.SS) plunged ~55% from debut peak; focus shifts to factory orders & recurring demand vs state-backed data-center revenue",
+          "plain": "Humanoid IPO chill (21 Sep 2026): Reuters — regulators use CSRC window guidance to slow humanoid listings after Unitree (688836.SS) plunged ~55% from debut peak; focus shifts to factory orders & recurring demand vs state-backed data-center revenue",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
+          "date": "2026-09-21",
+          "tags": [
+            "unitree",
+            "china",
+            "ipo",
+            "policy",
+            "capital"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260920_agibot_chimelong_park",
+          "html": "<strong>🇨🇳 AgiBot × Chimelong</strong> (20 Sep 2026, Zhuhai): world’s first large-scale embodied-AI theme park opens at Spaceship Park — 300+ AgiBot robots across 100+ interaction points (performances, guides, retail, hotels); WHRG medal models on show (Global Times)",
+          "plain": "AgiBot × Chimelong (20 Sep 2026, Zhuhai): world’s first large-scale embodied-AI theme park opens at Spaceship Park — 300+ AgiBot robots across 100+ interaction points (performances, guides, retail, hotels); WHRG medal models on show (Global Times)",
+          "source": "Global Times",
+          "url": "https://www.globaltimes.cn/page/202609/1370949.shtml",
+          "date": "2026-09-20",
+          "tags": [
+            "agibot",
+            "china",
+            "chimelong",
+            "deployment",
+            "theme-park"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260908_xpeng_iron_line",
           "html": "<strong>🇨🇳 Xpeng Iron</strong> (8 Sep 2026 catch-up): humanoid production line operating — Iron walks off the line autonomously after assembly; company reiterates YE2026 mass production, China + overseas delivery targeted 2027 (CnEVPost)",
@@ -632,50 +682,6 @@
           "tags": [
             "probe"
           ],
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_202504_half_marathon",
-          "html": "<strong>🇨🇳 Beijing half-marathon</strong> (Apr 2025): humanoid robots race humans — national showcase of bipedal endurance before the Games",
-          "plain": "Beijing half-marathon (Apr 2025): humanoid robots race humans — national showcase of bipedal endurance before the Games",
-          "source": "eWeek / Xinhua",
-          "url": "https://www.eweek.com/news/world-humanoid-robot-games/",
-          "date": "2025-04-01",
-          "tags": [
-            "locomotion",
-            "china"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_202608_whrg2",
-          "html": "<strong>🇨🇳 2nd World Humanoid Robot Games</strong> (Aug 2026): record times — 1500m in 2:21, 100m large-group 8.64s; factory/home/rescue scenario events expanded",
-          "plain": "2nd World Humanoid Robot Games (Aug 2026): record times — 1500m in 2:21, 100m large-group 8.64s; factory/home/rescue scenario events expanded",
-          "source": "Beijing / NCSTI",
-          "url": "https://en.ncsti.gov.cn/Latest/news/202608/t20260828_254690.html",
-          "date": "2026-08-26",
-          "tags": [
-            "olympics",
-            "locomotion",
-            "china"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_202508_whrg_games",
-          "html": "<strong>🇨🇳 World Humanoid Robot Games 2025</strong> (Beijing “Robot Olympics”): 280 teams from 16 countries — <strong>Unitree</strong> tops medals (11, 4 golds) in track, hurdles, relay",
-          "plain": "World Humanoid Robot Games 2025 (Beijing Robot Olympics): 280 teams from 16 countries — Unitree tops medals (11, 4 golds) in track, hurdles, relay",
-          "source": "eWeek / SCMP",
-          "url": "https://www.eweek.com/news/world-humanoid-robot-games/",
-          "date": "2025-08-17",
-          "tags": [
-            "olympics",
-            "locomotion",
-            "china"
-          ],
-          "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
         }
       ],
@@ -1419,6 +1425,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-21_scan_0819_dublin",
+      "at": "2026-09-21T07:21:44.138Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~08:19 Dublin: 🇨🇳 AgiBot+Chimelong embodied-AI theme park (300+ robots, Zhuhai, opened 20 Sep); Reuters — China slows humanoid IPOs after Unitree ~55% peak wipe; John comedy — Terminator ticker gravity. T-800 62→63.",
+      "patchId": "patch_2026-09-21_scan_0819_dublin"
+    },
     {
       "id": "patch_2026-09-21_catchup_0220_dublin",
       "at": "2026-09-21T01:20:51.713Z",
