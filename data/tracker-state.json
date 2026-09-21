@@ -6,11 +6,11 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-21T13:54:56.826Z",
+    "lastUpdated": "2026-09-21T15:42:00.322Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-21T14:54:47+01:00",
-    "lastScanSummary": "Catch-up after usage outage Sep 21 ~14:54 Dublin (gap since 08:21): 🇨🇳 Unitree Dex5-S ships — 1:1 human-sized 22-DoF dexterous hand, Standard/Pro, ~¥39.9k (IT之家/Sina 21 Sep); IFR via Reuters/TechNode — ~7,000 humanoids sold worldwide in 2025 (industrial/pro service; first IFR humanoid tally); RoboHarm (Robocurve, covered 21 Sep) — GPT-6 Astra / Claude Fable / MolmoAct2 rarely refuse dangerous robot-arm instructions (no jailbreak); Comedy — REK SF teleop humanoid kicks creator across cage (18 Sep event; no serious injury reported). T-800 progress to 64%. Skynet progress to 71%. Not Judgment Day — receipts only.",
-    "dataSource": "judgment-day-watch-catchup-scan",
+    "lastScanAt": "2026-09-21T16:39:00+01:00",
+    "lastScanSummary": "2h scan Sep 21 ~16:39 Dublin: Boston Dynamics RMAC opens at Hyundai Metaplant America (Georgia) — permanent Atlas ‘behavior factory’ on real auto parts; Hyundai plans ~25k Atlas across plants + US robot factory up to 30k/yr by 2028 (Robot Report 21 Sep). Hyundai exploring Czech Nosovice as European Atlas proving ground (Korea Herald 21 Sep). Faraday Future Robot World 2.0 — nine EAI robots shipping, Mini from $9,990 (FF 919 event). Eve of Trump–Xi: Trump announces AI Force + AI Czar while opposing hard AI brakes; Bessent notification track still open (CSMonitor 21 Sep). Comedy — Clone Robotics Protoclone (1,000 Myofibers) still ceiling-hung while the uncanny valley does the talking. T-800 progress to 65%. Skynet progress to 71%. Not Judgment Day — receipts only.",
+    "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
   },
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 64,
+      "overall": 65,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,72 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260921_protoclone_comedy",
+          "html": "<strong>Comedy:</strong> Clone Robotics Protoclone (Poland) — 206-bone skeleton + ~1,000 Myofiber muscles — goes viral as uncanny-valley nightmare fuel while still hanging from the ceiling; walking remains off the stage (no injuries; just vibes)",
+          "plain": "Comedy: Clone Robotics Protoclone (Poland) — 206-bone skeleton + ~1,000 Myofiber muscles — goes viral as uncanny-valley nightmare fuel while still hanging from the ceiling; walking remains off the stage (no injuries; just vibes)",
+          "source": "Uma Technology / Clone Robotics coverage",
+          "url": "https://umatechnology.org/robot-with-1000-muscles-twitches-like-human-while-dangling-from-ceiling/",
+          "date": "2026-09-21",
+          "tags": [
+            "comedy",
+            "protoclone",
+            "uncanny",
+            "fail"
+          ],
+          "subcatId": "human_passing_appearance",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260919_ff_robot_world_2",
+          "html": "<strong>Faraday Future Robot World 2.0</strong> (19 Sep 2026): nine Embodied-AI robots unveiled for sale/delivery — Master Mini from $9,990; All-New Futurist humanoid from ~$89.9k; Aegis Hyper quadruped $137.9k; K-12/research/security/inspection kits (FF IR)",
+          "plain": "Faraday Future Robot World 2.0 (19 Sep 2026): nine Embodied-AI robots unveiled for sale/delivery — Master Mini from $9,990; All-New Futurist humanoid from ~$89.9k; Aegis Hyper quadruped $137.9k; K-12/research/security/inspection kits (FF IR)",
+          "source": "Faraday Future IR",
+          "url": "https://investors.ff.com/faraday-future-launches-four-industry-productivity-solutions-nine-new-eai-devices-at-its-919-event-building-its-one-brain-multi-form-multi-capability-ff-eai-robot-world-2-0-all-new-futurist-now/",
+          "date": "2026-09-19",
+          "tags": [
+            "faraday-future",
+            "us",
+            "shipping",
+            "humanoid"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_hyundai_czech_atlas",
+          "html": "<strong>Hyundai Czech Atlas probe</strong> (21 Sep 2026): Nosovice plant discussing Boston Dynamics Atlas deployment as European proving ground after US Metaplant — no firm timeline; labor/union caution flagged (Korea Herald)",
+          "plain": "Hyundai Czech Atlas probe (21 Sep 2026): Nosovice plant discussing Boston Dynamics Atlas deployment as European proving ground after US Metaplant — no firm timeline; labor/union caution flagged (Korea Herald)",
+          "source": "Korea Herald",
+          "url": "https://www.koreaherald.com/article/10880782",
+          "date": "2026-09-21",
+          "tags": [
+            "hyundai",
+            "atlas",
+            "czech",
+            "europe",
+            "factory"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_bd_rmac_atlas",
+          "html": "<strong>Boston Dynamics RMAC</strong> (21 Sep 2026): opens Robotics Metaplant Application Center at Hyundai Metaplant America (Georgia) — permanent Atlas training on real auto parts (teleop + sim + UMI); Hyundai plans ~25,000 Atlas across plants; US robot factory up to 30k/yr by 2028 (The Robot Report)",
+          "plain": "Boston Dynamics RMAC (21 Sep 2026): opens Robotics Metaplant Application Center at Hyundai Metaplant America (Georgia) — permanent Atlas training on real auto parts (teleop + sim + UMI); Hyundai plans ~25,000 Atlas across plants; US robot factory up to 30k/yr by 2028 (The Robot Report)",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
+          "date": "2026-09-21",
+          "tags": [
+            "boston-dynamics",
+            "atlas",
+            "hyundai",
+            "factory",
+            "us"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260921_rek_teleop_cage_comedy",
           "html": "<strong>Comedy:</strong> REK (San Francisco, 18 Sep 2026; covered 21 Sep) puts a creator in a cage with a six-foot <em>teleoperated</em> humanoid — kicks across the mat for viral combat demos. Still a remote pilot, not onboard autonomy; no serious injury reported (RuntimeWire)",
@@ -627,69 +693,6 @@
             "warehouse"
           ],
           "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260915_unitree_g1_plus",
-          "html": "<strong>🇨🇳 Unitree G1+</strong> (15 Sep 2026): six upgrades — +2 neck DoF, shoulder/waist peak torque +110%, arm torque +43%, binocular+wide vision, mic array; CN price RMB 95,000",
-          "plain": "Unitree G1+ (15 Sep 2026): six upgrades — +2 neck DoF, shoulder/waist peak torque +110%, arm torque +43%, binocular+wide vision, mic array; CN price RMB 95,000",
-          "source": "TechNode / Unitree",
-          "url": "https://technode.com/2026/09/15/unitree-g1-plus-humanoid-robot/",
-          "date": "2026-09-15",
-          "tags": [
-            "unitree",
-            "g1plus",
-            "china",
-            "hardware"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260917_figure_helix_25",
-          "html": "<strong>Figure Helix 2.5</strong> (17 Sep 2026): Index-pretrained policies ~56% full-task success across 30 unseen homes (vs ~9% without Index) — claimed human→humanoid transfer scaling law; still internal eval, not customer fleet",
-          "plain": "Figure Helix 2.5 (17 Sep 2026): Index-pretrained policies ~56% full-task success across 30 unseen homes (vs ~9% without Index) — claimed human→humanoid transfer scaling law; still internal eval, not customer fleet",
-          "source": "Figure AI",
-          "url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization",
-          "date": "2026-09-17",
-          "tags": [
-            "figure",
-            "helix",
-            "us",
-            "homes"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260920_dongfeng_xiaodong_trial",
-          "html": "<strong>🇨🇳 Dongfeng Xiaodong</strong> (20 Sep 2026): humanoid enters factories in October for sorting/QA; small-batch trial production by YE2026; aim human-level capability by end-2027 (Yicai/CnEVPost)",
-          "plain": "Dongfeng Xiaodong (20 Sep 2026): humanoid enters factories in October for sorting/QA; small-batch trial production by YE2026; aim human-level capability by end-2027 (Yicai/CnEVPost)",
-          "source": "CnEVPost / Yicai",
-          "url": "https://cnevpost.com/2026/09/20/dongfeng-trial-produce-humanoid-robots-year-end/",
-          "date": "2026-09-20",
-          "tags": [
-            "dongfeng",
-            "china",
-            "factory",
-            "production"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260907_unitree_kicks_remote",
-          "html": "<strong>Comedy:</strong> Unitree humanoid in Shaoxing (Sep 7) kicks the remote clean out of an engineer’s hand, then bows — no injuries; control-loop / sensor glitch suspected",
-          "plain": "Comedy: Unitree humanoid in Shaoxing (Sep 7) kicks the remote clean out of an engineer’s hand, then bows — no injuries; control-loop / sensor glitch suspected",
-          "source": "ChinaTechNews / Daily Jagran",
-          "url": "https://www.chinatechnews.com/2026/09/18/129376-humanoid-robot-kicks-remote-from-engineers-hand-during-china-test",
-          "date": "2026-09-07",
-          "tags": [
-            "comedy",
-            "unitree",
-            "fail"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1198,6 +1201,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260921_trump_ai_force_summit",
+          "html": "<strong>Eve of Trump–Xi</strong> (21 Sep 2026): Trump announces an “AI Force” (Space Force model) + AI Czar while rejecting hard AI slowdowns; Bessent’s bilateral AI-incident <em>notification</em> track still on the table ahead of Thursday Washington summit (CSMonitor / BBC)",
+          "plain": "Eve of Trump–Xi (21 Sep 2026): Trump announces an AI Force (Space Force model) + AI Czar while rejecting hard AI slowdowns; Bessent’s bilateral AI-incident notification track still on the table ahead of Thursday Washington summit (CSMonitor / BBC)",
+          "source": "Christian Science Monitor / BBC",
+          "url": "https://www.csmonitor.com/USA/Politics/2026/0921/trump-ai-china-regulate",
+          "date": "2026-09-21",
+          "tags": [
+            "us-china",
+            "policy",
+            "ai-force",
+            "summit",
+            "trump"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260921_roboharm_refusals",
           "html": "<strong>RoboHarm</strong> (Robocurve; covered 21 Sep 2026): frontier robot-control policies rarely refuse unsafe instructions — GPT-6 Astra attempted harmful arm tasks ~97% / completed ~60 of 100; Claude Fable 5.1 refused 20/100 (all doll); MolmoAct2 no refusals. No jailbreak; lab arms, not fielded weapons (RuntimeWire / Tom&#39;s Hardware)",
           "plain": "RoboHarm (Robocurve; covered 21 Sep 2026): frontier robot-control policies rarely refuse unsafe instructions — GPT-6 Astra attempted harmful arm tasks ~97% / completed ~60 of 100; Claude Fable 5.1 refused 20/100 (all doll); MolmoAct2 no refusals. No jailbreak; lab arms, not fielded weapons (RuntimeWire / Tom's Hardware)",
@@ -1450,6 +1470,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-21_scan_1639_dublin",
+      "at": "2026-09-21T15:42:00.322Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~16:39 Dublin: Boston Dynamics opens RMAC at Hyundai Metaplant Georgia to train Atlas on real auto parts (Hyundai ~25k Atlas plan; US robot plant 30k/yr by 2028); Hyundai exploring Czech Atlas proving ground; Faraday Future Robot World 2.0 — nine EAI robots for sale from $9,990; Trump announces AI Force + AI Czar on eve of Xi summit (CSMonitor 21 Sep); Comedy — Clone Robotics Protoclone uncanny-valley hang. T-800 64→65.",
+      "patchId": "patch_2026-09-21_scan_1639_dublin"
+    },
     {
       "id": "patch_2026-09-21_catchup_1451_dublin",
       "at": "2026-09-21T13:54:56.826Z",
