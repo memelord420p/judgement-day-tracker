@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-22T15:56:06.051Z",
+    "lastUpdated": "2026-09-22T17:29:40.056Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-22T16:55:00+01:00",
-    "lastScanSummary": "2h scan Sep 22 ~16:46 Dublin (+backfill): China 70+ robot schools; XPENG Iron walks off line; PrimeBOT ¥19,999; Robros teleop comedy. Backfill: 20 countries+EU frontier-AI oversight (US/China out); SIAT gallium STERS hydrogel; Stretch 4 sold-out run; IFR ~7k humanoid sales 2025 comedy. T-800 progress to 72%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-22T18:27:00+01:00",
+    "lastScanSummary": "2h scan Sep 22 ~18:27 Dublin: BD/Hyundai Atlas RMAC robot school at Metaplant Georgia (full-scale; 25k Atlas plan). Gap: Tesla Optimus Gen-3 China supplier audits for mass prod. Gap: Toyota ~400k factory robots (mixed) from 2028. T-1000: Nature Comms liquid-metal self-heal polymers (lab). Comedy: Atlas late to China's 70+ robot schools. T-800 progress to 73%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 72,
+      "overall": 73,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,78 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260922_atlas_robot_school_comedy",
+          "html": "<strong>Comedy:</strong> Atlas just enrolled in factory school at Hyundai’s Georgia Metaplant — logistics homework, sequencing quizzes, assembly by 2030. China already runs <em>70+</em> robot campuses. The American kids are late to class (no injuries; just attendance)",
+          "plain": "Comedy: Atlas just enrolled in factory school at Hyundai’s Georgia Metaplant — logistics homework, sequencing quizzes, assembly by 2030. China already runs 70+ robot campuses. The American kids are late to class (no injuries; just attendance)",
+          "source": "Boston Dynamics / Xinhua (comedy frame)",
+          "url": "https://en.sedaily.com/finance/2026/09/22/hyundai-opens-robot-training-center-at-us-metaplant-for",
+          "date": "2026-09-22",
+          "tags": [
+            "comedy",
+            "atlas",
+            "rmac",
+            "robot-school",
+            "fail"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_toyota_400k_robots_gap",
+          "html": "<strong>🇯🇵 Toyota factory automation gap</strong> (18 Sep 2026): estimates ~¥1 trillion (~$6.4B) <em>per year</em> from 2028 to modernise factories — ~<em>400,000</em> robots across Toyota, group firms &amp; major suppliers (replacements + new installs; <em>humanoid and non-humanoid</em> mix, not a pure Ellie army); Bernstein: robotics announcements should accelerate (Reuters)",
+          "plain": "Toyota factory automation gap (18 Sep 2026): estimates ~¥1 trillion (~$6.4B) per year from 2028 to modernise factories — ~400,000 robots across Toyota, group firms & major suppliers (replacements + new installs; humanoid and non-humanoid mix, not a pure Ellie army); Bernstein: robotics announcements should accelerate (Reuters)",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/business/autos-transportation/toyota-estimates-factory-automation-could-cost-64-billion-per-year-2028-2026-09-18/",
+          "date": "2026-09-18",
+          "tags": [
+            "toyota",
+            "factory",
+            "automation",
+            "japan",
+            "gap-fill",
+            "humanoid"
+          ],
+          "subcatId": "factory_scale_production",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_tesla_optimus_china_audits_gap",
+          "html": "<strong>🇨🇳 Tesla Optimus Gen-3 supply-chain audits</strong> (gap; 21–22 Sep 2026): humanoid team auditing Yangtze Delta suppliers (Ningbo/Hangzhou/Shanghai) incl. Tuopu / Sanhua / Joyson — joint modules, actuators, precision structure; several already hold Optimus orders; production starts after pass; Gen-3 first volume-production Optimus for material handling / simple line assist; Fremont S/X line converted (claimed <em>1M</em>/yr capacity); Texas Gigafactory second line long-term design <em>10M</em>/yr (CnEVPost / The Paper / Global Times)",
+          "plain": "Tesla Optimus Gen-3 supply-chain audits (gap; 21–22 Sep 2026): humanoid team auditing Yangtze Delta suppliers (Ningbo/Hangzhou/Shanghai) incl. Tuopu / Sanhua / Joyson — joint modules, actuators, precision structure; several already hold Optimus orders; production starts after pass; Gen-3 first volume-production Optimus for material handling / simple line assist; Fremont S/X line converted (claimed 1M/yr capacity); Texas Gigafactory second line long-term design 10M/yr (CnEVPost / The Paper / Global Times)",
+          "source": "CnEVPost / The Paper / Global Times",
+          "url": "https://cnevpost.com/2026/09/21/tesla-audits-china-suppliers-optimus-mass-production/",
+          "date": "2026-09-21",
+          "tags": [
+            "tesla",
+            "optimus",
+            "china",
+            "supply-chain",
+            "mass-production",
+            "gap-fill"
+          ],
+          "subcatId": "factory_scale_production",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_bd_rmac_atlas_metaplant",
+          "html": "<strong>🇺🇸 Boston Dynamics RMAC</strong> (21–22 Sep 2026): Robotics Metaplant Application Center opens full-scale inside Hyundai Metaplant America (Georgia) — Atlas trains on auto-parts logistics &amp; sequencing in a real plant twin; joins HMGMA processes from <em>2028</em> (assembly by 2030); Hyundai/Kia plan <em>25,000</em> Atlas units; US robot plant <em>30,000</em>/yr; RMAC ~10× larger in 2027; Spot/Stretch customers scout aerospace/semiconductor/logistics (Boston Dynamics / SED / Asiae)",
+          "plain": "Boston Dynamics RMAC (21–22 Sep 2026): Robotics Metaplant Application Center opens full-scale inside Hyundai Metaplant America (Georgia) — Atlas trains on auto-parts logistics & sequencing in a real plant twin; joins HMGMA processes from 2028 (assembly by 2030); Hyundai/Kia plan 25,000 Atlas units; US robot plant 30,000/yr; RMAC ~10× larger in 2027; Spot/Stretch customers scout aerospace/semiconductor/logistics (Boston Dynamics / SED / Asiae)",
+          "source": "Boston Dynamics / Seoul Economic Daily / Asiae",
+          "url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks/",
+          "date": "2026-09-22",
+          "tags": [
+            "boston-dynamics",
+            "atlas",
+            "rmac",
+            "hyundai",
+            "metaplant",
+            "us",
+            "factory"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260921_ifr_7000_sales_comedy",
           "html": "<strong>Comedy:</strong> IFR’s first humanoid tally: ~<em>7,000</em> sold worldwide in 2025 for industrial/professional use — vs ~542,000 regular industrial robots installed in 2024. Many \"Terminators\" were research/data-collection units, not factory assassins. BofA still forecasts 90k shipments in 2026 (Reuters)",
@@ -647,76 +719,6 @@
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_digit5_crouch_comedy",
-          "html": "<strong>Comedy:</strong> Agility’s Digit 5 promo shows the T-800-shaped warehouse unit stopping mid-task and crouching into a ball when a human walks up — infiltration protocol now includes fetal position (no injuries; just vibes)",
-          "plain": "Comedy: Agility’s Digit 5 promo shows the T-800-shaped warehouse unit stopping mid-task and crouching into a ball when a human walks up — infiltration protocol now includes fetal position (no injuries; just vibes)",
-          "source": "Manufacturing Dive (promo video frame)",
-          "url": "https://www.manufacturingdive.com/news/agility-debuts-safe-humanoid-digit-5-fanuc-universal-robot/830880/",
-          "date": "2026-09-21",
-          "tags": [
-            "comedy",
-            "agility",
-            "digit5",
-            "fail",
-            "safety"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_galbot_ifa_pharmacy_fcc",
-          "html": "<strong>🇨🇳 Galbot G1 @ IFA Berlin</strong> (updated 19 Sep 2026): wheeled semi-humanoid demos live shelf retrieval / crowded-floor navigation — already runs 5,000 SKUs at a licensed Beijing pharmacy (99.5% pick) + 170+ Store units across 40+ China cities; AstraBrain VLA stack (Grasp/Grocery/Track); arrives 38 days after FCC Covered List barred its hardware category from US imports (The Robotics Media)",
-          "plain": "Galbot G1 @ IFA Berlin (updated 19 Sep 2026): wheeled semi-humanoid demos live shelf retrieval / crowded-floor navigation — already runs 5,000 SKUs at a licensed Beijing pharmacy (99.5% pick) + 170+ Store units across 40+ China cities; AstraBrain VLA stack (Grasp/Grocery/Track); arrives 38 days after FCC Covered List barred its hardware category from US imports (The Robotics Media)",
-          "source": "The Robotics Media",
-          "url": "https://theroboticsmedia.com/article/beijing-galbot-g1-ifa-2026-pharmacy-china-national-intelligence-law",
-          "date": "2026-09-19",
-          "tags": [
-            "galbot",
-            "china",
-            "ifa",
-            "pharmacy",
-            "fcc",
-            "europe"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_agility_digit5_coop_safe",
-          "html": "<strong>Agility Digit 5</strong> (21 Sep 2026): marketed as first <em>cooperatively safe</em> uncaged warehouse humanoid — sensors + separate safety controller stop/back/sit when people approach; 5'11\" / 284 lb; 50 lb lift; ~90-min run / ~9-min charge (10:1); early customer access H1 2027; one customer plans $300M multi-year spend; $2.5B Churchill SPAC pending (Manufacturing Dive / Agility)",
-          "plain": "Agility Digit 5 (21 Sep 2026): marketed as first cooperatively safe uncaged warehouse humanoid — sensors + separate safety controller stop/back/sit when people approach; 5'11\" / 284 lb; 50 lb lift; ~90-min run / ~9-min charge (10:1); early customer access H1 2027; one customer plans $300M multi-year spend; $2.5B Churchill SPAC pending (Manufacturing Dive / Agility)",
-          "source": "Manufacturing Dive / Agility Robotics",
-          "url": "https://www.manufacturingdive.com/news/agility-debuts-safe-humanoid-digit-5-fanuc-universal-robot/830880/",
-          "date": "2026-09-21",
-          "tags": [
-            "agility",
-            "digit5",
-            "us",
-            "warehouse",
-            "safety",
-            "uncaged"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_aidol_moscow_faceplant_comedy",
-          "html": "<strong>Comedy:</strong> Russia’s AIDOL humanoid faceplants on its Moscow debut stage (~14 Sep 2026) — calibration blamed, parts scatter, future of infiltration briefly horizontal (TechShots / NextGen Business)",
-          "plain": "Comedy: Russia’s AIDOL humanoid faceplants on its Moscow debut stage (~14 Sep 2026) — calibration blamed, parts scatter, future of infiltration briefly horizontal (TechShots / NextGen Business)",
-          "source": "TechShots / NextGen Business",
-          "url": "https://thenextgenbusiness.com/news/russian-humanoid-robot-aidol-tumbles-during-moscow-unveiling-event/",
-          "date": "2026-09-14",
-          "tags": [
-            "comedy",
-            "aidol",
-            "russia",
-            "fail",
-            "debut"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -932,6 +934,24 @@
       ],
       "id": "t1000",
       "headlines": [
+        {
+          "id": "t1000_hl_20260216_nature_comms_mlm_selfheal_gap",
+          "html": "<strong>Nature Communications mLM self-heal</strong> (16 Feb 2026; gap): multi-component liquid metals (Ag/Zn/Cu dissolved in Ga) turn strong metal–ligand bonds into <em>renewable interfacial</em> coordination — &gt;90% polymer healing at room temp; self-healable thermal-interface films cut CPU peak ~20 °C after harsh shock cycles — still lab TIM / elastomer, not a melting assassin (Nature Comms / SEU)",
+          "plain": "Nature Communications mLM self-heal (16 Feb 2026; gap): multi-component liquid metals (Ag/Zn/Cu dissolved in Ga) turn strong metal–ligand bonds into renewable interfacial coordination — >90% polymer healing at room temp; self-healable thermal-interface films cut CPU peak ~20 °C after harsh shock cycles — still lab TIM / elastomer, not a melting assassin (Nature Comms / SEU)",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-69609-4",
+          "date": "2026-02-16",
+          "tags": [
+            "liquid-metal",
+            "gallium",
+            "self-healing",
+            "soft-robotics",
+            "gap-fill",
+            "lab"
+          ],
+          "subcatId": "self_repair_reassembly",
+          "fighterId": "t1000"
+        },
         {
           "id": "t1000_hl_20260921_siat_gallium_sters_hydrogel",
           "html": "<strong>SIAT / Matter gallium STERS hydrogel</strong> (21 Sep 2026): gallium liquid-metal particles + acrylamide/acrylic acid + NIR light — one exposure sustains reactive chemistry up to <em>4 weeks</em>; programmable shape change minutes→weeks; soft brain–electrode interface adapts to a rat pup’s growing brain (lab; not a melting assassin) (EurekAlert / SIAT CAS)",
@@ -1612,6 +1632,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-22_scan_1827_dublin",
+      "at": "2026-09-22T17:29:40.056Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~18:27 Dublin: Boston Dynamics RMAC full-scale at Hyundai Metaplant Georgia — Atlas training auto parts logistics/sequencing; joins HMGMA processes from 2028; 25k Atlas plan; US plant 30k robots/yr; 10× expansion 2027 (BD / SED / Asiae 21–22 Sep). Gap: Tesla Optimus Gen-3 China Yangtze Delta supplier audits (Tuopu/Sanhua/Joyson; orders already placed; Fremont line claimed 1M/yr capacity) (CnEVPost 21 Sep / Global Times 22 Sep). Gap: Toyota estimates ~¥1T/yr factory automation from 2028; ~400k robots across Toyota/group/suppliers — humanoid + non-humanoid mix, not a pure Ellie army (Reuters 18 Sep). T-1000 gap: Nature Communications multi-component liquid-metal interfacial coordination — >90% polymer self-heal; self-heal TIMs (lab; Feb 2026). Comedy: Atlas enrolled in factory school while China already runs 70+ robot campuses. T-800 progress to 73%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-22_scan_1827_dublin"
+    },
     {
       "id": "patch_2026-09-22_scan_1646_backfill",
       "at": "2026-09-22T15:56:06.051Z",
