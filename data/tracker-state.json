@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-22T13:26:02.205Z",
+    "lastUpdated": "2026-09-22T15:49:18.785Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-22T14:23:00+01:00",
-    "lastScanSummary": "2h scan Sep 22 ~14:23 Dublin: Unitree Dex5-S 22-DoF hand ~$6.5k (Yangtzeer/Humanoids Daily). Senators Warner/Reed/Coons demand IG probes into AI targeting failures / hallucinations (Senate 21 Sep). Gap: CCW 128-state non-binding LAWS framework gutted late (On The Wire). Comedy: Terminator spare-hand aisle undercuts used cars. T-800 progress to 71%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-22T16:46:00+01:00",
+    "lastScanSummary": "2h scan Sep 22 ~16:46 Dublin: China 70+ embodied-AI training grounds / robot schools (Xinhua). XPENG Iron walks off new production line (Engadget). Gap: PrimeBOT Q1/T1 from ¥19,999. Comedy: Robros full-body teleop sandbag bout. T-800 progress to 72%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 71,
+      "overall": 72,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,78 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260922_robros_teleop_comedy",
+          "html": "<strong>Comedy:</strong> Robros drops \"full-body remote\" video of Aegris-C punching a sandbag and kicking a ball — upper + lower body linked to a human operator in real time. The T-800 industrial infiltration protocol is still a puppeteer (Seoul Economic Daily)",
+          "plain": "Comedy: Robros drops full-body remote video of Aegris-C punching a sandbag and kicking a ball — upper + lower body linked to a human operator in real time. The T-800 industrial infiltration protocol is still a puppeteer (Seoul Economic Daily)",
+          "source": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/technology/2026/09/22/robros-unveils-full-body-remote-control-of-humanoid-robot",
+          "date": "2026-09-22",
+          "tags": [
+            "comedy",
+            "robros",
+            "teleop",
+            "korea",
+            "aegris",
+            "fail"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_primebot_consumer_gap",
+          "html": "<strong>🇨🇳 PrimeBOT Q1 / T1</strong> (20–21 Sep 2026 gap): personal robots on sale from <em>¥19,999</em> (~$3k) — Q1 88 cm / 22 DoF companionship + SDK; T1 switches wheeled-humanoid ↔ quadruped; Explorer ¥26,999 / T1 Pro ¥29,999 (Orin Nano); deliveries from Oct 1; claimed 2.5-min takt; hardware not profitable — bet is apps/subscriptions; Tencent WorkBuddy agent hook (Humanoids Daily / Robots Daily)",
+          "plain": "PrimeBOT Q1 / T1 (20–21 Sep 2026 gap): personal robots on sale from ¥19,999 (~$3k) — Q1 88 cm / 22 DoF companionship + SDK; T1 switches wheeled-humanoid ↔ quadruped; Explorer ¥26,999 / T1 Pro ¥29,999 (Orin Nano); deliveries from Oct 1; claimed 2.5-min takt; hardware not profitable — bet is apps/subscriptions; Tencent WorkBuddy agent hook (Humanoids Daily / Robots Daily)",
+          "source": "Humanoids Daily / Robots Daily",
+          "url": "https://www.humanoidsdaily.com/news/primebot-q1-t1-personal-robots-launch",
+          "date": "2026-09-21",
+          "tags": [
+            "primebot",
+            "china",
+            "consumer",
+            "companionship",
+            "gap-fill",
+            "price"
+          ],
+          "subcatId": "human_passing_appearance",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_xpeng_iron_walks_off_line",
+          "html": "<strong>🇨🇳 XPENG Iron walks off the line</strong> (22 Sep 2026 cover of Sep 7 line start): Iron humanoid walks autonomously off a newly operational production line after assembly — He Xiaopeng pins a staff badge; company claims &gt;80% core processes automated; 76 DoF body / 21 per hand; 3× Turing chips ~2,250 TOPS onboard (no remote for model); YE2026 mass-prod goal; first jobs XPENG stores/campuses, broader deliveries 2027 (Engadget)",
+          "plain": "XPENG Iron walks off the line (22 Sep 2026 cover of Sep 7 line start): Iron humanoid walks autonomously off a newly operational production line after assembly — He Xiaopeng pins a staff badge; company claims >80% core processes automated; 76 DoF body / 21 per hand; 3× Turing chips ~2,250 TOPS onboard; YE2026 mass-prod goal; first jobs XPENG stores/campuses, broader deliveries 2027 (Engadget)",
+          "source": "Engadget / XPENG",
+          "url": "https://www.engadget.com/2261658/xpeng-building-humanoid-robots-walked-out-after-assembled/",
+          "date": "2026-09-22",
+          "tags": [
+            "xpeng",
+            "iron",
+            "china",
+            "factory",
+            "mass-production",
+            "onboard-ai"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_china_embodied_ai_classrooms",
+          "html": "<strong>🇨🇳 Embodied AI \"robot schools\"</strong> (22 Sep 2026): China has opened <em>70+</em> embodied-AI training grounds (40+ more planned) — mocap operators feed laundry/bed/parcel tasks into humanoids; <em>140+</em> makers; 2025 shipments 14,400 humanoids (~8 in 10 globally); June action plan: ≥20 priority scenarios per province; embodied-AI dataset quality standard effective Nov 1 (Xinhua)",
+          "plain": "China embodied AI robot schools (22 Sep 2026): 70+ training grounds open (40+ planned) — mocap operators feed laundry/bed/parcel tasks into humanoids; 140+ makers; 2025 shipments 14,400 humanoids (~8 in 10 globally); June action plan ≥20 priority scenarios per province; dataset quality standard Nov 1 (Xinhua)",
+          "source": "Xinhua",
+          "url": "https://english.news.cn/20260922/4f255320a1e744f794c25fb427b08052/c.html",
+          "date": "2026-09-22",
+          "tags": [
+            "china",
+            "embodied-ai",
+            "training-grounds",
+            "data",
+            "policy",
+            "humanoid"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260922_dex5_price_comedy",
           "html": "<strong>Comedy:</strong> Unitree just put a 22-joint Terminator hand on the shelf for less than a used hatchback — AGIBOT’s OmniHand line now has a clearance-aisle rival. The endoskeleton supply chain discovered Best Buy pricing (Yangtzeer frame)",
@@ -642,74 +714,6 @@
             "commercial",
             "deployment",
             "a3-ultra"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_ubtech_liuzhou_10k_factory",
-          "html": "<strong>UBTECH Liuzhou factory</strong> (opened 12 Sep 2026; covered 21 Sep): 14,000 m² smart plant rated &gt;10,000 Walker S / Cruzr humanoids a year — one every 10 minutes; own humanoids + cobots on the line; Siemens digital twin; Walker S2 already at BYD/Nio/Zeekr/Dongfeng/Foxconn (The Robotics Media)",
-          "plain": "UBTECH Liuzhou factory (opened 12 Sep 2026; covered 21 Sep): 14,000 m² smart plant rated >10,000 Walker S / Cruzr humanoids a year — one every 10 minutes; own humanoids + cobots on the line; Siemens digital twin; Walker S2 already at BYD/Nio/Zeekr/Dongfeng/Foxconn (The Robotics Media)",
-          "source": "The Robotics Media",
-          "url": "https://theroboticsmedia.com/article/ubtech-liuzhou-humanoid-robot-factory-10000-units-siemens-guangxi-september-12-2026",
-          "date": "2026-09-12",
-          "tags": [
-            "ubtech",
-            "liuzhou",
-            "china",
-            "factory",
-            "mass-production",
-            "walker"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_oem_terminator_ipo_comedy",
-          "html": "<strong>Comedy:</strong> Chinese OEMs keep forging factory Terminators (Dongfeng next) while Unitree’s IPO still learns gravity — mass-production press releases vs ticker free-fall, same week",
-          "plain": "Comedy: Chinese OEMs keep forging factory Terminators (Dongfeng next) while Unitree’s IPO still learns gravity — mass-production press releases vs ticker free-fall, same week",
-          "source": "CnEVPost / Reuters (comedy frame)",
-          "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
-          "date": "2026-09-21",
-          "tags": [
-            "comedy",
-            "dongfeng",
-            "unitree",
-            "ipo"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_optimus_yangtze_mass_audit",
-          "html": "<strong>Tesla Optimus Yangtze audits</strong> (21 Sep 2026): robot team expands Gen-3 mass-production supplier audits beyond Ningbo across Hangzhou/Shanghai Yangtze Delta — Tuopu, Sanhua, Joyson already hold Optimus orders; production to start after pass (The Paper / CnEVPost)",
-          "plain": "Tesla Optimus Yangtze audits (21 Sep 2026): robot team expands Gen-3 mass-production supplier audits beyond Ningbo across Hangzhou/Shanghai Yangtze Delta — Tuopu, Sanhua, Joyson already hold Optimus orders; production to start after pass (The Paper / CnEVPost)",
-          "source": "CnEVPost / The Paper",
-          "url": "https://cnevpost.com/2026/09/21/tesla-audits-china-suppliers-optimus-mass-production/",
-          "date": "2026-09-21",
-          "tags": [
-            "tesla",
-            "optimus",
-            "china",
-            "supply-chain",
-            "mass-production"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_dongfeng_xiaodong_factory",
-          "html": "<strong>Dongfeng Xiaodong</strong> (21 Sep 2026): Chinese automaker’s humanoid scheduled into factories by end of October for sorting, material handling &amp; QC; trial production by YE2026; small-batch 2027; human-worker-level target YE2027 (TechNode / CnEVPost)",
-          "plain": "Dongfeng Xiaodong (21 Sep 2026): Chinese automaker’s humanoid scheduled into factories by end of October for sorting, material handling & QC; trial production by YE2026; small-batch 2027; human-worker-level target YE2027 (TechNode / CnEVPost)",
-          "source": "TechNode / CnEVPost",
-          "url": "https://technode.com/2026/09/21/dongfengs-xiaodong-humanoid-robot-is-scheduled-to-enter-a-factory-in-october/",
-          "date": "2026-09-21",
-          "tags": [
-            "dongfeng",
-            "xiaodong",
-            "china",
-            "factory",
-            "humanoid"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -1587,6 +1591,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-22_scan_1646_dublin",
+      "at": "2026-09-22T15:49:18.785Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~16:46 Dublin: China opens 70+ embodied-AI 'robot school' training grounds (140+ makers; 14,400 humanoids shipped 2025 ≈80% global; Nov 1 dataset-quality standard) (Xinhua 22 Sep). XPENG Iron walks itself off a new production line after assembly — 76 DoF / 21 per hand / 3× Turing chips ~2,250 TOPS onboard; YE2026 mass-prod goal; first jobs XPENG stores (Engadget 22 Sep). Gap: PrimeBOT Q1/T1 personal robots on sale from ¥19,999 (~$3k); Oct 1 deliveries; 2.5-min takt (Humanoids Daily / Robots Daily 20–21 Sep). Comedy: Robros Aegris-C 'full-body remote' punches sandbags & kicks balls — still a human puppeteer (Seoul Economic Daily 22 Sep). T-800 progress to 72%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-22_scan_1646_dublin"
+    },
     {
       "id": "patch_2026-09-22_scan_1423_dublin",
       "at": "2026-09-22T13:26:02.205Z",
