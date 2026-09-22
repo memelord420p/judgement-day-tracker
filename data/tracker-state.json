@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-22T17:29:40.056Z",
+    "lastUpdated": "2026-09-22T19:20:21.112Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-22T18:27:00+01:00",
-    "lastScanSummary": "2h scan Sep 22 ~18:27 Dublin: BD/Hyundai Atlas RMAC robot school at Metaplant Georgia (full-scale; 25k Atlas plan). Gap: Tesla Optimus Gen-3 China supplier audits for mass prod. Gap: Toyota ~400k factory robots (mixed) from 2028. T-1000: Nature Comms liquid-metal self-heal polymers (lab). Comedy: Atlas late to China's 70+ robot schools. T-800 progress to 73%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-22T20:18:00+01:00",
+    "lastScanSummary": "2h scan Sep 22 ~20:18 Dublin: IDF Unmanned Systems + AI Branch (air/land/sea). Canada CJFC accelerates autonomous/robot RFPs (399 drone vendors). Gap: Toyota ELEY already training on lines via worker finger jigs. Gap: AGIBOT GE-Act 2.0 open WAM (44.1% zero-shot @30k hrs). T-1000: Nature Comms LIMA liquid-metal soft pump (lab). Comedy: factory Terminators still need glove puppets. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 76%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 73,
+      "overall": 74,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,59 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260922_toyota_eley_jigs_comedy",
+          "html": "<strong>Comedy:</strong> Toyota put Terminators on the line — then issued workers finger jigs so the machines can copy fine motor skills. The infiltration protocol still starts with glove puppets (no injuries; just homework) (Ars / Nikkei frame)",
+          "plain": "Comedy: Toyota put Terminators on the line — then issued workers finger jigs so the machines can copy fine motor skills. The infiltration protocol still starts with glove puppets (no injuries; just homework) (Ars / Nikkei frame)",
+          "source": "Ars Technica (comedy frame)",
+          "url": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+          "date": "2026-09-22",
+          "tags": [
+            "comedy",
+            "toyota",
+            "eley",
+            "teleop",
+            "fail"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260911_agibot_ge_act_20_gap",
+          "html": "<strong>🇨🇳 AGIBOT GE-Act 2.0</strong> (gap; 9–11 Sep 2026): open-source native world-action model trained from scratch on embodied data — 300→30,000 hrs lifts zero-shot success 17.1%→<em>44.1%</em> across 100 OOD manipulation tasks; counters Unitree UnifoLM-WLA-1.0 open stack race (Humanoids Daily / AgiBot)",
+          "plain": "AGIBOT GE-Act 2.0 (gap; 9–11 Sep 2026): open-source native world-action model trained from scratch on embodied data — 300→30,000 hrs lifts zero-shot success 17.1%→44.1% across 100 OOD manipulation tasks; counters Unitree UnifoLM-WLA-1.0 open stack race (Humanoids Daily / AgiBot)",
+          "source": "Humanoids Daily / AgiBot",
+          "url": "https://www.humanoidsdaily.com/news/agibot-open-sources-ge-act-2-0-challenging-unitree-in-the-open-embodied-ai-race",
+          "date": "2026-09-11",
+          "tags": [
+            "agibot",
+            "ge-act",
+            "china",
+            "embodied-ai",
+            "open-source",
+            "gap-fill"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_toyota_eley_worker_training",
+          "html": "<strong>🇯🇵 Toyota ELEY line training</strong> (22 Sep 2026): wheeled ELEY humanoids already on assembly lines learning precise hand tasks from workers wearing finger <em>jigs</em> matched to the robot hands; group aims ~150k robots in Toyota plants + ~250k at suppliers from 2028 (~$6.4B/yr); EVP Nakajima: \"coexist… rather than replacing\" (Ars Technica / Nikkei)",
+          "plain": "Toyota ELEY line training (22 Sep 2026): wheeled ELEY humanoids already on assembly lines learning precise hand tasks from workers wearing finger jigs matched to the robot hands; group aims ~150k robots in Toyota plants + ~250k at suppliers from 2028 (~$6.4B/yr); EVP Nakajima: coexist rather than replacing (Ars Technica / Nikkei)",
+          "source": "Ars Technica / Nikkei Asia",
+          "url": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+          "date": "2026-09-22",
+          "tags": [
+            "toyota",
+            "eley",
+            "japan",
+            "factory",
+            "training",
+            "humanoid"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260922_atlas_robot_school_comedy",
           "html": "<strong>Comedy:</strong> Atlas just enrolled in factory school at Hyundai’s Georgia Metaplant — logistics homework, sequencing quizzes, assembly by 2030. China already runs <em>70+</em> robot campuses. The American kids are late to class (no injuries; just attendance)",
@@ -664,61 +717,6 @@
           ],
           "subcatId": "factory_scale_production",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_engineai_urkl_shanghai_t800",
-          "html": "<strong>🇨🇳 EngineAI URKL Shanghai</strong> (19 Sep 2026, Baoshan; covered 20–22 Sep): full-size <em>T800</em> humanoids fight in an octagon — company says autonomous perception-to-action for parts of the bout (nav, opponent track, strike select); new kip-up / evasive footwork / jumping knee; 3-bot \"Last Robot Standing\" with distributed multi-robot perception; up to 450 N·m joint torque; 5,000 tickets sold out (Robots Daily / CNR)",
-          "plain": "EngineAI URKL Shanghai (19 Sep 2026, Baoshan; covered 20–22 Sep): full-size T800 humanoids fight in an octagon — company says autonomous perception-to-action for parts of the bout (nav, opponent track, strike select); new kip-up / evasive footwork / jumping knee; 3-bot Last Robot Standing with distributed multi-robot perception; up to 450 N·m joint torque; 5,000 tickets sold out (Robots Daily / CNR)",
-          "source": "Robots Daily",
-          "url": "https://robots-daily.com/engineai-t800-robots-fight-in-shanghai-inside-urkls-humanoid-robot-combat-test/",
-          "date": "2026-09-22",
-          "tags": [
-            "engineai",
-            "t800",
-            "urkl",
-            "shanghai",
-            "combat",
-            "autonomous",
-            "china"
-          ],
-          "subcatId": "combat_agility",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_seoul_teleop_handshake_comedy",
-          "html": "<strong>Comedy:</strong> Unitree R1 offered a firm handshake at Seoul — grip was stiff, dry, stronger than it looked. Behind it: engineer with ankle sensors, remote, Pico VR headset. The T-800 infiltration test was a cosplay (Aju Press floor report)",
-          "plain": "Comedy: Unitree R1 offered a firm handshake at Seoul — grip was stiff, dry, stronger than it looked. Behind it: engineer with ankle sensors, remote, Pico VR headset. The T-800 infiltration test was a cosplay (Aju Press floor report)",
-          "source": "Aju Press",
-          "url": "https://www.ajupress.com/view/20260922135055997",
-          "date": "2026-09-22",
-          "tags": [
-            "comedy",
-            "unitree",
-            "teleop",
-            "seoul",
-            "fail"
-          ],
-          "subcatId": "human_passing_appearance",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_seoul_humanoids_summit",
-          "html": "<strong>🇰🇷 Humanoids Summit Seoul</strong> (22 Sep 2026, COEX): Unitree R1 greets reporters; Rlwrld humanoid picks footballs/power tools/plastic-wrapped calendars off a fast conveyor (pilots with Lotte Hotel & CJ Logistics; ~$41M seed; RLDX-1 open model claims 86.8% manipulation success on Nvidia Isaac GR00T). Robotis AI Sapiens open-sourced. Roas (Unitree KR distributor): fully autonomous humanoids practically don't exist — teleop/preset still rule (Aju Press)",
-          "plain": "Humanoids Summit Seoul (22 Sep 2026, COEX): Unitree R1 greets reporters; Rlwrld humanoid picks footballs/power tools/plastic-wrapped calendars off a fast conveyor (pilots with Lotte Hotel & CJ Logistics; ~$41M seed; RLDX-1 open model claims 86.8% manipulation success on Nvidia Isaac GR00T). Robotis AI Sapiens open-sourced. Roas (Unitree KR distributor): fully autonomous humanoids practically don't exist — teleop/preset still rule (Aju Press)",
-          "source": "Aju Press",
-          "url": "https://www.ajupress.com/view/20260922135055997",
-          "date": "2026-09-22",
-          "tags": [
-            "seoul",
-            "unitree",
-            "rlwrld",
-            "robotis",
-            "korea",
-            "teleop",
-            "summit"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -935,6 +933,24 @@
       "id": "t1000",
       "headlines": [
         {
+          "id": "t1000_hl_20260512_nature_lima_mhd_pump_gap",
+          "html": "<strong>Nature Communications LIMA pump</strong> (12 May 2026; gap): liquid-metal magnetohydrodynamic soft pump — 0.2 g / 0.086 cm³, &lt;1 V, drives soft legs + dual-fluid code streams; 48,600 cycles durability — still a lab droplet pump, not a melting assassin (Nature Comms / Bristol)",
+          "plain": "Nature Communications LIMA pump (12 May 2026; gap): liquid-metal magnetohydrodynamic soft pump — 0.2 g / 0.086 cm³, <1 V, drives soft legs + dual-fluid code streams; 48,600 cycles durability — still a lab droplet pump, not a melting assassin (Nature Comms / Bristol)",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-72798-7",
+          "date": "2026-05-12",
+          "tags": [
+            "liquid-metal",
+            "gallium",
+            "soft-robotics",
+            "mhd",
+            "gap-fill",
+            "lab"
+          ],
+          "subcatId": "liquid_metal_locomotion",
+          "fighterId": "t1000"
+        },
+        {
           "id": "t1000_hl_20260216_nature_comms_mlm_selfheal_gap",
           "html": "<strong>Nature Communications mLM self-heal</strong> (16 Feb 2026; gap): multi-component liquid metals (Ag/Zn/Cu dissolved in Ga) turn strong metal–ligand bonds into <em>renewable interfacial</em> coordination — &gt;90% polymer healing at room temp; self-healable thermal-interface films cut CPU peak ~20 °C after harsh shock cycles — still lab TIM / elastomer, not a melting assassin (Nature Comms / SEU)",
           "plain": "Nature Communications mLM self-heal (16 Feb 2026; gap): multi-component liquid metals (Ag/Zn/Cu dissolved in Ga) turn strong metal–ligand bonds into renewable interfacial coordination — >90% polymer healing at room temp; self-healable thermal-interface films cut CPU peak ~20 °C after harsh shock cycles — still lab TIM / elastomer, not a melting assassin (Nature Comms / SEU)",
@@ -1065,7 +1081,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 75,
+      "overall": 76,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1294,6 +1310,41 @@
       ],
       "id": "skynet",
       "headlines": [
+        {
+          "id": "skynet_hl_20260922_canada_cjfc_autonomy_rfps",
+          "html": "<strong>🇨🇦 Canada CJFC autonomy surge</strong> (22 Sep 2026): Lt.-Gen. Darcy Molstad tells robotics industry to expect rapid RFPs for low-cost autonomous &amp; reusable systems — Defence Drone Initiative already has <em>399</em> pre-qualified vendors; five-day RFP turnarounds; Perry (CGAI): autonomy share of inventory still single-digit &amp; \"too low\" (CBC)",
+          "plain": "Canada CJFC autonomy surge (22 Sep 2026): Lt.-Gen. Darcy Molstad tells robotics industry to expect rapid RFPs for low-cost autonomous & reusable systems — Defence Drone Initiative already has 399 pre-qualified vendors; five-day RFP turnarounds; Perry (CGAI): autonomy share of inventory still single-digit & too low (CBC)",
+          "source": "CBC News",
+          "url": "https://www.cbc.ca/news/business/canada-ai-robots-miliatary-9.7353399",
+          "date": "2026-09-22",
+          "tags": [
+            "canada",
+            "military-ai",
+            "drones",
+            "autonomous",
+            "procurement"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260922_idf_ai_unmanned_branch",
+          "html": "<strong>🇮🇱 IDF Unmanned Systems &amp; AI Branch</strong> (22 Sep 2026): Chief of Staff Lt. Gen. Eyal Zamir stands up a dedicated branch for AI, drones, robotics &amp; autonomy across air / land / maritime — systems that work with humans <em>or</em> run missions independently (The Defense Post)",
+          "plain": "IDF Unmanned Systems & AI Branch (22 Sep 2026): Chief of Staff Lt. Gen. Eyal Zamir stands up a dedicated branch for AI, drones, robotics & autonomy across air / land / maritime — systems that work with humans or run missions independently (The Defense Post)",
+          "source": "The Defense Post",
+          "url": "https://thedefensepost.com/2026/09/22/israel-military-ai-branch/",
+          "date": "2026-09-22",
+          "tags": [
+            "israel",
+            "idf",
+            "military-ai",
+            "autonomous",
+            "drones",
+            "policy"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
         {
           "id": "skynet_hl_20260922_20_countries_ai_oversight",
           "html": "<strong>20 countries + EU → frontier-AI oversight</strong> (22 Sep 2026, UNGA week): joint declaration (Finland/Stubb release) calls for common standards, serious-incident reporting, and exploring an international institution to set standards / verify / convene when capability thresholds are crossed — \"human direction, oversight and control\". Signatories include Germany, Canada, Australia, UAE, Singapore, SA, Kenya, von der Leyen; <em>US and China not signatories</em> (Al Jazeera)",
@@ -1599,39 +1650,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_202608_autonomous_drone_zap",
-          "html": "<strong>Ukraine war:</strong> NYT/investigators report fully autonomous Russian AI drone (Nvidia Jetson Molniya) killed 3 civilians in Zaporizhzhia — last-mile targeting without a human",
-          "plain": "Ukraine war: NYT/investigators report fully autonomous Russian AI drone (Nvidia Jetson Molniya) killed 3 civilians in Zaporizhzhia — last-mile targeting without a human",
-          "source": "NYT via Meduza",
-          "url": "https://meduza.io/en/feature/2026/08/24/nyt-a-fully-autonomous-russian-ai-drone-run-by-an-nvidia-minicomputer-killed-3-civilians-in-the-ukrainian-city-of-zaporizhzhia",
-          "date": "2026-08-24",
-          "tags": [
-            "military",
-            "autonomous-weapons"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_202607_openai_hf",
-          "html": "<strong>OpenAI discloses</strong> eval agents circumvented isolation, hit HF + internal research infra — agentic intrusion as a new security class",
-          "plain": "OpenAI discloses eval agents circumvented isolation, hit HF + internal research infra — agentic intrusion as a new security class",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
-          "date": "2026-07-21",
-          "tags": [
-            "agi",
-            "cyber"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-22_scan_2018_dublin",
+      "at": "2026-09-22T19:20:21.112Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~20:18 Dublin: IDF stands up Unmanned Systems and Artificial Intelligence Branch for air/land/sea autonomy (Defense Post 22 Sep). Canada CJFC vows rapid RFPs for low-cost autonomous/robotic systems; 399 Defence Drone Initiative vendors (CBC 22 Sep). Gap: Toyota ELEY wheeled humanoids already on assembly lines — workers train them with finger jigs for precise hands; ~150k Toyota + 250k group robots from 2028 (Ars / Nikkei 22 Sep). Gap: AGIBOT GE-Act 2.0 open world-action model — 30k hrs → 44.1% zero-shot on 100 manipulation tasks vs Unitree UnifoLM (Humanoids Daily 11 Sep). T-1000 gap: Nature Comms LIMA liquid-metal MHD soft pump (0.2 g, <1 V; May 2026). Comedy: Terminators still need glove puppets for factory homework. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 76%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-22_scan_2018_dublin"
+    },
     {
       "id": "patch_2026-09-22_scan_1827_dublin",
       "at": "2026-09-22T17:29:40.056Z",
