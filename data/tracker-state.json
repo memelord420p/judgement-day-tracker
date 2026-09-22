@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-22T09:12:44.228Z",
+    "lastUpdated": "2026-09-22T11:25:20.341Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-22T10:10:00+01:00",
-    "lastScanSummary": "2h scan Sep 22 ~10:10 Dublin: EngineAI T800s run autonomous cage combat at URKL Shanghai (kip-ups + multi-bot roles; Robots Daily / CNR 22 Sep). UBTECH mass-delivers UWorld U1 companion humanoids after 13k+ orders (Pandaily 22 Sep). Gap: Unitree G1+ adds a moving neck at ~$15k. Comedy: the T-800 brand fights back from the floor. T-800 progress to 69%. Skynet progress to 74%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-22T12:23:00+01:00",
+    "lastScanSummary": "2h scan Sep 22 ~12:23 Dublin: Unitree Homies hit AGT Season 21 final (G1 crew + Wu Yufei kung fu / sync dance; AFP/France24). Axios — US–China AI 'red telephone' on Trump–Xi agenda. Gap: Nature Comms LiMU liquid-metal gripper (14 orders of mag; ~10 Pa). Comedy: Terminators audition for Simon. T-800 progress to 70%. T-1000 progress to 14%. Skynet progress to 74%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 69,
+      "overall": 70,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,42 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260922_unitree_agt_comedy_scary",
+          "html": "<strong>Comedy:</strong> Unitree G1s hit US primetime talent finals doing kung fu choreography while a judge calls it \"a bit scary\" — then the receipt lands: if the music changes mid-show, the Terminators can't improvise (AFP / Asiae)",
+          "plain": "Comedy: Unitree G1s hit US primetime talent finals doing kung fu choreography while a judge calls it a bit scary — then the receipt lands: if the music changes mid-show, the Terminators can't improvise (AFP / Asiae)",
+          "source": "AFP / Asiae",
+          "url": "https://www.asiae.co.kr/en/article/2026092216475753389",
+          "date": "2026-09-22",
+          "tags": [
+            "comedy",
+            "unitree",
+            "agt",
+            "fail",
+            "teleop"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_unitree_agt_homies_final",
+          "html": "<strong>🇨🇳 Unitree Homies @ AGT final</strong> (22 Sep 2026): Wu Yufei + Unitree <em>G1</em> dance crew reach <em>America's Got Talent</em> Season 21 finale (Pasadena) — kung fu / synchronized stage after Spring Festival Gala breakout; motion-capture + engineer \"mothers\" in the loop; mostly scripted playback (AFP / France24 / Asiae)",
+          "plain": "Unitree Homies @ AGT final (22 Sep 2026): Wu Yufei + Unitree G1 dance crew reach America's Got Talent Season 21 finale (Pasadena) — kung fu / synchronized stage after Spring Festival Gala breakout; motion-capture + engineer mothers in the loop; mostly scripted playback (AFP / France24 / Asiae)",
+          "source": "AFP / France24 / Asiae",
+          "url": "https://www.france24.com/en/live-news/20260922-china-s-robot-dancers-limber-up-for-america-s-got-talent-final",
+          "date": "2026-09-22",
+          "tags": [
+            "unitree",
+            "agt",
+            "homies",
+            "china",
+            "dance",
+            "g1",
+            "us"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260922_engineai_t800_kipup_comedy",
           "html": "<strong>Comedy:</strong> EngineAI literally named the fighter <em>T800</em>. It gets punched, hits the mat, then kip-ups like a Terminator outtake — White Eagle keeps swinging while heads and joints take damage. Product marketing by cage match (Robots Daily / NetEase)",
@@ -674,40 +710,6 @@
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_hyundai_czech_atlas",
-          "html": "<strong>Hyundai Czech Atlas probe</strong> (21 Sep 2026): Nosovice plant discussing Boston Dynamics Atlas deployment as European proving ground after US Metaplant — no firm timeline; labor/union caution flagged (Korea Herald)",
-          "plain": "Hyundai Czech Atlas probe (21 Sep 2026): Nosovice plant discussing Boston Dynamics Atlas deployment as European proving ground after US Metaplant — no firm timeline; labor/union caution flagged (Korea Herald)",
-          "source": "Korea Herald",
-          "url": "https://www.koreaherald.com/article/10880782",
-          "date": "2026-09-21",
-          "tags": [
-            "hyundai",
-            "atlas",
-            "czech",
-            "europe",
-            "factory"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_bd_rmac_atlas",
-          "html": "<strong>Boston Dynamics RMAC</strong> (21 Sep 2026): opens Robotics Metaplant Application Center at Hyundai Metaplant America (Georgia) — permanent Atlas training on real auto parts (teleop + sim + UMI); Hyundai plans ~25,000 Atlas across plants; US robot factory up to 30k/yr by 2028 (The Robot Report)",
-          "plain": "Boston Dynamics RMAC (21 Sep 2026): opens Robotics Metaplant Application Center at Hyundai Metaplant America (Georgia) — permanent Atlas training on real auto parts (teleop + sim + UMI); Hyundai plans ~25,000 Atlas across plants; US robot factory up to 30k/yr by 2028 (The Robot Report)",
-          "source": "The Robot Report",
-          "url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
-          "date": "2026-09-21",
-          "tags": [
-            "boston-dynamics",
-            "atlas",
-            "hyundai",
-            "factory",
-            "us"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -718,7 +720,7 @@
       "desc": "The T-1000 is composed of liquid metal that can shapeshift into any person or object of similar size, form bladed weapons, flow through openings, and reassemble from damage.",
       "color": "#00f0ff",
       "colorGlow": "rgba(0,200,255,.3)",
-      "overall": 13,
+      "overall": 14,
       "threat": "LOW",
       "threatColor": "#0f0",
       "subcats": [
@@ -923,6 +925,23 @@
       ],
       "id": "t1000",
       "headlines": [
+        {
+          "id": "t1000_hl_20260306_limu_gripper_gap",
+          "html": "<strong>Nature Communications LiMU gripper</strong> (6 Mar 2026; gap fill): amoeba-inspired EGaIn+Fe liquid-metal universal gripper wraps / releases across <em>14 orders of magnitude</em> (pico→~200 g), ~10 Pa contact pressure, air + liquid; millisecond capture — still lab tool, not a melting assassin (Nature Comms)",
+          "plain": "Nature Communications LiMU gripper (6 Mar 2026; gap fill): amoeba-inspired EGaIn+Fe liquid-metal universal gripper wraps / releases across 14 orders of magnitude (pico→~200 g), ~10 Pa contact pressure, air + liquid; millisecond capture — still lab tool, not a melting assassin (Nature Comms)",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-70313-6",
+          "date": "2026-03-06",
+          "tags": [
+            "liquid-metal",
+            "gallium",
+            "gripper",
+            "soft-robotics",
+            "gap-fill"
+          ],
+          "subcatId": "liquid_metal_locomotion",
+          "fighterId": "t1000"
+        },
         {
           "id": "t1000_hl_20260922_soft_robot_lc_holography",
           "html": "<strong>Soft robots + liquid-crystal holography</strong> (covered Sep 2026): all-in-one optically interactive soft robots embed LC holography to store commands and guide autonomous navigation — still lab-scale, not a melting assassin (Scientific Inquirer)",
@@ -1231,6 +1250,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260922_axios_ai_red_telephone",
+          "html": "<strong>US–China AI \"red telephone\"</strong> (22 Sep 2026): Axios — Trump–Xi Washington summit frames a Cold War-style crisis hotline / notification channel for national-security AI incidents; Bessent track still live; no slowdown deal expected (Axios)",
+          "plain": "US–China AI red telephone (22 Sep 2026): Axios — Trump–Xi Washington summit frames a Cold War-style crisis hotline / notification channel for national-security AI incidents; Bessent track still live; no slowdown deal expected (Axios)",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/09/22/trump-china-ai-hotline-xi-summit",
+          "date": "2026-09-22",
+          "tags": [
+            "us",
+            "china",
+            "summit",
+            "hotline",
+            "policy",
+            "ai-safety"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260922_china_ai_safety_framework_30_gap",
           "html": "<strong>🇨🇳 AI Safety Governance Framework 3.0</strong> (14 Sep 2026; gap fill): CAC/non-mandatory playbook adds an <em>Agentic AI Risk Management</em> appendix — discovery/intervention/recovery for improper agent behavior; users keep final decision authority. Reuters: Beijing preparing for AI escaping human control (CAC / Reuters)",
           "plain": "China AI Safety Governance Framework 3.0 (14 Sep 2026; gap fill): CAC/non-mandatory playbook adds an Agentic AI Risk Management appendix — discovery/intervention/recovery for improper agent behavior; users keep final decision authority. Reuters: Beijing preparing for AI escaping human control (CAC / Reuters)",
@@ -1526,21 +1563,19 @@
           "tags": [
             "media-ai"
           ]
-        },
-        {
-          "id": "skynet_hl_003",
-          "html": "<strong>🇨🇳 China's Ministry of Education</strong> launches \"embodied intelligence\" undergraduate major at top universities — building AI+robotics pipeline",
-          "source": "China MoE",
-          "url": null,
-          "date": "2026-01-01",
-          "tags": [
-            "policy"
-          ]
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-22_scan_1223_dublin",
+      "at": "2026-09-22T11:25:20.341Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~12:23 Dublin: Unitree Homies (G1 dance crew + Wu Yufei) reach America's Got Talent Season 21 final — kung fu / synchronized stage; scripted playback, no live musical improvisation (AFP / France24 / Asiae 22 Sep). Axios: Trump–Xi summit frames a US–China AI 'red telephone' crisis hotline on national-security incidents (Cold War guardrail framing; Bessent notification track). Gap: Nature Communications LiMU liquid-metal universal gripper (EGaIn+Fe; 14 orders of magnitude; ~10 Pa; air+liquid) — still lab, not a T-1000 (6 Mar 2026). Comedy: the Terminators audition for Simon Cowell. T-800 progress to 70%. T-1000 progress to 14%. Skynet progress to 74%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-22_scan_1223_dublin"
+    },
     {
       "id": "patch_2026-09-22_scan_1010_dublin",
       "at": "2026-09-22T09:12:44.228Z",
