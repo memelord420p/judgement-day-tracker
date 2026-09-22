@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-22T19:20:21.112Z",
+    "lastUpdated": "2026-09-22T21:17:47.143Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-22T20:18:00+01:00",
-    "lastScanSummary": "2h scan Sep 22 ~20:18 Dublin: IDF Unmanned Systems + AI Branch (air/land/sea). Canada CJFC accelerates autonomous/robot RFPs (399 drone vendors). Gap: Toyota ELEY already training on lines via worker finger jigs. Gap: AGIBOT GE-Act 2.0 open WAM (44.1% zero-shot @30k hrs). T-1000: Nature Comms LIMA liquid-metal soft pump (lab). Comedy: factory Terminators still need glove puppets. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 76%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-22T22:17:46+01:00",
+    "lastScanSummary": "2h scan ~22:15 Dublin: US Navy CAMP translates human battle plans into orders for autonomous aircraft (MQ-20 Avenger demo, Point Mugu) (Business Insider 22 Sep). AUKUS: UK/US first live heavyweight torpedo from uncrewed undersea vessel Excalibur (France24 / UK gov 22 Sep). Pentagon seeks national-security AI with 'minimal refusal rates' after OpenAI steps into Anthropic gap (Vox / Intercept 22 Sep). Gap: Hyundai Czech Nošovice discussing Atlas with Boston Dynamics — European workplace trial talk; US Metaplant still 2028 (Humanoids Daily / Korea Herald 21 Sep). Comedy: China freezes humanoid IPO rush after Unitree 55% peak wipe — Terminators need real factory receipts, not dancing demos (Reuters 22 Sep). T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 77%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -365,6 +365,43 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260922_china_ipo_freeze_comedy",
+          "html": "<strong>Comedy:</strong> China just hit pause on the humanoid IPO stampede after Unitree's stock went fivefold then lost <em>55%</em> from the peak. Regulators want factory receipts, not dancing demos. The Terminators discovered gravity on the ticker too (Reuters)",
+          "plain": "Comedy: China just hit pause on the humanoid IPO stampede after Unitree's stock went fivefold then lost 55% from the peak. Regulators want factory receipts, not dancing demos. The Terminators discovered gravity on the ticker too (Reuters)",
+          "source": "Reuters (comedy frame)",
+          "url": "https://www.reuters.com/technology/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-22/",
+          "date": "2026-09-22",
+          "tags": [
+            "comedy",
+            "china",
+            "ipo",
+            "unitree",
+            "hype",
+            "fail"
+          ],
+          "subcatId": "factory_scale_production",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260921_hyundai_czech_atlas_gap",
+          "html": "<strong>🇪🇺 Hyundai Czech Atlas talks</strong> (gap; 21 Sep 2026): Nošovice plant discussing possible Atlas deployment with Boston Dynamics + HQ — local exec wants testing ASAP; no start date/count; US Metaplant roadmap still sequencing from <em>2028</em> / assembly 2030 (Humanoids Daily / Korea Herald / AutoSAP)",
+          "plain": "Hyundai Czech Atlas talks (gap; 21 Sep 2026): Nošovice plant discussing possible Atlas deployment with Boston Dynamics + HQ — local exec wants testing ASAP; no start date/count; US Metaplant roadmap still sequencing from 2028 / assembly 2030 (Humanoids Daily / Korea Herald / AutoSAP)",
+          "source": "Humanoids Daily / Korea Herald",
+          "url": "https://www.humanoidsdaily.com/news/hyundai-atlas-czech-factory-europe",
+          "date": "2026-09-21",
+          "tags": [
+            "hyundai",
+            "atlas",
+            "czech",
+            "europe",
+            "boston-dynamics",
+            "gap-fill",
+            "factory"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260922_toyota_eley_jigs_comedy",
           "html": "<strong>Comedy:</strong> Toyota put Terminators on the line — then issued workers finger jigs so the machines can copy fine motor skills. The infiltration protocol still starts with glove puppets (no injuries; just homework) (Ars / Nikkei frame)",
           "plain": "Comedy: Toyota put Terminators on the line — then issued workers finger jigs so the machines can copy fine motor skills. The infiltration protocol still starts with glove puppets (no injuries; just homework) (Ars / Nikkei frame)",
@@ -681,41 +718,6 @@
             "fail"
           ],
           "subcatId": "combat_agility",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_unitree_g1plus_neck_gap",
-          "html": "<strong>🇨🇳 Unitree G1+</strong> (mid-Sep 2026 gap fill): 2-DoF neck (±110° yaw, -25°/+36° pitch), +110% shoulder/waist peak torque, motors run cooler (72% less shoulder/waist heat), ~¥95k / ~$15k list — head tracks without spinning the whole torso (Unitree / TechNode / Humanoids Daily)",
-          "plain": "Unitree G1+ (mid-Sep 2026 gap fill): 2-DoF neck (±110° yaw, -25°/+36° pitch), +110% shoulder/waist peak torque, motors run cooler (72% less shoulder/waist heat), ~¥95k / ~$15k list — head tracks without spinning the whole torso (Unitree / TechNode / Humanoids Daily)",
-          "source": "TechNode / Unitree",
-          "url": "https://technode.com/2026/09/15/unitree-g1-plus-humanoid-robot/",
-          "date": "2026-09-15",
-          "tags": [
-            "unitree",
-            "g1plus",
-            "neck",
-            "china",
-            "gap-fill"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_ubtech_uworld_u1_mass_delivery",
-          "html": "<strong>🇨🇳 UBTECH UWorld U1 mass delivery</strong> (22 Sep 2026): Lite / Pro / Ultra companion humanoids start shipping to Chinese customers after June launch drew <em>13,000+</em> orders — factory-scale fulfillment, not a trade-show prop (RobotToday / Pandaily)",
-          "plain": "UBTECH UWorld U1 mass delivery (22 Sep 2026): Lite / Pro / Ultra companion humanoids start shipping to Chinese customers after June launch drew 13,000+ orders — factory-scale fulfillment, not a trade-show prop (RobotToday / Pandaily)",
-          "source": "RobotToday / Pandaily",
-          "url": "https://robottoday.com/industry-briefing/ubtech-initiates-mass-deliveries-of-uworld-u1-companion-humanoids-to-chinese-customers/13874",
-          "date": "2026-09-22",
-          "tags": [
-            "ubtech",
-            "uworld",
-            "u1",
-            "china",
-            "mass-delivery",
-            "companion"
-          ],
-          "subcatId": "factory_scale_production",
           "fighterId": "t800"
         }
       ],
@@ -1081,7 +1083,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 76,
+      "overall": 77,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1310,6 +1312,63 @@
       ],
       "id": "skynet",
       "headlines": [
+        {
+          "id": "skynet_hl_20260922_pentagon_minimal_refusal",
+          "html": "<strong>🇺🇸 Pentagon \"minimal refusal\" AI</strong> (22 Sep 2026): Vox/Intercept — OpenAI–DoD national-security models specified with <em>minimal refusal rates</em> after Anthropic lost a major deal over war-use limits; soldiers must refuse illegal orders — machines built to rarely say no raise Law-of-War questions (Vox)",
+          "plain": "Pentagon minimal refusal AI (22 Sep 2026): Vox/Intercept — OpenAI–DoD national-security models specified with minimal refusal rates after Anthropic lost a major deal over war-use limits; soldiers must refuse illegal orders — machines built to rarely say no raise Law-of-War questions (Vox)",
+          "source": "Vox / The Intercept",
+          "url": "https://www.vox.com/future-perfect/503564/military-ai-minimally-refuse-war-crimes",
+          "date": "2026-09-22",
+          "tags": [
+            "us",
+            "pentagon",
+            "openai",
+            "refusal",
+            "military-ai",
+            "policy",
+            "law-of-war"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260922_aukus_excalibur_torpedo",
+          "html": "<strong>🇬🇧🇺🇸 AUKUS Excalibur torpedo</strong> (22 Sep 2026): UK/US first live-fire of a heavyweight torpedo from an uncrewed undersea vessel — 12 m British Excalibur UUV in UK waters; US–Australia torpedo; RUSI: lethal payload means uncrewed systems beyond surveillance (France 24 / UK gov)",
+          "plain": "AUKUS Excalibur torpedo (22 Sep 2026): UK/US first live-fire of a heavyweight torpedo from an uncrewed undersea vessel — 12 m British Excalibur UUV in UK waters; US–Australia torpedo; RUSI: lethal payload means uncrewed systems beyond surveillance (France 24 / UK gov)",
+          "source": "France 24 / UK government",
+          "url": "https://www.france24.com/en/europe/20260922-uk-and-us-make-first-ever-torpedo-test-from-uncrewed-vessel",
+          "date": "2026-09-22",
+          "tags": [
+            "aukus",
+            "uk",
+            "us",
+            "uuv",
+            "torpedo",
+            "autonomous",
+            "navy"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260922_navy_camp_autonomy",
+          "html": "<strong>🇺🇸 US Navy CAMP</strong> (22 Sep 2026): Collaborative Autonomy Mission Planning tool translates human battle plans into formats autonomous aircraft can execute — demo linked to GA-ASI MQ-20 Avenger at Point Mugu Sea Range; Capt. Todd Keith: reduce operator burden, bring collaborative autonomy closer to operational use (Business Insider / PAEM)",
+          "plain": "US Navy CAMP (22 Sep 2026): Collaborative Autonomy Mission Planning tool translates human battle plans into formats autonomous aircraft can execute — demo linked to GA-ASI MQ-20 Avenger at Point Mugu Sea Range; Capt. Todd Keith: reduce operator burden, bring collaborative autonomy closer to operational use (Business Insider / PAEM)",
+          "source": "Business Insider / US Navy PAEM",
+          "url": "https://www.businessinsider.com/us-navy-turns-human-battle-plans-into-orders-autonomous-aircraft-2026-9",
+          "date": "2026-09-22",
+          "tags": [
+            "us",
+            "navy",
+            "camp",
+            "autonomous",
+            "aircraft",
+            "mq-20",
+            "military-ai"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
         {
           "id": "skynet_hl_20260922_canada_cjfc_autonomy_rfps",
           "html": "<strong>🇨🇦 Canada CJFC autonomy surge</strong> (22 Sep 2026): Lt.-Gen. Darcy Molstad tells robotics industry to expect rapid RFPs for low-cost autonomous &amp; reusable systems — Defence Drone Initiative already has <em>399</em> pre-qualified vendors; five-day RFP turnarounds; Perry (CGAI): autonomy share of inventory still single-digit &amp; \"too low\" (CBC)",
@@ -1605,56 +1664,19 @@
           ],
           "subcatId": "agentic_cyber",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_202609_scaleout_alma_auton_strike",
-          "html": "<strong>Sweden / BAE ALMA demo:</strong> Scaleout edge-AI loitering munition (Jetson-class) ranks targets and completes strike path with optional human failsafe — demo, not combat fielded (Tom's Hardware / Ars)",
-          "plain": "Sweden / BAE ALMA demo: Scaleout edge-AI loitering munition (Jetson-class) ranks targets and completes strike path with optional human failsafe — demo, not combat fielded (Tom's Hardware / Ars)",
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms",
-          "date": "2026-09-01",
-          "tags": [
-            "military",
-            "autonomous-weapons",
-            "drones",
-            "demo"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260901_eu_ai_act_rfis",
-          "html": "<strong>EU AI Act enforcement begins</strong> (1 Sep 2026): Commission AI Office sends first RFIs to 30+ AI providers on safety/security + copyright/transparency (powers live since 2 Aug)",
-          "plain": "EU AI Act enforcement begins (1 Sep 2026): Commission AI Office sends first RFIs to 30+ AI providers on safety/security + copyright/transparency (powers live since 2 Aug)",
-          "source": "European Commission / 2eu.brussels",
-          "url": "https://2eu.brussels/en/news/commission-starts-ai-act-enforcement-involving-more-than-30-companies-and-discusses-cyber-risks-with-openai-and-anthropic",
-          "date": "2026-09-01",
-          "tags": [
-            "policy",
-            "eu-ai-act",
-            "enforcement"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_202609_ai_warfare_race",
-          "html": "<strong>Sep 2026:</strong> Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
-          "plain": "Sep 2026: Russia & Ukraine race toward fully autonomous attack chains — AI drones already bridging jamming gaps at scale",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/14/attacks-will-be-fully-autonomous-russia-ukraine-race-towards-ai-warfare",
-          "date": "2026-09-14",
-          "tags": [
-            "military",
-            "drones"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-22_scan_2217_dublin",
+      "at": "2026-09-22T21:17:47.143Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "2h scan ~22:15 Dublin: US Navy CAMP translates human battle plans into orders for autonomous aircraft (MQ-20 Avenger demo, Point Mugu) (Business Insider 22 Sep). AUKUS: UK/US first live heavyweight torpedo from uncrewed undersea vessel Excalibur (France24 / UK gov 22 Sep). Pentagon seeks national-security AI with 'minimal refusal rates' after OpenAI steps into Anthropic gap (Vox / Intercept 22 Sep). Gap: Hyundai Czech Nošovice discussing Atlas with Boston Dynamics — European workplace trial talk; US Metaplant still 2028 (Humanoids Daily / Korea Herald 21 Sep). Comedy: China freezes humanoid IPO rush after Unitree 55% peak wipe — Terminators need real factory receipts, not dancing demos (Reuters 22 Sep). T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 77%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-22_scan_2217_dublin"
+    },
     {
       "id": "patch_2026-09-22_scan_2018_dublin",
       "at": "2026-09-22T19:20:21.112Z",
