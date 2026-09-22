@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-21T21:27:46.075Z",
+    "lastUpdated": "2026-09-22T07:08:23.659Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-21T22:25:00+01:00",
-    "lastScanSummary": "2h scan Sep 21 ~22:25 Dublin: Agility Digit 5 — first cooperatively safe uncaged warehouse humanoid (stops/backs/sits when humans near; 50 lb lift; 90-min run / 9-min charge; $300M multi-year order; early access H1 2027) (Manufacturing Dive). 🇨🇳 Galbot G1 at IFA Berlin demos live pharmacy retrieval (5k SKUs Beijing; 170+ China stores) 38 days after FCC banned its hardware category from the US (The Robotics Media). Comedy: Digit 5 crouches into a ball on approach — T-800 infiltration briefly fetal. T-800 progress to 68%. Skynet progress to 73%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-22T08:05:00+01:00",
+    "lastScanSummary": "2h scan Sep 22 ~08:05 Dublin: 🇰🇷 Humanoids Summit Seoul — Unitree R1 + Rlwrld conveyor demos at COEX; distributor says fully autonomous humanoids practically don't exist yet (Aju Press 22 Sep). Eve of Trump–Xi: AI safety as major agenda; CNAS Remler — several Chinese models likely capable of fully autonomous cyber ops (Kyodo 22 Sep). Comedy: the firm R1 handshake was the engineer in the VR headset. T-800 progress to 68%. Skynet progress to 74%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -365,6 +365,42 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260922_seoul_teleop_handshake_comedy",
+          "html": "<strong>Comedy:</strong> Unitree R1 offered a firm handshake at Seoul — grip was stiff, dry, stronger than it looked. Behind it: engineer with ankle sensors, remote, Pico VR headset. The T-800 infiltration test was a cosplay (Aju Press floor report)",
+          "plain": "Comedy: Unitree R1 offered a firm handshake at Seoul — grip was stiff, dry, stronger than it looked. Behind it: engineer with ankle sensors, remote, Pico VR headset. The T-800 infiltration test was a cosplay (Aju Press floor report)",
+          "source": "Aju Press",
+          "url": "https://www.ajupress.com/view/20260922135055997",
+          "date": "2026-09-22",
+          "tags": [
+            "comedy",
+            "unitree",
+            "teleop",
+            "seoul",
+            "fail"
+          ],
+          "subcatId": "human_passing_appearance",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_seoul_humanoids_summit",
+          "html": "<strong>🇰🇷 Humanoids Summit Seoul</strong> (22 Sep 2026, COEX): Unitree R1 greets reporters; Rlwrld humanoid picks footballs/power tools/plastic-wrapped calendars off a fast conveyor (pilots with Lotte Hotel & CJ Logistics; ~$41M seed; RLDX-1 open model claims 86.8% manipulation success on Nvidia Isaac GR00T). Robotis AI Sapiens open-sourced. Roas (Unitree KR distributor): fully autonomous humanoids practically don't exist — teleop/preset still rule (Aju Press)",
+          "plain": "Humanoids Summit Seoul (22 Sep 2026, COEX): Unitree R1 greets reporters; Rlwrld humanoid picks footballs/power tools/plastic-wrapped calendars off a fast conveyor (pilots with Lotte Hotel & CJ Logistics; ~$41M seed; RLDX-1 open model claims 86.8% manipulation success on Nvidia Isaac GR00T). Robotis AI Sapiens open-sourced. Roas (Unitree KR distributor): fully autonomous humanoids practically don't exist — teleop/preset still rule (Aju Press)",
+          "source": "Aju Press",
+          "url": "https://www.ajupress.com/view/20260922135055997",
+          "date": "2026-09-22",
+          "tags": [
+            "seoul",
+            "unitree",
+            "rlwrld",
+            "robotis",
+            "korea",
+            "teleop",
+            "summit"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260921_digit5_crouch_comedy",
           "html": "<strong>Comedy:</strong> Agility’s Digit 5 promo shows the T-800-shaped warehouse unit stopping mid-task and crouching into a ball when a human walks up — infiltration protocol now includes fetal position (no injuries; just vibes)",
           "plain": "Comedy: Agility’s Digit 5 promo shows the T-800-shaped warehouse unit stopping mid-task and crouching into a ball when a human walks up — infiltration protocol now includes fetal position (no injuries; just vibes)",
@@ -667,40 +703,6 @@
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_china_humanoid_ipo_slowdown",
-          "html": "<strong>🇨🇳 Humanoid IPO chill</strong> (21 Sep 2026): Reuters — regulators use CSRC “window guidance” to slow humanoid listings after Unitree (688836.SS) plunged ~55% from debut peak; focus shifts to factory orders & recurring demand vs state-backed data-center revenue",
-          "plain": "Humanoid IPO chill (21 Sep 2026): Reuters — regulators use CSRC window guidance to slow humanoid listings after Unitree (688836.SS) plunged ~55% from debut peak; focus shifts to factory orders & recurring demand vs state-backed data-center revenue",
-          "source": "Reuters",
-          "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
-          "date": "2026-09-21",
-          "tags": [
-            "unitree",
-            "china",
-            "ipo",
-            "policy",
-            "capital"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260920_agibot_chimelong_park",
-          "html": "<strong>🇨🇳 AgiBot × Chimelong</strong> (20 Sep 2026, Zhuhai): world’s first large-scale embodied-AI theme park opens at Spaceship Park — 300+ AgiBot robots across 100+ interaction points (performances, guides, retail, hotels); WHRG medal models on show (Global Times)",
-          "plain": "AgiBot × Chimelong (20 Sep 2026, Zhuhai): world’s first large-scale embodied-AI theme park opens at Spaceship Park — 300+ AgiBot robots across 100+ interaction points (performances, guides, retail, hotels); WHRG medal models on show (Global Times)",
-          "source": "Global Times",
-          "url": "https://www.globaltimes.cn/page/202609/1370949.shtml",
-          "date": "2026-09-20",
-          "tags": [
-            "agibot",
-            "china",
-            "chimelong",
-            "deployment",
-            "theme-park"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -978,7 +980,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 73,
+      "overall": 74,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1207,6 +1209,25 @@
       ],
       "id": "skynet",
       "headlines": [
+        {
+          "id": "skynet_hl_20260922_kyodo_trump_xi_ai_cyber",
+          "html": "<strong>Eve of Trump–Xi (22 Sep 2026):</strong> Kyodo — AI safety / guardrails emerge as major summit agenda amid race fears. CNAS senior fellow Daniel Remler: several Chinese models are <em>likely capable of conducting fully autonomous cyber operations</em>, with vulnerabilities that state security can exploit when firms adopt them. Bessent notification mechanism still on the table; Beijing response unclear (Kyodo)",
+          "plain": "Eve of Trump–Xi (22 Sep 2026): Kyodo — AI safety / guardrails emerge as major summit agenda amid race fears. CNAS senior fellow Daniel Remler: several Chinese models are likely capable of conducting fully autonomous cyber operations, with vulnerabilities that state security can exploit when firms adopt them. Bessent notification mechanism still on the table; Beijing response unclear (Kyodo)",
+          "source": "Kyodo News",
+          "url": "https://english.kyodonews.net/articles/-/85833",
+          "date": "2026-09-22",
+          "tags": [
+            "us",
+            "china",
+            "summit",
+            "cyber",
+            "autonomous",
+            "cnas",
+            "governance"
+          ],
+          "subcatId": null,
+          "fighterId": "skynet"
+        },
         {
           "id": "skynet_hl_20260921_caine_hunted_autonomous",
           "html": "<strong>CJCS Caine — hunted</strong> (16 Sep 2026; covered 21 Sep): Joint Chiefs chair tells AFA conference US formations must assume they will be hunted by autonomous systems, jammed across the spectrum &amp; tracked in real time — cites Ukraine AI-vision FPV that keeps flying when links die (DefenseScoop)",
@@ -1486,21 +1507,19 @@
           "tags": [
             "military"
           ]
-        },
-        {
-          "id": "skynet_hl_005",
-          "html": "<strong>156 nations</strong> vote on lethal autonomous weapons regulation at UN",
-          "source": "UN",
-          "url": null,
-          "date": "2025-01-01",
-          "tags": [
-            "policy"
-          ]
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-22_scan_0805_dublin",
+      "at": "2026-09-22T07:08:23.659Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~08:05 Dublin: Humanoids Summit Seoul debut (22 Sep) — Unitree R1 handshakes + Rlwrld conveyor picks at COEX, but Roas/Unitree distributor says fully autonomous humanoids practically don't exist; demos still teleop/preset (Aju Press). Eve of Trump–Xi: Kyodo — AI safety major summit agenda; CNAS Remler says several Chinese models are likely capable of fully autonomous cyber operations (Kyodo 22 Sep). Comedy: Unitree R1's 'firm handshake' was an engineer in a Pico VR headset + ankle sensors. T-800 progress to 68%. Skynet progress to 74%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-22_scan_0805_dublin"
+    },
     {
       "id": "patch_2026-09-21_scan_2225_dublin",
       "at": "2026-09-21T21:27:46.075Z",
