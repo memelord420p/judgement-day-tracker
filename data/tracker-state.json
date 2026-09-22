@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-22T11:25:20.341Z",
+    "lastUpdated": "2026-09-22T13:26:02.205Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-22T12:23:00+01:00",
-    "lastScanSummary": "2h scan Sep 22 ~12:23 Dublin: Unitree Homies hit AGT Season 21 final (G1 crew + Wu Yufei kung fu / sync dance; AFP/France24). Axios — US–China AI 'red telephone' on Trump–Xi agenda. Gap: Nature Comms LiMU liquid-metal gripper (14 orders of mag; ~10 Pa). Comedy: Terminators audition for Simon. T-800 progress to 70%. T-1000 progress to 14%. Skynet progress to 74%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-22T14:23:00+01:00",
+    "lastScanSummary": "2h scan Sep 22 ~14:23 Dublin: Unitree Dex5-S 22-DoF hand ~$6.5k (Yangtzeer/Humanoids Daily). Senators Warner/Reed/Coons demand IG probes into AI targeting failures / hallucinations (Senate 21 Sep). Gap: CCW 128-state non-binding LAWS framework gutted late (On The Wire). Comedy: Terminator spare-hand aisle undercuts used cars. T-800 progress to 71%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 70,
+      "overall": 71,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,41 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260922_dex5_price_comedy",
+          "html": "<strong>Comedy:</strong> Unitree just put a 22-joint Terminator hand on the shelf for less than a used hatchback — AGIBOT’s OmniHand line now has a clearance-aisle rival. The endoskeleton supply chain discovered Best Buy pricing (Yangtzeer frame)",
+          "plain": "Comedy: Unitree just put a 22-joint Terminator hand on the shelf for less than a used hatchback — AGIBOT’s OmniHand line now has a clearance-aisle rival. The endoskeleton supply chain discovered Best Buy pricing (Yangtzeer frame)",
+          "source": "Yangtzeer (comedy frame)",
+          "url": "https://www.humanoidsdaily.com/news/unitree-dex5-s-robot-hand",
+          "date": "2026-09-22",
+          "tags": [
+            "comedy",
+            "unitree",
+            "dex5-s",
+            "price-war",
+            "agibot"
+          ],
+          "subcatId": "superhuman_strength",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_unitree_dex5s_hand",
+          "html": "<strong>🇨🇳 Unitree Dex5-S</strong> (21 Sep 2026; covered 22 Sep): human-sized 22-DoF dexterous hand — 22 motors, backdrivable + impact-torque protection, ~620 g, 1 kg continuous / 2 kg peak; Standard from ¥39,900 (~$6.5k); Pro adds tactile; fits H1/G1 — China hand price war accelerates (Yangtzeer / Humanoids Daily / BigGo)",
+          "plain": "Unitree Dex5-S (21 Sep 2026; covered 22 Sep): human-sized 22-DoF dexterous hand — 22 motors, backdrivable + impact-torque protection, ~620 g, 1 kg continuous / 2 kg peak; Standard from ¥39,900 (~$6.5k); Pro adds tactile; fits H1/G1 — China hand price war accelerates (Yangtzeer / Humanoids Daily / BigGo)",
+          "source": "Yangtzeer / Humanoids Daily",
+          "url": "https://yangtzeer.com/news/heavy-hitters/unitree-dexterous-hand-22-dof/",
+          "date": "2026-09-22",
+          "tags": [
+            "unitree",
+            "dex5-s",
+            "dexterous-hand",
+            "china",
+            "manipulation",
+            "price-war"
+          ],
+          "subcatId": "superhuman_strength",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260922_unitree_agt_comedy_scary",
           "html": "<strong>Comedy:</strong> Unitree G1s hit US primetime talent finals doing kung fu choreography while a judge calls it \"a bit scary\" — then the receipt lands: if the music changes mid-show, the Terminators can't improvise (AFP / Asiae)",
@@ -678,38 +713,6 @@
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_protoclone_comedy",
-          "html": "<strong>Comedy:</strong> Clone Robotics Protoclone (Poland) — 206-bone skeleton + ~1,000 Myofiber muscles — goes viral as uncanny-valley nightmare fuel while still hanging from the ceiling; walking remains off the stage (no injuries; just vibes)",
-          "plain": "Comedy: Clone Robotics Protoclone (Poland) — 206-bone skeleton + ~1,000 Myofiber muscles — goes viral as uncanny-valley nightmare fuel while still hanging from the ceiling; walking remains off the stage (no injuries; just vibes)",
-          "source": "Uma Technology / Clone Robotics coverage",
-          "url": "https://umatechnology.org/robot-with-1000-muscles-twitches-like-human-while-dangling-from-ceiling/",
-          "date": "2026-09-21",
-          "tags": [
-            "comedy",
-            "protoclone",
-            "uncanny",
-            "fail"
-          ],
-          "subcatId": "human_passing_appearance",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260919_ff_robot_world_2",
-          "html": "<strong>Faraday Future Robot World 2.0</strong> (19 Sep 2026): nine Embodied-AI robots unveiled for sale/delivery — Master Mini from $9,990; All-New Futurist humanoid from ~$89.9k; Aegis Hyper quadruped $137.9k; K-12/research/security/inspection kits (FF IR)",
-          "plain": "Faraday Future Robot World 2.0 (19 Sep 2026): nine Embodied-AI robots unveiled for sale/delivery — Master Mini from $9,990; All-New Futurist humanoid from ~$89.9k; Aegis Hyper quadruped $137.9k; K-12/research/security/inspection kits (FF IR)",
-          "source": "Faraday Future IR",
-          "url": "https://investors.ff.com/faraday-future-launches-four-industry-productivity-solutions-nine-new-eai-devices-at-its-919-event-building-its-one-brain-multi-form-multi-capability-ff-eai-robot-world-2-0-all-new-futurist-now/",
-          "date": "2026-09-19",
-          "tags": [
-            "faraday-future",
-            "us",
-            "shipping",
-            "humanoid"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -1020,7 +1023,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 74,
+      "overall": 75,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1249,6 +1252,42 @@
       ],
       "id": "skynet",
       "headlines": [
+        {
+          "id": "skynet_hl_20260922_ccw_laws_framework_gap",
+          "html": "<strong>CCW LAWS framework (gap)</strong> (4–5 Sep 2026; resurfaced 21 Sep): 128 states agree a <em>non-binding</em> lethal-autonomous-weapons text under the Convention on Certain Conventional Weapons — Stop Killer Robots says definition + civilian protections were diluted in the final hours; feeds Nov 16–20 Review Conference (Italian Disarmament Mission / On The Wire / TechRadar)",
+          "plain": "CCW LAWS framework (gap) (4–5 Sep 2026; resurfaced 21 Sep): 128 states agree a non-binding lethal-autonomous-weapons text under the Convention on Certain Conventional Weapons — Stop Killer Robots says definition + civilian protections were diluted in the final hours; feeds Nov 16–20 Review Conference (Italian Disarmament Mission / On The Wire / TechRadar)",
+          "source": "Italian Disarmament Mission / On The Wire",
+          "url": "https://onthewire.ai/article/the-world-has-its-first-global-framework-on-autonomous-weapons-and-campaigners-s",
+          "date": "2026-09-05",
+          "tags": [
+            "ccw",
+            "laws",
+            "autonomous-weapons",
+            "geneva",
+            "policy",
+            "gap"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260922_senators_ai_targeting_ig",
+          "html": "<strong>US senators → AI targeting IGs</strong> (21–22 Sep 2026): Warner / Reed / Coons demand Inspector General probes after reports an AI targeting stack used outdated geospatial data in a Minab (Iran) kinetic strike and SOCPAC disseminated AI-hallucinated intel that aborted an interdiction; cite NSM-25 rollback + DoD strategy treating governance as a “blocker” (Senate release / IANS)",
+          "plain": "US senators → AI targeting IGs (21–22 Sep 2026): Warner / Reed / Coons demand Inspector General probes after reports an AI targeting stack used outdated geospatial data in a Minab (Iran) kinetic strike and SOCPAC disseminated AI-hallucinated intel that aborted an interdiction; cite NSM-25 rollback + DoD strategy treating governance as a blocker (Senate release / IANS)",
+          "source": "U.S. Senate (Warner/Reed/Coons) / IANS",
+          "url": "https://www.reed.senate.gov/news/releases/reed-warner-and-coons-seek-investigation-into-faulty-ai-assisted-intelligence_operations",
+          "date": "2026-09-22",
+          "tags": [
+            "us",
+            "military-ai",
+            "targeting",
+            "hallucination",
+            "oversight",
+            "senate"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
         {
           "id": "skynet_hl_20260922_axios_ai_red_telephone",
           "html": "<strong>US–China AI \"red telephone\"</strong> (22 Sep 2026): Axios — Trump–Xi Washington summit frames a Cold War-style crisis hotline / notification channel for national-security AI incidents; Bessent track still live; no slowdown deal expected (Axios)",
@@ -1543,31 +1582,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_001",
-          "html": "<strong>OpenAI, Google, Anthropic</strong> predict AGI within 1–2 years; GPT-5 in testing",
-          "source": null,
-          "url": null,
-          "date": "2026-01-01",
-          "tags": [
-            "agi"
-          ]
-        },
-        {
-          "id": "skynet_hl_002",
-          "html": "<strong>🇨🇳 ByteDance Doubao AI</strong> sponsored Spring Festival Gala — Seedance 2.0 model used in visual production of live broadcast segments",
-          "source": "ByteDance",
-          "url": null,
-          "date": "2026-02-01",
-          "tags": [
-            "media-ai"
-          ]
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-22_scan_1423_dublin",
+      "at": "2026-09-22T13:26:02.205Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~14:23 Dublin: Unitree Dex5-S 22-DoF 1:1 hand (~¥39.9k / ~$6.5k; 620g; 22 motors; Pro adds tactile) — China dexterous-hand price war vs AGIBOT OmniHand (Yangtzeer / Humanoids Daily 21–22 Sep). Skynet: Sens. Warner/Reed/Coons demand IG probes into AI targeting failures (outdated geospatial data in Minab strike; SOCPAC AI-hallucinated intel aborted an interdiction) + NSM-25 rollback (Senate 21 Sep / IANS 22 Sep). Gap: CCW GGE — 128 states reach non-binding LAWS framework (human judgment watered down late; Review Conf Nov 2026) (Italian Mission / On The Wire). Comedy: Terminators can now restock spare hands cheaper than a used hatchback. T-800 progress to 71%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-22_scan_1423_dublin"
+    },
     {
       "id": "patch_2026-09-22_scan_1223_dublin",
       "at": "2026-09-22T11:25:20.341Z",
