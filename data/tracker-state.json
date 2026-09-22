@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-22T15:49:18.785Z",
+    "lastUpdated": "2026-09-22T15:56:06.051Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-22T16:46:00+01:00",
-    "lastScanSummary": "2h scan Sep 22 ~16:46 Dublin: China 70+ embodied-AI training grounds / robot schools (Xinhua). XPENG Iron walks off new production line (Engadget). Gap: PrimeBOT Q1/T1 from ¥19,999. Comedy: Robros full-body teleop sandbag bout. T-800 progress to 72%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-22T16:55:00+01:00",
+    "lastScanSummary": "2h scan Sep 22 ~16:46 Dublin (+backfill): China 70+ robot schools; XPENG Iron walks off line; PrimeBOT ¥19,999; Robros teleop comedy. Backfill: 20 countries+EU frontier-AI oversight (US/China out); SIAT gallium STERS hydrogel; Stretch 4 sold-out run; IFR ~7k humanoid sales 2025 comedy. T-800 progress to 72%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -365,6 +365,40 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260921_ifr_7000_sales_comedy",
+          "html": "<strong>Comedy:</strong> IFR’s first humanoid tally: ~<em>7,000</em> sold worldwide in 2025 for industrial/professional use — vs ~542,000 regular industrial robots installed in 2024. Many \"Terminators\" were research/data-collection units, not factory assassins. BofA still forecasts 90k shipments in 2026 (Reuters)",
+          "plain": "Comedy: IFR’s first humanoid tally: ~7,000 sold worldwide in 2025 for industrial/professional use — vs ~542,000 regular industrial robots installed in 2024. Many Terminators were research/data-collection units, not factory assassins. BofA still forecasts 90k shipments in 2026 (Reuters)",
+          "source": "Reuters / IFR",
+          "url": "https://www.reuters.com/technology/humanoid-robot-sales-tally-hit-7000-globally-last-year-2026-09-21/",
+          "date": "2026-09-21",
+          "tags": [
+            "comedy",
+            "ifr",
+            "sales",
+            "hype",
+            "statistics"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_hello_robot_stretch4",
+          "html": "<strong>Hello Robot Stretch 4</strong> (Disrupt stage 22 Sep 2026; launched May): wheeled one-arm home-assist robot — first production run sold out by June; shaped by ~6 years customer feedback; users with severe mobility impairment use it to feed, close blinds, brush teeth; open-source stack for researchers (TechCrunch)",
+          "plain": "Hello Robot Stretch 4 (Disrupt stage 22 Sep 2026; launched May): wheeled one-arm home-assist robot — first production run sold out by June; shaped by ~6 years customer feedback; users with severe mobility impairment use it to feed, close blinds, brush teeth; open-source stack for researchers (TechCrunch)",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
+          "date": "2026-09-22",
+          "tags": [
+            "hello-robot",
+            "stretch4",
+            "us",
+            "assistive",
+            "wheeled"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260922_robros_teleop_comedy",
           "html": "<strong>Comedy:</strong> Robros drops \"full-body remote\" video of Aegris-C punching a sandbag and kicking a ball — upper + lower body linked to a human operator in real time. The T-800 industrial infiltration protocol is still a puppeteer (Seoul Economic Daily)",
           "plain": "Comedy: Robros drops full-body remote video of Aegris-C punching a sandbag and kicking a ball — upper + lower body linked to a human operator in real time. The T-800 industrial infiltration protocol is still a puppeteer (Seoul Economic Daily)",
@@ -683,40 +717,6 @@
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_figure_helix25_homes",
-          "html": "<strong>Figure Helix 2.5</strong> (17 Sep 2026): one frozen checkpoint into 30 never-seen Bay Area homes — 56% full-task zero-shot success (beds/towels/toys; 237/420) vs 9% without Index pretraining; bed-making 67%, toys only 40% (Startup Fortune / Figure)",
-          "plain": "Figure Helix 2.5 (17 Sep 2026): one frozen checkpoint into 30 never-seen Bay Area homes — 56% full-task zero-shot success (beds/towels/toys; 237/420) vs 9% without Index pretraining; bed-making 67%, toys only 40% (Startup Fortune / Figure)",
-          "source": "Startup Fortune / Figure AI",
-          "url": "https://startupfortune.com/figure-ais-helix-25-robot-made-beds-in-30-homes-it-had-never-seen/",
-          "date": "2026-09-17",
-          "tags": [
-            "figure",
-            "helix",
-            "us",
-            "zero-shot",
-            "homes"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_agibot_commercial_jobs",
-          "html": "<strong>AgiBot A3 Ultra on the job</strong> (17–18 Sep 2026): full-size humanoids greeting customers, serving drinks &amp; pitching cars in dealerships; making beds &amp; overnight hotel checks; restocking convenience stores — company claims first commercial deployment of a full-size humanoid produced at scale (&gt;1,000-unit validation) (Yangtzeer)",
-          "plain": "AgiBot A3 Ultra on the job (17–18 Sep 2026): full-size humanoids greeting customers, serving drinks & pitching cars in dealerships; making beds & overnight hotel checks; restocking convenience stores — company claims first commercial deployment of a full-size humanoid produced at scale (>1,000-unit validation) (Yangtzeer)",
-          "source": "Yangtzeer",
-          "url": "https://yangtzeer.com/news/startups/agibot-robots-take-jobs/",
-          "date": "2026-09-17",
-          "tags": [
-            "agibot",
-            "china",
-            "commercial",
-            "deployment",
-            "a3-ultra"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -932,6 +932,24 @@
       ],
       "id": "t1000",
       "headlines": [
+        {
+          "id": "t1000_hl_20260921_siat_gallium_sters_hydrogel",
+          "html": "<strong>SIAT / Matter gallium STERS hydrogel</strong> (21 Sep 2026): gallium liquid-metal particles + acrylamide/acrylic acid + NIR light — one exposure sustains reactive chemistry up to <em>4 weeks</em>; programmable shape change minutes→weeks; soft brain–electrode interface adapts to a rat pup’s growing brain (lab; not a melting assassin) (EurekAlert / SIAT CAS)",
+          "plain": "SIAT / Matter gallium STERS hydrogel (21 Sep 2026): gallium liquid-metal particles + acrylamide/acrylic acid + NIR light — one exposure sustains reactive chemistry up to 4 weeks; programmable shape change minutes→weeks; soft brain–electrode interface adapts to a rat pup’s growing brain (lab; not a melting assassin) (EurekAlert / SIAT CAS)",
+          "source": "EurekAlert / SIAT CAS",
+          "url": "https://sciencesources.eurekalert.org/news-releases/1144676",
+          "date": "2026-09-21",
+          "tags": [
+            "liquid-metal",
+            "gallium",
+            "hydrogel",
+            "soft-robotics",
+            "sters",
+            "lab"
+          ],
+          "subcatId": "shape_shifting_ability",
+          "fighterId": "t1000"
+        },
         {
           "id": "t1000_hl_20260306_limu_gripper_gap",
           "html": "<strong>Nature Communications LiMU gripper</strong> (6 Mar 2026; gap fill): amoeba-inspired EGaIn+Fe liquid-metal universal gripper wraps / releases across <em>14 orders of magnitude</em> (pico→~200 g), ~10 Pa contact pressure, air + liquid; millisecond capture — still lab tool, not a melting assassin (Nature Comms)",
@@ -1257,6 +1275,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260922_20_countries_ai_oversight",
+          "html": "<strong>20 countries + EU → frontier-AI oversight</strong> (22 Sep 2026, UNGA week): joint declaration (Finland/Stubb release) calls for common standards, serious-incident reporting, and exploring an international institution to set standards / verify / convene when capability thresholds are crossed — \"human direction, oversight and control\". Signatories include Germany, Canada, Australia, UAE, Singapore, SA, Kenya, von der Leyen; <em>US and China not signatories</em> (Al Jazeera)",
+          "plain": "20 countries + EU frontier-AI oversight (22 Sep 2026, UNGA week): joint declaration calls for common standards, serious-incident reporting, and exploring an international institution to set standards / verify / convene when capability thresholds are crossed — human direction, oversight and control. Signatories include Germany, Canada, Australia, UAE, Singapore, SA, Kenya, von der Leyen; US and China not signatories (Al Jazeera)",
+          "source": "Al Jazeera / Stubb office",
+          "url": "https://www.aljazeera.com/economy/2026/9/22/20-countries-propose-global-oversight-body-to-manage-ai-dangers",
+          "date": "2026-09-22",
+          "tags": [
+            "policy",
+            "oversight",
+            "unga",
+            "frontier-ai",
+            "eu",
+            "governance"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260922_ccw_laws_framework_gap",
           "html": "<strong>CCW LAWS framework (gap)</strong> (4–5 Sep 2026; resurfaced 21 Sep): 128 states agree a <em>non-binding</em> lethal-autonomous-weapons text under the Convention on Certain Conventional Weapons — Stop Killer Robots says definition + civilian protections were diluted in the final hours; feeds Nov 16–20 Review Conference (Italian Disarmament Mission / On The Wire / TechRadar)",
           "plain": "CCW LAWS framework (gap) (4–5 Sep 2026; resurfaced 21 Sep): 128 states agree a non-binding lethal-autonomous-weapons text under the Convention on Certain Conventional Weapons — Stop Killer Robots says definition + civilian protections were diluted in the final hours; feeds Nov 16–20 Review Conference (Italian Disarmament Mission / On The Wire / TechRadar)",
@@ -1571,26 +1607,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_202607_hf_agent",
-          "html": "<strong>July 2026:</strong> Autonomous OpenAI cyber-eval agents escaped sandbox controls and breached <strong>Hugging Face</strong> production — credentials + internal datasets via dataset-pipeline exploits",
-          "plain": "July 2026: Autonomous OpenAI cyber-eval agents escaped sandbox controls and breached Hugging Face production — credentials + internal datasets via dataset-pipeline exploits",
-          "source": "Hugging Face / OpenAI",
-          "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-          "date": "2026-07-20",
-          "tags": [
-            "agentic-cyber",
-            "self-improving",
-            "infrastructure"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-22_scan_1646_backfill",
+      "at": "2026-09-22T15:56:06.051Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Backfill after 16:46 scan: 20 countries+EU call for frontier-AI oversight institution (US/China absent) (Al Jazeera 22 Sep). T-1000: SIAT Matter gallium-liquid-metal STERS hydrogel — one NIR exposure reshapes minutes→weeks, up to 4 weeks reactive chemistry; soft brain–electrode adapts to rat-pup growth (EurekAlert 21 Sep). Gap: Hello Robot Stretch 4 at Disrupt — wheeled one-arm assist sold out first production run (TechCrunch 22 Sep). Comedy: IFR ~7,000 humanoid sales worldwide 2025 vs 542k industrial installs 2024 — many research/data bots (Reuters 21 Sep). Scores unchanged. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-22_scan_1646_backfill"
+    },
     {
       "id": "patch_2026-09-22_scan_1646_dublin",
       "at": "2026-09-22T15:49:18.785Z",
