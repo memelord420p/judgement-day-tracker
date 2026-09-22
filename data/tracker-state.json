@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-22T07:08:23.659Z",
+    "lastUpdated": "2026-09-22T09:12:44.228Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-22T08:05:00+01:00",
-    "lastScanSummary": "2h scan Sep 22 ~08:05 Dublin: 🇰🇷 Humanoids Summit Seoul — Unitree R1 + Rlwrld conveyor demos at COEX; distributor says fully autonomous humanoids practically don't exist yet (Aju Press 22 Sep). Eve of Trump–Xi: AI safety as major agenda; CNAS Remler — several Chinese models likely capable of fully autonomous cyber ops (Kyodo 22 Sep). Comedy: the firm R1 handshake was the engineer in the VR headset. T-800 progress to 68%. Skynet progress to 74%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-22T10:10:00+01:00",
+    "lastScanSummary": "2h scan Sep 22 ~10:10 Dublin: EngineAI T800s run autonomous cage combat at URKL Shanghai (kip-ups + multi-bot roles; Robots Daily / CNR 22 Sep). UBTECH mass-delivers UWorld U1 companion humanoids after 13k+ orders (Pandaily 22 Sep). Gap: Unitree G1+ adds a moving neck at ~$15k. Comedy: the T-800 brand fights back from the floor. T-800 progress to 69%. Skynet progress to 74%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 68,
+      "overall": 69,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,77 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260922_engineai_t800_kipup_comedy",
+          "html": "<strong>Comedy:</strong> EngineAI literally named the fighter <em>T800</em>. It gets punched, hits the mat, then kip-ups like a Terminator outtake — White Eagle keeps swinging while heads and joints take damage. Product marketing by cage match (Robots Daily / NetEase)",
+          "plain": "Comedy: EngineAI literally named the fighter T800. It gets punched, hits the mat, then kip-ups like a Terminator outtake — White Eagle keeps swinging while heads and joints take damage. Product marketing by cage match (Robots Daily / NetEase)",
+          "source": "Robots Daily",
+          "url": "https://robots-daily.com/engineai-t800-robots-fight-in-shanghai-inside-urkls-humanoid-robot-combat-test/",
+          "date": "2026-09-22",
+          "tags": [
+            "comedy",
+            "engineai",
+            "t800",
+            "urkl",
+            "fail"
+          ],
+          "subcatId": "combat_agility",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_unitree_g1plus_neck_gap",
+          "html": "<strong>🇨🇳 Unitree G1+</strong> (mid-Sep 2026 gap fill): 2-DoF neck (±110° yaw, -25°/+36° pitch), +110% shoulder/waist peak torque, motors run cooler (72% less shoulder/waist heat), ~¥95k / ~$15k list — head tracks without spinning the whole torso (Unitree / TechNode / Humanoids Daily)",
+          "plain": "Unitree G1+ (mid-Sep 2026 gap fill): 2-DoF neck (±110° yaw, -25°/+36° pitch), +110% shoulder/waist peak torque, motors run cooler (72% less shoulder/waist heat), ~¥95k / ~$15k list — head tracks without spinning the whole torso (Unitree / TechNode / Humanoids Daily)",
+          "source": "TechNode / Unitree",
+          "url": "https://technode.com/2026/09/15/unitree-g1-plus-humanoid-robot/",
+          "date": "2026-09-15",
+          "tags": [
+            "unitree",
+            "g1plus",
+            "neck",
+            "china",
+            "gap-fill"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_ubtech_uworld_u1_mass_delivery",
+          "html": "<strong>🇨🇳 UBTECH UWorld U1 mass delivery</strong> (22 Sep 2026): Lite / Pro / Ultra companion humanoids start shipping to Chinese customers after June launch drew <em>13,000+</em> orders — factory-scale fulfillment, not a trade-show prop (RobotToday / Pandaily)",
+          "plain": "UBTECH UWorld U1 mass delivery (22 Sep 2026): Lite / Pro / Ultra companion humanoids start shipping to Chinese customers after June launch drew 13,000+ orders — factory-scale fulfillment, not a trade-show prop (RobotToday / Pandaily)",
+          "source": "RobotToday / Pandaily",
+          "url": "https://robottoday.com/industry-briefing/ubtech-initiates-mass-deliveries-of-uworld-u1-companion-humanoids-to-chinese-customers/13874",
+          "date": "2026-09-22",
+          "tags": [
+            "ubtech",
+            "uworld",
+            "u1",
+            "china",
+            "mass-delivery",
+            "companion"
+          ],
+          "subcatId": "factory_scale_production",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_engineai_urkl_shanghai_t800",
+          "html": "<strong>🇨🇳 EngineAI URKL Shanghai</strong> (19 Sep 2026, Baoshan; covered 20–22 Sep): full-size <em>T800</em> humanoids fight in an octagon — company says autonomous perception-to-action for parts of the bout (nav, opponent track, strike select); new kip-up / evasive footwork / jumping knee; 3-bot \"Last Robot Standing\" with distributed multi-robot perception; up to 450 N·m joint torque; 5,000 tickets sold out (Robots Daily / CNR)",
+          "plain": "EngineAI URKL Shanghai (19 Sep 2026, Baoshan; covered 20–22 Sep): full-size T800 humanoids fight in an octagon — company says autonomous perception-to-action for parts of the bout (nav, opponent track, strike select); new kip-up / evasive footwork / jumping knee; 3-bot Last Robot Standing with distributed multi-robot perception; up to 450 N·m joint torque; 5,000 tickets sold out (Robots Daily / CNR)",
+          "source": "Robots Daily",
+          "url": "https://robots-daily.com/engineai-t800-robots-fight-in-shanghai-inside-urkls-humanoid-robot-combat-test/",
+          "date": "2026-09-22",
+          "tags": [
+            "engineai",
+            "t800",
+            "urkl",
+            "shanghai",
+            "combat",
+            "autonomous",
+            "china"
+          ],
+          "subcatId": "combat_agility",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260922_seoul_teleop_handshake_comedy",
           "html": "<strong>Comedy:</strong> Unitree R1 offered a firm handshake at Seoul — grip was stiff, dry, stronger than it looked. Behind it: engineer with ankle sensors, remote, Pico VR headset. The T-800 infiltration test was a cosplay (Aju Press floor report)",
@@ -637,72 +708,6 @@
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_rek_teleop_cage_comedy",
-          "html": "<strong>Comedy:</strong> REK (San Francisco, 18 Sep 2026; covered 21 Sep) puts a creator in a cage with a six-foot <em>teleoperated</em> humanoid — kicks across the mat for viral combat demos. Still a remote pilot, not onboard autonomy; no serious injury reported (RuntimeWire)",
-          "plain": "Comedy: REK (San Francisco, 18 Sep 2026; covered 21 Sep) puts a creator in a cage with a six-foot teleoperated humanoid — kicks across the mat for viral combat demos. Still a remote pilot, not onboard autonomy; no serious injury reported (RuntimeWire)",
-          "source": "RuntimeWire",
-          "url": "https://runtimewire.com/article/human-vs-robot-rek-put-a-human-in-the-ring-with-a-six-foot-humanoid-robot",
-          "date": "2026-09-21",
-          "tags": [
-            "comedy",
-            "rek",
-            "teleop",
-            "us",
-            "fail"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_ifr_7000_sales_2025",
-          "html": "<strong>IFR humanoid tally</strong> (21 Sep 2026): ~7,000 humanoid robots sold worldwide in 2025 for industrial &amp; professional-service use — first dedicated IFR humanoid series; vs ~542k conventional industrial robots installed in 2024 (Reuters / TechNode)",
-          "plain": "IFR humanoid tally (21 Sep 2026): ~7,000 humanoid robots sold worldwide in 2025 for industrial & professional-service use — first dedicated IFR humanoid series; vs ~542k conventional industrial robots installed in 2024 (Reuters / TechNode)",
-          "source": "IFR via Reuters / TechNode",
-          "url": "https://www.reuters.com/technology/humanoid-robot-sales-tally-hit-7000-globally-last-year-2026-09-21/",
-          "date": "2026-09-21",
-          "tags": [
-            "ifr",
-            "sales",
-            "industry",
-            "scale"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_unitree_dex5s",
-          "html": "<strong>🇨🇳 Unitree Dex5-S</strong> (21 Sep 2026): 1:1 human-sized dexterous hand — 22 DoF / 22 motors, ~620 g aluminum shell, 2 kg peak / 1 kg continuous load; Standard + Pro (tactile); list from ~¥39,900; integrates with G1/H1 (IT之家 / Sina)",
-          "plain": "Unitree Dex5-S (21 Sep 2026): 1:1 human-sized dexterous hand — 22 DoF / 22 motors, ~620 g aluminum shell, 2 kg peak / 1 kg continuous load; Standard + Pro (tactile); list from ~¥39,900; integrates with G1/H1 (IT之家 / Sina)",
-          "source": "IT之家 / Sina Finance",
-          "url": "https://finance.sina.com.cn/stock/t/2026-09-21/doc-inisqvsc6035744.shtml",
-          "date": "2026-09-21",
-          "tags": [
-            "unitree",
-            "dexterity",
-            "hand",
-            "china",
-            "hardware"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_unitree_ipo_gravity_comedy",
-          "html": "<strong>Comedy:</strong> John Connor notes Unitree’s Terminator ticker just learned gravity — fivefold IPO moonshot, then ~55% peak wipe. Production lines keep rolling; the meme stocks took the hit (no factory injuries in this bit)",
-          "plain": "Comedy: John Connor notes Unitree’s Terminator ticker just learned gravity — fivefold IPO moonshot, then ~55% peak wipe. Production lines keep rolling; the meme stocks took the hit (no factory injuries in this bit)",
-          "source": "Reuters (commentary frame)",
-          "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
-          "date": "2026-09-21",
-          "tags": [
-            "comedy",
-            "unitree",
-            "ipo",
-            "john"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -918,6 +923,22 @@
       ],
       "id": "t1000",
       "headlines": [
+        {
+          "id": "t1000_hl_20260922_soft_robot_lc_holography",
+          "html": "<strong>Soft robots + liquid-crystal holography</strong> (covered Sep 2026): all-in-one optically interactive soft robots embed LC holography to store commands and guide autonomous navigation — still lab-scale, not a melting assassin (Scientific Inquirer)",
+          "plain": "Soft robots + liquid-crystal holography (covered Sep 2026): all-in-one optically interactive soft robots embed LC holography to store commands and guide autonomous navigation — still lab-scale, not a melting assassin (Scientific Inquirer)",
+          "source": "Scientific Inquirer",
+          "url": "https://scientificinquirer.com/2026/09/11/scientists-develop-all-in-one-optically-interactive-soft-robots-with-embedded-liquid-crystal-holography/",
+          "date": "2026-09-11",
+          "tags": [
+            "soft-robotics",
+            "holography",
+            "lab",
+            "t1000"
+          ],
+          "subcatId": null,
+          "fighterId": "t1000"
+        },
         {
           "id": "t1000_hl_2026_matter_lm_shape_memory",
           "html": "<strong>Matter (2026):</strong> liquid-metal shape-memory robot with embodied control loop — ~90% volumetric compression, 100+ recovery cycles, &lt;50s restore; still lab pipeline-bot, not a T-1000",
@@ -1210,6 +1231,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260922_china_ai_safety_framework_30_gap",
+          "html": "<strong>🇨🇳 AI Safety Governance Framework 3.0</strong> (14 Sep 2026; gap fill): CAC/non-mandatory playbook adds an <em>Agentic AI Risk Management</em> appendix — discovery/intervention/recovery for improper agent behavior; users keep final decision authority. Reuters: Beijing preparing for AI escaping human control (CAC / Reuters)",
+          "plain": "China AI Safety Governance Framework 3.0 (14 Sep 2026; gap fill): CAC/non-mandatory playbook adds an Agentic AI Risk Management appendix — discovery/intervention/recovery for improper agent behavior; users keep final decision authority. Reuters: Beijing preparing for AI escaping human control (CAC / Reuters)",
+          "source": "CAC / Reuters",
+          "url": "https://www.reuters.com/legal/litigation/how-china-is-preparing-risk-ai-escaping-human-control-2026-09-14/",
+          "date": "2026-09-14",
+          "tags": [
+            "china",
+            "cac",
+            "framework-3.0",
+            "agentic",
+            "governance",
+            "gap-fill"
+          ],
+          "subcatId": null,
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260922_kyodo_trump_xi_ai_cyber",
           "html": "<strong>Eve of Trump–Xi (22 Sep 2026):</strong> Kyodo — AI safety / guardrails emerge as major summit agenda amid race fears. CNAS senior fellow Daniel Remler: several Chinese models are <em>likely capable of conducting fully autonomous cyber operations</em>, with vulnerabilities that state security can exploit when firms adopt them. Bessent notification mechanism still on the table; Beijing response unclear (Kyodo)",
           "plain": "Eve of Trump–Xi (22 Sep 2026): Kyodo — AI safety / guardrails emerge as major summit agenda amid race fears. CNAS senior fellow Daniel Remler: several Chinese models are likely capable of conducting fully autonomous cyber operations, with vulnerabilities that state security can exploit when firms adopt them. Bessent notification mechanism still on the table; Beijing response unclear (Kyodo)",
@@ -1497,21 +1536,19 @@
           "tags": [
             "policy"
           ]
-        },
-        {
-          "id": "skynet_hl_004",
-          "html": "<strong>Military AI</strong> market hits $13.8B — autonomous drones deployed in live combat zones",
-          "source": null,
-          "url": null,
-          "date": "2025-01-01",
-          "tags": [
-            "military"
-          ]
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-22_scan_1010_dublin",
+      "at": "2026-09-22T09:12:44.228Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~10:10 Dublin: EngineAI T800s fight autonomously at URKL Shanghai (19 Sep; CNR 22 Sep) — kip-ups, multi-bot coordination, perception-to-action in the cage (Robots Daily). UBTECH starts mass delivery of UWorld U1 Lite/Pro/Ultra companion humanoids in China after 13,000+ June orders (RobotToday/Pandaily 22 Sep). Gap fill: Unitree G1+ ships with 2-DoF neck + cooler higher-torque motors at ¥95k/~$15k (14–15 Sep). Comedy: they named the fighter T-800 and it kip-ups after getting punched. T-800 progress to 69%. Skynet progress to 74%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-22_scan_1010_dublin"
+    },
     {
       "id": "patch_2026-09-22_scan_0805_dublin",
       "at": "2026-09-22T07:08:23.659Z",
