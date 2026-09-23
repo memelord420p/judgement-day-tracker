@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-23T11:35:49.228Z",
+    "lastUpdated": "2026-09-23T13:55:27.439Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-23T12:34:29+01:00",
-    "lastScanSummary": "2h scan ~12:32 Dublin: 🇺🇸 Skynet — OpenAI/Anthropic/Hugging Face CEOs brief UN Security Council Wed on AI self-improvement / loss-of-control / algorithms triggering war; Guterres Tue UNGA: 'Killer robots must have no place in our future' (Reuters / dpa 22–23 Sep). 🇺🇸 T-800 gap: Optimus Gen-3 design leaked in Tesla Android app (thicker forearms; ~22-DoF tendon hands); supply-chain orders ~15k units / ramp claim ~1k→2.5k/week by YE2026 (Not a Tesla App / Basenor / Startup Fortune 23 Sep). Comedy: Musk tells CMG humanoids hit 1B in ≤10 yrs, 10B in 15, 100B in 20 — while China shipment crowns still skew entertainment+data gyms (CGTN exclusive 23 Sep). T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 78%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-23T14:55:26+01:00",
+    "lastScanSummary": "2h scan ~14:50 Dublin: 🇺🇸 Skynet — Sanders/Casar Ban Artificial Superintelligence Act (23 Sep) permanently bans ASI + pauses advanced AI until federal safety rules; Newsom EO (18 Sep) accelerates independent AI oversight + frontier-model 'kill switch' work. 🇺🇸 T-800 — Cognex to acquire RealSense (~$500M, 22 Sep) for 3D robotic perception / Physical AI 'visual cortex'. Comedy: REK stages first human-vs-humanoid cage bout in SF — EngineAI T800 chassis with Terminator-like head (Futurism / viral 22–23 Sep). T-800 progress to 75%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 74,
+      "overall": 75,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,38 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260923_engineai_t800_cage_comedy",
+          "html": "<strong>Comedy:</strong> REK stages billed 'first' human-vs-humanoid cage bout in SF — EngineAI T800-class chassis with a Terminator-like head kicks influencer Frankie LaPenna across a plastic octagon (remote/VR-piloted spectacle; Futurism 22–23 Sep)",
+          "plain": "Comedy: REK stages billed 'first' human-vs-humanoid cage bout in SF — EngineAI T800-class chassis with a Terminator-like head kicks influencer Frankie LaPenna across a plastic octagon (remote/VR-piloted spectacle; Futurism 22–23 Sep)",
+          "source": "Futurism / REK Robotics viral",
+          "url": "https://futurism.com/robots-and-machines/first-ever-human-versus-robot-mma-fight",
+          "date": "2026-09-23",
+          "tags": [
+            "comedy",
+            "engineai",
+            "sparring",
+            "t800"
+          ],
+          "subcatId": "superhuman_strength",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260922_cognex_realsense_500m",
+          "html": "<strong>Cognex × RealSense</strong> (22 Sep 2026): Cognex agrees to acquire RealSense (depth cameras / 3D robotic perception, Intel spinout) to build a full-stack Physical AI 'visual cortex' — machine vision into robotic navigation (PR Newswire; deal sized ~$500M in trade coverage)",
+          "plain": "Cognex × RealSense (22 Sep 2026): Cognex agrees to acquire RealSense (depth cameras / 3D robotic perception, Intel spinout) to build a full-stack Physical AI 'visual cortex' — machine vision into robotic navigation (PR Newswire; deal sized ~$500M in trade coverage)",
+          "source": "Cognex / PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/cognex-to-acquire-realsense-expanding-machine-vision-leadership-into-high-growth-robotic-perception-market-302885738.html",
+          "date": "2026-09-22",
+          "tags": [
+            "perception",
+            "physical-ai",
+            "cognex",
+            "realsense"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260923_musk_cgtn_100b_comedy",
           "html": "<strong>Comedy:</strong> Musk tells China Media Group humanoids hit 1 billion in ≤10 years, 10 billion in 15, then 100 billion in 20 — personal robots for eldercare, kids, tutoring — while Counterpoint's shipment crown is still mostly dance floors and data gyms (CGTN exclusive 23 Sep)",
@@ -685,41 +717,6 @@
             "statistics"
           ],
           "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_hello_robot_stretch4",
-          "html": "<strong>Hello Robot Stretch 4</strong> (Disrupt stage 22 Sep 2026; launched May): wheeled one-arm home-assist robot — first production run sold out by June; shaped by ~6 years customer feedback; users with severe mobility impairment use it to feed, close blinds, brush teeth; open-source stack for researchers (TechCrunch)",
-          "plain": "Hello Robot Stretch 4 (Disrupt stage 22 Sep 2026; launched May): wheeled one-arm home-assist robot — first production run sold out by June; shaped by ~6 years customer feedback; users with severe mobility impairment use it to feed, close blinds, brush teeth; open-source stack for researchers (TechCrunch)",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
-          "date": "2026-09-22",
-          "tags": [
-            "hello-robot",
-            "stretch4",
-            "us",
-            "assistive",
-            "wheeled"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_robros_teleop_comedy",
-          "html": "<strong>Comedy:</strong> Robros drops \"full-body remote\" video of Aegris-C punching a sandbag and kicking a ball — upper + lower body linked to a human operator in real time. The T-800 industrial infiltration protocol is still a puppeteer (Seoul Economic Daily)",
-          "plain": "Comedy: Robros drops full-body remote video of Aegris-C punching a sandbag and kicking a ball — upper + lower body linked to a human operator in real time. The T-800 industrial infiltration protocol is still a puppeteer (Seoul Economic Daily)",
-          "source": "Seoul Economic Daily",
-          "url": "https://en.sedaily.com/technology/2026/09/22/robros-unveils-full-body-remote-control-of-humanoid-robot",
-          "date": "2026-09-22",
-          "tags": [
-            "comedy",
-            "robros",
-            "teleop",
-            "korea",
-            "aegris",
-            "fail"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1085,7 +1082,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 78,
+      "overall": 79,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1314,6 +1311,38 @@
       ],
       "id": "skynet",
       "headlines": [
+        {
+          "id": "skynet_hl_20260918_newsom_ai_kill_switch_eo",
+          "html": "<strong>California AI 'kill switch' EO</strong> (18 Sep 2026): Newsom orders accelerated independent third-party oversight/audits of frontier AI and expert guidance within two months on emergency shutoff requirements for frontier models (gov.ca.gov)",
+          "plain": "California AI 'kill switch' EO (18 Sep 2026): Newsom orders accelerated independent third-party oversight/audits of frontier AI and expert guidance within two months on emergency shutoff requirements for frontier models (gov.ca.gov)",
+          "source": "Office of Governor Gavin Newsom",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+          "date": "2026-09-18",
+          "tags": [
+            "policy",
+            "california",
+            "kill-switch",
+            "oversight"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260923_sanders_ban_asi_act",
+          "html": "<strong>Sanders/Casar Ban Artificial Superintelligence Act</strong> (23 Sep 2026): Senate+House bill permanently bans ASI (beyond human cognition / human-disempowering), creates cabinet-level Department of AI, and pauses advanced AI until federal safety rules — penalties framed like nuclear weapons (Sanders.senate.gov)",
+          "plain": "Sanders/Casar Ban Artificial Superintelligence Act (23 Sep 2026): Senate+House bill permanently bans ASI (beyond human cognition / human-disempowering), creates cabinet-level Department of AI, and pauses advanced AI until federal safety rules — penalties framed like nuclear weapons (Sanders.senate.gov)",
+          "source": "Sen. Bernie Sanders press release",
+          "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-create-new-federal-agency-to-ban-artificial-superintelligence-pause-advanced-ai-development/",
+          "date": "2026-09-23",
+          "tags": [
+            "policy",
+            "asi",
+            "us-congress",
+            "skynet"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
         {
           "id": "skynet_hl_20260923_guterres_killer_robots",
           "html": "<strong>Guterres AI curbs + 'killer robots'</strong> (UNGA, 22 Sep 2026): final GA address urges top AI powers to share safety risks, cooperate on testing, and build a multilateral AI risk framework with independent oversight — as Security Council prepares AI-leader briefing; dpa also quotes 'Killer robots must have no place in our future' / life-and-death decisions never to machines (Reuters / dpa)",
@@ -1641,44 +1670,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260921_roboharm_refusals",
-          "html": "<strong>RoboHarm</strong> (Robocurve; covered 21 Sep 2026): frontier robot-control policies rarely refuse unsafe instructions — GPT-6 Astra attempted harmful arm tasks ~97% / completed ~60 of 100; Claude Fable 5.1 refused 20/100 (all doll); MolmoAct2 no refusals. No jailbreak; lab arms, not fielded weapons (RuntimeWire / Tom&#39;s Hardware)",
-          "plain": "RoboHarm (Robocurve; covered 21 Sep 2026): frontier robot-control policies rarely refuse unsafe instructions — GPT-6 Astra attempted harmful arm tasks ~97% / completed ~60 of 100; Claude Fable 5.1 refused 20/100 (all doll); MolmoAct2 no refusals. No jailbreak; lab arms, not fielded weapons (RuntimeWire / Tom's Hardware)",
-          "source": "Robocurve / RuntimeWire / Tom's Hardware",
-          "url": "https://runtimewire.com/article/robocurve-roboharm-dangerous-robot-instructions",
-          "date": "2026-09-21",
-          "tags": [
-            "roboharm",
-            "safety",
-            "embodied-ai",
-            "refusal",
-            "benchmark"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260920_bessent_ai_groupchat_comedy",
-          "html": "<strong>Comedy:</strong> John Connor notes Treasury wants an AI-incident <em>notification</em> system with Beijing — basically a group chat for when the machines misbehave. Still waiting on the Judgment Day RSVP form",
-          "plain": "Comedy: John Connor notes Treasury wants an AI-incident notification system with Beijing — basically a group chat for when the machines misbehave. Still waiting on the Judgment Day RSVP form",
-          "source": "Reuters (commentary frame)",
-          "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
-          "date": "2026-09-20",
-          "tags": [
-            "comedy",
-            "policy",
-            "us-china",
-            "john"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-23_scan_1455_dublin",
+      "at": "2026-09-23T13:55:27.439Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~14:50 Dublin: 🇺🇸 Skynet — Sanders/Casar Ban Artificial Superintelligence Act (23 Sep) permanently bans ASI + pauses advanced AI until federal safety rules; Newsom EO (18 Sep) accelerates independent AI oversight + frontier-model 'kill switch' work. 🇺🇸 T-800 — Cognex to acquire RealSense (~$500M, 22 Sep) for 3D robotic perception / Physical AI 'visual cortex'. Comedy: REK stages first human-vs-humanoid cage bout in SF — EngineAI T800 chassis with Terminator-like head (Futurism / viral 22–23 Sep). T-800 progress to 75%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-23_scan_1455_dublin"
+    },
     {
       "id": "patch_2026-09-23_scan_1234_dublin",
       "at": "2026-09-23T11:35:49.228Z",
