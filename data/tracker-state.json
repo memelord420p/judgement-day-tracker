@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-23T13:55:27.439Z",
+    "lastUpdated": "2026-09-23T16:00:56.024Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-23T14:55:26+01:00",
-    "lastScanSummary": "2h scan ~14:50 Dublin: 🇺🇸 Skynet — Sanders/Casar Ban Artificial Superintelligence Act (23 Sep) permanently bans ASI + pauses advanced AI until federal safety rules; Newsom EO (18 Sep) accelerates independent AI oversight + frontier-model 'kill switch' work. 🇺🇸 T-800 — Cognex to acquire RealSense (~$500M, 22 Sep) for 3D robotic perception / Physical AI 'visual cortex'. Comedy: REK stages first human-vs-humanoid cage bout in SF — EngineAI T800 chassis with Terminator-like head (Futurism / viral 22–23 Sep). T-800 progress to 75%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-23T17:00:55+01:00",
+    "lastScanSummary": "2h scan ~16:58 Dublin: 🇨🇳 T-800 — Unitree 19× H2 full-size humanoids at WorldSkills Shanghai opening (22 Sep; CGTN/Global Times/OFweek 23 Sep): first claimed all-AI autonomous full-size swarm dance with 120 humans — onboard LiDAR only (no external base stations), ms-level swarm sync, RL choreography, auto error-correct/reposition. 🇺🇸 T-800 — Optimus Gen 3 design assets found in Tesla Android app APK (thicker forearms, tendon-driven ~22-DoF hands); supply-chain coverage cites ~15k-unit 2026 component orders / ramp toward ~2,500/week by YE2026 (Basenor / Startup Fortune / Not a Tesla App 23 Sep). Comedy: masks off — lead dancer + Unitree pack in matching light-up kits until the reveal (Global Times). T-800 progress to 76%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 75,
+      "overall": 76,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -364,6 +364,56 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260923_worldskills_masks_comedy",
+          "html": "<strong>Comedy:</strong> WorldSkills Shanghai opening — lead dancer + Unitree pack in matching light-up kits; Global Times caption: 'Guess who's the robot' until masks come off (23 Sep)",
+          "plain": "Comedy: WorldSkills Shanghai opening — lead dancer + Unitree pack in matching light-up kits; Global Times caption: 'Guess who's the robot' until masks come off (23 Sep)",
+          "source": "Global Times",
+          "url": "https://www.globaltimes.cn/page/202609/1371193.shtml",
+          "date": "2026-09-23",
+          "tags": [
+            "comedy",
+            "unitree",
+            "worldskills",
+            "infiltration"
+          ],
+          "subcatId": "human_passing_appearance",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260923_optimus_gen3_apk_leak",
+          "html": "<strong>Optimus Gen 3 APK leak</strong> (23 Sep 2026): Tesla Android app assets show Gen 3 silhouette with thicker forearms + more human-like tendon-driven hands (~22 DoF); supply-chain coverage cites ~15k-unit 2026 component orders and a ramp toward ~2,500/week by year-end (Basenor / Startup Fortune / Not a Tesla App)",
+          "plain": "Optimus Gen 3 APK leak (23 Sep 2026): Tesla Android app assets show Gen 3 silhouette with thicker forearms + more human-like tendon-driven hands (~22 DoF); supply-chain coverage cites ~15k-unit 2026 component orders and a ramp toward ~2,500/week by year-end (Basenor / Startup Fortune / Not a Tesla App)",
+          "source": "Basenor / Startup Fortune / Not a Tesla App",
+          "url": "https://startupfortune.com/tesla-accidentally-leaked-optimus-gen-3s-design-in-its-own-android-app/",
+          "date": "2026-09-23",
+          "tags": [
+            "tesla",
+            "optimus",
+            "gen3",
+            "us",
+            "production"
+          ],
+          "subcatId": "superhuman_strength",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260923_unitree_worldskills_h2_swarm",
+          "html": "<strong>Unitree WorldSkills H2 swarm</strong> (22 Sep 2026, Shanghai): 19 full-size H2 humanoids + 120 dancers — claimed first all-AI-driven autonomous full-size humanoid swarm performance; onboard LiDAR localization (no external base stations), millisecond swarm sync, RL-generated choreography, auto error-correct/reposition under stage lights (OFweek / CGTN / Global Times 23 Sep)",
+          "plain": "Unitree WorldSkills H2 swarm (22 Sep 2026, Shanghai): 19 full-size H2 humanoids + 120 dancers — claimed first all-AI-driven autonomous full-size humanoid swarm performance; onboard LiDAR localization (no external base stations), millisecond swarm sync, RL-generated choreography, auto error-correct/reposition under stage lights (OFweek / CGTN / Global Times 23 Sep)",
+          "source": "OFweek / CGTN / Global Times",
+          "url": "https://www.globaltimes.cn/page/202609/1371193.shtml",
+          "date": "2026-09-23",
+          "tags": [
+            "unitree",
+            "worldskills",
+            "swarm",
+            "china",
+            "t800"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260923_engineai_t800_cage_comedy",
           "html": "<strong>Comedy:</strong> REK stages billed 'first' human-vs-humanoid cage bout in SF — EngineAI T800-class chassis with a Terminator-like head kicks influencer Frankie LaPenna across a plastic octagon (remote/VR-piloted spectacle; Futurism 22–23 Sep)",
@@ -664,60 +714,6 @@
           ],
           "subcatId": "factory_scale_production",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_tesla_optimus_china_audits_gap",
-          "html": "<strong>🇨🇳 Tesla Optimus Gen-3 supply-chain audits</strong> (gap; 21–22 Sep 2026): humanoid team auditing Yangtze Delta suppliers (Ningbo/Hangzhou/Shanghai) incl. Tuopu / Sanhua / Joyson — joint modules, actuators, precision structure; several already hold Optimus orders; production starts after pass; Gen-3 first volume-production Optimus for material handling / simple line assist; Fremont S/X line converted (claimed <em>1M</em>/yr capacity); Texas Gigafactory second line long-term design <em>10M</em>/yr (CnEVPost / The Paper / Global Times)",
-          "plain": "Tesla Optimus Gen-3 supply-chain audits (gap; 21–22 Sep 2026): humanoid team auditing Yangtze Delta suppliers (Ningbo/Hangzhou/Shanghai) incl. Tuopu / Sanhua / Joyson — joint modules, actuators, precision structure; several already hold Optimus orders; production starts after pass; Gen-3 first volume-production Optimus for material handling / simple line assist; Fremont S/X line converted (claimed 1M/yr capacity); Texas Gigafactory second line long-term design 10M/yr (CnEVPost / The Paper / Global Times)",
-          "source": "CnEVPost / The Paper / Global Times",
-          "url": "https://cnevpost.com/2026/09/21/tesla-audits-china-suppliers-optimus-mass-production/",
-          "date": "2026-09-21",
-          "tags": [
-            "tesla",
-            "optimus",
-            "china",
-            "supply-chain",
-            "mass-production",
-            "gap-fill"
-          ],
-          "subcatId": "factory_scale_production",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_bd_rmac_atlas_metaplant",
-          "html": "<strong>🇺🇸 Boston Dynamics RMAC</strong> (21–22 Sep 2026): Robotics Metaplant Application Center opens full-scale inside Hyundai Metaplant America (Georgia) — Atlas trains on auto-parts logistics &amp; sequencing in a real plant twin; joins HMGMA processes from <em>2028</em> (assembly by 2030); Hyundai/Kia plan <em>25,000</em> Atlas units; US robot plant <em>30,000</em>/yr; RMAC ~10× larger in 2027; Spot/Stretch customers scout aerospace/semiconductor/logistics (Boston Dynamics / SED / Asiae)",
-          "plain": "Boston Dynamics RMAC (21–22 Sep 2026): Robotics Metaplant Application Center opens full-scale inside Hyundai Metaplant America (Georgia) — Atlas trains on auto-parts logistics & sequencing in a real plant twin; joins HMGMA processes from 2028 (assembly by 2030); Hyundai/Kia plan 25,000 Atlas units; US robot plant 30,000/yr; RMAC ~10× larger in 2027; Spot/Stretch customers scout aerospace/semiconductor/logistics (Boston Dynamics / SED / Asiae)",
-          "source": "Boston Dynamics / Seoul Economic Daily / Asiae",
-          "url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks/",
-          "date": "2026-09-22",
-          "tags": [
-            "boston-dynamics",
-            "atlas",
-            "rmac",
-            "hyundai",
-            "metaplant",
-            "us",
-            "factory"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_ifr_7000_sales_comedy",
-          "html": "<strong>Comedy:</strong> IFR’s first humanoid tally: ~<em>7,000</em> sold worldwide in 2025 for industrial/professional use — vs ~542,000 regular industrial robots installed in 2024. Many \"Terminators\" were research/data-collection units, not factory assassins. BofA still forecasts 90k shipments in 2026 (Reuters)",
-          "plain": "Comedy: IFR’s first humanoid tally: ~7,000 sold worldwide in 2025 for industrial/professional use — vs ~542,000 regular industrial robots installed in 2024. Many Terminators were research/data-collection units, not factory assassins. BofA still forecasts 90k shipments in 2026 (Reuters)",
-          "source": "Reuters / IFR",
-          "url": "https://www.reuters.com/technology/humanoid-robot-sales-tally-hit-7000-globally-last-year-2026-09-21/",
-          "date": "2026-09-21",
-          "tags": [
-            "comedy",
-            "ifr",
-            "sales",
-            "hype",
-            "statistics"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -933,6 +929,22 @@
       ],
       "id": "t1000",
       "headlines": [
+        {
+          "id": "t1000_hl_20260923_lm_shape_memory_robot_matter",
+          "html": "<strong>Liquid-metal shape-memory robot</strong> (Matter 2026): closed-loop perception→decision→execution LM robot with programmable deformation + spontaneous reversible recovery — 90% volumetric compression, &gt;100 memory cycles, recovery &lt;50s, operates &gt;220°C; pipeline/nuclear-waste demos (Cell Press Matter)",
+          "plain": "Liquid-metal shape-memory robot (Matter 2026): closed-loop perception→decision→execution LM robot with programmable deformation + spontaneous reversible recovery — 90% volumetric compression, >100 memory cycles, recovery <50s, operates >220°C; pipeline/nuclear-waste demos (Cell Press Matter)",
+          "source": "Cell Press Matter",
+          "url": "https://www.cell.com/matter/abstract/S2590-2385(26)00122-0",
+          "date": "2026-09-23",
+          "tags": [
+            "liquid-metal",
+            "shape-memory",
+            "t1000",
+            "lab"
+          ],
+          "subcatId": "shape_shifting_ability",
+          "fighterId": "t1000"
+        },
         {
           "id": "t1000_hl_20260512_nature_lima_mhd_pump_gap",
           "html": "<strong>Nature Communications LIMA pump</strong> (12 May 2026; gap): liquid-metal magnetohydrodynamic soft pump — 0.2 g / 0.086 cm³, &lt;1 V, drives soft legs + dual-fluid code streams; 48,600 cycles durability — still a lab droplet pump, not a melting assassin (Nature Comms / Bristol)",
@@ -1675,6 +1687,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-23_scan_1700_dublin",
+      "at": "2026-09-23T16:00:56.024Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~16:58 Dublin: 🇨🇳 T-800 — Unitree 19× H2 full-size humanoids at WorldSkills Shanghai opening (22 Sep; CGTN/Global Times/OFweek 23 Sep): first claimed all-AI autonomous full-size swarm dance with 120 humans — onboard LiDAR only (no external base stations), ms-level swarm sync, RL choreography, auto error-correct/reposition. 🇺🇸 T-800 — Optimus Gen 3 design assets found in Tesla Android app APK (thicker forearms, tendon-driven ~22-DoF hands); supply-chain coverage cites ~15k-unit 2026 component orders / ramp toward ~2,500/week by YE2026 (Basenor / Startup Fortune / Not a Tesla App 23 Sep). Comedy: masks off — lead dancer + Unitree pack in matching light-up kits until the reveal (Global Times). T-800 progress to 76%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-23_scan_1700_dublin"
+    },
     {
       "id": "patch_2026-09-23_scan_1455_dublin",
       "at": "2026-09-23T13:55:27.439Z",
