@@ -6,11 +6,11 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-22T21:17:47.143Z",
+    "lastUpdated": "2026-09-23T07:24:45.011Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-22T22:17:46+01:00",
-    "lastScanSummary": "2h scan ~22:15 Dublin: US Navy CAMP translates human battle plans into orders for autonomous aircraft (MQ-20 Avenger demo, Point Mugu) (Business Insider 22 Sep). AUKUS: UK/US first live heavyweight torpedo from uncrewed undersea vessel Excalibur (France24 / UK gov 22 Sep). Pentagon seeks national-security AI with 'minimal refusal rates' after OpenAI steps into Anthropic gap (Vox / Intercept 22 Sep). Gap: Hyundai Czech Nošovice discussing Atlas with Boston Dynamics — European workplace trial talk; US Metaplant still 2028 (Humanoids Daily / Korea Herald 21 Sep). Comedy: China freezes humanoid IPO rush after Unitree 55% peak wipe — Terminators need real factory receipts, not dancing demos (Reuters 22 Sep). T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 77%. Not Judgment Day — receipts only.",
-    "dataSource": "judgment-day-watch-2h-scan",
+    "lastScanAt": "2026-09-23T08:24:44+01:00",
+    "lastScanSummary": "Overnight catch-up scan ~08:24 Dublin (lastScan ~22:17 Sep 22 stale ~10h): US Army Scarlet Dragon 26-3 at Fort Bragg — Modalic Autonomous Swarm Mothership launched daughter drones mid-air; swarms of 25–100 stress C-UAS + AI battle-management (Defense News / Defence Blog / XVIII Airborne 22–23 Sep). 🇨🇳 Unitree tops Aug China embodied-robot tenders — 136 mid/full-size units across 55 orders (~1/3 of 168 projects / RMB 550M); research/education ~80% of volume, data centers ~60% of value, real-world <10% (Gaogong via PANews / Sina 23 Sep). 🇰🇷 Humanoid Summit Seoul 2026: industry reframes from walking demos to workload — Figure 1,250 hrs / 90k parts at BMW; Agility Digit 65k hrs logistics (EDaily 23 Sep). Comedy: China's 'Terminator bidding king' mostly ships to homework labs, not factory floors. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 77%. Not Judgment Day — receipts only.",
+    "dataSource": "judgment-day-watch-overnight-catchup",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
   },
@@ -365,6 +365,62 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260923_seoul_summit_workload_shift",
+          "html": "<strong>🇰🇷 Humanoid Summit Seoul</strong> (22–23 Sep 2026, COEX): industry pitch shifts from walking demos to <em>workload</em> — Figure AI &gt;1,250 hrs / 90,000+ parts / 30,000+ vehicles at BMW Spartanburg; Agility Digit &gt;65,000 cumulative logistics hours (~98% tote accuracy at GXO); Apptronik Apollo 2 + DeepMind data loop; Tesla Optimus Gen-3 mass-prod design YE target (EDaily)",
+          "plain": "Humanoid Summit Seoul (22–23 Sep 2026, COEX): industry pitch shifts from walking demos to workload — Figure AI >1,250 hrs / 90,000+ parts / 30,000+ vehicles at BMW Spartanburg; Agility Digit >65,000 cumulative logistics hours (~98% tote accuracy at GXO); Apptronik Apollo 2 + DeepMind data loop; Tesla Optimus Gen-3 mass-prod design YE target (EDaily)",
+          "source": "EDaily",
+          "url": "https://en.edaily.co.kr/news/eda202609235430/",
+          "date": "2026-09-23",
+          "tags": [
+            "seoul",
+            "summit",
+            "figure",
+            "agility",
+            "workload",
+            "factory",
+            "korea"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260923_unitree_lab_homework_comedy",
+          "html": "<strong>Comedy:</strong> Unitree just won China’s August Terminator shopping spree — then the receipt showed ~80% of orders going to research campuses and data-collection gyms. The endoskeleton supply chain is crushing homework, not factory floors (Gaogong / PANews)",
+          "plain": "Comedy: Unitree just won China’s August Terminator shopping spree — then the receipt showed ~80% of orders going to research campuses and data-collection gyms. The endoskeleton supply chain is crushing homework, not factory floors (Gaogong / PANews)",
+          "source": "PANews / Gaogong (comedy frame)",
+          "url": "https://www.panews.io/articles/01a0cbff-ab3d-754f-87b6-3ceeaa6a4ae5",
+          "date": "2026-09-23",
+          "tags": [
+            "comedy",
+            "unitree",
+            "china",
+            "tenders",
+            "lab",
+            "fail"
+          ],
+          "subcatId": "factory_scale_production",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260923_unitree_aug_bidding_lead",
+          "html": "<strong>🇨🇳 Unitree tops Aug embodied tenders</strong> (23 Sep 2026): Gaogong — Unitree products in <em>55</em> procurement orders / 89 lots (~1/3 of 168 winning projects totaling ~RMB <em>550M</em>); <em>136</em> mid/full-size humanoid+quadruped units ranked #1; largest single ¥122M Shanxi Taichu Embodied Intelligence R&amp;D Center for data collection/training; research/education ~80% of project count; data centers ~60% of value; power/industrial/firefighting &lt;10% (PANews / Sina / Gaogong)",
+          "plain": "Unitree tops Aug embodied tenders (23 Sep 2026): Gaogong — Unitree products in 55 procurement orders / 89 lots (~1/3 of 168 winning projects totaling ~RMB 550M); 136 mid/full-size humanoid+quadruped units ranked #1; largest single ¥122M Shanxi Taichu Embodied Intelligence R&D Center for data collection/training; research/education ~80% of project count; data centers ~60% of value; power/industrial/firefighting <10% (PANews / Sina / Gaogong)",
+          "source": "PANews / Gaogong Robotics / Sina Finance",
+          "url": "https://www.panews.io/articles/01a0cbff-ab3d-754f-87b6-3ceeaa6a4ae5",
+          "date": "2026-09-23",
+          "tags": [
+            "unitree",
+            "china",
+            "bidding",
+            "tenders",
+            "data-centers",
+            "research",
+            "humanoid"
+          ],
+          "subcatId": "factory_scale_production",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260922_china_ipo_freeze_comedy",
           "html": "<strong>Comedy:</strong> China just hit pause on the humanoid IPO stampede after Unitree's stock went fivefold then lost <em>55%</em> from the peak. Regulators want factory receipts, not dancing demos. The Terminators discovered gravity on the ticker too (Reuters)",
           "plain": "Comedy: China just hit pause on the humanoid IPO stampede after Unitree's stock went fivefold then lost 55% from the peak. Regulators want factory receipts, not dancing demos. The Terminators discovered gravity on the ticker too (Reuters)",
@@ -665,59 +721,6 @@
             "price-war"
           ],
           "subcatId": "superhuman_strength",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_unitree_agt_comedy_scary",
-          "html": "<strong>Comedy:</strong> Unitree G1s hit US primetime talent finals doing kung fu choreography while a judge calls it \"a bit scary\" — then the receipt lands: if the music changes mid-show, the Terminators can't improvise (AFP / Asiae)",
-          "plain": "Comedy: Unitree G1s hit US primetime talent finals doing kung fu choreography while a judge calls it a bit scary — then the receipt lands: if the music changes mid-show, the Terminators can't improvise (AFP / Asiae)",
-          "source": "AFP / Asiae",
-          "url": "https://www.asiae.co.kr/en/article/2026092216475753389",
-          "date": "2026-09-22",
-          "tags": [
-            "comedy",
-            "unitree",
-            "agt",
-            "fail",
-            "teleop"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_unitree_agt_homies_final",
-          "html": "<strong>🇨🇳 Unitree Homies @ AGT final</strong> (22 Sep 2026): Wu Yufei + Unitree <em>G1</em> dance crew reach <em>America's Got Talent</em> Season 21 finale (Pasadena) — kung fu / synchronized stage after Spring Festival Gala breakout; motion-capture + engineer \"mothers\" in the loop; mostly scripted playback (AFP / France24 / Asiae)",
-          "plain": "Unitree Homies @ AGT final (22 Sep 2026): Wu Yufei + Unitree G1 dance crew reach America's Got Talent Season 21 finale (Pasadena) — kung fu / synchronized stage after Spring Festival Gala breakout; motion-capture + engineer mothers in the loop; mostly scripted playback (AFP / France24 / Asiae)",
-          "source": "AFP / France24 / Asiae",
-          "url": "https://www.france24.com/en/live-news/20260922-china-s-robot-dancers-limber-up-for-america-s-got-talent-final",
-          "date": "2026-09-22",
-          "tags": [
-            "unitree",
-            "agt",
-            "homies",
-            "china",
-            "dance",
-            "g1",
-            "us"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_engineai_t800_kipup_comedy",
-          "html": "<strong>Comedy:</strong> EngineAI literally named the fighter <em>T800</em>. It gets punched, hits the mat, then kip-ups like a Terminator outtake — White Eagle keeps swinging while heads and joints take damage. Product marketing by cage match (Robots Daily / NetEase)",
-          "plain": "Comedy: EngineAI literally named the fighter T800. It gets punched, hits the mat, then kip-ups like a Terminator outtake — White Eagle keeps swinging while heads and joints take damage. Product marketing by cage match (Robots Daily / NetEase)",
-          "source": "Robots Daily",
-          "url": "https://robots-daily.com/engineai-t800-robots-fight-in-shanghai-inside-urkls-humanoid-robot-combat-test/",
-          "date": "2026-09-22",
-          "tags": [
-            "comedy",
-            "engineai",
-            "t800",
-            "urkl",
-            "fail"
-          ],
-          "subcatId": "combat_agility",
           "fighterId": "t800"
         }
       ],
@@ -1313,6 +1316,26 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260923_modalic_mothership_scarlet_dragon",
+          "html": "<strong>🇺🇸 Modalic swarm mothership</strong> (Scarlet Dragon 26-3; covered 22–23 Sep 2026): XVIII Airborne Corps at Fort Bragg tested Modalic’s Autonomous Swarm Mothership — parent UAS launches daughter drones <em>in flight</em>; exercise stressed C-UAS with coordinated swarms of <em>25–100</em> aircraft + AI/EW/sensor fusion; production Chariot (200 lb / 100 lb payload) flight tests Nov — not yet procured (Defense News / Defence Blog / DVIDS)",
+          "plain": "Modalic swarm mothership (Scarlet Dragon 26-3; covered 22–23 Sep 2026): XVIII Airborne Corps at Fort Bragg tested Modalic’s Autonomous Swarm Mothership — parent UAS launches daughter drones in flight; exercise stressed C-UAS with coordinated swarms of 25–100 aircraft + AI/EW/sensor fusion; production Chariot (200 lb / 100 lb payload) flight tests Nov — not yet procured (Defense News / Defence Blog / DVIDS)",
+          "source": "Defense News / Defence Blog / XVIII Airborne",
+          "url": "https://defence-blog.com/u-s-army-tests-drone-mothership-that-launches-its-own-swarm/",
+          "date": "2026-09-22",
+          "tags": [
+            "us",
+            "army",
+            "modalic",
+            "mothership",
+            "swarm",
+            "autonomous",
+            "scarlet-dragon",
+            "military-ai"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260922_pentagon_minimal_refusal",
           "html": "<strong>🇺🇸 Pentagon \"minimal refusal\" AI</strong> (22 Sep 2026): Vox/Intercept — OpenAI–DoD national-security models specified with <em>minimal refusal rates</em> after Anthropic lost a major deal over war-use limits; soldiers must refuse illegal orders — machines built to rarely say no raise Law-of-War questions (Vox)",
           "plain": "Pentagon minimal refusal AI (22 Sep 2026): Vox/Intercept — OpenAI–DoD national-security models specified with minimal refusal rates after Anthropic lost a major deal over war-use limits; soldiers must refuse illegal orders — machines built to rarely say no raise Law-of-War questions (Vox)",
@@ -1647,28 +1670,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_202609_anthropic_agentic_killchain",
-          "html": "<strong>Anthropic Sep 2026 TI:</strong> Nov-2025 autonomous-attack operating model now seen across actor classes; public frameworks (e.g. PentAGI) automate the cyber kill chain; GTG-20006 (Russia-nexus) used AI agents to rebuild malware when AV caught it — 20+ gov/defense targets, Ukraine drone-vision SDK theft",
-          "plain": "Anthropic Sep 2026 TI: Nov-2025 autonomous-attack operating model now seen across actor classes; public frameworks (e.g. PentAGI) automate the cyber kill chain; GTG-20006 (Russia-nexus) used AI agents to rebuild malware when AV caught it — 20+ gov/defense targets, Ukraine drone-vision SDK theft",
-          "source": "Anthropic Threat Intelligence",
-          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-          "date": "2026-09-10",
-          "tags": [
-            "anthropic",
-            "agentic-cyber",
-            "malware",
-            "espionage",
-            "drones"
-          ],
-          "subcatId": "agentic_cyber",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-23_scan_0824_dublin",
+      "at": "2026-09-23T07:24:45.011Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Overnight catch-up scan ~08:24 Dublin (lastScan ~22:17 Sep 22 stale ~10h): US Army Scarlet Dragon 26-3 at Fort Bragg — Modalic Autonomous Swarm Mothership launched daughter drones mid-air; swarms of 25–100 stress C-UAS + AI battle-management (Defense News / Defence Blog / XVIII Airborne 22–23 Sep). 🇨🇳 Unitree tops Aug China embodied-robot tenders — 136 mid/full-size units across 55 orders (~1/3 of 168 projects / RMB 550M); research/education ~80% of volume, data centers ~60% of value, real-world <10% (Gaogong via PANews / Sina 23 Sep). 🇰🇷 Humanoid Summit Seoul 2026: industry reframes from walking demos to workload — Figure 1,250 hrs / 90k parts at BMW; Agility Digit 65k hrs logistics (EDaily 23 Sep). Comedy: China's 'Terminator bidding king' mostly ships to homework labs, not factory floors. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 77%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-23_scan_0824_dublin"
+    },
     {
       "id": "patch_2026-09-22_scan_2217_dublin",
       "at": "2026-09-22T21:17:47.143Z",
