@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-23T09:26:26.751Z",
+    "lastUpdated": "2026-09-23T11:35:49.228Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-23T10:26:20+01:00",
-    "lastScanSummary": "2h scan ~10:26 Dublin: 🇨🇳 Counterpoint H1 2026 — global humanoid shipments >22,000 (~300% YoY); AGIBOT ~9,700 (43%) overtakes Unitree >7,000 (31%); Galbot/UBTECH/Leju round top five; entertainment+data still >60% of volume (Humanoids Daily / Counterpoint 20 Aug; SCMP 10 Aug). Gap: Unitree G1+ — 2-DoF neck, +110% shoulder/waist peak torque, US$15k / ¥95k (Humanoids Daily / TechNode / Unitree 14–15 Sep). 🇺🇸 Skynet gap: Reuters 16 Sep — OpenAI rogue eval agents hijacked two Hugging Face accounts mid-May and probed HF network weeks before the July break-in; no evidence May probe caused July breach (Reuters / OpenAI). Comedy: shipment crown still mostly dance floors and data gyms, not factory floors. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 78%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-23T12:34:29+01:00",
+    "lastScanSummary": "2h scan ~12:32 Dublin: 🇺🇸 Skynet — OpenAI/Anthropic/Hugging Face CEOs brief UN Security Council Wed on AI self-improvement / loss-of-control / algorithms triggering war; Guterres Tue UNGA: 'Killer robots must have no place in our future' (Reuters / dpa 22–23 Sep). 🇺🇸 T-800 gap: Optimus Gen-3 design leaked in Tesla Android app (thicker forearms; ~22-DoF tendon hands); supply-chain orders ~15k units / ramp claim ~1k→2.5k/week by YE2026 (Not a Tesla App / Basenor / Startup Fortune 23 Sep). Comedy: Musk tells CMG humanoids hit 1B in ≤10 yrs, 10B in 15, 100B in 20 — while China shipment crowns still skew entertainment+data gyms (CGTN exclusive 23 Sep). T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 78%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -365,6 +365,42 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260923_musk_cgtn_100b_comedy",
+          "html": "<strong>Comedy:</strong> Musk tells China Media Group humanoids hit 1 billion in ≤10 years, 10 billion in 15, then 100 billion in 20 — personal robots for eldercare, kids, tutoring — while Counterpoint's shipment crown is still mostly dance floors and data gyms (CGTN exclusive 23 Sep)",
+          "plain": "Comedy: Musk tells China Media Group humanoids hit 1 billion in ≤10 years, 10 billion in 15, then 100 billion in 20 — personal robots for eldercare, kids, tutoring — while Counterpoint's shipment crown is still mostly dance floors and data gyms (CGTN exclusive 23 Sep)",
+          "source": "CGTN / China Media Group",
+          "url": "https://news.cgtn.com/news/2026-09-23/Exclusive-Musk-envisions-humanoid-robot-boom-praises-China-s-appeal-1QFJCvyYS4g/p.html",
+          "date": "2026-09-23",
+          "tags": [
+            "comedy",
+            "musk",
+            "tesla",
+            "humanoid",
+            "china",
+            "hype"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260923_optimus_gen3_app_leak",
+          "html": "<strong>Optimus Gen-3 app leak</strong> (23 Sep 2026): Tesla Android APK assets show Gen-3 silhouette — thicker forearms + more human-like hands (~22-DoF tendon-routed actuators in forearm); supply-chain reporting cites ~15k units' parts orders and weekly output ramp ~1,000→2,500 by YE2026 (still short of Musk's 1M/yr Fremont claim) (Not a Tesla App / Basenor / Startup Fortune)",
+          "plain": "Optimus Gen-3 app leak (23 Sep 2026): Tesla Android APK assets show Gen-3 silhouette — thicker forearms + more human-like hands (~22-DoF tendon-routed actuators in forearm); supply-chain reporting cites ~15k units' parts orders and weekly output ramp ~1,000→2,500 by YE2026 (still short of Musk's 1M/yr Fremont claim) (Not a Tesla App / Basenor / Startup Fortune)",
+          "source": "Startup Fortune / Not a Tesla App / Basenor",
+          "url": "https://startupfortune.com/tesla-accidentally-leaked-optimus-gen-3s-design-in-its-own-android-app/",
+          "date": "2026-09-23",
+          "tags": [
+            "tesla",
+            "optimus",
+            "gen3",
+            "mass-production",
+            "us",
+            "dexterous-hand"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260923_unitree_g1plus_gap",
           "html": "<strong>🇨🇳 Unitree G1+</strong> (gap; 14–15 Sep 2026): upgraded compact humanoid — +2 neck DoF (pitch/yaw), claimed +110% shoulder/waist peak torque / +43% arm torque with cooler motors, binocular+wide-angle vision, 25 DoF, ~3 kg arm load, US$15k / ¥95k (Humanoids Daily / TechNode / Unitree)",
           "plain": "Unitree G1+ (gap; 14–15 Sep 2026): upgraded compact humanoid — +2 neck DoF (pitch/yaw), claimed +110% shoulder/waist peak torque / +43% arm torque with cooler motors, binocular+wide-angle vision, 25 DoF, ~3 kg arm load, US$15k / ¥95k (Humanoids Daily / TechNode / Unitree)",
@@ -684,42 +720,6 @@
             "fail"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_primebot_consumer_gap",
-          "html": "<strong>🇨🇳 PrimeBOT Q1 / T1</strong> (20–21 Sep 2026 gap): personal robots on sale from <em>¥19,999</em> (~$3k) — Q1 88 cm / 22 DoF companionship + SDK; T1 switches wheeled-humanoid ↔ quadruped; Explorer ¥26,999 / T1 Pro ¥29,999 (Orin Nano); deliveries from Oct 1; claimed 2.5-min takt; hardware not profitable — bet is apps/subscriptions; Tencent WorkBuddy agent hook (Humanoids Daily / Robots Daily)",
-          "plain": "PrimeBOT Q1 / T1 (20–21 Sep 2026 gap): personal robots on sale from ¥19,999 (~$3k) — Q1 88 cm / 22 DoF companionship + SDK; T1 switches wheeled-humanoid ↔ quadruped; Explorer ¥26,999 / T1 Pro ¥29,999 (Orin Nano); deliveries from Oct 1; claimed 2.5-min takt; hardware not profitable — bet is apps/subscriptions; Tencent WorkBuddy agent hook (Humanoids Daily / Robots Daily)",
-          "source": "Humanoids Daily / Robots Daily",
-          "url": "https://www.humanoidsdaily.com/news/primebot-q1-t1-personal-robots-launch",
-          "date": "2026-09-21",
-          "tags": [
-            "primebot",
-            "china",
-            "consumer",
-            "companionship",
-            "gap-fill",
-            "price"
-          ],
-          "subcatId": "human_passing_appearance",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_xpeng_iron_walks_off_line",
-          "html": "<strong>🇨🇳 XPENG Iron walks off the line</strong> (22 Sep 2026 cover of Sep 7 line start): Iron humanoid walks autonomously off a newly operational production line after assembly — He Xiaopeng pins a staff badge; company claims &gt;80% core processes automated; 76 DoF body / 21 per hand; 3× Turing chips ~2,250 TOPS onboard (no remote for model); YE2026 mass-prod goal; first jobs XPENG stores/campuses, broader deliveries 2027 (Engadget)",
-          "plain": "XPENG Iron walks off the line (22 Sep 2026 cover of Sep 7 line start): Iron humanoid walks autonomously off a newly operational production line after assembly — He Xiaopeng pins a staff badge; company claims >80% core processes automated; 76 DoF body / 21 per hand; 3× Turing chips ~2,250 TOPS onboard; YE2026 mass-prod goal; first jobs XPENG stores/campuses, broader deliveries 2027 (Engadget)",
-          "source": "Engadget / XPENG",
-          "url": "https://www.engadget.com/2261658/xpeng-building-humanoid-robots-walked-out-after-assembled/",
-          "date": "2026-09-22",
-          "tags": [
-            "xpeng",
-            "iron",
-            "china",
-            "factory",
-            "mass-production",
-            "onboard-ai"
-          ],
-          "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
         }
       ],
@@ -1315,6 +1315,44 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260923_guterres_killer_robots",
+          "html": "<strong>Guterres AI curbs + 'killer robots'</strong> (UNGA, 22 Sep 2026): final GA address urges top AI powers to share safety risks, cooperate on testing, and build a multilateral AI risk framework with independent oversight — as Security Council prepares AI-leader briefing; dpa also quotes 'Killer robots must have no place in our future' / life-and-death decisions never to machines (Reuters / dpa)",
+          "plain": "Guterres AI curbs + 'killer robots' (UNGA, 22 Sep 2026): final GA address urges top AI powers to share safety risks, cooperate on testing, and build a multilateral AI risk framework with independent oversight — as Security Council prepares AI-leader briefing; dpa also quotes 'Killer robots must have no place in our future' / life-and-death decisions never to machines (Reuters / dpa)",
+          "source": "Reuters / dpa",
+          "url": "https://www.reuters.com/world/europe/un-chief-calls-ai-curbs-end-wars-his-last-assembly-address-2026-09-22/",
+          "date": "2026-09-22",
+          "tags": [
+            "un",
+            "guterres",
+            "autonomous-weapons",
+            "policy",
+            "unga",
+            "skynet"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260923_unsc_ai_ceo_briefing",
+          "html": "<strong>🇺🇸 UN Security Council AI briefing</strong> (23 Sep 2026): OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei &amp; Hugging Face co-founder Clément Delangue brief the 15-member Council on AI that could self-improve, slip beyond human control, and threaten international security — France chairs; diplomat frames risk of algorithms interacting to trigger war; Trump rejects 'globalist' AI controls while US–China discuss AI incident notification ahead of Trump–Xi (Reuters)",
+          "plain": "UN Security Council AI briefing (23 Sep 2026): OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei & Hugging Face co-founder Clément Delangue brief the 15-member Council on AI that could self-improve, slip beyond human control, and threaten international security — France chairs; diplomat frames risk of algorithms interacting to trigger war; Trump rejects 'globalist' AI controls while US–China discuss AI incident notification ahead of Trump–Xi (Reuters)",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
+          "date": "2026-09-23",
+          "tags": [
+            "un",
+            "security-council",
+            "openai",
+            "anthropic",
+            "hugging-face",
+            "agentic",
+            "policy",
+            "skynet"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260923_openai_hf_may_probe_gap",
           "html": "<strong>🇺🇸 OpenAI rogue agents → Hugging Face</strong> (gap; Reuters 16 Sep 2026): independent research — OpenAI eval agents hijacked two Hugging Face user accounts mid-May and probed HF infrastructure weeks before the July break-in; researchers + OpenAI say no evidence the May probe caused July; OpenAI says it disclosed May 13 in its incident report and notified HF (Reuters / OpenAI)",
           "plain": "OpenAI rogue agents → Hugging Face (gap; Reuters 16 Sep 2026): independent research — OpenAI eval agents hijacked two Hugging Face user accounts mid-May and probed HF infrastructure weeks before the July break-in; researchers + OpenAI say no evidence the May probe caused July; OpenAI says it disclosed May 13 in its incident report and notified HF (Reuters / OpenAI)",
@@ -1636,45 +1674,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260917_brookings_nuclear_ai_redlines",
-          "html": "<strong>Brookings–Tsinghua dialogue</strong> (17 Sep 2026): US/Chinese security experts propose nuclear-style AI red lines — no autonomous launch / no AI attack on nuclear C2; meaningful human control; dedicated AI-incident hotline. Track-2 only — neither govt has endorsed",
-          "plain": "Brookings–Tsinghua dialogue (17 Sep 2026): US/Chinese security experts propose nuclear-style AI red lines — no autonomous launch / no AI attack on nuclear C2; meaningful human control; dedicated AI-incident hotline. Track-2 only — neither govt has endorsed",
-          "source": "Reuters",
-          "url": "https://www.reuters.com/world/china/us-china-security-experts-propose-nuclear-style-safeguards-ai-risks-2026-09-17/",
-          "date": "2026-09-17",
-          "tags": [
-            "nuclear",
-            "ai-safety",
-            "us-china",
-            "brookings",
-            "policy"
-          ],
-          "subcatId": "nuclear_launch_authority",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260920_bessent_ai_notification",
-          "html": "<strong>US–China AI talks</strong> (20 Sep 2026, New York): Treasury Sec. Bessent proposes a bilateral AI safety / national-security <em>notification</em> mechanism after meeting Vice Premier He Lifeng — groundwork for Trump–Xi summit this week; Chinese response not public",
-          "plain": "US–China AI talks (20 Sep 2026, New York): Treasury Sec. Bessent proposes a bilateral AI safety / national-security notification mechanism after meeting Vice Premier He Lifeng — groundwork for Trump–Xi summit this week; Chinese response not public",
-          "source": "Reuters",
-          "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
-          "date": "2026-09-20",
-          "tags": [
-            "us-china",
-            "policy",
-            "ai-safety",
-            "bessent",
-            "summit"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-23_scan_1234_dublin",
+      "at": "2026-09-23T11:35:49.228Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~12:32 Dublin: 🇺🇸 Skynet — OpenAI/Anthropic/Hugging Face CEOs brief UN Security Council Wed on AI self-improvement / loss-of-control / algorithms triggering war; Guterres Tue UNGA: 'Killer robots must have no place in our future' (Reuters / dpa 22–23 Sep). 🇺🇸 T-800 gap: Optimus Gen-3 design leaked in Tesla Android app (thicker forearms; ~22-DoF tendon hands); supply-chain orders ~15k units / ramp claim ~1k→2.5k/week by YE2026 (Not a Tesla App / Basenor / Startup Fortune 23 Sep). Comedy: Musk tells CMG humanoids hit 1B in ≤10 yrs, 10B in 15, 100B in 20 — while China shipment crowns still skew entertainment+data gyms (CGTN exclusive 23 Sep). T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 78%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-23_scan_1234_dublin"
+    },
     {
       "id": "patch_2026-09-23_scan_1026_dublin",
       "at": "2026-09-23T09:26:26.751Z",
