@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-25T09:41:35.309Z",
+    "lastUpdated": "2026-09-25T09:45:42.537Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-23T17:00:55+01:00",
-    "lastScanSummary": "Cool demos fill the bars. The ring stays honest until power, materials, and authority catch up.",
-    "dataSource": "scoring-copy-v2",
-    "updatedBy": "cursor-agent:copy",
+    "lastScanSummary": "Cool demos fill the bars. Hard blockers keep the ring honest — until accelerating AI (and possible ASI) starts closing the gap faster.",
+    "dataSource": "scoring-accel-asi-v1",
+    "updatedBy": "cursor-agent:scoring",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 24,
+      "overall": 32,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -1094,7 +1094,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 36,
+      "overall": 48,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1688,6 +1688,14 @@
   },
   "changelog": [
     {
+      "id": "patch_scoring_accel_asi_v1",
+      "at": "2026-09-25T09:45:42.537Z",
+      "by": "cursor-agent:scoring",
+      "type": "patch",
+      "summary": "Overall rings now include AI acceleration / ASI-path takeoff lift",
+      "patchId": "patch_scoring_accel_asi_v1"
+    },
+    {
       "id": "patch_scoring_copy_v2",
       "at": "2026-09-25T09:41:35.309Z",
       "by": "cursor-agent:copy",
@@ -2114,10 +2122,28 @@
     }
   ],
   "scoring": {
-    "method": "bottleneck_curve",
+    "method": "bottleneck_curve_with_acceleration",
     "curveExponent": 1.4,
-    "caption": "Category bars = research/demo progress. Overall ring weighs hard blockers more and discounts easy mid-stack wins.",
-    "plainEnglish": "Cool demos fill the bars. The ring stays honest until power, materials, and authority catch up.",
+    "curveFloor": 1.05,
+    "accelPremiumScale": {
+      "t800": 0.1,
+      "t1000": 0.08,
+      "skynet": 0.22
+    },
+    "accelerationSubcats": {
+      "t800": [
+        "onboard_ai_decision_making"
+      ],
+      "t1000": [
+        "distributed_intelligence"
+      ],
+      "skynet": [
+        "artificial_general_intelligence",
+        "self_improving_ai"
+      ]
+    },
+    "caption": "Bars = research/demo progress. Ring weighs hard blockers more, but rises faster when AI acceleration / ASI-path indicators heat up.",
+    "plainEnglish": "Cool demos fill the bars. Hard blockers keep the ring honest — until accelerating AI (and possible ASI) starts closing the gap faster.",
     "weights": {
       "t800": {
         "humanoid_locomotion": 1,
