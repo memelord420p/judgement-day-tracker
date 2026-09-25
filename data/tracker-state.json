@@ -6,18 +6,25 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-25T09:45:42.537Z",
+    "lastUpdated": "2026-09-25T13:25:16.132Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-23T17:00:55+01:00",
-    "lastScanSummary": "Cool demos fill the bars. Hard blockers keep the ring honest — until accelerating AI (and possible ASI) starts closing the gap faster.",
-    "dataSource": "scoring-accel-asi-v1",
-    "updatedBy": "cursor-agent:scoring",
+    "lastScanSummary": "ETA now tracks lead system (highest overall) with acceleration; lore 2045 is ghost only.",
+    "dataSource": "lead-eta-v1",
+    "updatedBy": "cursor-agent:eta",
     "timezone": "Europe/Dublin"
   },
   "eta": {
-    "targetIso": "2045-08-29T00:00:00.000Z",
-    "label": "Aug 29, 2045",
-    "rationale": "Canonical Judgment Day date from Terminator lore; used as narrative ETA, not a prediction."
+    "targetIso": "2032-04-22T18:28:33.114Z",
+    "label": "Skynet path · ~6y (speculative)",
+    "leadFighterId": "skynet",
+    "leadOverall": 48,
+    "projectedYears": 6,
+    "accelerationIndex": 0.568,
+    "speculative": true,
+    "loreIso": "2045-08-29T00:00:00.000Z",
+    "loreLabel": "Aug 29, 2045",
+    "rationale": "Lead system is Skynet at 48% reality-adjusted. Countdown projects remaining gap with acceleration/ASI-path pressure. Lore Judgment Day (2045-08-29) is narrative only — not a prediction."
   },
   "social": {
     "channels": {
@@ -1687,6 +1694,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_lead_eta_v1",
+      "at": "2026-09-25T13:25:16.132Z",
+      "by": "cursor-agent:eta",
+      "type": "patch",
+      "summary": "Lead-path speculative ETA from reality-adjusted scores + lore ghost 2045",
+      "patchId": "patch_lead_eta_v1"
+    },
     {
       "id": "patch_scoring_accel_asi_v1",
       "at": "2026-09-25T09:45:42.537Z",
