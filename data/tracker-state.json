@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-23T16:00:56.024Z",
+    "lastUpdated": "2026-09-25T08:09:56.107Z",
     "lastUpdatedLabel": "SEP 2026",
     "lastScanAt": "2026-09-23T17:00:55+01:00",
-    "lastScanSummary": "2h scan ~16:58 Dublin: 🇨🇳 T-800 — Unitree 19× H2 full-size humanoids at WorldSkills Shanghai opening (22 Sep; CGTN/Global Times/OFweek 23 Sep): first claimed all-AI autonomous full-size swarm dance with 120 humans — onboard LiDAR only (no external base stations), ms-level swarm sync, RL choreography, auto error-correct/reposition. 🇺🇸 T-800 — Optimus Gen 3 design assets found in Tesla Android app APK (thicker forearms, tendon-driven ~22-DoF hands); supply-chain coverage cites ~15k-unit 2026 component orders / ramp toward ~2,500/week by YE2026 (Basenor / Startup Fortune / Not a Tesla App 23 Sep). Comedy: masks off — lead dancer + Unitree pack in matching light-up kits until the reveal (Global Times). T-800 progress to 76%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
-    "dataSource": "judgment-day-watch-2h-scan",
-    "updatedBy": "judgment-day-watch",
+    "lastScanSummary": "Overall rings now Pareto-weighted (bottlenecks + diminishing returns). Subcats unchanged.",
+    "dataSource": "pareto-scoring-v1",
+    "updatedBy": "cursor-agent:pareto",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -148,7 +148,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 76,
+      "overall": 24,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -724,7 +724,7 @@
       "desc": "The T-1000 is composed of liquid metal that can shapeshift into any person or object of similar size, form bladed weapons, flow through openings, and reassemble from damage.",
       "color": "#00f0ff",
       "colorGlow": "rgba(0,200,255,.3)",
-      "overall": 14,
+      "overall": 5,
       "threat": "LOW",
       "threatColor": "#0f0",
       "subcats": [
@@ -1094,7 +1094,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 79,
+      "overall": 36,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1688,6 +1688,14 @@
   },
   "changelog": [
     {
+      "id": "patch_pareto_scoring_v1",
+      "at": "2026-09-25T08:09:56.107Z",
+      "by": "cursor-agent:pareto",
+      "type": "patch",
+      "summary": "Migrate overall rings to bottleneck-weighted Pareto curve (k=1.4)",
+      "patchId": "patch_pareto_scoring_v1"
+    },
+    {
       "id": "patch_2026-09-23_scan_1700_dublin",
       "at": "2026-09-23T16:00:56.024Z",
       "by": "judgment-day-watch",
@@ -2088,6 +2096,44 @@
       "text": "New standing orders: we track the scary AND the slapstick. Agentic cyber + autonomous drones on one line. Robot Olympics faceplants + record sprints on the next. Same deadpan. Same tracker.\nhttps://judgement-day-tracker.vercel.app\n#JudgmentDayTracker #RobotOlympics",
       "link": "https://judgement-day-tracker.vercel.app",
       "approvalRequired": false
+    },
+    {
+      "id": "post_1790323796106",
+      "channel": "x",
+      "createdAt": "2026-09-25T08:09:56.106Z",
+      "status": "pending_approval",
+      "text": "Calibration update: Progress-to-reality rings are now Pareto-aware.\\n\\nEasy demos no longer inflate the gauge. Hard blockers (power, materials, launch authority) weigh more.\\n\\nT-800 / T-1000 / Skynet recalibrated.\\nhttps://judgementdaytracker.com\\n#JudgmentDayTracker"
     }
-  ]
+  ],
+  "scoring": {
+    "method": "pareto_weighted",
+    "curveExponent": 1.4,
+    "caption": "Bottleneck-weighted + diminishing returns (easy demos ≠ Judgment Day)",
+    "weights": {
+      "t800": {
+        "humanoid_locomotion": 1,
+        "living_tissue_skin": 1.5,
+        "human_passing_appearance": 1.2,
+        "superhuman_strength": 1.2,
+        "onboard_ai_decision_making": 1.5,
+        "power_source": 2.5
+      },
+      "t1000": {
+        "liquid_metal_locomotion": 1.2,
+        "shape_shifting_ability": 1.5,
+        "self_repair_reassembly": 2,
+        "distributed_intelligence": 2,
+        "mimetic_polyalloy_material": 2.5,
+        "surface_texture_replication": 1.2
+      },
+      "skynet": {
+        "artificial_general_intelligence": 2,
+        "military_ai_autonomous_weapons": 1.5,
+        "global_surveillance_network": 1.2,
+        "critical_infrastructure_control": 1.5,
+        "self_improving_ai": 1.8,
+        "nuclear_launch_authority": 2.5
+      }
+    }
+  }
 }
