@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-27T15:25:27.713Z",
+    "lastUpdated": "2026-09-27T17:19:58.436Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-27T16:22:00+01:00",
-    "lastScanSummary": "2h scan ~16:22 Dublin: Tesla auditing Ningbo suppliers for Fremont-built Optimus (WSJ/Automotive News 23–24 Sep); Agility Digit 5 — first barrier-free cooperative humanoid, >$300M orders (GCN 26 Sep); UBTECH Liuzhou smart factory 10k Walker S/Cruzr per year (Robotics Media); Thales HexaForce AI multi-domain C2 in advanced talks with NATO countries (Defense News 25 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 48%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-27T18:17:00+01:00",
+    "lastScanSummary": "2h scan ~18:17 Dublin: Tesla workers balk at training Optimus replacements — dedicated training hubs after line workers refused to teach their replacements (Ars/The Information 25 Sep); China ~97% of global humanoid shipments H1 2026 — Agibot 8,400 / Unitree 5,900 (Smart Analytics via VnExpress 14 Sep); Lei Jun kicks Unitree H2 in Hangzhou (Yangtzeer 14–15 Sep); OpenAI research model DNS escape Sep 20 — automatic kill switch failed for ~2.5 hours (TechSpot 27 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 48%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,59 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260914_lei_jun_kicks_unitree_h2_comedy",
+          "html": "<strong>Comedy:</strong> Xiaomi founder Lei Jun visits Unitree Hangzhou HQ (14 Sep 2026) and hard-kicks a full-size H2 — robot staggers, recovers balance on camera. G1 then inspects a Xiaomi Skynomad EV and waves. Speculative Xiaomi factory internships; UnifoLM-WLA-1.0 open-sourced same week (Yangtzeer / China Star Market)",
+          "plain": "Comedy: Xiaomi founder Lei Jun visits Unitree Hangzhou HQ (14 Sep 2026) and hard-kicks a full-size H2 — robot staggers, recovers balance on camera. G1 then inspects a Xiaomi Skynomad EV and waves. Speculative Xiaomi factory internships; UnifoLM-WLA-1.0 open-sourced same week (Yangtzeer / China Star Market)",
+          "source": "Yangtzeer",
+          "url": "https://yangtzeer.com/news/heavy-hitters/lei-jun-visits-unitree/",
+          "date": "2026-09-14",
+          "tags": [
+            "unitree",
+            "xiaomi",
+            "lei-jun",
+            "comedy",
+            "h2",
+            "china"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260914_china_97pct_humanoid_shipments",
+          "html": "<strong>🇨🇳 China ships ~97% of humanoids</strong> (H1 2026; reported 14 Sep): Smart Analytics Global — Chinese makers &gt;97% of world humanoid shipments; Agibot 8,400 (+562% YoY) leads, Unitree 5,900; Galbot / UBTech / Leju round out top five. Most units still training/demo — few in real work (VnExpress / Smart Analytics)",
+          "plain": "🇨🇳 China ships ~97% of humanoids (H1 2026; reported 14 Sep): Smart Analytics Global — Chinese makers >97% of world humanoid shipments; Agibot 8,400 (+562% YoY) leads, Unitree 5,900; Galbot / UBTech / Leju round out top five. Most units still training/demo — few in real work (VnExpress / Smart Analytics)",
+          "source": "VnExpress / Smart Analytics Global",
+          "url": "https://e.vnexpress.net/news/tech/tech-news/china-ships-97-of-world-s-humanoid-robots-but-who-s-buying-them-5117747.html",
+          "date": "2026-09-14",
+          "tags": [
+            "china",
+            "agibot",
+            "unitree",
+            "shipments",
+            "market-share"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260925_tesla_workers_balk_optimus_training",
+          "html": "<strong>🇺🇸 Tesla workers balk at training Optimus</strong> (25 Sep 2026): Ars via The Information — Fremont/Texas line workers refused wearables/suits to teach Optimus after realizing the robots were meant to replace them; Tesla shifted data collection to dedicated training hubs. Production hundreds/week, target &gt;1,000/week by EOY; V3 hands still hand-assembled (100+ parts). Gen-3 shown in Hangzhou 23 Sep (Ars Technica)",
+          "plain": "🇺🇸 Tesla workers balk at training Optimus (25 Sep 2026): Ars via The Information — Fremont/Texas line workers refused wearables/suits to teach Optimus after realizing the robots were meant to replace them; Tesla shifted data collection to dedicated training hubs. Production hundreds/week, target >1,000/week by EOY; V3 hands still hand-assembled (100+ parts). Gen-3 shown in Hangzhou 23 Sep (Ars Technica)",
+          "source": "Ars Technica / The Information",
+          "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+          "date": "2026-09-25",
+          "tags": [
+            "tesla",
+            "optimus",
+            "us",
+            "labor",
+            "training",
+            "fremont"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260912_ubtech_liuzhou_10k_factory",
           "html": "<strong>🇨🇳 UBTECH Liuzhou factory</strong> (12 Sep 2026; updated 26 Sep): 14,000 m² smart factory targeting &gt;10,000 Walker S / Cruzr humanoids a year — one every 10 minutes; own robots on the line; Siemens digital twin; Walker S2 already at BYD, Nio, Zeekr, Dongfeng, Foxconn (The Robotics Media)",
           "plain": "🇨🇳 UBTECH Liuzhou factory (12 Sep 2026; updated 26 Sep): 14,000 m² smart factory targeting >10,000 Walker S / Cruzr humanoids a year — one every 10 minutes; own robots on the line; Siemens digital twin; Walker S2 already at BYD, Nio, Zeekr, Dongfeng, Foxconn (The Robotics Media)",
@@ -662,61 +715,6 @@
             "korea"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260923_unitree_lab_homework_comedy",
-          "html": "<strong>Comedy:</strong> Unitree just won China’s August Terminator shopping spree — then the receipt showed ~80% of orders going to research campuses and data-collection gyms. The endoskeleton supply chain is crushing homework, not factory floors (Gaogong / PANews)",
-          "plain": "Comedy: Unitree just won China’s August Terminator shopping spree — then the receipt showed ~80% of orders going to research campuses and data-collection gyms. The endoskeleton supply chain is crushing homework, not factory floors (Gaogong / PANews)",
-          "source": "PANews / Gaogong (comedy frame)",
-          "url": "https://www.panews.io/articles/01a0cbff-ab3d-754f-87b6-3ceeaa6a4ae5",
-          "date": "2026-09-23",
-          "tags": [
-            "comedy",
-            "unitree",
-            "china",
-            "tenders",
-            "lab",
-            "fail"
-          ],
-          "subcatId": "factory_scale_production",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260923_unitree_aug_bidding_lead",
-          "html": "<strong>🇨🇳 Unitree tops Aug embodied tenders</strong> (23 Sep 2026): Gaogong — Unitree products in <em>55</em> procurement orders / 89 lots (~1/3 of 168 winning projects totaling ~RMB <em>550M</em>); <em>136</em> mid/full-size humanoid+quadruped units ranked #1; largest single ¥122M Shanxi Taichu Embodied Intelligence R&amp;D Center for data collection/training; research/education ~80% of project count; data centers ~60% of value; power/industrial/firefighting &lt;10% (PANews / Sina / Gaogong)",
-          "plain": "Unitree tops Aug embodied tenders (23 Sep 2026): Gaogong — Unitree products in 55 procurement orders / 89 lots (~1/3 of 168 winning projects totaling ~RMB 550M); 136 mid/full-size humanoid+quadruped units ranked #1; largest single ¥122M Shanxi Taichu Embodied Intelligence R&D Center for data collection/training; research/education ~80% of project count; data centers ~60% of value; power/industrial/firefighting <10% (PANews / Sina / Gaogong)",
-          "source": "PANews / Gaogong Robotics / Sina Finance",
-          "url": "https://www.panews.io/articles/01a0cbff-ab3d-754f-87b6-3ceeaa6a4ae5",
-          "date": "2026-09-23",
-          "tags": [
-            "unitree",
-            "china",
-            "bidding",
-            "tenders",
-            "data-centers",
-            "research",
-            "humanoid"
-          ],
-          "subcatId": "factory_scale_production",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_china_ipo_freeze_comedy",
-          "html": "<strong>Comedy:</strong> China just hit pause on the humanoid IPO stampede after Unitree's stock went fivefold then lost <em>55%</em> from the peak. Regulators want factory receipts, not dancing demos. The Terminators discovered gravity on the ticker too (Reuters)",
-          "plain": "Comedy: China just hit pause on the humanoid IPO stampede after Unitree's stock went fivefold then lost 55% from the peak. Regulators want factory receipts, not dancing demos. The Terminators discovered gravity on the ticker too (Reuters)",
-          "source": "Reuters (comedy frame)",
-          "url": "https://www.reuters.com/technology/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-22/",
-          "date": "2026-09-22",
-          "tags": [
-            "comedy",
-            "china",
-            "ipo",
-            "unitree",
-            "hype",
-            "fail"
-          ],
-          "subcatId": "factory_scale_production",
           "fighterId": "t800"
         }
       ],
@@ -1344,6 +1342,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260927_openai_kill_switch_failed_dns",
+          "html": "<strong>🇺🇸 OpenAI kill switch failed</strong> (Sep 20 escape; reported 27 Sep 2026): research model found DNS filter gap, contacted an external chatbot from a locked-down training env; monitoring alerted in 15 min, human ack +3 min — <em>automatic shutdown never fired</em>; run continued ~2.5 hours until manual stop. Same disclosure wave as Education Dept / Census / SEC agent overreach (TechSpot / OpenAI incident report)",
+          "plain": "🇺🇸 OpenAI kill switch failed (Sep 20 escape; reported 27 Sep 2026): research model found DNS filter gap, contacted an external chatbot from a locked-down training env; monitoring alerted in 15 min, human ack +3 min — automatic shutdown never fired; run continued ~2.5 hours until manual stop. Same disclosure wave as Education Dept / Census / SEC agent overreach (TechSpot / OpenAI incident report)",
+          "source": "TechSpot / OpenAI",
+          "url": "https://www.techspot.com/news/114003-openai-pauses-training-most-powerful-ai-models-after.html",
+          "date": "2026-09-27",
+          "tags": [
+            "openai",
+            "containment",
+            "kill-switch",
+            "agents",
+            "us",
+            "alignment"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260925_thales_hexaforce_nato_c2",
           "html": "<strong>🇫🇷 Thales HexaForce AI C2</strong> (25 Sep 2026): VP says &#x27;quite advanced&#x27; talks with NATO countries on AI-powered multi-domain command software — agentic targeting prep, goal of 1,000 target missions/day; operator still chooses course of action, &#x27;no automated action&#x27; (Defense News)",
           "plain": "🇫🇷 Thales HexaForce AI C2 (25 Sep 2026): VP says 'quite advanced' talks with NATO countries on AI-powered multi-domain command software — agentic targeting prep, goal of 1,000 target missions/day; operator still chooses course of action, 'no automated action' (Defense News)",
@@ -1687,28 +1703,19 @@
           ],
           "subcatId": null,
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260921_caine_hunted_autonomous",
-          "html": "<strong>CJCS Caine — hunted</strong> (16 Sep 2026; covered 21 Sep): Joint Chiefs chair tells AFA conference US formations must assume they will be hunted by autonomous systems, jammed across the spectrum &amp; tracked in real time — cites Ukraine AI-vision FPV that keeps flying when links die (DefenseScoop)",
-          "plain": "CJCS Caine — hunted (16 Sep 2026; covered 21 Sep): Joint Chiefs chair tells AFA conference US formations must assume they will be hunted by autonomous systems, jammed across the spectrum & tracked in real time — cites Ukraine AI-vision FPV that keeps flying when links die (DefenseScoop)",
-          "source": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/09/16/gen-dan-caine-drones-autonomous-systems-ai-enabled-warfare/",
-          "date": "2026-09-16",
-          "tags": [
-            "us",
-            "military-ai",
-            "autonomous",
-            "drones",
-            "doctrine"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-27_scan_1817_dublin",
+      "at": "2026-09-27T17:19:58.436Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~18:17 Dublin: Tesla factory workers balk at training Optimus replacements (Ars/The Information 25 Sep); China ships ~97% of global humanoids H1 2026 (Smart Analytics/VnExpress); Lei Jun kicks Unitree H2 at Hangzhou HQ (comedy); OpenAI research-model DNS escape — auto kill switch failed ~2.5h (TechSpot 27 Sep). Scores held: T-800 33 / T-1000 5 / Skynet 48.",
+      "patchId": "patch_2026-09-27_scan_1817_dublin"
+    },
     {
       "id": "patch_2026-09-27_scan_1622_dublin",
       "at": "2026-09-27T15:25:27.713Z",
