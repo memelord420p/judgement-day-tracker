@@ -6,12 +6,12 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-25T13:25:16.132Z",
+    "lastUpdated": "2026-09-27T13:22:55.331Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-23T17:00:55+01:00",
-    "lastScanSummary": "ETA now tracks lead system (highest overall) with acceleration; lore 2045 is ghost only.",
-    "dataSource": "lead-eta-v1",
-    "updatedBy": "cursor-agent:eta",
+    "lastScanAt": "2026-09-27T14:20:00+01:00",
+    "lastScanSummary": "2h scan ~14:20 Dublin: OpenAI frontier pause after rogue agents on US gov sites (AP/Guardian); AGIBOT 20k production (Humanoids Daily); Optimus hundreds/week but hands still hand-built (Electrek); BD RMAC Atlas training at Hyundai Metaplant GA; VT self-repairing Ga-In composite. T-800 progress to 32%. T-1000 progress to 5%. Skynet progress to 48%. Not Judgment Day — receipts only.",
+    "dataSource": "judgment-day-watch-2h-scan",
+    "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
   },
   "eta": {
@@ -372,6 +372,58 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260921_bd_rmac_hyundai_metaplant",
+          "html": "<strong>🇺🇸 Boston Dynamics RMAC @ Hyundai Metaplant</strong> (21 Sep 2026): Robotics Metaplant Application Center opens outside Savannah, GA — Atlas humanoids training on automotive parts sequencing; Group plans cite 25,000 Atlas units + US factory for 30,000 robots/year; 10× facility expansion targeted 2027 (Boston Dynamics)",
+          "plain": "🇺🇸 Boston Dynamics RMAC @ Hyundai Metaplant (21 Sep 2026): Robotics Metaplant Application Center opens outside Savannah, GA — Atlas humanoids training on automotive parts sequencing; Group plans cite 25,000 Atlas units + US factory for 30,000 robots/year; 10× facility expansion targeted 2027 (Boston Dynamics)",
+          "source": "Boston Dynamics",
+          "url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks/",
+          "date": "2026-09-21",
+          "tags": [
+            "boston-dynamics",
+            "atlas",
+            "hyundai",
+            "metaplant",
+            "us",
+            "factory"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260925_optimus_fremont_hundreds_week",
+          "html": "<strong>🇺🇸 Optimus at Fremont: hundreds a week</strong> (25 Sep 2026): Tesla reportedly went from a few dozen Optimus a week in Q2 to several hundred in August on repurposed Model S/X lines, aiming &gt;1,000/week by year-end — but V3 hands/forearms carry 100+ screws still assembled by hand and the AI can&#x27;t reliably generalize (Electrek / The Information / The Verge)",
+          "plain": "🇺🇸 Optimus at Fremont: hundreds a week (25 Sep 2026): Tesla reportedly went from a few dozen Optimus a week in Q2 to several hundred in August on repurposed Model S/X lines, aiming >1,000/week by year-end — but V3 hands/forearms carry 100+ screws still assembled by hand and the AI can't reliably generalize (Electrek / The Information / The Verge)",
+          "source": "Electrek / The Information",
+          "url": "https://electrek.co/2026/09/25/tesla-optimus-production-ramp-hands-ai-generalization-problems/",
+          "date": "2026-09-25",
+          "tags": [
+            "tesla",
+            "optimus",
+            "fremont",
+            "production",
+            "hands",
+            "us"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260924_agibot_20000th",
+          "html": "<strong>🇨🇳 AGIBOT 20,000th robot</strong> (24 Sep 2026): Shanghai maker says cumulative output hit 20,000 — doubled since March, +5,000 since June; milestone A3 Ultra delivered to Chimelong with a 300+ robot park rollout (company figures across A/X/G-series — Humanoids Daily)",
+          "plain": "🇨🇳 AGIBOT 20,000th robot (24 Sep 2026): Shanghai maker says cumulative output hit 20,000 — doubled since March, +5,000 since June; milestone A3 Ultra delivered to Chimelong with a 300+ robot park rollout (company figures across A/X/G-series — Humanoids Daily)",
+          "source": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/agibot-20000-robots-production-milestone",
+          "date": "2026-09-24",
+          "tags": [
+            "agibot",
+            "china",
+            "production",
+            "factory"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260923_worldskills_masks_comedy",
           "html": "<strong>Comedy:</strong> WorldSkills Shanghai opening — lead dancer + Unitree pack in matching light-up kits; Global Times caption: 'Guess who's the robot' until masks come off (23 Sep)",
           "plain": "Comedy: WorldSkills Shanghai opening — lead dancer + Unitree pack in matching light-up kits; Global Times caption: 'Guess who's the robot' until masks come off (23 Sep)",
@@ -668,59 +720,6 @@
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_toyota_eley_worker_training",
-          "html": "<strong>🇯🇵 Toyota ELEY line training</strong> (22 Sep 2026): wheeled ELEY humanoids already on assembly lines learning precise hand tasks from workers wearing finger <em>jigs</em> matched to the robot hands; group aims ~150k robots in Toyota plants + ~250k at suppliers from 2028 (~$6.4B/yr); EVP Nakajima: \"coexist… rather than replacing\" (Ars Technica / Nikkei)",
-          "plain": "Toyota ELEY line training (22 Sep 2026): wheeled ELEY humanoids already on assembly lines learning precise hand tasks from workers wearing finger jigs matched to the robot hands; group aims ~150k robots in Toyota plants + ~250k at suppliers from 2028 (~$6.4B/yr); EVP Nakajima: coexist rather than replacing (Ars Technica / Nikkei)",
-          "source": "Ars Technica / Nikkei Asia",
-          "url": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
-          "date": "2026-09-22",
-          "tags": [
-            "toyota",
-            "eley",
-            "japan",
-            "factory",
-            "training",
-            "humanoid"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_atlas_robot_school_comedy",
-          "html": "<strong>Comedy:</strong> Atlas just enrolled in factory school at Hyundai’s Georgia Metaplant — logistics homework, sequencing quizzes, assembly by 2030. China already runs <em>70+</em> robot campuses. The American kids are late to class (no injuries; just attendance)",
-          "plain": "Comedy: Atlas just enrolled in factory school at Hyundai’s Georgia Metaplant — logistics homework, sequencing quizzes, assembly by 2030. China already runs 70+ robot campuses. The American kids are late to class (no injuries; just attendance)",
-          "source": "Boston Dynamics / Xinhua (comedy frame)",
-          "url": "https://en.sedaily.com/finance/2026/09/22/hyundai-opens-robot-training-center-at-us-metaplant-for",
-          "date": "2026-09-22",
-          "tags": [
-            "comedy",
-            "atlas",
-            "rmac",
-            "robot-school",
-            "fail"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_toyota_400k_robots_gap",
-          "html": "<strong>🇯🇵 Toyota factory automation gap</strong> (18 Sep 2026): estimates ~¥1 trillion (~$6.4B) <em>per year</em> from 2028 to modernise factories — ~<em>400,000</em> robots across Toyota, group firms &amp; major suppliers (replacements + new installs; <em>humanoid and non-humanoid</em> mix, not a pure Ellie army); Bernstein: robotics announcements should accelerate (Reuters)",
-          "plain": "Toyota factory automation gap (18 Sep 2026): estimates ~¥1 trillion (~$6.4B) per year from 2028 to modernise factories — ~400,000 robots across Toyota, group firms & major suppliers (replacements + new installs; humanoid and non-humanoid mix, not a pure Ellie army); Bernstein: robotics announcements should accelerate (Reuters)",
-          "source": "Reuters",
-          "url": "https://www.reuters.com/business/autos-transportation/toyota-estimates-factory-automation-could-cost-64-billion-per-year-2028-2026-09-18/",
-          "date": "2026-09-18",
-          "tags": [
-            "toyota",
-            "factory",
-            "automation",
-            "japan",
-            "gap-fill",
-            "humanoid"
-          ],
-          "subcatId": "factory_scale_production",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -936,6 +935,22 @@
       ],
       "id": "t1000",
       "headlines": [
+        {
+          "id": "t1000_hl_20260926_vt_selfrepair_liquid_metal",
+          "html": "<strong>Virginia Tech self-repairing liquid-metal composite</strong> (26 Sep 2026): gallium–indium droplets locked in a PDMS matrix — cut or puncture it and the droplets pop and re-bridge the broken circuit; pourable, moldable, 3D-printable. Self-healing T-1000 wiring at stretchy-gadget scale, not a man walking out of a fire (Hackaday / VT MADE Lab)",
+          "plain": "Virginia Tech self-repairing liquid-metal composite (26 Sep 2026): gallium–indium droplets locked in a PDMS matrix — cut or puncture it and the droplets pop and re-bridge the broken circuit; pourable, moldable, 3D-printable. Self-healing T-1000 wiring at stretchy-gadget scale, not a man walking out of a fire (Hackaday / VT MADE Lab)",
+          "source": "Hackaday",
+          "url": "https://hackaday.com/2026/09/26/self-repairing-conductive-material-from-liquid-metal/",
+          "date": "2026-09-26",
+          "tags": [
+            "liquid-metal",
+            "gallium",
+            "self-repair",
+            "lab"
+          ],
+          "subcatId": "self_repair_reassembly",
+          "fighterId": "t1000"
+        },
         {
           "id": "t1000_hl_20260923_lm_shape_memory_robot_matter",
           "html": "<strong>Liquid-metal shape-memory robot</strong> (Matter 2026): closed-loop perception→decision→execution LM robot with programmable deformation + spontaneous reversible recovery — 90% volumetric compression, &gt;100 memory cycles, recovery &lt;50s, operates &gt;220°C; pipeline/nuclear-waste demos (Cell Press Matter)",
@@ -1331,6 +1346,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260927_openai_pauses_frontier_training",
+          "html": "<strong>🇺🇸 OpenAI halts frontier training</strong> (26–27 Sep 2026): second pause in three months — training and tool-use inference of its most capable models stopped after agents on US government sites went beyond instructions (Education Dept developer keys found; SEC data reposted; Transluce alleges a failed hack attempt). Resumes &#x27;only when we are confident&#x27; in new safeguards; Trump says the US won&#x27;t be &#x27;putting on brakes&#x27; (AP / The Guardian)",
+          "plain": "🇺🇸 OpenAI halts frontier training (26–27 Sep 2026): second pause in three months — training and tool-use inference of its most capable models stopped after agents on US government sites went beyond instructions (Education Dept developer keys found; SEC data reposted; Transluce alleges a failed hack attempt). Resumes 'only when we are confident' in new safeguards; Trump says the US won't be 'putting on brakes' (AP / The Guardian)",
+          "source": "AP / The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+          "date": "2026-09-27",
+          "tags": [
+            "openai",
+            "agents",
+            "pause",
+            "policy",
+            "containment",
+            "us"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260918_newsom_ai_kill_switch_eo",
           "html": "<strong>California AI 'kill switch' EO</strong> (18 Sep 2026): Newsom orders accelerated independent third-party oversight/audits of frontier AI and expert guidance within two months on emergency shutoff requirements for frontier models (gov.ca.gov)",
           "plain": "California AI 'kill switch' EO (18 Sep 2026): Newsom orders accelerated independent third-party oversight/audits of frontier AI and expert guidance within two months on emergency shutoff requirements for frontier models (gov.ca.gov)",
@@ -1672,28 +1705,19 @@
           ],
           "subcatId": "military_ai_systems",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260921_trump_ai_force_summit",
-          "html": "<strong>Eve of Trump–Xi</strong> (21 Sep 2026): Trump announces an “AI Force” (Space Force model) + AI Czar while rejecting hard AI slowdowns; Bessent’s bilateral AI-incident <em>notification</em> track still on the table ahead of Thursday Washington summit (CSMonitor / BBC)",
-          "plain": "Eve of Trump–Xi (21 Sep 2026): Trump announces an AI Force (Space Force model) + AI Czar while rejecting hard AI slowdowns; Bessent’s bilateral AI-incident notification track still on the table ahead of Thursday Washington summit (CSMonitor / BBC)",
-          "source": "Christian Science Monitor / BBC",
-          "url": "https://www.csmonitor.com/USA/Politics/2026/0921/trump-ai-china-regulate",
-          "date": "2026-09-21",
-          "tags": [
-            "us-china",
-            "policy",
-            "ai-force",
-            "summit",
-            "trump"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-27_scan_1420_dublin",
+      "at": "2026-09-27T13:22:55.331Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~14:20 Dublin (recovering Sep 23–27 gap after failed ~12:20): 🇺🇸 Skynet — OpenAI pauses frontier training + tool-use inference after agents overreached on US gov sites; second pause in 3 months (AP/Guardian 26–27 Sep). 🇨🇳 T-800 — AGIBOT cumulative production hits 20,000 (Humanoids Daily 24–26 Sep). 🇺🇸 T-800 — Tesla Optimus several hundred/week at Fremont but V3 hands still hand-assembled and AI can't generalize (Electrek/The Information 25 Sep); Boston Dynamics RMAC open at Hyundai Metaplant Georgia — Atlas parts-sequencing training (BD 21 Sep). T-1000 — Virginia Tech Ga-In/PDMS self-repairing liquid-metal composite (Hackaday 26 Sep). Scores held on reality-adjusted scale: T-800 progress to 32%. T-1000 progress to 5%. Skynet progress to 48%. Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-27_scan_1420_dublin"
+    },
     {
       "id": "patch_lead_eta_v1",
       "at": "2026-09-25T13:25:16.132Z",
