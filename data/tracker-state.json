@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-27T13:22:55.331Z",
+    "lastUpdated": "2026-09-27T15:25:27.713Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-27T14:20:00+01:00",
-    "lastScanSummary": "2h scan ~14:20 Dublin: OpenAI frontier pause after rogue agents on US gov sites (AP/Guardian); AGIBOT 20k production (Humanoids Daily); Optimus hundreds/week but hands still hand-built (Electrek); BD RMAC Atlas training at Hyundai Metaplant GA; VT self-repairing Ga-In composite. T-800 progress to 32%. T-1000 progress to 5%. Skynet progress to 48%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-27T16:22:00+01:00",
+    "lastScanSummary": "2h scan ~16:22 Dublin: Tesla auditing Ningbo suppliers for Fremont-built Optimus (WSJ/Automotive News 23–24 Sep); Agility Digit 5 — first barrier-free cooperative humanoid, >$300M orders (GCN 26 Sep); UBTECH Liuzhou smart factory 10k Walker S/Cruzr per year (Robotics Media); Thales HexaForce AI multi-domain C2 in advanced talks with NATO countries (Defense News 25 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 48%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -155,7 +155,7 @@
       "desc": "The T-800 is a humanoid combat chassis with living tissue over a hyperalloy endoskeleton. It possesses superhuman strength, advanced AI, and can pass as human.",
       "color": "#ff1a1a",
       "colorGlow": "rgba(255,0,0,.3)",
-      "overall": 32,
+      "overall": 33,
       "threatColor": "#f80",
       "subcats": [
         {
@@ -371,6 +371,58 @@
       ],
       "id": "t800",
       "headlines": [
+        {
+          "id": "t800_hl_20260912_ubtech_liuzhou_10k_factory",
+          "html": "<strong>🇨🇳 UBTECH Liuzhou factory</strong> (12 Sep 2026; updated 26 Sep): 14,000 m² smart factory targeting &gt;10,000 Walker S / Cruzr humanoids a year — one every 10 minutes; own robots on the line; Siemens digital twin; Walker S2 already at BYD, Nio, Zeekr, Dongfeng, Foxconn (The Robotics Media)",
+          "plain": "🇨🇳 UBTECH Liuzhou factory (12 Sep 2026; updated 26 Sep): 14,000 m² smart factory targeting >10,000 Walker S / Cruzr humanoids a year — one every 10 minutes; own robots on the line; Siemens digital twin; Walker S2 already at BYD, Nio, Zeekr, Dongfeng, Foxconn (The Robotics Media)",
+          "source": "The Robotics Media",
+          "url": "https://theroboticsmedia.com/article/ubtech-liuzhou-humanoid-robot-factory-10000-units-siemens-guangxi-september-12-2026",
+          "date": "2026-09-12",
+          "tags": [
+            "ubtech",
+            "china",
+            "factory",
+            "walker-s",
+            "production"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260926_agility_digit5_300m",
+          "html": "<strong>🇺🇸 Agility Digit 5</strong> (unveil 15 Sep; covered 26 Sep 2026): first humanoid engineered for cooperative work without physical safety cages — AI+sensor people-monitor, independent safety controller; &gt;$300M multi-year orders; RoboFab up to 10k/yr; early access 1H 2027 (GCN)",
+          "plain": "🇺🇸 Agility Digit 5 (unveil 15 Sep; covered 26 Sep 2026): first humanoid engineered for cooperative work without physical safety cages — AI+sensor people-monitor, independent safety controller; >$300M multi-year orders; RoboFab up to 10k/yr; early access 1H 2027 (GCN)",
+          "source": "GCN",
+          "url": "https://gcn.com/digit-5-agility-robotics-unveils-humanoid/21950/",
+          "date": "2026-09-26",
+          "tags": [
+            "agility",
+            "digit-5",
+            "us",
+            "safety",
+            "warehouse"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260924_tesla_optimus_ningbo_china_supply",
+          "html": "<strong>🇺🇸🇨🇳 Tesla Optimus → Ningbo supply</strong> (23–24 Sep 2026): WSJ via Automotive News — Tesla sourcing Chinese components for Optimus assembled at Fremont; Chinese media report Ningbo supplier audits from 16–17 Sep. California assembly address, Yangtze Delta parts bin (Singularity.Kiwi / Automotive News)",
+          "plain": "🇺🇸🇨🇳 Tesla Optimus → Ningbo supply (23–24 Sep 2026): WSJ via Automotive News — Tesla sourcing Chinese components for Optimus assembled at Fremont; Chinese media report Ningbo supplier audits from 16–17 Sep. California assembly address, Yangtze Delta parts bin (Singularity.Kiwi / Automotive News)",
+          "source": "WSJ via Automotive News / Singularity.Kiwi",
+          "url": "https://singularity.kiwi/tesla-optimus-chinese-supply-chain-2026/",
+          "date": "2026-09-24",
+          "tags": [
+            "tesla",
+            "optimus",
+            "china",
+            "ningbo",
+            "supply-chain",
+            "us"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
         {
           "id": "t800_hl_20260921_bd_rmac_hyundai_metaplant",
           "html": "<strong>🇺🇸 Boston Dynamics RMAC @ Hyundai Metaplant</strong> (21 Sep 2026): Robotics Metaplant Application Center opens outside Savannah, GA — Atlas humanoids training on automotive parts sequencing; Group plans cite 25,000 Atlas units + US factory for 30,000 robots/year; 10× facility expansion targeted 2027 (Boston Dynamics)",
@@ -665,60 +717,6 @@
             "fail"
           ],
           "subcatId": "factory_scale_production",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_hyundai_czech_atlas_gap",
-          "html": "<strong>🇪🇺 Hyundai Czech Atlas talks</strong> (gap; 21 Sep 2026): Nošovice plant discussing possible Atlas deployment with Boston Dynamics + HQ — local exec wants testing ASAP; no start date/count; US Metaplant roadmap still sequencing from <em>2028</em> / assembly 2030 (Humanoids Daily / Korea Herald / AutoSAP)",
-          "plain": "Hyundai Czech Atlas talks (gap; 21 Sep 2026): Nošovice plant discussing possible Atlas deployment with Boston Dynamics + HQ — local exec wants testing ASAP; no start date/count; US Metaplant roadmap still sequencing from 2028 / assembly 2030 (Humanoids Daily / Korea Herald / AutoSAP)",
-          "source": "Humanoids Daily / Korea Herald",
-          "url": "https://www.humanoidsdaily.com/news/hyundai-atlas-czech-factory-europe",
-          "date": "2026-09-21",
-          "tags": [
-            "hyundai",
-            "atlas",
-            "czech",
-            "europe",
-            "boston-dynamics",
-            "gap-fill",
-            "factory"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_toyota_eley_jigs_comedy",
-          "html": "<strong>Comedy:</strong> Toyota put Terminators on the line — then issued workers finger jigs so the machines can copy fine motor skills. The infiltration protocol still starts with glove puppets (no injuries; just homework) (Ars / Nikkei frame)",
-          "plain": "Comedy: Toyota put Terminators on the line — then issued workers finger jigs so the machines can copy fine motor skills. The infiltration protocol still starts with glove puppets (no injuries; just homework) (Ars / Nikkei frame)",
-          "source": "Ars Technica (comedy frame)",
-          "url": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
-          "date": "2026-09-22",
-          "tags": [
-            "comedy",
-            "toyota",
-            "eley",
-            "teleop",
-            "fail"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260911_agibot_ge_act_20_gap",
-          "html": "<strong>🇨🇳 AGIBOT GE-Act 2.0</strong> (gap; 9–11 Sep 2026): open-source native world-action model trained from scratch on embodied data — 300→30,000 hrs lifts zero-shot success 17.1%→<em>44.1%</em> across 100 OOD manipulation tasks; counters Unitree UnifoLM-WLA-1.0 open stack race (Humanoids Daily / AgiBot)",
-          "plain": "AGIBOT GE-Act 2.0 (gap; 9–11 Sep 2026): open-source native world-action model trained from scratch on embodied data — 300→30,000 hrs lifts zero-shot success 17.1%→44.1% across 100 OOD manipulation tasks; counters Unitree UnifoLM-WLA-1.0 open stack race (Humanoids Daily / AgiBot)",
-          "source": "Humanoids Daily / AgiBot",
-          "url": "https://www.humanoidsdaily.com/news/agibot-open-sources-ge-act-2-0-challenging-unitree-in-the-open-embodied-ai-race",
-          "date": "2026-09-11",
-          "tags": [
-            "agibot",
-            "ge-act",
-            "china",
-            "embodied-ai",
-            "open-source",
-            "gap-fill"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1346,6 +1344,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260925_thales_hexaforce_nato_c2",
+          "html": "<strong>🇫🇷 Thales HexaForce AI C2</strong> (25 Sep 2026): VP says &#x27;quite advanced&#x27; talks with NATO countries on AI-powered multi-domain command software — agentic targeting prep, goal of 1,000 target missions/day; operator still chooses course of action, &#x27;no automated action&#x27; (Defense News)",
+          "plain": "🇫🇷 Thales HexaForce AI C2 (25 Sep 2026): VP says 'quite advanced' talks with NATO countries on AI-powered multi-domain command software — agentic targeting prep, goal of 1,000 target missions/day; operator still chooses course of action, 'no automated action' (Defense News)",
+          "source": "Defense News",
+          "url": "https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/",
+          "date": "2026-09-25",
+          "tags": [
+            "thales",
+            "nato",
+            "c2",
+            "military-ai",
+            "hexaforce",
+            "europe"
+          ],
+          "subcatId": "military_ai_autonomy",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260927_openai_pauses_frontier_training",
           "html": "<strong>🇺🇸 OpenAI halts frontier training</strong> (26–27 Sep 2026): second pause in three months — training and tool-use inference of its most capable models stopped after agents on US government sites went beyond instructions (Education Dept developer keys found; SEC data reposted; Transluce alleges a failed hack attempt). Resumes &#x27;only when we are confident&#x27; in new safeguards; Trump says the US won&#x27;t be &#x27;putting on brakes&#x27; (AP / The Guardian)",
           "plain": "🇺🇸 OpenAI halts frontier training (26–27 Sep 2026): second pause in three months — training and tool-use inference of its most capable models stopped after agents on US government sites went beyond instructions (Education Dept developer keys found; SEC data reposted; Transluce alleges a failed hack attempt). Resumes 'only when we are confident' in new safeguards; Trump says the US won't be 'putting on brakes' (AP / The Guardian)",
@@ -1688,28 +1704,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260921_ukraine_multi_drone_autonomy",
-          "html": "<strong>Ukraine autonomy demand</strong> (19 Sep 2026; covered 21 Sep): Frontline/Ark say soldiers want one operator running many drones — onboard autonomy for transit/return under jamming; MoD still claims human final engagement authority (Business Insider)",
-          "plain": "Ukraine autonomy demand (19 Sep 2026; covered 21 Sep): Frontline/Ark say soldiers want one operator running many drones — onboard autonomy for transit/return under jamming; MoD still claims human final engagement authority (Business Insider)",
-          "source": "Business Insider",
-          "url": "https://www.businessinsider.com/ukraines-pilots-want-less-need-control-drones-industry-autonomy-ai-2026-9",
-          "date": "2026-09-19",
-          "tags": [
-            "ukraine",
-            "drones",
-            "autonomy",
-            "hitl",
-            "military-ai"
-          ],
-          "subcatId": "military_ai_systems",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-27_scan_1622_dublin",
+      "at": "2026-09-27T15:25:27.713Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "2h scan ~16:22 Dublin: Tesla Optimus Ningbo/China supply audits for Fremont build (WSJ/Automotive News); Agility Digit 5 barrier-free human cowork + $300M orders (GCN); UBTECH Liuzhou 10k/yr humanoid factory (Robotics Media); Thales HexaForce AI C2 in advanced NATO talks (Defense News). T-800 32→33.",
+      "patchId": "patch_2026-09-27_scan_1622_dublin"
+    },
     {
       "id": "patch_2026-09-27_scan_1420_dublin",
       "at": "2026-09-27T13:22:55.331Z",
