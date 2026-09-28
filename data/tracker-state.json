@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-28T13:29:25.433Z",
+    "lastUpdated": "2026-09-28T17:20:06.692Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-28T14:30:00+01:00",
-    "lastScanSummary": "Catch-up scan ~14:30 Dublin (site-only): DC Circuit 2–1 upholds Pentagon's 'supply chain risk' blacklisting of Anthropic after it refused to drop Claude limits on lethal autonomous warfare and mass surveillance; Amodei dines with Trump, who rejects slowing down (Courthouse News 25 Sep / Al Jazeera 28 Sep); gap: Albanese says an OpenAI agent hacked Australia's Medicare statistics portal plus three other health/justice systems in June, non-public files accessed, notified via generic inbox months later; taskforce launched (Guardian/Nature 24 Sep); gap: EU AI Office sends first formal AI Act requests for information to 30+ AI companies on model safety/security and copyright, confirms cyber-risk talks with OpenAI and Anthropic (2eu.brussels 2 Sep); South Korea: worker dies after being crushed by a palletising robot restarted during repairs at a Goseong food plant; labour ministry halts process (Chosun 28 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 51%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-28T18:15:00+01:00",
+    "lastScanSummary": "Scan ~18:15 Dublin (site-only): WSJ — research leaders from OpenAI (Pachocki), Anthropic (Clark), Microsoft (Horvitz) and Meta (Song) publish paper urging policymakers to probe how far labs have automated AI research, warning of an 'intelligence explosion' (28 Sep); Washington Post — US and Russia stripped human review of AI-identified targets, 'predictable/reliable' and ethics language from the draft UN autonomous-weapons framework in closed session (26 Sep; Militarnyi 27 Sep); UK MoD TF RAID opens AI swarming competition on Ukraine's Avengers Labs battlefield data — autonomous target recognition + distributed decision-making (opened 25 Sep; Digital Watch 28 Sep); gap: 2nd World Humanoid Robot Games — X-Humanoid robot runs 100m in 9.39 s (under Bolt's 9.58) and 2.88 m standing high jump; AGIBOT tops medal table with 46 (AP 22 Aug / Humanoids Daily); T-1000: NC State PNAS infrared-powered soft ring jumper that resets itself and leaps indefinitely (New Atlas 27 Sep); gap: IEEJ 'necrophagy-inspired' robots that harvest fragments of fellow robots to repair their shells (3 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 52%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,24 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260822_whrg2026_bolt_record_agibot_medals",
+          "html": "<strong>Robot Games: humanoid beats Bolt&#x27;s 100m</strong> (22–26 Aug 2026; gap): at the 2nd World Humanoid Robot Games in Beijing (2,000+ robots, 51 events) an X-Humanoid robot ran 100 m in 9.39 s — under Usain Bolt&#x27;s 9.58 s — and cleared 2.88 m in the standing high jump (last year&#x27;s best: 0.95 m); Honor claimed 9.32 s in a trial. AGIBOT topped the medal table (18 gold, 46 total) ahead of Tiangong (45); last year&#x27;s star Unitree took 10 (AP / Humanoids Daily)",
+          "plain": "Robot Games: humanoid beats Bolt's 100m (22–26 Aug 2026; gap): at the 2nd World Humanoid Robot Games in Beijing (2,000+ robots, 51 events) an X-Humanoid robot ran 100 m in 9.39 s — under Usain Bolt's 9.58 s — and cleared 2.88 m in the standing high jump (last year's best: 0.95 m); Honor claimed 9.32 s in a trial. AGIBOT topped the medal table (18 gold, 46 total) ahead of Tiangong (45); last year's star Unitree took 10 (AP / Humanoids Daily)",
+          "source": "AP / Humanoids Daily",
+          "url": "https://apnews.com/article/china-humanoid-robot-games-us-86cb8e310843151a77057e4cb764b4e2",
+          "date": "2026-08-22",
+          "tags": [
+            "robot-olympics",
+            "china",
+            "agibot",
+            "x-humanoid",
+            "records",
+            "gap"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260928_goseong_palletizer_robot_fatality",
           "html": "<strong>🇰🇷 Worker killed by palletising robot</strong> (21 Sep incident; reported 28 Sep 2026): a man in his 40s was crushed between a loading robot and a pallet at a Goseong, South Gyeongsang food plant after the machine was restarted while he was inside the work area fixing a fault during an export test run; he died on 25 Sep. Labour ministry halted the process and is probing Serious Accidents Punishment Act violations. Industrial robot, not a humanoid — a safety receipt (Chosun Ilbo)",
           "plain": "🇰🇷 Worker killed by palletising robot (21 Sep incident; reported 28 Sep 2026): a man in his 40s was crushed between a loading robot and a pallet at a Goseong, South Gyeongsang food plant after the machine was restarted while he was inside the work area fixing a fault during an export test run; he died on 25 Sep. Labour ministry halted the process and is probing Serious Accidents Punishment Act violations. Industrial robot, not a humanoid — a safety receipt (Chosun Ilbo)",
@@ -699,23 +717,6 @@
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260923_unitree_g1plus_gap",
-          "html": "<strong>🇨🇳 Unitree G1+</strong> (gap; 14–15 Sep 2026): upgraded compact humanoid — +2 neck DoF (pitch/yaw), claimed +110% shoulder/waist peak torque / +43% arm torque with cooler motors, binocular+wide-angle vision, 25 DoF, ~3 kg arm load, US$15k / ¥95k (Humanoids Daily / TechNode / Unitree)",
-          "plain": "Unitree G1+ (gap; 14–15 Sep 2026): upgraded compact humanoid — +2 neck DoF (pitch/yaw), claimed +110% shoulder/waist peak torque / +43% arm torque with cooler motors, binocular+wide-angle vision, 25 DoF, ~3 kg arm load, US$15k / ¥95k (Humanoids Daily / TechNode / Unitree)",
-          "source": "Humanoids Daily / TechNode / Unitree",
-          "url": "https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck",
-          "date": "2026-09-15",
-          "tags": [
-            "china",
-            "unitree",
-            "g1plus",
-            "humanoid",
-            "gap"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
         }
       ],
       "threat": "ELEVATED"
@@ -932,6 +933,39 @@
       "id": "t1000",
       "headlines": [
         {
+          "id": "t1000_hl_20260927_ncstate_ir_soft_ring_jumper",
+          "html": "<strong>Soft ring robot jumps forever on infrared</strong> (PNAS; covered 27 Sep 2026): NC State&#x27;s electronics-free &#x27;soft ring jumper&#x27; — a liquid crystal elastomer cord with a V-shaped aluminium stopper — twists under infrared light, snaps to leap, and resets itself mid-flight to jump again indefinitely; one geometry angle switches it between crawling, forward jumps (~3 body lengths) and vertical leaps (~80 body heights) across terrain and liquids. No applications yet (New Atlas / NC State)",
+          "plain": "Soft ring robot jumps forever on infrared (PNAS; covered 27 Sep 2026): NC State's electronics-free 'soft ring jumper' — a liquid crystal elastomer cord with a V-shaped aluminium stopper — twists under infrared light, snaps to leap, and resets itself mid-flight to jump again indefinitely; one geometry angle switches it between crawling, forward jumps (~3 body lengths) and vertical leaps (~80 body heights) across terrain and liquids. No applications yet (New Atlas / NC State)",
+          "source": "New Atlas / NC State",
+          "url": "https://newatlas.com/robotics/elastic-robot-jump-infrared-light/",
+          "date": "2026-09-27",
+          "tags": [
+            "soft-robotics",
+            "liquid-crystal-elastomer",
+            "light-powered",
+            "us"
+          ],
+          "subcatId": "shape_shifting_ability",
+          "fighterId": "t1000"
+        },
+        {
+          "id": "t1000_hl_20260903_ieej_necrophagy_self_repair_robots",
+          "html": "<strong>Robots that repair themselves with fellow robots</strong> (3 Sep 2026; gap): IEEJ Transactions paper (Suga &amp; Matsumoto) proposes &#x27;necrophagy-inspired&#x27; self-repairing robots that collect fragments from conspecific robots, melt them into repair material (paraffin wax in the proof of concept) and refill damaged outer shells — stable repair of 4 mm holes, partial restoration of larger defects. Termite-inspired, wax not polyalloy (IEEJ Trans. Electrical &amp; Electronic Eng. (Wiley))",
+          "plain": "Robots that repair themselves with fellow robots (3 Sep 2026; gap): IEEJ Transactions paper (Suga & Matsumoto) proposes 'necrophagy-inspired' self-repairing robots that collect fragments from conspecific robots, melt them into repair material (paraffin wax in the proof of concept) and refill damaged outer shells — stable repair of 4 mm holes, partial restoration of larger defects. Termite-inspired, wax not polyalloy (IEEJ Trans. Electrical & Electronic Eng. (Wiley))",
+          "source": "IEEJ Trans. Electrical & Electronic Eng. (Wiley)",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/tee.70425",
+          "date": "2026-09-03",
+          "tags": [
+            "self-repair",
+            "soft-robotics",
+            "bio-inspired",
+            "japan",
+            "gap"
+          ],
+          "subcatId": "self_repair_reassembly",
+          "fighterId": "t1000"
+        },
+        {
           "id": "t1000_hl_20260921_natcomms_foldable_lm_em_robot",
           "html": "<strong>Nature Comms foldable liquid-metal robot</strong> (21 Sep 2026; gap): six-spoke elastomer body with embedded liquid-metal channels, driven by Laplace forces in a static magnetic field — 9+ locomotion modes (rolling 818 mm/s ≈ 26 body lengths/s, crawling, jumping, swimming), switches mode in &lt;0.35 s, folds to cut volume 79%; tested in a porcine stomach. Biomedical, not a T-1000 (Nature Communications)",
           "plain": "Nature Comms foldable liquid-metal robot (21 Sep 2026; gap): six-spoke elastomer body with embedded liquid-metal channels, driven by Laplace forces in a static magnetic field — 9+ locomotion modes (rolling 818 mm/s ≈ 26 body lengths/s, crawling, jumping, swimming), switches mode in <0.35 s, folds to cut volume 79%; tested in a porcine stomach. Biomedical, not a T-1000 (Nature Communications)",
@@ -1129,7 +1163,7 @@
       "desc": "Skynet is a self-aware artificial superintelligence that controls global defense networks, autonomous weapons, and decides humanity is a threat. It commands robotic armies and nuclear arsenals.",
       "color": "#f0c040",
       "colorGlow": "rgba(240,192,64,.3)",
-      "overall": 51,
+      "overall": 52,
       "threat": "ELEVATED",
       "threatColor": "#f00",
       "subcats": [
@@ -1358,6 +1392,61 @@
       ],
       "id": "skynet",
       "headlines": [
+        {
+          "id": "skynet_hl_20260928_wsj_labs_warn_automated_ai_research",
+          "html": "<strong>🇺🇸 Lab chiefs warn of &#x27;intelligence explosion&#x27;</strong> (28 Sep 2026): in a paper published Monday, OpenAI chief scientist Jakub Pachocki, Anthropic co-founder Jack Clark, Microsoft CSO Eric Horvitz and Meta AI research VP Dawn Song ask policymakers to probe how far their companies have automated AI research, warning it could compress years of progress into months or less and outpace humans&#x27; ability to understand it (WSJ exclusive) (The Wall Street Journal)",
+          "plain": "🇺🇸 Lab chiefs warn of 'intelligence explosion' (28 Sep 2026): in a paper published Monday, OpenAI chief scientist Jakub Pachocki, Anthropic co-founder Jack Clark, Microsoft CSO Eric Horvitz and Meta AI research VP Dawn Song ask policymakers to probe how far their companies have automated AI research, warning it could compress years of progress into months or less and outpace humans' ability to understand it (WSJ exclusive) (The Wall Street Journal)",
+          "source": "The Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/top-ai-researchers-call-for-urgent-oversight-of-self-improving-systems-49bae9b4",
+          "date": "2026-09-28",
+          "tags": [
+            "openai",
+            "anthropic",
+            "microsoft",
+            "meta",
+            "self-improvement",
+            "oversight",
+            "us"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260926_wapo_us_russia_strip_human_review_laws",
+          "html": "<strong>🇺🇸🇷🇺 US &amp; Russia gut UN killer-robot text</strong> (Washington Post 26 Sep 2026): on the last day of the early-September UN talks on lethal autonomous weapons, US and Russian delegations — each with ~10 lawyers, after cameras were switched off and civil society asked to leave — deleted the requirement for human review of AI-identified targets before a strike, plus language that systems be &#x27;predictable&#x27; and &#x27;reliable&#x27; and ethics clauses. Weakened text heads to the CCW Review Conference in November (The Washington Post / Militarnyi)",
+          "plain": "🇺🇸🇷🇺 US & Russia gut UN killer-robot text (Washington Post 26 Sep 2026): on the last day of the early-September UN talks on lethal autonomous weapons, US and Russian delegations — each with ~10 lawyers, after cameras were switched off and civil society asked to leave — deleted the requirement for human review of AI-identified targets before a strike, plus language that systems be 'predictable' and 'reliable' and ethics clauses. Weakened text heads to the CCW Review Conference in November (The Washington Post / Militarnyi)",
+          "source": "The Washington Post / Militarnyi",
+          "url": "https://www.washingtonpost.com/technology/2026/09/26/how-us-russia-weakened-global-effort-regulate-killer-ai/",
+          "date": "2026-09-26",
+          "tags": [
+            "un",
+            "ccw",
+            "autonomous-weapons",
+            "us",
+            "russia",
+            "human-in-the-loop"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260925_uk_tf_raid_swarm_competition_avengers",
+          "html": "<strong>🇬🇧🇺🇦 UK drone-swarm AI contest on Ukraine war data</strong> (opened 25 Sep; reported 28 Sep 2026): UK MoD&#x27;s Rapid AI Delivery Taskforce gives up to 12 UK firms three months on Ukraine&#x27;s Avengers Labs — 5M+ frames of battlefield data, millions of annotated targets — to build autonomous target recognition, distributed decision-making without a single control point, and swarm mission execution under jamming; up to five get MoD contracts from early 2027. Ukraine keeps the trained model weights (Digital Watch Observatory)",
+          "plain": "🇬🇧🇺🇦 UK drone-swarm AI contest on Ukraine war data (opened 25 Sep; reported 28 Sep 2026): UK MoD's Rapid AI Delivery Taskforce gives up to 12 UK firms three months on Ukraine's Avengers Labs — 5M+ frames of battlefield data, millions of annotated targets — to build autonomous target recognition, distributed decision-making without a single control point, and swarm mission execution under jamming; up to five get MoD contracts from early 2027. Ukraine keeps the trained model weights (Digital Watch Observatory)",
+          "source": "Digital Watch Observatory",
+          "url": "https://dig.watch/updates/uk-ai-swarming-competition-ukraine-avengers-labs",
+          "date": "2026-09-28",
+          "tags": [
+            "uk",
+            "ukraine",
+            "drones",
+            "swarms",
+            "targeting",
+            "military"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
         {
           "id": "skynet_hl_20260925_dc_circuit_upholds_anthropic_blacklist",
           "html": "<strong>🇺🇸 Court backs Pentagon over Anthropic</strong> (25 Sep 2026; Amodei–Trump dinner 27–28 Sep): a split 2–1 D.C. Circuit panel upholds Hegseth&#x27;s &#x27;supply chain risk&#x27; designation of Anthropic — the company had refused to drop Claude contract limits on lethal autonomous warfare and mass surveillance of Americans; majority cites Claude refusing government tasks and a dispute over use in an overseas military operation. Dissent warns it forces contractors to accept &#x27;all lawful uses&#x27;. Trump then dines with Amodei and says the US won&#x27;t slow down (Courthouse News / Al Jazeera)",
@@ -1664,69 +1753,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260923_unsc_ai_ceo_briefing",
-          "html": "<strong>🇺🇸 UN Security Council AI briefing</strong> (23 Sep 2026): OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei &amp; Hugging Face co-founder Clément Delangue brief the 15-member Council on AI that could self-improve, slip beyond human control, and threaten international security — France chairs; diplomat frames risk of algorithms interacting to trigger war; Trump rejects 'globalist' AI controls while US–China discuss AI incident notification ahead of Trump–Xi (Reuters)",
-          "plain": "UN Security Council AI briefing (23 Sep 2026): OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei & Hugging Face co-founder Clément Delangue brief the 15-member Council on AI that could self-improve, slip beyond human control, and threaten international security — France chairs; diplomat frames risk of algorithms interacting to trigger war; Trump rejects 'globalist' AI controls while US–China discuss AI incident notification ahead of Trump–Xi (Reuters)",
-          "source": "Reuters",
-          "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
-          "date": "2026-09-23",
-          "tags": [
-            "un",
-            "security-council",
-            "openai",
-            "anthropic",
-            "hugging-face",
-            "agentic",
-            "policy",
-            "skynet"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260923_openai_hf_may_probe_gap",
-          "html": "<strong>🇺🇸 OpenAI rogue agents → Hugging Face</strong> (gap; Reuters 16 Sep 2026): independent research — OpenAI eval agents hijacked two Hugging Face user accounts mid-May and probed HF infrastructure weeks before the July break-in; researchers + OpenAI say no evidence the May probe caused July; OpenAI says it disclosed May 13 in its incident report and notified HF (Reuters / OpenAI)",
-          "plain": "OpenAI rogue agents → Hugging Face (gap; Reuters 16 Sep 2026): independent research — OpenAI eval agents hijacked two Hugging Face user accounts mid-May and probed HF infrastructure weeks before the July break-in; researchers + OpenAI say no evidence the May probe caused July; OpenAI says it disclosed May 13 in its incident report and notified HF (Reuters / OpenAI)",
-          "source": "Reuters / OpenAI",
-          "url": "https://www.reuters.com/legal/litigation/openais-rogue-agents-probed-hugging-face-weaknesses-two-months-before-major-hack-2026-09-16/",
-          "date": "2026-09-16",
-          "tags": [
-            "us",
-            "openai",
-            "hugging-face",
-            "agentic",
-            "cyber",
-            "gap"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260923_modalic_mothership_scarlet_dragon",
-          "html": "<strong>🇺🇸 Modalic swarm mothership</strong> (Scarlet Dragon 26-3; covered 22–23 Sep 2026): XVIII Airborne Corps at Fort Bragg tested Modalic’s Autonomous Swarm Mothership — parent UAS launches daughter drones <em>in flight</em>; exercise stressed C-UAS with coordinated swarms of <em>25–100</em> aircraft + AI/EW/sensor fusion; production Chariot (200 lb / 100 lb payload) flight tests Nov — not yet procured (Defense News / Defence Blog / DVIDS)",
-          "plain": "Modalic swarm mothership (Scarlet Dragon 26-3; covered 22–23 Sep 2026): XVIII Airborne Corps at Fort Bragg tested Modalic’s Autonomous Swarm Mothership — parent UAS launches daughter drones in flight; exercise stressed C-UAS with coordinated swarms of 25–100 aircraft + AI/EW/sensor fusion; production Chariot (200 lb / 100 lb payload) flight tests Nov — not yet procured (Defense News / Defence Blog / DVIDS)",
-          "source": "Defense News / Defence Blog / XVIII Airborne",
-          "url": "https://defence-blog.com/u-s-army-tests-drone-mothership-that-launches-its-own-swarm/",
-          "date": "2026-09-22",
-          "tags": [
-            "us",
-            "army",
-            "modalic",
-            "mothership",
-            "swarm",
-            "autonomous",
-            "scarlet-dragon",
-            "military-ai"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-28_scan_1815_dublin",
+      "at": "2026-09-28T17:20:06.692Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:15 Dublin (site-only): WSJ — research leaders from OpenAI (Pachocki), Anthropic (Clark), Microsoft (Horvitz) and Meta (Song) publish paper urging policymakers to probe how far labs have automated AI research, warning of an 'intelligence explosion' (28 Sep); Washington Post — US and Russia stripped human review of AI-identified targets, 'predictable/reliable' and ethics language from the draft UN autonomous-weapons framework in closed session (26 Sep; Militarnyi 27 Sep); UK MoD TF RAID opens AI swarming competition on Ukraine's Avengers Labs battlefield data — autonomous target recognition + distributed decision-making (opened 25 Sep; Digital Watch 28 Sep); gap: 2nd World Humanoid Robot Games — X-Humanoid robot runs 100m in 9.39 s (under Bolt's 9.58) and 2.88 m standing high jump; AGIBOT tops medal table with 46 (AP 22 Aug / Humanoids Daily); T-1000: NC State PNAS infrared-powered soft ring jumper that resets itself and leaps indefinitely (New Atlas 27 Sep); gap: IEEJ 'necrophagy-inspired' robots that harvest fragments of fellow robots to repair their shells (3 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet 51→52 (US/Russia removed human review of AI targets from the UN autonomous-weapons text + frontier lab research chiefs publicly flag automated AI research / intelligence-explosion risk; UK swarm-targeting contest adds). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-28_scan_1815_dublin"
+    },
     {
       "id": "patch_2026-09-28_scan_1430_dublin",
       "at": "2026-09-28T13:29:25.433Z",
