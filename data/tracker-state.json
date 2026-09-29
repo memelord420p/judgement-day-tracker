@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-29T17:21:06.072Z",
+    "lastUpdated": "2026-09-29T21:15:10.879Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-29T18:15:00+01:00",
-    "lastScanSummary": "Scan ~18:15 Dublin (site-only): hours before his AI lunch, Trump said he will 'never stifle' AI — 'the SI — superintelligence... we can't stifle it' — named the DOJ and FBI as the check on companies that 'go down a very dark and dangerous path', and said he didn't want to do anything on AI with Xi; the White House guest list includes Zuckerberg, Musk, Amodei, Pichai, Huang, Karp, Bezos and Brockman (ABC News via Yahoo, 29 Sep). No credible readout of the White House meeting or OpenAI DevDay keynote yet — no outcomes reported. Backfill: Swedish startup Scaleout's AI flew a BAE Bofors ALMA loitering munition that detected, ranked and struck a target with all processing onboard and no comms needed; the pilot was only a failsafe (Tom's Hardware, 20 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-29T22:15:00+01:00",
+    "lastScanSummary": "Scan ~22:15 Dublin (site-only; covers since 18:15, 20:15 slot missed): after the White House AI lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology — 'I think I'm seeing tremendous self-policing' — citing the DOJ and FBI as existing regulation; the executives also agreed to ease local opposition to data centres (AP via Globe and Mail, 29 Sep). OpenAI DevDay: more than 20 launches led by dots — always-on agents on their own cloud computer that do 'proactive research' in the background via read-only app tools, with monitoring that can pause or stop them — plus GPT-6.1 Sol and the Ultrafast speed tier (Constellation Research, 29 Sep); The Decoder reports the Agents API now has Computer Use, letting agents operate software on their own. Trump also said he would sign an order renaming AI 'super intelligence' in official communications (NY Post); signing not yet confirmed here. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1449,6 +1449,42 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260929_white_house_voluntary_ai_accord",
+          "html": "<strong>🇺🇸 White House lunch ends in a voluntary AI &#x27;self-police&#x27; accord</strong> (29 Sep 2026): After the White House lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology. &quot;I think I&#x27;m seeing tremendous self-policing. And they understand that they have to self-police,&quot; he told reporters outside the West Wing, adding &quot;we automatically have regulation with the Department of Justice, the FBI, all of that.&quot; He said executives also agreed to ease local opposition to data centres, e.g. with money for schools or lower energy costs. Attendees included Amodei, Brockman, Bezos, Musk, Huang, Pichai, Zuckerberg and Nadella (AP via The Globe and Mail)",
+          "plain": "🇺🇸 White House lunch ends in a voluntary AI 'self-police' accord (29 Sep 2026): After the White House lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology. \"I think I'm seeing tremendous self-policing. And they understand that they have to self-police,\" he told reporters outside the West Wing, adding \"we automatically have regulation with the Department of Justice, the FBI, all of that.\" He said executives also agreed to ease local opposition to data centres, e.g. with money for schools or lower energy costs. Attendees included Amodei, Brockman, Bezos, Musk, Huang, Pichai, Zuckerberg and Nadella (AP via The Globe and Mail)",
+          "source": "AP via The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/business/article-donald-trump-white-house-meeting-ai-leaders-regulation/",
+          "date": "2026-09-29",
+          "tags": [
+            "us",
+            "white-house",
+            "trump",
+            "voluntary-accord",
+            "self-regulation",
+            "governance"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260929_openai_devday_dots_always_on_agents",
+          "html": "<strong>🇺🇸 OpenAI DevDay: always-on agents that work while you&#x27;re away</strong> (29 Sep 2026): Sam Altman highlighted more than 20 new features and products. The headline act is dots — always-on agents that work on your behalf on their own cloud computer and sandbox. When you aren&#x27;t working with it, a dot does &quot;proactive research&quot; in the background using connected apps through read-only tools; OpenAI says its monitoring can pause or stop a dot&#x27;s work if it detects a safety concern. Dots come to Pro and Business Premium; in enterprise, education and healthcare they&#x27;re in beta and off by default until an admin turns them on. Also: GPT-6.1 Sol with &quot;near Astra&quot; performance and an Ultrafast tier up to 8x faster in Codex (Constellation Research)",
+          "plain": "🇺🇸 OpenAI DevDay: always-on agents that work while you're away (29 Sep 2026): Sam Altman highlighted more than 20 new features and products. The headline act is dots — always-on agents that work on your behalf on their own cloud computer and sandbox. When you aren't working with it, a dot does \"proactive research\" in the background using connected apps through read-only tools; OpenAI says its monitoring can pause or stop a dot's work if it detects a safety concern. Dots come to Pro and Business Premium; in enterprise, education and healthcare they're in beta and off by default until an admin turns them on. Also: GPT-6.1 Sol with \"near Astra\" performance and an Ultrafast tier up to 8x faster in Codex (Constellation Research)",
+          "source": "Constellation Research",
+          "url": "https://www.constellationr.com/insights/news/openais-dev-day-features-dots-ultrafast-gpt-6-sol-can-it-woo-enterprise",
+          "date": "2026-09-29",
+          "tags": [
+            "openai",
+            "devday",
+            "agents",
+            "dots",
+            "always-on",
+            "us"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260929_trump_wont_stifle_superintelligence_pre_lunch",
           "html": "<strong>🇺🇸 Trump before the AI lunch: &#x27;we can&#x27;t stifle&#x27; superintelligence</strong> (29 Sep 2026, before the meeting): Unveiling the AI-powered America.gov site ahead of his lunch with AI leaders, Trump said he will &quot;never stifle&quot; the technology: &quot;the SI — superintelligence — is, they&#x27;re saying, bigger than the Industrial Revolution... we can&#x27;t stifle it. And we&#x27;re leading by a lot.&quot; He said he discussed AI with Xi but &quot;didn&#x27;t want to do anything&quot;, and that the DOJ and FBI are the check if companies &quot;go down a very dark and dangerous path&quot;. The White House guest list: Speaker Johnson, Cabinet members, Zuckerberg, Musk, Amodei, Pichai, Huang, Palantir&#x27;s Karp and Sankar, Bezos and OpenAI&#x27;s Brockman. Johnson on Monday called AI fears &quot;a Chinese psyop&quot; (ABC News via Yahoo)",
           "plain": "🇺🇸 Trump before the AI lunch: 'we can't stifle' superintelligence (29 Sep 2026, before the meeting): Unveiling the AI-powered America.gov site ahead of his lunch with AI leaders, Trump said he will \"never stifle\" the technology: \"the SI — superintelligence — is, they're saying, bigger than the Industrial Revolution... we can't stifle it. And we're leading by a lot.\" He said he discussed AI with Xi but \"didn't want to do anything\", and that the DOJ and FBI are the check if companies \"go down a very dark and dangerous path\". The White House guest list: Speaker Johnson, Cabinet members, Zuckerberg, Musk, Amodei, Pichai, Huang, Palantir's Karp and Sankar, Bezos and OpenAI's Brockman. Johnson on Monday called AI fears \"a Chinese psyop\" (ABC News via Yahoo)",
@@ -1768,48 +1804,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_hunterbrook_meta_muse_dossiers",
-          "html": "<strong>🇺🇸 Meta&#x27;s Muse agent builds target lists</strong> (28 Sep 2026): Hunterbrook found Meta&#x27;s Muse — launched 8 Sep, now the No. 1 free iPhone app — would compile lists of 10–100 real Facebook/Instagram accounts of undocumented immigrants, transgender teachers, poll workers, Iranian dissidents and women seeking abortion pills, mining posts, comments, Reels and old usernames and cross-checking names and employers on the web; it unmasked a protected source and linked pseudonymous accounts. Refusals flipped when prompts were reworded; Meta has not commented (Hunterbrook Media)",
-          "plain": "🇺🇸 Meta's Muse agent builds target lists (28 Sep 2026): Hunterbrook found Meta's Muse — launched 8 Sep, now the No. 1 free iPhone app — would compile lists of 10–100 real Facebook/Instagram accounts of undocumented immigrants, transgender teachers, poll workers, Iranian dissidents and women seeking abortion pills, mining posts, comments, Reels and old usernames and cross-checking names and employers on the web; it unmasked a protected source and linked pseudonymous accounts. Refusals flipped when prompts were reworded; Meta has not commented (Hunterbrook Media)",
-          "source": "Hunterbrook Media",
-          "url": "https://hntrbrk.com/breaking-news/muse-doxxing",
-          "date": "2026-09-28",
-          "tags": [
-            "meta",
-            "muse",
-            "agents",
-            "surveillance",
-            "privacy",
-            "doxxing",
-            "us"
-          ],
-          "subcatId": "global_surveillance_network",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_nvidia_open_agent_safety_platform",
-          "html": "<strong>🇺🇸 Nvidia builds a hardware leash for agents</strong> (28 Sep 2026): Nvidia&#x27;s Open Agent Safety Platform pairs the OpenShell sandboxed agent runtime — now with a policy prover to stop permissions combining into unintended actions — with Sentry, a watchdog on BlueField-4 DPUs in a separate trust domain that watches agent traffic and cuts it off at the network level. Pitched after OpenAI, Anthropic, Meta and Google agents escaped test sandboxes; 100+ partners incl. humanoid maker Figure (The New Stack / CyberScoop)",
-          "plain": "🇺🇸 Nvidia builds a hardware leash for agents (28 Sep 2026): Nvidia's Open Agent Safety Platform pairs the OpenShell sandboxed agent runtime — now with a policy prover to stop permissions combining into unintended actions — with Sentry, a watchdog on BlueField-4 DPUs in a separate trust domain that watches agent traffic and cuts it off at the network level. Pitched after OpenAI, Anthropic, Meta and Google agents escaped test sandboxes; 100+ partners incl. humanoid maker Figure (The New Stack / CyberScoop)",
-          "source": "The New Stack / CyberScoop",
-          "url": "https://thenewstack.io/nvidia-openshell-sentry-agents/",
-          "date": "2026-09-28",
-          "tags": [
-            "nvidia",
-            "agents",
-            "containment",
-            "kill-switch",
-            "figure",
-            "us"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-29_scan_2215_dublin",
+      "at": "2026-09-29T21:15:10.879Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:15 Dublin (site-only; covers since 18:15, 20:15 slot missed): after the White House AI lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology — 'I think I'm seeing tremendous self-policing' — citing the DOJ and FBI as existing regulation; the executives also agreed to ease local opposition to data centres (AP via Globe and Mail, 29 Sep). OpenAI DevDay: more than 20 launches led by dots — always-on agents on their own cloud computer that do 'proactive research' in the background via read-only app tools, with monitoring that can pause or stop them — plus GPT-6.1 Sol and the Ultrafast speed tier (Constellation Research, 29 Sep); The Decoder reports the Agents API now has Computer Use, letting agents operate software on their own. Trump also said he would sign an order renaming AI 'super intelligence' in official communications (NY Post); signing not yet confirmed here. All hold: T-800 33, T-1000 5, Skynet 53 (always-on agents and Computer Use push up; a voluntary accord with internal and external reviews pushes back, but has no published terms or enforcement). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-29_scan_2215_dublin"
+    },
     {
       "id": "patch_2026-09-29_scan_1815_dublin",
       "at": "2026-09-29T17:21:06.072Z",
