@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-29T21:15:10.879Z",
+    "lastUpdated": "2026-09-29T23:13:10.441Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-29T22:15:00+01:00",
-    "lastScanSummary": "Scan ~22:15 Dublin (site-only; covers since 18:15, 20:15 slot missed): after the White House AI lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology — 'I think I'm seeing tremendous self-policing' — citing the DOJ and FBI as existing regulation; the executives also agreed to ease local opposition to data centres (AP via Globe and Mail, 29 Sep). OpenAI DevDay: more than 20 launches led by dots — always-on agents on their own cloud computer that do 'proactive research' in the background via read-only app tools, with monitoring that can pause or stop them — plus GPT-6.1 Sol and the Ultrafast speed tier (Constellation Research, 29 Sep); The Decoder reports the Agents API now has Computer Use, letting agents operate software on their own. Trump also said he would sign an order renaming AI 'super intelligence' in official communications (NY Post); signing not yet confirmed here. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-30T00:15:00+01:00",
+    "lastScanSummary": "Scan ~00:15 Dublin (site-only): the accord now has a name — 'White House Accord on Superintelligence: A Joint Commitment on Frontier SI Responsibilities'. Trump conceded it is not binding but called it 'morally binding' and 'almost like a constitution'; Speaker Johnson summed it up as 'robust internal controls and layers of internal and external review'; Amodei said the mechanism for addressing 'very real risks' is 'still under discussion' (Washington Examiner, 29 Sep). No accord text published yet. At DevDay Altman called Nvidia's agent safety platform 'a good thing' but not 'a full solution' — 'we are doing similar things' — warning AI safety is also 'a science problem'; he said no incident he knows of is 'as serious' as the Hugging Face breach (CNBC, 29 Sep). That's the source of the Axios 'agent safety platform' line: a comment, not a launched OpenAI product. 'Super intelligence' rename order: Trump said it would come out at about 5pm ET; no signed text found yet. Asia morning: nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1449,6 +1449,42 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260929_accord_on_superintelligence_not_binding",
+          "html": "<strong>🇺🇸 The AI accord has a name — and isn&#x27;t binding</strong> (29 Sep 2026): Trump conceded that the &quot;White House Accord on Superintelligence: A Joint Commitment on Frontier SI Responsibilities&quot; is not binding, calling it &quot;morally binding&quot; and &quot;almost like a constitution in a way&quot;. Speaker Johnson called it a statement of principles and &quot;commitments that are voluntary on behalf of the industry&quot; — &quot;robust internal controls and layers of internal and external review&quot;. Amodei said AI has &quot;very real risks&quot; and &quot;the mechanism [of] how we address those risks is still under discussion&quot;. Trump also said he&#x27;d name an AI czar in &quot;the next three or four days&quot; (Washington Examiner)",
+          "plain": "🇺🇸 The AI accord has a name — and isn't binding (29 Sep 2026): Trump conceded that the \"White House Accord on Superintelligence: A Joint Commitment on Frontier SI Responsibilities\" is not binding, calling it \"morally binding\" and \"almost like a constitution in a way\". Speaker Johnson called it a statement of principles and \"commitments that are voluntary on behalf of the industry\" — \"robust internal controls and layers of internal and external review\". Amodei said AI has \"very real risks\" and \"the mechanism [of] how we address those risks is still under discussion\". Trump also said he'd name an AI czar in \"the next three or four days\" (Washington Examiner)",
+          "source": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4747485/trump-says-tech-ceos-signed-morally-binding-document-to-self-regulate-ai/",
+          "date": "2026-09-29",
+          "tags": [
+            "us",
+            "white-house",
+            "accord",
+            "self-regulation",
+            "governance",
+            "superintelligence"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260929_altman_safety_science_problem_devday",
+          "html": "<strong>🇺🇸 Altman: agent safety is &#x27;a science problem&#x27;, not just engineering</strong> (29 Sep 2026): Asked at DevDay why OpenAI didn&#x27;t sign on to Nvidia&#x27;s agent safety platform, Sam Altman told CNBC: &quot;I think it&#x27;s a good thing. I think we are doing similar things&quot; — but &quot;I don&#x27;t think it&#x27;s a full solution, and I worry that if we treat AI safety as only an engineering problem, we will miss the very important point that we have we have a science problem in front of us.&quot; He said nothing he knows of is &quot;as serious&quot; as the Hugging Face breach, and put holding back GPT-6.1 Astra in the &quot;normal course category&quot; (CNBC)",
+          "plain": "🇺🇸 Altman: agent safety is 'a science problem', not just engineering (29 Sep 2026): Asked at DevDay why OpenAI didn't sign on to Nvidia's agent safety platform, Sam Altman told CNBC: \"I think it's a good thing. I think we are doing similar things\" — but \"I don't think it's a full solution, and I worry that if we treat AI safety as only an engineering problem, we will miss the very important point that we have we have a science problem in front of us.\" He said nothing he knows of is \"as serious\" as the Hugging Face breach, and put holding back GPT-6.1 Astra in the \"normal course category\" (CNBC)",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
+          "date": "2026-09-29",
+          "tags": [
+            "openai",
+            "altman",
+            "agent-safety",
+            "nvidia",
+            "alignment",
+            "us"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260929_white_house_voluntary_ai_accord",
           "html": "<strong>🇺🇸 White House lunch ends in a voluntary AI &#x27;self-police&#x27; accord</strong> (29 Sep 2026): After the White House lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology. &quot;I think I&#x27;m seeing tremendous self-policing. And they understand that they have to self-police,&quot; he told reporters outside the West Wing, adding &quot;we automatically have regulation with the Department of Justice, the FBI, all of that.&quot; He said executives also agreed to ease local opposition to data centres, e.g. with money for schools or lower energy costs. Attendees included Amodei, Brockman, Bezos, Musk, Huang, Pichai, Zuckerberg and Nadella (AP via The Globe and Mail)",
           "plain": "🇺🇸 White House lunch ends in a voluntary AI 'self-police' accord (29 Sep 2026): After the White House lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology. \"I think I'm seeing tremendous self-policing. And they understand that they have to self-police,\" he told reporters outside the West Wing, adding \"we automatically have regulation with the Department of Justice, the FBI, all of that.\" He said executives also agreed to ease local opposition to data centres, e.g. with money for schools or lower energy costs. Attendees included Amodei, Brockman, Bezos, Musk, Huang, Pichai, Zuckerberg and Nadella (AP via The Globe and Mail)",
@@ -1770,45 +1806,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_china_ai_travel_curbs_families",
-          "html": "<strong>🇨🇳 China puts AI talent&#x27;s families on a leash</strong> (28–29 Sep 2026): Bloomberg reports Beijing now requires spouses and children of certain AI and chip executives deemed vital to state security to get approval before travelling abroad, even for short trips — widening curbs on staff at firms like Alibaba and DeepSeek to stop know-how flowing to the US. Not an outright ban; more names to be added (The Japan Times / Bloomberg)",
-          "plain": "🇨🇳 China puts AI talent's families on a leash (28–29 Sep 2026): Bloomberg reports Beijing now requires spouses and children of certain AI and chip executives deemed vital to state security to get approval before travelling abroad, even for short trips — widening curbs on staff at firms like Alibaba and DeepSeek to stop know-how flowing to the US. Not an outright ban; more names to be added (The Japan Times / Bloomberg)",
-          "source": "The Japan Times / Bloomberg",
-          "url": "https://www.japantimes.co.jp/business/2026/09/29/tech/china-travel-curbs-ai-talent/",
-          "date": "2026-09-29",
-          "tags": [
-            "china",
-            "ai-race",
-            "talent",
-            "state-security",
-            "deepseek"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_fli_ministers_call_laws_treaty_talks",
-          "html": "<strong>Ministers call for killer-robot treaty talks</strong> (28 Sep 2026): At a New York forum co-sponsored by Nigeria, Austria, Belgium, Brazil, Mexico, the Philippines, the ICRC, The Elders and FLI, Austria&#x27;s foreign minister, Nigeria&#x27;s defence minister and UN disarmament chief Izumi Nakamitsu urged states to open negotiations on a legally binding autonomous-weapons instrument at the CCW Review Conference (16–20 Nov) — &#x27;the report adopted is not the ceiling, it is the floor.&#x27; 70+ states back talks (Future of Life Institute)",
-          "plain": "Ministers call for killer-robot treaty talks (28 Sep 2026): At a New York forum co-sponsored by Nigeria, Austria, Belgium, Brazil, Mexico, the Philippines, the ICRC, The Elders and FLI, Austria's foreign minister, Nigeria's defence minister and UN disarmament chief Izumi Nakamitsu urged states to open negotiations on a legally binding autonomous-weapons instrument at the CCW Review Conference (16–20 Nov) — 'the report adopted is not the ceiling, it is the floor.' 70+ states back talks (Future of Life Institute)",
-          "source": "Future of Life Institute",
-          "url": "https://futureoflife.org/ai-policy/government-leaders-call-for-treaty-negotiations-on-autonomous-weapons-for-the-first-time/",
-          "date": "2026-09-28",
-          "tags": [
-            "autonomous-weapons",
-            "ccw",
-            "treaty",
-            "un",
-            "human-control"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-30_scan_0015_dublin",
+      "at": "2026-09-29T23:13:10.441Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:15 Dublin (site-only): the accord now has a name — 'White House Accord on Superintelligence: A Joint Commitment on Frontier SI Responsibilities'. Trump conceded it is not binding but called it 'morally binding' and 'almost like a constitution'; Speaker Johnson summed it up as 'robust internal controls and layers of internal and external review'; Amodei said the mechanism for addressing 'very real risks' is 'still under discussion' (Washington Examiner, 29 Sep). No accord text published yet. At DevDay Altman called Nvidia's agent safety platform 'a good thing' but not 'a full solution' — 'we are doing similar things' — warning AI safety is also 'a science problem'; he said no incident he knows of is 'as serious' as the Hugging Face breach (CNBC, 29 Sep). That's the source of the Axios 'agent safety platform' line: a comment, not a launched OpenAI product. 'Super intelligence' rename order: Trump said it would come out at about 5pm ET; no signed text found yet. Asia morning: nothing new. All hold: T-800 33, T-1000 5, Skynet 53 (follow-ups add detail — a non-binding accord and an admitted science gap in alignment — but no new capability or incident). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-30_scan_0015_dublin"
+    },
     {
       "id": "patch_2026-09-29_scan_2215_dublin",
       "at": "2026-09-29T21:15:10.879Z",
