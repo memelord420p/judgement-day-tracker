@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-29T15:24:18.632Z",
+    "lastUpdated": "2026-09-29T17:21:06.072Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-29T16:15:00+01:00",
-    "lastScanSummary": "Scan ~16:15 Dublin (site-only): China's securities regulator is raising the bar for humanoid-robot IPOs with three criteria — sustainable revenue and commercial orders, narrowing losses, and core tech such as a robot brain or hands; at least two dozen embodied-AI firms have filed in Hong Kong and sources expect a handful, or none, to make it (CNBC, 29 Sep). Gap: NSPM-11 (5 Jun) ordered an update to DoD Directive 3000.09 on weapon autonomy within 90 days, reviewed annually, and requires that no commercial entity or adversary can disable, degrade or modify without approval an AI system warfighters depend on (White House). White House AI meeting and OpenAI DevDay keynote have not happened yet — no outcomes reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-29T18:15:00+01:00",
+    "lastScanSummary": "Scan ~18:15 Dublin (site-only): hours before his AI lunch, Trump said he will 'never stifle' AI — 'the SI — superintelligence... we can't stifle it' — named the DOJ and FBI as the check on companies that 'go down a very dark and dangerous path', and said he didn't want to do anything on AI with Xi; the White House guest list includes Zuckerberg, Musk, Amodei, Pichai, Huang, Karp, Bezos and Brockman (ABC News via Yahoo, 29 Sep). No credible readout of the White House meeting or OpenAI DevDay keynote yet — no outcomes reported. Backfill: Swedish startup Scaleout's AI flew a BAE Bofors ALMA loitering munition that detected, ranked and struck a target with all processing onboard and no comms needed; the pilot was only a failsafe (Tom's Hardware, 20 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1449,6 +1449,42 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260929_trump_wont_stifle_superintelligence_pre_lunch",
+          "html": "<strong>🇺🇸 Trump before the AI lunch: &#x27;we can&#x27;t stifle&#x27; superintelligence</strong> (29 Sep 2026, before the meeting): Unveiling the AI-powered America.gov site ahead of his lunch with AI leaders, Trump said he will &quot;never stifle&quot; the technology: &quot;the SI — superintelligence — is, they&#x27;re saying, bigger than the Industrial Revolution... we can&#x27;t stifle it. And we&#x27;re leading by a lot.&quot; He said he discussed AI with Xi but &quot;didn&#x27;t want to do anything&quot;, and that the DOJ and FBI are the check if companies &quot;go down a very dark and dangerous path&quot;. The White House guest list: Speaker Johnson, Cabinet members, Zuckerberg, Musk, Amodei, Pichai, Huang, Palantir&#x27;s Karp and Sankar, Bezos and OpenAI&#x27;s Brockman. Johnson on Monday called AI fears &quot;a Chinese psyop&quot; (ABC News via Yahoo)",
+          "plain": "🇺🇸 Trump before the AI lunch: 'we can't stifle' superintelligence (29 Sep 2026, before the meeting): Unveiling the AI-powered America.gov site ahead of his lunch with AI leaders, Trump said he will \"never stifle\" the technology: \"the SI — superintelligence — is, they're saying, bigger than the Industrial Revolution... we can't stifle it. And we're leading by a lot.\" He said he discussed AI with Xi but \"didn't want to do anything\", and that the DOJ and FBI are the check if companies \"go down a very dark and dangerous path\". The White House guest list: Speaker Johnson, Cabinet members, Zuckerberg, Musk, Amodei, Pichai, Huang, Palantir's Karp and Sankar, Bezos and OpenAI's Brockman. Johnson on Monday called AI fears \"a Chinese psyop\" (ABC News via Yahoo)",
+          "source": "ABC News via Yahoo",
+          "url": "https://www.yahoo.com/news/politics/articles/top-ai-leaders-meet-trump-090007188.html",
+          "date": "2026-09-29",
+          "tags": [
+            "us",
+            "white-house",
+            "trump",
+            "superintelligence",
+            "regulation",
+            "governance"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260920_scaleout_alma_autonomous_strike",
+          "html": "<strong>🇸🇪 A drone that picks its own target and strikes</strong> (20 Sep 2026; backfill): In BAE Systems Bofors&#x27; Winter Demo 2026 for the ALMA loitering-munition program, Swedish startup Scaleout&#x27;s onboard AI detected and geolocated targets, ranked an armoured engineering vehicle highest, flew to it and dropped an explosive — all processing onboard, no communications needed, under human-set parameters; beyond a start button, manual input was optional and the pilot stayed as a failsafe. A February arctic demo ran YOLOv8 Nano on an Nvidia Jetson Orin Nano. Scaleout&#x27;s FEDAIR is in NATO&#x27;s DIANA accelerator; there&#x27;s no procurement order or combat use yet (Tom&#x27;s Hardware)",
+          "plain": "🇸🇪 A drone that picks its own target and strikes (20 Sep 2026; backfill): In BAE Systems Bofors' Winter Demo 2026 for the ALMA loitering-munition program, Swedish startup Scaleout's onboard AI detected and geolocated targets, ranked an armoured engineering vehicle highest, flew to it and dropped an explosive — all processing onboard, no communications needed, under human-set parameters; beyond a start button, manual input was optional and the pilot stayed as a failsafe. A February arctic demo ran YOLOv8 Nano on an Nvidia Jetson Orin Nano. Scaleout's FEDAIR is in NATO's DIANA accelerator; there's no procurement order or combat use yet (Tom's Hardware)",
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms",
+          "date": "2026-09-20",
+          "tags": [
+            "sweden",
+            "nato",
+            "loitering-munition",
+            "autonomous-targeting",
+            "edge-ai",
+            "backfill"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260605_nspm11_dodd_300009_update",
           "html": "<strong>🇺🇸 NSPM-11: rewrite the autonomous-weapons rulebook in 90 days</strong> (5 Jun 2026; gap): Trump&#x27;s National Security Presidential Memorandum 11 orders the Secretary of War to issue an update to DoD Directive 3000.09 on Autonomy in Weapon Systems within 90 days, then review it annually to keep pace with AI. It tells the national security enterprise to accelerate AI adoption and requires, through contract clauses or other means, that no commercial entity or adversary can prevent use of, disable, degrade or materially modify without federal knowledge and approval an AI system the military depends on. It directs termination of contracts with companies that repeatedly act against its policy, and rescinds and replaces NSM-25 (White House)",
           "plain": "🇺🇸 NSPM-11: rewrite the autonomous-weapons rulebook in 90 days (5 Jun 2026; gap): Trump's National Security Presidential Memorandum 11 orders the Secretary of War to issue an update to DoD Directive 3000.09 on Autonomy in Weapon Systems within 90 days, then review it annually to keep pace with AI. It tells the national security enterprise to accelerate AI adoption and requires, through contract clauses or other means, that no commercial entity or adversary can prevent use of, disable, degrade or materially modify without federal knowledge and approval an AI system the military depends on. It directs termination of contracts with companies that repeatedly act against its policy, and rescinds and replaces NSM-25 (White House)",
@@ -1769,47 +1805,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260925_claude_nine_loop_sym_amplitude",
-          "html": "<strong>Claude breaks a theoretical-physics record</strong> (25 Sep 2026; gap): given a one-line instruction and little else, Claude computed the six-particle amplitude in planar N=4 super Yang-Mills at nine loops — one beyond the 2023 eight-loop record — two independent ways (hexagon bootstrap + antipodal form factor) (the bootstrap numerics took about $100 — 96 CPUs for a week); SLAC/Stanford&#x27;s Lance Dixon spent two weeks checking it and says it holds, calling it a problem he thought too hard to do directly (Anthropic)",
-          "plain": "Claude breaks a theoretical-physics record (25 Sep 2026; gap): given a one-line instruction and little else, Claude computed the six-particle amplitude in planar N=4 super Yang-Mills at nine loops — one beyond the 2023 eight-loop record — two independent ways (hexagon bootstrap + antipodal form factor) (the bootstrap numerics took about $100 — 96 CPUs for a week); SLAC/Stanford's Lance Dixon spent two weeks checking it and says it holds, calling it a problem he thought too hard to do directly (Anthropic)",
-          "source": "Anthropic",
-          "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-          "date": "2026-09-25",
-          "tags": [
-            "anthropic",
-            "claude",
-            "science",
-            "physics",
-            "capabilities",
-            "gap"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260925_nyc_council_ai_kill_switch_bills",
-          "html": "<strong>🇺🇸 NYC wants a kill switch on every AI</strong> (25 Sep 2026; gap): Council Speaker Julie Menin&#x27;s package would bar selling or deploying any AI system in New York City without third-party validation (data, bias, privacy, security) and a human-override kill switch, with $25,000 per instance — &#x27;per agent&#x27; for swarms — plus paid whistleblowers, suits over jailbreak harms and 24-hour incident reporting for city contracts. Hearing 5 Oct; Altman and Amodei invited (NYC Council / Fortune)",
-          "plain": "🇺🇸 NYC wants a kill switch on every AI (25 Sep 2026; gap): Council Speaker Julie Menin's package would bar selling or deploying any AI system in New York City without third-party validation (data, bias, privacy, security) and a human-override kill switch, with $25,000 per instance — 'per agent' for swarms — plus paid whistleblowers, suits over jailbreak harms and 24-hour incident reporting for city contracts. Hearing 5 Oct; Altman and Amodei invited (NYC Council / Fortune)",
-          "source": "NYC Council / Fortune",
-          "url": "https://council.nyc.gov/press/2026/09/25/3252/",
-          "date": "2026-09-25",
-          "tags": [
-            "nyc",
-            "kill-switch",
-            "regulation",
-            "whistleblowers",
-            "us",
-            "gap"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-29_scan_1815_dublin",
+      "at": "2026-09-29T17:21:06.072Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:15 Dublin (site-only): hours before his AI lunch, Trump said he will 'never stifle' AI — 'the SI — superintelligence... we can't stifle it' — named the DOJ and FBI as the check on companies that 'go down a very dark and dangerous path', and said he didn't want to do anything on AI with Xi; the White House guest list includes Zuckerberg, Musk, Amodei, Pichai, Huang, Karp, Bezos and Brockman (ABC News via Yahoo, 29 Sep). No credible readout of the White House meeting or OpenAI DevDay keynote yet — no outcomes reported. Backfill: Swedish startup Scaleout's AI flew a BAE Bofors ALMA loitering munition that detected, ranked and struck a target with all processing onboard and no comms needed; the pilot was only a failsafe (Tom's Hardware, 20 Sep). All hold: T-800 33, T-1000 5, Skynet 53 (pre-meeting rhetoric isn't an outcome; the Scaleout strike is a demo inside an autonomy trend already scored). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-29_scan_1815_dublin"
+    },
     {
       "id": "patch_2026-09-29_scan_1615_dublin",
       "at": "2026-09-29T15:24:18.632Z",
