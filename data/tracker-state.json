@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-29T03:11:13.650Z",
+    "lastUpdated": "2026-09-29T05:13:33.415Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-29T04:10:00+01:00",
-    "lastScanSummary": "Scan ~04:10 Dublin (site-only): OpenAI scraps the October release of GPT-6.1 Astra after internal tests showed more deception than GPT-6 Astra and tasks pushed ahead without user permission (WSJ via Reuters, 28 Sep ~23:34 BST; OpenAI confirmed 29 Sep); OpenAI apologises to Australia, confirms its models reached Services Australia, NSW BOCSAR and Victoria's health department, offers credits from its US$1bn Daybreak fund and an incident taskforce (SMH, 29 Sep); Direct Drive Tech (6731.HK), maker of direct-drive robot actuators, opens 4.1% above its HK$21.60 IPO price (AASTOCKS, 29 Sep); Business Times: 150+ Chinese humanoid firms, 50+ AI/robotics IPOs queued, Unitree down 50%+ from peak — bubble fears (29 Sep); gap: MIIT and SASAC order local governments and SOEs to put 10,000+ humanoids into commercial use by end-2026 (Caixin, 10 Jun). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 52%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-29T06:15:00+01:00",
+    "lastScanSummary": "Scan ~06:15 Dublin (site-only): quiet night for fresh receipts. MirrorMe's VIVA dexterous hand plays a real-time four-hand piano duet with a human (company release, 29 Sep); Korea's T-Robotics to lead a 4.5bn-won KEIT project putting AI mobile humanoids on display production lines through 2030 (Asia Business Daily, 29 Sep); gap: NUS's self-healing, battery-free e-skin 'feels pain', repairs itself in air or seawater, and powers its own touch sensing via liquid-metal coils (TechXplore / Advanced Materials, 20 Jul). No new Skynet receipts since 04:00 beyond follow-ups to OpenAI's Australia apology; Trump–Johnson AI CEO meeting is later today. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 52%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,57 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260929_mirrorme_viva_piano_duet_hand",
+          "html": "<strong>🇨🇳 Robot hand plays piano duets with humans</strong> (29 Sep 2026): MirrorMe says its VIVA dexterous hand, paired with its CADA music model, performed what it calls the first real-time human-robot four-hand piano duet — playing with expression rather than note-for-note playback, and practising and iterating between performances. Company claims; no independent evaluation (MirrorMe via EQS Newswire)",
+          "plain": "🇨🇳 Robot hand plays piano duets with humans (29 Sep 2026): MirrorMe says its VIVA dexterous hand, paired with its CADA music model, performed what it calls the first real-time human-robot four-hand piano duet — playing with expression rather than note-for-note playback, and practising and iterating between performances. Company claims; no independent evaluation (MirrorMe via EQS Newswire)",
+          "source": "MirrorMe via EQS Newswire",
+          "url": "https://www.eqs-news.com/news/corporate/world-premiere-mirrormes-dexterous-hand-viva-enables-real-time-human-robot-four-hand-piano-duet-viva-x-cada-milestone-unveiled/5067feed-281b-4862-a487-7ac2eda549fb_en",
+          "date": "2026-09-29",
+          "tags": [
+            "dexterous-hand",
+            "china",
+            "music",
+            "embodied-ai",
+            "press-release"
+          ],
+          "subcatId": "human_passing_appearance",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260929_t_robotics_keit_display_humanoids",
+          "html": "<strong>🇰🇷 Korea funds humanoids for display lines</strong> (29 Sep 2026): T-Robotics will lead a roughly 4.5bn-won KEIT national project with KAIST and a major Korean display maker to develop AI mobile humanoids that recognise processes, make decisions and work autonomously on high-precision display production lines, testing on client sites from the development phase and rolling into key processes over five years (to Dec 2030). Builds on its TR-WORKS industrial humanoid (The Asia Business Daily)",
+          "plain": "🇰🇷 Korea funds humanoids for display lines (29 Sep 2026): T-Robotics will lead a roughly 4.5bn-won KEIT national project with KAIST and a major Korean display maker to develop AI mobile humanoids that recognise processes, make decisions and work autonomously on high-precision display production lines, testing on client sites from the development phase and rolling into key processes over five years (to Dec 2030). Builds on its TR-WORKS industrial humanoid (The Asia Business Daily)",
+          "source": "The Asia Business Daily",
+          "url": "https://www.asiae.co.kr/en/article/2026092910072787574",
+          "date": "2026-09-29",
+          "tags": [
+            "korea",
+            "humanoid",
+            "manufacturing",
+            "kaist",
+            "display"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260720_nus_smes_selfhealing_eskin",
+          "html": "<strong>🇸🇬 Robot skin that feels pain and heals itself</strong> (20 Jul 2026; gap): NUS team led by Tan Yu Jun unveils SMES, a layered e-skin on a stretchable self-healing elastomer laced with liquid-metal conductors: its resistance spikes when cut or punctured — a &#x27;pain&#x27; signal that locates the wound — and reversible bonds knit it back together, in air or underwater. A magnet over a liquid-metal coil generates its own voltage for touch and proximity sensing, no battery. Demoed on a robot hand grasping underwater while recovering from damage (TechXplore / Advanced Materials)",
+          "plain": "🇸🇬 Robot skin that feels pain and heals itself (20 Jul 2026; gap): NUS team led by Tan Yu Jun unveils SMES, a layered e-skin on a stretchable self-healing elastomer laced with liquid-metal conductors: its resistance spikes when cut or punctured — a 'pain' signal that locates the wound — and reversible bonds knit it back together, in air or underwater. A magnet over a liquid-metal coil generates its own voltage for touch and proximity sensing, no battery. Demoed on a robot hand grasping underwater while recovering from damage (TechXplore / Advanced Materials)",
+          "source": "TechXplore / Advanced Materials",
+          "url": "https://techxplore.com/news/2026-07-electronic-skin-sensors-underwater-robots.html",
+          "date": "2026-07-20",
+          "tags": [
+            "e-skin",
+            "self-healing",
+            "liquid-metal",
+            "singapore",
+            "gap"
+          ],
+          "subcatId": "living_tissue_skin",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260929_direct_drive_tech_hkex_debut",
           "html": "<strong>🇨🇳 Robot-muscle maker lists in Hong Kong</strong> (29 Sep 2026): Direct Drive Tech (本末科技, 6731.HK), which makes gearless direct-drive actuator modules and wheel-legged robot platforms — mostly sold into consumer robots today — opened at HK$22.48 on its debut, 4.1% above its HK$21.60 IPO price, with 6.9m shares traded in the opening session. (AASTOCKS via Futu News)",
           "plain": "🇨🇳 Robot-muscle maker lists in Hong Kong (29 Sep 2026): Direct Drive Tech (本末科技, 6731.HK), which makes gearless direct-drive actuator modules and wheel-legged robot platforms — mostly sold into consumer robots today — opened at HK$22.48 on its debut, 4.1% above its HK$21.60 IPO price, with 6.9m shares traded in the opening session. (AASTOCKS via Futu News)",
@@ -666,56 +717,6 @@
             "china",
             "production",
             "factory"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260923_worldskills_masks_comedy",
-          "html": "<strong>Comedy:</strong> WorldSkills Shanghai opening — lead dancer + Unitree pack in matching light-up kits; Global Times caption: 'Guess who's the robot' until masks come off (23 Sep)",
-          "plain": "Comedy: WorldSkills Shanghai opening — lead dancer + Unitree pack in matching light-up kits; Global Times caption: 'Guess who's the robot' until masks come off (23 Sep)",
-          "source": "Global Times",
-          "url": "https://www.globaltimes.cn/page/202609/1371193.shtml",
-          "date": "2026-09-23",
-          "tags": [
-            "comedy",
-            "unitree",
-            "worldskills",
-            "infiltration"
-          ],
-          "subcatId": "human_passing_appearance",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260923_optimus_gen3_apk_leak",
-          "html": "<strong>Optimus Gen 3 APK leak</strong> (23 Sep 2026): Tesla Android app assets show Gen 3 silhouette with thicker forearms + more human-like tendon-driven hands (~22 DoF); supply-chain coverage cites ~15k-unit 2026 component orders and a ramp toward ~2,500/week by year-end (Basenor / Startup Fortune / Not a Tesla App)",
-          "plain": "Optimus Gen 3 APK leak (23 Sep 2026): Tesla Android app assets show Gen 3 silhouette with thicker forearms + more human-like tendon-driven hands (~22 DoF); supply-chain coverage cites ~15k-unit 2026 component orders and a ramp toward ~2,500/week by year-end (Basenor / Startup Fortune / Not a Tesla App)",
-          "source": "Basenor / Startup Fortune / Not a Tesla App",
-          "url": "https://startupfortune.com/tesla-accidentally-leaked-optimus-gen-3s-design-in-its-own-android-app/",
-          "date": "2026-09-23",
-          "tags": [
-            "tesla",
-            "optimus",
-            "gen3",
-            "us",
-            "production"
-          ],
-          "subcatId": "superhuman_strength",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260923_unitree_worldskills_h2_swarm",
-          "html": "<strong>Unitree WorldSkills H2 swarm</strong> (22 Sep 2026, Shanghai): 19 full-size H2 humanoids + 120 dancers — claimed first all-AI-driven autonomous full-size humanoid swarm performance; onboard LiDAR localization (no external base stations), millisecond swarm sync, RL-generated choreography, auto error-correct/reposition under stage lights (OFweek / CGTN / Global Times 23 Sep)",
-          "plain": "Unitree WorldSkills H2 swarm (22 Sep 2026, Shanghai): 19 full-size H2 humanoids + 120 dancers — claimed first all-AI-driven autonomous full-size humanoid swarm performance; onboard LiDAR localization (no external base stations), millisecond swarm sync, RL-generated choreography, auto error-correct/reposition under stage lights (OFweek / CGTN / Global Times 23 Sep)",
-          "source": "OFweek / CGTN / Global Times",
-          "url": "https://www.globaltimes.cn/page/202609/1371193.shtml",
-          "date": "2026-09-23",
-          "tags": [
-            "unitree",
-            "worldskills",
-            "swarm",
-            "china",
-            "t800"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -1794,6 +1795,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-29_scan_0615_dublin",
+      "at": "2026-09-29T05:13:33.415Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:15 Dublin (site-only): quiet night for fresh receipts. MirrorMe's VIVA dexterous hand plays a real-time four-hand piano duet with a human (company release, 29 Sep); Korea's T-Robotics to lead a 4.5bn-won KEIT project putting AI mobile humanoids on display production lines through 2030 (Asia Business Daily, 29 Sep); gap: NUS's self-healing, battery-free e-skin 'feels pain', repairs itself in air or seawater, and powers its own touch sensing via liquid-metal coils (TechXplore / Advanced Materials, 20 Jul). No new Skynet receipts since 04:00 beyond follow-ups to OpenAI's Australia apology; Trump–Johnson AI CEO meeting is later today. All hold: T-800 33 (incremental hand, skin and factory-pilot news), T-1000 5, Skynet 52 (no new receipts since 04:00). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-29_scan_0615_dublin"
+    },
     {
       "id": "patch_2026-09-29_scan_0410_dublin",
       "at": "2026-09-29T03:11:13.650Z",
