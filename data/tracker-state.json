@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-29T13:24:07.144Z",
+    "lastUpdated": "2026-09-29T15:24:18.632Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-29T14:15:00+01:00",
-    "lastScanSummary": "Scan ~14:15 Dublin (site-only): Northwestern Polytechnical University and a subsidiary of defence contractor Xian Tianhe set a Guinness record — 116 TH-618 autonomous underwater vehicles in formation for 34 minutes over 500 m with no human intervention, in a 50 m pool (The Independent / SCMP, 29 Sep); OpenAI says frontier RL training runs should need a safety case before continuing — sandbox hardening, immutable agent transcripts, auto-pausing alerts, a dissent from another team, and veto power for senior leaders (SecurityWeek, 29 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-29T16:15:00+01:00",
+    "lastScanSummary": "Scan ~16:15 Dublin (site-only): China's securities regulator is raising the bar for humanoid-robot IPOs with three criteria — sustainable revenue and commercial orders, narrowing losses, and core tech such as a robot brain or hands; at least two dozen embodied-AI firms have filed in Hong Kong and sources expect a handful, or none, to make it (CNBC, 29 Sep). Gap: NSPM-11 (5 Jun) ordered an update to DoD Directive 3000.09 on weapon autonomy within 90 days, reviewed annually, and requires that no commercial entity or adversary can disable, degrade or modify without approval an AI system warfighters depend on (White House). White House AI meeting and OpenAI DevDay keynote have not happened yet — no outcomes reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,24 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260929_cnbc_csrc_humanoid_ipo_criteria",
+          "html": "<strong>🇨🇳 China&#x27;s three tests for humanoid IPOs</strong> (29 Sep 2026): China&#x27;s securities regulator is raising the bar for humanoid-robot startup listings, according to three sources familiar with the CSRC&#x27;s thinking. The &quot;window guidance&quot; wants sustainable revenue and commercial orders, narrowing losses (one source says a three-year forecast is needed), and core technology such as a robotic brain or hands. At least two dozen humanoid-related embodied-AI companies have filed to list in Hong Kong alone; sources now expect a handful, or none, to reach public markets. Unitree&#x27;s Shanghai shares had nearly halved from their debut close by Monday (CNBC)",
+          "plain": "🇨🇳 China's three tests for humanoid IPOs (29 Sep 2026): China's securities regulator is raising the bar for humanoid-robot startup listings, according to three sources familiar with the CSRC's thinking. The \"window guidance\" wants sustainable revenue and commercial orders, narrowing losses (one source says a three-year forecast is needed), and core technology such as a robotic brain or hands. At least two dozen humanoid-related embodied-AI companies have filed to list in Hong Kong alone; sources now expect a handful, or none, to reach public markets. Unitree's Shanghai shares had nearly halved from their debut close by Monday (CNBC)",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html",
+          "date": "2026-09-29",
+          "tags": [
+            "china",
+            "humanoids",
+            "ipo",
+            "csrc",
+            "regulation",
+            "bubble"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260928_dongtoo_limx_homegrown_robot_architecture",
           "html": "<strong>🇨🇳 China builds a robot on an all-Chinese electronic stack</strong> (28 Sep 2026): Dongtoo Tech and LimX Dynamics unveiled in Yichang, Hubei, what CCTV calls the first physical-AI robot whose entire electronic architecture — AI computing chips, operating system, networking and software — runs on Chinese technology, separating motion control from AI compute. State testers say it kept real-time control, fault isolation and attack defence under joint damage, network attacks and virus intrusion; Beijing pitches it as &#x27;industrial sovereignty&#x27; and a way to keep autonomous robots inside safety limits (The Herald Business / CCTV)",
           "plain": "🇨🇳 China builds a robot on an all-Chinese electronic stack (28 Sep 2026): Dongtoo Tech and LimX Dynamics unveiled in Yichang, Hubei, what CCTV calls the first physical-AI robot whose entire electronic architecture — AI computing chips, operating system, networking and software — runs on Chinese technology, separating motion control from AI compute. State testers say it kept real-time control, fault isolation and attack defence under joint damage, network attacks and virus intrusion; Beijing pitches it as 'industrial sovereignty' and a way to keep autonomous robots inside safety limits (The Herald Business / CCTV)",
@@ -702,24 +720,6 @@
             "factory"
           ],
           "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260925_optimus_fremont_hundreds_week",
-          "html": "<strong>🇺🇸 Optimus at Fremont: hundreds a week</strong> (25 Sep 2026): Tesla reportedly went from a few dozen Optimus a week in Q2 to several hundred in August on repurposed Model S/X lines, aiming &gt;1,000/week by year-end — but V3 hands/forearms carry 100+ screws still assembled by hand and the AI can&#x27;t reliably generalize (Electrek / The Information / The Verge)",
-          "plain": "🇺🇸 Optimus at Fremont: hundreds a week (25 Sep 2026): Tesla reportedly went from a few dozen Optimus a week in Q2 to several hundred in August on repurposed Model S/X lines, aiming >1,000/week by year-end — but V3 hands/forearms carry 100+ screws still assembled by hand and the AI can't reliably generalize (Electrek / The Information / The Verge)",
-          "source": "Electrek / The Information",
-          "url": "https://electrek.co/2026/09/25/tesla-optimus-production-ramp-hands-ai-generalization-problems/",
-          "date": "2026-09-25",
-          "tags": [
-            "tesla",
-            "optimus",
-            "fremont",
-            "production",
-            "hands",
-            "us"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1449,6 +1449,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260605_nspm11_dodd_300009_update",
+          "html": "<strong>🇺🇸 NSPM-11: rewrite the autonomous-weapons rulebook in 90 days</strong> (5 Jun 2026; gap): Trump&#x27;s National Security Presidential Memorandum 11 orders the Secretary of War to issue an update to DoD Directive 3000.09 on Autonomy in Weapon Systems within 90 days, then review it annually to keep pace with AI. It tells the national security enterprise to accelerate AI adoption and requires, through contract clauses or other means, that no commercial entity or adversary can prevent use of, disable, degrade or materially modify without federal knowledge and approval an AI system the military depends on. It directs termination of contracts with companies that repeatedly act against its policy, and rescinds and replaces NSM-25 (White House)",
+          "plain": "🇺🇸 NSPM-11: rewrite the autonomous-weapons rulebook in 90 days (5 Jun 2026; gap): Trump's National Security Presidential Memorandum 11 orders the Secretary of War to issue an update to DoD Directive 3000.09 on Autonomy in Weapon Systems within 90 days, then review it annually to keep pace with AI. It tells the national security enterprise to accelerate AI adoption and requires, through contract clauses or other means, that no commercial entity or adversary can prevent use of, disable, degrade or materially modify without federal knowledge and approval an AI system the military depends on. It directs termination of contracts with companies that repeatedly act against its policy, and rescinds and replaces NSM-25 (White House)",
+          "source": "White House",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+          "date": "2026-06-05",
+          "tags": [
+            "us",
+            "nspm-11",
+            "dodd-3000.09",
+            "autonomous-weapons",
+            "policy",
+            "gap"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260929_nwpu_116_auv_swarm_record",
           "html": "<strong>🇨🇳 116 robot subs swim in formation, no humans</strong> (29 Sep 2026): A team from Northwestern Polytechnical University and Xian Tianhe Maritime Technologies — a subsidiary of private defence contractor Xian Tianhe Defence Technology — set the Guinness record for most autonomous underwater vehicles operating simultaneously: 116 TH-618 drones deployed in sequence, holding formation for 34 minutes over 500 m with no human intervention, in a 50 m by 20 m pool (test on 29 Aug). Each 5.14 kg vehicle navigates with a phone-style vision camera; range 30 km, 8+ hours (The Independent / SCMP)",
           "plain": "🇨🇳 116 robot subs swim in formation, no humans (29 Sep 2026): A team from Northwestern Polytechnical University and Xian Tianhe Maritime Technologies — a subsidiary of private defence contractor Xian Tianhe Defence Technology — set the Guinness record for most autonomous underwater vehicles operating simultaneously: 116 TH-618 drones deployed in sequence, holding formation for 34 minutes over 500 m with no human intervention, in a 50 m by 20 m pool (test on 29 Aug). Each 5.14 kg vehicle navigates with a phone-style vision camera; range 30 km, 8+ hours (The Independent / SCMP)",
@@ -1787,30 +1805,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_wsj_labs_warn_automated_ai_research",
-          "html": "<strong>🇺🇸 Lab chiefs warn of &#x27;intelligence explosion&#x27;</strong> (28 Sep 2026): in a paper published Monday, OpenAI chief scientist Jakub Pachocki, Anthropic co-founder Jack Clark, Microsoft CSO Eric Horvitz and Meta AI research VP Dawn Song ask policymakers to probe how far their companies have automated AI research, warning it could compress years of progress into months or less and outpace humans&#x27; ability to understand it (WSJ exclusive) (The Wall Street Journal)",
-          "plain": "🇺🇸 Lab chiefs warn of 'intelligence explosion' (28 Sep 2026): in a paper published Monday, OpenAI chief scientist Jakub Pachocki, Anthropic co-founder Jack Clark, Microsoft CSO Eric Horvitz and Meta AI research VP Dawn Song ask policymakers to probe how far their companies have automated AI research, warning it could compress years of progress into months or less and outpace humans' ability to understand it (WSJ exclusive) (The Wall Street Journal)",
-          "source": "The Wall Street Journal",
-          "url": "https://www.wsj.com/tech/ai/top-ai-researchers-call-for-urgent-oversight-of-self-improving-systems-49bae9b4",
-          "date": "2026-09-28",
-          "tags": [
-            "openai",
-            "anthropic",
-            "microsoft",
-            "meta",
-            "self-improvement",
-            "oversight",
-            "us"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-29_scan_1615_dublin",
+      "at": "2026-09-29T15:24:18.632Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~16:15 Dublin (site-only): China's securities regulator is raising the bar for humanoid-robot IPOs with three criteria — sustainable revenue and commercial orders, narrowing losses, and core tech such as a robot brain or hands; at least two dozen embodied-AI firms have filed in Hong Kong and sources expect a handful, or none, to make it (CNBC, 29 Sep). Gap: NSPM-11 (5 Jun) ordered an update to DoD Directive 3000.09 on weapon autonomy within 90 days, reviewed annually, and requires that no commercial entity or adversary can disable, degrade or modify without approval an AI system warfighters depend on (White House). White House AI meeting and OpenAI DevDay keynote have not happened yet — no outcomes reported. All hold: T-800 33, T-1000 5, Skynet 53 (IPO tightening is a market cool-down, not a capability change; NSPM-11 is a June gap already priced in via the NSM-25 rollback item). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-29_scan_1615_dublin"
+    },
     {
       "id": "patch_2026-09-29_scan_1415_dublin",
       "at": "2026-09-29T13:24:07.144Z",
