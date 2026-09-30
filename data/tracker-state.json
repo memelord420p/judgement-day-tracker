@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-30T01:10:28.316Z",
+    "lastUpdated": "2026-09-30T03:06:18.753Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-30T02:15:00+01:00",
-    "lastScanSummary": "Scan ~02:15 Dublin (site-only): accord terms surface — per a copy seen by Nextgov, each signatory gets four layers: internal controls monitoring model capabilities and alignment in training and deployment, an internal oversight team, independent external auditors, and an independent committee overseeing both; signed by Trump, Pichai, Amodei, Zuckerberg, Brockman, Musk and Huang. Musk: 'just generally grading each other's homework' (Nextgov/FCW, 29 Sep). The 'Super Intelligence' order is signed: the executive branch will use 'Super Intelligence'/'SI' in official materials and officials are expected not to acknowledge 'AI' in relevant settings; past regulations don't change (The Verge, 29 Sep). Asia morning: Korea's Aei Robot commits ₩40bn to its first humanoid mass-production plant in Ansan, due October 2027 (Aju Press, 30 Sep). AI czar still unnamed — Trump says 'next three to four days'. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-30T04:15:00+01:00",
+    "lastScanSummary": "Scan ~04:15 Dublin (site-only): quiet Asia morning. Backfill: Japan plans to study AI-equipped humanoid robots for the Self-Defense Forces — base patrols and logistics first, maybe reconnaissance and rescue later — with ATLA to run a competition for company and university robots; an LDP security official: 'We do not expect humanoid robots equipped with weapons will be used for fighting' (Kyodo via Japan Today, 22–23 Sep). Korea: Neubility unveiled 'Billy', a semi-humanoid on four wheels with five-fingered hands, heading to a CJ CheilJedang food plant this year; it aims for several hundred units at work sites within one to two years (Seoul Economic Daily, 29 Sep). AI czar still unnamed (Trump: 'next three to four days' as of 29 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,41 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260922_japan_sdf_ai_humanoid_robots_study",
+          "html": "<strong>🇯🇵 Japan wants humanoid robots in its military — unarmed, for now</strong> (22–23 Sep 2026; backfill): Japan plans to explore humanoid robots with physical AI for the Self-Defense Forces as recruitment struggles, government and ruling-party sources said — starting with noncombat base patrols and logistics, with reconnaissance and rescue possible later. The Acquisition, Technology and Logistics Agency is expected to lead research and hold a competition for robots from companies and universities. A senior LDP security panel executive: &quot;We do not expect humanoid robots equipped with weapons will be used for fighting&quot; (Kyodo via Japan Today)",
+          "plain": "🇯🇵 Japan wants humanoid robots in its military — unarmed, for now (22–23 Sep 2026; backfill): Japan plans to explore humanoid robots with physical AI for the Self-Defense Forces as recruitment struggles, government and ruling-party sources said — starting with noncombat base patrols and logistics, with reconnaissance and rescue possible later. The Acquisition, Technology and Logistics Agency is expected to lead research and hold a competition for robots from companies and universities. A senior LDP security panel executive: \"We do not expect humanoid robots equipped with weapons will be used for fighting\" (Kyodo via Japan Today)",
+          "source": "Kyodo via Japan Today",
+          "url": "https://japantoday.com/category/national/update2-japan-to-study-use-of-ai-equipped-humanoid-robots-in-defense",
+          "date": "2026-09-22",
+          "tags": [
+            "japan",
+            "humanoids",
+            "military",
+            "sdf",
+            "atla",
+            "backfill"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260929_neubility_billy_semi_humanoid",
+          "html": "<strong>🇰🇷 Neubility&#x27;s &#x27;Billy&#x27; rolls into a food plant</strong> (29 Sep 2026): Neubility unveiled Billy, a humanoid upper body on a four-wheeled drive unit, with two arms ending in five-fingered hands, a torso that rotates 360 degrees and 16 degrees of freedom. One unit goes to a CJ CheilJedang food plant this year to sort ingredients; Neubility aims to deploy several hundred Billys within one to two years (Seoul Economic Daily)",
+          "plain": "🇰🇷 Neubility's 'Billy' rolls into a food plant (29 Sep 2026): Neubility unveiled Billy, a humanoid upper body on a four-wheeled drive unit, with two arms ending in five-fingered hands, a torso that rotates 360 degrees and 16 degrees of freedom. One unit goes to a CJ CheilJedang food plant this year to sort ingredients; Neubility aims to deploy several hundred Billys within one to two years (Seoul Economic Daily)",
+          "source": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/technology/2026/09/29/neubility-unveils-semi-humanoid-robot-billy-in-push-for",
+          "date": "2026-09-29",
+          "tags": [
+            "korea",
+            "humanoids",
+            "semi-humanoid",
+            "factory",
+            "neubility"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260930_aei_robot_ansan_mass_production_plant",
           "html": "<strong>🇰🇷 Aei Robot builds a humanoid factory</strong> (30 Sep 2026): Korea&#x27;s Aei Robot will spend 40 billion won ($29.5 million) on its first plant for mass-producing humanoid robots, at Hanyang University&#x27;s ERICA campus in Ansan, the city government said. Construction of the three-storey, ~10,000 m² building begins in November and is due to finish in October 2027. The company machines the frames, actuators and linear drives of its Alice humanoids itself; Alice 5 won Best Custom Humanoid Robot at RoboCup 2026 (Aju Press)",
           "plain": "🇰🇷 Aei Robot builds a humanoid factory (30 Sep 2026): Korea's Aei Robot will spend 40 billion won ($29.5 million) on its first plant for mass-producing humanoid robots, at Hanyang University's ERICA campus in Ansan, the city government said. Construction of the three-storey, ~10,000 m² building begins in November and is due to finish in October 2027. The company machines the frames, actuators and linear drives of its Alice humanoids itself; Alice 5 won Best Custom Humanoid Robot at RoboCup 2026 (Aju Press)",
@@ -682,41 +717,6 @@
             "factory",
             "walker-s",
             "production"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260926_agility_digit5_300m",
-          "html": "<strong>🇺🇸 Agility Digit 5</strong> (unveil 15 Sep; covered 26 Sep 2026): first humanoid engineered for cooperative work without physical safety cages — AI+sensor people-monitor, independent safety controller; &gt;$300M multi-year orders; RoboFab up to 10k/yr; early access 1H 2027 (GCN)",
-          "plain": "🇺🇸 Agility Digit 5 (unveil 15 Sep; covered 26 Sep 2026): first humanoid engineered for cooperative work without physical safety cages — AI+sensor people-monitor, independent safety controller; >$300M multi-year orders; RoboFab up to 10k/yr; early access 1H 2027 (GCN)",
-          "source": "GCN",
-          "url": "https://gcn.com/digit-5-agility-robotics-unveils-humanoid/21950/",
-          "date": "2026-09-26",
-          "tags": [
-            "agility",
-            "digit-5",
-            "us",
-            "safety",
-            "warehouse"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260924_tesla_optimus_ningbo_china_supply",
-          "html": "<strong>🇺🇸🇨🇳 Tesla Optimus → Ningbo supply</strong> (23–24 Sep 2026): WSJ via Automotive News — Tesla sourcing Chinese components for Optimus assembled at Fremont; Chinese media report Ningbo supplier audits from 16–17 Sep. California assembly address, Yangtze Delta parts bin (Singularity.Kiwi / Automotive News)",
-          "plain": "🇺🇸🇨🇳 Tesla Optimus → Ningbo supply (23–24 Sep 2026): WSJ via Automotive News — Tesla sourcing Chinese components for Optimus assembled at Fremont; Chinese media report Ningbo supplier audits from 16–17 Sep. California assembly address, Yangtze Delta parts bin (Singularity.Kiwi / Automotive News)",
-          "source": "WSJ via Automotive News / Singularity.Kiwi",
-          "url": "https://singularity.kiwi/tesla-optimus-chinese-supply-chain-2026/",
-          "date": "2026-09-24",
-          "tags": [
-            "tesla",
-            "optimus",
-            "china",
-            "ningbo",
-            "supply-chain",
-            "us"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -1810,6 +1810,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-30_scan_0415_dublin",
+      "at": "2026-09-30T03:06:18.753Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:15 Dublin (site-only): quiet Asia morning. Backfill: Japan plans to study AI-equipped humanoid robots for the Self-Defense Forces — base patrols and logistics first, maybe reconnaissance and rescue later — with ATLA to run a competition for company and university robots; an LDP security official: 'We do not expect humanoid robots equipped with weapons will be used for fighting' (Kyodo via Japan Today, 22–23 Sep). Korea: Neubility unveiled 'Billy', a semi-humanoid on four wheels with five-fingered hands, heading to a CJ CheilJedang food plant this year; it aims for several hundred units at work sites within one to two years (Seoul Economic Daily, 29 Sep). AI czar still unnamed (Trump: 'next three to four days' as of 29 Sep). All hold: T-800 33, T-1000 5, Skynet 53 (a military humanoid study and a single-unit factory pilot are early-stage). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-30_scan_0415_dublin"
+    },
     {
       "id": "patch_2026-09-30_scan_0215_dublin",
       "at": "2026-09-30T01:10:28.316Z",
