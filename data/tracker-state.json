@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-30T21:11:42.765Z",
+    "lastUpdated": "2026-09-30T23:14:05.377Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-30T22:15:00+01:00",
-    "lastScanSummary": "Scan ~22:15 Dublin (site-only). Lead: Google announced Gemini 4 Argon, its new frontier model, with a 1M-token output limit and a DeepSWE v1.1 score of 77.9 per Google; trusted defenders and internal Google teams get it \"without cyber guardrails,\" before a wider rollout (9to5Google, 30 Sep). FTC follow-ups (Washington Post, Semafor, Washington Times) add no new facts beyond the board: civil investigative demands are expected in coming weeks and METR is among the targets. Figure: still no confirmation that any Figure F.02 was actually melted — only the AI-made teaser. AI czar still unnamed. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-01T00:15:00+01:00",
+    "lastScanSummary": "Scan ~00:15 Dublin (site-only). New: South Korea plans to buy and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue and for labor-short industries, aiming for 200,000 robots by 2030 through public-private partnerships (Aju Press, 30 Sep). Gemini 4 Argon follow-ups (Google blog, The Verge, Techzine): access is still limited to trusted cyber defenders via the Fairwind Program while Google takes part in the US government's voluntary pre-release review; no new facts that change the board. FTC probe: no new developments beyond the board. AI czar still unnamed (Trump's 3–4 day window is still open). China's National Day robot shows (1–7 Oct) are entertainment rather than new capability. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260930_korea_1700_public_ai_robots",
+          "html": "<strong>🇰🇷 South Korea to buy 1,700+ AI robots for fire and rescue, mail sorting next year</strong> (30 Sep 2026): The government plans to purchase and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue operations and industries facing severe labor shortages, with a goal of distributing 200,000 robots through public-private partnerships by 2030. Prime Minister Han Seung-soo: &quot;It is crucial to quickly establish an initial market for the AI robot industry and enhance industrial competitiveness.&quot; Starting in 2028, public enterprises and local governments will expand distribution (Aju Press)",
+          "plain": "🇰🇷 South Korea to buy 1,700+ AI robots for fire and rescue, mail sorting next year (30 Sep 2026): The government plans to purchase and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue operations and industries facing severe labor shortages, with a goal of distributing 200,000 robots through public-private partnerships by 2030. Prime Minister Han Seung-soo: \"It is crucial to quickly establish an initial market for the AI robot industry and enhance industrial competitiveness.\" Starting in 2028, public enterprises and local governments will expand distribution (Aju Press)",
+          "source": "Aju Press",
+          "url": "https://www.ajupress.com/view/20260930151670794",
+          "date": "2026-09-30",
+          "tags": [
+            "south-korea",
+            "public-sector",
+            "robots",
+            "physical-ai",
+            "fire-rescue"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260924_feather_29990_wheeled_humanoid",
           "html": "<strong>🪶 Feather sells a $29,990 wheeled humanoid for developers</strong> (24 Sep 2026; backfill): Feather Robotics formally launched with $7.6 million in funding led by Gradient and a wheeled, dual-arm humanoid starting at a promotional $29,990, built so developers can plug in their choice of AI models. Its current Bay Area facility could produce 30 robots a month, with a planned next facility for 200. Humanoids Daily notes the materials shared did not provide detailed uptime figures or task success rates (Humanoids Daily)",
           "plain": "🪶 Feather sells a $29,990 wheeled humanoid for developers (24 Sep 2026; backfill): Feather Robotics formally launched with $7.6 million in funding led by Gradient and a wheeled, dual-arm humanoid starting at a promotional $29,990, built so developers can plug in their choice of AI models. Its current Bay Area facility could produce 30 robots a month, with a planned next facility for 200. Humanoids Daily notes the materials shared did not provide detailed uptime figures or task success rates (Humanoids Daily)",
@@ -694,24 +711,6 @@
             "gap"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260822_whrg2026_bolt_record_agibot_medals",
-          "html": "<strong>Robot Games: humanoid beats Bolt&#x27;s 100m</strong> (22–26 Aug 2026; gap): at the 2nd World Humanoid Robot Games in Beijing (2,000+ robots, 51 events) an X-Humanoid robot ran 100 m in 9.39 s — under Usain Bolt&#x27;s 9.58 s — and cleared 2.88 m in the standing high jump (last year&#x27;s best: 0.95 m); Honor claimed 9.32 s in a trial. AGIBOT topped the medal table (18 gold, 46 total) ahead of Tiangong (45); last year&#x27;s star Unitree took 10 (AP / Humanoids Daily)",
-          "plain": "Robot Games: humanoid beats Bolt's 100m (22–26 Aug 2026; gap): at the 2nd World Humanoid Robot Games in Beijing (2,000+ robots, 51 events) an X-Humanoid robot ran 100 m in 9.39 s — under Usain Bolt's 9.58 s — and cleared 2.88 m in the standing high jump (last year's best: 0.95 m); Honor claimed 9.32 s in a trial. AGIBOT topped the medal table (18 gold, 46 total) ahead of Tiangong (45); last year's star Unitree took 10 (AP / Humanoids Daily)",
-          "source": "AP / Humanoids Daily",
-          "url": "https://apnews.com/article/china-humanoid-robot-games-us-86cb8e310843151a77057e4cb764b4e2",
-          "date": "2026-08-22",
-          "tags": [
-            "robot-olympics",
-            "china",
-            "agibot",
-            "x-humanoid",
-            "records",
-            "gap"
-          ],
-          "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
         }
       ],
@@ -1787,6 +1786,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-01_scan_0015_dublin",
+      "at": "2026-09-30T23:14:05.377Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:15 Dublin (site-only). New: South Korea plans to buy and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue and for labor-short industries, aiming for 200,000 robots by 2030 through public-private partnerships (Aju Press, 30 Sep). Gemini 4 Argon follow-ups (Google blog, The Verge, Techzine): access is still limited to trusted cyber defenders via the Fairwind Program while Google takes part in the US government's voluntary pre-release review; no new facts that change the board. FTC probe: no new developments beyond the board. AI czar still unnamed (Trump's 3–4 day window is still open). China's National Day robot shows (1–7 Oct) are entertainment rather than new capability. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a procurement plan and follow-ups, no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-01_scan_0015_dublin"
+    },
     {
       "id": "patch_2026-09-30_scan_2215_dublin",
       "at": "2026-09-30T21:11:42.765Z",
