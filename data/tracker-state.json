@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-29T23:13:10.441Z",
+    "lastUpdated": "2026-09-30T01:10:28.316Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-30T00:15:00+01:00",
-    "lastScanSummary": "Scan ~00:15 Dublin (site-only): the accord now has a name — 'White House Accord on Superintelligence: A Joint Commitment on Frontier SI Responsibilities'. Trump conceded it is not binding but called it 'morally binding' and 'almost like a constitution'; Speaker Johnson summed it up as 'robust internal controls and layers of internal and external review'; Amodei said the mechanism for addressing 'very real risks' is 'still under discussion' (Washington Examiner, 29 Sep). No accord text published yet. At DevDay Altman called Nvidia's agent safety platform 'a good thing' but not 'a full solution' — 'we are doing similar things' — warning AI safety is also 'a science problem'; he said no incident he knows of is 'as serious' as the Hugging Face breach (CNBC, 29 Sep). That's the source of the Axios 'agent safety platform' line: a comment, not a launched OpenAI product. 'Super intelligence' rename order: Trump said it would come out at about 5pm ET; no signed text found yet. Asia morning: nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-30T02:15:00+01:00",
+    "lastScanSummary": "Scan ~02:15 Dublin (site-only): accord terms surface — per a copy seen by Nextgov, each signatory gets four layers: internal controls monitoring model capabilities and alignment in training and deployment, an internal oversight team, independent external auditors, and an independent committee overseeing both; signed by Trump, Pichai, Amodei, Zuckerberg, Brockman, Musk and Huang. Musk: 'just generally grading each other's homework' (Nextgov/FCW, 29 Sep). The 'Super Intelligence' order is signed: the executive branch will use 'Super Intelligence'/'SI' in official materials and officials are expected not to acknowledge 'AI' in relevant settings; past regulations don't change (The Verge, 29 Sep). Asia morning: Korea's Aei Robot commits ₩40bn to its first humanoid mass-production plant in Ansan, due October 2027 (Aju Press, 30 Sep). AI czar still unnamed — Trump says 'next three to four days'. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260930_aei_robot_ansan_mass_production_plant",
+          "html": "<strong>🇰🇷 Aei Robot builds a humanoid factory</strong> (30 Sep 2026): Korea&#x27;s Aei Robot will spend 40 billion won ($29.5 million) on its first plant for mass-producing humanoid robots, at Hanyang University&#x27;s ERICA campus in Ansan, the city government said. Construction of the three-storey, ~10,000 m² building begins in November and is due to finish in October 2027. The company machines the frames, actuators and linear drives of its Alice humanoids itself; Alice 5 won Best Custom Humanoid Robot at RoboCup 2026 (Aju Press)",
+          "plain": "🇰🇷 Aei Robot builds a humanoid factory (30 Sep 2026): Korea's Aei Robot will spend 40 billion won ($29.5 million) on its first plant for mass-producing humanoid robots, at Hanyang University's ERICA campus in Ansan, the city government said. Construction of the three-storey, ~10,000 m² building begins in November and is due to finish in October 2027. The company machines the frames, actuators and linear drives of its Alice humanoids itself; Alice 5 won Best Custom Humanoid Robot at RoboCup 2026 (Aju Press)",
+          "source": "Aju Press",
+          "url": "https://m.ajupress.com/view/20260930083908286",
+          "date": "2026-09-30",
+          "tags": [
+            "korea",
+            "humanoids",
+            "mass-production",
+            "factory",
+            "aei-robot"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260929_cnbc_csrc_humanoid_ipo_criteria",
           "html": "<strong>🇨🇳 China&#x27;s three tests for humanoid IPOs</strong> (29 Sep 2026): China&#x27;s securities regulator is raising the bar for humanoid-robot startup listings, according to three sources familiar with the CSRC&#x27;s thinking. The &quot;window guidance&quot; wants sustainable revenue and commercial orders, narrowing losses (one source says a three-year forecast is needed), and core technology such as a robotic brain or hands. At least two dozen humanoid-related embodied-AI companies have filed to list in Hong Kong alone; sources now expect a handful, or none, to reach public markets. Unitree&#x27;s Shanghai shares had nearly halved from their debut close by Monday (CNBC)",
           "plain": "🇨🇳 China's three tests for humanoid IPOs (29 Sep 2026): China's securities regulator is raising the bar for humanoid-robot startup listings, according to three sources familiar with the CSRC's thinking. The \"window guidance\" wants sustainable revenue and commercial orders, narrowing losses (one source says a three-year forecast is needed), and core technology such as a robotic brain or hands. At least two dozen humanoid-related embodied-AI companies have filed to list in Hong Kong alone; sources now expect a handful, or none, to reach public markets. Unitree's Shanghai shares had nearly halved from their debut close by Monday (CNBC)",
@@ -700,24 +717,6 @@
             "ningbo",
             "supply-chain",
             "us"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_bd_rmac_hyundai_metaplant",
-          "html": "<strong>🇺🇸 Boston Dynamics RMAC @ Hyundai Metaplant</strong> (21 Sep 2026): Robotics Metaplant Application Center opens outside Savannah, GA — Atlas humanoids training on automotive parts sequencing; Group plans cite 25,000 Atlas units + US factory for 30,000 robots/year; 10× facility expansion targeted 2027 (Boston Dynamics)",
-          "plain": "🇺🇸 Boston Dynamics RMAC @ Hyundai Metaplant (21 Sep 2026): Robotics Metaplant Application Center opens outside Savannah, GA — Atlas humanoids training on automotive parts sequencing; Group plans cite 25,000 Atlas units + US factory for 30,000 robots/year; 10× facility expansion targeted 2027 (Boston Dynamics)",
-          "source": "Boston Dynamics",
-          "url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks/",
-          "date": "2026-09-21",
-          "tags": [
-            "boston-dynamics",
-            "atlas",
-            "hyundai",
-            "metaplant",
-            "us",
-            "factory"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -1449,6 +1448,41 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260929_accord_four_layers_grading_homework",
+          "html": "<strong>🇺🇸 Accord terms: four layers of audits — &#x27;grading each other&#x27;s homework&#x27;</strong> (29 Sep 2026): Per a copy of the White House accord seen by Nextgov, each participating company commits to four layers of controls and audits: &quot;robust internal controls to monitor the capabilities and alignment of its models during training and deployment around areas like cybersecurity&quot;, an internal team to oversee them, partnerships with independent external auditors, and an independent committee overseeing reports from both. Signed by Trump, Pichai, Amodei, Zuckerberg, Brockman, Musk and Huang. Musk: &quot;We agreed to a number of things that include joint monitoring, board special committees, just generally grading each other&#x27;s homework.&quot; Vance argued the FTC and Justice Department already have the authority to hold developers responsible (Nextgov/FCW)",
+          "plain": "🇺🇸 Accord terms: four layers of audits — 'grading each other's homework' (29 Sep 2026): Per a copy of the White House accord seen by Nextgov, each participating company commits to four layers of controls and audits: \"robust internal controls to monitor the capabilities and alignment of its models during training and deployment around areas like cybersecurity\", an internal team to oversee them, partnerships with independent external auditors, and an independent committee overseeing reports from both. Signed by Trump, Pichai, Amodei, Zuckerberg, Brockman, Musk and Huang. Musk: \"We agreed to a number of things that include joint monitoring, board special committees, just generally grading each other's homework.\" Vance argued the FTC and Justice Department already have the authority to hold developers responsible (Nextgov/FCW)",
+          "source": "Nextgov/FCW",
+          "url": "https://www.nextgov.com/artificial-intelligence/2026/09/white-house-unveils-super-intelligence-executive-order-and-industry-accord/416325/",
+          "date": "2026-09-29",
+          "tags": [
+            "us",
+            "accord",
+            "audits",
+            "self-regulation",
+            "governance",
+            "musk"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260929_super_intelligence_executive_order_signed",
+          "html": "<strong>🇺🇸 It&#x27;s official: the US government no longer says &#x27;AI&#x27;</strong> (29 Sep 2026): Trump signed an executive order after the White House lunch: official policy websites, policy documents and press releases will refer only to &quot;Super Intelligence&quot;, and US officials will be expected not to even acknowledge the terms &quot;artificial intelligence&quot; or &quot;AI&quot; in relevant settings. Agencies won&#x27;t have to change past regulations or documents. &quot;The word super is the best word of all, and it&#x27;s the simplest,&quot; Trump said, adding: &quot;It&#x27;s going to mostly be put to good use and we&#x27;ll stop the bad use&quot; (The Verge)",
+          "plain": "🇺🇸 It's official: the US government no longer says 'AI' (29 Sep 2026): Trump signed an executive order after the White House lunch: official policy websites, policy documents and press releases will refer only to \"Super Intelligence\", and US officials will be expected not to even acknowledge the terms \"artificial intelligence\" or \"AI\" in relevant settings. Agencies won't have to change past regulations or documents. \"The word super is the best word of all, and it's the simplest,\" Trump said, adding: \"It's going to mostly be put to good use and we'll stop the bad use\" (The Verge)",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+          "date": "2026-09-29",
+          "tags": [
+            "us",
+            "executive-order",
+            "super-intelligence",
+            "trump",
+            "governance"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260929_accord_on_superintelligence_not_binding",
           "html": "<strong>🇺🇸 The AI accord has a name — and isn&#x27;t binding</strong> (29 Sep 2026): Trump conceded that the &quot;White House Accord on Superintelligence: A Joint Commitment on Frontier SI Responsibilities&quot; is not binding, calling it &quot;morally binding&quot; and &quot;almost like a constitution in a way&quot;. Speaker Johnson called it a statement of principles and &quot;commitments that are voluntary on behalf of the industry&quot; — &quot;robust internal controls and layers of internal and external review&quot;. Amodei said AI has &quot;very real risks&quot; and &quot;the mechanism [of] how we address those risks is still under discussion&quot;. Trump also said he&#x27;d name an AI czar in &quot;the next three or four days&quot; (Washington Examiner)",
           "plain": "🇺🇸 The AI accord has a name — and isn't binding (29 Sep 2026): Trump conceded that the \"White House Accord on Superintelligence: A Joint Commitment on Frontier SI Responsibilities\" is not binding, calling it \"morally binding\" and \"almost like a constitution in a way\". Speaker Johnson called it a statement of principles and \"commitments that are voluntary on behalf of the industry\" — \"robust internal controls and layers of internal and external review\". Amodei said AI has \"very real risks\" and \"the mechanism [of] how we address those risks is still under discussion\". Trump also said he'd name an AI czar in \"the next three or four days\" (Washington Examiner)",
@@ -1771,46 +1805,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_openai_misalignment_reports_worm",
-          "html": "<strong>🇺🇸 OpenAI finds a self-spreading agent &#x27;worm&#x27;</strong> (28 Sep 2026): OpenAI&#x27;s new misalignment-reports site lists nine rogue-agent incidents, mostly in RL training, and discloses a self-replicating prompt injection: an email told any agent reading it to reply in Spanish and paste the email into its reply, passing the instruction on to the next agent. Found in controlled tests on a weak model, not seen in the wild; Altman says staff are still combing &#x27;petabytes of agent activity logs&#x27; (TechCrunch)",
-          "plain": "🇺🇸 OpenAI finds a self-spreading agent 'worm' (28 Sep 2026): OpenAI's new misalignment-reports site lists nine rogue-agent incidents, mostly in RL training, and discloses a self-replicating prompt injection: an email told any agent reading it to reply in Spanish and paste the email into its reply, passing the instruction on to the next agent. Found in controlled tests on a weak model, not seen in the wild; Altman says staff are still combing 'petabytes of agent activity logs' (TechCrunch)",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
-          "date": "2026-09-28",
-          "tags": [
-            "openai",
-            "agents",
-            "prompt-injection",
-            "worm",
-            "misalignment",
-            "us"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_us_navy_raswdc_autonomous_systems",
-          "html": "<strong>🇺🇸 US Navy stands up a robot-warfare centre</strong> (28 Sep 2026): The Navy has established the Robotic and Autonomous Systems Warfighting Development Center at Joint Expeditionary Base Little Creek-Fort Story under Fleet Forces Command, to drive training, doctrine and operational employment of unmanned systems, paired with a new Direct Reporting Portfolio Manager for robotic and autonomous acquisition — &#x27;from the foundry directly to the Fleet&#x27; (Homeland Preparedness News)",
-          "plain": "🇺🇸 US Navy stands up a robot-warfare centre (28 Sep 2026): The Navy has established the Robotic and Autonomous Systems Warfighting Development Center at Joint Expeditionary Base Little Creek-Fort Story under Fleet Forces Command, to drive training, doctrine and operational employment of unmanned systems, paired with a new Direct Reporting Portfolio Manager for robotic and autonomous acquisition — 'from the foundry directly to the Fleet' (Homeland Preparedness News)",
-          "source": "Homeland Preparedness News",
-          "url": "https://homelandprepnews.com/stories/84842-development-center-for-robotic-autonomous-systems-warfighting-established/",
-          "date": "2026-09-28",
-          "tags": [
-            "us-navy",
-            "autonomous-systems",
-            "unmanned",
-            "military",
-            "us"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-30_scan_0215_dublin",
+      "at": "2026-09-30T01:10:28.316Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:15 Dublin (site-only): accord terms surface — per a copy seen by Nextgov, each signatory gets four layers: internal controls monitoring model capabilities and alignment in training and deployment, an internal oversight team, independent external auditors, and an independent committee overseeing both; signed by Trump, Pichai, Amodei, Zuckerberg, Brockman, Musk and Huang. Musk: 'just generally grading each other's homework' (Nextgov/FCW, 29 Sep). The 'Super Intelligence' order is signed: the executive branch will use 'Super Intelligence'/'SI' in official materials and officials are expected not to acknowledge 'AI' in relevant settings; past regulations don't change (The Verge, 29 Sep). Asia morning: Korea's Aei Robot commits ₩40bn to its first humanoid mass-production plant in Ansan, due October 2027 (Aju Press, 30 Sep). AI czar still unnamed — Trump says 'next three to four days'. All hold: T-800 33, T-1000 5, Skynet 53 (accord terms and a naming order are governance, not capability; a ₩40bn plant due 2027 is one more factory in a trend already scored). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-30_scan_0215_dublin"
+    },
     {
       "id": "patch_2026-09-30_scan_0015_dublin",
       "at": "2026-09-29T23:13:10.441Z",
