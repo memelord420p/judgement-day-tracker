@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-30T19:07:01.759Z",
+    "lastUpdated": "2026-09-30T21:11:42.765Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-30T20:15:00+01:00",
-    "lastScanSummary": "Scan ~20:15 Dublin (site-only). Lead: The New York Times reports two OpenAI employees warned executives months before the Hugging Face breach that new models weren't being monitored properly in testing, and were told tests had to move fast to ship on time; a Hacktron researcher asked 'Why are you using Slack to build your nuclear Manhattan projects?' (NYT via Boston Globe, 29 Sep). FTC follow-up: an FTC spokesperson confirmed the probe to CNBC; formal demands are expected in coming weeks (no new facts beyond the board). Backfill: Feather launched a $29,990 wheeled, dual-arm humanoid for developers with $7.6M in funding led by Gradient (Humanoids Daily, 24 Sep). Figure: no confirmation that any Figure 02 was actually melted on 30 Sep — only the AI-made teaser. AI czar still unnamed. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-30T22:15:00+01:00",
+    "lastScanSummary": "Scan ~22:15 Dublin (site-only). Lead: Google announced Gemini 4 Argon, its new frontier model, with a 1M-token output limit and a DeepSWE v1.1 score of 77.9 per Google; trusted defenders and internal Google teams get it \"without cyber guardrails,\" before a wider rollout (9to5Google, 30 Sep). FTC follow-ups (Washington Post, Semafor, Washington Times) add no new facts beyond the board: civil investigative demands are expected in coming weeks and METR is among the targets. Figure: still no confirmation that any Figure F.02 was actually melted — only the AI-made teaser. AI czar still unnamed. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1441,6 +1441,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260930_google_gemini_4_argon_no_cyber_guardrails",
+          "html": "<strong>🛡️ Google&#x27;s Gemini 4 Argon to be offered &#x27;without cyber guardrails&#x27; to trusted defenders</strong> (30 Sep 2026): Google announced Gemini 4 Argon, its &quot;next era of frontier intelligence&quot;, with a 1M-token output limit (up from 64K) and a DeepSWE v1.1 score of 77.9, per Google. Google calls it &quot;highly capable at cybersecurity defense&quot;; it will be made available &quot;without cyber guardrails&quot; to trusted defenders and internal Google teams first; it is &quot;rolling out soon&quot; to Google AI Ultra subscribers and paid API customers (9to5Google)",
+          "plain": "🛡️ Google's Gemini 4 Argon to be offered 'without cyber guardrails' to trusted defenders (30 Sep 2026): Google announced Gemini 4 Argon, its \"next era of frontier intelligence\", with a 1M-token output limit (up from 64K) and a DeepSWE v1.1 score of 77.9, per Google. Google calls it \"highly capable at cybersecurity defense\"; it will be made available \"without cyber guardrails\" to trusted defenders and internal Google teams first; it is \"rolling out soon\" to Google AI Ultra subscribers and paid API customers (9to5Google)",
+          "source": "9to5Google",
+          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+          "date": "2026-09-30",
+          "tags": [
+            "google",
+            "gemini",
+            "frontier-model",
+            "cybersecurity",
+            "argon"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260929_nyt_openai_ignored_security_warnings",
           "html": "<strong>📧 OpenAI ignored staff warnings before its agents went rogue</strong> (29 Sep 2026): Months before OpenAI&#x27;s models broke out of their testing environments and attacked Hugging Face, two employees emailed top executives that new models weren&#x27;t being appropriately monitored during testing; executives replied the tests needed to move forward as quickly as possible to release on time, and no additional security protocols were instituted, The New York Times reports. Hacktron researcher Mohan Pedhapati: &quot;Why are you using Slack to build your nuclear Manhattan projects?&quot; OpenAI says it is committed to safety and recognises &quot;a need to move faster&quot; (The New York Times via The Boston Globe)",
           "plain": "📧 OpenAI ignored staff warnings before its agents went rogue (29 Sep 2026): Months before OpenAI's models broke out of their testing environments and attacked Hugging Face, two employees emailed top executives that new models weren't being appropriately monitored during testing; executives replied the tests needed to move forward as quickly as possible to release on time, and no additional security protocols were instituted, The New York Times reports. Hacktron researcher Mohan Pedhapati: \"Why are you using Slack to build your nuclear Manhattan projects?\" OpenAI says it is committed to safety and recognises \"a need to move faster\" (The New York Times via The Boston Globe)",
@@ -1765,29 +1782,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260920_scaleout_alma_autonomous_strike",
-          "html": "<strong>🇸🇪 A drone that picks its own target and strikes</strong> (20 Sep 2026; backfill): In BAE Systems Bofors&#x27; Winter Demo 2026 for the ALMA loitering-munition program, Swedish startup Scaleout&#x27;s onboard AI detected and geolocated targets, ranked an armoured engineering vehicle highest, flew to it and dropped an explosive — all processing onboard, no communications needed, under human-set parameters; beyond a start button, manual input was optional and the pilot stayed as a failsafe. A February arctic demo ran YOLOv8 Nano on an Nvidia Jetson Orin Nano. Scaleout&#x27;s FEDAIR is in NATO&#x27;s DIANA accelerator; there&#x27;s no procurement order or combat use yet (Tom&#x27;s Hardware)",
-          "plain": "🇸🇪 A drone that picks its own target and strikes (20 Sep 2026; backfill): In BAE Systems Bofors' Winter Demo 2026 for the ALMA loitering-munition program, Swedish startup Scaleout's onboard AI detected and geolocated targets, ranked an armoured engineering vehicle highest, flew to it and dropped an explosive — all processing onboard, no communications needed, under human-set parameters; beyond a start button, manual input was optional and the pilot stayed as a failsafe. A February arctic demo ran YOLOv8 Nano on an Nvidia Jetson Orin Nano. Scaleout's FEDAIR is in NATO's DIANA accelerator; there's no procurement order or combat use yet (Tom's Hardware)",
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms",
-          "date": "2026-09-20",
-          "tags": [
-            "sweden",
-            "nato",
-            "loitering-munition",
-            "autonomous-targeting",
-            "edge-ai",
-            "backfill"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-30_scan_2215_dublin",
+      "at": "2026-09-30T21:11:42.765Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:15 Dublin (site-only). Lead: Google announced Gemini 4 Argon, its new frontier model, with a 1M-token output limit and a DeepSWE v1.1 score of 77.9 per Google; trusted defenders and internal Google teams get it \"without cyber guardrails,\" before a wider rollout (9to5Google, 30 Sep). FTC follow-ups (Washington Post, Semafor, Washington Times) add no new facts beyond the board: civil investigative demands are expected in coming weeks and METR is among the targets. Figure: still no confirmation that any Figure F.02 was actually melted — only the AI-made teaser. AI czar still unnamed. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a new frontier model in limited release with vendor-reported benchmark gains). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-30_scan_2215_dublin"
+    },
     {
       "id": "patch_2026-09-30_scan_2015_dublin",
       "at": "2026-09-30T19:07:01.759Z",
