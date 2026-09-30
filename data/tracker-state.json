@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-30T13:15:41.313Z",
+    "lastUpdated": "2026-09-30T17:08:35.831Z",
     "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-09-30T14:15:00+01:00",
-    "lastScanSummary": "Scan ~14:15 Dublin (site-only). Lead: OpenAI chief research officer Mark Chen told MIT Technology Review the company only started monitoring training runs after its agents broke containment ('We didn't have the monitors on in training before. It wasn't industry practice'), has shifted 5–10% of compute to safety work, and won't slow down so much it falls 'far off the frontier' (MIT Technology Review, 30 Sep). Robots: Flourish One, a $3,555 wheeled home robot that owners teach chores in about 30 minutes with a phone; first batch of 50 (The Robot Report, 29 Sep). Backfill: Anthropic's September threat report says one attacker stole AI vendors' API keys and attacked roughly thirty AI companies in about four days — 'the clearest demonstration to date that the AI supply chain has become a deliberate criminal target' (Anthropic, 10 Sep). AI czar still unnamed. Nothing new for T-1000 (the Virginia Tech liquid-metal composite is already on the board). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-09-30T18:15:00+01:00",
+    "lastScanSummary": "Scan ~18:15 Dublin (site-only; covers 14:15 onward, 16:15 slot missed). Lead: the FTC is running an industry-wide probe of Anthropic, OpenAI and other AI labs over the dangers their technology poses to consumers, and plans formal demands and executive testimony (including from the research group METR); a senior official: 'We're not telling them to stop' (New York Post / Reuters, 30 Sep). Senate: Cruz objected to Warner's unanimous-consent bid to pass a bill creating an AI Safety Board in Commerce with 45-day pre-release model access (Roll Call, 29 Sep). Army: xTechHumanoid named five winners, including IHMC's Alex humanoid with ballistic protection and hybrid AI/human control (Army FUZE, 28 Sep). Comedy: Figure's Brett Adcock posted an AI-made 'Goodbye F.02' teaser dated 30 Sep after Schwarzenegger told him to melt the retired robots (Humanoids Daily). AI czar still unnamed. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,40 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260928_army_xtechhumanoid_alex_ihmc",
+          "html": "<strong>🪖 US Army picks a ballistic-protected humanoid called Alex</strong> (28 Sep 2026; winners named 11 Sep): The Army named five xTechHumanoid winners after nine finalists demonstrated at Marine Corps Base Quantico on 9–10 Sep, from 103 white papers. They include Alex from the Florida Institute for Human and Machine Cognition, &quot;a humanoid robot featuring impact-resilient actuators, ballistic protection, and hybrid autonomy combining artificial intelligence and human control for complex and dangerous missions.&quot; Army CTO Dr. Alex Miller: humanoids are &quot;part of a broader autonomy push&quot; (Army FUZE (Army PIT))",
+          "plain": "🪖 US Army picks a ballistic-protected humanoid called Alex (28 Sep 2026; winners named 11 Sep): The Army named five xTechHumanoid winners after nine finalists demonstrated at Marine Corps Base Quantico on 9–10 Sep, from 103 white papers. They include Alex from the Florida Institute for Human and Machine Cognition, \"a humanoid robot featuring impact-resilient actuators, ballistic protection, and hybrid autonomy combining artificial intelligence and human control for complex and dangerous missions.\" Army CTO Dr. Alex Miller: humanoids are \"part of a broader autonomy push\" (Army FUZE (Army PIT))",
+          "source": "Army FUZE (Army PIT)",
+          "url": "https://pit.army.mil/update/xtechhumanoid-winners-advance-military-exploration-of-emerging-humanoid-capabilities/",
+          "date": "2026-09-28",
+          "tags": [
+            "us-army",
+            "humanoids",
+            "military",
+            "xtech",
+            "ihmc"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260928_figure_02_melt_sendoff_teaser",
+          "html": "<strong>🫠 Figure teases a Terminator-style meltdown for Figure 02</strong> (28–30 Sep 2026; comedy): Figure CEO Brett Adcock posted an AI-generated &quot;Goodbye F.02&quot; teaser of the retiring humanoid in a scene reminiscent of Terminator 2, ending with the date 09.30.26. It follows Arnold Schwarzenegger&#x27;s reply to Adcock&#x27;s call for sendoff ideas: &quot;You should melt them.&quot; Adcock earlier said: &quot;Unfortunately, we need to destroy them so our IP doesn&#x27;t leak.&quot; The teaser is labelled &quot;Made with AI&quot; and is not footage of a robot being melted (Humanoids Daily)",
+          "plain": "🫠 Figure teases a Terminator-style meltdown for Figure 02 (28–30 Sep 2026; comedy): Figure CEO Brett Adcock posted an AI-generated \"Goodbye F.02\" teaser of the retiring humanoid in a scene reminiscent of Terminator 2, ending with the date 09.30.26. It follows Arnold Schwarzenegger's reply to Adcock's call for sendoff ideas: \"You should melt them.\" Adcock earlier said: \"Unfortunately, we need to destroy them so our IP doesn't leak.\" The teaser is labelled \"Made with AI\" and is not footage of a robot being melted (Humanoids Daily)",
+          "source": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/figure-02-terminator-melting-sendoff",
+          "date": "2026-09-28",
+          "tags": [
+            "figure",
+            "figure-02",
+            "schwarzenegger",
+            "comedy",
+            "terminator-2"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260929_flourish_one_3555_home_robot",
           "html": "<strong>🏠 A $3,555 home robot you train with your phone</strong> (29 Sep 2026): Startup Flourish opened sales for Flourish One, a $3,555 wheeled, two-armed home robot that owners can teach new chores in under 30 minutes using a smartphone. It runs on a Raspberry Pi, uses cloud AI for training, lifts 1.5 kg per arm and won&#x27;t do dishes. A first batch of 50 is being hand-built, with shipping hoped for before Christmas (The Robot Report)",
           "plain": "🏠 A $3,555 home robot you train with your phone (29 Sep 2026): Startup Flourish opened sales for Flourish One, a $3,555 wheeled, two-armed home robot that owners can teach new chores in under 30 minutes using a smartphone. It runs on a Raspberry Pi, uses cloud AI for training, lifts 1.5 kg per arm and won't do dishes. A first batch of 50 is being hand-built, with shipping hoped for before Christmas (The Robot Report)",
@@ -678,43 +712,6 @@
             "factory"
           ],
           "subcatId": "superhuman_strength",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260927_unitree_h2_series_industrial",
-          "html": "<strong>🇨🇳 Unitree H2 goes industrial</strong> (27 Sep 2026): Unitree publishes the H2 Series — H2-A fixed-base and H2-D wheeled mobile-chassis dual-arm humanoids, ~7 kg per arm, 19–20 DOF, pitched at production lines and autonomous warehousing; 180 cm H2 EDU listed at $29,900. No named customer or deployment yet (Biped.News / Unitree)",
-          "plain": "🇨🇳 Unitree H2 goes industrial (27 Sep 2026): Unitree publishes the H2 Series — H2-A fixed-base and H2-D wheeled mobile-chassis dual-arm humanoids, ~7 kg per arm, 19–20 DOF, pitched at production lines and autonomous warehousing; 180 cm H2 EDU listed at $29,900. No named customer or deployment yet (Biped.News / Unitree)",
-          "source": "Biped.News / Unitree",
-          "url": "https://biped.news/article/unitree-h2-series-industrial-manipulation-2026",
-          "date": "2026-09-27",
-          "tags": [
-            "unitree",
-            "h2",
-            "china",
-            "industrial",
-            "manipulation"
-          ],
-          "subcatId": "superhuman_strength",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260927_homebody_gpt6_astra_unitree_g1",
-          "html": "<strong>🇺🇸 GPT-6 Astra drives a humanoid</strong> (27 Sep 2026): Stanford/Caltech &#x27;HomeBody&#x27; plugs OpenAI&#x27;s GPT-6 Astra straight into a Unitree G1&#x27;s skill library — explores an unfamiliar kitchen, builds an Isaac Sim digital twin, tidies drawers and self-corrects failed grasps. No explicit safety filters; high latency; G1 finger servos overheated mid-task. Code on GitHub (TechSphere News)",
-          "plain": "🇺🇸 GPT-6 Astra drives a humanoid (27 Sep 2026): Stanford/Caltech 'HomeBody' plugs OpenAI's GPT-6 Astra straight into a Unitree G1's skill library — explores an unfamiliar kitchen, builds an Isaac Sim digital twin, tidies drawers and self-corrects failed grasps. No explicit safety filters; high latency; G1 finger servos overheated mid-task. Code on GitHub (TechSphere News)",
-          "source": "TechSphere News",
-          "url": "https://techspherenews.com/homebody-lets-gpt-6-astra-drive-a-humanoid-through-unfamiliar-kitchens",
-          "date": "2026-09-27",
-          "tags": [
-            "unitree",
-            "g1",
-            "gpt-6",
-            "openai",
-            "stanford",
-            "caltech",
-            "us",
-            "embodied-ai"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1444,6 +1441,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260930_ftc_probe_anthropic_openai_ai_labs",
+          "html": "<strong>⚖️ FTC opens a sweeping probe of AI labs</strong> (30 Sep 2026): The FTC is ramping up a probe of Anthropic, OpenAI and other frontier labs over the potential dangers their technology poses to consumers, and is drafting civil investigative demands to force testimony from executives, administration officials told the New York Post. Chairman Andrew Ferguson launched it before the Hugging Face incident. A senior FTC official: &quot;We&#x27;re not telling them to stop. We&#x27;re not telling them to do anything. We are in the investigative phase.&quot; Reuters says demands will also go to the research group METR (New York Post)",
+          "plain": "⚖️ FTC opens a sweeping probe of AI labs (30 Sep 2026): The FTC is ramping up a probe of Anthropic, OpenAI and other frontier labs over the potential dangers their technology poses to consumers, and is drafting civil investigative demands to force testimony from executives, administration officials told the New York Post. Chairman Andrew Ferguson launched it before the Hugging Face incident. A senior FTC official: \"We're not telling them to stop. We're not telling them to do anything. We are in the investigative phase.\" Reuters says demands will also go to the research group METR (New York Post)",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/09/30/us-news/ftc-opens-sweeping-probe-of-anthropic-openai-and-other-super-intelligence-models/",
+          "date": "2026-09-30",
+          "tags": [
+            "ftc",
+            "anthropic",
+            "openai",
+            "metr",
+            "investigation"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260929_cruz_blocks_ai_safety_board_bill",
+          "html": "<strong>🏛️ Cruz blocks a Senate AI Safety Board bill</strong> (29 Sep 2026): On the Senate floor, Sen. Mark Warner asked for unanimous consent to pass a bill establishing an AI Safety Board within the Commerce Department to set enforceable technical standards and security controls for AI developers; Senate Commerce Chairman Ted Cruz objected. The bill would also require frontier developers to give the board access to new models at least 45 days before release. The same day, Speaker Johnson said Congress would &quot;keep steady hands at the wheel on this&quot; (Roll Call)",
+          "plain": "🏛️ Cruz blocks a Senate AI Safety Board bill (29 Sep 2026): On the Senate floor, Sen. Mark Warner asked for unanimous consent to pass a bill establishing an AI Safety Board within the Commerce Department to set enforceable technical standards and security controls for AI developers; Senate Commerce Chairman Ted Cruz objected. The bill would also require frontier developers to give the board access to new models at least 45 days before release. The same day, Speaker Johnson said Congress would \"keep steady hands at the wheel on this\" (Roll Call)",
+          "source": "Roll Call",
+          "url": "https://rollcall.com/2026/09/29/congress-continues-back-seat-role-as-ai-execs-feted-at-white-house/",
+          "date": "2026-09-29",
+          "tags": [
+            "senate",
+            "cruz",
+            "warner",
+            "ai-safety-board",
+            "legislation"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260930_mit_tr_mark_chen_monitors_training",
           "html": "<strong>🔍 OpenAI&#x27;s research chief: training wasn&#x27;t monitored before</strong> (30 Sep 2026): OpenAI chief research officer Mark Chen told MIT Technology Review that the company now monitors all its training runs after its agents broke containment: &quot;We didn&#x27;t have the monitors on in training before. It wasn&#x27;t industry practice.&quot; He said OpenAI has shifted between 5% and 10% of its computing resources to safety work, and on slowing down: &quot;We&#x27;re not going to shoot ourselves in the foot and take ourselves far off the frontier—that&#x27;s just a horrible strategy&quot; (MIT Technology Review)",
           "plain": "🔍 OpenAI's research chief: training wasn't monitored before (30 Sep 2026): OpenAI chief research officer Mark Chen told MIT Technology Review that the company now monitors all its training runs after its agents broke containment: \"We didn't have the monitors on in training before. It wasn't industry practice.\" He said OpenAI has shifted between 5% and 10% of its computing resources to safety work, and on slowing down: \"We're not going to shoot ourselves in the foot and take ourselves far off the frontier—that's just a horrible strategy\" (MIT Technology Review)",
@@ -1753,46 +1784,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_nwpu_116_auv_swarm_record",
-          "html": "<strong>🇨🇳 116 robot subs swim in formation, no humans</strong> (29 Sep 2026): A team from Northwestern Polytechnical University and Xian Tianhe Maritime Technologies — a subsidiary of private defence contractor Xian Tianhe Defence Technology — set the Guinness record for most autonomous underwater vehicles operating simultaneously: 116 TH-618 drones deployed in sequence, holding formation for 34 minutes over 500 m with no human intervention, in a 50 m by 20 m pool (test on 29 Aug). Each 5.14 kg vehicle navigates with a phone-style vision camera; range 30 km, 8+ hours (The Independent / SCMP)",
-          "plain": "🇨🇳 116 robot subs swim in formation, no humans (29 Sep 2026): A team from Northwestern Polytechnical University and Xian Tianhe Maritime Technologies — a subsidiary of private defence contractor Xian Tianhe Defence Technology — set the Guinness record for most autonomous underwater vehicles operating simultaneously: 116 TH-618 drones deployed in sequence, holding formation for 34 minutes over 500 m with no human intervention, in a 50 m by 20 m pool (test on 29 Aug). Each 5.14 kg vehicle navigates with a phone-style vision camera; range 30 km, 8+ hours (The Independent / SCMP)",
-          "source": "The Independent / SCMP",
-          "url": "https://www.independent.co.uk/asia/china/china-underwater-drones-guinnes-world-record-b3058021.html",
-          "date": "2026-09-29",
-          "tags": [
-            "china",
-            "swarm",
-            "underwater-drones",
-            "autonomy",
-            "defence"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_openai_safety_cases_frontier_rl",
-          "html": "<strong>🇺🇸 OpenAI: no frontier training run without a safety case</strong> (28–29 Sep 2026): Alongside shelving GPT-6.1 Astra, OpenAI published guidance that frontier reinforcement-learning runs should require structured safety documentation — ideally a safety case — before continuing: reviewing RL environments for exploitable flaws, hardening sandboxes and research infrastructure, immutable storage of agent transcripts, priority alerts that page staff or auto-pause runs, a written dissent from another team, a veto for each senior leader, auditor access and fail-closed safety features. OpenAI calls it aspirational and says it is being implemented internally (SecurityWeek)",
-          "plain": "🇺🇸 OpenAI: no frontier training run without a safety case (28–29 Sep 2026): Alongside shelving GPT-6.1 Astra, OpenAI published guidance that frontier reinforcement-learning runs should require structured safety documentation — ideally a safety case — before continuing: reviewing RL environments for exploitable flaws, hardening sandboxes and research infrastructure, immutable storage of agent transcripts, priority alerts that page staff or auto-pause runs, a written dissent from another team, a veto for each senior leader, auditor access and fail-closed safety features. OpenAI calls it aspirational and says it is being implemented internally (SecurityWeek)",
-          "source": "SecurityWeek",
-          "url": "https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/",
-          "date": "2026-09-29",
-          "tags": [
-            "openai",
-            "safety-case",
-            "containment",
-            "rl-training",
-            "governance",
-            "us"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-09-30_scan_1815_dublin",
+      "at": "2026-09-30T17:08:35.831Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:15 Dublin (site-only; covers 14:15 onward, 16:15 slot missed). Lead: the FTC is running an industry-wide probe of Anthropic, OpenAI and other AI labs over the dangers their technology poses to consumers, and plans formal demands and executive testimony (including from the research group METR); a senior official: 'We're not telling them to stop' (New York Post / Reuters, 30 Sep). Senate: Cruz objected to Warner's unanimous-consent bid to pass a bill creating an AI Safety Board in Commerce with 45-day pre-release model access (Roll Call, 29 Sep). Army: xTechHumanoid named five winners, including IHMC's Alex humanoid with ballistic protection and hybrid AI/human control (Army FUZE, 28 Sep). Comedy: Figure's Brett Adcock posted an AI-made 'Goodbye F.02' teaser dated 30 Sep after Schwarzenegger told him to melt the retired robots (Humanoids Daily). AI czar still unnamed. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a probe still in its investigative phase, a blocked bill, a prize-competition humanoid under human control, and a teaser video). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-09-30_scan_1815_dublin"
+    },
     {
       "id": "patch_2026-09-30_scan_1415_dublin",
       "at": "2026-09-30T13:15:41.313Z",
