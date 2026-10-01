@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-09-30T23:14:05.377Z",
-    "lastUpdatedLabel": "SEP 2026",
-    "lastScanAt": "2026-10-01T00:15:00+01:00",
-    "lastScanSummary": "Scan ~00:15 Dublin (site-only). New: South Korea plans to buy and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue and for labor-short industries, aiming for 200,000 robots by 2030 through public-private partnerships (Aju Press, 30 Sep). Gemini 4 Argon follow-ups (Google blog, The Verge, Techzine): access is still limited to trusted cyber defenders via the Fairwind Program while Google takes part in the US government's voluntary pre-release review; no new facts that change the board. FTC probe: no new developments beyond the board. AI czar still unnamed (Trump's 3–4 day window is still open). China's National Day robot shows (1–7 Oct) are entertainment rather than new capability. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastUpdated": "2026-10-01T01:06:16.953Z",
+    "lastUpdatedLabel": "OCT 2026",
+    "lastScanAt": "2026-10-01T02:15:00+01:00",
+    "lastScanSummary": "Scan ~02:15 Dublin (site-only). New: OpenAI says it identified and disrupted a coordinated campaign to extract protected reasoning from its models, attributing a core cluster to individuals associated with China's Moonshot AI (developer of Kimi); activity surged to 16,000 requests from more than 4,000 users over two days, and OpenAI says the operators did not breach its encryption, databases or stored conversations (CNBC, 30 Sep ET). AI czar still unnamed (Trump's 3–4 day window is still open). FTC and Gemini 4 Argon: no new developments beyond the board. Australia's Senate inquiry hearing in Canberra on 1 Oct has asked Altman and Amodei to appear, but their attendance is unconfirmed; watching for the hearing record. Korea items (T-Robotics, ETRI NAMI) are already on the board; the Seoul AI Robot Show (6–8 Oct) is upcoming. T-1000: the VT MADE liquid-metal self-healing circuits are already on the board; nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1440,6 +1440,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260930_openai_moonshot_reasoning_extraction",
+          "html": "<strong>🕵️ OpenAI links China&#x27;s Moonshot AI to campaign to extract its models&#x27; protected reasoning</strong> (30 Sep 2026): OpenAI said it identified and disrupted a coordinated campaign in which operators attempted to extract protected reasoning from its AI models, attributing a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi. The activity began in early July and surged to 16,000 requests from more than 4,000 users over two days; OpenAI identified related activity across more than 15,000 users and said it had fully disrupted the campaign by July 28. It said the operators did not breach its encryption, databases or stored user conversations. Moonshot did not immediately respond to CNBC&#x27;s requests for comment (CNBC)",
+          "plain": "🕵️ OpenAI links China's Moonshot AI to campaign to extract its models' protected reasoning (30 Sep 2026): OpenAI said it identified and disrupted a coordinated campaign in which operators attempted to extract protected reasoning from its AI models, attributing a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi. The activity began in early July and surged to 16,000 requests from more than 4,000 users over two days; OpenAI identified related activity across more than 15,000 users and said it had fully disrupted the campaign by July 28. It said the operators did not breach its encryption, databases or stored user conversations. Moonshot did not immediately respond to CNBC's requests for comment (CNBC)",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html",
+          "date": "2026-09-30",
+          "tags": [
+            "openai",
+            "moonshot",
+            "kimi",
+            "distillation",
+            "china"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260930_google_gemini_4_argon_no_cyber_guardrails",
           "html": "<strong>🛡️ Google&#x27;s Gemini 4 Argon to be offered &#x27;without cyber guardrails&#x27; to trusted defenders</strong> (30 Sep 2026): Google announced Gemini 4 Argon, its &quot;next era of frontier intelligence&quot;, with a 1M-token output limit (up from 64K) and a DeepSWE v1.1 score of 77.9, per Google. Google calls it &quot;highly capable at cybersecurity defense&quot;; it will be made available &quot;without cyber guardrails&quot; to trusted defenders and internal Google teams first; it is &quot;rolling out soon&quot; to Google AI Ultra subscribers and paid API customers (9to5Google)",
           "plain": "🛡️ Google's Gemini 4 Argon to be offered 'without cyber guardrails' to trusted defenders (30 Sep 2026): Google announced Gemini 4 Argon, its \"next era of frontier intelligence\", with a 1M-token output limit (up from 64K) and a DeepSWE v1.1 score of 77.9, per Google. Google calls it \"highly capable at cybersecurity defense\"; it will be made available \"without cyber guardrails\" to trusted defenders and internal Google teams first; it is \"rolling out soon\" to Google AI Ultra subscribers and paid API customers (9to5Google)",
@@ -1763,29 +1780,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_trump_wont_stifle_superintelligence_pre_lunch",
-          "html": "<strong>🇺🇸 Trump before the AI lunch: &#x27;we can&#x27;t stifle&#x27; superintelligence</strong> (29 Sep 2026, before the meeting): Unveiling the AI-powered America.gov site ahead of his lunch with AI leaders, Trump said he will &quot;never stifle&quot; the technology: &quot;the SI — superintelligence — is, they&#x27;re saying, bigger than the Industrial Revolution... we can&#x27;t stifle it. And we&#x27;re leading by a lot.&quot; He said he discussed AI with Xi but &quot;didn&#x27;t want to do anything&quot;, and that the DOJ and FBI are the check if companies &quot;go down a very dark and dangerous path&quot;. The White House guest list: Speaker Johnson, Cabinet members, Zuckerberg, Musk, Amodei, Pichai, Huang, Palantir&#x27;s Karp and Sankar, Bezos and OpenAI&#x27;s Brockman. Johnson on Monday called AI fears &quot;a Chinese psyop&quot; (ABC News via Yahoo)",
-          "plain": "🇺🇸 Trump before the AI lunch: 'we can't stifle' superintelligence (29 Sep 2026, before the meeting): Unveiling the AI-powered America.gov site ahead of his lunch with AI leaders, Trump said he will \"never stifle\" the technology: \"the SI — superintelligence — is, they're saying, bigger than the Industrial Revolution... we can't stifle it. And we're leading by a lot.\" He said he discussed AI with Xi but \"didn't want to do anything\", and that the DOJ and FBI are the check if companies \"go down a very dark and dangerous path\". The White House guest list: Speaker Johnson, Cabinet members, Zuckerberg, Musk, Amodei, Pichai, Huang, Palantir's Karp and Sankar, Bezos and OpenAI's Brockman. Johnson on Monday called AI fears \"a Chinese psyop\" (ABC News via Yahoo)",
-          "source": "ABC News via Yahoo",
-          "url": "https://www.yahoo.com/news/politics/articles/top-ai-leaders-meet-trump-090007188.html",
-          "date": "2026-09-29",
-          "tags": [
-            "us",
-            "white-house",
-            "trump",
-            "superintelligence",
-            "regulation",
-            "governance"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-01_scan_0215_dublin",
+      "at": "2026-10-01T01:06:16.953Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:15 Dublin (site-only). New: OpenAI says it identified and disrupted a coordinated campaign to extract protected reasoning from its models, attributing a core cluster to individuals associated with China's Moonshot AI (developer of Kimi); activity surged to 16,000 requests from more than 4,000 users over two days, and OpenAI says the operators did not breach its encryption, databases or stored conversations (CNBC, 30 Sep ET). AI czar still unnamed (Trump's 3–4 day window is still open). FTC and Gemini 4 Argon: no new developments beyond the board. Australia's Senate inquiry hearing in Canberra on 1 Oct has asked Altman and Amodei to appear, but their attendance is unconfirmed; watching for the hearing record. Korea items (T-Robotics, ETRI NAMI) are already on the board; the Seoul AI Robot Show (6–8 Oct) is upcoming. T-1000: the VT MADE liquid-metal self-healing circuits are already on the board; nothing new. All hold: T-800 33, T-1000 5, Skynet 53 (a security and IP incident that was already disrupted, no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-01_scan_0215_dublin"
+    },
     {
       "id": "patch_2026-10-01_scan_0015_dublin",
       "at": "2026-09-30T23:14:05.377Z",
