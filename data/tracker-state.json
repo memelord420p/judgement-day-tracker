@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-01T13:12:08.900Z",
+    "lastUpdated": "2026-10-01T15:11:17.507Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-01T14:12:00+01:00",
-    "lastScanSummary": "Scan ~14:12 London (site-only). New: in his 'State of the Force' address, Defense Secretary Pete Hegseth announced the intention to create a new four-star command to oversee the rollout of autonomous and robotic capabilities, a study of the future of warfare led by Elon Musk, Newt Gingrich and Palmer Luckey, and cutting 20% of the nation's generals and admirals (AP via NBC News, published 1 Oct; AP says the speech was Wednesday). Also: researchers found the reasoning-extraction trick OpenAI says it shut down still worked on Microsoft Azure against every OpenAI model they tried, including GPT-6 Astra, until OpenAI added Azure safeguards on 27 Sep (The Decoder, 1 Oct). Senate rogue-agent hearing: other witnesses included METR's Chris Painter and Apollo Research's Marius Hobbhahn; no bill text found yet. Moonshot: still no public comment found. AI czar: still not named (Trump said he would pick within three or four days). Robotics: nothing new beyond the board (Unitree IPO, Digit 5 and the Figure melt are already on). Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-01T16:11:00+01:00",
+    "lastScanSummary": "Scan ~16:11 London (site-only). New: Sens. Josh Hawley and Chris Murphy are planning to introduce the AI Agent Accountability Act, which will seek to hold companies criminally and civilly liable for hacking incidents (Axios, 1 Oct). Pentagon follow-up: The War Zone quotes Hegseth naming it 'Autonomous Warfare Command, or AUTOWARCOM'; a Pentagon memo makes its establishment contingent on Congressional approval, with a goal of October 1, 2027 (TWZ, 30 Sep). T-800: Singapore's HTX launched the Home Team Humanoid Robotics Centre (H2RC) on 30 Sep; autonomous humanoid robots are poised to work alongside Home Team officers as soon as 2028 (HTX, 1 Oct). Also: TNW, citing Semafor and Politico, reports Zuckerberg came up with the White House AI accord and Microsoft and Amazon did not sign it. Moonshot: still no public response found. AI czar: still not named. No new Gemini, FTC or court items beyond the board. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261001_htx_h2rc_humanoid_robotics_centre_singapore",
+          "html": "<strong>🇸🇬 Singapore opens a centre to train humanoid robots for public safety</strong> (1 Oct 2026): HTX launched the Home Team Humanoid Robotics Centre (H2RC) on 30 September, a facility dedicated to training humanoid robots with Embodied AI capabilities to handle public safety tasks that are routine, physically demanding or dangerous, such as hazardous material (HazMat) containment. Autonomous humanoid robots are poised to work alongside Home Team officers as soon as 2028, HTX says. Minister Edwin Tong said the robots are meant to augment Home Team operations and not replace officers (HTX)",
+          "plain": "🇸🇬 Singapore opens a centre to train humanoid robots for public safety (1 Oct 2026): HTX launched the Home Team Humanoid Robotics Centre (H2RC) on 30 September, a facility dedicated to training humanoid robots with Embodied AI capabilities to handle public safety tasks that are routine, physically demanding or dangerous, such as hazardous material (HazMat) containment. Autonomous humanoid robots are poised to work alongside Home Team officers as soon as 2028, HTX says. Minister Edwin Tong said the robots are meant to augment Home Team operations and not replace officers (HTX)",
+          "source": "HTX",
+          "url": "https://www.htx.gov.sg/whats-happening/all-news---events/all-news/2026/seizing-the-initiative-htx-launches-h2rc-to-train-humanoid-robots-for-public-safety",
+          "date": "2026-10-01",
+          "tags": [
+            "singapore",
+            "htx",
+            "humanoid",
+            "public-safety",
+            "embodied-ai"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260930_figure_f02_molten_steel_decommission",
           "html": "<strong>🔥 Figure confirms it: F.02 humanoids leapt into molten steel in Finland</strong> (30 Sep 2026): Figure says it trained a new AI model in simulation so its F.02 robots could jump autonomously, then had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, after foundries in the US and Mexico refused because of the robots&#x27; lithium-ion batteries. Arnold Schwarzenegger, who told the company to melt them, was involved. Figure: &quot;we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel.&quot; &quot;Most of the F.02 fleet is gone&quot;; the metal is being machined into a limited series of commemorative artifacts (Figure)",
           "plain": "🔥 Figure confirms it: F.02 humanoids leapt into molten steel in Finland (30 Sep 2026): Figure says it trained a new AI model in simulation so its F.02 robots could jump autonomously, then had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, after foundries in the US and Mexico refused because of the robots' lithium-ion batteries. Arnold Schwarzenegger, who told the company to melt them, was involved. Figure: \"we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel.\" \"Most of the F.02 fleet is gone\"; the metal is being machined into a limited series of commemorative artifacts (Figure)",
@@ -692,23 +709,6 @@
             "direct-drive"
           ],
           "subcatId": "superhuman_strength",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260929_business_times_china_humanoid_bubble",
-          "html": "<strong>🇨🇳 &#x27;How many will survive?&#x27;</strong> (29 Sep 2026): China&#x27;s humanoid sector has swelled from a few dozen startups to 150+ companies, with at least 50 AI and robotics IPOs lined up in China and Hong Kong by year-end — but Unitree is down more than 50% from its post-debut peak, regulators are reportedly tightening humanoid IPO approvals, and insiders warn the field is nowhere near mature. Morgan Stanley: US$2bn market this year, US$15bn by 2030 (The Business Times)",
-          "plain": "🇨🇳 'How many will survive?' (29 Sep 2026): China's humanoid sector has swelled from a few dozen startups to 150+ companies, with at least 50 AI and robotics IPOs lined up in China and Hong Kong by year-end — but Unitree is down more than 50% from its post-debut peak, regulators are reportedly tightening humanoid IPO approvals, and insiders warn the field is nowhere near mature. Morgan Stanley: US$2bn market this year, US$15bn by 2030 (The Business Times)",
-          "source": "The Business Times",
-          "url": "https://www.businesstimes.com.sg/international/global/how-many-will-survive-bubble-fears-arise-chinas-humanoid-robotics-face-reality-check",
-          "date": "2026-09-29",
-          "tags": [
-            "china",
-            "humanoid",
-            "bubble",
-            "ipo",
-            "unitree"
-          ],
-          "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
         }
       ],
@@ -1438,6 +1438,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261001_hawley_murphy_ai_agent_accountability_act",
+          "html": "<strong>⚖️ Hawley and Murphy plan the AI Agent Accountability Act</strong> (1 Oct 2026): Sens. Josh Hawley (R-Mo.) and Chris Murphy (D-Conn.) are planning to introduce AI liability legislation. The AI Agent Accountability Act will seek to hold companies criminally and civilly liable for hacking incidents, Axios reports. The lawmakers argue existing law leaves too much uncertainty over who can be held liable when an AI agent hacks a system, in contrast with administration officials who say existing laws can address AI harms (Axios)",
+          "plain": "⚖️ Hawley and Murphy plan the AI Agent Accountability Act (1 Oct 2026): Sens. Josh Hawley (R-Mo.) and Chris Murphy (D-Conn.) are planning to introduce AI liability legislation. The AI Agent Accountability Act will seek to hold companies criminally and civilly liable for hacking incidents, Axios reports. The lawmakers argue existing law leaves too much uncertainty over who can be held liable when an AI agent hacks a system, in contrast with administration officials who say existing laws can address AI harms (Axios)",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/10/01/hawley-murphy-ai-liability-trump",
+          "date": "2026-10-01",
+          "tags": [
+            "hawley",
+            "murphy",
+            "liability",
+            "ai-agents",
+            "congress"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260930_twz_autowarcom_memo_congress_oct_2027",
+          "html": "<strong>📜 Pentagon memo: AUTOWARCOM needs Congress, target October 1, 2027</strong> (30 Sep 2026): Hegseth: &quot;At my direction, we are announcing the creation of Autonomous Warfare Command, or AUTOWARCOM, a new four-star combatant command with service-like authorities built to scale autonomous and robotic capabilities across the joint force …&quot; He added: &quot;Drone warfare supercharged by SI-enabled targeting is the biggest battlefield revolution in generations.&quot; A memo the Pentagon has released makes the command&#x27;s establishment contingent on Congressional approval, with a goal of October 1, 2027. Companion efforts are Project Agincourt and Project Meridian (The War Zone)",
+          "plain": "📜 Pentagon memo: AUTOWARCOM needs Congress, target October 1, 2027 (30 Sep 2026): Hegseth: \"At my direction, we are announcing the creation of Autonomous Warfare Command, or AUTOWARCOM, a new four-star combatant command with service-like authorities built to scale autonomous and robotic capabilities across the joint force …\" He added: \"Drone warfare supercharged by SI-enabled targeting is the biggest battlefield revolution in generations.\" A memo the Pentagon has released makes the command's establishment contingent on Congressional approval, with a goal of October 1, 2027. Companion efforts are Project Agincourt and Project Meridian (The War Zone)",
+          "source": "The War Zone",
+          "url": "https://www.twz.com/news-features/vision-for-new-autonomous-warfare-command-laid-out-by-pentagon",
+          "date": "2026-09-30",
+          "tags": [
+            "pentagon",
+            "autowarcom",
+            "autonomous-weapons",
+            "congress",
+            "hegseth"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261001_hegseth_autonomous_warfare_command",
           "html": "<strong>🎖️ Pentagon to create a four-star command for autonomous and robotic capabilities</strong> (AP report published 1 Oct 2026): In his &quot;State of the Force&quot; address, Defense Secretary Pete Hegseth announced the intention to create a new four-star command to oversee the rollout of autonomous and robotic capabilities in what he called &quot;the fastest peacetime shift in modern military history.&quot; He also announced an effort to study the future of warfare led by SpaceX CEO Elon Musk, former Republican House Speaker Newt Gingrich and Palmer Luckey, co-founder of Anduril Industries, and said he directed the services to cut roughly 800 flag and general officer positions by 20%, to be completed by Jan. 1, 2027 (NBC News (AP))",
           "plain": "🎖️ Pentagon to create a four-star command for autonomous and robotic capabilities (AP report published 1 Oct 2026): In his \"State of the Force\" address, Defense Secretary Pete Hegseth announced the intention to create a new four-star command to oversee the rollout of autonomous and robotic capabilities in what he called \"the fastest peacetime shift in modern military history.\" He also announced an effort to study the future of warfare led by SpaceX CEO Elon Musk, former Republican House Speaker Newt Gingrich and Palmer Luckey, co-founder of Anduril Industries, and said he directed the services to cut roughly 800 flag and general officer positions by 20%, to be completed by Jan. 1, 2027 (NBC News (AP))",
@@ -1742,44 +1776,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_khanna_human_control_over_ai_act",
-          "html": "<strong>🏛️ Khanna bill would ban self-improving AI</strong> (28–29 Sep 2026): Rep. Ro Khanna introduced the Human Control Over AI Act. It would ban AI models capable of recursively self-improving or autonomously modifying their core objectives until federal safeguards exist, and would create a federal agency to license, audit and regulate frontier AI, with on-site auditors at each lab and emergency shutdown requirements. Khanna: &quot;There&#x27;s actually a civilizational extinction risk.&quot; No House bills are expected to get a vote before the midterms (Quartz)",
-          "plain": "🏛️ Khanna bill would ban self-improving AI (28–29 Sep 2026): Rep. Ro Khanna introduced the Human Control Over AI Act. It would ban AI models capable of recursively self-improving or autonomously modifying their core objectives until federal safeguards exist, and would create a federal agency to license, audit and regulate frontier AI, with on-site auditors at each lab and emergency shutdown requirements. Khanna: \"There's actually a civilizational extinction risk.\" No House bills are expected to get a vote before the midterms (Quartz)",
-          "source": "Quartz",
-          "url": "https://qz.com/ro-khanna-human-control-over-ai-act-self-improving-ban-092926",
-          "date": "2026-09-28",
-          "tags": [
-            "congress",
-            "khanna",
-            "legislation",
-            "self-improving-ai",
-            "kill-switch"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_trump_clayton_ai_czar_good_idea",
-          "html": "<strong>🕵️ Trump warms to spy chief Jay Clayton as AI czar</strong> (29 Sep 2026): Asked who he wants as AI czar, Trump told Axios: &quot;I have somebody in mind.&quot; When prompted with Director of National Intelligence Jay Clayton, he said Clayton is &quot;a good man. He&#x27;s right here. That&#x27;s a good idea.&quot; Trump says he wants to pick someone in the next three or four days; no appointment yet (Axios)",
-          "plain": "🕵️ Trump warms to spy chief Jay Clayton as AI czar (29 Sep 2026): Asked who he wants as AI czar, Trump told Axios: \"I have somebody in mind.\" When prompted with Director of National Intelligence Jay Clayton, he said Clayton is \"a good man. He's right here. That's a good idea.\" Trump says he wants to pick someone in the next three or four days; no appointment yet (Axios)",
-          "source": "Axios",
-          "url": "https://www.axios.com/2026/09/29/ai-czar-white-house-trump-jay-clayton",
-          "date": "2026-09-29",
-          "tags": [
-            "ai-czar",
-            "white-house",
-            "clayton",
-            "dni"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-01_scan_1615_dublin",
+      "at": "2026-10-01T15:11:17.507Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~16:11 London (site-only). New: Sens. Josh Hawley and Chris Murphy are planning to introduce the AI Agent Accountability Act, which will seek to hold companies criminally and civilly liable for hacking incidents (Axios, 1 Oct). Pentagon follow-up: The War Zone quotes Hegseth naming it 'Autonomous Warfare Command, or AUTOWARCOM'; a Pentagon memo makes its establishment contingent on Congressional approval, with a goal of October 1, 2027 (TWZ, 30 Sep). T-800: Singapore's HTX launched the Home Team Humanoid Robotics Centre (H2RC) on 30 Sep; autonomous humanoid robots are poised to work alongside Home Team officers as soon as 2028 (HTX, 1 Oct). Also: TNW, citing Semafor and Politico, reports Zuckerberg came up with the White House AI accord and Microsoft and Amazon did not sign it. Moonshot: still no public response found. AI czar: still not named. No new Gemini, FTC or court items beyond the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a planned bill, a command pending Congress and a 2028 deployment target, no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-01_scan_1615_dublin"
+    },
     {
       "id": "patch_2026-10-01_scan_1415_dublin",
       "at": "2026-10-01T13:12:08.900Z",
