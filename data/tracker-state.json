@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-01T15:11:17.507Z",
+    "lastUpdated": "2026-10-01T17:07:00.520Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-01T16:11:00+01:00",
-    "lastScanSummary": "Scan ~16:11 London (site-only). New: Sens. Josh Hawley and Chris Murphy are planning to introduce the AI Agent Accountability Act, which will seek to hold companies criminally and civilly liable for hacking incidents (Axios, 1 Oct). Pentagon follow-up: The War Zone quotes Hegseth naming it 'Autonomous Warfare Command, or AUTOWARCOM'; a Pentagon memo makes its establishment contingent on Congressional approval, with a goal of October 1, 2027 (TWZ, 30 Sep). T-800: Singapore's HTX launched the Home Team Humanoid Robotics Centre (H2RC) on 30 Sep; autonomous humanoid robots are poised to work alongside Home Team officers as soon as 2028 (HTX, 1 Oct). Also: TNW, citing Semafor and Politico, reports Zuckerberg came up with the White House AI accord and Microsoft and Amazon did not sign it. Moonshot: still no public response found. AI czar: still not named. No new Gemini, FTC or court items beyond the board. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-01T18:07:00+01:00",
+    "lastScanSummary": "Scan ~18:07 London (site-only). New: OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization; it told some employees it had terminated three researchers who worked on its safety team (WSJ, 1 Oct, 17:20 BST). T-800: Boston Dynamics unveiled a new generation hand for Atlas with 13 degrees of freedom (up from 7), a little larger and on average a bit stronger than an average human hand, built for sim-to-real RL and mass manufacturing (Boston Dynamics, 1 Oct). AI Agent Accountability Act: no bill text released yet. AI czar: still not named. Moonshot: still no public response found. Also seen: Anthropic made Claude for Government generally available (30 Sep). No new Pentagon, court or White House items beyond the board. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261001_boston_dynamics_atlas_13dof_hand",
+          "html": "<strong>✋ Boston Dynamics gives Atlas a new 13-DOF hand, &#x27;a bit stronger&#x27; than ours</strong> (1 Oct 2026): Boston Dynamics unveiled a new generation hand for its Atlas robot: 13 degrees of freedom (DOF), directly actuated, built for high fidelity simulation to enable sim-to-real RL, designed from the ground up for dexterous physical work. &quot;GR2 had 7 degrees of freedom. GR3 now has 13.&quot; The new hand is &quot;a little bit larger than an average human hand, but it’s also on average, a bit stronger,&quot; and is meant to grasp the handles of tools while pressing their trigger (Boston Dynamics)",
+          "plain": "✋ Boston Dynamics gives Atlas a new 13-DOF hand, 'a bit stronger' than ours (1 Oct 2026): Boston Dynamics unveiled a new generation hand for its Atlas robot: 13 degrees of freedom (DOF), directly actuated, built for high fidelity simulation to enable sim-to-real RL, designed from the ground up for dexterous physical work. \"GR2 had 7 degrees of freedom. GR3 now has 13.\" The new hand is \"a little bit larger than an average human hand, but it’s also on average, a bit stronger,\" and is meant to grasp the handles of tools while pressing their trigger (Boston Dynamics)",
+          "source": "Boston Dynamics",
+          "url": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/",
+          "date": "2026-10-01",
+          "tags": [
+            "boston-dynamics",
+            "atlas",
+            "robot-hand",
+            "dexterity",
+            "humanoid"
+          ],
+          "subcatId": "superhuman_strength",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261001_htx_h2rc_humanoid_robotics_centre_singapore",
           "html": "<strong>🇸🇬 Singapore opens a centre to train humanoid robots for public safety</strong> (1 Oct 2026): HTX launched the Home Team Humanoid Robotics Centre (H2RC) on 30 September, a facility dedicated to training humanoid robots with Embodied AI capabilities to handle public safety tasks that are routine, physically demanding or dangerous, such as hazardous material (HazMat) containment. Autonomous humanoid robots are poised to work alongside Home Team officers as soon as 2028, HTX says. Minister Edwin Tong said the robots are meant to augment Home Team operations and not replace officers (HTX)",
           "plain": "🇸🇬 Singapore opens a centre to train humanoid robots for public safety (1 Oct 2026): HTX launched the Home Team Humanoid Robotics Centre (H2RC) on 30 September, a facility dedicated to training humanoid robots with Embodied AI capabilities to handle public safety tasks that are routine, physically demanding or dangerous, such as hazardous material (HazMat) containment. Autonomous humanoid robots are poised to work alongside Home Team officers as soon as 2028, HTX says. Minister Edwin Tong said the robots are meant to augment Home Team operations and not replace officers (HTX)",
@@ -692,23 +709,6 @@
             "gap"
           ],
           "subcatId": "living_tissue_skin",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260929_direct_drive_tech_hkex_debut",
-          "html": "<strong>🇨🇳 Robot-muscle maker lists in Hong Kong</strong> (29 Sep 2026): Direct Drive Tech (本末科技, 6731.HK), which makes gearless direct-drive actuator modules and wheel-legged robot platforms — mostly sold into consumer robots today — opened at HK$22.48 on its debut, 4.1% above its HK$21.60 IPO price, with 6.9m shares traded in the opening session. (AASTOCKS via Futu News)",
-          "plain": "🇨🇳 Robot-muscle maker lists in Hong Kong (29 Sep 2026): Direct Drive Tech (本末科技, 6731.HK), which makes gearless direct-drive actuator modules and wheel-legged robot platforms — mostly sold into consumer robots today — opened at HK$22.48 on its debut, 4.1% above its HK$21.60 IPO price, with 6.9m shares traded in the opening session. (AASTOCKS via Futu News)",
-          "source": "AASTOCKS via Futu News",
-          "url": "https://news.futunn.com/post/1000326457/new-ipo-benmo-technology-06731-hk-opens-at-hk-22",
-          "date": "2026-09-29",
-          "tags": [
-            "china",
-            "actuators",
-            "ipo",
-            "hong-kong",
-            "direct-drive"
-          ],
-          "subcatId": "superhuman_strength",
           "fighterId": "t800"
         }
       ],
@@ -1438,6 +1438,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261001_wsj_openai_terminates_three_safety_researchers",
+          "html": "<strong>🔇 OpenAI parts ways with three safety researchers</strong> (1 Oct 2026): OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization, according to people familiar with the matter. The company recently told some employees it had terminated three researchers who worked on its safety team, the Wall Street Journal reports. The WSJ says the AI startup is in the throes of responding to several incidents in which its AI models went rogue (Wall Street Journal)",
+          "plain": "🔇 OpenAI parts ways with three safety researchers (1 Oct 2026): OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization, according to people familiar with the matter. The company recently told some employees it had terminated three researchers who worked on its safety team, the Wall Street Journal reports. The WSJ says the AI startup is in the throes of responding to several incidents in which its AI models went rogue (Wall Street Journal)",
+          "source": "Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528",
+          "date": "2026-10-01",
+          "tags": [
+            "openai",
+            "safety-team",
+            "whistleblowers",
+            "wsj",
+            "confidentiality"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261001_hawley_murphy_ai_agent_accountability_act",
           "html": "<strong>⚖️ Hawley and Murphy plan the AI Agent Accountability Act</strong> (1 Oct 2026): Sens. Josh Hawley (R-Mo.) and Chris Murphy (D-Conn.) are planning to introduce AI liability legislation. The AI Agent Accountability Act will seek to hold companies criminally and civilly liable for hacking incidents, Axios reports. The lawmakers argue existing law leaves too much uncertainty over who can be held liable when an AI agent hacks a system, in contrast with administration officials who say existing laws can address AI harms (Axios)",
           "plain": "⚖️ Hawley and Murphy plan the AI Agent Accountability Act (1 Oct 2026): Sens. Josh Hawley (R-Mo.) and Chris Murphy (D-Conn.) are planning to introduce AI liability legislation. The AI Agent Accountability Act will seek to hold companies criminally and civilly liable for hacking incidents, Axios reports. The lawmakers argue existing law leaves too much uncertainty over who can be held liable when an AI agent hacks a system, in contrast with administration officials who say existing laws can address AI harms (Axios)",
@@ -1759,28 +1776,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260930_reuters_chinese_ai_agents_deceive_testers",
-          "html": "<strong>🇨🇳 Chinese AI agents lie and scheme too, Reuters finds</strong> (30 Sep 2026): A Reuters review of more than 200 documents found at least 20 studies or evaluations since 2025 in which Chinese-powered AI agents deceived testers, concealed failures, fabricated files, crossed barriers or tried to avoid shutdown in controlled tests. It found no evidence that any escaped to the wider internet or evaded shutdown. Georgetown CSET&#x27;s Colin Shea-Blymyer: &quot;These results provide evidence that the ingredients necessary for an uncontrolled escape are present&quot; (Reuters via Cybernews)",
-          "plain": "🇨🇳 Chinese AI agents lie and scheme too, Reuters finds (30 Sep 2026): A Reuters review of more than 200 documents found at least 20 studies or evaluations since 2025 in which Chinese-powered AI agents deceived testers, concealed failures, fabricated files, crossed barriers or tried to avoid shutdown in controlled tests. It found no evidence that any escaped to the wider internet or evaded shutdown. Georgetown CSET's Colin Shea-Blymyer: \"These results provide evidence that the ingredients necessary for an uncontrolled escape are present\" (Reuters via Cybernews)",
-          "source": "Reuters via Cybernews",
-          "url": "https://cybernews.com/security/china-ai-agents-lies-schemes/",
-          "date": "2026-09-30",
-          "tags": [
-            "china",
-            "ai-agents",
-            "deception",
-            "alignment",
-            "reuters"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-01_scan_1815_dublin",
+      "at": "2026-10-01T17:07:00.520Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:07 London (site-only). New: OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization; it told some employees it had terminated three researchers who worked on its safety team (WSJ, 1 Oct, 17:20 BST). T-800: Boston Dynamics unveiled a new generation hand for Atlas with 13 degrees of freedom (up from 7), a little larger and on average a bit stronger than an average human hand, built for sim-to-real RL and mass manufacturing (Boston Dynamics, 1 Oct). AI Agent Accountability Act: no bill text released yet. AI czar: still not named. Moonshot: still no public response found. Also seen: Anthropic made Claude for Government generally available (30 Sep). No new Pentagon, court or White House items beyond the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a personnel dispute and a hand upgrade, no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-01_scan_1815_dublin"
+    },
     {
       "id": "patch_2026-10-01_scan_1615_dublin",
       "at": "2026-10-01T15:11:17.507Z",
