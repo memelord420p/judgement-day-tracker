@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-01T01:06:16.953Z",
+    "lastUpdated": "2026-10-01T03:09:33.739Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-01T02:15:00+01:00",
-    "lastScanSummary": "Scan ~02:15 Dublin (site-only). New: OpenAI says it identified and disrupted a coordinated campaign to extract protected reasoning from its models, attributing a core cluster to individuals associated with China's Moonshot AI (developer of Kimi); activity surged to 16,000 requests from more than 4,000 users over two days, and OpenAI says the operators did not breach its encryption, databases or stored conversations (CNBC, 30 Sep ET). AI czar still unnamed (Trump's 3–4 day window is still open). FTC and Gemini 4 Argon: no new developments beyond the board. Australia's Senate inquiry hearing in Canberra on 1 Oct has asked Altman and Amodei to appear, but their attendance is unconfirmed; watching for the hearing record. Korea items (T-Robotics, ETRI NAMI) are already on the board; the Seoul AI Robot Show (6–8 Oct) is upcoming. T-1000: the VT MADE liquid-metal self-healing circuits are already on the board; nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-01T04:10:00+01:00",
+    "lastScanSummary": "Scan ~04:10 London (site-only). New: DNI Jay Clayton says \"Super intelligence is a national security issue,\" argued against a pause in US AI development, and twice avoided saying whether he would accept the AI czar role (CNBC, 30 Sep). Australia: Sam Altman and Dario Amodei will not attend the Greens-led Senate inquiry's 1 Oct hearing in Canberra; both companies cited the short notice, and OpenAI is sending Jason Kwon to a separate parliamentary committee in Sydney instead (The Next Web, 28 Sep). No hearing record found yet. Moonshot: still no public response to OpenAI's distillation claim (CNBC, CyberScoop). AI czar still unnamed. Asia: minor Japanese physical-AI items (Donut Robotics' Cinnamon 2 unveiling due in October; AGIRobots HA1 arm), nothing that moves T-800. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1440,6 +1440,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260930_clayton_super_intelligence_national_security",
+          "html": "<strong>🕵️ Jay Clayton: &#x27;Super intelligence is a national security issue&#x27; — dodges AI czar question</strong> (30 Sep 2026): Director of National Intelligence Jay Clayton said &quot;Super intelligence is a national security issue,&quot; a day after Trump met AI leaders at the White House, and argued against a pause in the development of artificial intelligence models by U.S. companies. He twice avoided directly answering whether he would accept the role of Trump&#x27;s AI czar if offered (CNBC)",
+          "plain": "🕵️ Jay Clayton: 'Super intelligence is a national security issue' — dodges AI czar question (30 Sep 2026): Director of National Intelligence Jay Clayton said \"Super intelligence is a national security issue,\" a day after Trump met AI leaders at the White House, and argued against a pause in the development of artificial intelligence models by U.S. companies. He twice avoided directly answering whether he would accept the role of Trump's AI czar if offered (CNBC)",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/30/ai-national-security-jay-clayton.html",
+          "date": "2026-09-30",
+          "tags": [
+            "clayton",
+            "ai-czar",
+            "national-security",
+            "white-house",
+            "pause"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260928_altman_amodei_skip_australia_senate_inquiry",
+          "html": "<strong>🇦🇺 Altman and Amodei will skip Australia&#x27;s Senate inquiry on AI</strong> (28 Sep 2026): Sam Altman and Dario Amodei will not attend the Greens-led Senate inquiry&#x27;s hearing in Canberra on 1 October, which asked them to appear after an OpenAI agent got into Australia&#x27;s Medicare statistics portal in June. Anthropic has asked for another date because the invitation came late last week; OpenAI said it could not arrange for its executives to appear in the short time frame and is sending Jason Kwon to a separate parliamentary committee in Sydney instead. Anthropic told Bloomberg it will send executives from the US and Australia (The Next Web)",
+          "plain": "🇦🇺 Altman and Amodei will skip Australia's Senate inquiry on AI (28 Sep 2026): Sam Altman and Dario Amodei will not attend the Greens-led Senate inquiry's hearing in Canberra on 1 October, which asked them to appear after an OpenAI agent got into Australia's Medicare statistics portal in June. Anthropic has asked for another date because the invitation came late last week; OpenAI said it could not arrange for its executives to appear in the short time frame and is sending Jason Kwon to a separate parliamentary committee in Sydney instead. Anthropic told Bloomberg it will send executives from the US and Australia (The Next Web)",
+          "source": "The Next Web",
+          "url": "https://thenextweb.com/news/altman-amodei-skip-australia-senate-inquiry",
+          "date": "2026-09-28",
+          "tags": [
+            "australia",
+            "senate",
+            "openai",
+            "anthropic",
+            "accountability"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260930_openai_moonshot_reasoning_extraction",
           "html": "<strong>🕵️ OpenAI links China&#x27;s Moonshot AI to campaign to extract its models&#x27; protected reasoning</strong> (30 Sep 2026): OpenAI said it identified and disrupted a coordinated campaign in which operators attempted to extract protected reasoning from its AI models, attributing a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi. The activity began in early July and surged to 16,000 requests from more than 4,000 users over two days; OpenAI identified related activity across more than 15,000 users and said it had fully disrupted the campaign by July 28. It said the operators did not breach its encryption, databases or stored user conversations. Moonshot did not immediately respond to CNBC&#x27;s requests for comment (CNBC)",
           "plain": "🕵️ OpenAI links China's Moonshot AI to campaign to extract its models' protected reasoning (30 Sep 2026): OpenAI said it identified and disrupted a coordinated campaign in which operators attempted to extract protected reasoning from its AI models, attributing a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi. The activity began in early July and surged to 16,000 requests from more than 4,000 users over two days; OpenAI identified related activity across more than 15,000 users and said it had fully disrupted the campaign by July 28. It said the operators did not breach its encryption, databases or stored user conversations. Moonshot did not immediately respond to CNBC's requests for comment (CNBC)",
@@ -1744,47 +1778,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_white_house_voluntary_ai_accord",
-          "html": "<strong>🇺🇸 White House lunch ends in a voluntary AI &#x27;self-police&#x27; accord</strong> (29 Sep 2026): After the White House lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology. &quot;I think I&#x27;m seeing tremendous self-policing. And they understand that they have to self-police,&quot; he told reporters outside the West Wing, adding &quot;we automatically have regulation with the Department of Justice, the FBI, all of that.&quot; He said executives also agreed to ease local opposition to data centres, e.g. with money for schools or lower energy costs. Attendees included Amodei, Brockman, Bezos, Musk, Huang, Pichai, Zuckerberg and Nadella (AP via The Globe and Mail)",
-          "plain": "🇺🇸 White House lunch ends in a voluntary AI 'self-police' accord (29 Sep 2026): After the White House lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology. \"I think I'm seeing tremendous self-policing. And they understand that they have to self-police,\" he told reporters outside the West Wing, adding \"we automatically have regulation with the Department of Justice, the FBI, all of that.\" He said executives also agreed to ease local opposition to data centres, e.g. with money for schools or lower energy costs. Attendees included Amodei, Brockman, Bezos, Musk, Huang, Pichai, Zuckerberg and Nadella (AP via The Globe and Mail)",
-          "source": "AP via The Globe and Mail",
-          "url": "https://www.theglobeandmail.com/business/article-donald-trump-white-house-meeting-ai-leaders-regulation/",
-          "date": "2026-09-29",
-          "tags": [
-            "us",
-            "white-house",
-            "trump",
-            "voluntary-accord",
-            "self-regulation",
-            "governance"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_openai_devday_dots_always_on_agents",
-          "html": "<strong>🇺🇸 OpenAI DevDay: always-on agents that work while you&#x27;re away</strong> (29 Sep 2026): Sam Altman highlighted more than 20 new features and products. The headline act is dots — always-on agents that work on your behalf on their own cloud computer and sandbox. When you aren&#x27;t working with it, a dot does &quot;proactive research&quot; in the background using connected apps through read-only tools; OpenAI says its monitoring can pause or stop a dot&#x27;s work if it detects a safety concern. Dots come to Pro and Business Premium; in enterprise, education and healthcare they&#x27;re in beta and off by default until an admin turns them on. Also: GPT-6.1 Sol with &quot;near Astra&quot; performance and an Ultrafast tier up to 8x faster in Codex (Constellation Research)",
-          "plain": "🇺🇸 OpenAI DevDay: always-on agents that work while you're away (29 Sep 2026): Sam Altman highlighted more than 20 new features and products. The headline act is dots — always-on agents that work on your behalf on their own cloud computer and sandbox. When you aren't working with it, a dot does \"proactive research\" in the background using connected apps through read-only tools; OpenAI says its monitoring can pause or stop a dot's work if it detects a safety concern. Dots come to Pro and Business Premium; in enterprise, education and healthcare they're in beta and off by default until an admin turns them on. Also: GPT-6.1 Sol with \"near Astra\" performance and an Ultrafast tier up to 8x faster in Codex (Constellation Research)",
-          "source": "Constellation Research",
-          "url": "https://www.constellationr.com/insights/news/openais-dev-day-features-dots-ultrafast-gpt-6-sol-can-it-woo-enterprise",
-          "date": "2026-09-29",
-          "tags": [
-            "openai",
-            "devday",
-            "agents",
-            "dots",
-            "always-on",
-            "us"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-01_scan_0415_dublin",
+      "at": "2026-10-01T03:09:33.739Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:10 London (site-only). New: DNI Jay Clayton says \"Super intelligence is a national security issue,\" argued against a pause in US AI development, and twice avoided saying whether he would accept the AI czar role (CNBC, 30 Sep). Australia: Sam Altman and Dario Amodei will not attend the Greens-led Senate inquiry's 1 Oct hearing in Canberra; both companies cited the short notice, and OpenAI is sending Jason Kwon to a separate parliamentary committee in Sydney instead (The Next Web, 28 Sep). No hearing record found yet. Moonshot: still no public response to OpenAI's distillation claim (CNBC, CyberScoop). AI czar still unnamed. Asia: minor Japanese physical-AI items (Donut Robotics' Cinnamon 2 unveiling due in October; AGIRobots HA1 arm), nothing that moves T-800. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (policy and accountability news, no capability change). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-01_scan_0415_dublin"
+    },
     {
       "id": "patch_2026-10-01_scan_0215_dublin",
       "at": "2026-10-01T01:06:16.953Z",
