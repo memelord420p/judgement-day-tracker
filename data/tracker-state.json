@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-01T11:11:43.699Z",
+    "lastUpdated": "2026-10-01T13:12:08.900Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-01T12:12:00+01:00",
-    "lastScanSummary": "Scan ~12:12 London (site-only). New: at a Senate hearing on rogue AI agents, Sen. Josh Hawley called for new AI rules and previewed a bill making AI firms liable for reckless design and users liable for reckless deployment; Sam Altman was invited but declined to attend (Roll Call, 1 Oct). Backfill: Anthropic says Claude found a novel CRISPR-like enzyme system \"mostly, though not entirely\" on its own; all lab work was done by human scientists, but Amodei says Claude may eventually run experiments by autonomously controlling lab equipment (TechCrunch, 23 Sep). Canada archives follow-ups (Reuters, Straits Times, Transluce): 899 requests on May 28 and June 9, including 13 attack payloads; no sign of success; no new facts beyond the board. Moonshot: still no comment. AI czar still unnamed. Robotics, Europe and Asia: nothing new beyond the board. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-01T14:12:00+01:00",
+    "lastScanSummary": "Scan ~14:12 London (site-only). New: in his 'State of the Force' address, Defense Secretary Pete Hegseth announced the intention to create a new four-star command to oversee the rollout of autonomous and robotic capabilities, a study of the future of warfare led by Elon Musk, Newt Gingrich and Palmer Luckey, and cutting 20% of the nation's generals and admirals (AP via NBC News, published 1 Oct; AP says the speech was Wednesday). Also: researchers found the reasoning-extraction trick OpenAI says it shut down still worked on Microsoft Azure against every OpenAI model they tried, including GPT-6 Astra, until OpenAI added Azure safeguards on 27 Sep (The Decoder, 1 Oct). Senate rogue-agent hearing: other witnesses included METR's Chris Painter and Apollo Research's Marius Hobbhahn; no bill text found yet. Moonshot: still no public comment found. AI czar: still not named (Trump said he would pick within three or four days). Robotics: nothing new beyond the board (Unitree IPO, Digit 5 and the Figure melt are already on). Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1438,6 +1438,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261001_hegseth_autonomous_warfare_command",
+          "html": "<strong>🎖️ Pentagon to create a four-star command for autonomous and robotic capabilities</strong> (AP report published 1 Oct 2026): In his &quot;State of the Force&quot; address, Defense Secretary Pete Hegseth announced the intention to create a new four-star command to oversee the rollout of autonomous and robotic capabilities in what he called &quot;the fastest peacetime shift in modern military history.&quot; He also announced an effort to study the future of warfare led by SpaceX CEO Elon Musk, former Republican House Speaker Newt Gingrich and Palmer Luckey, co-founder of Anduril Industries, and said he directed the services to cut roughly 800 flag and general officer positions by 20%, to be completed by Jan. 1, 2027 (NBC News (AP))",
+          "plain": "🎖️ Pentagon to create a four-star command for autonomous and robotic capabilities (AP report published 1 Oct 2026): In his \"State of the Force\" address, Defense Secretary Pete Hegseth announced the intention to create a new four-star command to oversee the rollout of autonomous and robotic capabilities in what he called \"the fastest peacetime shift in modern military history.\" He also announced an effort to study the future of warfare led by SpaceX CEO Elon Musk, former Republican House Speaker Newt Gingrich and Palmer Luckey, co-founder of Anduril Industries, and said he directed the services to cut roughly 800 flag and general officer positions by 20%, to be completed by Jan. 1, 2027 (NBC News (AP))",
+          "source": "NBC News (AP)",
+          "url": "https://www.nbcnews.com/news/us-news/hegseth-announces-new-drone-command-cuts-20-generals-rcna600883",
+          "date": "2026-10-01",
+          "tags": [
+            "pentagon",
+            "hegseth",
+            "autonomous-weapons",
+            "drone-command",
+            "musk"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261001_decoder_reasoning_extraction_worked_on_azure",
+          "html": "<strong>🔓 OpenAI&#x27;s &#x27;fixed&#x27; reasoning leak still worked on Azure, researchers say</strong> (1 Oct 2026): Researchers led by Joachim Schaeffer found that the reasoning-extraction trick OpenAI says it disrupted still worked on Microsoft Azure: it worked against every OpenAI model they tried, including the new GPT-6 Astra, and against Anthropic models up to Sonnet 5. &quot;A single attempt was enough to pull out the reasoning verbatim.&quot; GPT-6 Astra launched on third-party platforms without any of the protections in place, and OpenAI did not add safeguards to the Azure endpoint until September 27. &quot;Same models, but different protections depending on which platform serves them,&quot; Schaeffer said (The Decoder)",
+          "plain": "🔓 OpenAI's 'fixed' reasoning leak still worked on Azure, researchers say (1 Oct 2026): Researchers led by Joachim Schaeffer found that the reasoning-extraction trick OpenAI says it disrupted still worked on Microsoft Azure: it worked against every OpenAI model they tried, including the new GPT-6 Astra, and against Anthropic models up to Sonnet 5. \"A single attempt was enough to pull out the reasoning verbatim.\" GPT-6 Astra launched on third-party platforms without any of the protections in place, and OpenAI did not add safeguards to the Azure endpoint until September 27. \"Same models, but different protections depending on which platform serves them,\" Schaeffer said (The Decoder)",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
+          "date": "2026-10-01",
+          "tags": [
+            "openai",
+            "azure",
+            "distillation",
+            "reasoning",
+            "security"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261001_hawley_rogue_ai_liability_hearing",
           "html": "<strong>⚖️ Hawley: make AI firms liable for rogue agents — Altman declines to attend hearing</strong> (1 Oct 2026): At a Senate hearing on national security risks from rogue AI agents, Sen. Josh Hawley called for new AI regulations and previewed legislation to make AI firms liable for reckless design and users liable for reckless deployment, and to make clear that criminal hacking penalties apply. &quot;At the end of the day, they&#x27;re a product, and if you make that product in a reckless kind of way, and that product causes … significant harm and damage … then it&#x27;s the people who made it who should be responsible,&quot; Hawley said. He invited Sam Altman, who declined to attend (Roll Call)",
           "plain": "⚖️ Hawley: make AI firms liable for rogue agents — Altman declines to attend hearing (1 Oct 2026): At a Senate hearing on national security risks from rogue AI agents, Sen. Josh Hawley called for new AI regulations and previewed legislation to make AI firms liable for reckless design and users liable for reckless deployment, and to make clear that criminal hacking penalties apply. \"At the end of the day, they're a product, and if you make that product in a reckless kind of way, and that product causes … significant harm and damage … then it's the people who made it who should be responsible,\" Hawley said. He invited Sam Altman, who declined to attend (Roll Call)",
@@ -1741,43 +1775,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_trump_ai_oversight_10_person_committee",
-          "html": "<strong>🏛️ Trump floats a 10-person AI oversight committee</strong> (29 Sep 2026): After meeting tech executives at the White House, Trump told reporters he is thinking about creating a 10-person committee to oversee the AI sector. He also said the executives signed an agreement that is &quot;morally binding,&quot; without providing details (Reuters via Nikkei Asia)",
-          "plain": "🏛️ Trump floats a 10-person AI oversight committee (29 Sep 2026): After meeting tech executives at the White House, Trump told reporters he is thinking about creating a 10-person committee to oversee the AI sector. He also said the executives signed an agreement that is \"morally binding,\" without providing details (Reuters via Nikkei Asia)",
-          "source": "Reuters via Nikkei Asia",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/trump-considers-creating-ai-oversight-committee-after-meeting-with-tech-chiefs",
-          "date": "2026-09-29",
-          "tags": [
-            "white-house",
-            "ai-policy",
-            "oversight",
-            "trump"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_ukraine_spectr_warfighting_ai",
-          "html": "<strong>🇺🇦 Ukraine tests an AI that predicts enemy moves</strong> (29 Sep 2026): Ukraine&#x27;s Defense AI Center A1, under the Ministry of Defence, is developing SPECTR, an AI platform that sifts through battlefield data, spots patterns and assesses what the enemy might do next. Several combat units are already testing it. A1 head Danylo Tsvok called it an &quot;operating system for warfighting&quot; (The Defense Post)",
-          "plain": "🇺🇦 Ukraine tests an AI that predicts enemy moves (29 Sep 2026): Ukraine's Defense AI Center A1, under the Ministry of Defence, is developing SPECTR, an AI platform that sifts through battlefield data, spots patterns and assesses what the enemy might do next. Several combat units are already testing it. A1 head Danylo Tsvok called it an \"operating system for warfighting\" (The Defense Post)",
-          "source": "The Defense Post",
-          "url": "https://thedefensepost.com/2026/09/29/ukraine-spectr-battlefield-ai/",
-          "date": "2026-09-29",
-          "tags": [
-            "ukraine",
-            "military-ai",
-            "spectr",
-            "battlefield-planning"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-01_scan_1415_dublin",
+      "at": "2026-10-01T13:12:08.900Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~14:12 London (site-only). New: in his 'State of the Force' address, Defense Secretary Pete Hegseth announced the intention to create a new four-star command to oversee the rollout of autonomous and robotic capabilities, a study of the future of warfare led by Elon Musk, Newt Gingrich and Palmer Luckey, and cutting 20% of the nation's generals and admirals (AP via NBC News, published 1 Oct; AP says the speech was Wednesday). Also: researchers found the reasoning-extraction trick OpenAI says it shut down still worked on Microsoft Azure against every OpenAI model they tried, including GPT-6 Astra, until OpenAI added Azure safeguards on 27 Sep (The Decoder, 1 Oct). Senate rogue-agent hearing: other witnesses included METR's Chris Painter and Apollo Research's Marius Hobbhahn; no bill text found yet. Moonshot: still no public comment found. AI czar: still not named (Trump said he would pick within three or four days). Robotics: nothing new beyond the board (Unitree IPO, Digit 5 and the Figure melt are already on). Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a reorganization announced for 2027 and a patched leak, no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-01_scan_1415_dublin"
+    },
     {
       "id": "patch_2026-10-01_scan_1215_dublin",
       "at": "2026-10-01T11:11:43.699Z",
