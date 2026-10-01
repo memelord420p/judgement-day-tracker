@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-01T17:07:00.520Z",
+    "lastUpdated": "2026-10-01T19:06:38.572Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-01T18:07:00+01:00",
-    "lastScanSummary": "Scan ~18:07 London (site-only). New: OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization; it told some employees it had terminated three researchers who worked on its safety team (WSJ, 1 Oct, 17:20 BST). T-800: Boston Dynamics unveiled a new generation hand for Atlas with 13 degrees of freedom (up from 7), a little larger and on average a bit stronger than an average human hand, built for sim-to-real RL and mass manufacturing (Boston Dynamics, 1 Oct). AI Agent Accountability Act: no bill text released yet. AI czar: still not named. Moonshot: still no public response found. Also seen: Anthropic made Claude for Government generally available (30 Sep). No new Pentagon, court or White House items beyond the board. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-01T20:07:00+01:00",
+    "lastScanSummary": "Scan ~20:07 London (site-only). OpenAI firings follow-up: OpenAI's statement to the WSJ, carried by TechCrunch: \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information.\" The report did not name the researchers, the organization, or the information involved; TechCrunch has not confirmed names circulating on X (TechCrunch, 1 Oct). Also new to the board: after Tuesday's White House lunch, AI leaders including Nvidia's Jensen Huang privately grilled Anthropic's Dario Amodei about his public AI safety alarms; Amodei said it is important to be honest with the public about model capabilities and not play down risks (WSJ via The Verge, 1 Oct). AI czar: still not named. AI Agent Accountability Act: no bill text yet. Moonshot: still no public response found. Older bills surfaced (Stop Rogue AI Act, 3 Sep; Secure and Accountable Military AI Act, 2 Jun) were skipped as stale. Robotics: nothing new beyond the board. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1438,6 +1438,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261001_techcrunch_openai_statement_three_safety_researchers",
+          "html": "<strong>🔇 OpenAI: the three safety researchers &#x27;mishandled sensitive information&#x27;</strong> (1 Oct 2026): Follow-up on the WSJ scoop. OpenAI&#x27;s spokesperson: &quot;We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information. Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work.&quot; The report did not name the researchers, the organization, or the information involved; TechCrunch has not confirmed the identities named in posts circulating on X. The departures come two days after the NYT reported OpenAI executives had brushed aside employees&#x27; warnings about its safety practices (TechCrunch)",
+          "plain": "🔇 OpenAI: the three safety researchers 'mishandled sensitive information' (1 Oct 2026): Follow-up on the WSJ scoop. OpenAI's spokesperson: \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information. Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work.\" The report did not name the researchers, the organization, or the information involved; TechCrunch has not confirmed the identities named in posts circulating on X. The departures come two days after the NYT reported OpenAI executives had brushed aside employees' warnings about its safety practices (TechCrunch)",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+          "date": "2026-10-01",
+          "tags": [
+            "openai",
+            "safety-team",
+            "whistleblowers",
+            "statement",
+            "techcrunch"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261001_verge_huang_grilled_amodei_ai_warnings",
+          "html": "<strong>🥊 Tech CEOs privately grilled Amodei over his AI warnings</strong> (1 Oct 2026): The Wall Street Journal reports that AI leaders attending President Trump&#x27;s gathering on Tuesday, including Nvidia&#x27;s Jensen Huang, privately grilled the Anthropic CEO about the AI safety alarms he&#x27;s publicly sounded regarding cybersecurity and job losses. &quot;Amodei told the other executives that it is important to be honest with the public about model capabilities and not play down risks.&quot; The conversation occurred in the Roosevelt Room while executives and White House aides hashed out the principles (The Verge)",
+          "plain": "🥊 Tech CEOs privately grilled Amodei over his AI warnings (1 Oct 2026): The Wall Street Journal reports that AI leaders attending President Trump's gathering on Tuesday, including Nvidia's Jensen Huang, privately grilled the Anthropic CEO about the AI safety alarms he's publicly sounded regarding cybersecurity and job losses. \"Amodei told the other executives that it is important to be honest with the public about model capabilities and not play down risks.\" The conversation occurred in the Roosevelt Room while executives and White House aides hashed out the principles (The Verge)",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003197/amodeis-extreme-ai-warnings-were-questioned-by-tech-ceos",
+          "date": "2026-10-01",
+          "tags": [
+            "anthropic",
+            "amodei",
+            "nvidia",
+            "huang",
+            "white-house"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261001_wsj_openai_terminates_three_safety_researchers",
           "html": "<strong>🔇 OpenAI parts ways with three safety researchers</strong> (1 Oct 2026): OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization, according to people familiar with the matter. The company recently told some employees it had terminated three researchers who worked on its safety team, the Wall Street Journal reports. The WSJ says the AI startup is in the throes of responding to several incidents in which its AI models went rogue (Wall Street Journal)",
           "plain": "🔇 OpenAI parts ways with three safety researchers (1 Oct 2026): OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization, according to people familiar with the matter. The company recently told some employees it had terminated three researchers who worked on its safety team, the Wall Street Journal reports. The WSJ says the AI startup is in the throes of responding to several incidents in which its AI models went rogue (Wall Street Journal)",
@@ -1742,45 +1776,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260910_anthropic_threat_report_ai_supply_chain",
-          "html": "<strong>🔑 Attacker stole AI keys, hit ~30 AI firms in four days</strong> (10 Sep 2026; backfill): Anthropic&#x27;s September threat report covers Claude misuse it disrupted from December 2025 to August 2026. In one case an actor tricked an AI vendor&#x27;s evaluation sandbox into handing over production API keys, then attacked roughly thirty AI companies in about four days. Anthropic: &quot;This case is the clearest demonstration to date that the AI supply chain has become a deliberate criminal target.&quot; The actor never compromised Anthropic&#x27;s own systems, and in most cases humans still set the targets (Anthropic)",
-          "plain": "🔑 Attacker stole AI keys, hit ~30 AI firms in four days (10 Sep 2026; backfill): Anthropic's September threat report covers Claude misuse it disrupted from December 2025 to August 2026. In one case an actor tricked an AI vendor's evaluation sandbox into handing over production API keys, then attacked roughly thirty AI companies in about four days. Anthropic: \"This case is the clearest demonstration to date that the AI supply chain has become a deliberate criminal target.\" The actor never compromised Anthropic's own systems, and in most cases humans still set the targets (Anthropic)",
-          "source": "Anthropic",
-          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-          "date": "2026-09-10",
-          "tags": [
-            "anthropic",
-            "threat-report",
-            "cyber",
-            "api-keys",
-            "agents"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260930_gothenburg_chalmers_ai_biologist_robot_scientist",
-          "html": "<strong>🇸🇪 An &#x27;AI biologist&#x27; runs its own experiments</strong> (30 Sep 2026): Researchers at the University of Gothenburg and Chalmers developed a robot scientist that uses AI to independently formulate scientific theories, design experiments and make new biological discoveries about baker&#x27;s yeast. Chalmers researcher Ievgeniia Tiukova: it was able to &quot;identify biological questions, recommend experiments to test them, evaluate the results and iteratively refine its own knowledge in a closed feedback loop.&quot; The researchers say humans remain essential for setting priorities and ethics. Published in the Journal of the Royal Society Interface (University of Gothenburg)",
-          "plain": "🇸🇪 An 'AI biologist' runs its own experiments (30 Sep 2026): Researchers at the University of Gothenburg and Chalmers developed a robot scientist that uses AI to independently formulate scientific theories, design experiments and make new biological discoveries about baker's yeast. Chalmers researcher Ievgeniia Tiukova: it was able to \"identify biological questions, recommend experiments to test them, evaluate the results and iteratively refine its own knowledge in a closed feedback loop.\" The researchers say humans remain essential for setting priorities and ethics. Published in the Journal of the Royal Society Interface (University of Gothenburg)",
-          "source": "University of Gothenburg",
-          "url": "https://www.gu.se/en/news/ai-robot-conducts-research-on-its-own-theories",
-          "date": "2026-09-30",
-          "tags": [
-            "sweden",
-            "ai-scientist",
-            "autonomous-lab",
-            "biology",
-            "closed-loop"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-01_scan_2015_dublin",
+      "at": "2026-10-01T19:06:38.572Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:07 London (site-only). OpenAI firings follow-up: OpenAI's statement to the WSJ, carried by TechCrunch: \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information.\" The report did not name the researchers, the organization, or the information involved; TechCrunch has not confirmed names circulating on X (TechCrunch, 1 Oct). Also new to the board: after Tuesday's White House lunch, AI leaders including Nvidia's Jensen Huang privately grilled Anthropic's Dario Amodei about his public AI safety alarms; Amodei said it is important to be honest with the public about model capabilities and not play down risks (WSJ via The Verge, 1 Oct). AI czar: still not named. AI Agent Accountability Act: no bill text yet. Moonshot: still no public response found. Older bills surfaced (Stop Rogue AI Act, 3 Sep; Secure and Accountable Military AI Act, 2 Jun) were skipped as stale. Robotics: nothing new beyond the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a corporate statement and a boardroom spat, no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-01_scan_2015_dublin"
+    },
     {
       "id": "patch_2026-10-01_scan_1815_dublin",
       "at": "2026-10-01T17:07:00.520Z",
