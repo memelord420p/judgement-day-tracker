@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-01T03:09:33.739Z",
+    "lastUpdated": "2026-10-01T05:12:59.017Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-01T04:10:00+01:00",
-    "lastScanSummary": "Scan ~04:10 London (site-only). New: DNI Jay Clayton says \"Super intelligence is a national security issue,\" argued against a pause in US AI development, and twice avoided saying whether he would accept the AI czar role (CNBC, 30 Sep). Australia: Sam Altman and Dario Amodei will not attend the Greens-led Senate inquiry's 1 Oct hearing in Canberra; both companies cited the short notice, and OpenAI is sending Jason Kwon to a separate parliamentary committee in Sydney instead (The Next Web, 28 Sep). No hearing record found yet. Moonshot: still no public response to OpenAI's distillation claim (CNBC, CyberScoop). AI czar still unnamed. Asia: minor Japanese physical-AI items (Donut Robotics' Cinnamon 2 unveiling due in October; AGIRobots HA1 arm), nothing that moves T-800. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-01T06:13:00+01:00",
+    "lastScanSummary": "Scan ~06:13 London (site-only). Confirmed: Figure says it trained F.02 humanoids to jump autonomously and had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, with Arnold Schwarzenegger involved; most of the F.02 fleet is gone, and the metal is being machined into commemorative artifacts (Figure, 30 Sep). This resolves the earlier AI-made teaser. Also: Evri launches Europe's first trial of a two-legged autonomous delivery robot in Barnsley with Japan's Refined Robotics (Evri, 28 Sep). Australia: Altman and Amodei were not attending the 1 Oct Senate hearing in Canberra; no hearing record found yet. OpenAI's Jason Kwon appears before the joint committee in Sydney on 6 Oct, and Anthropic will also send an envoy to Sydney, per the Sydney Morning Herald (Canberra Times). Moonshot: no specific response yet to OpenAI's claim. AI czar still unnamed. FTC and Gemini 4 Argon: no new facts beyond the board. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,40 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260930_figure_f02_molten_steel_decommission",
+          "html": "<strong>🔥 Figure confirms it: F.02 humanoids leapt into molten steel in Finland</strong> (30 Sep 2026): Figure says it trained a new AI model in simulation so its F.02 robots could jump autonomously, then had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, after foundries in the US and Mexico refused because of the robots&#x27; lithium-ion batteries. Arnold Schwarzenegger, who told the company to melt them, was involved. Figure: &quot;we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel.&quot; &quot;Most of the F.02 fleet is gone&quot;; the metal is being machined into a limited series of commemorative artifacts (Figure)",
+          "plain": "🔥 Figure confirms it: F.02 humanoids leapt into molten steel in Finland (30 Sep 2026): Figure says it trained a new AI model in simulation so its F.02 robots could jump autonomously, then had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, after foundries in the US and Mexico refused because of the robots' lithium-ion batteries. Arnold Schwarzenegger, who told the company to melt them, was involved. Figure: \"we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel.\" \"Most of the F.02 fleet is gone\"; the metal is being machined into a limited series of commemorative artifacts (Figure)",
+          "source": "Figure",
+          "url": "https://www.figure.ai/news/f-02-decommission",
+          "date": "2026-09-30",
+          "tags": [
+            "figure",
+            "figure-02",
+            "schwarzenegger",
+            "terminator-2",
+            "decommission"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20260928_evri_two_legged_delivery_robot_barnsley",
+          "html": "<strong>🦿 Evri trials Europe&#x27;s first two-legged delivery robot in Barnsley</strong> (28 Sep 2026): UK courier Evri has launched Europe&#x27;s first trial of a two-legged autonomous delivery robot, in Barnsley, with Japan-based Refined Robotics. The robot can carry parcels weighing up to 15kg, travel at up to 6km/h and handle stairs, uneven surfaces and getting in and out of delivery vans (Evri)",
+          "plain": "🦿 Evri trials Europe's first two-legged delivery robot in Barnsley (28 Sep 2026): UK courier Evri has launched Europe's first trial of a two-legged autonomous delivery robot, in Barnsley, with Japan-based Refined Robotics. The robot can carry parcels weighing up to 15kg, travel at up to 6km/h and handle stairs, uneven surfaces and getting in and out of delivery vans (Evri)",
+          "source": "Evri",
+          "url": "https://www.evri.com/press/evri-launches-europes-first-two-legged-delivery-robot",
+          "date": "2026-09-28",
+          "tags": [
+            "evri",
+            "bipedal",
+            "delivery",
+            "uk",
+            "refined-robotics"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260930_korea_1700_public_ai_robots",
           "html": "<strong>🇰🇷 South Korea to buy 1,700+ AI robots for fire and rescue, mail sorting next year</strong> (30 Sep 2026): The government plans to purchase and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue operations and industries facing severe labor shortages, with a goal of distributing 200,000 robots through public-private partnerships by 2030. Prime Minister Han Seung-soo: &quot;It is crucial to quickly establish an initial market for the AI robot industry and enhance industrial competitiveness.&quot; Starting in 2028, public enterprises and local governments will expand distribution (Aju Press)",
           "plain": "🇰🇷 South Korea to buy 1,700+ AI robots for fire and rescue, mail sorting next year (30 Sep 2026): The government plans to purchase and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue operations and industries facing severe labor shortages, with a goal of distributing 200,000 robots through public-private partnerships by 2030. Prime Minister Han Seung-soo: \"It is crucial to quickly establish an initial market for the AI robot industry and enhance industrial competitiveness.\" Starting in 2028, public enterprises and local governments will expand distribution (Aju Press)",
@@ -675,42 +709,6 @@
             "unitree"
           ],
           "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260610_miit_sasac_10000_humanoids_directive",
-          "html": "<strong>🇨🇳 Beijing orders 10,000 humanoids into service</strong> (10 Jun 2026; gap): MIIT and the state-assets regulator SASAC issued a joint directive telling local governments and state-owned enterprises to test and integrate embodied AI across manufacturing, logistics, retail and healthcare, targeting 10,000+ humanoid robots in commercial use by end-2026, with robot-as-a-service leasing to lower adoption costs and data-collection factories in Shanghai, Tianjin and Fujian (Caixin Global)",
-          "plain": "🇨🇳 Beijing orders 10,000 humanoids into service (10 Jun 2026; gap): MIIT and the state-assets regulator SASAC issued a joint directive telling local governments and state-owned enterprises to test and integrate embodied AI across manufacturing, logistics, retail and healthcare, targeting 10,000+ humanoid robots in commercial use by end-2026, with robot-as-a-service leasing to lower adoption costs and data-collection factories in Shanghai, Tianjin and Fujian (Caixin Global)",
-          "source": "Caixin Global",
-          "url": "https://www.caixinglobal.com/2026-06-10/china-targets-10000-humanoid-robots-in-commercial-use-by-end-2026-102452656.html",
-          "date": "2026-06-10",
-          "tags": [
-            "china",
-            "humanoid",
-            "policy",
-            "soe",
-            "deployment",
-            "gap"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260904_altman_openai_will_build_humanoid",
-          "html": "<strong>🇺🇸 OpenAI: &#x27;We will definitely do a humanoid&#x27;</strong> (Sources podcast 2 Sep; reported 4–5 Sep 2026; gap): Sam Altman confirms OpenAI will build its own humanoid plus other form factors (data-centre robots first), while calling &#x27;the brain that makes the robot work&#x27; the harder problem; Forbes counts 19 open robotics roles in San Francisco, four for custom actuators. No prototype, partner, unit target or date (Humanoids Daily / Forbes)",
-          "plain": "🇺🇸 OpenAI: 'We will definitely do a humanoid' (Sources podcast 2 Sep; reported 4–5 Sep 2026; gap): Sam Altman confirms OpenAI will build its own humanoid plus other form factors (data-centre robots first), while calling 'the brain that makes the robot work' the harder problem; Forbes counts 19 open robotics roles in San Francisco, four for custom actuators. No prototype, partner, unit target or date (Humanoids Daily / Forbes)",
-          "source": "Humanoids Daily / Forbes",
-          "url": "https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid",
-          "date": "2026-09-04",
-          "tags": [
-            "openai",
-            "humanoid",
-            "hardware",
-            "actuators",
-            "us",
-            "gap"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1783,6 +1781,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-01_scan_0615_dublin",
+      "at": "2026-10-01T05:12:59.017Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:13 London (site-only). Confirmed: Figure says it trained F.02 humanoids to jump autonomously and had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, with Arnold Schwarzenegger involved; most of the F.02 fleet is gone, and the metal is being machined into commemorative artifacts (Figure, 30 Sep). This resolves the earlier AI-made teaser. Also: Evri launches Europe's first trial of a two-legged autonomous delivery robot in Barnsley with Japan's Refined Robotics (Evri, 28 Sep). Australia: Altman and Amodei were not attending the 1 Oct Senate hearing in Canberra; no hearing record found yet. OpenAI's Jason Kwon appears before the joint committee in Sydney on 6 Oct, and Anthropic will also send an envoy to Sydney, per the Sydney Morning Herald (Canberra Times). Moonshot: no specific response yet to OpenAI's claim. AI czar still unnamed. FTC and Gemini 4 Argon: no new facts beyond the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a stunt decommission and a pilot trial, no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-01_scan_0615_dublin"
+    },
     {
       "id": "patch_2026-10-01_scan_0415_dublin",
       "at": "2026-10-01T03:09:33.739Z",
