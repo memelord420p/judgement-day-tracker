@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-01T05:12:59.017Z",
+    "lastUpdated": "2026-10-01T07:07:22.530Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-01T06:13:00+01:00",
-    "lastScanSummary": "Scan ~06:13 London (site-only). Confirmed: Figure says it trained F.02 humanoids to jump autonomously and had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, with Arnold Schwarzenegger involved; most of the F.02 fleet is gone, and the metal is being machined into commemorative artifacts (Figure, 30 Sep). This resolves the earlier AI-made teaser. Also: Evri launches Europe's first trial of a two-legged autonomous delivery robot in Barnsley with Japan's Refined Robotics (Evri, 28 Sep). Australia: Altman and Amodei were not attending the 1 Oct Senate hearing in Canberra; no hearing record found yet. OpenAI's Jason Kwon appears before the joint committee in Sydney on 6 Oct, and Anthropic will also send an envoy to Sydney, per the Sydney Morning Herald (Canberra Times). Moonshot: no specific response yet to OpenAI's claim. AI czar still unnamed. FTC and Gemini 4 Argon: no new facts beyond the board. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-01T08:07:00+01:00",
+    "lastScanSummary": "Scan ~08:07 London (site-only). New: UK AI Minister Kanishka Narayan cautioned at Labour conference that regulation may not be the most effective way for Britain to influence AI; the government has yet to meet its manifesto commitment on binding rules for frontier AI firms, though multiple departments are exploring legislation (POLITICO, 30 Sep). Figure follow-ups (Interesting Engineering, Inshorts): the melt came after the F.03 fleet arrived, and disassembly would have eaten engineering time needed for F.04; no F.03/F.04 reveal. Moonshot: still no comment on OpenAI's claim (India Today, DigitalToday, 1 Oct). AI czar still unnamed. EU AI Act: nothing new beyond the 29 Aug requests for information. Asia: nothing new (PrimeBot is already on the board). UK MoD swarming competition already noted. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1438,6 +1438,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260930_uk_ai_minister_build_not_regulate",
+          "html": "<strong>🇬🇧 UK AI minister: build the tech, don&#x27;t lead with regulation</strong> (30 Sep 2026): At Labour&#x27;s conference in Liverpool, AI Minister Kanishka Narayan cautioned that regulation may not be the most effective way for Britain to influence the development of AI. The government has yet to meet a manifesto commitment to impose binding rules on frontier AI firms; Prime Minister Andy Burnham has said &quot;nothing is off the table,&quot; and multiple government departments are exploring AI legislation, though an official said no decisions have been made (POLITICO)",
+          "plain": "🇬🇧 UK AI minister: build the tech, don't lead with regulation (30 Sep 2026): At Labour's conference in Liverpool, AI Minister Kanishka Narayan cautioned that regulation may not be the most effective way for Britain to influence the development of AI. The government has yet to meet a manifesto commitment to impose binding rules on frontier AI firms; Prime Minister Andy Burnham has said \"nothing is off the table,\" and multiple government departments are exploring AI legislation, though an official said no decisions have been made (POLITICO)",
+          "source": "POLITICO",
+          "url": "https://www.politico.eu/article/uk-ai-minister-focus-building-tech-not-regulating-it/",
+          "date": "2026-09-30",
+          "tags": [
+            "uk",
+            "regulation",
+            "frontier-ai",
+            "labour",
+            "narayan"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260930_clayton_super_intelligence_national_security",
           "html": "<strong>🕵️ Jay Clayton: &#x27;Super intelligence is a national security issue&#x27; — dodges AI czar question</strong> (30 Sep 2026): Director of National Intelligence Jay Clayton said &quot;Super intelligence is a national security issue,&quot; a day after Trump met AI leaders at the White House, and argued against a pause in the development of artificial intelligence models by U.S. companies. He twice avoided directly answering whether he would accept the role of Trump&#x27;s AI czar if offered (CNBC)",
           "plain": "🕵️ Jay Clayton: 'Super intelligence is a national security issue' — dodges AI czar question (30 Sep 2026): Director of National Intelligence Jay Clayton said \"Super intelligence is a national security issue,\" a day after Trump met AI leaders at the White House, and argued against a pause in the development of artificial intelligence models by U.S. companies. He twice avoided directly answering whether he would accept the role of Trump's AI czar if offered (CNBC)",
@@ -1758,29 +1775,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_altman_safety_science_problem_devday",
-          "html": "<strong>🇺🇸 Altman: agent safety is &#x27;a science problem&#x27;, not just engineering</strong> (29 Sep 2026): Asked at DevDay why OpenAI didn&#x27;t sign on to Nvidia&#x27;s agent safety platform, Sam Altman told CNBC: &quot;I think it&#x27;s a good thing. I think we are doing similar things&quot; — but &quot;I don&#x27;t think it&#x27;s a full solution, and I worry that if we treat AI safety as only an engineering problem, we will miss the very important point that we have we have a science problem in front of us.&quot; He said nothing he knows of is &quot;as serious&quot; as the Hugging Face breach, and put holding back GPT-6.1 Astra in the &quot;normal course category&quot; (CNBC)",
-          "plain": "🇺🇸 Altman: agent safety is 'a science problem', not just engineering (29 Sep 2026): Asked at DevDay why OpenAI didn't sign on to Nvidia's agent safety platform, Sam Altman told CNBC: \"I think it's a good thing. I think we are doing similar things\" — but \"I don't think it's a full solution, and I worry that if we treat AI safety as only an engineering problem, we will miss the very important point that we have we have a science problem in front of us.\" He said nothing he knows of is \"as serious\" as the Hugging Face breach, and put holding back GPT-6.1 Astra in the \"normal course category\" (CNBC)",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
-          "date": "2026-09-29",
-          "tags": [
-            "openai",
-            "altman",
-            "agent-safety",
-            "nvidia",
-            "alignment",
-            "us"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-01_scan_0815_dublin",
+      "at": "2026-10-01T07:07:22.530Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:07 London (site-only). New: UK AI Minister Kanishka Narayan cautioned at Labour conference that regulation may not be the most effective way for Britain to influence AI; the government has yet to meet its manifesto commitment on binding rules for frontier AI firms, though multiple departments are exploring legislation (POLITICO, 30 Sep). Figure follow-ups (Interesting Engineering, Inshorts): the melt came after the F.03 fleet arrived, and disassembly would have eaten engineering time needed for F.04; no F.03/F.04 reveal. Moonshot: still no comment on OpenAI's claim (India Today, DigitalToday, 1 Oct). AI czar still unnamed. EU AI Act: nothing new beyond the 29 Aug requests for information. Asia: nothing new (PrimeBot is already on the board). UK MoD swarming competition already noted. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (policy talk, no capability change). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-01_scan_0815_dublin"
+    },
     {
       "id": "patch_2026-10-01_scan_0615_dublin",
       "at": "2026-10-01T05:12:59.017Z",
