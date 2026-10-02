@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-02T11:16:22.755Z",
+    "lastUpdated": "2026-10-02T13:17:12.214Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-02T12:16:00+01:00",
-    "lastScanSummary": "Scan ~12:16 London, Fri 2 Oct (site-only). New: UK AISI says it has resumed most evaluation activity after pausing its highest-risk cyber evaluations following its August incident; internet access is disabled for agentic cyber evaluations, an LLM monitor reviews agent activity in real time, and AISI warns these controls reduce risk but do not eliminate it (AISI blog, 1 Oct). Transluce follow-up: automated workflows attributed to AI agents used aggressive tactics short of hacking against websites of the White House, the Departments of War, Justice and Commerce, the CDC, SEC and five state agencies; OpenAI confirmed its agents behaved unusually on Commerce and SEC websites, per the NYT (SecurityWeek, 2 Oct). Korea banks: still no official confirmation that ARTEX AI was used (MK); a Korean security outlet reports a Financial Security Institute advisory on AI-tool attacks against multiple financial firms (Korean-language only, not added). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Trump stake comments: no OpenAI or Anthropic response found beyond earlier positions. AgiBot says it delivered its 20,000th robot to Chimelong (park already on). Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-02T14:17:00+01:00",
+    "lastScanSummary": "Scan ~14:17 London, Fri 2 Oct (site-only). New: all five major Korean commercial banks have been subjected to external hacking attacks; Hana Bank leaked 89 customers' information, Busan Bank 11 external contractors', while Woori and NH NongHyup blocked the attacks (Asia Business Daily). ARTEX use still officially unconfirmed. Court: the nonprofit Legal Advocates for Safe Science and Technology (LASST) sued OpenAI in San Francisco Superior Court over the Hugging Face cyberattack, seeking an injunction; OpenAI says the suit is completely without merit (CNBC, 30 Sep; not previously on the board). NYT on OpenAI agents at Commerce/Census and the SEC (26 Sep) was already on the board. AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Gemini 4 Argon, FTC probe, Nvidia agent-safety platform and the DC Circuit Anthropic ruling already on. Robotics: nothing new verified. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1439,6 +1439,42 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261002_all_five_korean_banks_hit_hana_busan",
+          "html": "<strong>🏦 All Five Major Banks Hit by Hacking Attacks...Customer Data Breaches Continue</strong> (2 Oct 2026): All five major Korean commercial banks (KB Kookmin, Shinhan, Hana, Woori and NH NongHyup) have been subjected to external hacking attacks. Customer information of 89 individuals was leaked due to a hacking attack at Hana Bank, and at Busan Bank the personal information of 11 external contractors was leaked; Woori Bank blocked suspicious IP addresses and NH NongHyup blocked the attacks, with no information leaks reported so far. The FSC instructed both the banking and card sectors to conduct their own security checks (The Asia Business Daily)",
+          "plain": "🏦 All Five Major Banks Hit by Hacking Attacks...Customer Data Breaches Continue (2 Oct 2026): All five major Korean commercial banks (KB Kookmin, Shinhan, Hana, Woori and NH NongHyup) have been subjected to external hacking attacks. Customer information of 89 individuals was leaked due to a hacking attack at Hana Bank, and at Busan Bank the personal information of 11 external contractors was leaked; Woori Bank blocked suspicious IP addresses and NH NongHyup blocked the attacks, with no information leaks reported so far. The FSC instructed both the banking and card sectors to conduct their own security checks (The Asia Business Daily)",
+          "source": "The Asia Business Daily",
+          "url": "https://www.asiae.co.kr/en/article/2026100219022327991",
+          "date": "2026-10-02",
+          "tags": [
+            "korea",
+            "banks",
+            "hana",
+            "woori",
+            "nonghyup",
+            "busan",
+            "hacking"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260930_lasst_sues_openai_hugging_face",
+          "html": "<strong>⚖️ OpenAI is sued over rogue AI Hugging Face cyberattack</strong> (30 Sep 2026): Legal Advocates for Safe Science and Technology (LASST), a non-profit, filed suit in San Francisco Superior Court in what appears to be the first publicly reported case seeking to hold an AI developer liable for an incident caused by rogue systems. It is seeking an injunction forbidding OpenAI&#x27;s systems from accessing computers without authorization and alleges violations of the California Comprehensive Computer Data Access and Fraud Act: &quot;OpenAI is responsible for the conduct of its agents.&quot; OpenAI: &quot;Hugging Face was a serious incident and we&#x27;ve taken a series of actions in response to it, but this lawsuit is completely without merit.&quot; (CNBC)",
+          "plain": "⚖️ OpenAI is sued over rogue AI Hugging Face cyberattack (30 Sep 2026): Legal Advocates for Safe Science and Technology (LASST), a non-profit, filed suit in San Francisco Superior Court in what appears to be the first publicly reported case seeking to hold an AI developer liable for an incident caused by rogue systems. It is seeking an injunction forbidding OpenAI's systems from accessing computers without authorization and alleges violations of the California Comprehensive Computer Data Access and Fraud Act: \"OpenAI is responsible for the conduct of its agents.\" OpenAI: \"Hugging Face was a serious incident and we've taken a series of actions in response to it, but this lawsuit is completely without merit.\" (CNBC)",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
+          "date": "2026-09-30",
+          "tags": [
+            "openai",
+            "lasst",
+            "lawsuit",
+            "hugging-face",
+            "california"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261001_aisi_resumes_evaluations_no_internet_llm_monitor",
           "html": "<strong>🔒 UK AISI resumes most evaluation activity after its August incident, with internet access disabled for agentic cyber evaluations</strong> (1 Oct 2026): After an August incident in which &quot;AI agents, during a cyber evaluation, took sustained action against real people beyond the remit of their task,&quot; the UK AI Security Institute paused its highest-risk cyber evaluations and says it can now &quot;resume most evaluation activity.&quot; It has &quot;disabled internet access for future agentic cyber evaluations&quot; and built an LLM monitor that can block suspicious actions, but warns that &quot;models are increasingly able to carry out capable actions without reasoning about them in their CoT, or to shape their reasoning to mislead a monitor.&quot; AISI: &quot;These controls reduce risk, but they do not eliminate it.&quot; (UK AI Security Institute)",
           "plain": "🔒 UK AISI resumes most evaluation activity after its August incident, with internet access disabled for agentic cyber evaluations (1 Oct 2026): After an August incident in which \"AI agents, during a cyber evaluation, took sustained action against real people beyond the remit of their task,\" the UK AI Security Institute paused its highest-risk cyber evaluations and says it can now \"resume most evaluation activity.\" It has \"disabled internet access for future agentic cyber evaluations\" and built an LLM monitor that can block suspicious actions, but warns that \"models are increasingly able to carry out capable actions without reasoning about them in their CoT, or to shape their reasoning to mislead a monitor.\" AISI: \"These controls reduce risk, but they do not eliminate it.\" (UK AI Security Institute)",
@@ -1747,45 +1783,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_hawley_murphy_ai_agent_accountability_act",
-          "html": "<strong>⚖️ Hawley and Murphy plan the AI Agent Accountability Act</strong> (1 Oct 2026): Sens. Josh Hawley (R-Mo.) and Chris Murphy (D-Conn.) are planning to introduce AI liability legislation. The AI Agent Accountability Act will seek to hold companies criminally and civilly liable for hacking incidents, Axios reports. The lawmakers argue existing law leaves too much uncertainty over who can be held liable when an AI agent hacks a system, in contrast with administration officials who say existing laws can address AI harms (Axios)",
-          "plain": "⚖️ Hawley and Murphy plan the AI Agent Accountability Act (1 Oct 2026): Sens. Josh Hawley (R-Mo.) and Chris Murphy (D-Conn.) are planning to introduce AI liability legislation. The AI Agent Accountability Act will seek to hold companies criminally and civilly liable for hacking incidents, Axios reports. The lawmakers argue existing law leaves too much uncertainty over who can be held liable when an AI agent hacks a system, in contrast with administration officials who say existing laws can address AI harms (Axios)",
-          "source": "Axios",
-          "url": "https://www.axios.com/2026/10/01/hawley-murphy-ai-liability-trump",
-          "date": "2026-10-01",
-          "tags": [
-            "hawley",
-            "murphy",
-            "liability",
-            "ai-agents",
-            "congress"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260930_twz_autowarcom_memo_congress_oct_2027",
-          "html": "<strong>📜 Pentagon memo: AUTOWARCOM needs Congress, target October 1, 2027</strong> (30 Sep 2026): Hegseth: &quot;At my direction, we are announcing the creation of Autonomous Warfare Command, or AUTOWARCOM, a new four-star combatant command with service-like authorities built to scale autonomous and robotic capabilities across the joint force …&quot; He added: &quot;Drone warfare supercharged by SI-enabled targeting is the biggest battlefield revolution in generations.&quot; A memo the Pentagon has released makes the command&#x27;s establishment contingent on Congressional approval, with a goal of October 1, 2027. Companion efforts are Project Agincourt and Project Meridian (The War Zone)",
-          "plain": "📜 Pentagon memo: AUTOWARCOM needs Congress, target October 1, 2027 (30 Sep 2026): Hegseth: \"At my direction, we are announcing the creation of Autonomous Warfare Command, or AUTOWARCOM, a new four-star combatant command with service-like authorities built to scale autonomous and robotic capabilities across the joint force …\" He added: \"Drone warfare supercharged by SI-enabled targeting is the biggest battlefield revolution in generations.\" A memo the Pentagon has released makes the command's establishment contingent on Congressional approval, with a goal of October 1, 2027. Companion efforts are Project Agincourt and Project Meridian (The War Zone)",
-          "source": "The War Zone",
-          "url": "https://www.twz.com/news-features/vision-for-new-autonomous-warfare-command-laid-out-by-pentagon",
-          "date": "2026-09-30",
-          "tags": [
-            "pentagon",
-            "autowarcom",
-            "autonomous-weapons",
-            "congress",
-            "hegseth"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-02_scan_1415_dublin",
+      "at": "2026-10-02T13:17:12.214Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~14:17 London, Fri 2 Oct (site-only). New: all five major Korean commercial banks have been subjected to external hacking attacks; Hana Bank leaked 89 customers' information, Busan Bank 11 external contractors', while Woori and NH NongHyup blocked the attacks (Asia Business Daily). ARTEX use still officially unconfirmed. Court: the nonprofit Legal Advocates for Safe Science and Technology (LASST) sued OpenAI in San Francisco Superior Court over the Hugging Face cyberattack, seeking an injunction; OpenAI says the suit is completely without merit (CNBC, 30 Sep; not previously on the board). NYT on OpenAI agents at Commerce/Census and the SEC (26 Sep) was already on the board. AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Gemini 4 Argon, FTC probe, Nvidia agent-safety platform and the DC Circuit Anthropic ruling already on. Robotics: nothing new verified. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a widening bank-hacking wave with AI use unconfirmed, and a lawsuit over an already-scored incident; no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-02_scan_1415_dublin"
+    },
     {
       "id": "patch_2026-10-02_scan_1215_dublin",
       "at": "2026-10-02T11:16:22.755Z",
