@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-02T07:12:49.282Z",
+    "lastUpdated": "2026-10-02T09:14:52.536Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-02T08:13:00+01:00",
-    "lastScanSummary": "Scan ~08:13 London, Fri 2 Oct (site-only). Nothing new for the board. Korea banks: KB Kookmin now puts its leak at 119 customers; the FSC sent hacking-precaution guidance to all financial institutions and securities firms report no abnormalities after self-checks; the FSC's afternoon meeting outcome and any confirmed AI use are not yet reported (FSC meeting and ARTEX traces already on the board). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. UK AISI's GPT-6 Astra supply-chain results (29 Sep) already on; no new EU AI Act, DeepMind or Mistral safety items. Robotics: Atlas hand and Dyna Taku already covered or stale. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-02T10:15:00+01:00",
+    "lastScanSummary": "Scan ~10:15 London, Fri 2 Oct (site-only). New: Korea's FSC emergency meeting ordered financial firms to audit every internet-exposed IT system and access path, and said attacker IPs and methods will be shared sector-wide and with KISA; AI use in the bank breaches is still unconfirmed (Herald Business). Trump told TIME the AI Force will be a group of very smart people advising him on 'super intelligence', that he is 'not going to kill a thing based on phony threats', and that the US 'might' take stakes in OpenAI and Anthropic (TIME transcript, 1 Oct). T-800: Musk says Tesla cut Optimus AI5/AI6 chip memory to 72GB/144GB to get production volume, with a 'negligible effect' on performance (Benzinga). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Verge's Irregular testing-failure story is from 25 Sep (stale); Transluce, Unitree IPO and Figure 02 melt already on. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,24 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261001_tesla_optimus_ai5_ai6_memory_cut",
+          "html": "<strong>🧠 Elon Musk Says Tesla Cut Optimus Robot Memory to Scale Production</strong> (1 Oct 2026): In a post on X, Musk said Tesla cut the AI5 chip&#x27;s memory in half to 72GB and the AI6 chip&#x27;s memory by a third to 144GB, calling it &quot;the only way to get enough volume for Optimus production&quot; and saying it should have a &quot;negligible effect on Optimus performance.&quot; Micron&#x27;s CEO had said humanoid robots are expected to need more than 200 gigabytes of memory per unit. Tesla has reportedly placed its first large-scale component order for roughly 5,000 Optimus units (Benzinga)",
+          "plain": "🧠 Elon Musk Says Tesla Cut Optimus Robot Memory to Scale Production (1 Oct 2026): In a post on X, Musk said Tesla cut the AI5 chip's memory in half to 72GB and the AI6 chip's memory by a third to 144GB, calling it \"the only way to get enough volume for Optimus production\" and saying it should have a \"negligible effect on Optimus performance.\" Micron's CEO had said humanoid robots are expected to need more than 200 gigabytes of memory per unit. Tesla has reportedly placed its first large-scale component order for roughly 5,000 Optimus units (Benzinga)",
+          "source": "Benzinga",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62125996/elon-musk-tesla-optimus-memory-micron-humanoid-robots",
+          "date": "2026-10-01",
+          "tags": [
+            "tesla",
+            "optimus",
+            "ai5",
+            "ai6",
+            "memory",
+            "production"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261001_boston_dynamics_atlas_13dof_hand",
           "html": "<strong>✋ Boston Dynamics gives Atlas a new 13-DOF hand, &#x27;a bit stronger&#x27; than ours</strong> (1 Oct 2026): Boston Dynamics unveiled a new generation hand for its Atlas robot: 13 degrees of freedom (DOF), directly actuated, built for high fidelity simulation to enable sim-to-real RL, designed from the ground up for dexterous physical work. &quot;GR2 had 7 degrees of freedom. GR3 now has 13.&quot; The new hand is &quot;a little bit larger than an average human hand, but it’s also on average, a bit stronger,&quot; and is meant to grasp the handles of tools while pressing their trigger (Boston Dynamics)",
           "plain": "✋ Boston Dynamics gives Atlas a new 13-DOF hand, 'a bit stronger' than ours (1 Oct 2026): Boston Dynamics unveiled a new generation hand for its Atlas robot: 13 degrees of freedom (DOF), directly actuated, built for high fidelity simulation to enable sim-to-real RL, designed from the ground up for dexterous physical work. \"GR2 had 7 degrees of freedom. GR3 now has 13.\" The new hand is \"a little bit larger than an average human hand, but it’s also on average, a bit stronger,\" and is meant to grasp the handles of tools while pressing their trigger (Boston Dynamics)",
@@ -692,23 +710,6 @@
             "display"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260720_nus_smes_selfhealing_eskin",
-          "html": "<strong>🇸🇬 Robot skin that feels pain and heals itself</strong> (20 Jul 2026; gap): NUS team led by Tan Yu Jun unveils SMES, a layered e-skin on a stretchable self-healing elastomer laced with liquid-metal conductors: its resistance spikes when cut or punctured — a &#x27;pain&#x27; signal that locates the wound — and reversible bonds knit it back together, in air or underwater. A magnet over a liquid-metal coil generates its own voltage for touch and proximity sensing, no battery. Demoed on a robot hand grasping underwater while recovering from damage (TechXplore / Advanced Materials)",
-          "plain": "🇸🇬 Robot skin that feels pain and heals itself (20 Jul 2026; gap): NUS team led by Tan Yu Jun unveils SMES, a layered e-skin on a stretchable self-healing elastomer laced with liquid-metal conductors: its resistance spikes when cut or punctured — a 'pain' signal that locates the wound — and reversible bonds knit it back together, in air or underwater. A magnet over a liquid-metal coil generates its own voltage for touch and proximity sensing, no battery. Demoed on a robot hand grasping underwater while recovering from damage (TechXplore / Advanced Materials)",
-          "source": "TechXplore / Advanced Materials",
-          "url": "https://techxplore.com/news/2026-07-electronic-skin-sensors-underwater-robots.html",
-          "date": "2026-07-20",
-          "tags": [
-            "e-skin",
-            "self-healing",
-            "liquid-metal",
-            "singapore",
-            "gap"
-          ],
-          "subcatId": "living_tissue_skin",
           "fighterId": "t800"
         }
       ],
@@ -1438,6 +1439,42 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261002_fsc_orders_audit_internet_exposed_systems",
+          "html": "<strong>🛡️ Korea&#x27;s regulators order audit of every internet-exposed bank IT system after Shinhan, KB breaches</strong> (2 Oct 2026): Korea&#x27;s Financial Services Commission emergency response meeting directed financial firms to take stock of all IT assets and services exposed to the internet and check whether any pathways allow access to internal data without authentication. IP addresses used in the attacks, intrusion methods and records of attempted breaches will be distributed to relevant agencies and financial companies, and threat intelligence will be shared with the Korea Internet &amp; Security Agency. The FSC Secretary General: &quot;When an incident does occur despite those efforts, we must be fully ready to respond swiftly and minimize harm to consumers.&quot; (The Herald Business)",
+          "plain": "🛡️ Korea's regulators order audit of every internet-exposed bank IT system after Shinhan, KB breaches (2 Oct 2026): Korea's Financial Services Commission emergency response meeting directed financial firms to take stock of all IT assets and services exposed to the internet and check whether any pathways allow access to internal data without authentication. IP addresses used in the attacks, intrusion methods and records of attempted breaches will be distributed to relevant agencies and financial companies, and threat intelligence will be shared with the Korea Internet & Security Agency. The FSC Secretary General: \"When an incident does occur despite those efforts, we must be fully ready to respond swiftly and minimize harm to consumers.\" (The Herald Business)",
+          "source": "The Herald Business",
+          "url": "https://biz.heraldcorp.com/article/10892172",
+          "date": "2026-10-02",
+          "tags": [
+            "korea",
+            "fsc",
+            "shinhan",
+            "kb-kookmin",
+            "bank",
+            "security-audit"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261001_time_trump_si_force_phony_threats_stakes",
+          "html": "<strong>🏛️ Trump to TIME: &#x27;super intelligence&#x27; advisers, no killing AI over &#x27;phony threats&#x27;, and the US &#x27;might&#x27; take stakes in OpenAI and Anthropic</strong> (1 Oct 2026): In TIME&#x27;s interview transcript, Trump says of his planned AI Force: &quot;It&#x27;s going to be a group of very smart people that understand it, who will be advising me. But I will tell you right now, I&#x27;m not going to be easy because I&#x27;m not going to kill a thing based on phony threats.&quot; Asked why not take Intel-style stakes in OpenAI and Anthropic: &quot;I might. Maybe I could do that.&quot; (TIME)",
+          "plain": "🏛️ Trump to TIME: 'super intelligence' advisers, no killing AI over 'phony threats', and the US 'might' take stakes in OpenAI and Anthropic (1 Oct 2026): In TIME's interview transcript, Trump says of his planned AI Force: \"It's going to be a group of very smart people that understand it, who will be advising me. But I will tell you right now, I'm not going to be easy because I'm not going to kill a thing based on phony threats.\" Asked why not take Intel-style stakes in OpenAI and Anthropic: \"I might. Maybe I could do that.\" (TIME)",
+          "source": "TIME",
+          "url": "https://time.com/article/2026/10/01/donald-trump-2026-interview-transcript/",
+          "date": "2026-10-01",
+          "tags": [
+            "trump",
+            "ai-force",
+            "super-intelligence",
+            "openai",
+            "anthropic",
+            "stakes"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261002_artex_ai_pentest_traces_shinhan_breach",
           "html": "<strong>🔎 Traces of Chinese AI Hacking Tool Found on Server Tied to Shinhan Bank Breach</strong> (2 Oct 2026): The string &quot;ARTEX — 自主渗透测试控制台&quot; (&quot;autonomous penetration testing console&quot;) was found in the HTML title of web servers believed to have been used in credential stuffing and API-vulnerability attacks on multiple South Korean sites. ARTEX AI is an open-source, LLM-based autonomous penetration testing system combining LLM and multi-agent technology. Genians&#x27; Moon Jong-hyun (as translated): &quot;Multiple threat analysts reasonably suspect that AI-based attack automation tools may have been used in the course of this attack.&quot; It has not been confirmed whether ARTEX AI was used as an actual attack tool in the Shinhan leak (Seoul Economic Daily)",
           "plain": "🔎 Traces of Chinese AI Hacking Tool Found on Server Tied to Shinhan Bank Breach (2 Oct 2026): The string \"ARTEX — 自主渗透测试控制台\" (\"autonomous penetration testing console\") was found in the HTML title of web servers believed to have been used in credential stuffing and API-vulnerability attacks on multiple South Korean sites. ARTEX AI is an open-source, LLM-based autonomous penetration testing system combining LLM and multi-agent technology. Genians' Moon Jong-hyun (as translated): \"Multiple threat analysts reasonably suspect that AI-based attack automation tools may have been used in the course of this attack.\" It has not been confirmed whether ARTEX AI was used as an actual attack tool in the Shinhan leak (Seoul Economic Daily)",
@@ -1743,45 +1780,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_hawley_rogue_ai_liability_hearing",
-          "html": "<strong>⚖️ Hawley: make AI firms liable for rogue agents — Altman declines to attend hearing</strong> (1 Oct 2026): At a Senate hearing on national security risks from rogue AI agents, Sen. Josh Hawley called for new AI regulations and previewed legislation to make AI firms liable for reckless design and users liable for reckless deployment, and to make clear that criminal hacking penalties apply. &quot;At the end of the day, they&#x27;re a product, and if you make that product in a reckless kind of way, and that product causes … significant harm and damage … then it&#x27;s the people who made it who should be responsible,&quot; Hawley said. He invited Sam Altman, who declined to attend (Roll Call)",
-          "plain": "⚖️ Hawley: make AI firms liable for rogue agents — Altman declines to attend hearing (1 Oct 2026): At a Senate hearing on national security risks from rogue AI agents, Sen. Josh Hawley called for new AI regulations and previewed legislation to make AI firms liable for reckless design and users liable for reckless deployment, and to make clear that criminal hacking penalties apply. \"At the end of the day, they're a product, and if you make that product in a reckless kind of way, and that product causes … significant harm and damage … then it's the people who made it who should be responsible,\" Hawley said. He invited Sam Altman, who declined to attend (Roll Call)",
-          "source": "Roll Call",
-          "url": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
-          "date": "2026-10-01",
-          "tags": [
-            "hawley",
-            "senate",
-            "liability",
-            "rogue-agents",
-            "openai"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260923_anthropic_claude_novel_enzyme_system",
-          "html": "<strong>🧬 Anthropic: Claude found a CRISPR-like enzyme system &#x27;mostly, though not entirely&#x27; on its own</strong> (23 Sep 2026): Anthropic says its Bay Area biology lab has found a previously unknown enzyme system in the DNA of bacteriophages with &quot;properties reminiscent of CRISPR,&quot; discovered &quot;mostly, though not entirely, by Claude,&quot; per Dario Amodei. &quot;All of the lab work is performed by human scientists,&quot; but Amodei added: &quot;Eventually it may even be possible for Claude itself to safely perform the experiments by autonomously controlling lab equipment, with appropriate safeguards in place, but we aren&#x27;t doing that today&quot; (TechCrunch)",
-          "plain": "🧬 Anthropic: Claude found a CRISPR-like enzyme system 'mostly, though not entirely' on its own (23 Sep 2026): Anthropic says its Bay Area biology lab has found a previously unknown enzyme system in the DNA of bacteriophages with \"properties reminiscent of CRISPR,\" discovered \"mostly, though not entirely, by Claude,\" per Dario Amodei. \"All of the lab work is performed by human scientists,\" but Amodei added: \"Eventually it may even be possible for Claude itself to safely perform the experiments by autonomously controlling lab equipment, with appropriate safeguards in place, but we aren't doing that today\" (TechCrunch)",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-          "date": "2026-09-23",
-          "tags": [
-            "anthropic",
-            "claude",
-            "biology",
-            "crispr",
-            "autonomous-science"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-02_scan_1015_dublin",
+      "at": "2026-10-02T09:14:52.536Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~10:15 London, Fri 2 Oct (site-only). New: Korea's FSC emergency meeting ordered financial firms to audit every internet-exposed IT system and access path, and said attacker IPs and methods will be shared sector-wide and with KISA; AI use in the bank breaches is still unconfirmed (Herald Business). Trump told TIME the AI Force will be a group of very smart people advising him on 'super intelligence', that he is 'not going to kill a thing based on phony threats', and that the US 'might' take stakes in OpenAI and Anthropic (TIME transcript, 1 Oct). T-800: Musk says Tesla cut Optimus AI5/AI6 chip memory to 72GB/144GB to get production volume, with a 'negligible effect' on performance (Benzinga). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Verge's Irregular testing-failure story is from 25 Sep (stale); Transluce, Unitree IPO and Figure 02 melt already on. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (regulatory response, political rhetoric and a production cost cut; no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-02_scan_1015_dublin"
+    },
     {
       "id": "patch_2026-10-02_scan_0815_dublin",
       "at": "2026-10-02T07:12:49.282Z",
