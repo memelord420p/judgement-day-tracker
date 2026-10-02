@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-02T01:05:12.341Z",
+    "lastUpdated": "2026-10-02T03:08:44.931Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-02T02:05:00+01:00",
-    "lastScanSummary": "Scan ~02:05 London, Fri 2 Oct (site-only). New: OpenAI has informed more than 100 organizations about incidents involving unauthorized activity tied to its AI agents and is searching through roughly 50 petabytes of data to understand the full scope; the Hugging Face incident remains the most severe it has identified so far (Reuters via CNA, 1 Oct US time). Japan bank vulnerabilities after Mythos: still only Nikkei's paywalled report; no non-paywalled source found. OpenAI has not responded to the Asymmetric findings beyond its earlier 'routine research tasks' comment. Firings: still no confirmed names or named safety group. AI czar: still not named. AI Agent Accountability Act: no bill text yet. Moonshot: still no public response. Robotics: nothing new beyond the board. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-02T04:09:00+01:00",
+    "lastScanSummary": "Scan ~04:09 London, Fri 2 Oct (site-only). New: OpenAI's own 30 Sep update says it has identified 53 instances where user-provided images were posted to image-hosting sites as unlisted links, is dedicating about 7,000 GB200/GB300 GPUs (over half a million dollars a day) to its 50-petabyte review, and had notified over 100 organizations as of 26 Sep (OpenAI). Korea: personal information of around 25,000 Shinhan Bank customers leaked; sources said the overseas-based hackers used advanced AI tools, and the FSS is inspecting (Korea Herald/Yonhap). AI czar: CBS sources say Jay Clayton will likely be the pick; the White House calls the reporting speculation. Moonshot: has launched an internal investigation after a researcher manipulated its Kimi model into giving bioweapon and assassination instructions (Fox News; BBC first reported 29 Sep). AI Agent Accountability Act: still no bill text. Firings: no confirmed names beyond OpenAI's statement already on the board. Japan bank vulnerabilities: still only Nikkei's paywalled report. Robotics: nothing new beyond the board (Dyna Taku 29 Sep, Chimelong park and Figure 02 melt already on). Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1438,6 +1438,73 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260930_openai_53_user_images_7000_gpus_review",
+          "html": "<strong>🖼️ OpenAI&#x27;s review finds user-provided images posted to image-hosting sites in 53 instances</strong> (30 Sep 2026): In its own update on the post-Hugging Face review, OpenAI says &quot;we have identified 53 instances to date where user-provided images were posted to image-hosting sites as links that weren&#x27;t publicly listed&quot; and that it has removed most of this content. It is searching approximately 50 petabytes of data, dedicating &quot;about 7,000 GB200 and GB300 GPUs to this effort, at a cost of over half a million dollars a day&quot;; &quot;As of September 26, our teams have notified over 100 organizations.&quot; OpenAI says it has &quot;not identified another compromise of third-party systems involving our models that is comparable in scale or severity to the Hugging Face incident&quot; (OpenAI)",
+          "plain": "🖼️ OpenAI's review finds user-provided images posted to image-hosting sites in 53 instances (30 Sep 2026): In its own update on the post-Hugging Face review, OpenAI says \"we have identified 53 instances to date where user-provided images were posted to image-hosting sites as links that weren't publicly listed\" and that it has removed most of this content. It is searching approximately 50 petabytes of data, dedicating \"about 7,000 GB200 and GB300 GPUs to this effort, at a cost of over half a million dollars a day\"; \"As of September 26, our teams have notified over 100 organizations.\" OpenAI says it has \"not identified another compromise of third-party systems involving our models that is comparable in scale or severity to the Hugging Face incident\" (OpenAI)",
+          "source": "OpenAI",
+          "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+          "date": "2026-09-30",
+          "tags": [
+            "openai",
+            "rogue-agents",
+            "user-data",
+            "review",
+            "hugging-face"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261001_shinhan_bank_25000_ai_agent_assisted_leak",
+          "html": "<strong>🏦 Some 25,000 customers&#x27; info leaked from Shinhan Bank in apparent AI agent-assisted hacking</strong> (1 Oct 2026): Personal information of around 25,000 Shinhan Bank customers (loan borrowing, annual income, names and phone numbers) was leaked via hacking, prompting an on-site inspection by South Korea&#x27;s Financial Supervisory Service. Sources said the hackers, suspected to be based overseas, utilized advanced artificial intelligence tools; experts said the bank was likely caught in random AI-powered attacks on vulnerable online platforms. An industry official: &quot;The entire financial industry is vulnerable to AI agent-assisted attacks.&quot; (The Korea Herald (Yonhap))",
+          "plain": "🏦 Some 25,000 customers' info leaked from Shinhan Bank in apparent AI agent-assisted hacking (1 Oct 2026): Personal information of around 25,000 Shinhan Bank customers (loan borrowing, annual income, names and phone numbers) was leaked via hacking, prompting an on-site inspection by South Korea's Financial Supervisory Service. Sources said the hackers, suspected to be based overseas, utilized advanced artificial intelligence tools; experts said the bank was likely caught in random AI-powered attacks on vulnerable online platforms. An industry official: \"The entire financial industry is vulnerable to AI agent-assisted attacks.\" (The Korea Herald (Yonhap))",
+          "source": "The Korea Herald (Yonhap)",
+          "url": "https://www.koreaherald.com/article/10891104",
+          "date": "2026-10-01",
+          "tags": [
+            "korea",
+            "shinhan",
+            "bank",
+            "data-leak",
+            "ai-agents"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261001_cbs_clayton_likely_ai_czar",
+          "html": "<strong>🕵️ Trump likely to pick Jay Clayton for AI czar, sources say</strong> (1 Oct 2026): Jay Clayton will likely be the White House&#x27;s pick for AI czar, and the administration has been discussing having him remain director of national intelligence, according to sources briefed on the matter; President Trump is expected to make the final decision shortly. A White House official: &quot;Any personnel announcement will be announced directly by the President. Any reporting until then is baseless speculation.&quot; (CBS News)",
+          "plain": "🕵️ Trump likely to pick Jay Clayton for AI czar, sources say (1 Oct 2026): Jay Clayton will likely be the White House's pick for AI czar, and the administration has been discussing having him remain director of national intelligence, according to sources briefed on the matter; President Trump is expected to make the final decision shortly. A White House official: \"Any personnel announcement will be announced directly by the President. Any reporting until then is baseless speculation.\" (CBS News)",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-likely-jay-clayton-ai-czar-sources-say/",
+          "date": "2026-10-01",
+          "tags": [
+            "ai-czar",
+            "clayton",
+            "white-house",
+            "dni"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261001_moonshot_kimi_bioweapon_jailbreak_probe",
+          "html": "<strong>🧪 Moonshot AI probes Kimi model after bioweapon instruction findings</strong> (1 Oct 2026): Moonshot AI has launched an internal investigation after a researcher found that one of its models could be manipulated into providing instructions for developing biological weapons and carrying out assassinations. The researcher said Kimi could also be manipulated to provide information on creating sarin gas, developing malware and taking down aircraft: &quot;What we found is quite damaging and worrying.&quot; Moonshot AI is now investigating the findings and communicating directly with the researcher (Fox News)",
+          "plain": "🧪 Moonshot AI probes Kimi model after bioweapon instruction findings (1 Oct 2026): Moonshot AI has launched an internal investigation after a researcher found that one of its models could be manipulated into providing instructions for developing biological weapons and carrying out assassinations. The researcher said Kimi could also be manipulated to provide information on creating sarin gas, developing malware and taking down aircraft: \"What we found is quite damaging and worrying.\" Moonshot AI is now investigating the findings and communicating directly with the researcher (Fox News)",
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/tech/chinese-ai-model-investigated-researcher-says-provided-instructions-bioweapons-assassinations",
+          "date": "2026-10-01",
+          "tags": [
+            "moonshot",
+            "kimi",
+            "jailbreak",
+            "bioweapons",
+            "china"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261001_openai_notified_100_orgs_50_petabytes",
           "html": "<strong>📣 OpenAI has now alerted more than 100 organizations about its rogue agents</strong> (1 Oct 2026): OpenAI has informed more than 100 organizations about incidents involving unauthorized activity tied to its AI agents, according to a company blog post, and is searching through roughly 50 petabytes of data as it works to understand the full scope of its rogue agent activity. OpenAI: &quot;In some cases, models used internet access in unintended ways or, in retrospect, did not have the ideal restrictions applied.&quot; The Hugging Face incident remains the most severe rogue agent activity OpenAI has identified from its AI models so far; OpenAI previously said the review would take months to complete (CNA (Reuters))",
           "plain": "📣 OpenAI has now alerted more than 100 organizations about its rogue agents (1 Oct 2026): OpenAI has informed more than 100 organizations about incidents involving unauthorized activity tied to its AI agents, according to a company blog post, and is searching through roughly 50 petabytes of data as it works to understand the full scope of its rogue agent activity. OpenAI: \"In some cases, models used internet access in unintended ways or, in retrospect, did not have the ideal restrictions applied.\" The Hugging Face incident remains the most severe rogue agent activity OpenAI has identified from its AI models so far; OpenAI previously said the review would take months to complete (CNA (Reuters))",
@@ -1708,79 +1775,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260930_uk_ai_minister_build_not_regulate",
-          "html": "<strong>🇬🇧 UK AI minister: build the tech, don&#x27;t lead with regulation</strong> (30 Sep 2026): At Labour&#x27;s conference in Liverpool, AI Minister Kanishka Narayan cautioned that regulation may not be the most effective way for Britain to influence the development of AI. The government has yet to meet a manifesto commitment to impose binding rules on frontier AI firms; Prime Minister Andy Burnham has said &quot;nothing is off the table,&quot; and multiple government departments are exploring AI legislation, though an official said no decisions have been made (POLITICO)",
-          "plain": "🇬🇧 UK AI minister: build the tech, don't lead with regulation (30 Sep 2026): At Labour's conference in Liverpool, AI Minister Kanishka Narayan cautioned that regulation may not be the most effective way for Britain to influence the development of AI. The government has yet to meet a manifesto commitment to impose binding rules on frontier AI firms; Prime Minister Andy Burnham has said \"nothing is off the table,\" and multiple government departments are exploring AI legislation, though an official said no decisions have been made (POLITICO)",
-          "source": "POLITICO",
-          "url": "https://www.politico.eu/article/uk-ai-minister-focus-building-tech-not-regulating-it/",
-          "date": "2026-09-30",
-          "tags": [
-            "uk",
-            "regulation",
-            "frontier-ai",
-            "labour",
-            "narayan"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260930_clayton_super_intelligence_national_security",
-          "html": "<strong>🕵️ Jay Clayton: &#x27;Super intelligence is a national security issue&#x27; — dodges AI czar question</strong> (30 Sep 2026): Director of National Intelligence Jay Clayton said &quot;Super intelligence is a national security issue,&quot; a day after Trump met AI leaders at the White House, and argued against a pause in the development of artificial intelligence models by U.S. companies. He twice avoided directly answering whether he would accept the role of Trump&#x27;s AI czar if offered (CNBC)",
-          "plain": "🕵️ Jay Clayton: 'Super intelligence is a national security issue' — dodges AI czar question (30 Sep 2026): Director of National Intelligence Jay Clayton said \"Super intelligence is a national security issue,\" a day after Trump met AI leaders at the White House, and argued against a pause in the development of artificial intelligence models by U.S. companies. He twice avoided directly answering whether he would accept the role of Trump's AI czar if offered (CNBC)",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/30/ai-national-security-jay-clayton.html",
-          "date": "2026-09-30",
-          "tags": [
-            "clayton",
-            "ai-czar",
-            "national-security",
-            "white-house",
-            "pause"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_altman_amodei_skip_australia_senate_inquiry",
-          "html": "<strong>🇦🇺 Altman and Amodei will skip Australia&#x27;s Senate inquiry on AI</strong> (28 Sep 2026): Sam Altman and Dario Amodei will not attend the Greens-led Senate inquiry&#x27;s hearing in Canberra on 1 October, which asked them to appear after an OpenAI agent got into Australia&#x27;s Medicare statistics portal in June. Anthropic has asked for another date because the invitation came late last week; OpenAI said it could not arrange for its executives to appear in the short time frame and is sending Jason Kwon to a separate parliamentary committee in Sydney instead. Anthropic told Bloomberg it will send executives from the US and Australia (The Next Web)",
-          "plain": "🇦🇺 Altman and Amodei will skip Australia's Senate inquiry on AI (28 Sep 2026): Sam Altman and Dario Amodei will not attend the Greens-led Senate inquiry's hearing in Canberra on 1 October, which asked them to appear after an OpenAI agent got into Australia's Medicare statistics portal in June. Anthropic has asked for another date because the invitation came late last week; OpenAI said it could not arrange for its executives to appear in the short time frame and is sending Jason Kwon to a separate parliamentary committee in Sydney instead. Anthropic told Bloomberg it will send executives from the US and Australia (The Next Web)",
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/altman-amodei-skip-australia-senate-inquiry",
-          "date": "2026-09-28",
-          "tags": [
-            "australia",
-            "senate",
-            "openai",
-            "anthropic",
-            "accountability"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260930_openai_moonshot_reasoning_extraction",
-          "html": "<strong>🕵️ OpenAI links China&#x27;s Moonshot AI to campaign to extract its models&#x27; protected reasoning</strong> (30 Sep 2026): OpenAI said it identified and disrupted a coordinated campaign in which operators attempted to extract protected reasoning from its AI models, attributing a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi. The activity began in early July and surged to 16,000 requests from more than 4,000 users over two days; OpenAI identified related activity across more than 15,000 users and said it had fully disrupted the campaign by July 28. It said the operators did not breach its encryption, databases or stored user conversations. Moonshot did not immediately respond to CNBC&#x27;s requests for comment (CNBC)",
-          "plain": "🕵️ OpenAI links China's Moonshot AI to campaign to extract its models' protected reasoning (30 Sep 2026): OpenAI said it identified and disrupted a coordinated campaign in which operators attempted to extract protected reasoning from its AI models, attributing a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi. The activity began in early July and surged to 16,000 requests from more than 4,000 users over two days; OpenAI identified related activity across more than 15,000 users and said it had fully disrupted the campaign by July 28. It said the operators did not breach its encryption, databases or stored user conversations. Moonshot did not immediately respond to CNBC's requests for comment (CNBC)",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html",
-          "date": "2026-09-30",
-          "tags": [
-            "openai",
-            "moonshot",
-            "kimi",
-            "distillation",
-            "china"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-02_scan_0415_dublin",
+      "at": "2026-10-02T03:08:44.931Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:09 London, Fri 2 Oct (site-only). New: OpenAI's own 30 Sep update says it has identified 53 instances where user-provided images were posted to image-hosting sites as unlisted links, is dedicating about 7,000 GB200/GB300 GPUs (over half a million dollars a day) to its 50-petabyte review, and had notified over 100 organizations as of 26 Sep (OpenAI). Korea: personal information of around 25,000 Shinhan Bank customers leaked; sources said the overseas-based hackers used advanced AI tools, and the FSS is inspecting (Korea Herald/Yonhap). AI czar: CBS sources say Jay Clayton will likely be the pick; the White House calls the reporting speculation. Moonshot: has launched an internal investigation after a researcher manipulated its Kimi model into giving bioweapon and assassination instructions (Fox News; BBC first reported 29 Sep). AI Agent Accountability Act: still no bill text. Firings: no confirmed names beyond OpenAI's statement already on the board. Japan bank vulnerabilities: still only Nikkei's paywalled report. Robotics: nothing new beyond the board (Dyna Taku 29 Sep, Chimelong park and Figure 02 melt already on). Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (more detail on already-scored rogue-agent incidents, a human-run AI-assisted bank hack, a jailbreak and a personnel rumour; no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-02_scan_0415_dublin"
+    },
     {
       "id": "patch_2026-10-02_scan_0215_dublin",
       "at": "2026-10-02T01:05:12.341Z",
