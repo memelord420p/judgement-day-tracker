@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-02T15:09:38.082Z",
+    "lastUpdated": "2026-10-02T19:12:24.223Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-02T16:10:00+01:00",
-    "lastScanSummary": "Scan ~16:10 London, Fri 2 Oct (site-only). New: The Korean National Police Agency's Cyber Terror Response Investigation Unit launched a preliminary inquiry into allegations of wide-ranging AI-based hacking and data breaches at Shinhan, KB Kookmin, Hana and BNK Busan banks (Herald Business, via Yonhap). AI use is still not officially confirmed: ARTEX traces remain unconfirmed as an actual attack tool. Robotics: UIUC's InterEvolve paper reports goal-conditioned humanoid task success rising from 8% to 86.5% as an LLM agent rewrites reward-program structure, with skills run autonomously on a physical Unitree G1 (AI Weekly). AI czar: CNN (via Reuters) says Trump is expected to pick Jay Clayton and could announce as early as Friday; still no official announcement (CBS 'likely' item already on). AI Agent Accountability Act: still no bill text or number found. Asymmetric 55-site report, FTC probe, Gemini 4 Argon, OpenAI firings and Astra cancellation already on. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-02T20:12:00+01:00",
+    "lastScanSummary": "Scan ~20:12 London, Fri 2 Oct (site-only; covers 16:10 to now, the 18:15 slot was missed). AI czar: still NOT officially announced as of this scan. CNN, NBC, Reuters, Axios, the Washington Post and Bloomberg all report Trump is expected to name DNI Jay Clayton, possibly as early as Friday; the White House calls the reporting 'baseless speculation' (CBS 'likely' item already on). New: TechCrunch, citing a TIME report, says Trump 'spent hours' talking to Grok in December 2025, including asking how Venezuelans would respond to the capture of their president, weeks before the U.S. operation. Anthropic's IPO filing shows Broadcom agreed to lend it up to $42 billion to finance infrastructure spending, covering about a third of a $125.2 billion five-year TPU lease commitment (CNBC/Reuters, 1 Oct). Korea: Hana, Busan and police-probe follow-ups already on; AI use still not officially confirmed. AI Agent Accountability Act: still no bill text or number found. California AG (Politico follow-up), FTC probe, OpenAI firings, the SQL-injection probes of Library and Archives Canada, and Anthropic IPO risk factors already on. Robotics: REK cease-and-desist (letter dated 23 Sep, not authenticated by Humanoids Daily) skipped; Atlas hand, Optimus, Agility/FORT and Astribot already on. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1439,6 +1439,41 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261001_time_trump_grok_venezuela_maduro",
+          "html": "<strong>🇻🇪 Musk&#x27;s AI chatbot Grok reportedly encouraged Trump to capture Venezuela&#x27;s president</strong> (1 Oct 2026): In December 2025, about a month before the U.S. invaded Venezuela and captured its president, Nicolás Maduro, Trump had a secret meeting with Elon Musk, Time magazine reports. During this meeting, Trump &quot;spent hours&quot; talking to Musk&#x27;s Grok chatbot, including asking how Venezuelans would respond to the capture of their president, a source told Time. Grok told Trump that Maduro was a &quot;deeply unpopular dictator and that many Venezuelans would likely celebrate his downfall,&quot; Time reported. (TechCrunch)",
+          "plain": "🇻🇪 Musk's AI chatbot Grok reportedly encouraged Trump to capture Venezuela's president (1 Oct 2026): In December 2025, about a month before the U.S. invaded Venezuela and captured its president, Nicolás Maduro, Trump had a secret meeting with Elon Musk, Time magazine reports. During this meeting, Trump \"spent hours\" talking to Musk's Grok chatbot, including asking how Venezuelans would respond to the capture of their president, a source told Time. Grok told Trump that Maduro was a \"deeply unpopular dictator and that many Venezuelans would likely celebrate his downfall,\" Time reported. (TechCrunch)",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+          "date": "2026-10-01",
+          "tags": [
+            "grok",
+            "xai",
+            "trump",
+            "venezuela",
+            "military",
+            "time"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261001_broadcom_lend_anthropic_42b_tpu",
+          "html": "<strong>Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says</strong> (1 Oct 2026): As part of that complex relationship, revealed in the IPO filing, Broadcom has agreed to lend Anthropic up to $42 billion to finance infrastructure spending. The convertible note could finance about a third of the $125.2 billion commitment the AI lab has made for a five-year lease of tensor processing unit (TPU) computing capacity. Anthropic disclosed that Broadcom&#x27;s role in supplying hardware and acting as a financing partner creates &quot;potential conflicts of interest&quot; (Reuters via CNBC). (CNBC)",
+          "plain": "Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says (1 Oct 2026): As part of that complex relationship, revealed in the IPO filing, Broadcom has agreed to lend Anthropic up to $42 billion to finance infrastructure spending. The convertible note could finance about a third of the $125.2 billion commitment the AI lab has made for a five-year lease of tensor processing unit (TPU) computing capacity. Anthropic disclosed that Broadcom's role in supplying hardware and acting as a financing partner creates \"potential conflicts of interest\" (Reuters via CNBC). (CNBC)",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/01/broadcom-lending-anthropic-42-billion-chips-reuters.html",
+          "date": "2026-10-01",
+          "tags": [
+            "anthropic",
+            "broadcom",
+            "tpu",
+            "compute",
+            "ipo"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261002_korea_police_preliminary_probe_ai_bank_hacking",
           "html": "<strong>🚔 Police launch preliminary probe into AI hacking allegations at major banks</strong> (2 Oct 2026): Police have launched a preliminary inquiry — a pre-indictment investigation — into allegations of wide-ranging AI-based hacking and data breaches targeting major domestic banks. The Korean National Police Agency&#x27;s Cyber Terror Response Investigation Unit began probing a series of data leak incidents confirmed at Shinhan Bank, KB Kookmin Bank, Hana Bank and BNK Busan Bank, and will examine the methods used in the attacks and the identity of the perpetrators while reviewing whether to elevate the case to a full formal investigation. (The Herald Business)",
           "plain": "🚔 Police launch preliminary probe into AI hacking allegations at major banks (2 Oct 2026): Police have launched a preliminary inquiry — a pre-indictment investigation — into allegations of wide-ranging AI-based hacking and data breaches targeting major domestic banks. The Korean National Police Agency's Cyber Terror Response Investigation Unit began probing a series of data leak incidents confirmed at Shinhan Bank, KB Kookmin Bank, Hana Bank and BNK Busan Bank, and will examine the methods used in the attacks and the identity of the perpetrators while reviewing whether to elevate the case to a full formal investigation. (The Herald Business)",
@@ -1749,45 +1784,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_techcrunch_openai_statement_three_safety_researchers",
-          "html": "<strong>🔇 OpenAI: the three safety researchers &#x27;mishandled sensitive information&#x27;</strong> (1 Oct 2026): Follow-up on the WSJ scoop. OpenAI&#x27;s spokesperson: &quot;We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information. Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work.&quot; The report did not name the researchers, the organization, or the information involved; TechCrunch has not confirmed the identities named in posts circulating on X. The departures come two days after the NYT reported OpenAI executives had brushed aside employees&#x27; warnings about its safety practices (TechCrunch)",
-          "plain": "🔇 OpenAI: the three safety researchers 'mishandled sensitive information' (1 Oct 2026): Follow-up on the WSJ scoop. OpenAI's spokesperson: \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information. Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work.\" The report did not name the researchers, the organization, or the information involved; TechCrunch has not confirmed the identities named in posts circulating on X. The departures come two days after the NYT reported OpenAI executives had brushed aside employees' warnings about its safety practices (TechCrunch)",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-          "date": "2026-10-01",
-          "tags": [
-            "openai",
-            "safety-team",
-            "whistleblowers",
-            "statement",
-            "techcrunch"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_verge_huang_grilled_amodei_ai_warnings",
-          "html": "<strong>🥊 Tech CEOs privately grilled Amodei over his AI warnings</strong> (1 Oct 2026): The Wall Street Journal reports that AI leaders attending President Trump&#x27;s gathering on Tuesday, including Nvidia&#x27;s Jensen Huang, privately grilled the Anthropic CEO about the AI safety alarms he&#x27;s publicly sounded regarding cybersecurity and job losses. &quot;Amodei told the other executives that it is important to be honest with the public about model capabilities and not play down risks.&quot; The conversation occurred in the Roosevelt Room while executives and White House aides hashed out the principles (The Verge)",
-          "plain": "🥊 Tech CEOs privately grilled Amodei over his AI warnings (1 Oct 2026): The Wall Street Journal reports that AI leaders attending President Trump's gathering on Tuesday, including Nvidia's Jensen Huang, privately grilled the Anthropic CEO about the AI safety alarms he's publicly sounded regarding cybersecurity and job losses. \"Amodei told the other executives that it is important to be honest with the public about model capabilities and not play down risks.\" The conversation occurred in the Roosevelt Room while executives and White House aides hashed out the principles (The Verge)",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1003197/amodeis-extreme-ai-warnings-were-questioned-by-tech-ceos",
-          "date": "2026-10-01",
-          "tags": [
-            "anthropic",
-            "amodei",
-            "nvidia",
-            "huang",
-            "white-house"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-02_scan_2015_dublin",
+      "at": "2026-10-02T19:12:24.223Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:12 London, Fri 2 Oct (site-only; covers 16:10 to now, the 18:15 slot was missed). AI czar: still NOT officially announced as of this scan. CNN, NBC, Reuters, Axios, the Washington Post and Bloomberg all report Trump is expected to name DNI Jay Clayton, possibly as early as Friday; the White House calls the reporting 'baseless speculation' (CBS 'likely' item already on). New: TechCrunch, citing a TIME report, says Trump 'spent hours' talking to Grok in December 2025, including asking how Venezuelans would respond to the capture of their president, weeks before the U.S. operation. Anthropic's IPO filing shows Broadcom agreed to lend it up to $42 billion to finance infrastructure spending, covering about a third of a $125.2 billion five-year TPU lease commitment (CNBC/Reuters, 1 Oct). Korea: Hana, Busan and police-probe follow-ups already on; AI use still not officially confirmed. AI Agent Accountability Act: still no bill text or number found. California AG (Politico follow-up), FTC probe, OpenAI firings, the SQL-injection probes of Library and Archives Canada, and Anthropic IPO risk factors already on. Robotics: REK cease-and-desist (letter dated 23 Sep, not authenticated by Humanoids Daily) skipped; Atlas hand, Optimus, Agility/FORT and Astribot already on. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a reported chatbot consultation, not autonomous military action; a compute financing deal; czar still unannounced; no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-02_scan_2015_dublin"
+    },
     {
       "id": "patch_2026-10-02_scan_1615_dublin",
       "at": "2026-10-02T15:09:38.082Z",
@@ -2569,14 +2578,6 @@
       "type": "patch",
       "summary": "Set brand X channel to @judgementdayt live",
       "patchId": "patch_x_handle_live"
-    },
-    {
-      "id": "patch_smoke_api",
-      "at": "2026-09-20T12:00:56.256Z",
-      "by": "cursor-agent-smoke",
-      "type": "patch",
-      "summary": "Smoke test: stamp lastScan via API",
-      "patchId": "patch_smoke_api"
     }
   ],
   "pendingPosts": [
