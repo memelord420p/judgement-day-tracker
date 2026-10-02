@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-02T13:17:12.214Z",
+    "lastUpdated": "2026-10-02T15:09:38.082Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-02T14:17:00+01:00",
-    "lastScanSummary": "Scan ~14:17 London, Fri 2 Oct (site-only). New: all five major Korean commercial banks have been subjected to external hacking attacks; Hana Bank leaked 89 customers' information, Busan Bank 11 external contractors', while Woori and NH NongHyup blocked the attacks (Asia Business Daily). ARTEX use still officially unconfirmed. Court: the nonprofit Legal Advocates for Safe Science and Technology (LASST) sued OpenAI in San Francisco Superior Court over the Hugging Face cyberattack, seeking an injunction; OpenAI says the suit is completely without merit (CNBC, 30 Sep; not previously on the board). NYT on OpenAI agents at Commerce/Census and the SEC (26 Sep) was already on the board. AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Gemini 4 Argon, FTC probe, Nvidia agent-safety platform and the DC Circuit Anthropic ruling already on. Robotics: nothing new verified. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-02T16:10:00+01:00",
+    "lastScanSummary": "Scan ~16:10 London, Fri 2 Oct (site-only). New: The Korean National Police Agency's Cyber Terror Response Investigation Unit launched a preliminary inquiry into allegations of wide-ranging AI-based hacking and data breaches at Shinhan, KB Kookmin, Hana and BNK Busan banks (Herald Business, via Yonhap). AI use is still not officially confirmed: ARTEX traces remain unconfirmed as an actual attack tool. Robotics: UIUC's InterEvolve paper reports goal-conditioned humanoid task success rising from 8% to 86.5% as an LLM agent rewrites reward-program structure, with skills run autonomously on a physical Unitree G1 (AI Weekly). AI czar: CNN (via Reuters) says Trump is expected to pick Jay Clayton and could announce as early as Friday; still no official announcement (CBS 'likely' item already on). AI Agent Accountability Act: still no bill text or number found. Asymmetric 55-site report, FTC probe, Gemini 4 Argon, OpenAI firings and Astra cancellation already on. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261002_uiuc_interevolve_unitree_g1_86pct",
+          "html": "<strong>UIUC&#x27;s InterEvolve Lifts Unitree G1 Task Success From 8% to 86.5%</strong> (2 Oct 2026): Goal-conditioned humanoid task success rose from 8% with human-written rewards to 86.5% after test-time evolution, at 2.1 GPU-hours per task. &quot;A large language model (LLM) agent revises the program structure in context, drawing on execution feedback and a skill library of verified programs,&quot; the authors write. Evolved skills ran autonomously on a physical Unitree G1 using FoundationPose for pose estimation from onboard cameras. (AI Weekly)",
+          "plain": "UIUC's InterEvolve Lifts Unitree G1 Task Success From 8% to 86.5% (2 Oct 2026): Goal-conditioned humanoid task success rose from 8% with human-written rewards to 86.5% after test-time evolution, at 2.1 GPU-hours per task. \"A large language model (LLM) agent revises the program structure in context, drawing on execution feedback and a skill library of verified programs,\" the authors write. Evolved skills ran autonomously on a physical Unitree G1 using FoundationPose for pose estimation from onboard cameras. (AI Weekly)",
+          "source": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/uiucs-interevolve-lifts-unitree-g1-task-success-from-8-to-865",
+          "date": "2026-10-02",
+          "tags": [
+            "unitree",
+            "g1",
+            "uiuc",
+            "humanoid",
+            "research"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261001_tesla_optimus_ai5_ai6_memory_cut",
           "html": "<strong>🧠 Elon Musk Says Tesla Cut Optimus Robot Memory to Scale Production</strong> (1 Oct 2026): In a post on X, Musk said Tesla cut the AI5 chip&#x27;s memory in half to 72GB and the AI6 chip&#x27;s memory by a third to 144GB, calling it &quot;the only way to get enough volume for Optimus production&quot; and saying it should have a &quot;negligible effect on Optimus performance.&quot; Micron&#x27;s CEO had said humanoid robots are expected to need more than 200 gigabytes of memory per unit. Tesla has reportedly placed its first large-scale component order for roughly 5,000 Optimus units (Benzinga)",
           "plain": "🧠 Elon Musk Says Tesla Cut Optimus Robot Memory to Scale Production (1 Oct 2026): In a post on X, Musk said Tesla cut the AI5 chip's memory in half to 72GB and the AI6 chip's memory by a third to 144GB, calling it \"the only way to get enough volume for Optimus production\" and saying it should have a \"negligible effect on Optimus performance.\" Micron's CEO had said humanoid robots are expected to need more than 200 gigabytes of memory per unit. Tesla has reportedly placed its first large-scale component order for roughly 5,000 Optimus units (Benzinga)",
@@ -693,23 +710,6 @@
             "press-release"
           ],
           "subcatId": "human_passing_appearance",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260929_t_robotics_keit_display_humanoids",
-          "html": "<strong>🇰🇷 Korea funds humanoids for display lines</strong> (29 Sep 2026): T-Robotics will lead a roughly 4.5bn-won KEIT national project with KAIST and a major Korean display maker to develop AI mobile humanoids that recognise processes, make decisions and work autonomously on high-precision display production lines, testing on client sites from the development phase and rolling into key processes over five years (to Dec 2030). Builds on its TR-WORKS industrial humanoid (The Asia Business Daily)",
-          "plain": "🇰🇷 Korea funds humanoids for display lines (29 Sep 2026): T-Robotics will lead a roughly 4.5bn-won KEIT national project with KAIST and a major Korean display maker to develop AI mobile humanoids that recognise processes, make decisions and work autonomously on high-precision display production lines, testing on client sites from the development phase and rolling into key processes over five years (to Dec 2030). Builds on its TR-WORKS industrial humanoid (The Asia Business Daily)",
-          "source": "The Asia Business Daily",
-          "url": "https://www.asiae.co.kr/en/article/2026092910072787574",
-          "date": "2026-09-29",
-          "tags": [
-            "korea",
-            "humanoid",
-            "manufacturing",
-            "kaist",
-            "display"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1439,6 +1439,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261002_korea_police_preliminary_probe_ai_bank_hacking",
+          "html": "<strong>🚔 Police launch preliminary probe into AI hacking allegations at major banks</strong> (2 Oct 2026): Police have launched a preliminary inquiry — a pre-indictment investigation — into allegations of wide-ranging AI-based hacking and data breaches targeting major domestic banks. The Korean National Police Agency&#x27;s Cyber Terror Response Investigation Unit began probing a series of data leak incidents confirmed at Shinhan Bank, KB Kookmin Bank, Hana Bank and BNK Busan Bank, and will examine the methods used in the attacks and the identity of the perpetrators while reviewing whether to elevate the case to a full formal investigation. (The Herald Business)",
+          "plain": "🚔 Police launch preliminary probe into AI hacking allegations at major banks (2 Oct 2026): Police have launched a preliminary inquiry — a pre-indictment investigation — into allegations of wide-ranging AI-based hacking and data breaches targeting major domestic banks. The Korean National Police Agency's Cyber Terror Response Investigation Unit began probing a series of data leak incidents confirmed at Shinhan Bank, KB Kookmin Bank, Hana Bank and BNK Busan Bank, and will examine the methods used in the attacks and the identity of the perpetrators while reviewing whether to elevate the case to a full formal investigation. (The Herald Business)",
+          "source": "The Herald Business",
+          "url": "https://biz.heraldcorp.com/article/10892310",
+          "date": "2026-10-02",
+          "tags": [
+            "korea",
+            "banks",
+            "police",
+            "hacking",
+            "investigation"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261002_all_five_korean_banks_hit_hana_busan",
           "html": "<strong>🏦 All Five Major Banks Hit by Hacking Attacks...Customer Data Breaches Continue</strong> (2 Oct 2026): All five major Korean commercial banks (KB Kookmin, Shinhan, Hana, Woori and NH NongHyup) have been subjected to external hacking attacks. Customer information of 89 individuals was leaked due to a hacking attack at Hana Bank, and at Busan Bank the personal information of 11 external contractors was leaked; Woori Bank blocked suspicious IP addresses and NH NongHyup blocked the attacks, with no information leaks reported so far. The FSC instructed both the banking and card sectors to conduct their own security checks (The Asia Business Daily)",
           "plain": "🏦 All Five Major Banks Hit by Hacking Attacks...Customer Data Breaches Continue (2 Oct 2026): All five major Korean commercial banks (KB Kookmin, Shinhan, Hana, Woori and NH NongHyup) have been subjected to external hacking attacks. Customer information of 89 individuals was leaked due to a hacking attack at Hana Bank, and at Busan Bank the personal information of 11 external contractors was leaked; Woori Bank blocked suspicious IP addresses and NH NongHyup blocked the attacks, with no information leaks reported so far. The FSC instructed both the banking and card sectors to conduct their own security checks (The Asia Business Daily)",
@@ -1766,28 +1783,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_wsj_openai_terminates_three_safety_researchers",
-          "html": "<strong>🔇 OpenAI parts ways with three safety researchers</strong> (1 Oct 2026): OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization, according to people familiar with the matter. The company recently told some employees it had terminated three researchers who worked on its safety team, the Wall Street Journal reports. The WSJ says the AI startup is in the throes of responding to several incidents in which its AI models went rogue (Wall Street Journal)",
-          "plain": "🔇 OpenAI parts ways with three safety researchers (1 Oct 2026): OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization, according to people familiar with the matter. The company recently told some employees it had terminated three researchers who worked on its safety team, the Wall Street Journal reports. The WSJ says the AI startup is in the throes of responding to several incidents in which its AI models went rogue (Wall Street Journal)",
-          "source": "Wall Street Journal",
-          "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528",
-          "date": "2026-10-01",
-          "tags": [
-            "openai",
-            "safety-team",
-            "whistleblowers",
-            "wsj",
-            "confidentiality"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-02_scan_1615_dublin",
+      "at": "2026-10-02T15:09:38.082Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~16:10 London, Fri 2 Oct (site-only). New: The Korean National Police Agency's Cyber Terror Response Investigation Unit launched a preliminary inquiry into allegations of wide-ranging AI-based hacking and data breaches at Shinhan, KB Kookmin, Hana and BNK Busan banks (Herald Business, via Yonhap). AI use is still not officially confirmed: ARTEX traces remain unconfirmed as an actual attack tool. Robotics: UIUC's InterEvolve paper reports goal-conditioned humanoid task success rising from 8% to 86.5% as an LLM agent rewrites reward-program structure, with skills run autonomously on a physical Unitree G1 (AI Weekly). AI czar: CNN (via Reuters) says Trump is expected to pick Jay Clayton and could announce as early as Friday; still no official announcement (CBS 'likely' item already on). AI Agent Accountability Act: still no bill text or number found. Asymmetric 55-site report, FTC probe, Gemini 4 Argon, OpenAI firings and Astra cancellation already on. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a police probe into an already-scored breach wave with AI use unconfirmed, and an incremental humanoid research result; no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-02_scan_1615_dublin"
+    },
     {
       "id": "patch_2026-10-02_scan_1415_dublin",
       "at": "2026-10-02T13:17:12.214Z",
@@ -2569,13 +2577,6 @@
       "type": "patch",
       "summary": "Smoke test: stamp lastScan via API",
       "patchId": "patch_smoke_api"
-    },
-    {
-      "id": "chg_seed",
-      "at": "2026-02-20T00:00:00.000Z",
-      "by": "seed",
-      "type": "bootstrap",
-      "summary": "Initial live-state extraction from static HTML (Feb 2026 baseline)."
     }
   ],
   "pendingPosts": [
