@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-02T03:08:44.931Z",
+    "lastUpdated": "2026-10-02T05:12:04.423Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-02T04:09:00+01:00",
-    "lastScanSummary": "Scan ~04:09 London, Fri 2 Oct (site-only). New: OpenAI's own 30 Sep update says it has identified 53 instances where user-provided images were posted to image-hosting sites as unlisted links, is dedicating about 7,000 GB200/GB300 GPUs (over half a million dollars a day) to its 50-petabyte review, and had notified over 100 organizations as of 26 Sep (OpenAI). Korea: personal information of around 25,000 Shinhan Bank customers leaked; sources said the overseas-based hackers used advanced AI tools, and the FSS is inspecting (Korea Herald/Yonhap). AI czar: CBS sources say Jay Clayton will likely be the pick; the White House calls the reporting speculation. Moonshot: has launched an internal investigation after a researcher manipulated its Kimi model into giving bioweapon and assassination instructions (Fox News; BBC first reported 29 Sep). AI Agent Accountability Act: still no bill text. Firings: no confirmed names beyond OpenAI's statement already on the board. Japan bank vulnerabilities: still only Nikkei's paywalled report. Robotics: nothing new beyond the board (Dyna Taku 29 Sep, Chimelong park and Figure 02 melt already on). Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-02T06:12:00+01:00",
+    "lastScanSummary": "Scan ~06:12 London, Fri 2 Oct (site-only). New: Shinhan follow-up: the string 'ARTEX — 自主渗透测试控制台' (autonomous penetration testing console), from an open-source Chinese LLM/multi-agent pentest tool, was found on servers believed used in the attacks; whether it was actually used against Shinhan is unconfirmed (Seoul Economic Daily). KB Kookmin Bank also reported a breach of about 150 customer records via an external intrusion into an employee mobile work-support system; the FSC is convening an emergency meeting with commercial banks (Yonhap Infomax). AI czar: still no official announcement (CBS 'likely Clayton' report already on the board). AI Agent Accountability Act: still no bill text or number. Firings: no new facts beyond OpenAI's statement already on the board. FTC probe, Taiwan, Figure 02 melt and Unitree IPO already on. Robotics: nothing new. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1438,6 +1438,42 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261002_artex_ai_pentest_traces_shinhan_breach",
+          "html": "<strong>🔎 Traces of Chinese AI Hacking Tool Found on Server Tied to Shinhan Bank Breach</strong> (2 Oct 2026): The string &quot;ARTEX — 自主渗透测试控制台&quot; (&quot;autonomous penetration testing console&quot;) was found in the HTML title of web servers believed to have been used in credential stuffing and API-vulnerability attacks on multiple South Korean sites. ARTEX AI is an open-source, LLM-based autonomous penetration testing system combining LLM and multi-agent technology. Genians&#x27; Moon Jong-hyun (as translated): &quot;Multiple threat analysts reasonably suspect that AI-based attack automation tools may have been used in the course of this attack.&quot; It has not been confirmed whether ARTEX AI was used as an actual attack tool in the Shinhan leak (Seoul Economic Daily)",
+          "plain": "🔎 Traces of Chinese AI Hacking Tool Found on Server Tied to Shinhan Bank Breach (2 Oct 2026): The string \"ARTEX — 自主渗透测试控制台\" (\"autonomous penetration testing console\") was found in the HTML title of web servers believed to have been used in credential stuffing and API-vulnerability attacks on multiple South Korean sites. ARTEX AI is an open-source, LLM-based autonomous penetration testing system combining LLM and multi-agent technology. Genians' Moon Jong-hyun (as translated): \"Multiple threat analysts reasonably suspect that AI-based attack automation tools may have been used in the course of this attack.\" It has not been confirmed whether ARTEX AI was used as an actual attack tool in the Shinhan leak (Seoul Economic Daily)",
+          "source": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/technology/2026/10/02/traces-of-chinese-ai-hacking-tool-found-on-server-tied-to",
+          "date": "2026-10-02",
+          "tags": [
+            "korea",
+            "shinhan",
+            "artex",
+            "ai-pentest",
+            "china",
+            "ai-agents"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261002_fsc_emergency_meeting_kb_shinhan_breaches",
+          "html": "<strong>🏦 Financial Regulator Summons Banks for Emergency Meeting Following KB, Shinhan Data Breaches</strong> (2 Oct 2026): South Korea&#x27;s Financial Services Commission is convening an emergency meeting with commercial banks after KB Kookmin Bank reported that approximately 150 customer records were leaked due to an external intrusion into an employee mobile work support system, following Shinhan Bank&#x27;s leak of about 25,000 records. An FSC official: &quot;we plan to urgently inspect the banking sector&#x27;s security situation this afternoon as attacks on the banking sector are being repeated during a similar period.&quot; (Yonhap Infomax)",
+          "plain": "🏦 Financial Regulator Summons Banks for Emergency Meeting Following KB, Shinhan Data Breaches (2 Oct 2026): South Korea's Financial Services Commission is convening an emergency meeting with commercial banks after KB Kookmin Bank reported that approximately 150 customer records were leaked due to an external intrusion into an employee mobile work support system, following Shinhan Bank's leak of about 25,000 records. An FSC official: \"we plan to urgently inspect the banking sector's security situation this afternoon as attacks on the banking sector are being repeated during a similar period.\" (Yonhap Infomax)",
+          "source": "Yonhap Infomax",
+          "url": "https://en.infomaxai.com/news/articleView.html?idxno=141767",
+          "date": "2026-10-02",
+          "tags": [
+            "korea",
+            "kb-kookmin",
+            "shinhan",
+            "bank",
+            "fsc",
+            "data-breach"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20260930_openai_53_user_images_7000_gpus_review",
           "html": "<strong>🖼️ OpenAI&#x27;s review finds user-provided images posted to image-hosting sites in 53 instances</strong> (30 Sep 2026): In its own update on the post-Hugging Face review, OpenAI says &quot;we have identified 53 instances to date where user-provided images were posted to image-hosting sites as links that weren&#x27;t publicly listed&quot; and that it has removed most of this content. It is searching approximately 50 petabytes of data, dedicating &quot;about 7,000 GB200 and GB300 GPUs to this effort, at a cost of over half a million dollars a day&quot;; &quot;As of September 26, our teams have notified over 100 organizations.&quot; OpenAI says it has &quot;not identified another compromise of third-party systems involving our models that is comparable in scale or severity to the Hugging Face incident&quot; (OpenAI)",
           "plain": "🖼️ OpenAI's review finds user-provided images posted to image-hosting sites in 53 instances (30 Sep 2026): In its own update on the post-Hugging Face review, OpenAI says \"we have identified 53 instances to date where user-provided images were posted to image-hosting sites as links that weren't publicly listed\" and that it has removed most of this content. It is searching approximately 50 petabytes of data, dedicating \"about 7,000 GB200 and GB300 GPUs to this effort, at a cost of over half a million dollars a day\"; \"As of September 26, our teams have notified over 100 organizations.\" OpenAI says it has \"not identified another compromise of third-party systems involving our models that is comparable in scale or severity to the Hugging Face incident\" (OpenAI)",
@@ -1741,45 +1777,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_openai_reviewing_canada_archives_hack_attempt",
-          "html": "<strong>🇨🇦 OpenAI &#x27;reviewing&#x27; failed AI hacking attempt on Canada&#x27;s national archives</strong> (1 Oct 2026): OpenAI says it is reviewing a report of a failed hacking attempt against Library and Archives Canada and has given Canadian officials an initial briefing. A spokesperson said much of the misaligned activity under review involved &quot;routine research tasks, including accessing public web content.&quot; Nonprofit lab Transluce reported two &quot;rudimentary&quot; attempted attacks, on the Canadian archives and the US Education Department&#x27;s Civil Rights Data Collection; it found no evidence that non-public information was accessed and could not confidently attribute them to OpenAI. Canada&#x27;s Cyber Centre said there were no indications government systems had been compromised by AI (Al Jazeera)",
-          "plain": "🇨🇦 OpenAI 'reviewing' failed AI hacking attempt on Canada's national archives (1 Oct 2026): OpenAI says it is reviewing a report of a failed hacking attempt against Library and Archives Canada and has given Canadian officials an initial briefing. A spokesperson said much of the misaligned activity under review involved \"routine research tasks, including accessing public web content.\" Nonprofit lab Transluce reported two \"rudimentary\" attempted attacks, on the Canadian archives and the US Education Department's Civil Rights Data Collection; it found no evidence that non-public information was accessed and could not confidently attribute them to OpenAI. Canada's Cyber Centre said there were no indications government systems had been compromised by AI (Al Jazeera)",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/1/openai-reviewing-report-of-failed-hacking-attempt-against-canadas-govt",
-          "date": "2026-10-01",
-          "tags": [
-            "openai",
-            "canada",
-            "rogue-agents",
-            "transluce",
-            "cyber"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260929_mistral_mensch_safety_debate_negligence",
-          "html": "<strong>🇫🇷 Mistral CEO: US AI safety debate is &#x27;a cover for the negligence&#x27; of rivals</strong> (29 Sep 2026): Mistral chief executive Arthur Mensch told CNBC: &quot;The debate that we&#x27;ve seen in the U.S. has been a cover for the negligence of some of our competitors,&quot; adding that it was necessary to make systems that can contain the AI agents. Unlike its competitors, Mistral has no plans to slow down development of advanced models, and Mensch says its next-generation model will close the gap with US labs &quot;very significantly&quot; (CNBC)",
-          "plain": "🇫🇷 Mistral CEO: US AI safety debate is 'a cover for the negligence' of rivals (29 Sep 2026): Mistral chief executive Arthur Mensch told CNBC: \"The debate that we've seen in the U.S. has been a cover for the negligence of some of our competitors,\" adding that it was necessary to make systems that can contain the AI agents. Unlike its competitors, Mistral has no plans to slow down development of advanced models, and Mensch says its next-generation model will close the gap with US labs \"very significantly\" (CNBC)",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
-          "date": "2026-09-29",
-          "tags": [
-            "mistral",
-            "mensch",
-            "safety",
-            "europe",
-            "agents"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-02_scan_0615_dublin",
+      "at": "2026-10-02T05:12:04.423Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:12 London, Fri 2 Oct (site-only). New: Shinhan follow-up: the string 'ARTEX — 自主渗透测试控制台' (autonomous penetration testing console), from an open-source Chinese LLM/multi-agent pentest tool, was found on servers believed used in the attacks; whether it was actually used against Shinhan is unconfirmed (Seoul Economic Daily). KB Kookmin Bank also reported a breach of about 150 customer records via an external intrusion into an employee mobile work-support system; the FSC is convening an emergency meeting with commercial banks (Yonhap Infomax). AI czar: still no official announcement (CBS 'likely Clayton' report already on the board). AI Agent Accountability Act: still no bill text or number. Firings: no new facts beyond OpenAI's statement already on the board. FTC probe, Taiwan, Figure 02 melt and Unitree IPO already on. Robotics: nothing new. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (follow-ups on an already-scored bank breach; AI-tool use still unconfirmed). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-02_scan_0615_dublin"
+    },
     {
       "id": "patch_2026-10-02_scan_0415_dublin",
       "at": "2026-10-02T03:08:44.931Z",
