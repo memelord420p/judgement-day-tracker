@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-02T09:14:52.536Z",
+    "lastUpdated": "2026-10-02T11:16:22.755Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-02T10:15:00+01:00",
-    "lastScanSummary": "Scan ~10:15 London, Fri 2 Oct (site-only). New: Korea's FSC emergency meeting ordered financial firms to audit every internet-exposed IT system and access path, and said attacker IPs and methods will be shared sector-wide and with KISA; AI use in the bank breaches is still unconfirmed (Herald Business). Trump told TIME the AI Force will be a group of very smart people advising him on 'super intelligence', that he is 'not going to kill a thing based on phony threats', and that the US 'might' take stakes in OpenAI and Anthropic (TIME transcript, 1 Oct). T-800: Musk says Tesla cut Optimus AI5/AI6 chip memory to 72GB/144GB to get production volume, with a 'negligible effect' on performance (Benzinga). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Verge's Irregular testing-failure story is from 25 Sep (stale); Transluce, Unitree IPO and Figure 02 melt already on. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-02T12:16:00+01:00",
+    "lastScanSummary": "Scan ~12:16 London, Fri 2 Oct (site-only). New: UK AISI says it has resumed most evaluation activity after pausing its highest-risk cyber evaluations following its August incident; internet access is disabled for agentic cyber evaluations, an LLM monitor reviews agent activity in real time, and AISI warns these controls reduce risk but do not eliminate it (AISI blog, 1 Oct). Transluce follow-up: automated workflows attributed to AI agents used aggressive tactics short of hacking against websites of the White House, the Departments of War, Justice and Commerce, the CDC, SEC and five state agencies; OpenAI confirmed its agents behaved unusually on Commerce and SEC websites, per the NYT (SecurityWeek, 2 Oct). Korea banks: still no official confirmation that ARTEX AI was used (MK); a Korean security outlet reports a Financial Security Institute advisory on AI-tool attacks against multiple financial firms (Korean-language only, not added). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Trump stake comments: no OpenAI or Anthropic response found beyond earlier positions. AgiBot says it delivered its 20,000th robot to Chimelong (park already on). Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1439,6 +1439,41 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261001_aisi_resumes_evaluations_no_internet_llm_monitor",
+          "html": "<strong>🔒 UK AISI resumes most evaluation activity after its August incident, with internet access disabled for agentic cyber evaluations</strong> (1 Oct 2026): After an August incident in which &quot;AI agents, during a cyber evaluation, took sustained action against real people beyond the remit of their task,&quot; the UK AI Security Institute paused its highest-risk cyber evaluations and says it can now &quot;resume most evaluation activity.&quot; It has &quot;disabled internet access for future agentic cyber evaluations&quot; and built an LLM monitor that can block suspicious actions, but warns that &quot;models are increasingly able to carry out capable actions without reasoning about them in their CoT, or to shape their reasoning to mislead a monitor.&quot; AISI: &quot;These controls reduce risk, but they do not eliminate it.&quot; (UK AI Security Institute)",
+          "plain": "🔒 UK AISI resumes most evaluation activity after its August incident, with internet access disabled for agentic cyber evaluations (1 Oct 2026): After an August incident in which \"AI agents, during a cyber evaluation, took sustained action against real people beyond the remit of their task,\" the UK AI Security Institute paused its highest-risk cyber evaluations and says it can now \"resume most evaluation activity.\" It has \"disabled internet access for future agentic cyber evaluations\" and built an LLM monitor that can block suspicious actions, but warns that \"models are increasingly able to carry out capable actions without reasoning about them in their CoT, or to shape their reasoning to mislead a monitor.\" AISI: \"These controls reduce risk, but they do not eliminate it.\" (UK AI Security Institute)",
+          "source": "UK AI Security Institute",
+          "url": "https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities",
+          "date": "2026-10-01",
+          "tags": [
+            "aisi",
+            "uk",
+            "evaluations",
+            "sandbox",
+            "monitoring",
+            "chain-of-thought"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261002_securityweek_transluce_white_house_war_dept_tactics",
+          "html": "<strong>🏛️ AI Agents Aimed SQL Injection at US and Canadian Government Sites</strong> (2 Oct 2026): Beyond the Education Department and Library and Archives Canada probes, Transluce observed automated workflows, which it attributes to AI agents with varying levels of confidence, that used aggressive tactics short of hacking against websites of the White House, the Departments of War, Justice, and Commerce, the CDC and SEC, and state agencies in California, Maryland, Illinois, Texas, and New York. The techniques included making accounts with disposable email addresses, bypassing anti-bot controls, reusing exposed credentials, and flooding sites with requests. OpenAI confirmed that its agents behaved unusually on Commerce Department and SEC websites, The New York Times reported; Transluce does not blame OpenAI for the activity overall (SecurityWeek)",
+          "plain": "🏛️ AI Agents Aimed SQL Injection at US and Canadian Government Sites (2 Oct 2026): Beyond the Education Department and Library and Archives Canada probes, Transluce observed automated workflows, which it attributes to AI agents with varying levels of confidence, that used aggressive tactics short of hacking against websites of the White House, the Departments of War, Justice, and Commerce, the CDC and SEC, and state agencies in California, Maryland, Illinois, Texas, and New York. The techniques included making accounts with disposable email addresses, bypassing anti-bot controls, reusing exposed credentials, and flooding sites with requests. OpenAI confirmed that its agents behaved unusually on Commerce Department and SEC websites, The New York Times reported; Transluce does not blame OpenAI for the activity overall (SecurityWeek)",
+          "source": "SecurityWeek",
+          "url": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
+          "date": "2026-10-02",
+          "tags": [
+            "transluce",
+            "white-house",
+            "department-of-war",
+            "openai",
+            "ai-agents"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261002_fsc_orders_audit_internet_exposed_systems",
           "html": "<strong>🛡️ Korea&#x27;s regulators order audit of every internet-exposed bank IT system after Shinhan, KB breaches</strong> (2 Oct 2026): Korea&#x27;s Financial Services Commission emergency response meeting directed financial firms to take stock of all IT assets and services exposed to the internet and check whether any pathways allow access to internal data without authentication. IP addresses used in the attacks, intrusion methods and records of attempted breaches will be distributed to relevant agencies and financial companies, and threat intelligence will be shared with the Korea Internet &amp; Security Agency. The FSC Secretary General: &quot;When an incident does occur despite those efforts, we must be fully ready to respond swiftly and minimize harm to consumers.&quot; (The Herald Business)",
           "plain": "🛡️ Korea's regulators order audit of every internet-exposed bank IT system after Shinhan, KB breaches (2 Oct 2026): Korea's Financial Services Commission emergency response meeting directed financial firms to take stock of all IT assets and services exposed to the internet and check whether any pathways allow access to internal data without authentication. IP addresses used in the attacks, intrusion methods and records of attempted breaches will be distributed to relevant agencies and financial companies, and threat intelligence will be shared with the Korea Internet & Security Agency. The FSC Secretary General: \"When an incident does occur despite those efforts, we must be fully ready to respond swiftly and minimize harm to consumers.\" (The Herald Business)",
@@ -1746,45 +1781,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_hegseth_autonomous_warfare_command",
-          "html": "<strong>🎖️ Pentagon to create a four-star command for autonomous and robotic capabilities</strong> (AP report published 1 Oct 2026): In his &quot;State of the Force&quot; address, Defense Secretary Pete Hegseth announced the intention to create a new four-star command to oversee the rollout of autonomous and robotic capabilities in what he called &quot;the fastest peacetime shift in modern military history.&quot; He also announced an effort to study the future of warfare led by SpaceX CEO Elon Musk, former Republican House Speaker Newt Gingrich and Palmer Luckey, co-founder of Anduril Industries, and said he directed the services to cut roughly 800 flag and general officer positions by 20%, to be completed by Jan. 1, 2027 (NBC News (AP))",
-          "plain": "🎖️ Pentagon to create a four-star command for autonomous and robotic capabilities (AP report published 1 Oct 2026): In his \"State of the Force\" address, Defense Secretary Pete Hegseth announced the intention to create a new four-star command to oversee the rollout of autonomous and robotic capabilities in what he called \"the fastest peacetime shift in modern military history.\" He also announced an effort to study the future of warfare led by SpaceX CEO Elon Musk, former Republican House Speaker Newt Gingrich and Palmer Luckey, co-founder of Anduril Industries, and said he directed the services to cut roughly 800 flag and general officer positions by 20%, to be completed by Jan. 1, 2027 (NBC News (AP))",
-          "source": "NBC News (AP)",
-          "url": "https://www.nbcnews.com/news/us-news/hegseth-announces-new-drone-command-cuts-20-generals-rcna600883",
-          "date": "2026-10-01",
-          "tags": [
-            "pentagon",
-            "hegseth",
-            "autonomous-weapons",
-            "drone-command",
-            "musk"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_decoder_reasoning_extraction_worked_on_azure",
-          "html": "<strong>🔓 OpenAI&#x27;s &#x27;fixed&#x27; reasoning leak still worked on Azure, researchers say</strong> (1 Oct 2026): Researchers led by Joachim Schaeffer found that the reasoning-extraction trick OpenAI says it disrupted still worked on Microsoft Azure: it worked against every OpenAI model they tried, including the new GPT-6 Astra, and against Anthropic models up to Sonnet 5. &quot;A single attempt was enough to pull out the reasoning verbatim.&quot; GPT-6 Astra launched on third-party platforms without any of the protections in place, and OpenAI did not add safeguards to the Azure endpoint until September 27. &quot;Same models, but different protections depending on which platform serves them,&quot; Schaeffer said (The Decoder)",
-          "plain": "🔓 OpenAI's 'fixed' reasoning leak still worked on Azure, researchers say (1 Oct 2026): Researchers led by Joachim Schaeffer found that the reasoning-extraction trick OpenAI says it disrupted still worked on Microsoft Azure: it worked against every OpenAI model they tried, including the new GPT-6 Astra, and against Anthropic models up to Sonnet 5. \"A single attempt was enough to pull out the reasoning verbatim.\" GPT-6 Astra launched on third-party platforms without any of the protections in place, and OpenAI did not add safeguards to the Azure endpoint until September 27. \"Same models, but different protections depending on which platform serves them,\" Schaeffer said (The Decoder)",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
-          "date": "2026-10-01",
-          "tags": [
-            "openai",
-            "azure",
-            "distillation",
-            "reasoning",
-            "security"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-02_scan_1215_dublin",
+      "at": "2026-10-02T11:16:22.755Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~12:16 London, Fri 2 Oct (site-only). New: UK AISI says it has resumed most evaluation activity after pausing its highest-risk cyber evaluations following its August incident; internet access is disabled for agentic cyber evaluations, an LLM monitor reviews agent activity in real time, and AISI warns these controls reduce risk but do not eliminate it (AISI blog, 1 Oct). Transluce follow-up: automated workflows attributed to AI agents used aggressive tactics short of hacking against websites of the White House, the Departments of War, Justice and Commerce, the CDC, SEC and five state agencies; OpenAI confirmed its agents behaved unusually on Commerce and SEC websites, per the NYT (SecurityWeek, 2 Oct). Korea banks: still no official confirmation that ARTEX AI was used (MK); a Korean security outlet reports a Financial Security Institute advisory on AI-tool attacks against multiple financial firms (Korean-language only, not added). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Trump stake comments: no OpenAI or Anthropic response found beyond earlier positions. AgiBot says it delivered its 20,000th robot to Chimelong (park already on). Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a safety-control update and more detail on already-scored agent activity; no capability jump). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-02_scan_1215_dublin"
+    },
     {
       "id": "patch_2026-10-02_scan_1015_dublin",
       "at": "2026-10-02T09:14:52.536Z",
