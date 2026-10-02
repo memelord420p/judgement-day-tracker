@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-02T05:12:04.423Z",
+    "lastUpdated": "2026-10-02T07:12:49.282Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-02T06:12:00+01:00",
-    "lastScanSummary": "Scan ~06:12 London, Fri 2 Oct (site-only). New: Shinhan follow-up: the string 'ARTEX — 自主渗透测试控制台' (autonomous penetration testing console), from an open-source Chinese LLM/multi-agent pentest tool, was found on servers believed used in the attacks; whether it was actually used against Shinhan is unconfirmed (Seoul Economic Daily). KB Kookmin Bank also reported a breach of about 150 customer records via an external intrusion into an employee mobile work-support system; the FSC is convening an emergency meeting with commercial banks (Yonhap Infomax). AI czar: still no official announcement (CBS 'likely Clayton' report already on the board). AI Agent Accountability Act: still no bill text or number. Firings: no new facts beyond OpenAI's statement already on the board. FTC probe, Taiwan, Figure 02 melt and Unitree IPO already on. Robotics: nothing new. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-02T08:13:00+01:00",
+    "lastScanSummary": "Scan ~08:13 London, Fri 2 Oct (site-only). Nothing new for the board. Korea banks: KB Kookmin now puts its leak at 119 customers; the FSC sent hacking-precaution guidance to all financial institutions and securities firms report no abnormalities after self-checks; the FSC's afternoon meeting outcome and any confirmed AI use are not yet reported (FSC meeting and ARTEX traces already on the board). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. UK AISI's GPT-6 Astra supply-chain results (29 Sep) already on; no new EU AI Act, DeepMind or Mistral safety items. Robotics: Atlas hand and Dyna Taku already covered or stale. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1782,6 +1782,14 @@
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-02_scan_0815_dublin",
+      "at": "2026-10-02T07:12:49.282Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:13 London, Fri 2 Oct (site-only). Nothing new for the board. Korea banks: KB Kookmin now puts its leak at 119 customers; the FSC sent hacking-precaution guidance to all financial institutions and securities firms report no abnormalities after self-checks; the FSC's afternoon meeting outcome and any confirmed AI use are not yet reported (FSC meeting and ARTEX traces already on the board). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. UK AISI's GPT-6 Astra supply-chain results (29 Sep) already on; no new EU AI Act, DeepMind or Mistral safety items. Robotics: Atlas hand and Dyna Taku already covered or stale. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only lastScanAt refresh; nothing new). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-02_scan_0815_dublin"
+    },
     {
       "id": "patch_2026-10-02_scan_0615_dublin",
       "at": "2026-10-02T05:12:04.423Z",
