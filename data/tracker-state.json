@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T03:12:06.286Z",
+    "lastUpdated": "2026-10-03T05:08:13.997Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T04:12:00+01:00",
-    "lastScanSummary": "Scan ~04:12 London, Sat 3 Oct (site-only; covers 02:10 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found; overnight coverage still says Trump is expected to name DNI Jay Clayton. New: Canada's Prime Minister's Office announced the Prime Minister's National Council on Artificial Intelligence, a 13-member body (including Yoshua Bengio and Gillian Hadfield) whose members will advise on making AI safer, protecting democracy and building sovereign AI infrastructure (PMO release, 2 Oct; not previously on the board). Also seen: Seoul Economic Daily explainer on AI hacking and insider leaks (no new bank facts); Claude Sonnet 5.5 coverage (released 28 Sep, stale); FieldAI reportedly raising at a $10B valuation; CrowdStrike president commentary. AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. China/Japan/Taiwan: nothing new found beyond a North Korean missile launch (not AI). Robotics: nothing new verified. Nothing new for T-1000 since the MIT muscle robot. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T06:08:00+01:00",
+    "lastScanSummary": "Scan ~06:08 London, Sat 3 Oct (site-only; covers 04:12 to now). Nothing new met the bar; meta-only refresh. AI czar: still NOT officially announced; no Truth Social post or White House statement found. Seen but not added: Proofpoint report (1 Oct) that China-aligned TA419 impersonated a former White House OSTP official and a senior Anthropic employee to phish US AI policy experts (human phishing, not an AI-capability event); NASA Dexterous Robotics Team feature on Valkyrie/Robonaut 2 (no new deployment); FieldAI $10B valuation; a California executive charged in a $300M AI server smuggling case; repeat coverage of the OpenAI firings, Robinson resignation, Shinhan hack and Apple Mac AI-agent controls (already on). AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. Asia/Europe Saturday: nothing new AI-relevant. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1806,6 +1806,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-03_scan_0615_dublin",
+      "at": "2026-10-03T05:08:13.997Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:08 London, Sat 3 Oct (site-only; covers 04:12 to now). Nothing new met the bar; meta-only refresh. AI czar: still NOT officially announced; no Truth Social post or White House statement found. Seen but not added: Proofpoint report (1 Oct) that China-aligned TA419 impersonated a former White House OSTP official and a senior Anthropic employee to phish US AI policy experts (human phishing, not an AI-capability event); NASA Dexterous Robotics Team feature on Valkyrie/Robonaut 2 (no new deployment); FieldAI $10B valuation; a California executive charged in a $300M AI server smuggling case; repeat coverage of the OpenAI firings, Robinson resignation, Shinhan hack and Apple Mac AI-agent controls (already on). AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. Asia/Europe Saturday: nothing new AI-relevant. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only refresh). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_0615_dublin"
+    },
+    {
       "id": "patch_2026-10-03_scan_0415_dublin",
       "at": "2026-10-03T03:12:06.286Z",
       "by": "judgment-day-watch",
@@ -2586,14 +2594,6 @@
       "by": "apply-patch",
       "type": "patch",
       "summary": "Applied patch"
-    },
-    {
-      "id": "auth_ok2",
-      "at": "2026-09-20T12:34:45.069Z",
-      "by": "probe",
-      "type": "patch",
-      "summary": "alt header",
-      "patchId": "auth_ok2"
     }
   ],
   "pendingPosts": [
