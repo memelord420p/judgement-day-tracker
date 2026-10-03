@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T11:11:55.455Z",
+    "lastUpdated": "2026-10-03T13:10:52.065Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T12:12:00+01:00",
-    "lastScanSummary": "Scan ~12:12 London, Sat 3 Oct (site-only; covers 10:14 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'expected to name'). New: David Robinson, who resigned from OpenAI this week, writes in The Atlantic, 'I Quit OpenAI Because Its Culture Is Broken': OpenAI's approach 'guarantees periodic failures—and the scale of those failures is growing as systems get more capable'; he says 'frontier labs need to run like nuclear power plants or busy airports'. Seen but not added: AP, 'As public fears of AI grow, Trump digs in on voluntary safeguards' (accord already on); xAI wins pause on Minnesota's ban on AI-generated explicit images; 'AI tech could be nationalised, Green Party deputy leader suggests' (UK); TechRadar on Nscale's UK supercomputer power delay; repeat coverage of the SQL-injection agents, OpenAI's ex-White House cyber hire, the 50-petabyte review, Evri robots and the Hyundai Capital/Yegaram breaches (already on). Still summary-only: Startup Fortune on the bill, Ban Flock Act, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Korea: no new follow-ups beyond Hyundai Capital/Yegaram. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T14:11:00+01:00",
+    "lastScanSummary": "Scan ~14:11 London, Sat 3 Oct (site-only; covers 12:12 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'Trump weighs Jay Clayton for new AI czar role'). New: North Korea says its intermediate-range strategic missile test involved AI — Kim Yo Jong said the projectile is 'capable of changing its flight orbit at a low altitude and AI was introduced into it', without elaborating, and an analyst said it was too early to conclude the claims were accurate (AFP). Korea: the Financial Services Commission will hold an emergency review meeting Sunday with heads of associations across all financial sectors, including virtual assets and fintech, after the hacking spread to Hyundai Capital and Yegaram Savings Bank (Seoul Economic Daily). Seen but not added: NDTV, 'How An AI-Generated Intelligence Report Almost Triggered US-China War' (Sep incident already on the board); Tom's Hardware on California's OpenAI subpoena (already on); Egypt Independent on Anthropic's IPO filing risk language (already on); Business Insider Africa on Robinson (already on); Deliveroo to roll out food delivery robots in the UK; Russia's Shturm robotic tank stuck in the mud; Trump's America.gov chatbot coverage. Still summary-only: AP voluntary safeguards, xAI Minnesota pause, UK Greens nationalisation, Nscale power delay, Startup Fortune bill piece, Ban Flock Act, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261003_afp_north_korea_irbm_test_ai_introduced",
+          "html": "<strong>🇰🇵 North Korea says test of intermediate-range strategic missile included use of AI</strong> (3 Oct 2026): &quot;North Korea said it tested an intermediate-range strategic missile on Saturday that involved the use of AI, hours after Seoul said Pyongyang had launched a ballistic missile.&quot; Kim Yo Jong said the projectile is &quot;capable of changing its flight orbit at a low altitude and AI was introduced into it&quot;, &quot;without elaborating further on the use of artificial intelligence.&quot; She said it meant &quot;there is no way to avoid&quot; the missile&#x27;s attack. Seoul&#x27;s Joint Chiefs of Staff said the missile flew &quot;more than 700 kilometres&quot;. Analyst Hong Sung-pyo: &quot;AI is increasingly being incorporated into military technology worldwide, and ballistic missiles are no exception&quot;; he said &quot;it was too early to conclude North Korea&#x27;s claims about the missile&#x27;s capabilities were accurate.&quot; (AFP)",
+          "plain": "🇰🇵 North Korea says test of intermediate-range strategic missile included use of AI (3 Oct 2026): \"North Korea said it tested an intermediate-range strategic missile on Saturday that involved the use of AI, hours after Seoul said Pyongyang had launched a ballistic missile.\" Kim Yo Jong said the projectile is \"capable of changing its flight orbit at a low altitude and AI was introduced into it\", \"without elaborating further on the use of artificial intelligence.\" She said it meant \"there is no way to avoid\" the missile's attack. Seoul's Joint Chiefs of Staff said the missile flew \"more than 700 kilometres\". Analyst Hong Sung-pyo: \"AI is increasingly being incorporated into military technology worldwide, and ballistic missiles are no exception\"; he said \"it was too early to conclude North Korea's claims about the missile's capabilities were accurate.\" (AFP)",
+          "source": "AFP",
+          "url": "https://www.afp.com/en/north-korea-says-test-intermediate-range-strategic-missile-included-use-ai-0",
+          "date": "2026-10-03",
+          "tags": [
+            "north-korea",
+            "missile",
+            "military-ai",
+            "kim-yo-jong",
+            "irbm"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261003_sedaily_fsc_summons_all_financial_sectors_ai_hacking",
+          "html": "<strong>🇰🇷 Regulators Summon Financial CEOs Over AI Hacking Breaches</strong> (3 Oct 2026): &quot;the Financial Services Commission will hold an emergency review meeting Sunday afternoon at the Government Complex Seoul, attended by the heads of associations across all financial sectors — banking, financial investment, insurance, specialized credit finance, savings banks, mutual finance, virtual assets and fintech — as well as chief executives of financial companies hit by the hacking.&quot; The schedule &quot;appears to have been moved up after the number of financial companies hit by hacking grew to include Hyundai Capital and Yegaram Savings Bank.&quot; &quot;Financial authorities say it remains to be confirmed whether the leaks at these companies were all the work of the same group.&quot; (Seoul Economic Daily)",
+          "plain": "🇰🇷 Regulators Summon Financial CEOs Over AI Hacking Breaches (3 Oct 2026): \"the Financial Services Commission will hold an emergency review meeting Sunday afternoon at the Government Complex Seoul, attended by the heads of associations across all financial sectors — banking, financial investment, insurance, specialized credit finance, savings banks, mutual finance, virtual assets and fintech — as well as chief executives of financial companies hit by the hacking.\" The schedule \"appears to have been moved up after the number of financial companies hit by hacking grew to include Hyundai Capital and Yegaram Savings Bank.\" \"Financial authorities say it remains to be confirmed whether the leaks at these companies were all the work of the same group.\" (Seoul Economic Daily)",
+          "source": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/finance/2026/10/03/regulators-summon-financial-ceos-over-ai-hacking-breaches",
+          "date": "2026-10-03",
+          "tags": [
+            "korea",
+            "fsc",
+            "ai-hacking",
+            "finance",
+            "regulators"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_atlantic_robinson_i_quit_openai_culture_broken",
           "html": "<strong>I Quit OpenAI Because Its Culture Is Broken</strong> (3 Oct 2026): David Robinson writes: &quot;I resigned this week from OpenAI. I led the writing of the safety reports we published with each major launch.&quot; He says the approach &quot;guarantees periodic failures—and the scale of those failures is growing as systems get more capable,&quot; citing a case where &quot;A monitoring system alerted human staff but did not automatically turn the model off as it was supposed to.&quot; His prescription: &quot;frontier labs need to run like nuclear power plants or busy airports, with layers of redundancy and careful, time-consuming planning.&quot; He adds: &quot;Before AI starts thinking circles around us—a possibility that I believe could happen soon—we need to answer a deeper question: How should superintelligent machines relate to people?&quot; &quot;OpenAI, of course, stands by its safety practices, and maintains it is being careful enough.&quot; (The Atlantic)",
           "plain": "I Quit OpenAI Because Its Culture Is Broken (3 Oct 2026): David Robinson writes: \"I resigned this week from OpenAI. I led the writing of the safety reports we published with each major launch.\" He says the approach \"guarantees periodic failures—and the scale of those failures is growing as systems get more capable,\" citing a case where \"A monitoring system alerted human staff but did not automatically turn the model off as it was supposed to.\" His prescription: \"frontier labs need to run like nuclear power plants or busy airports, with layers of redundancy and careful, time-consuming planning.\" He adds: \"Before AI starts thinking circles around us—a possibility that I believe could happen soon—we need to answer a deeper question: How should superintelligent machines relate to people?\" \"OpenAI, of course, stands by its safety practices, and maintains it is being careful enough.\" (The Atlantic)",
@@ -1767,44 +1801,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_shinhan_bank_25000_ai_agent_assisted_leak",
-          "html": "<strong>🏦 Some 25,000 customers&#x27; info leaked from Shinhan Bank in apparent AI agent-assisted hacking</strong> (1 Oct 2026): Personal information of around 25,000 Shinhan Bank customers (loan borrowing, annual income, names and phone numbers) was leaked via hacking, prompting an on-site inspection by South Korea&#x27;s Financial Supervisory Service. Sources said the hackers, suspected to be based overseas, utilized advanced artificial intelligence tools; experts said the bank was likely caught in random AI-powered attacks on vulnerable online platforms. An industry official: &quot;The entire financial industry is vulnerable to AI agent-assisted attacks.&quot; (The Korea Herald (Yonhap))",
-          "plain": "🏦 Some 25,000 customers' info leaked from Shinhan Bank in apparent AI agent-assisted hacking (1 Oct 2026): Personal information of around 25,000 Shinhan Bank customers (loan borrowing, annual income, names and phone numbers) was leaked via hacking, prompting an on-site inspection by South Korea's Financial Supervisory Service. Sources said the hackers, suspected to be based overseas, utilized advanced artificial intelligence tools; experts said the bank was likely caught in random AI-powered attacks on vulnerable online platforms. An industry official: \"The entire financial industry is vulnerable to AI agent-assisted attacks.\" (The Korea Herald (Yonhap))",
-          "source": "The Korea Herald (Yonhap)",
-          "url": "https://www.koreaherald.com/article/10891104",
-          "date": "2026-10-01",
-          "tags": [
-            "korea",
-            "shinhan",
-            "bank",
-            "data-leak",
-            "ai-agents"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_cbs_clayton_likely_ai_czar",
-          "html": "<strong>🕵️ Trump likely to pick Jay Clayton for AI czar, sources say</strong> (1 Oct 2026): Jay Clayton will likely be the White House&#x27;s pick for AI czar, and the administration has been discussing having him remain director of national intelligence, according to sources briefed on the matter; President Trump is expected to make the final decision shortly. A White House official: &quot;Any personnel announcement will be announced directly by the President. Any reporting until then is baseless speculation.&quot; (CBS News)",
-          "plain": "🕵️ Trump likely to pick Jay Clayton for AI czar, sources say (1 Oct 2026): Jay Clayton will likely be the White House's pick for AI czar, and the administration has been discussing having him remain director of national intelligence, according to sources briefed on the matter; President Trump is expected to make the final decision shortly. A White House official: \"Any personnel announcement will be announced directly by the President. Any reporting until then is baseless speculation.\" (CBS News)",
-          "source": "CBS News",
-          "url": "https://www.cbsnews.com/news/trump-likely-jay-clayton-ai-czar-sources-say/",
-          "date": "2026-10-01",
-          "tags": [
-            "ai-czar",
-            "clayton",
-            "white-house",
-            "dni"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-03_scan_1415_dublin",
+      "at": "2026-10-03T13:10:52.065Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~14:11 London, Sat 3 Oct (site-only; covers 12:12 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'Trump weighs Jay Clayton for new AI czar role'). New: North Korea says its intermediate-range strategic missile test involved AI — Kim Yo Jong said the projectile is 'capable of changing its flight orbit at a low altitude and AI was introduced into it', without elaborating, and an analyst said it was too early to conclude the claims were accurate (AFP). Korea: the Financial Services Commission will hold an emergency review meeting Sunday with heads of associations across all financial sectors, including virtual assets and fintech, after the hacking spread to Hyundai Capital and Yegaram Savings Bank (Seoul Economic Daily). Seen but not added: NDTV, 'How An AI-Generated Intelligence Report Almost Triggered US-China War' (Sep incident already on the board); Tom's Hardware on California's OpenAI subpoena (already on); Egypt Independent on Anthropic's IPO filing risk language (already on); Business Insider Africa on Robinson (already on); Deliveroo to roll out food delivery robots in the UK; Russia's Shturm robotic tank stuck in the mud; Trump's America.gov chatbot coverage. Still summary-only: AP voluntary safeguards, xAI Minnesota pause, UK Greens nationalisation, Nscale power delay, Startup Fortune bill piece, Ban Flock Act, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (North Korea's AI claim is unelaborated and unverified; the Korea regulator meeting is a response, not a new capability). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_1415_dublin"
+    },
     {
       "id": "patch_2026-10-03_scan_1215_dublin",
       "at": "2026-10-03T11:11:55.455Z",
@@ -2590,13 +2599,6 @@
       "type": "patch",
       "summary": "Catch-up: World Humanoid Robot Games 2025+2026 (China Robot Olympics); Beijing half-marathon; autonomous AI drones in Ukraine war",
       "patchId": "patch_2026-09-20_catchup_olympics_drones"
-    },
-    {
-      "id": "chg_1789907859222",
-      "at": "2026-09-20T12:37:39.222Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch"
     }
   ],
   "pendingPosts": [
