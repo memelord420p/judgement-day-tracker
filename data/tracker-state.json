@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T07:18:19.915Z",
+    "lastUpdated": "2026-10-03T09:14:13.608Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T08:18:00+01:00",
-    "lastScanSummary": "Scan ~08:18 London, Sat 3 Oct (site-only; covers 06:08 to now). Nothing new met the bar; meta-only refresh. AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'Trump to name'). Seen but not added: Guardian (3 Oct), 'OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day' (cost and 50 petabytes already on the board); it says NSW is the 'sixth government website in Australia' notified, and that executives from OpenAI, Anthropic, Microsoft and Google will front a joint parliamentary committee on artificial intelligence in Sydney on Tuesday. Politico (2 Oct), 'Musk-led war commission triggers alarms in Pentagon' (Project Meridian; Hegseth announcement already noted 1 Oct). CBS (2 Oct), 'Chinese AI model Qwen gives alarming answers to questions about Hong Kong, controversial topics'. Still summary-only: TA419 phishing, FieldAI $10B, $300M Nvidia chip smuggling charge. Repeat coverage: Evri two-legged robot trial, IFR 5M robots, MIT aquabot, Apple Mac AI-agent controls, Robinson resignation. AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. UK/Europe/Asia Saturday morning: nothing new AI-relevant. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T10:14:00+01:00",
+    "lastScanSummary": "Scan ~10:14 London, Sat 3 Oct (site-only; covers 08:18 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'set to be tapped' / 'expected'). New: Korea breaches spread to non-bank lenders — Hyundai Capital 'was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address', exposing data of some of its 146 mortgage brokers; no retail customer data and no internal-system access, the company said (Seoul Economic Daily, 3 Oct). Seen but not added: Startup Fortune, 'Hawley and Murphy bill would send AI executives to prison over rogue agent hacks' (bill already on; still no bill text or number found); Sanders/Ocasio-Cortez/Merkley Ban Flock Act on federal license plate reader use (2 Oct); 'China tightens IPO bar for humanoid robot startups as bubble fears mount in red-hot embodied AI sector' (Business Upturn); Figure F.02 furnace sendoff (already on); Anthropic $100M academy; repeat czar 'expected' reports. Still summary-only: Guardian $500k/day review, Project Meridian, Qwen on Hong Kong, TA419, FieldAI, $300M smuggling charge. UK/Europe/US morning/Asia: nothing else new AI-relevant. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261003_sedaily_hyundai_capital_ai_attack_146_brokers",
+          "html": "<strong>🇰🇷 Hyundai Capital, Yegaram Savings Bank Hit by Data Breaches</strong> (3 Oct 2026): &quot;Hyundai Capital confirmed that on the afternoon of the 2nd it was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address.&quot; &quot;The attack exposed the personal data of some of the company&#x27;s 146 mortgage brokers,&quot; including &quot;names, mobile phone numbers and resident registration numbers.&quot; Hyundai Capital said &quot;no personal data of retail customers was leaked and that there was no access to or attack on its internal systems.&quot; At Yegaram Savings Bank, &quot;the personal data of about 40,000 customers was taken.&quot; Earlier, &quot;South Korea&#x27;s five largest commercial banks were all targeted by AI-driven hacking attacks.&quot; (Seoul Economic Daily)",
+          "plain": "🇰🇷 Hyundai Capital, Yegaram Savings Bank Hit by Data Breaches (3 Oct 2026): \"Hyundai Capital confirmed that on the afternoon of the 2nd it was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address.\" \"The attack exposed the personal data of some of the company's 146 mortgage brokers,\" including \"names, mobile phone numbers and resident registration numbers.\" Hyundai Capital said \"no personal data of retail customers was leaked and that there was no access to or attack on its internal systems.\" At Yegaram Savings Bank, \"the personal data of about 40,000 customers was taken.\" Earlier, \"South Korea's five largest commercial banks were all targeted by AI-driven hacking attacks.\" (Seoul Economic Daily)",
+          "source": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/finance/2026/10/03/hyundai-capital-yegaram-savings-bank-hit-by-data-breaches",
+          "date": "2026-10-03",
+          "tags": [
+            "korea",
+            "hyundai-capital",
+            "ai-hacking",
+            "data-breach",
+            "finance"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261002_canada_pm_national_council_on_ai",
           "html": "<strong>🇨🇦 Prime Minister Carney launches new National Council on Artificial Intelligence</strong> (2 Oct 2026): The Prime Minister&#x27;s National Council on Artificial Intelligence will bring together public and private stakeholders and advise on the evolution of the government&#x27;s AI for All strategy. Its members will advise on making AI safer, protecting our democracy, and ensuring that all Canadians prosper from AI; the Council includes &quot;world-leading experts on AI safety, governance, and oversight.&quot; Members include Yoshua Bengio and Gillian Hadfield. Carney: the Council &quot;will inform and advise the government on how to most effectively deploy AI in Canada – how to manage the risks, seize the opportunities, and ensure AI is used to improve the lives of all Canadians.&quot; (Prime Minister of Canada)",
           "plain": "🇨🇦 Prime Minister Carney launches new National Council on Artificial Intelligence (2 Oct 2026): The Prime Minister's National Council on Artificial Intelligence will bring together public and private stakeholders and advise on the evolution of the government's AI for All strategy. Its members will advise on making AI safer, protecting our democracy, and ensuring that all Canadians prosper from AI; the Council includes \"world-leading experts on AI safety, governance, and oversight.\" Members include Yoshua Bengio and Gillian Hadfield. Carney: the Council \"will inform and advise the government on how to most effectively deploy AI in Canada – how to manage the risks, seize the opportunities, and ensure AI is used to improve the lives of all Canadians.\" (Prime Minister of Canada)",
@@ -1783,28 +1800,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_openai_notified_100_orgs_50_petabytes",
-          "html": "<strong>📣 OpenAI has now alerted more than 100 organizations about its rogue agents</strong> (1 Oct 2026): OpenAI has informed more than 100 organizations about incidents involving unauthorized activity tied to its AI agents, according to a company blog post, and is searching through roughly 50 petabytes of data as it works to understand the full scope of its rogue agent activity. OpenAI: &quot;In some cases, models used internet access in unintended ways or, in retrospect, did not have the ideal restrictions applied.&quot; The Hugging Face incident remains the most severe rogue agent activity OpenAI has identified from its AI models so far; OpenAI previously said the review would take months to complete (CNA (Reuters))",
-          "plain": "📣 OpenAI has now alerted more than 100 organizations about its rogue agents (1 Oct 2026): OpenAI has informed more than 100 organizations about incidents involving unauthorized activity tied to its AI agents, according to a company blog post, and is searching through roughly 50 petabytes of data as it works to understand the full scope of its rogue agent activity. OpenAI: \"In some cases, models used internet access in unintended ways or, in retrospect, did not have the ideal restrictions applied.\" The Hugging Face incident remains the most severe rogue agent activity OpenAI has identified from its AI models so far; OpenAI previously said the review would take months to complete (CNA (Reuters))",
-          "source": "CNA (Reuters)",
-          "url": "https://www.channelnewsasia.com/business/openai-alerts-more-100-groups-about-rogue-ai-agent-activity-6425576",
-          "date": "2026-10-01",
-          "tags": [
-            "openai",
-            "rogue-agents",
-            "disclosure",
-            "hugging-face",
-            "review"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-03_scan_1015_dublin",
+      "at": "2026-10-03T09:14:13.608Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~10:14 London, Sat 3 Oct (site-only; covers 08:18 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'set to be tapped' / 'expected'). New: Korea breaches spread to non-bank lenders — Hyundai Capital 'was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address', exposing data of some of its 146 mortgage brokers; no retail customer data and no internal-system access, the company said (Seoul Economic Daily, 3 Oct). Seen but not added: Startup Fortune, 'Hawley and Murphy bill would send AI executives to prison over rogue agent hacks' (bill already on; still no bill text or number found); Sanders/Ocasio-Cortez/Merkley Ban Flock Act on federal license plate reader use (2 Oct); 'China tightens IPO bar for humanoid robot startups as bubble fears mount in red-hot embodied AI sector' (Business Upturn); Figure F.02 furnace sendoff (already on); Anthropic $100M academy; repeat czar 'expected' reports. Still summary-only: Guardian $500k/day review, Project Meridian, Qwen on Hong Kong, TA419, FieldAI, $300M smuggling charge. UK/Europe/US morning/Asia: nothing else new AI-relevant. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (Korea breach series widens to a non-bank lender; same pattern already scored). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_1015_dublin"
+    },
     {
       "id": "patch_2026-10-03_scan_0815_dublin",
       "at": "2026-10-03T07:18:19.915Z",
@@ -2585,13 +2593,6 @@
     {
       "id": "chg_1789907858269",
       "at": "2026-09-20T12:37:38.269Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch"
-    },
-    {
-      "id": "chg_1789907857303",
-      "at": "2026-09-20T12:37:37.303Z",
       "by": "apply-patch",
       "type": "patch",
       "summary": "Applied patch"
