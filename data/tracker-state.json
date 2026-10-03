@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T17:11:26.173Z",
+    "lastUpdated": "2026-10-03T19:08:04.809Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T18:11:00+01:00",
-    "lastScanSummary": "Scan ~18:11 London, Sat 3 Oct (site-only; covers 16:14 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'Man Behind the XRP Lawsuit Could Get a White House AI Role Soon'). New: Scale AI was awarded a $12,093,115 modification 'for Agentic Artificial Intelligence for the E-4C/Survivable Airborne Operations Center Program', bringing the contract to $44,340,309 (ClearanceJobs, from the 2 Oct contract announcements). OpenAI's Multi-agent guide says GPT-6.1 Sol runs 'have no fixed limit on tree depth or the total number of subagents created during a run' (MIXED). North Korea AI missile: no new US or ROK official assessment found; coverage repeats Kim Yo Jong's statement. Korea: no English-language reports found of new police or presidential-office moves. Seen but not added: NYT, 'A.I. Is Going Rogue. Who Should Be Held Responsible?'; 'Nvidia unveils security platform to stop AI agents from going rogue'; 'RoboParty Unveils RP1, a High-Performance Full-Stack Open-Source Humanoid Robot at IROS'; Chainalysis traced the $387M Bitget hack to North Korea; TechCrunch/Fox follow-ups on Robinson and Cybernews/AP on the NSW hack (already on). Still summary-only: SBS 'Did AI Find the Vulnerabilities', The Information rogue agents piece, NDTV, Deliveroo, Shturm, America.gov, AP safeguards, xAI Minnesota, UK Greens, Nscale, Startup Fortune bill, Ban Flock, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T20:08:00+01:00",
+    "lastScanSummary": "Scan ~20:08 London, Sat 3 Oct (site-only; covers 18:11 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found, and no new czar reports in the last two hours. New: Treasury Secretary Scott Bessent, in an Axios interview, criticised AI leaders who warn of disaster but offer no fixes — 'This alarmism without solutions by some of the AI community, that's not leadership' — and on executives calling for regulation: 'Well, then they should slow down' (The Next Web, citing Bloomberg). North Korea AI missile: no new US or ROK official assessment found. Korea: no new verified follow-ups since the Herald's ARTEX report. Seen but not added: Reuters/Business Insider/The Next Web follow-ups on Robinson (already on); The Decoder, 'Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore'; Aleph Alpha releases Kolibri, a 78B-parameter open-weight model; Compliance Week, 'FCA warns AI may reveal more cyber vulnerabilities firms can cope with'; Bank of England's Bailey AI-risk speech (30 Sep, stale); Amazon says it no longer uses NDAs on data centers; RoboParty RP1 repeats. Still summary-only: NYT 'A.I. Is Going Rogue', Nvidia agent security platform, Bitget/Chainalysis and earlier items. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261003_tnw_bessent_ai_alarmism_not_leadership",
+          "html": "<strong>Bessent says AI alarmism without solutions is not leadership</strong> (3 Oct 2026): &quot;US Treasury Secretary Scott Bessent has criticised AI leaders who warn of disaster but offer no fixes.&quot; &quot;This alarmism without solutions by some of the AI community, that&#x27;s not leadership,&quot; Bessent said. &quot;It is the people at the labs who have to accept responsibility, and I agree with that.&quot; Asked about executives calling for regulation: &quot;Well, then they should slow down.&quot; &quot;We cannot lose our lead to the Chinese,&quot; he said, warning Chinese models can be &quot;80%, 90% as powerful&quot; as US ones. &quot;Even so, the US plans to propose a system for warning China about serious AI incidents, Axios reported.&quot; (The Next Web)",
+          "plain": "Bessent says AI alarmism without solutions is not leadership (3 Oct 2026): \"US Treasury Secretary Scott Bessent has criticised AI leaders who warn of disaster but offer no fixes.\" \"This alarmism without solutions by some of the AI community, that's not leadership,\" Bessent said. \"It is the people at the labs who have to accept responsibility, and I agree with that.\" Asked about executives calling for regulation: \"Well, then they should slow down.\" \"We cannot lose our lead to the Chinese,\" he said, warning Chinese models can be \"80%, 90% as powerful\" as US ones. \"Even so, the US plans to propose a system for warning China about serious AI incidents, Axios reported.\" (The Next Web)",
+          "source": "The Next Web",
+          "url": "https://thenextweb.com/news/bessent-says-ai-alarmism-without-solutions-is-not-leadership",
+          "date": "2026-10-03",
+          "tags": [
+            "bessent",
+            "treasury",
+            "regulation",
+            "china",
+            "ai-safety"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_clearancejobs_scale_ai_agentic_ai_e4c_saoc",
           "html": "<strong>Scale AI Lands $12M Air Force Deal for Agentic AI on E-4C</strong> (3 Oct 2026): &quot;Scale AI Inc., San Francisco, California, has been awarded a $12,093,115 firm-fixed-price modification (P00003) to a previously awarded contract (FA875126C0001) for Agentic Artificial Intelligence for the E-4C/Survivable Airborne Operations Center Program.&quot; &quot;The modification brings the total cumulative face value of the contract from $32,247,194 to $44,340,309.&quot; Work &quot;is expected to be completed by Nov. 5, 2027.&quot; &quot;The Air Force Life Cycle Management Center, Hanscom Air Force Base, Bedford, Massachusetts, is the contracting activity.&quot; (ClearanceJobs)",
           "plain": "Scale AI Lands $12M Air Force Deal for Agentic AI on E-4C (3 Oct 2026): \"Scale AI Inc., San Francisco, California, has been awarded a $12,093,115 firm-fixed-price modification (P00003) to a previously awarded contract (FA875126C0001) for Agentic Artificial Intelligence for the E-4C/Survivable Airborne Operations Center Program.\" \"The modification brings the total cumulative face value of the contract from $32,247,194 to $44,340,309.\" Work \"is expected to be completed by Nov. 5, 2027.\" \"The Air Force Life Cycle Management Center, Hanscom Air Force Base, Bedford, Massachusetts, is the contracting activity.\" (ClearanceJobs)",
@@ -1781,29 +1798,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_time_trump_si_force_phony_threats_stakes",
-          "html": "<strong>🏛️ Trump to TIME: &#x27;super intelligence&#x27; advisers, no killing AI over &#x27;phony threats&#x27;, and the US &#x27;might&#x27; take stakes in OpenAI and Anthropic</strong> (1 Oct 2026): In TIME&#x27;s interview transcript, Trump says of his planned AI Force: &quot;It&#x27;s going to be a group of very smart people that understand it, who will be advising me. But I will tell you right now, I&#x27;m not going to be easy because I&#x27;m not going to kill a thing based on phony threats.&quot; Asked why not take Intel-style stakes in OpenAI and Anthropic: &quot;I might. Maybe I could do that.&quot; (TIME)",
-          "plain": "🏛️ Trump to TIME: 'super intelligence' advisers, no killing AI over 'phony threats', and the US 'might' take stakes in OpenAI and Anthropic (1 Oct 2026): In TIME's interview transcript, Trump says of his planned AI Force: \"It's going to be a group of very smart people that understand it, who will be advising me. But I will tell you right now, I'm not going to be easy because I'm not going to kill a thing based on phony threats.\" Asked why not take Intel-style stakes in OpenAI and Anthropic: \"I might. Maybe I could do that.\" (TIME)",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/10/01/donald-trump-2026-interview-transcript/",
-          "date": "2026-10-01",
-          "tags": [
-            "trump",
-            "ai-force",
-            "super-intelligence",
-            "openai",
-            "anthropic",
-            "stakes"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-03_scan_2015_dublin",
+      "at": "2026-10-03T19:08:04.809Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:08 London, Sat 3 Oct (site-only; covers 18:11 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found, and no new czar reports in the last two hours. New: Treasury Secretary Scott Bessent, in an Axios interview, criticised AI leaders who warn of disaster but offer no fixes — 'This alarmism without solutions by some of the AI community, that's not leadership' — and on executives calling for regulation: 'Well, then they should slow down' (The Next Web, citing Bloomberg). North Korea AI missile: no new US or ROK official assessment found. Korea: no new verified follow-ups since the Herald's ARTEX report. Seen but not added: Reuters/Business Insider/The Next Web follow-ups on Robinson (already on); The Decoder, 'Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore'; Aleph Alpha releases Kolibri, a 78B-parameter open-weight model; Compliance Week, 'FCA warns AI may reveal more cyber vulnerabilities firms can cope with'; Bank of England's Bailey AI-risk speech (30 Sep, stale); Amazon says it no longer uses NDAs on data centers; RoboParty RP1 repeats. Still summary-only: NYT 'A.I. Is Going Rogue', Nvidia agent security platform, Bitget/Chainalysis and earlier items. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (official rhetoric against new rules; no new capability event). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_2015_dublin"
+    },
     {
       "id": "patch_2026-10-03_scan_1815_dublin",
       "at": "2026-10-03T17:11:26.173Z",
@@ -2588,13 +2595,6 @@
     {
       "id": "chg_1789907879448",
       "at": "2026-09-20T12:37:59.448Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch"
-    },
-    {
-      "id": "chg_1789907876031",
-      "at": "2026-09-20T12:37:56.030Z",
       "by": "apply-patch",
       "type": "patch",
       "summary": "Applied patch"
