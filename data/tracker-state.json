@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T21:12:50.708Z",
+    "lastUpdated": "2026-10-03T23:14:45.697Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T22:13:00+01:00",
-    "lastScanSummary": "Scan ~22:13 London, Sat 3 Oct (site-only; covers 20:08 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement naming Jay Clayton found, coverage remains 'expected'. New: The Register, 'Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows' — CVE-2026-61500 in Rejetto HFS, found with Mythos, under exploitation by the next day, with initial activity from an IP address in China targeting hosts in the US and Japan (published Saturday, missed by earlier scans). Seen but not added: The Verge, 'Sam Altman feels it necessary to clarify that people shouldn't see AI as godlike for some reason.'; The Straits Times, 'Ex-OpenAI engineer says AI needs layers of safety, like nuclear plants'; Business Insider on Bessent's Hannibal Lecter remark (Bessent already on board); Globe and Mail WentRogue experiment; WSJ 'We Used AI to Find Out Just How Much Americans Hate AI'; Chosunbiz 'KT pivots to physical AI platforms, uniting data and robot control in Korea'; Pope Leo on AI art. Still summary-only: FCA cyber warning, Aleph Alpha Kolibri, The Decoder on OpenAI, NYT rogue AI, Nvidia agent security, RoboParty RP1, Bitget and earlier items. North Korea AI missile: no new official outside assessment, only repeats of the KCNA claim. Korea: Korean-language follow-ups on the financial-sector AI hacking continue; no English preview yet of Sunday's FSC meeting. Bill text: none new. T-1000: nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-04T00:15:00+01:00",
+    "lastScanSummary": "Scan ~00:15 London, Sun 4 Oct (site-only; covers 22:13 Sat to now). AI czar: still NOT officially announced — no Truth Social post or White House statement or release naming Jay Clayton found. Reported, not yet official: Reuters, 'Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports' — per Reuters, the WSJ reported the White House \"has created a task force to examine AI's risks and opportunities\", citing Clayton, who \"said he would lead the group, known as the \"Super Intelligence Force,\" effectively serving as US President Donald Trump's AI czar, the report said, citing a senior White House official.\" (WSJ headline: 'New AI Task Force to Report on Risks of Technology After Public and Industry Concerns'). Held for an official Trump or White House announcement. No new headlines this scan. Seen but not added: OpenAI safety employee quits coverage (Reuters/The Star; Robinson already on board); Trump voluntary AI safety pact follow-ups (already on); Chinese embodied AI jobs feature; REK human-vs-robot fight follow-up; Pentagon AI polygraph budget item. Still summary-only: Altman godlike, Straits Times on Robinson, Bessent Lecter, WentRogue, WSJ AI poll, KT physical AI, Pope Leo and earlier items. Korea: Sunday's FSC emergency review meeting (Sunday afternoon KST) has not yet taken place; Korean-language reports say the AI hacking reached mutual finance, with no new English-language confirmation of the mutual finance or Government24 spread. North Korea AI missile: no new official outside assessment. Bill text: none new. Robotics/T-1000: nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1803,6 +1803,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-04_scan_0015_dublin",
+      "at": "2026-10-03T23:14:45.697Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:15 London, Sun 4 Oct (site-only; covers 22:13 Sat to now). AI czar: still NOT officially announced — no Truth Social post or White House statement or release naming Jay Clayton found. Reported, not yet official: Reuters, 'Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports' — per Reuters, the WSJ reported the White House \"has created a task force to examine AI's risks and opportunities\", citing Clayton, who \"said he would lead the group, known as the \"Super Intelligence Force,\" effectively serving as US President Donald Trump's AI czar, the report said, citing a senior White House official.\" (WSJ headline: 'New AI Task Force to Report on Risks of Technology After Public and Industry Concerns'). Held for an official Trump or White House announcement. No new headlines this scan. Seen but not added: OpenAI safety employee quits coverage (Reuters/The Star; Robinson already on board); Trump voluntary AI safety pact follow-ups (already on); Chinese embodied AI jobs feature; REK human-vs-robot fight follow-up; Pentagon AI polygraph budget item. Still summary-only: Altman godlike, Straits Times on Robinson, Bessent Lecter, WentRogue, WSJ AI poll, KT physical AI, Pope Leo and earlier items. Korea: Sunday's FSC emergency review meeting (Sunday afternoon KST) has not yet taken place; Korean-language reports say the AI hacking reached mutual finance, with no new English-language confirmation of the mutual finance or Government24 spread. North Korea AI missile: no new official outside assessment. Bill text: none new. Robotics/T-1000: nothing new. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only refresh; czar report held until official).",
+      "patchId": "patch_2026-10-04_scan_0015_dublin"
+    },
+    {
       "id": "patch_2026-10-03_scan_2215_dublin",
       "at": "2026-10-03T21:12:50.708Z",
       "by": "judgment-day-watch",
@@ -2591,13 +2599,6 @@
       "type": "patch",
       "summary": "Brand voice: serious events + light-hearted robot fails/wins",
       "patchId": "patch_voice_serious_comedy"
-    },
-    {
-      "id": "chg_1789907900134",
-      "at": "2026-09-20T12:38:20.134Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch"
     }
   ],
   "pendingPosts": [
