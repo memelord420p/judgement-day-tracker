@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T05:08:13.997Z",
+    "lastUpdated": "2026-10-03T07:18:19.915Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T06:08:00+01:00",
-    "lastScanSummary": "Scan ~06:08 London, Sat 3 Oct (site-only; covers 04:12 to now). Nothing new met the bar; meta-only refresh. AI czar: still NOT officially announced; no Truth Social post or White House statement found. Seen but not added: Proofpoint report (1 Oct) that China-aligned TA419 impersonated a former White House OSTP official and a senior Anthropic employee to phish US AI policy experts (human phishing, not an AI-capability event); NASA Dexterous Robotics Team feature on Valkyrie/Robonaut 2 (no new deployment); FieldAI $10B valuation; a California executive charged in a $300M AI server smuggling case; repeat coverage of the OpenAI firings, Robinson resignation, Shinhan hack and Apple Mac AI-agent controls (already on). AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. Asia/Europe Saturday: nothing new AI-relevant. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T08:18:00+01:00",
+    "lastScanSummary": "Scan ~08:18 London, Sat 3 Oct (site-only; covers 06:08 to now). Nothing new met the bar; meta-only refresh. AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'Trump to name'). Seen but not added: Guardian (3 Oct), 'OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day' (cost and 50 petabytes already on the board); it says NSW is the 'sixth government website in Australia' notified, and that executives from OpenAI, Anthropic, Microsoft and Google will front a joint parliamentary committee on artificial intelligence in Sydney on Tuesday. Politico (2 Oct), 'Musk-led war commission triggers alarms in Pentagon' (Project Meridian; Hegseth announcement already noted 1 Oct). CBS (2 Oct), 'Chinese AI model Qwen gives alarming answers to questions about Hong Kong, controversial topics'. Still summary-only: TA419 phishing, FieldAI $10B, $300M Nvidia chip smuggling charge. Repeat coverage: Evri two-legged robot trial, IFR 5M robots, MIT aquabot, Apple Mac AI-agent controls, Robinson resignation. AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. UK/Europe/Asia Saturday morning: nothing new AI-relevant. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1806,6 +1806,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-03_scan_0815_dublin",
+      "at": "2026-10-03T07:18:19.915Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:18 London, Sat 3 Oct (site-only; covers 06:08 to now). Nothing new met the bar; meta-only refresh. AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'Trump to name'). Seen but not added: Guardian (3 Oct), 'OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day' (cost and 50 petabytes already on the board); it says NSW is the 'sixth government website in Australia' notified, and that executives from OpenAI, Anthropic, Microsoft and Google will front a joint parliamentary committee on artificial intelligence in Sydney on Tuesday. Politico (2 Oct), 'Musk-led war commission triggers alarms in Pentagon' (Project Meridian; Hegseth announcement already noted 1 Oct). CBS (2 Oct), 'Chinese AI model Qwen gives alarming answers to questions about Hong Kong, controversial topics'. Still summary-only: TA419 phishing, FieldAI $10B, $300M Nvidia chip smuggling charge. Repeat coverage: Evri two-legged robot trial, IFR 5M robots, MIT aquabot, Apple Mac AI-agent controls, Robinson resignation. AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. UK/Europe/Asia Saturday morning: nothing new AI-relevant. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only refresh). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_0815_dublin"
+    },
+    {
       "id": "patch_2026-10-03_scan_0615_dublin",
       "at": "2026-10-03T05:08:13.997Z",
       "by": "judgment-day-watch",
@@ -2584,13 +2592,6 @@
     {
       "id": "chg_1789907857303",
       "at": "2026-09-20T12:37:37.303Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch"
-    },
-    {
-      "id": "chg_1789907794233",
-      "at": "2026-09-20T12:36:34.233Z",
       "by": "apply-patch",
       "type": "patch",
       "summary": "Applied patch"
