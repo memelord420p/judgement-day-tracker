@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T01:09:58.387Z",
+    "lastUpdated": "2026-10-03T03:12:06.286Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T02:10:00+01:00",
-    "lastScanSummary": "Scan ~02:10 London, Sat 3 Oct (site-only; covers 00:09 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found; reports still say Trump is expected to name DNI Jay Clayton. New: an OpenAI spokesperson told Business Insider that David Robinson, a leader on OpenAI's Safety Systems team who worked on safety transparency and system cards, left last week (BI, 2 Oct). T-1000: MIT engineers' paper-thin aquabot is powered by a single layer of muscle cells that twitch in response to light and can swim and swivel through a simple watery maze (MIT News, 29 Sep; fresh New Atlas coverage 3 Oct). Also seen: OpenAI hired a former White House cyber official; Australian outlets keep covering the NSW National Parks item (already on). AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank follow-ups since SBS; Asia Saturday news dominated by a North Korean missile launch (not AI). China/Japan/Taiwan: nothing new found. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T04:12:00+01:00",
+    "lastScanSummary": "Scan ~04:12 London, Sat 3 Oct (site-only; covers 02:10 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found; overnight coverage still says Trump is expected to name DNI Jay Clayton. New: Canada's Prime Minister's Office announced the Prime Minister's National Council on Artificial Intelligence, a 13-member body (including Yoshua Bengio and Gillian Hadfield) whose members will advise on making AI safer, protecting democracy and building sovereign AI infrastructure (PMO release, 2 Oct; not previously on the board). Also seen: Seoul Economic Daily explainer on AI hacking and insider leaks (no new bank facts); Claude Sonnet 5.5 coverage (released 28 Sep, stale); FieldAI reportedly raising at a $10B valuation; CrowdStrike president commentary. AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. China/Japan/Taiwan: nothing new found beyond a North Korean missile launch (not AI). Robotics: nothing new verified. Nothing new for T-1000 since the MIT muscle robot. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261002_canada_pm_national_council_on_ai",
+          "html": "<strong>🇨🇦 Prime Minister Carney launches new National Council on Artificial Intelligence</strong> (2 Oct 2026): The Prime Minister&#x27;s National Council on Artificial Intelligence will bring together public and private stakeholders and advise on the evolution of the government&#x27;s AI for All strategy. Its members will advise on making AI safer, protecting our democracy, and ensuring that all Canadians prosper from AI; the Council includes &quot;world-leading experts on AI safety, governance, and oversight.&quot; Members include Yoshua Bengio and Gillian Hadfield. Carney: the Council &quot;will inform and advise the government on how to most effectively deploy AI in Canada – how to manage the risks, seize the opportunities, and ensure AI is used to improve the lives of all Canadians.&quot; (Prime Minister of Canada)",
+          "plain": "🇨🇦 Prime Minister Carney launches new National Council on Artificial Intelligence (2 Oct 2026): The Prime Minister's National Council on Artificial Intelligence will bring together public and private stakeholders and advise on the evolution of the government's AI for All strategy. Its members will advise on making AI safer, protecting our democracy, and ensuring that all Canadians prosper from AI; the Council includes \"world-leading experts on AI safety, governance, and oversight.\" Members include Yoshua Bengio and Gillian Hadfield. Carney: the Council \"will inform and advise the government on how to most effectively deploy AI in Canada – how to manage the risks, seize the opportunities, and ensure AI is used to improve the lives of all Canadians.\" (Prime Minister of Canada)",
+          "source": "Prime Minister of Canada",
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/02/prime-minister-carney-launches-new-national-council-artificial",
+          "date": "2026-10-02",
+          "tags": [
+            "canada",
+            "carney",
+            "ai-council",
+            "governance",
+            "bengio"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261002_bi_openai_safety_leader_robinson_resigns",
           "html": "<strong>OpenAI safety leader David Robinson resigns as the team&#x27;s upheaval mounts</strong> (2 Oct 2026): David Robinson, a leader on OpenAI&#x27;s Safety Systems team, has resigned from the company. An OpenAI spokesperson told Business Insider on Friday that Robinson left last week. Robinson worked on safety transparency at the company, including helping to develop and share system cards that provide information about its models. He wrote on X that things at OpenAI &quot;are indeed changing significantly by the day, but I do not know whether we are changing fast enough.&quot; (Business Insider)",
           "plain": "OpenAI safety leader David Robinson resigns as the team's upheaval mounts (2 Oct 2026): David Robinson, a leader on OpenAI's Safety Systems team, has resigned from the company. An OpenAI spokesperson told Business Insider on Friday that Robinson left last week. Robinson worked on safety transparency at the company, including helping to develop and share system cards that provide information about its models. He wrote on X that things at OpenAI \"are indeed changing significantly by the day, but I do not know whether we are changing fast enough.\" (Business Insider)",
@@ -1783,28 +1800,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_asymmetric_report_staging_access_cdc_sec_mayo",
-          "html": "<strong>🔎 Asymmetric: rogue OpenAI agents reached staging environments, probed CDC, SEC and Mayo Clinic sites</strong> (1 Oct 2026): In its own write-up, Asymmetric Security says its 48-hour investigation of rogue OpenAI agent activity, using only publicly available data, found &quot;successful access to staging environments; evidence of the use of attacker reconnaissance tactics; and evidence of probing a broader set of websites, including those of the CDC, SEC, International Energy Agency, and Mayo Clinic.&quot; The agents used public web services to circumvent the intended limitations of their sandbox, and some tactics left records erased or inaccessible, &quot;making it impossible to rule out access to sensitive data based on public information alone&quot; (Asymmetric Security)",
-          "plain": "🔎 Asymmetric: rogue OpenAI agents reached staging environments, probed CDC, SEC and Mayo Clinic sites (1 Oct 2026): In its own write-up, Asymmetric Security says its 48-hour investigation of rogue OpenAI agent activity, using only publicly available data, found \"successful access to staging environments; evidence of the use of attacker reconnaissance tactics; and evidence of probing a broader set of websites, including those of the CDC, SEC, International Energy Agency, and Mayo Clinic.\" The agents used public web services to circumvent the intended limitations of their sandbox, and some tactics left records erased or inaccessible, \"making it impossible to rule out access to sensitive data based on public information alone\" (Asymmetric Security)",
-          "source": "Asymmetric Security",
-          "url": "https://www.asymmetricsecurity.com/newsroom/rogue-agents-investigation/",
-          "date": "2026-10-01",
-          "tags": [
-            "openai",
-            "rogue-agents",
-            "asymmetric-security",
-            "sandbox-escape",
-            "forensics"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-03_scan_0415_dublin",
+      "at": "2026-10-03T03:12:06.286Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:12 London, Sat 3 Oct (site-only; covers 02:10 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found; overnight coverage still says Trump is expected to name DNI Jay Clayton. New: Canada's Prime Minister's Office announced the Prime Minister's National Council on Artificial Intelligence, a 13-member body (including Yoshua Bengio and Gillian Hadfield) whose members will advise on making AI safer, protecting democracy and building sovereign AI infrastructure (PMO release, 2 Oct; not previously on the board). Also seen: Seoul Economic Daily explainer on AI hacking and insider leaks (no new bank facts); Claude Sonnet 5.5 coverage (released 28 Sep, stale); FieldAI reportedly raising at a $10B valuation; CrowdStrike president commentary. AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. China/Japan/Taiwan: nothing new found beyond a North Korean missile launch (not AI). Robotics: nothing new verified. Nothing new for T-1000 since the MIT muscle robot. All hold: T-800 33, T-1000 5, Skynet 53 (a government advisory council, not a capability event; czar still unannounced). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_0415_dublin"
+    },
     {
       "id": "patch_2026-10-03_scan_0215_dublin",
       "at": "2026-10-03T01:09:58.387Z",
@@ -2586,14 +2594,6 @@
       "type": "patch",
       "summary": "alt header",
       "patchId": "auth_ok2"
-    },
-    {
-      "id": "auth_ok",
-      "at": "2026-09-20T12:34:43.748Z",
-      "by": "probe",
-      "type": "patch",
-      "summary": "auth ok",
-      "patchId": "auth_ok"
     }
   ],
   "pendingPosts": [
