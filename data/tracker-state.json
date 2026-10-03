@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T15:13:37.149Z",
+    "lastUpdated": "2026-10-03T17:11:26.173Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T16:14:00+01:00",
-    "lastScanSummary": "Scan ~16:14 London, Sat 3 Oct (site-only; covers 14:11 to now, plus one earlier-dated Korea item first found this scan). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'expected to become Trump's AI czar'). New: the Korea Financial Security Institute confirmed ARTEX AI was used in the bank hacks — 'It is true that AI was used in the attacks, but the AI did not act independently without human involvement'; two savings banks are also under investigation, and attacks are still ongoing as the attacker switches IPs (The Herald Business, published 04:31 BST 3 Oct; earlier summaries said no official confirmation). North Korea AI missile: no new US or ROK official assessment of the AI claim found; coverage repeats Kim Yo Jong's statement and the AFP analyst (already on). Seen but not added: SBS, 'Unaware Even After Hacking Ends... Did AI Find the Vulnerabilities?'; Korean-language reports that police are close to a formal investigation and that the presidential office is watching the financial-sector hacking (Korean only); Verge/Business Standard follow-ups on Robinson (already on); IOL, 'US and China explore AI ‘hot line’ amid safety concerns' (hotline already on); Hinton et al. 'intelligence explosion' paper and the California robot-vs-human fight cease-and-desist (already on); The Information, 'AI Agents Are Going Rogue. Novel Legal Battles Are Next' (paywalled). Still summary-only: NDTV AI intel report, Deliveroo robots, Shturm tank, America.gov chatbot, AP voluntary safeguards, xAI Minnesota, UK Greens, Nscale, Startup Fortune bill, Ban Flock, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T18:11:00+01:00",
+    "lastScanSummary": "Scan ~18:11 London, Sat 3 Oct (site-only; covers 16:14 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'Man Behind the XRP Lawsuit Could Get a White House AI Role Soon'). New: Scale AI was awarded a $12,093,115 modification 'for Agentic Artificial Intelligence for the E-4C/Survivable Airborne Operations Center Program', bringing the contract to $44,340,309 (ClearanceJobs, from the 2 Oct contract announcements). OpenAI's Multi-agent guide says GPT-6.1 Sol runs 'have no fixed limit on tree depth or the total number of subagents created during a run' (MIXED). North Korea AI missile: no new US or ROK official assessment found; coverage repeats Kim Yo Jong's statement. Korea: no English-language reports found of new police or presidential-office moves. Seen but not added: NYT, 'A.I. Is Going Rogue. Who Should Be Held Responsible?'; 'Nvidia unveils security platform to stop AI agents from going rogue'; 'RoboParty Unveils RP1, a High-Performance Full-Stack Open-Source Humanoid Robot at IROS'; Chainalysis traced the $387M Bitget hack to North Korea; TechCrunch/Fox follow-ups on Robinson and Cybernews/AP on the NSW hack (already on). Still summary-only: SBS 'Did AI Find the Vulnerabilities', The Information rogue agents piece, NDTV, Deliveroo, Shturm, America.gov, AP safeguards, xAI Minnesota, UK Greens, Nscale, Startup Fortune bill, Ban Flock, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261003_clearancejobs_scale_ai_agentic_ai_e4c_saoc",
+          "html": "<strong>Scale AI Lands $12M Air Force Deal for Agentic AI on E-4C</strong> (3 Oct 2026): &quot;Scale AI Inc., San Francisco, California, has been awarded a $12,093,115 firm-fixed-price modification (P00003) to a previously awarded contract (FA875126C0001) for Agentic Artificial Intelligence for the E-4C/Survivable Airborne Operations Center Program.&quot; &quot;The modification brings the total cumulative face value of the contract from $32,247,194 to $44,340,309.&quot; Work &quot;is expected to be completed by Nov. 5, 2027.&quot; &quot;The Air Force Life Cycle Management Center, Hanscom Air Force Base, Bedford, Massachusetts, is the contracting activity.&quot; (ClearanceJobs)",
+          "plain": "Scale AI Lands $12M Air Force Deal for Agentic AI on E-4C (3 Oct 2026): \"Scale AI Inc., San Francisco, California, has been awarded a $12,093,115 firm-fixed-price modification (P00003) to a previously awarded contract (FA875126C0001) for Agentic Artificial Intelligence for the E-4C/Survivable Airborne Operations Center Program.\" \"The modification brings the total cumulative face value of the contract from $32,247,194 to $44,340,309.\" Work \"is expected to be completed by Nov. 5, 2027.\" \"The Air Force Life Cycle Management Center, Hanscom Air Force Base, Bedford, Massachusetts, is the contracting activity.\" (ClearanceJobs)",
+          "source": "ClearanceJobs",
+          "url": "https://news.clearancejobs.com/2026/10/03/scale-ai-lands-12m-air-force-deal-for-agentic-ai-on-e-4c/",
+          "date": "2026-10-03",
+          "tags": [
+            "scale-ai",
+            "air-force",
+            "e-4c",
+            "saoc",
+            "agentic-ai"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261003_mixed_gpt61_sol_subagents_no_limit",
+          "html": "<strong>GPT-6.1 Sol can spawn its own subagents, and OpenAI sets no limit on the number</strong> (3 Oct 2026): &quot;OpenAI&#x27;s GPT-6.1 Sol can now create its own subagents and run them in parallel, and the documented ceiling on how many is that there is not one.&quot; OpenAI&#x27;s Multi-agent guide: &quot;Multi-agent runs also have no fixed limit on tree depth or the total number of subagents created during a run.&quot; The max_concurrent_subagents default is three, and the API &quot;does not impose a fixed upper bound on this setting&quot;. &quot;Account rate limits still apply.&quot; It is a beta, and OpenAI warns that &quot;item schemas may change&quot;. (MIXED)",
+          "plain": "GPT-6.1 Sol can spawn its own subagents, and OpenAI sets no limit on the number (3 Oct 2026): \"OpenAI's GPT-6.1 Sol can now create its own subagents and run them in parallel, and the documented ceiling on how many is that there is not one.\" OpenAI's Multi-agent guide: \"Multi-agent runs also have no fixed limit on tree depth or the total number of subagents created during a run.\" The max_concurrent_subagents default is three, and the API \"does not impose a fixed upper bound on this setting\". \"Account rate limits still apply.\" It is a beta, and OpenAI warns that \"item schemas may change\". (MIXED)",
+          "source": "MIXED",
+          "url": "https://mixed-news.com/en/openai-gpt-6-1-sol-multi-agent-beta-no-subagent-limit/",
+          "date": "2026-10-03",
+          "tags": [
+            "openai",
+            "gpt-6.1-sol",
+            "subagents",
+            "multi-agent",
+            "api"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_herald_fsi_confirms_artex_ai_used_bank_hacks",
           "html": "<strong>🇰🇷 Exclusive: Chinese AI tool ARTEX used in wave of bank hacks, probe finds</strong> (3 Oct 2026): &quot;A Chinese-developed AI-based penetration-testing platform called ARTEX AI has been confirmed as the tool used in a string of personal data breaches at major South Korean banks, an investigation has found.&quot; A Korea Financial Security Institute official: &quot;It is true that AI was used in the attacks, but the AI did not act independently without human involvement,&quot; adding, &quot;A hacker used the AI as a tool.&quot; &quot;Two savings banks are also under investigation for attacks of the same type.&quot; &quot;Blocking IPs is little more than emergency first aid,&quot; the official said, and &quot;Far more institutions were attacked than those that ended up with actual incidents.&quot; &quot;There are a great many open-source AI tools like ARTEX,&quot; the official said. &quot;There is currently no way to restrict everything being developed and distributed around the world.&quot; (The Herald Business)",
           "plain": "🇰🇷 Exclusive: Chinese AI tool ARTEX used in wave of bank hacks, probe finds (3 Oct 2026): \"A Chinese-developed AI-based penetration-testing platform called ARTEX AI has been confirmed as the tool used in a string of personal data breaches at major South Korean banks, an investigation has found.\" A Korea Financial Security Institute official: \"It is true that AI was used in the attacks, but the AI did not act independently without human involvement,\" adding, \"A hacker used the AI as a tool.\" \"Two savings banks are also under investigation for attacks of the same type.\" \"Blocking IPs is little more than emergency first aid,\" the official said, and \"Far more institutions were attacked than those that ended up with actual incidents.\" \"There are a great many open-source AI tools like ARTEX,\" the official said. \"There is currently no way to restrict everything being developed and distributed around the world.\" (The Herald Business)",
@@ -1765,47 +1799,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261002_artex_ai_pentest_traces_shinhan_breach",
-          "html": "<strong>🔎 Traces of Chinese AI Hacking Tool Found on Server Tied to Shinhan Bank Breach</strong> (2 Oct 2026): The string &quot;ARTEX — 自主渗透测试控制台&quot; (&quot;autonomous penetration testing console&quot;) was found in the HTML title of web servers believed to have been used in credential stuffing and API-vulnerability attacks on multiple South Korean sites. ARTEX AI is an open-source, LLM-based autonomous penetration testing system combining LLM and multi-agent technology. Genians&#x27; Moon Jong-hyun (as translated): &quot;Multiple threat analysts reasonably suspect that AI-based attack automation tools may have been used in the course of this attack.&quot; It has not been confirmed whether ARTEX AI was used as an actual attack tool in the Shinhan leak (Seoul Economic Daily)",
-          "plain": "🔎 Traces of Chinese AI Hacking Tool Found on Server Tied to Shinhan Bank Breach (2 Oct 2026): The string \"ARTEX — 自主渗透测试控制台\" (\"autonomous penetration testing console\") was found in the HTML title of web servers believed to have been used in credential stuffing and API-vulnerability attacks on multiple South Korean sites. ARTEX AI is an open-source, LLM-based autonomous penetration testing system combining LLM and multi-agent technology. Genians' Moon Jong-hyun (as translated): \"Multiple threat analysts reasonably suspect that AI-based attack automation tools may have been used in the course of this attack.\" It has not been confirmed whether ARTEX AI was used as an actual attack tool in the Shinhan leak (Seoul Economic Daily)",
-          "source": "Seoul Economic Daily",
-          "url": "https://en.sedaily.com/technology/2026/10/02/traces-of-chinese-ai-hacking-tool-found-on-server-tied-to",
-          "date": "2026-10-02",
-          "tags": [
-            "korea",
-            "shinhan",
-            "artex",
-            "ai-pentest",
-            "china",
-            "ai-agents"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261002_fsc_emergency_meeting_kb_shinhan_breaches",
-          "html": "<strong>🏦 Financial Regulator Summons Banks for Emergency Meeting Following KB, Shinhan Data Breaches</strong> (2 Oct 2026): South Korea&#x27;s Financial Services Commission is convening an emergency meeting with commercial banks after KB Kookmin Bank reported that approximately 150 customer records were leaked due to an external intrusion into an employee mobile work support system, following Shinhan Bank&#x27;s leak of about 25,000 records. An FSC official: &quot;we plan to urgently inspect the banking sector&#x27;s security situation this afternoon as attacks on the banking sector are being repeated during a similar period.&quot; (Yonhap Infomax)",
-          "plain": "🏦 Financial Regulator Summons Banks for Emergency Meeting Following KB, Shinhan Data Breaches (2 Oct 2026): South Korea's Financial Services Commission is convening an emergency meeting with commercial banks after KB Kookmin Bank reported that approximately 150 customer records were leaked due to an external intrusion into an employee mobile work support system, following Shinhan Bank's leak of about 25,000 records. An FSC official: \"we plan to urgently inspect the banking sector's security situation this afternoon as attacks on the banking sector are being repeated during a similar period.\" (Yonhap Infomax)",
-          "source": "Yonhap Infomax",
-          "url": "https://en.infomaxai.com/news/articleView.html?idxno=141767",
-          "date": "2026-10-02",
-          "tags": [
-            "korea",
-            "kb-kookmin",
-            "shinhan",
-            "bank",
-            "fsc",
-            "data-breach"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-03_scan_1815_dublin",
+      "at": "2026-10-03T17:11:26.173Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:11 London, Sat 3 Oct (site-only; covers 16:14 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'Man Behind the XRP Lawsuit Could Get a White House AI Role Soon'). New: Scale AI was awarded a $12,093,115 modification 'for Agentic Artificial Intelligence for the E-4C/Survivable Airborne Operations Center Program', bringing the contract to $44,340,309 (ClearanceJobs, from the 2 Oct contract announcements). OpenAI's Multi-agent guide says GPT-6.1 Sol runs 'have no fixed limit on tree depth or the total number of subagents created during a run' (MIXED). North Korea AI missile: no new US or ROK official assessment found; coverage repeats Kim Yo Jong's statement. Korea: no English-language reports found of new police or presidential-office moves. Seen but not added: NYT, 'A.I. Is Going Rogue. Who Should Be Held Responsible?'; 'Nvidia unveils security platform to stop AI agents from going rogue'; 'RoboParty Unveils RP1, a High-Performance Full-Stack Open-Source Humanoid Robot at IROS'; Chainalysis traced the $387M Bitget hack to North Korea; TechCrunch/Fox follow-ups on Robinson and Cybernews/AP on the NSW hack (already on). Still summary-only: SBS 'Did AI Find the Vulnerabilities', The Information rogue agents piece, NDTV, Deliveroo, Shturm, America.gov, AP safeguards, xAI Minnesota, UK Greens, Nscale, Startup Fortune bill, Ban Flock, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a contract modification with no published capability details, and a beta API setting still bounded by rate limits). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_1815_dublin"
+    },
     {
       "id": "patch_2026-10-03_scan_1615_dublin",
       "at": "2026-10-03T15:13:37.149Z",
@@ -2589,13 +2595,6 @@
     {
       "id": "chg_1789907876031",
       "at": "2026-09-20T12:37:56.030Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch"
-    },
-    {
-      "id": "chg_1789907875059",
-      "at": "2026-09-20T12:37:55.059Z",
       "by": "apply-patch",
       "type": "patch",
       "summary": "Applied patch"
