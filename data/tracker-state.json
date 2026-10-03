@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T19:08:04.809Z",
+    "lastUpdated": "2026-10-03T21:12:50.708Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T20:08:00+01:00",
-    "lastScanSummary": "Scan ~20:08 London, Sat 3 Oct (site-only; covers 18:11 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found, and no new czar reports in the last two hours. New: Treasury Secretary Scott Bessent, in an Axios interview, criticised AI leaders who warn of disaster but offer no fixes — 'This alarmism without solutions by some of the AI community, that's not leadership' — and on executives calling for regulation: 'Well, then they should slow down' (The Next Web, citing Bloomberg). North Korea AI missile: no new US or ROK official assessment found. Korea: no new verified follow-ups since the Herald's ARTEX report. Seen but not added: Reuters/Business Insider/The Next Web follow-ups on Robinson (already on); The Decoder, 'Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore'; Aleph Alpha releases Kolibri, a 78B-parameter open-weight model; Compliance Week, 'FCA warns AI may reveal more cyber vulnerabilities firms can cope with'; Bank of England's Bailey AI-risk speech (30 Sep, stale); Amazon says it no longer uses NDAs on data centers; RoboParty RP1 repeats. Still summary-only: NYT 'A.I. Is Going Rogue', Nvidia agent security platform, Bitget/Chainalysis and earlier items. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T22:13:00+01:00",
+    "lastScanSummary": "Scan ~22:13 London, Sat 3 Oct (site-only; covers 20:08 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement naming Jay Clayton found, coverage remains 'expected'. New: The Register, 'Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows' — CVE-2026-61500 in Rejetto HFS, found with Mythos, under exploitation by the next day, with initial activity from an IP address in China targeting hosts in the US and Japan (published Saturday, missed by earlier scans). Seen but not added: The Verge, 'Sam Altman feels it necessary to clarify that people shouldn't see AI as godlike for some reason.'; The Straits Times, 'Ex-OpenAI engineer says AI needs layers of safety, like nuclear plants'; Business Insider on Bessent's Hannibal Lecter remark (Bessent already on board); Globe and Mail WentRogue experiment; WSJ 'We Used AI to Find Out Just How Much Americans Hate AI'; Chosunbiz 'KT pivots to physical AI platforms, uniting data and robot control in Korea'; Pope Leo on AI art. Still summary-only: FCA cyber warning, Aleph Alpha Kolibri, The Decoder on OpenAI, NYT rogue AI, Nvidia agent security, RoboParty RP1, Bitget and earlier items. North Korea AI missile: no new official outside assessment, only repeats of the KCNA claim. Korea: Korean-language follow-ups on the financial-sector AI hacking continue; no English preview yet of Sunday's FSC meeting. Bill text: none new. T-1000: nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261003_register_mythos_hfs_cve_exploited_china",
+          "html": "<strong>Anthropic&#x27;s super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows</strong> The Register: &quot;The second Anthropic-linked vulnerability known to have been exploited in the wild saw initial activity from an IP address in China targeting vulnerable hosts in the US and Japan.&quot; Researcher Zach Hanley at Horizon3 said he &quot;used Mythos to uncover a new flaw in the file server, now tracked as CVE-2026-61500&quot;; &quot;By the next day, the CVE was under exploitation.&quot; VulnCheck&#x27;s Patrick Garrity: &quot;Our canaries detected an actor in China targeting real vulnerable hosts in the US.&quot; As of Friday, per Garrity&#x27;s tracker, &quot;Mythos and Project Glasswing have uncovered 286 CVEs&quot;. (Published Sat 3 Oct; missed by earlier scans, fresh pickup by Nacionale News ~21:49 BST.) (The Register)",
+          "plain": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows The Register: \"The second Anthropic-linked vulnerability known to have been exploited in the wild saw initial activity from an IP address in China targeting vulnerable hosts in the US and Japan.\" Researcher Zach Hanley at Horizon3 said he \"used Mythos to uncover a new flaw in the file server, now tracked as CVE-2026-61500\"; \"By the next day, the CVE was under exploitation.\" VulnCheck's Patrick Garrity: \"Our canaries detected an actor in China targeting real vulnerable hosts in the US.\" As of Friday, per Garrity's tracker, \"Mythos and Project Glasswing have uncovered 286 CVEs\". (Published Sat 3 Oct; missed by earlier scans, fresh pickup by Nacionale News ~21:49 BST.) (The Register)",
+          "source": "The Register",
+          "url": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+          "date": "2026-10-03",
+          "tags": [
+            "anthropic",
+            "mythos",
+            "cve",
+            "vulncheck",
+            "cyber"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_tnw_bessent_ai_alarmism_not_leadership",
           "html": "<strong>Bessent says AI alarmism without solutions is not leadership</strong> (3 Oct 2026): &quot;US Treasury Secretary Scott Bessent has criticised AI leaders who warn of disaster but offer no fixes.&quot; &quot;This alarmism without solutions by some of the AI community, that&#x27;s not leadership,&quot; Bessent said. &quot;It is the people at the labs who have to accept responsibility, and I agree with that.&quot; Asked about executives calling for regulation: &quot;Well, then they should slow down.&quot; &quot;We cannot lose our lead to the Chinese,&quot; he said, warning Chinese models can be &quot;80%, 90% as powerful&quot; as US ones. &quot;Even so, the US plans to propose a system for warning China about serious AI incidents, Axios reported.&quot; (The Next Web)",
           "plain": "Bessent says AI alarmism without solutions is not leadership (3 Oct 2026): \"US Treasury Secretary Scott Bessent has criticised AI leaders who warn of disaster but offer no fixes.\" \"This alarmism without solutions by some of the AI community, that's not leadership,\" Bessent said. \"It is the people at the labs who have to accept responsibility, and I agree with that.\" Asked about executives calling for regulation: \"Well, then they should slow down.\" \"We cannot lose our lead to the Chinese,\" he said, warning Chinese models can be \"80%, 90% as powerful\" as US ones. \"Even so, the US plans to propose a system for warning China about serious AI incidents, Axios reported.\" (The Next Web)",
@@ -1780,29 +1797,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261002_fsc_orders_audit_internet_exposed_systems",
-          "html": "<strong>🛡️ Korea&#x27;s regulators order audit of every internet-exposed bank IT system after Shinhan, KB breaches</strong> (2 Oct 2026): Korea&#x27;s Financial Services Commission emergency response meeting directed financial firms to take stock of all IT assets and services exposed to the internet and check whether any pathways allow access to internal data without authentication. IP addresses used in the attacks, intrusion methods and records of attempted breaches will be distributed to relevant agencies and financial companies, and threat intelligence will be shared with the Korea Internet &amp; Security Agency. The FSC Secretary General: &quot;When an incident does occur despite those efforts, we must be fully ready to respond swiftly and minimize harm to consumers.&quot; (The Herald Business)",
-          "plain": "🛡️ Korea's regulators order audit of every internet-exposed bank IT system after Shinhan, KB breaches (2 Oct 2026): Korea's Financial Services Commission emergency response meeting directed financial firms to take stock of all IT assets and services exposed to the internet and check whether any pathways allow access to internal data without authentication. IP addresses used in the attacks, intrusion methods and records of attempted breaches will be distributed to relevant agencies and financial companies, and threat intelligence will be shared with the Korea Internet & Security Agency. The FSC Secretary General: \"When an incident does occur despite those efforts, we must be fully ready to respond swiftly and minimize harm to consumers.\" (The Herald Business)",
-          "source": "The Herald Business",
-          "url": "https://biz.heraldcorp.com/article/10892172",
-          "date": "2026-10-02",
-          "tags": [
-            "korea",
-            "fsc",
-            "shinhan",
-            "kb-kookmin",
-            "bank",
-            "security-audit"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-03_scan_2215_dublin",
+      "at": "2026-10-03T21:12:50.708Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:13 London, Sat 3 Oct (site-only; covers 20:08 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement naming Jay Clayton found, coverage remains 'expected'. New: The Register, 'Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows' — CVE-2026-61500 in Rejetto HFS, found with Mythos, under exploitation by the next day, with initial activity from an IP address in China targeting hosts in the US and Japan (published Saturday, missed by earlier scans). Seen but not added: The Verge, 'Sam Altman feels it necessary to clarify that people shouldn't see AI as godlike for some reason.'; The Straits Times, 'Ex-OpenAI engineer says AI needs layers of safety, like nuclear plants'; Business Insider on Bessent's Hannibal Lecter remark (Bessent already on board); Globe and Mail WentRogue experiment; WSJ 'We Used AI to Find Out Just How Much Americans Hate AI'; Chosunbiz 'KT pivots to physical AI platforms, uniting data and robot control in Korea'; Pope Leo on AI art. Still summary-only: FCA cyber warning, Aleph Alpha Kolibri, The Decoder on OpenAI, NYT rogue AI, Nvidia agent security, RoboParty RP1, Bitget and earlier items. North Korea AI missile: no new official outside assessment, only repeats of the KCNA claim. Korea: Korean-language follow-ups on the financial-sector AI hacking continue; no English preview yet of Sunday's FSC meeting. Bill text: none new. T-1000: nothing new. All hold: T-800 33, T-1000 5, Skynet 53 (exploited Mythos-found CVE is notable but not a step change).",
+      "patchId": "patch_2026-10-03_scan_2215_dublin"
+    },
     {
       "id": "patch_2026-10-03_scan_2015_dublin",
       "at": "2026-10-03T19:08:04.809Z",
@@ -2588,13 +2595,6 @@
     {
       "id": "chg_1789907900134",
       "at": "2026-09-20T12:38:20.134Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch"
-    },
-    {
-      "id": "chg_1789907879448",
-      "at": "2026-09-20T12:37:59.448Z",
       "by": "apply-patch",
       "type": "patch",
       "summary": "Applied patch"
