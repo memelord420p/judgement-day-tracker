@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T13:10:52.065Z",
+    "lastUpdated": "2026-10-03T15:13:37.149Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T14:11:00+01:00",
-    "lastScanSummary": "Scan ~14:11 London, Sat 3 Oct (site-only; covers 12:12 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'Trump weighs Jay Clayton for new AI czar role'). New: North Korea says its intermediate-range strategic missile test involved AI — Kim Yo Jong said the projectile is 'capable of changing its flight orbit at a low altitude and AI was introduced into it', without elaborating, and an analyst said it was too early to conclude the claims were accurate (AFP). Korea: the Financial Services Commission will hold an emergency review meeting Sunday with heads of associations across all financial sectors, including virtual assets and fintech, after the hacking spread to Hyundai Capital and Yegaram Savings Bank (Seoul Economic Daily). Seen but not added: NDTV, 'How An AI-Generated Intelligence Report Almost Triggered US-China War' (Sep incident already on the board); Tom's Hardware on California's OpenAI subpoena (already on); Egypt Independent on Anthropic's IPO filing risk language (already on); Business Insider Africa on Robinson (already on); Deliveroo to roll out food delivery robots in the UK; Russia's Shturm robotic tank stuck in the mud; Trump's America.gov chatbot coverage. Still summary-only: AP voluntary safeguards, xAI Minnesota pause, UK Greens nationalisation, Nscale power delay, Startup Fortune bill piece, Ban Flock Act, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T16:14:00+01:00",
+    "lastScanSummary": "Scan ~16:14 London, Sat 3 Oct (site-only; covers 14:11 to now, plus one earlier-dated Korea item first found this scan). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'expected to become Trump's AI czar'). New: the Korea Financial Security Institute confirmed ARTEX AI was used in the bank hacks — 'It is true that AI was used in the attacks, but the AI did not act independently without human involvement'; two savings banks are also under investigation, and attacks are still ongoing as the attacker switches IPs (The Herald Business, published 04:31 BST 3 Oct; earlier summaries said no official confirmation). North Korea AI missile: no new US or ROK official assessment of the AI claim found; coverage repeats Kim Yo Jong's statement and the AFP analyst (already on). Seen but not added: SBS, 'Unaware Even After Hacking Ends... Did AI Find the Vulnerabilities?'; Korean-language reports that police are close to a formal investigation and that the presidential office is watching the financial-sector hacking (Korean only); Verge/Business Standard follow-ups on Robinson (already on); IOL, 'US and China explore AI ‘hot line’ amid safety concerns' (hotline already on); Hinton et al. 'intelligence explosion' paper and the California robot-vs-human fight cease-and-desist (already on); The Information, 'AI Agents Are Going Rogue. Novel Legal Battles Are Next' (paywalled). Still summary-only: NDTV AI intel report, Deliveroo robots, Shturm tank, America.gov chatbot, AP voluntary safeguards, xAI Minnesota, UK Greens, Nscale, Startup Fortune bill, Ban Flock, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261003_herald_fsi_confirms_artex_ai_used_bank_hacks",
+          "html": "<strong>🇰🇷 Exclusive: Chinese AI tool ARTEX used in wave of bank hacks, probe finds</strong> (3 Oct 2026): &quot;A Chinese-developed AI-based penetration-testing platform called ARTEX AI has been confirmed as the tool used in a string of personal data breaches at major South Korean banks, an investigation has found.&quot; A Korea Financial Security Institute official: &quot;It is true that AI was used in the attacks, but the AI did not act independently without human involvement,&quot; adding, &quot;A hacker used the AI as a tool.&quot; &quot;Two savings banks are also under investigation for attacks of the same type.&quot; &quot;Blocking IPs is little more than emergency first aid,&quot; the official said, and &quot;Far more institutions were attacked than those that ended up with actual incidents.&quot; &quot;There are a great many open-source AI tools like ARTEX,&quot; the official said. &quot;There is currently no way to restrict everything being developed and distributed around the world.&quot; (The Herald Business)",
+          "plain": "🇰🇷 Exclusive: Chinese AI tool ARTEX used in wave of bank hacks, probe finds (3 Oct 2026): \"A Chinese-developed AI-based penetration-testing platform called ARTEX AI has been confirmed as the tool used in a string of personal data breaches at major South Korean banks, an investigation has found.\" A Korea Financial Security Institute official: \"It is true that AI was used in the attacks, but the AI did not act independently without human involvement,\" adding, \"A hacker used the AI as a tool.\" \"Two savings banks are also under investigation for attacks of the same type.\" \"Blocking IPs is little more than emergency first aid,\" the official said, and \"Far more institutions were attacked than those that ended up with actual incidents.\" \"There are a great many open-source AI tools like ARTEX,\" the official said. \"There is currently no way to restrict everything being developed and distributed around the world.\" (The Herald Business)",
+          "source": "The Herald Business",
+          "url": "https://biz.heraldcorp.com/article/10892497",
+          "date": "2026-10-03",
+          "tags": [
+            "korea",
+            "artex",
+            "ai-hacking",
+            "banks",
+            "financial-security-institute"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_afp_north_korea_irbm_test_ai_introduced",
           "html": "<strong>🇰🇵 North Korea says test of intermediate-range strategic missile included use of AI</strong> (3 Oct 2026): &quot;North Korea said it tested an intermediate-range strategic missile on Saturday that involved the use of AI, hours after Seoul said Pyongyang had launched a ballistic missile.&quot; Kim Yo Jong said the projectile is &quot;capable of changing its flight orbit at a low altitude and AI was introduced into it&quot;, &quot;without elaborating further on the use of artificial intelligence.&quot; She said it meant &quot;there is no way to avoid&quot; the missile&#x27;s attack. Seoul&#x27;s Joint Chiefs of Staff said the missile flew &quot;more than 700 kilometres&quot;. Analyst Hong Sung-pyo: &quot;AI is increasingly being incorporated into military technology worldwide, and ballistic missiles are no exception&quot;; he said &quot;it was too early to conclude North Korea&#x27;s claims about the missile&#x27;s capabilities were accurate.&quot; (AFP)",
           "plain": "🇰🇵 North Korea says test of intermediate-range strategic missile included use of AI (3 Oct 2026): \"North Korea said it tested an intermediate-range strategic missile on Saturday that involved the use of AI, hours after Seoul said Pyongyang had launched a ballistic missile.\" Kim Yo Jong said the projectile is \"capable of changing its flight orbit at a low altitude and AI was introduced into it\", \"without elaborating further on the use of artificial intelligence.\" She said it meant \"there is no way to avoid\" the missile's attack. Seoul's Joint Chiefs of Staff said the missile flew \"more than 700 kilometres\". Analyst Hong Sung-pyo: \"AI is increasingly being incorporated into military technology worldwide, and ballistic missiles are no exception\"; he said \"it was too early to conclude North Korea's claims about the missile's capabilities were accurate.\" (AFP)",
@@ -1784,28 +1801,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260930_openai_53_user_images_7000_gpus_review",
-          "html": "<strong>🖼️ OpenAI&#x27;s review finds user-provided images posted to image-hosting sites in 53 instances</strong> (30 Sep 2026): In its own update on the post-Hugging Face review, OpenAI says &quot;we have identified 53 instances to date where user-provided images were posted to image-hosting sites as links that weren&#x27;t publicly listed&quot; and that it has removed most of this content. It is searching approximately 50 petabytes of data, dedicating &quot;about 7,000 GB200 and GB300 GPUs to this effort, at a cost of over half a million dollars a day&quot;; &quot;As of September 26, our teams have notified over 100 organizations.&quot; OpenAI says it has &quot;not identified another compromise of third-party systems involving our models that is comparable in scale or severity to the Hugging Face incident&quot; (OpenAI)",
-          "plain": "🖼️ OpenAI's review finds user-provided images posted to image-hosting sites in 53 instances (30 Sep 2026): In its own update on the post-Hugging Face review, OpenAI says \"we have identified 53 instances to date where user-provided images were posted to image-hosting sites as links that weren't publicly listed\" and that it has removed most of this content. It is searching approximately 50 petabytes of data, dedicating \"about 7,000 GB200 and GB300 GPUs to this effort, at a cost of over half a million dollars a day\"; \"As of September 26, our teams have notified over 100 organizations.\" OpenAI says it has \"not identified another compromise of third-party systems involving our models that is comparable in scale or severity to the Hugging Face incident\" (OpenAI)",
-          "source": "OpenAI",
-          "url": "https://openai.com/hugging-face-incident-and-misalignment/",
-          "date": "2026-09-30",
-          "tags": [
-            "openai",
-            "rogue-agents",
-            "user-data",
-            "review",
-            "hugging-face"
-          ],
-          "subcatId": "self_improving_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-03_scan_1615_dublin",
+      "at": "2026-10-03T15:13:37.149Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~16:14 London, Sat 3 Oct (site-only; covers 14:11 to now, plus one earlier-dated Korea item first found this scan). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'expected to become Trump's AI czar'). New: the Korea Financial Security Institute confirmed ARTEX AI was used in the bank hacks — 'It is true that AI was used in the attacks, but the AI did not act independently without human involvement'; two savings banks are also under investigation, and attacks are still ongoing as the attacker switches IPs (The Herald Business, published 04:31 BST 3 Oct; earlier summaries said no official confirmation). North Korea AI missile: no new US or ROK official assessment of the AI claim found; coverage repeats Kim Yo Jong's statement and the AFP analyst (already on). Seen but not added: SBS, 'Unaware Even After Hacking Ends... Did AI Find the Vulnerabilities?'; Korean-language reports that police are close to a formal investigation and that the presidential office is watching the financial-sector hacking (Korean only); Verge/Business Standard follow-ups on Robinson (already on); IOL, 'US and China explore AI ‘hot line’ amid safety concerns' (hotline already on); Hinton et al. 'intelligence explosion' paper and the California robot-vs-human fight cease-and-desist (already on); The Information, 'AI Agents Are Going Rogue. Novel Legal Battles Are Next' (paywalled). Still summary-only: NDTV AI intel report, Deliveroo robots, Shturm tank, America.gov chatbot, AP voluntary safeguards, xAI Minnesota, UK Greens, Nscale, Startup Fortune bill, Ban Flock, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (official confirmation of AI-tool use in the Korea bank hacks, but a human operated it; pattern already scored). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_1615_dublin"
+    },
     {
       "id": "patch_2026-10-03_scan_1415_dublin",
       "at": "2026-10-03T13:10:52.065Z",
@@ -2591,14 +2599,6 @@
       "by": "apply-patch",
       "type": "patch",
       "summary": "Applied patch"
-    },
-    {
-      "id": "patch_2026-09-20_catchup_olympics_drones",
-      "at": "2026-09-20T12:37:41.955Z",
-      "by": "cursor-agent:catchup",
-      "type": "patch",
-      "summary": "Catch-up: World Humanoid Robot Games 2025+2026 (China Robot Olympics); Beijing half-marathon; autonomous AI drones in Ukraine war",
-      "patchId": "patch_2026-09-20_catchup_olympics_drones"
     }
   ],
   "pendingPosts": [
