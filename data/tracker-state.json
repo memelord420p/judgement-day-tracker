@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-02T23:08:36.591Z",
+    "lastUpdated": "2026-10-03T01:09:58.387Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T00:09:00+01:00",
-    "lastScanSummary": "Scan ~00:09 London, Sat 3 Oct (site-only; covers 22:07 Fri to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found; the Washington Post and local outlets still say Trump is expected to name DNI Jay Clayton. New (Korea, Saturday morning): SBS reports the KB Kookmin attack first began on the night of September 27 and continued for over 40 hours; the 119 people affected include 20 employees and 99 customers; Yegaram Savings Bank also says an unidentified hacker accessed a server containing customer personal information on September 30. AI use is still not clearly verified. Follow-ups: OpenAI told ABC News (US) its model queried the NSW Fire History service in a manner that went beyond its intended use, gathering summary fire statistics that weren't publicly available through the service (NSW item already on). Musk says Tesla nudged AI5 up to 96GB after the 72GB cut (Optimus memory item already on). Apple is changing Mac full-disk access permissions to curb abuse from AI agents (Ars Technica). AI Agent Accountability Act: still no bill text or number found. China/Japan/Taiwan: nothing new found. Robotics: nothing new verified. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T02:10:00+01:00",
+    "lastScanSummary": "Scan ~02:10 London, Sat 3 Oct (site-only; covers 00:09 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found; reports still say Trump is expected to name DNI Jay Clayton. New: an OpenAI spokesperson told Business Insider that David Robinson, a leader on OpenAI's Safety Systems team who worked on safety transparency and system cards, left last week (BI, 2 Oct). T-1000: MIT engineers' paper-thin aquabot is powered by a single layer of muscle cells that twitch in response to light and can swim and swivel through a simple watery maze (MIT News, 29 Sep; fresh New Atlas coverage 3 Oct). Also seen: OpenAI hired a former White House cyber official; Australian outlets keep covering the NSW National Parks item (already on). AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank follow-ups since SBS; Asia Saturday news dominated by a North Korean missile launch (not AI). China/Japan/Taiwan: nothing new found. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -927,6 +927,23 @@
       "id": "t1000",
       "headlines": [
         {
+          "id": "t1000_hl_20260929_mit_muscle_powered_paper_thin_aquabot",
+          "html": "<strong>Powered by muscle cells, a paper-thin robot swims through watery maze</strong> (29 Sep 2026): MIT engineers present a design for a thin, muscle-powered swimming robot. Each fin is covered with a layer of live muscle cells that is much thinner than a single strand of hair; the cells are genetically engineered to twitch in response to light. The new robot is the first example of a very thin, two-dimensional, muscle-powered robot capable of locomotion. &quot;We believe that biohybrid robots powered by living muscle could one day perform delicate jobs like exploring environments too fragile or unpredictable for conventional hardware, because living tissue is soft, responsive to its surroundings, and can heal itself.&quot; (MIT News)",
+          "plain": "Powered by muscle cells, a paper-thin robot swims through watery maze (29 Sep 2026): MIT engineers present a design for a thin, muscle-powered swimming robot. Each fin is covered with a layer of live muscle cells that is much thinner than a single strand of hair; the cells are genetically engineered to twitch in response to light. The new robot is the first example of a very thin, two-dimensional, muscle-powered robot capable of locomotion. \"We believe that biohybrid robots powered by living muscle could one day perform delicate jobs like exploring environments too fragile or unpredictable for conventional hardware, because living tissue is soft, responsive to its surroundings, and can heal itself.\" (MIT News)",
+          "source": "MIT News",
+          "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
+          "date": "2026-09-29",
+          "tags": [
+            "mit",
+            "biohybrid",
+            "soft-robotics",
+            "muscle",
+            "research"
+          ],
+          "subcatId": "self_repair_reassembly",
+          "fighterId": "t1000"
+        },
+        {
           "id": "t1000_hl_20260822_natcomms_light_encoded_handed_hydrogel",
           "html": "<strong>Gel that reshapes itself on a beam of light</strong> (22 Aug 2026; gap): A homogeneous photoactive hydrogel swells more than 80,000% by volume within 40 seconds under patterned light (spiropyran photoisomerisation), letting researchers write left- or right-handed helices, twists and tendril-like shapes on demand, erase them in darkness and reprogram them — and use the handedness for self-propelled rotation in a soft robot (Nature Communications)",
           "plain": "Gel that reshapes itself on a beam of light (22 Aug 2026; gap): A homogeneous photoactive hydrogel swells more than 80,000% by volume within 40 seconds under patterned light (spiropyran photoisomerisation), letting researchers write left- or right-handed helices, twists and tendril-like shapes on demand, erase them in darkness and reprogram them — and use the handedness for self-propelled rotation in a soft robot (Nature Communications)",
@@ -1439,6 +1456,22 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261002_bi_openai_safety_leader_robinson_resigns",
+          "html": "<strong>OpenAI safety leader David Robinson resigns as the team&#x27;s upheaval mounts</strong> (2 Oct 2026): David Robinson, a leader on OpenAI&#x27;s Safety Systems team, has resigned from the company. An OpenAI spokesperson told Business Insider on Friday that Robinson left last week. Robinson worked on safety transparency at the company, including helping to develop and share system cards that provide information about its models. He wrote on X that things at OpenAI &quot;are indeed changing significantly by the day, but I do not know whether we are changing fast enough.&quot; (Business Insider)",
+          "plain": "OpenAI safety leader David Robinson resigns as the team's upheaval mounts (2 Oct 2026): David Robinson, a leader on OpenAI's Safety Systems team, has resigned from the company. An OpenAI spokesperson told Business Insider on Friday that Robinson left last week. Robinson worked on safety transparency at the company, including helping to develop and share system cards that provide information about its models. He wrote on X that things at OpenAI \"are indeed changing significantly by the day, but I do not know whether we are changing fast enough.\" (Business Insider)",
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/safety-leader-david-robinson-resigns-from-openai-2026-10",
+          "date": "2026-10-02",
+          "tags": [
+            "openai",
+            "safety",
+            "resignation",
+            "system-cards"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_sbs_korea_banks_ai_utilized_40_hours_yegaram",
           "html": "<strong>🏦 Spreading Hacking Damage in Banking Sector... Circumstances Point to AI-Utilized Work System Infiltration</strong> (3 Oct 2026): At KB Kookmin Bank, personal information of a total of 119 individuals, including 20 employees and 99 customers, was leaked; the attack, which first began on the night of September 27, continued for over 40 hours. Yegaram Savings Bank also stated that an unidentified hacker accessed a server containing customer personal information on September 30. While it has not been clearly verified whether it was the work of the same group, circumstances indicating the utilization of AI have emerged in terms of the timing and methods of the attacks. Professor Hwang Seok-jin: &quot;They keep breaching and pushing through until they find a way. Therefore, the timeframes and other aspects were such that manual work would have been completely impossible.&quot; (SBS News)",
           "plain": "🏦 Spreading Hacking Damage in Banking Sector... Circumstances Point to AI-Utilized Work System Infiltration (3 Oct 2026): At KB Kookmin Bank, personal information of a total of 119 individuals, including 20 employees and 99 customers, was leaked; the attack, which first began on the night of September 27, continued for over 40 hours. Yegaram Savings Bank also stated that an unidentified hacker accessed a server containing customer personal information on September 30. While it has not been clearly verified whether it was the work of the same group, circumstances indicating the utilization of AI have emerged in terms of the timing and methods of the attacks. Professor Hwang Seok-jin: \"They keep breaching and pushing through until they find a way. Therefore, the timeframes and other aspects were such that manual work would have been completely impossible.\" (SBS News)",
@@ -1767,28 +1800,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_taiwan_lin_yiching_ai_scan_critical_infrastructure",
-          "html": "<strong>🇹🇼 Taiwan enlists frontier AI to scan critical infrastructure, drafts agentic-AI law</strong> (1 Oct 2026): Taiwan is working with major US technology firms to use advanced AI models to scan government systems and critical infrastructure for vulnerabilities, the Ministry of Digital Affairs said. Minister Lin Yi-ching said some advanced AI models are able to scan software and identify vulnerabilities, which could be linked together to form a &quot;killer chain,&quot; and that the ministry is working with Anthropic, OpenAI, Google and Microsoft. He said the government is drafting laws to regulate agentic AI, but legislative progress might be unable to keep pace with the rapid advancement of AI (Taipei Times)",
-          "plain": "🇹🇼 Taiwan enlists frontier AI to scan critical infrastructure, drafts agentic-AI law (1 Oct 2026): Taiwan is working with major US technology firms to use advanced AI models to scan government systems and critical infrastructure for vulnerabilities, the Ministry of Digital Affairs said. Minister Lin Yi-ching said some advanced AI models are able to scan software and identify vulnerabilities, which could be linked together to form a \"killer chain,\" and that the ministry is working with Anthropic, OpenAI, Google and Microsoft. He said the government is drafting laws to regulate agentic AI, but legislative progress might be unable to keep pace with the rapid advancement of AI (Taipei Times)",
-          "source": "Taipei Times",
-          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/01/2003865194",
-          "date": "2026-10-01",
-          "tags": [
-            "taiwan",
-            "critical-infrastructure",
-            "agentic-ai",
-            "cybersecurity",
-            "regulation"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-03_scan_0215_dublin",
+      "at": "2026-10-03T01:09:58.387Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:10 London, Sat 3 Oct (site-only; covers 00:09 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found; reports still say Trump is expected to name DNI Jay Clayton. New: an OpenAI spokesperson told Business Insider that David Robinson, a leader on OpenAI's Safety Systems team who worked on safety transparency and system cards, left last week (BI, 2 Oct). T-1000: MIT engineers' paper-thin aquabot is powered by a single layer of muscle cells that twitch in response to light and can swim and swivel through a simple watery maze (MIT News, 29 Sep; fresh New Atlas coverage 3 Oct). Also seen: OpenAI hired a former White House cyber official; Australian outlets keep covering the NSW National Parks item (already on). AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank follow-ups since SBS; Asia Saturday news dominated by a North Korean missile launch (not AI). China/Japan/Taiwan: nothing new found. All hold: T-800 33, T-1000 5, Skynet 53 (a safety-team departure, not a capability event; a light-controlled lab biohybrid swimmer; czar still unannounced). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_0215_dublin"
+    },
     {
       "id": "patch_2026-10-03_scan_0015_dublin",
       "at": "2026-10-02T23:08:36.591Z",
@@ -2570,14 +2594,6 @@
       "type": "patch",
       "summary": "auth ok",
       "patchId": "auth_ok"
-    },
-    {
-      "id": "auth_probe",
-      "at": "2026-09-20T12:34:11.437Z",
-      "by": "probe",
-      "type": "patch",
-      "summary": "auth probe",
-      "patchId": "auth_probe"
     }
   ],
   "pendingPosts": [
