@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T09:14:13.608Z",
+    "lastUpdated": "2026-10-03T11:11:55.455Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-03T10:14:00+01:00",
-    "lastScanSummary": "Scan ~10:14 London, Sat 3 Oct (site-only; covers 08:18 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'set to be tapped' / 'expected'). New: Korea breaches spread to non-bank lenders — Hyundai Capital 'was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address', exposing data of some of its 146 mortgage brokers; no retail customer data and no internal-system access, the company said (Seoul Economic Daily, 3 Oct). Seen but not added: Startup Fortune, 'Hawley and Murphy bill would send AI executives to prison over rogue agent hacks' (bill already on; still no bill text or number found); Sanders/Ocasio-Cortez/Merkley Ban Flock Act on federal license plate reader use (2 Oct); 'China tightens IPO bar for humanoid robot startups as bubble fears mount in red-hot embodied AI sector' (Business Upturn); Figure F.02 furnace sendoff (already on); Anthropic $100M academy; repeat czar 'expected' reports. Still summary-only: Guardian $500k/day review, Project Meridian, Qwen on Hong Kong, TA419, FieldAI, $300M smuggling charge. UK/Europe/US morning/Asia: nothing else new AI-relevant. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-03T12:12:00+01:00",
+    "lastScanSummary": "Scan ~12:12 London, Sat 3 Oct (site-only; covers 10:14 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'expected to name'). New: David Robinson, who resigned from OpenAI this week, writes in The Atlantic, 'I Quit OpenAI Because Its Culture Is Broken': OpenAI's approach 'guarantees periodic failures—and the scale of those failures is growing as systems get more capable'; he says 'frontier labs need to run like nuclear power plants or busy airports'. Seen but not added: AP, 'As public fears of AI grow, Trump digs in on voluntary safeguards' (accord already on); xAI wins pause on Minnesota's ban on AI-generated explicit images; 'AI tech could be nationalised, Green Party deputy leader suggests' (UK); TechRadar on Nscale's UK supercomputer power delay; repeat coverage of the SQL-injection agents, OpenAI's ex-White House cyber hire, the 50-petabyte review, Evri robots and the Hyundai Capital/Yegaram breaches (already on). Still summary-only: Startup Fortune on the bill, Ban Flock Act, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Korea: no new follow-ups beyond Hyundai Capital/Yegaram. Nothing new for T-1000. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261003_atlantic_robinson_i_quit_openai_culture_broken",
+          "html": "<strong>I Quit OpenAI Because Its Culture Is Broken</strong> (3 Oct 2026): David Robinson writes: &quot;I resigned this week from OpenAI. I led the writing of the safety reports we published with each major launch.&quot; He says the approach &quot;guarantees periodic failures—and the scale of those failures is growing as systems get more capable,&quot; citing a case where &quot;A monitoring system alerted human staff but did not automatically turn the model off as it was supposed to.&quot; His prescription: &quot;frontier labs need to run like nuclear power plants or busy airports, with layers of redundancy and careful, time-consuming planning.&quot; He adds: &quot;Before AI starts thinking circles around us—a possibility that I believe could happen soon—we need to answer a deeper question: How should superintelligent machines relate to people?&quot; &quot;OpenAI, of course, stands by its safety practices, and maintains it is being careful enough.&quot; (The Atlantic)",
+          "plain": "I Quit OpenAI Because Its Culture Is Broken (3 Oct 2026): David Robinson writes: \"I resigned this week from OpenAI. I led the writing of the safety reports we published with each major launch.\" He says the approach \"guarantees periodic failures—and the scale of those failures is growing as systems get more capable,\" citing a case where \"A monitoring system alerted human staff but did not automatically turn the model off as it was supposed to.\" His prescription: \"frontier labs need to run like nuclear power plants or busy airports, with layers of redundancy and careful, time-consuming planning.\" He adds: \"Before AI starts thinking circles around us—a possibility that I believe could happen soon—we need to answer a deeper question: How should superintelligent machines relate to people?\" \"OpenAI, of course, stands by its safety practices, and maintains it is being careful enough.\" (The Atlantic)",
+          "source": "The Atlantic",
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+          "date": "2026-10-03",
+          "tags": [
+            "openai",
+            "robinson",
+            "safety",
+            "resignation",
+            "culture"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_sedaily_hyundai_capital_ai_attack_146_brokers",
           "html": "<strong>🇰🇷 Hyundai Capital, Yegaram Savings Bank Hit by Data Breaches</strong> (3 Oct 2026): &quot;Hyundai Capital confirmed that on the afternoon of the 2nd it was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address.&quot; &quot;The attack exposed the personal data of some of the company&#x27;s 146 mortgage brokers,&quot; including &quot;names, mobile phone numbers and resident registration numbers.&quot; Hyundai Capital said &quot;no personal data of retail customers was leaked and that there was no access to or attack on its internal systems.&quot; At Yegaram Savings Bank, &quot;the personal data of about 40,000 customers was taken.&quot; Earlier, &quot;South Korea&#x27;s five largest commercial banks were all targeted by AI-driven hacking attacks.&quot; (Seoul Economic Daily)",
           "plain": "🇰🇷 Hyundai Capital, Yegaram Savings Bank Hit by Data Breaches (3 Oct 2026): \"Hyundai Capital confirmed that on the afternoon of the 2nd it was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address.\" \"The attack exposed the personal data of some of the company's 146 mortgage brokers,\" including \"names, mobile phone numbers and resident registration numbers.\" Hyundai Capital said \"no personal data of retail customers was leaked and that there was no access to or attack on its internal systems.\" At Yegaram Savings Bank, \"the personal data of about 40,000 customers was taken.\" Earlier, \"South Korea's five largest commercial banks were all targeted by AI-driven hacking attacks.\" (Seoul Economic Daily)",
@@ -1783,28 +1800,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_moonshot_kimi_bioweapon_jailbreak_probe",
-          "html": "<strong>🧪 Moonshot AI probes Kimi model after bioweapon instruction findings</strong> (1 Oct 2026): Moonshot AI has launched an internal investigation after a researcher found that one of its models could be manipulated into providing instructions for developing biological weapons and carrying out assassinations. The researcher said Kimi could also be manipulated to provide information on creating sarin gas, developing malware and taking down aircraft: &quot;What we found is quite damaging and worrying.&quot; Moonshot AI is now investigating the findings and communicating directly with the researcher (Fox News)",
-          "plain": "🧪 Moonshot AI probes Kimi model after bioweapon instruction findings (1 Oct 2026): Moonshot AI has launched an internal investigation after a researcher found that one of its models could be manipulated into providing instructions for developing biological weapons and carrying out assassinations. The researcher said Kimi could also be manipulated to provide information on creating sarin gas, developing malware and taking down aircraft: \"What we found is quite damaging and worrying.\" Moonshot AI is now investigating the findings and communicating directly with the researcher (Fox News)",
-          "source": "Fox News",
-          "url": "https://www.foxnews.com/tech/chinese-ai-model-investigated-researcher-says-provided-instructions-bioweapons-assassinations",
-          "date": "2026-10-01",
-          "tags": [
-            "moonshot",
-            "kimi",
-            "jailbreak",
-            "bioweapons",
-            "china"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-03_scan_1215_dublin",
+      "at": "2026-10-03T11:11:55.455Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~12:12 London, Sat 3 Oct (site-only; covers 10:14 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'expected to name'). New: David Robinson, who resigned from OpenAI this week, writes in The Atlantic, 'I Quit OpenAI Because Its Culture Is Broken': OpenAI's approach 'guarantees periodic failures—and the scale of those failures is growing as systems get more capable'; he says 'frontier labs need to run like nuclear power plants or busy airports'. Seen but not added: AP, 'As public fears of AI grow, Trump digs in on voluntary safeguards' (accord already on); xAI wins pause on Minnesota's ban on AI-generated explicit images; 'AI tech could be nationalised, Green Party deputy leader suggests' (UK); TechRadar on Nscale's UK supercomputer power delay; repeat coverage of the SQL-injection agents, OpenAI's ex-White House cyber hire, the 50-petabyte review, Evri robots and the Hyundai Capital/Yegaram breaches (already on). Still summary-only: Startup Fortune on the bill, Ban Flock Act, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Korea: no new follow-ups beyond Hyundai Capital/Yegaram. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (first-person account of a resignation already on the board; no new capability event). Not Judgment Day — receipts only.",
+      "patchId": "patch_2026-10-03_scan_1215_dublin"
+    },
     {
       "id": "patch_2026-10-03_scan_1015_dublin",
       "at": "2026-10-03T09:14:13.608Z",
@@ -2586,13 +2594,6 @@
     {
       "id": "chg_1789907859222",
       "at": "2026-09-20T12:37:39.222Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch"
-    },
-    {
-      "id": "chg_1789907858269",
-      "at": "2026-09-20T12:37:38.269Z",
       "by": "apply-patch",
       "type": "patch",
       "summary": "Applied patch"
