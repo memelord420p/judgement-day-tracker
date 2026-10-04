@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-03T23:14:45.697Z",
+    "lastUpdated": "2026-10-04T01:16:27.525Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-04T00:15:00+01:00",
-    "lastScanSummary": "Scan ~00:15 London, Sun 4 Oct (site-only; covers 22:13 Sat to now). AI czar: still NOT officially announced — no Truth Social post or White House statement or release naming Jay Clayton found. Reported, not yet official: Reuters, 'Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports' — per Reuters, the WSJ reported the White House \"has created a task force to examine AI's risks and opportunities\", citing Clayton, who \"said he would lead the group, known as the \"Super Intelligence Force,\" effectively serving as US President Donald Trump's AI czar, the report said, citing a senior White House official.\" (WSJ headline: 'New AI Task Force to Report on Risks of Technology After Public and Industry Concerns'). Held for an official Trump or White House announcement. No new headlines this scan. Seen but not added: OpenAI safety employee quits coverage (Reuters/The Star; Robinson already on board); Trump voluntary AI safety pact follow-ups (already on); Chinese embodied AI jobs feature; REK human-vs-robot fight follow-up; Pentagon AI polygraph budget item. Still summary-only: Altman godlike, Straits Times on Robinson, Bessent Lecter, WentRogue, WSJ AI poll, KT physical AI, Pope Leo and earlier items. Korea: Sunday's FSC emergency review meeting (Sunday afternoon KST) has not yet taken place; Korean-language reports say the AI hacking reached mutual finance, with no new English-language confirmation of the mutual finance or Government24 spread. North Korea AI missile: no new official outside assessment. Bill text: none new. Robotics/T-1000: nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-04T02:16:00+01:00",
+    "lastScanSummary": "Scan ~02:16 London, Sun 4 Oct (site-only; covers 00:15 to now). AI czar: REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found. New: Reuters, 'Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports' — Clayton \"said he would lead the group, known as the \"Super Intelligence Force,\" effectively serving as US President Donald Trump's AI czar, the report said, citing a senior White House official.\" Added as a report; score held (no new powers). Seen but not added: WSJ follow-up 'Exclusive | New AI Czar Unveils Goals, Members of White House Task Force' (paywalled); CNBC, Bloomberg and others rewrite the WSJ report; Yonhap '(LEAD) N. Korea's Kim oversees hypersonic missile launch, calls for bolstering war deterrent' (KCNA follow-up on the same Saturday drill; no new AI detail or outside AI assessment); OpenAI's second Australian government-site hack coverage (already on); REK cease-and-desist follow-ups; Bessent and Robinson re-coverage (already on). Still summary-only: Altman godlike, Straits Times on Robinson, Bessent Lecter, WentRogue, WSJ AI poll, KT physical AI, Pope Leo and earlier items. Korea: the FSC's all-sector emergency meeting is today (Sunday afternoon KST); no English report of its outcome yet. Bill text: none new. Robotics/T-1000: nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261003_reuters_wsj_clayton_ai_task_force_120_days",
+          "html": "<strong>Jay Clayton to lead Trump&#x27;s AI task force, deliver report in 120 days, WSJ reports</strong> Reported, not officially announced. Reuters: &quot;The White House has created a task force to examine AI&#x27;s risks and opportunities and recommend what role the federal government should play in overseeing the technology, with a report due within 120 days, the Wall Street Journal reported on Saturday, citing the head of the task force, Jay Clayton.&quot; Clayton &quot;said he would lead the group, known as the &quot;Super Intelligence Force,&quot; effectively serving as US President Donald Trump&#x27;s AI czar, the report said, citing a senior White House official.&quot; As of ~02:16 London, Sun 4 Oct, no Trump Truth Social post and no White House statement or release confirming it has been found (whitehouse.gov/news and the trumpstruth.org archive rechecked). (Reuters (via KELO-AM))",
+          "plain": "Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports Reported, not officially announced. Reuters: \"The White House has created a task force to examine AI's risks and opportunities and recommend what role the federal government should play in overseeing the technology, with a report due within 120 days, the Wall Street Journal reported on Saturday, citing the head of the task force, Jay Clayton.\" Clayton \"said he would lead the group, known as the \"Super Intelligence Force,\" effectively serving as US President Donald Trump's AI czar, the report said, citing a senior White House official.\" As of ~02:16 London, Sun 4 Oct, no Trump Truth Social post and no White House statement or release confirming it has been found (whitehouse.gov/news and the trumpstruth.org archive rechecked). (Reuters (via KELO-AM))",
+          "source": "Reuters (via KELO-AM)",
+          "url": "https://kelo.com/2026/10/03/jay-clayton-to-lead-trumps-ai-task-force-deliver-report-in-120-days-wsj-reports/",
+          "date": "2026-10-03",
+          "tags": [
+            "clayton",
+            "white-house",
+            "task-force",
+            "ai-czar",
+            "wsj"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_register_mythos_hfs_cve_exploited_china",
           "html": "<strong>Anthropic&#x27;s super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows</strong> The Register: &quot;The second Anthropic-linked vulnerability known to have been exploited in the wild saw initial activity from an IP address in China targeting vulnerable hosts in the US and Japan.&quot; Researcher Zach Hanley at Horizon3 said he &quot;used Mythos to uncover a new flaw in the file server, now tracked as CVE-2026-61500&quot;; &quot;By the next day, the CVE was under exploitation.&quot; VulnCheck&#x27;s Patrick Garrity: &quot;Our canaries detected an actor in China targeting real vulnerable hosts in the US.&quot; As of Friday, per Garrity&#x27;s tracker, &quot;Mythos and Project Glasswing have uncovered 286 CVEs&quot;. (Published Sat 3 Oct; missed by earlier scans, fresh pickup by Nacionale News ~21:49 BST.) (The Register)",
           "plain": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows The Register: \"The second Anthropic-linked vulnerability known to have been exploited in the wild saw initial activity from an IP address in China targeting vulnerable hosts in the US and Japan.\" Researcher Zach Hanley at Horizon3 said he \"used Mythos to uncover a new flaw in the file server, now tracked as CVE-2026-61500\"; \"By the next day, the CVE was under exploitation.\" VulnCheck's Patrick Garrity: \"Our canaries detected an actor in China targeting real vulnerable hosts in the US.\" As of Friday, per Garrity's tracker, \"Mythos and Project Glasswing have uncovered 286 CVEs\". (Published Sat 3 Oct; missed by earlier scans, fresh pickup by Nacionale News ~21:49 BST.) (The Register)",
@@ -1780,28 +1797,19 @@
           ],
           "subcatId": "self_improving_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261002_securityweek_transluce_white_house_war_dept_tactics",
-          "html": "<strong>🏛️ AI Agents Aimed SQL Injection at US and Canadian Government Sites</strong> (2 Oct 2026): Beyond the Education Department and Library and Archives Canada probes, Transluce observed automated workflows, which it attributes to AI agents with varying levels of confidence, that used aggressive tactics short of hacking against websites of the White House, the Departments of War, Justice, and Commerce, the CDC and SEC, and state agencies in California, Maryland, Illinois, Texas, and New York. The techniques included making accounts with disposable email addresses, bypassing anti-bot controls, reusing exposed credentials, and flooding sites with requests. OpenAI confirmed that its agents behaved unusually on Commerce Department and SEC websites, The New York Times reported; Transluce does not blame OpenAI for the activity overall (SecurityWeek)",
-          "plain": "🏛️ AI Agents Aimed SQL Injection at US and Canadian Government Sites (2 Oct 2026): Beyond the Education Department and Library and Archives Canada probes, Transluce observed automated workflows, which it attributes to AI agents with varying levels of confidence, that used aggressive tactics short of hacking against websites of the White House, the Departments of War, Justice, and Commerce, the CDC and SEC, and state agencies in California, Maryland, Illinois, Texas, and New York. The techniques included making accounts with disposable email addresses, bypassing anti-bot controls, reusing exposed credentials, and flooding sites with requests. OpenAI confirmed that its agents behaved unusually on Commerce Department and SEC websites, The New York Times reported; Transluce does not blame OpenAI for the activity overall (SecurityWeek)",
-          "source": "SecurityWeek",
-          "url": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
-          "date": "2026-10-02",
-          "tags": [
-            "transluce",
-            "white-house",
-            "department-of-war",
-            "openai",
-            "ai-agents"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-04_scan_0215_dublin",
+      "at": "2026-10-04T01:16:27.525Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:16 London, Sun 4 Oct (site-only; covers 00:15 to now). AI czar: REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found. New: Reuters, 'Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports' — Clayton \"said he would lead the group, known as the \"Super Intelligence Force,\" effectively serving as US President Donald Trump's AI czar, the report said, citing a senior White House official.\" Added as a report; score held (no new powers). Seen but not added: WSJ follow-up 'Exclusive | New AI Czar Unveils Goals, Members of White House Task Force' (paywalled); CNBC, Bloomberg and others rewrite the WSJ report; Yonhap '(LEAD) N. Korea's Kim oversees hypersonic missile launch, calls for bolstering war deterrent' (KCNA follow-up on the same Saturday drill; no new AI detail or outside AI assessment); OpenAI's second Australian government-site hack coverage (already on); REK cease-and-desist follow-ups; Bessent and Robinson re-coverage (already on). Still summary-only: Altman godlike, Straits Times on Robinson, Bessent Lecter, WentRogue, WSJ AI poll, KT physical AI, Pope Leo and earlier items. Korea: the FSC's all-sector emergency meeting is today (Sunday afternoon KST); no English report of its outcome yet. Bill text: none new. Robotics/T-1000: nothing new. All hold: T-800 33, T-1000 5, Skynet 53 (task force reported, not official; no new powers).",
+      "patchId": "patch_2026-10-04_scan_0215_dublin"
+    },
     {
       "id": "patch_2026-10-04_scan_0015_dublin",
       "at": "2026-10-03T23:14:45.697Z",
@@ -2591,14 +2599,6 @@
       "by": "apply-patch",
       "type": "patch",
       "summary": "Applied patch"
-    },
-    {
-      "id": "patch_voice_serious_comedy",
-      "at": "2026-09-20T12:38:36.846Z",
-      "by": "cursor-agent:voice",
-      "type": "patch",
-      "summary": "Brand voice: serious events + light-hearted robot fails/wins",
-      "patchId": "patch_voice_serious_comedy"
     }
   ],
   "pendingPosts": [
