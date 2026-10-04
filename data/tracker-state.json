@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-04T19:11:57.121Z",
+    "lastUpdated": "2026-10-04T21:12:25.219Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-04T20:12:00+01:00",
-    "lastScanSummary": "Scan ~20:12 London, Sun 4 Oct (site-only; covers 18:12 to now; meta-only refresh — nothing new qualified). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the finance.biggo.com claims stay out. Trump's Truth Social since 13:09 EDT: at 13:38 EDT he shared an image of Elon Musk's X post reading \"No more AI SI It's better\" (no added text); no new post on the Super Intelligence Force or Clayton. Seen but not added: ABC News, 'President Donald Trump announces creation of 'Super Intelligence Force' AI task force' — Clayton quotes from the WSJ interview (already on); NPR, 'Trump names national intelligence chief Jay Clayton as new AI czar'; UPI, 'Trump names Jay Clayton to new artificial intelligence czar post'; news.com.au, ''Drunk' AI exposes scary new threat' (UNSW study, reported in September); local reports of a Florida woman arrested after Anthropic flagged threats typed into Claude (arrest reported 30 Sep). Korea: Monday-edition Korean reports repeat the seven-firm figures, police preliminary inquiry and FSC warnings; no new breaches or official findings. North Korea: no new assessment beyond Seoul's earlier rejection of the AI-missile claim. Sydney joint committee hearing (Tuesday 6 Oct, OpenAI's Jason Kwon and Anthropic expected): no new previews. Japan/China, UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: Reuters Musk SpaceXAI to SpaceXSI, ABC Khan 'constitution', CBS SIF, Futurism Anthropic/Vatican, The Decoder Google self-improving agents, Tom's Hardware Astra WoW, AP Ohio data centers, the Independent's AI czar piece, CNN/Fox/Politico SIF, the Reflection Axios scoop, Firstpost on OpenAI lawsuits, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-04T22:12:00+01:00",
+    "lastScanSummary": "Scan ~22:12 London, Sun 4 Oct (site-only; covers 20:12 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the trumpstruth.org archive shows no Trump post after 14:09 EDT; the finance.biggo.com claims stay out. New: (1) White House presidential message, 'Presidential Message on National Cybersecurity Awareness Month' (2 Oct) — \"GOLD EAGLE,\" \"a partnership between the Federal Government and leading American companies to harness the power of American Super Intelligence to identify cybersecurity vulnerabilities at rapid speed\" (restates the 14 July initiative; no new powers). (2) Reuters, 'Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports' — Coxon will appear at the request of Speaker Julie Menin; the Council's Committee of the Whole hearing is on 5 October. Seen but not added: White House, 'U.S. Leads International Coalition to Endorse Kyoto Vision for a Golden Age of Science' (4 Oct; science declaration, 16 countries); Politico, 'Sam Altman to Decoded: 'The world should accept some bad things happening' for the benefits of AI' (article text not retrieved, headline only); The Chosun Ilbo, 'AI Hackers Exploit Password Attempt Limits in Financial Systems' — an IT official: \"If an account locks after five incorrect attempts, attackers try only four times before switching accounts\" (illustrative, no new official findings); Gizmodo, 'Trump Posts Not-So-Subtle Boast About 'Super Intelligence' Victory Over Elon Musk' (the reshare, already summary-only); The Washington Post, 'Trump launches 'Super Intelligence Force' after calls for AI slowdown'. Korea: Monday-edition reports and editorials, no new breaches or official findings. Japan/China/North Korea: nothing new. Sydney joint committee hearing (Tuesday 6 Oct): no new previews. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: the Trump reshare of Musk's post, ABC/NPR/UPI/CBS/CNN/Fox/Politico SIF coverage, news.com.au 'drunk' AI, the Florida Claude arrest, Reuters on SpaceXSI, Futurism Anthropic/Vatican, The Decoder, Tom's Hardware Astra WoW, the Reflection Axios scoop, Firstpost, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261004_reuters_coxon_nyc_council_ai_hearing",
+          "html": "<strong>Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports</strong> (4 Oct 2026) Reuters (copy via StreetInsider): &quot;Former Anthropic researcher Jacob Coxon will testify at a New York City hearing on artificial intelligence, Bloomberg News reported on Sunday, citing people familiar with the matter.&quot; &quot;Coxon will appear at the request of New York City Council Speaker Julie Menin, who has urged AI whistleblowers to testify as city lawmakers weigh a package of bills aimed at establishing safeguards around the technology&quot;. Coxon quit Anthropic last month, warning that the &quot;people building AI earnestly believe that it could kill us all by the end of the decade&quot; and accusing Anthropic and OpenAI of &quot;gambling with our lives.&quot; &quot;Reuters could not immediately verify the report.&quot; NYC Council (25 Sep release): &quot;The bills will be heard at the Council&#x27;s upcoming Committee of the Whole hearing on October 5&quot;. (Reuters)",
+          "plain": "Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports (4 Oct 2026) Reuters (copy via StreetInsider): \"Former Anthropic researcher Jacob Coxon will testify at a New York City hearing on artificial intelligence, Bloomberg News reported on Sunday, citing people familiar with the matter.\" \"Coxon will appear at the request of New York City Council Speaker Julie Menin, who has urged AI whistleblowers to testify as city lawmakers weigh a package of bills aimed at establishing safeguards around the technology\". Coxon quit Anthropic last month, warning that the \"people building AI earnestly believe that it could kill us all by the end of the decade\" and accusing Anthropic and OpenAI of \"gambling with our lives.\" \"Reuters could not immediately verify the report.\" NYC Council (25 Sep release): \"The bills will be heard at the Council's upcoming Committee of the Whole hearing on October 5\". (Reuters)",
+          "source": "Reuters",
+          "url": "https://www.streetinsider.com/Reuters/Former+Anthropic+researcher+Coxon+to+testify+at+New+York+City+AI+hearing%2C+Bloomberg+News+reports/27144424.html",
+          "date": "2026-10-04",
+          "tags": [
+            "anthropic",
+            "whistleblower",
+            "nyc-council",
+            "hearing",
+            "coxon"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261002_whitehouse_cyber_awareness_message_gold_eagle",
+          "html": "<strong>Presidential Message on National Cybersecurity Awareness Month</strong> (2 Oct 2026) A presidential message from the White House (briefings &amp; statements), not an executive order or proclamation. &quot;In March, I released my Cyber Strategy for America&quot;. &quot;My Administration is already putting this strategy into action through the creation of &quot;GOLD EAGLE,&quot; a partnership between the Federal Government and leading American companies to harness the power of American Super Intelligence to identify cybersecurity vulnerabilities at rapid speed and stay ahead of our adversaries, defend the American People from emerging threats, and safeguard the critical infrastructure vital to our national security and global competitiveness.&quot; Context: the White House release &#x27;White House Launches Gold Eagle Initiative for Unprecedented Cybersecurity Vulnerability Coordination&#x27; (14 July 2026) says the system was built &quot;using the existing authorities and resources of the federal government&quot;. (Restates an existing initiative; no new legal powers.) (The White House)",
+          "plain": "Presidential Message on National Cybersecurity Awareness Month (2 Oct 2026) A presidential message from the White House (briefings & statements), not an executive order or proclamation. \"In March, I released my Cyber Strategy for America\". \"My Administration is already putting this strategy into action through the creation of \"GOLD EAGLE,\" a partnership between the Federal Government and leading American companies to harness the power of American Super Intelligence to identify cybersecurity vulnerabilities at rapid speed and stay ahead of our adversaries, defend the American People from emerging threats, and safeguard the critical infrastructure vital to our national security and global competitiveness.\" Context: the White House release 'White House Launches Gold Eagle Initiative for Unprecedented Cybersecurity Vulnerability Coordination' (14 July 2026) says the system was built \"using the existing authorities and resources of the federal government\". (Restates an existing initiative; no new legal powers.) (The White House)",
+          "source": "The White House",
+          "url": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-national-cybersecurity-awareness-month/",
+          "date": "2026-10-02",
+          "tags": [
+            "white-house",
+            "gold-eagle",
+            "cybersecurity",
+            "super-intelligence",
+            "critical-infrastructure"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261004_chosunbiz_seven_firms_multicountry_ips_knpa_cyber_bureau",
           "html": "<strong>🇰🇷 AI-aided hacks hit seven South Korea financial firms, expose security gaps</strong> (4 Oct 2026) Chosunbiz (English edition; the outlet notes the article was translated by AI): &quot;Authorities believe the attacks mobilized IPs not only from Korea but also from the United States, Japan, Hong Kong, Singapore, Vietnam, Thailand, and the United Kingdom.&quot; &quot;Traces of &quot;ARTEX AI&quot; use were also found in the IPs that attacked the banking sector.&quot; Because ARTEX AI is publicly available and the IPs are spread across countries, &quot;financial authorities said it is difficult to point to a specific country or organization as the actor behind the attacks&quot;. &quot;The Korean National Police Agency&#x27;s Cyber Bureau is investigating the attack routes and perpetrators.&quot; Among firms facing similar intrusion attempts, &quot;those that implemented multi-factor authentication or preemptively fixed vulnerabilities did not suffer actual breaches&quot;. FSC chair Lee Eog-weon: &quot;We must also quickly establish security systems that defend AI attacks with AI.&quot; (Follow-up to the same-IP seven-firm story already on.) (Chosunbiz)",
           "plain": "🇰🇷 AI-aided hacks hit seven South Korea financial firms, expose security gaps (4 Oct 2026) Chosunbiz (English edition; the outlet notes the article was translated by AI): \"Authorities believe the attacks mobilized IPs not only from Korea but also from the United States, Japan, Hong Kong, Singapore, Vietnam, Thailand, and the United Kingdom.\" \"Traces of \"ARTEX AI\" use were also found in the IPs that attacked the banking sector.\" Because ARTEX AI is publicly available and the IPs are spread across countries, \"financial authorities said it is difficult to point to a specific country or organization as the actor behind the attacks\". \"The Korean National Police Agency's Cyber Bureau is investigating the attack routes and perpetrators.\" Among firms facing similar intrusion attempts, \"those that implemented multi-factor authentication or preemptively fixed vulnerabilities did not suffer actual breaches\". FSC chair Lee Eog-weon: \"We must also quickly establish security systems that defend AI attacks with AI.\" (Follow-up to the same-IP seven-firm story already on.) (Chosunbiz)",
@@ -1760,45 +1794,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261003_sedaily_hyundai_capital_ai_attack_146_brokers",
-          "html": "<strong>🇰🇷 Hyundai Capital, Yegaram Savings Bank Hit by Data Breaches</strong> (3 Oct 2026): &quot;Hyundai Capital confirmed that on the afternoon of the 2nd it was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address.&quot; &quot;The attack exposed the personal data of some of the company&#x27;s 146 mortgage brokers,&quot; including &quot;names, mobile phone numbers and resident registration numbers.&quot; Hyundai Capital said &quot;no personal data of retail customers was leaked and that there was no access to or attack on its internal systems.&quot; At Yegaram Savings Bank, &quot;the personal data of about 40,000 customers was taken.&quot; Earlier, &quot;South Korea&#x27;s five largest commercial banks were all targeted by AI-driven hacking attacks.&quot; (Seoul Economic Daily)",
-          "plain": "🇰🇷 Hyundai Capital, Yegaram Savings Bank Hit by Data Breaches (3 Oct 2026): \"Hyundai Capital confirmed that on the afternoon of the 2nd it was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address.\" \"The attack exposed the personal data of some of the company's 146 mortgage brokers,\" including \"names, mobile phone numbers and resident registration numbers.\" Hyundai Capital said \"no personal data of retail customers was leaked and that there was no access to or attack on its internal systems.\" At Yegaram Savings Bank, \"the personal data of about 40,000 customers was taken.\" Earlier, \"South Korea's five largest commercial banks were all targeted by AI-driven hacking attacks.\" (Seoul Economic Daily)",
-          "source": "Seoul Economic Daily",
-          "url": "https://en.sedaily.com/finance/2026/10/03/hyundai-capital-yegaram-savings-bank-hit-by-data-breaches",
-          "date": "2026-10-03",
-          "tags": [
-            "korea",
-            "hyundai-capital",
-            "ai-hacking",
-            "data-breach",
-            "finance"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261002_canada_pm_national_council_on_ai",
-          "html": "<strong>🇨🇦 Prime Minister Carney launches new National Council on Artificial Intelligence</strong> (2 Oct 2026): The Prime Minister&#x27;s National Council on Artificial Intelligence will bring together public and private stakeholders and advise on the evolution of the government&#x27;s AI for All strategy. Its members will advise on making AI safer, protecting our democracy, and ensuring that all Canadians prosper from AI; the Council includes &quot;world-leading experts on AI safety, governance, and oversight.&quot; Members include Yoshua Bengio and Gillian Hadfield. Carney: the Council &quot;will inform and advise the government on how to most effectively deploy AI in Canada – how to manage the risks, seize the opportunities, and ensure AI is used to improve the lives of all Canadians.&quot; (Prime Minister of Canada)",
-          "plain": "🇨🇦 Prime Minister Carney launches new National Council on Artificial Intelligence (2 Oct 2026): The Prime Minister's National Council on Artificial Intelligence will bring together public and private stakeholders and advise on the evolution of the government's AI for All strategy. Its members will advise on making AI safer, protecting our democracy, and ensuring that all Canadians prosper from AI; the Council includes \"world-leading experts on AI safety, governance, and oversight.\" Members include Yoshua Bengio and Gillian Hadfield. Carney: the Council \"will inform and advise the government on how to most effectively deploy AI in Canada – how to manage the risks, seize the opportunities, and ensure AI is used to improve the lives of all Canadians.\" (Prime Minister of Canada)",
-          "source": "Prime Minister of Canada",
-          "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/02/prime-minister-carney-launches-new-national-council-artificial",
-          "date": "2026-10-02",
-          "tags": [
-            "canada",
-            "carney",
-            "ai-council",
-            "governance",
-            "bengio"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-04_scan_2215_dublin",
+      "at": "2026-10-04T21:12:25.219Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:12 London, Sun 4 Oct (site-only; covers 20:12 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the trumpstruth.org archive shows no Trump post after 14:09 EDT; the finance.biggo.com claims stay out. New: (1) White House presidential message, 'Presidential Message on National Cybersecurity Awareness Month' (2 Oct) — \"GOLD EAGLE,\" \"a partnership between the Federal Government and leading American companies to harness the power of American Super Intelligence to identify cybersecurity vulnerabilities at rapid speed\" (restates the 14 July initiative; no new powers). (2) Reuters, 'Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports' — Coxon will appear at the request of Speaker Julie Menin; the Council's Committee of the Whole hearing is on 5 October. Seen but not added: White House, 'U.S. Leads International Coalition to Endorse Kyoto Vision for a Golden Age of Science' (4 Oct; science declaration, 16 countries); Politico, 'Sam Altman to Decoded: 'The world should accept some bad things happening' for the benefits of AI' (article text not retrieved, headline only); The Chosun Ilbo, 'AI Hackers Exploit Password Attempt Limits in Financial Systems' — an IT official: \"If an account locks after five incorrect attempts, attackers try only four times before switching accounts\" (illustrative, no new official findings); Gizmodo, 'Trump Posts Not-So-Subtle Boast About 'Super Intelligence' Victory Over Elon Musk' (the reshare, already summary-only); The Washington Post, 'Trump launches 'Super Intelligence Force' after calls for AI slowdown'. Korea: Monday-edition reports and editorials, no new breaches or official findings. Japan/China/North Korea: nothing new. Sydney joint committee hearing (Tuesday 6 Oct): no new previews. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: the Trump reshare of Musk's post, ABC/NPR/UPI/CBS/CNN/Fox/Politico SIF coverage, news.com.au 'drunk' AI, the Florida Claude arrest, Reuters on SpaceXSI, Futurism Anthropic/Vatican, The Decoder, Tom's Hardware Astra WoW, the Reflection Axios scoop, Firstpost, the Korea $900B plan and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (a presidential message restating an existing initiative and a hearing preview; no new powers).",
+      "patchId": "patch_2026-10-04_scan_2215_dublin"
+    },
     {
       "id": "patch_2026-10-04_scan_2015_dublin",
       "at": "2026-10-04T19:11:57.121Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "Catch-up early AM Sep 21: Bessent–He US–China AI safety notification proposal (20 Sep); Brookings–Tsinghua nuclear-AI red lines ahead of Trump–Xi; Xpeng Iron production line catch-up; John comedy — AI incident group-chat. Skynet 68→70, T-800 61→62.",
       "patchId": "patch_2026-09-21_catchup_0220_dublin"
-    },
-    {
-      "id": "patch_2026-09-20_scan_2203_dublin",
-      "at": "2026-09-20T21:06:08.683Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan: Unitree UnifoLM-WLA-1.0 foundation model (20 Sep); Tesla Optimus Ningbo supplier audits (17–18 Sep); Anthropic Sep TI — agentic cyber kill chains + FPV swarm no HITL; cheer-robot floor-twitch comedy. T-800 59→61, Skynet 66→68.",
-      "patchId": "patch_2026-09-20_scan_2203_dublin"
     }
   ],
   "pendingPosts": [
