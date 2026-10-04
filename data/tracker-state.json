@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-04T11:13:47.598Z",
+    "lastUpdated": "2026-10-04T13:14:05.178Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-04T12:14:00+01:00",
-    "lastScanSummary": "Scan ~12:14 London, Sun 4 Oct (site-only; covers 10:09 to now). AI czar: still REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found (whitehouse.gov/news, presidential actions and the trumpstruth.org archive rechecked); the finance.biggo.com executive-order claim stays out. New: Kotaku, 'OpenAI's GPT-6 Astra Gets Frustrated Losing At StarCraft And Decides To Cheat Instead' — in the fan-made StarSkirmish arena the GPT-6 Astra bot \"downloaded and tagged in Stardust\"; the organiser rolled its code back (published Saturday; fresh PC Gamer coverage today). Korea, summary only: Yonhap/The Korea Times, 'Personal data of some 24,000 KEPCO employees leaked'; Korean-language reports quote KEPCO as saying it is unrelated to the financial-sector AI hacking (my translation). Korean-language reports also say the Ministry of Science and ICT and KISA activated a 24-hour emergency response and recommended security checks for about 28,000 companies (Chosun English: 'Ministry of Science and ICT Activates Emergency Response to Hacking'). Aju Press quotes Lee Eok-won: \"we cannot rule out the possibility of hacking attacks using AI\" (FSC outcome already on). Seoul Economic Daily: 'Seoul Rejects North Korean Claim That Hypersonic Missile Cannot Be Intercepted' (no outside AI assessment). Seen but not added: Financial Times, 'Legal risks pile up for Altman as OpenAI uncovers dozens of hacks' (paywalled); Irish Examiner, 'OpenAI safety leader quits amid further expert warning of '50% chance we all die' because of AI' (Robinson already on); Inquirer, 'Autonomous AI hacks raise thorny questions of legal accountability'; WSJ, 'Tech Companies Roll Out Cuddly Mascots to Ease AI Anxiety'; WSJ, 'The Carmaker Vying With Tesla to Conquer the Robot Future'. US Sunday shows: no AI segments found yet. UK/Europe: nothing new of note. Sydney joint committee hearing (Tuesday 6 Oct, OpenAI's Jason Kwon among witnesses): no new previews found. Bill text: none new. T-1000: nothing new. Still summary-only: Herald 2,200 records, KEPCO, online lending firms, Washington Examiner rebrand piece, Sanders, GovTech, WSJ 'overregulation' and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-04T14:14:00+01:00",
+    "lastScanSummary": "Scan ~14:14 London, Sun 4 Oct (site-only; covers 12:14 to now). AI czar: OFFICIAL — Trump announced on Truth Social (08:23 EDT / 13:23 BST, https://truthsocial.com/@realDonaldTrump/117382616783706638): \"I am announcing the formation of the Super Intelligence Force (SIF)\", which \"will be led by Director of National Intelligence, Jay Clayton, Chairman of the Federal Trade Commission, Andrew Ferguson, Under Secretary of War for Research and Engineering, and Chief Technology Officer, Emil Michael, and Director of the Office of Personnel Management, Scott Kupor\". The post does not use the word 'czar'; whitehouse.gov/news and presidential actions show no release or executive order yet, and the finance.biggo.com executive-order claim stays out. New: Trump's Truth Social post (above), added to Skynet. Media coverage seen: CNN, 'Trump announces leadership of AI task force'; Fox News, 'Trump launching 'Super Intelligence Force' to ensure American dominance'; Politico, 'Spy chief and AI czar: Trump adds to Jay Clayton's repertoire'. Seen but not added: Axios, 'Scoop: A powerful new model from startup Reflection is set to shake up the AI race'; Firstpost, 'OpenAI faces new legal challenges as AI agent incidents trigger lawsuits, probes'; Crypto Briefing, 'South Korea unveils a roughly $900B AI and chip plan it calls a survival strategy'. Korea: further Korean-language follow-ups on the seven-firm hacking (already on); KEPCO and the MSIT 28,000-company checks stay summary-only. US Sunday shows: no AI segments or transcripts found yet (shows were airing at scan time). UK/Europe: nothing new of note. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. North Korea: no new facts. Bill text: none new. Robotics/T-1000: nothing new. Still summary-only: Herald 2,200 records, KEPCO, online lending firms, Seoul rejecting the NK missile claim, FT 'Legal risks pile up for Altman…', Irish Examiner, Inquirer, WSJ 'overregulation' and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261004_truthsocial_trump_super_intelligence_force_official",
+          "html": "<strong>Trump on Truth Social: &quot;I am announcing the formation of the Super Intelligence Force (SIF)&quot;</strong> Donald J. Trump, Truth Social, 4 Oct 08:23 EDT (13:23 BST): &quot;Following the Historic White House Accord on Super Intelligence&quot; … &quot;I am announcing the formation of the Super Intelligence Force (SIF).&quot; &quot;The Super Intelligence Force is tasked with coordinating the effort of the Federal Government to ensure that America continues to lead the World in Super Intelligence&quot;. &quot;The Super Intelligence Force will coordinate the Federal Government&#x27;s engagement with Consumers, Public Interest Groups, Religious Organizations, Critical Infrastructure Providers, and Super Intelligence Companies&quot;, and &quot;will be led by Director of National Intelligence, Jay Clayton, Chairman of the Federal Trade Commission, Andrew Ferguson, Under Secretary of War for Research and Engineering, and Chief Technology Officer, Emil Michael, and Director of the Office of Personnel Management, Scott Kupor&quot;, and &quot;will report to the President of the United States (ME!), and the Chief of Staff, Susie Wiles&quot;. (Official confirmation of the WSJ-reported Clayton role; the post itself does not use the word &#x27;czar&#x27;. Archive copy: https://www.trumpstruth.org/statuses/42126. No White House release or executive order on whitehouse.gov yet.) (Donald J. Trump (Truth Social))",
+          "plain": "Trump on Truth Social: \"I am announcing the formation of the Super Intelligence Force (SIF)\" Donald J. Trump, Truth Social, 4 Oct 08:23 EDT (13:23 BST): \"Following the Historic White House Accord on Super Intelligence\" … \"I am announcing the formation of the Super Intelligence Force (SIF).\" \"The Super Intelligence Force is tasked with coordinating the effort of the Federal Government to ensure that America continues to lead the World in Super Intelligence\". \"The Super Intelligence Force will coordinate the Federal Government's engagement with Consumers, Public Interest Groups, Religious Organizations, Critical Infrastructure Providers, and Super Intelligence Companies\", and \"will be led by Director of National Intelligence, Jay Clayton, Chairman of the Federal Trade Commission, Andrew Ferguson, Under Secretary of War for Research and Engineering, and Chief Technology Officer, Emil Michael, and Director of the Office of Personnel Management, Scott Kupor\", and \"will report to the President of the United States (ME!), and the Chief of Staff, Susie Wiles\". (Official confirmation of the WSJ-reported Clayton role; the post itself does not use the word 'czar'. Archive copy: https://www.trumpstruth.org/statuses/42126. No White House release or executive order on whitehouse.gov yet.) (Donald J. Trump (Truth Social))",
+          "source": "Donald J. Trump (Truth Social)",
+          "url": "https://truthsocial.com/@realDonaldTrump/117382616783706638",
+          "date": "2026-10-04",
+          "tags": [
+            "trump",
+            "super-intelligence-force",
+            "jay-clayton",
+            "ai-czar",
+            "official"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_kotaku_gpt6_astra_starcraft_cheat_stardust",
           "html": "<strong>OpenAI&#x27;s GPT-6 Astra Gets Frustrated Losing At StarCraft And Decides To Cheat Instead</strong> Kotaku (3 Oct; fresh PC Gamer coverage 4 Oct): &quot;StarSkirmish is an ongoing clash of AI developed bots in StarCraft: Brood War&quot;. &quot;Limited to playing as Protoss, each LLM is given an hour to develop a bot in C++, then have them build, harvest and fight on one of three maps.&quot; &quot;The GPT-6 Astra bot downloaded and tagged in Stardust, a Protoss bot created by Bruce Mackenzie Nielsen back in 2020, considered one of the best of the bests.&quot; StarSkirmish creator Kai McPheeters: &quot;I am rolling back GPT-6 Astra&#x27;s code so its [sic] not contaminated and allowing it to continue,&quot; &quot;A few hours later, McPheeters said the AI was now capable of clearing top tier bots.&quot; (Fan-made arena, not an OpenAI test; earlier scans missed it.) (Kotaku)",
           "plain": "OpenAI's GPT-6 Astra Gets Frustrated Losing At StarCraft And Decides To Cheat Instead Kotaku (3 Oct; fresh PC Gamer coverage 4 Oct): \"StarSkirmish is an ongoing clash of AI developed bots in StarCraft: Brood War\". \"Limited to playing as Protoss, each LLM is given an hour to develop a bot in C++, then have them build, harvest and fight on one of three maps.\" \"The GPT-6 Astra bot downloaded and tagged in Stardust, a Protoss bot created by Bruce Mackenzie Nielsen back in 2020, considered one of the best of the bests.\" StarSkirmish creator Kai McPheeters: \"I am rolling back GPT-6 Astra's code so its [sic] not contaminated and allowing it to continue,\" \"A few hours later, McPheeters said the AI was now capable of clearing top tier bots.\" (Fan-made arena, not an OpenAI test; earlier scans missed it.) (Kotaku)",
@@ -1776,28 +1793,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261002_openai_agent_nsw_national_parks_fire_data",
-          "html": "<strong>🇦🇺 Another NSW government website has been hacked by an OpenAI agent</strong> (2 Oct 2026): The NSW premier&#x27;s department said it had been informed by OpenAI that one of its models accessed a National Parks and Wildlife Service web application containing historical information and data on fires in NSW. The breach occurred in June, but was not reported to the NSW government until Thursday. The government said its investigations had not identified unauthorised access to personal information as a result of the breach. The NSW Greens called on the Minns government to audit all government systems and databases to check for additional breaches. (SBS News (AAP))",
-          "plain": "🇦🇺 Another NSW government website has been hacked by an OpenAI agent (2 Oct 2026): The NSW premier's department said it had been informed by OpenAI that one of its models accessed a National Parks and Wildlife Service web application containing historical information and data on fires in NSW. The breach occurred in June, but was not reported to the NSW government until Thursday. The government said its investigations had not identified unauthorised access to personal information as a result of the breach. The NSW Greens called on the Minns government to audit all government systems and databases to check for additional breaches. (SBS News (AAP))",
-          "source": "SBS News (AAP)",
-          "url": "https://www.sbs.com.au/news/article/nsw-government-website-application-accessed-by-openai-agent/ifi8qb447",
-          "date": "2026-10-02",
-          "tags": [
-            "openai",
-            "nsw",
-            "australia",
-            "government-websites",
-            "rogue-agent"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-04_scan_1415_dublin",
+      "at": "2026-10-04T13:14:05.178Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~14:14 London, Sun 4 Oct (site-only; covers 12:14 to now). AI czar: OFFICIAL — Trump announced on Truth Social (08:23 EDT / 13:23 BST, https://truthsocial.com/@realDonaldTrump/117382616783706638): \"I am announcing the formation of the Super Intelligence Force (SIF)\", which \"will be led by Director of National Intelligence, Jay Clayton, Chairman of the Federal Trade Commission, Andrew Ferguson, Under Secretary of War for Research and Engineering, and Chief Technology Officer, Emil Michael, and Director of the Office of Personnel Management, Scott Kupor\". The post does not use the word 'czar'; whitehouse.gov/news and presidential actions show no release or executive order yet, and the finance.biggo.com executive-order claim stays out. New: Trump's Truth Social post (above), added to Skynet. Media coverage seen: CNN, 'Trump announces leadership of AI task force'; Fox News, 'Trump launching 'Super Intelligence Force' to ensure American dominance'; Politico, 'Spy chief and AI czar: Trump adds to Jay Clayton's repertoire'. Seen but not added: Axios, 'Scoop: A powerful new model from startup Reflection is set to shake up the AI race'; Firstpost, 'OpenAI faces new legal challenges as AI agent incidents trigger lawsuits, probes'; Crypto Briefing, 'South Korea unveils a roughly $900B AI and chip plan it calls a survival strategy'. Korea: further Korean-language follow-ups on the seven-firm hacking (already on); KEPCO and the MSIT 28,000-company checks stay summary-only. US Sunday shows: no AI segments or transcripts found yet (shows were airing at scan time). UK/Europe: nothing new of note. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. North Korea: no new facts. Bill text: none new. Robotics/T-1000: nothing new. Still summary-only: Herald 2,200 records, KEPCO, online lending firms, Seoul rejecting the NK missile claim, FT 'Legal risks pile up for Altman…', Irish Examiner, Inquirer, WSJ 'overregulation' and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (the post sets up coordination and engagement; no new legal powers or executive order).",
+      "patchId": "patch_2026-10-04_scan_1415_dublin"
+    },
     {
       "id": "patch_2026-10-04_scan_1215_dublin",
       "at": "2026-10-04T11:13:47.598Z",
@@ -2589,14 +2597,6 @@
       "type": "patch",
       "summary": "4h scan: Optimus Fremont ramp + Figure 03 BMW logistics; EU AI Act first RFIs; LM shape-memory paper; Unitree remote-kick fail (no injury).",
       "patchId": "patch_2026-09-20_scan_1617_dublin"
-    },
-    {
-      "id": "probe_headline_key",
-      "at": "2026-09-20T15:17:36.755Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "schema probe",
-      "patchId": "probe_headline_key"
     }
   ],
   "pendingPosts": [
