@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-04T21:12:25.219Z",
+    "lastUpdated": "2026-10-04T23:12:49.215Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-04T22:12:00+01:00",
-    "lastScanSummary": "Scan ~22:12 London, Sun 4 Oct (site-only; covers 20:12 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the trumpstruth.org archive shows no Trump post after 14:09 EDT; the finance.biggo.com claims stay out. New: (1) White House presidential message, 'Presidential Message on National Cybersecurity Awareness Month' (2 Oct) — \"GOLD EAGLE,\" \"a partnership between the Federal Government and leading American companies to harness the power of American Super Intelligence to identify cybersecurity vulnerabilities at rapid speed\" (restates the 14 July initiative; no new powers). (2) Reuters, 'Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports' — Coxon will appear at the request of Speaker Julie Menin; the Council's Committee of the Whole hearing is on 5 October. Seen but not added: White House, 'U.S. Leads International Coalition to Endorse Kyoto Vision for a Golden Age of Science' (4 Oct; science declaration, 16 countries); Politico, 'Sam Altman to Decoded: 'The world should accept some bad things happening' for the benefits of AI' (article text not retrieved, headline only); The Chosun Ilbo, 'AI Hackers Exploit Password Attempt Limits in Financial Systems' — an IT official: \"If an account locks after five incorrect attempts, attackers try only four times before switching accounts\" (illustrative, no new official findings); Gizmodo, 'Trump Posts Not-So-Subtle Boast About 'Super Intelligence' Victory Over Elon Musk' (the reshare, already summary-only); The Washington Post, 'Trump launches 'Super Intelligence Force' after calls for AI slowdown'. Korea: Monday-edition reports and editorials, no new breaches or official findings. Japan/China/North Korea: nothing new. Sydney joint committee hearing (Tuesday 6 Oct): no new previews. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: the Trump reshare of Musk's post, ABC/NPR/UPI/CBS/CNN/Fox/Politico SIF coverage, news.com.au 'drunk' AI, the Florida Claude arrest, Reuters on SpaceXSI, Futurism Anthropic/Vatican, The Decoder, Tom's Hardware Astra WoW, the Reflection Axios scoop, Firstpost, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-05T00:13:00+01:00",
+    "lastScanSummary": "Scan ~00:13 London, Mon 5 Oct (site-only; covers 22:12 Sun to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); Trump's archived Truth Social posts through 16:50 EDT show nothing on AI, the Super Intelligence Force or Clayton; the finance.biggo.com claims stay out. New (promoted from summary-only): POLITICO, 'Sam Altman exclusive: Bad things will happen' — Altman: \"We believe that the world should accept some bad things happening for the benefits of this technology and people having the agency\"; Bordelon: \"He has already told us this is not the end of the disclosures for autonomous OpenAI hacks\". Reuters follow-up: 'OpenAI's Altman says AI benefits warrant accepting some risks'. Watch — NYC: the Council's Committee of the Whole meets today, Mon 5 Oct, 11:00 ET (16:00 BST) at City Hall on oversight item T2026-2573, 'Examining the Risks Posed by Artificial Intelligence', with bills including T2026-2602 (third-party validation and shut-down capability); the Council's 28 Sep release says Anthropic, OpenAI, Google and Meta will testify under oath; Coxon (already on) is expected. Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct (OpenAI's Jason Kwon; Anthropic sending US and Australian executives); no programme or new previews found; Microsoft/Google witnesses not confirmed. Korea: Monday-edition reports and editorials only, no new breaches or official findings. Japan/China/North Korea: nothing new. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: the WH Kyoto Vision release, the Chosun password-limit piece, Gizmodo/WaPo/ABC/NPR/UPI/CBS/CNN/Fox/Politico SIF coverage, the Musk reshare, news.com.au, the Florida Claude arrest, the SpaceXSI rename, Futurism, The Decoder, Astra WoW, the Reflection Axios scoop, Firstpost, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261004_politico_altman_bad_things_will_happen",
+          "html": "<strong>Sam Altman exclusive: Bad things will happen</strong> (4 Oct 2026) POLITICO newsletter, ahead of an exclusive interview for the launch edition of POLITICO Decoded. Sam Altman: &quot;We believe that the world should accept some bad things happening for the benefits of this technology and people having the agency.&quot; POLITICO senior tech reporter Brendan Bordelon, who interviewed him: &quot;He has already told us this is not the end of the disclosures for autonomous OpenAI hacks&quot;. Per POLITICO, Altman sees &quot;clear daylight&quot; between his company and Anthropic, calls for &quot;a lighter touch regulatory stance&quot; and rejects as &quot;completely unacceptable&quot; any trade-off that might restrict AI frontier development to a small group; he predicts humanity will do &quot;tremendously — orders of magnitude more — good stuff than bad stuff&quot; with AI and says he does not accept &quot;the really catastrophic risks,&quot; which, per Bordelon, would include the potential for what Altman called a &quot;serious loss of control&quot; to AI. (POLITICO)",
+          "plain": "Sam Altman exclusive: Bad things will happen (4 Oct 2026) POLITICO newsletter, ahead of an exclusive interview for the launch edition of POLITICO Decoded. Sam Altman: \"We believe that the world should accept some bad things happening for the benefits of this technology and people having the agency.\" POLITICO senior tech reporter Brendan Bordelon, who interviewed him: \"He has already told us this is not the end of the disclosures for autonomous OpenAI hacks\". Per POLITICO, Altman sees \"clear daylight\" between his company and Anthropic, calls for \"a lighter touch regulatory stance\" and rejects as \"completely unacceptable\" any trade-off that might restrict AI frontier development to a small group; he predicts humanity will do \"tremendously — orders of magnitude more — good stuff than bad stuff\" with AI and says he does not accept \"the really catastrophic risks,\" which, per Bordelon, would include the potential for what Altman called a \"serious loss of control\" to AI. (POLITICO)",
+          "source": "POLITICO",
+          "url": "https://www.politico.com/newsletters/forecast/2026/10/04/sam-altman-exclusive-bad-things-will-happen-01106284",
+          "date": "2026-10-04",
+          "tags": [
+            "openai",
+            "altman",
+            "politico-decoded",
+            "risk",
+            "regulation"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261004_reuters_coxon_nyc_council_ai_hearing",
           "html": "<strong>Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports</strong> (4 Oct 2026) Reuters (copy via StreetInsider): &quot;Former Anthropic researcher Jacob Coxon will testify at a New York City hearing on artificial intelligence, Bloomberg News reported on Sunday, citing people familiar with the matter.&quot; &quot;Coxon will appear at the request of New York City Council Speaker Julie Menin, who has urged AI whistleblowers to testify as city lawmakers weigh a package of bills aimed at establishing safeguards around the technology&quot;. Coxon quit Anthropic last month, warning that the &quot;people building AI earnestly believe that it could kill us all by the end of the decade&quot; and accusing Anthropic and OpenAI of &quot;gambling with our lives.&quot; &quot;Reuters could not immediately verify the report.&quot; NYC Council (25 Sep release): &quot;The bills will be heard at the Council&#x27;s upcoming Committee of the Whole hearing on October 5&quot;. (Reuters)",
           "plain": "Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports (4 Oct 2026) Reuters (copy via StreetInsider): \"Former Anthropic researcher Jacob Coxon will testify at a New York City hearing on artificial intelligence, Bloomberg News reported on Sunday, citing people familiar with the matter.\" \"Coxon will appear at the request of New York City Council Speaker Julie Menin, who has urged AI whistleblowers to testify as city lawmakers weigh a package of bills aimed at establishing safeguards around the technology\". Coxon quit Anthropic last month, warning that the \"people building AI earnestly believe that it could kill us all by the end of the decade\" and accusing Anthropic and OpenAI of \"gambling with our lives.\" \"Reuters could not immediately verify the report.\" NYC Council (25 Sep release): \"The bills will be heard at the Council's upcoming Committee of the Whole hearing on October 5\". (Reuters)",
@@ -1777,28 +1794,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261003_atlantic_robinson_i_quit_openai_culture_broken",
-          "html": "<strong>I Quit OpenAI Because Its Culture Is Broken</strong> (3 Oct 2026): David Robinson writes: &quot;I resigned this week from OpenAI. I led the writing of the safety reports we published with each major launch.&quot; He says the approach &quot;guarantees periodic failures—and the scale of those failures is growing as systems get more capable,&quot; citing a case where &quot;A monitoring system alerted human staff but did not automatically turn the model off as it was supposed to.&quot; His prescription: &quot;frontier labs need to run like nuclear power plants or busy airports, with layers of redundancy and careful, time-consuming planning.&quot; He adds: &quot;Before AI starts thinking circles around us—a possibility that I believe could happen soon—we need to answer a deeper question: How should superintelligent machines relate to people?&quot; &quot;OpenAI, of course, stands by its safety practices, and maintains it is being careful enough.&quot; (The Atlantic)",
-          "plain": "I Quit OpenAI Because Its Culture Is Broken (3 Oct 2026): David Robinson writes: \"I resigned this week from OpenAI. I led the writing of the safety reports we published with each major launch.\" He says the approach \"guarantees periodic failures—and the scale of those failures is growing as systems get more capable,\" citing a case where \"A monitoring system alerted human staff but did not automatically turn the model off as it was supposed to.\" His prescription: \"frontier labs need to run like nuclear power plants or busy airports, with layers of redundancy and careful, time-consuming planning.\" He adds: \"Before AI starts thinking circles around us—a possibility that I believe could happen soon—we need to answer a deeper question: How should superintelligent machines relate to people?\" \"OpenAI, of course, stands by its safety practices, and maintains it is being careful enough.\" (The Atlantic)",
-          "source": "The Atlantic",
-          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
-          "date": "2026-10-03",
-          "tags": [
-            "openai",
-            "robinson",
-            "safety",
-            "resignation",
-            "culture"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-05_scan_0015_dublin",
+      "at": "2026-10-04T23:12:49.215Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:13 London, Mon 5 Oct (site-only; covers 22:12 Sun to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); Trump's archived Truth Social posts through 16:50 EDT show nothing on AI, the Super Intelligence Force or Clayton; the finance.biggo.com claims stay out. New (promoted from summary-only): POLITICO, 'Sam Altman exclusive: Bad things will happen' — Altman: \"We believe that the world should accept some bad things happening for the benefits of this technology and people having the agency\"; Bordelon: \"He has already told us this is not the end of the disclosures for autonomous OpenAI hacks\". Reuters follow-up: 'OpenAI's Altman says AI benefits warrant accepting some risks'. Watch — NYC: the Council's Committee of the Whole meets today, Mon 5 Oct, 11:00 ET (16:00 BST) at City Hall on oversight item T2026-2573, 'Examining the Risks Posed by Artificial Intelligence', with bills including T2026-2602 (third-party validation and shut-down capability); the Council's 28 Sep release says Anthropic, OpenAI, Google and Meta will testify under oath; Coxon (already on) is expected. Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct (OpenAI's Jason Kwon; Anthropic sending US and Australian executives); no programme or new previews found; Microsoft/Google witnesses not confirmed. Korea: Monday-edition reports and editorials only, no new breaches or official findings. Japan/China/North Korea: nothing new. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: the WH Kyoto Vision release, the Chosun password-limit piece, Gizmodo/WaPo/ABC/NPR/UPI/CBS/CNN/Fox/Politico SIF coverage, the Musk reshare, news.com.au, the Florida Claude arrest, the SpaceXSI rename, Futurism, The Decoder, Astra WoW, the Reflection Axios scoop, Firstpost, the Korea $900B plan and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (CEO interview; no new capability, incident or powers).",
+      "patchId": "patch_2026-10-05_scan_0015_dublin"
+    },
     {
       "id": "patch_2026-10-04_scan_2215_dublin",
       "at": "2026-10-04T21:12:25.219Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "2h scan ~08:19 Dublin: 🇨🇳 AgiBot+Chimelong embodied-AI theme park (300+ robots, Zhuhai, opened 20 Sep); Reuters — China slows humanoid IPOs after Unitree ~55% peak wipe; John comedy — Terminator ticker gravity. T-800 62→63.",
       "patchId": "patch_2026-09-21_scan_0819_dublin"
-    },
-    {
-      "id": "patch_2026-09-21_catchup_0220_dublin",
-      "at": "2026-09-21T01:20:51.713Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Catch-up early AM Sep 21: Bessent–He US–China AI safety notification proposal (20 Sep); Brookings–Tsinghua nuclear-AI red lines ahead of Trump–Xi; Xpeng Iron production line catch-up; John comedy — AI incident group-chat. Skynet 68→70, T-800 61→62.",
-      "patchId": "patch_2026-09-21_catchup_0220_dublin"
     }
   ],
   "pendingPosts": [
