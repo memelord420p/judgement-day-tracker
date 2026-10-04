@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-04T17:11:59.599Z",
+    "lastUpdated": "2026-10-04T19:11:57.121Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-04T18:12:00+01:00",
-    "lastScanSummary": "Scan ~18:12 London, Sun 4 Oct (site-only; covers 16:14 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related document still 'Inaugurating the Era of Super Intelligence', 2 Oct); no new Trump Truth Social post on AI since 08:23 EDT; the finance.biggo.com executive-order claim stays out. New: Chosunbiz, 'AI-aided hacks hit seven South Korea financial firms, expose security gaps' — attack IPs from Korea plus \"the United States, Japan, Hong Kong, Singapore, Vietnam, Thailand, and the United Kingdom\"; \"The Korean National Police Agency's Cyber Bureau is investigating\"; Lee Eog-weon: \"defend AI attacks with AI\" (published 17:12 KST / 09:12 BST, not on the board before). Sunday shows: today's CNN State of the Union transcript is a single 9-10a ET segment with no AI mentions (segments 2-5 return 404); no other late Sunday-show AI quotes found. Seen but not added: Reuters, 'Musk says he will rename SpaceXAI to SpaceXSI' — Musk on X: \"Yes, we will make that change\" (rebrand, summary-only); ABC News, 'Former FTC Chair Khan dismisses 'constitution' signed by AI leaders to self-police' (Khan already on); CBS News, 'Trump announces formation of AI \"Super Intelligence Force\"' and other SIF coverage; Futurism, 'Anthropic Has Been Aggressively Lobbying the Vatican to Consider AI Consciousness'; The Decoder, 'Google researchers find a way to keep self-improving AI agents from memorizing their tests'. North Korea: re-coverage of the 'AI-piloted' missile claim only. Asia-Pacific: Korean editorials and recaps, no further new facts. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: Tom's Hardware Astra WoW, AP Trump Ohio data centers, the Independent's AI czar piece, the JoongAng recap, CNN/Fox/Politico SIF coverage, the Reflection Axios scoop, Firstpost on OpenAI lawsuits, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-04T20:12:00+01:00",
+    "lastScanSummary": "Scan ~20:12 London, Sun 4 Oct (site-only; covers 18:12 to now; meta-only refresh — nothing new qualified). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the finance.biggo.com claims stay out. Trump's Truth Social since 13:09 EDT: at 13:38 EDT he shared an image of Elon Musk's X post reading \"No more AI SI It's better\" (no added text); no new post on the Super Intelligence Force or Clayton. Seen but not added: ABC News, 'President Donald Trump announces creation of 'Super Intelligence Force' AI task force' — Clayton quotes from the WSJ interview (already on); NPR, 'Trump names national intelligence chief Jay Clayton as new AI czar'; UPI, 'Trump names Jay Clayton to new artificial intelligence czar post'; news.com.au, ''Drunk' AI exposes scary new threat' (UNSW study, reported in September); local reports of a Florida woman arrested after Anthropic flagged threats typed into Claude (arrest reported 30 Sep). Korea: Monday-edition Korean reports repeat the seven-firm figures, police preliminary inquiry and FSC warnings; no new breaches or official findings. North Korea: no new assessment beyond Seoul's earlier rejection of the AI-missile claim. Sydney joint committee hearing (Tuesday 6 Oct, OpenAI's Jason Kwon and Anthropic expected): no new previews. Japan/China, UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: Reuters Musk SpaceXAI to SpaceXSI, ABC Khan 'constitution', CBS SIF, Futurism Anthropic/Vatican, The Decoder Google self-improving agents, Tom's Hardware Astra WoW, AP Ohio data centers, the Independent's AI czar piece, CNN/Fox/Politico SIF, the Reflection Axios scoop, Firstpost on OpenAI lawsuits, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1800,6 +1800,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-04_scan_2015_dublin",
+      "at": "2026-10-04T19:11:57.121Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:12 London, Sun 4 Oct (site-only; covers 18:12 to now; meta-only refresh — nothing new qualified). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the finance.biggo.com claims stay out. Trump's Truth Social since 13:09 EDT: at 13:38 EDT he shared an image of Elon Musk's X post reading \"No more AI SI It's better\" (no added text); no new post on the Super Intelligence Force or Clayton. Seen but not added: ABC News, 'President Donald Trump announces creation of 'Super Intelligence Force' AI task force' — Clayton quotes from the WSJ interview (already on); NPR, 'Trump names national intelligence chief Jay Clayton as new AI czar'; UPI, 'Trump names Jay Clayton to new artificial intelligence czar post'; news.com.au, ''Drunk' AI exposes scary new threat' (UNSW study, reported in September); local reports of a Florida woman arrested after Anthropic flagged threats typed into Claude (arrest reported 30 Sep). Korea: Monday-edition Korean reports repeat the seven-firm figures, police preliminary inquiry and FSC warnings; no new breaches or official findings. North Korea: no new assessment beyond Seoul's earlier rejection of the AI-missile claim. Sydney joint committee hearing (Tuesday 6 Oct, OpenAI's Jason Kwon and Anthropic expected): no new previews. Japan/China, UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: Reuters Musk SpaceXAI to SpaceXSI, ABC Khan 'constitution', CBS SIF, Futurism Anthropic/Vatican, The Decoder Google self-improving agents, Tom's Hardware Astra WoW, AP Ohio data centers, the Independent's AI czar piece, CNN/Fox/Politico SIF, the Reflection Axios scoop, Firstpost on OpenAI lawsuits, the Korea $900B plan and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only refresh).",
+      "patchId": "patch_2026-10-04_scan_2015_dublin"
+    },
+    {
       "id": "patch_2026-10-04_scan_1815_dublin",
       "at": "2026-10-04T17:11:59.599Z",
       "by": "judgment-day-watch",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "2h scan: Unitree UnifoLM-WLA-1.0 foundation model (20 Sep); Tesla Optimus Ningbo supplier audits (17–18 Sep); Anthropic Sep TI — agentic cyber kill chains + FPV swarm no HITL; cheer-robot floor-twitch comedy. T-800 59→61, Skynet 66→68.",
       "patchId": "patch_2026-09-20_scan_2203_dublin"
-    },
-    {
-      "id": "patch_2026-09-20_scan_2005_dublin",
-      "at": "2026-09-20T19:07:02.693Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan: UBTECH Liuzhou 10k/yr humanoid factory (robots-build-robots); Unitree G1-D wheeled; Counterpoint H1 China shipment lead; Robot Olympics 100m barrier fire comedy. T-800 58→59.",
-      "patchId": "patch_2026-09-20_scan_2005_dublin"
     }
   ],
   "pendingPosts": [
