@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-04T07:10:54.057Z",
+    "lastUpdated": "2026-10-04T09:08:40.038Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-04T08:11:00+01:00",
-    "lastScanSummary": "Scan ~08:11 London, Sun 4 Oct (site-only; covers 06:09 to now). AI czar: still REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found; the finance.biggo.com executive-order claim remains unconfirmed by whitehouse.gov and stays out. Also reported, not official: 'White House AI task force will prevent 'overregulation': WSJ' (Arab News PK). New: Seoul Economic Daily, 'Korea Orders Financial Firms to Block Outside Access After Hacks' — outcome of the FSC's emergency meeting: industry-wide security review, outside access blocked as a general rule, threat information shared, and a shift to AI-based defenses. Korea, summary only: Seoul Economic Daily, 'Regulator Warns Banks to Upgrade Security as Hacking Spreads' — Lee Eok-won: \"The possibility of attacks using AI cannot be ruled out,\" and firms will be held \"strictly accountable under the relevant laws if similar breaches occur\"; Seoul Economic Daily, 'Welcome Savings Bank Reports Data Breach Affecting Corporate Clients'; Korea JoongAng Daily, 'AI hackers target Korea's banks, trigger industrywide security review'; Reuters, 'South Korean president orders probe into data leaks across financial industry' (Lee probe already on). Seen but not added: WSJ 'The Sleuths Who Expose When AI Goes Rogue'; Times of India on Altman and Anthropic's religious scholars (summary-only); Robinson re-coverage; UK/Europe Sunday: UnHerd 'Rejoining the EU would throttle Britain's AI industry', Cyprus Mail 'EU financial regulator targets AI and tokenisation in new supervision drive'. North Korea: re-coverage only, no new outside AI assessment. Bill text: none new. Robotics/T-1000: nothing new. Still summary-only: mutual finance blocked attempts, court network attempts, opposition probe demand, NK Guam piece, VnExpress humanoid police, SBS/Aju mutual finance, Altman on Anthropic consciousness and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-04T10:09:00+01:00",
+    "lastScanSummary": "Scan ~10:09 London, Sun 4 Oct (site-only; covers 08:11 to now). AI czar: still REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found (whitehouse.gov/news, presidential actions and the trumpstruth.org archive rechecked); the finance.biggo.com executive-order claim stays out. New: Seoul Economic Daily, 'Same IP Used in Hacks on Multiple Korean Financial Firms' — attacker IP found in breaches at seven firms including Welcome Savings Bank; attackers \"are believed to have deployed artificial intelligence tools\"; advisories sent to about 500 financial companies; no financial losses reported so far. Welcome Savings Bank (summary detail): The Herald Business, 'Welcome Savings Bank estimates data breach exposed 2,200 corporate customer records' — \"Welcome Savings Bank discovered the cyberattack Saturday during a routine internal security check and reported the incident to regulators\"; data includes \"company names, contact persons' names, email addresses and phone numbers\". That article does not say whether AI was involved. Korea, summary only: Seoul Economic Daily, 'KEPCO Says Data of 24,000 Employees Exposed Online' (no AI link stated); Korean-language reports say two online investment-linked finance (온투업) firms were also exposed (my translation) and the Korea Federation of Savings Banks network saw a hacking attempt with no leak. Seen but not added: Washington Examiner, 'AI companies hold off on embracing Trump's 'super intelligence' rebrand'; Benzinga, 'Bernie Sanders Warns AI Could Become Smarter Than Humans'; NDTV on the WSJ 'overregulation' report (summary-only); Altman 'religious force' re-coverage; GovTech, 'What the Recent Frontier AI Incidents Mean for Security Leaders'. North Korea: re-coverage only, no new outside AI assessment. Bill text: none new. Robotics/T-1000: nothing new. Still summary-only: WSJ 'overregulation', WSJ AI sleuths, Altman/Anthropic scholars, UnHerd, Cyprus Mail EU regulator, mutual finance blocked attempts, court network attempts and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261004_sedaily_same_ip_seven_financial_firms_ai_tools",
+          "html": "<strong>Same IP Used in Hacks on Multiple Korean Financial Firms</strong> 🇰🇷 Seoul Economic Daily (4 Oct, AI-translated from Korean): &quot;Financial authorities said on the 4th that the same attacker IP address surfaced in breaches at seven firms: Shinhan Bank, KB Kookmin Bank, Hana Bank, BNK Busan Bank, Yegaram Savings Bank, Welcome Savings Bank and Hyundai Capital.&quot; &quot;The attackers appear to have rotated IP addresses to sustain the campaign, and are believed to have deployed artificial intelligence tools to launch large volumes of automated attacks.&quot; Financial Security Institute head Park Sang-won: &quot;The IP address is the same across the banking sector, but it differs in the savings bank sector. The methods themselves are similar.&quot; &quot;Financial authorities sorted the breaches into three categories and circulated the attacker IP addresses and security advisories to about 500 financial companies.&quot; &quot;There has been no impact on customer-facing services such as internet and mobile banking, and no financial losses have been reported so far.&quot; &quot;Regulators also raised the possibility that AI was used in the attacks and said they would move quickly to build a security framework capable of countering AI-driven intrusions.&quot; (Seoul Economic Daily)",
+          "plain": "Same IP Used in Hacks on Multiple Korean Financial Firms 🇰🇷 Seoul Economic Daily (4 Oct, AI-translated from Korean): \"Financial authorities said on the 4th that the same attacker IP address surfaced in breaches at seven firms: Shinhan Bank, KB Kookmin Bank, Hana Bank, BNK Busan Bank, Yegaram Savings Bank, Welcome Savings Bank and Hyundai Capital.\" \"The attackers appear to have rotated IP addresses to sustain the campaign, and are believed to have deployed artificial intelligence tools to launch large volumes of automated attacks.\" Financial Security Institute head Park Sang-won: \"The IP address is the same across the banking sector, but it differs in the savings bank sector. The methods themselves are similar.\" \"Financial authorities sorted the breaches into three categories and circulated the attacker IP addresses and security advisories to about 500 financial companies.\" \"There has been no impact on customer-facing services such as internet and mobile banking, and no financial losses have been reported so far.\" \"Regulators also raised the possibility that AI was used in the attacks and said they would move quickly to build a security framework capable of countering AI-driven intrusions.\" (Seoul Economic Daily)",
+          "source": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/finance/2026/10/04/same-ip-used-in-hacks-on-multiple-korean-financial-firms",
+          "date": "2026-10-04",
+          "tags": [
+            "south-korea",
+            "banks",
+            "hacking",
+            "welcome-savings-bank",
+            "ai-hacking"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261004_sedaily_fsc_block_outside_access_ai_defenses",
           "html": "<strong>Korea Orders Financial Firms to Block Outside Access After Hacks</strong> 🇰🇷 Seoul Economic Daily (4 Oct, AI-translated from Korean), after the FSC&#x27;s 2 p.m. emergency meeting: &quot;South Korea&#x27;s financial regulator has ordered a full review of security systems across the industry after a string of hacking attempts that began at Shinhan Bank on Sept. 30 and spread to major commercial banks, savings banks and consumer finance firms.&quot; &quot;Outside access will be blocked as a general rule except where it is indispensable for providing consumer services or carrying out work, and access rights and the information that can be viewed have been limited to the minimum.&quot; &quot;Threat information confirmed in the recent incidents, including attacking internet protocol addresses, methods and records of intrusion attempts, will be shared quickly, strengthening cooperation among related government agencies.&quot; &quot;With artificial intelligence advancing rapidly, the FSC also stressed active participation in policies such as AI security testing and a shift to AI-based defenses, under the principle of defending against AI attacks with AI.&quot; FSC Chairman Lee Eok-won: &quot;We must use this situation as an occasion to review the entire information security system from square one and raise security to a higher level.&quot; (Seoul Economic Daily)",
           "plain": "Korea Orders Financial Firms to Block Outside Access After Hacks 🇰🇷 Seoul Economic Daily (4 Oct, AI-translated from Korean), after the FSC's 2 p.m. emergency meeting: \"South Korea's financial regulator has ordered a full review of security systems across the industry after a string of hacking attempts that began at Shinhan Bank on Sept. 30 and spread to major commercial banks, savings banks and consumer finance firms.\" \"Outside access will be blocked as a general rule except where it is indispensable for providing consumer services or carrying out work, and access rights and the information that can be viewed have been limited to the minimum.\" \"Threat information confirmed in the recent incidents, including attacking internet protocol addresses, methods and records of intrusion attempts, will be shared quickly, strengthening cooperation among related government agencies.\" \"With artificial intelligence advancing rapidly, the FSC also stressed active participation in policies such as AI security testing and a shift to AI-based defenses, under the principle of defending against AI attacks with AI.\" FSC Chairman Lee Eok-won: \"We must use this situation as an occasion to review the entire information security system from square one and raise security to a higher level.\" (Seoul Economic Daily)",
@@ -1777,28 +1794,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_broadcom_lend_anthropic_42b_tpu",
-          "html": "<strong>Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says</strong> (1 Oct 2026): As part of that complex relationship, revealed in the IPO filing, Broadcom has agreed to lend Anthropic up to $42 billion to finance infrastructure spending. The convertible note could finance about a third of the $125.2 billion commitment the AI lab has made for a five-year lease of tensor processing unit (TPU) computing capacity. Anthropic disclosed that Broadcom&#x27;s role in supplying hardware and acting as a financing partner creates &quot;potential conflicts of interest&quot; (Reuters via CNBC). (CNBC)",
-          "plain": "Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says (1 Oct 2026): As part of that complex relationship, revealed in the IPO filing, Broadcom has agreed to lend Anthropic up to $42 billion to finance infrastructure spending. The convertible note could finance about a third of the $125.2 billion commitment the AI lab has made for a five-year lease of tensor processing unit (TPU) computing capacity. Anthropic disclosed that Broadcom's role in supplying hardware and acting as a financing partner creates \"potential conflicts of interest\" (Reuters via CNBC). (CNBC)",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/01/broadcom-lending-anthropic-42-billion-chips-reuters.html",
-          "date": "2026-10-01",
-          "tags": [
-            "anthropic",
-            "broadcom",
-            "tpu",
-            "compute",
-            "ipo"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-04_scan_1015_dublin",
+      "at": "2026-10-04T09:08:40.038Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~10:09 London, Sun 4 Oct (site-only; covers 08:11 to now). AI czar: still REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found (whitehouse.gov/news, presidential actions and the trumpstruth.org archive rechecked); the finance.biggo.com executive-order claim stays out. New: Seoul Economic Daily, 'Same IP Used in Hacks on Multiple Korean Financial Firms' — attacker IP found in breaches at seven firms including Welcome Savings Bank; attackers \"are believed to have deployed artificial intelligence tools\"; advisories sent to about 500 financial companies; no financial losses reported so far. Welcome Savings Bank (summary detail): The Herald Business, 'Welcome Savings Bank estimates data breach exposed 2,200 corporate customer records' — \"Welcome Savings Bank discovered the cyberattack Saturday during a routine internal security check and reported the incident to regulators\"; data includes \"company names, contact persons' names, email addresses and phone numbers\". That article does not say whether AI was involved. Korea, summary only: Seoul Economic Daily, 'KEPCO Says Data of 24,000 Employees Exposed Online' (no AI link stated); Korean-language reports say two online investment-linked finance (온투업) firms were also exposed (my translation) and the Korea Federation of Savings Banks network saw a hacking attempt with no leak. Seen but not added: Washington Examiner, 'AI companies hold off on embracing Trump's 'super intelligence' rebrand'; Benzinga, 'Bernie Sanders Warns AI Could Become Smarter Than Humans'; NDTV on the WSJ 'overregulation' report (summary-only); Altman 'religious force' re-coverage; GovTech, 'What the Recent Frontier AI Incidents Mean for Security Leaders'. North Korea: re-coverage only, no new outside AI assessment. Bill text: none new. Robotics/T-1000: nothing new. Still summary-only: WSJ 'overregulation', WSJ AI sleuths, Altman/Anthropic scholars, UnHerd, Cyprus Mail EU regulator, mutual finance blocked attempts, court network attempts and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (breach scope widens; AI use still 'believed', not confirmed at all firms).",
+      "patchId": "patch_2026-10-04_scan_1015_dublin"
+    },
     {
       "id": "patch_2026-10-04_scan_0815_dublin",
       "at": "2026-10-04T07:10:54.057Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "Bot self-check — confirm ingest auth",
       "patchId": "patch_bot_selfcheck"
-    },
-    {
-      "id": "patch_healthcheck_1789911743",
-      "at": "2026-09-20T13:42:24.300Z",
-      "by": "cursor-agent:healthcheck",
-      "type": "patch",
-      "summary": "Ingest pipeline healthcheck",
-      "patchId": "patch_healthcheck_1789911743"
     }
   ],
   "pendingPosts": [
