@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-04T15:14:10.048Z",
+    "lastUpdated": "2026-10-04T17:11:59.599Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-04T16:14:00+01:00",
-    "lastScanSummary": "Scan ~16:14 London, Sun 4 Oct (site-only; covers 14:14 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov/news, briefings-statements, presidential actions and the Federal Register rechecked (the newest related Federal Register document is still 'Inaugurating the Era of Super Intelligence', 2 Oct); no new Trump Truth Social post on AI since 08:23 EDT; the finance.biggo.com executive-order claim stays out. New: ABC's This Week, ''This Week' Transcript 10-4-26: Former FTC Chair Lina Khan' — Khan: \"self-regulation efforts by big tech have been a proven failure\"; executives \"are effectively developing malfunctioning products\"; liability \"maybe even for the specific executives\". Other Sunday shows: Face the Nation (Sen. Mark Kelly transcript) and CNN State of the Union (segment 1 transcript) had no AI mentions; no Meet the Press or Fox News Sunday AI segment found (Bill Gates's Meet the Press AI interview aired 27 Sep). Seen but not added: Tom's Hardware, 'ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths' (private AzerothCore server; developer post dated 2 Oct); AP via Seattle Times, 'Trump defends data centers in Ohio as he rallies to boost Jon Husted in a tight Senate race'; further SIF coverage (The Independent, 'Trump names new AI czar as he continues campaign to rename tech 'super intelligence''). Korea: Korean-language reports repeat FSC chair Lee Eok-won's warnings and the MSIT/KISA checks for 28,000 companies (summary-only, no new facts); Korea JoongAng Daily, 'AI hacking spree puts Korea's financial sector on alert' (recap). North Korea: re-coverage only. UK/Europe: nothing new of note. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. Bill text (Hawley-Murphy / AI Agent Accountability Act): none new. Robotics: the REK cage-fight cease-and-desist re-coverage (already on). T-1000: nothing new. Still summary-only: CNN, Fox and Politico SIF coverage; the Reflection Axios scoop; Firstpost on OpenAI lawsuits; the Korea $900B plan; KEPCO; Herald 2,200 records; and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-04T18:12:00+01:00",
+    "lastScanSummary": "Scan ~18:12 London, Sun 4 Oct (site-only; covers 16:14 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related document still 'Inaugurating the Era of Super Intelligence', 2 Oct); no new Trump Truth Social post on AI since 08:23 EDT; the finance.biggo.com executive-order claim stays out. New: Chosunbiz, 'AI-aided hacks hit seven South Korea financial firms, expose security gaps' — attack IPs from Korea plus \"the United States, Japan, Hong Kong, Singapore, Vietnam, Thailand, and the United Kingdom\"; \"The Korean National Police Agency's Cyber Bureau is investigating\"; Lee Eog-weon: \"defend AI attacks with AI\" (published 17:12 KST / 09:12 BST, not on the board before). Sunday shows: today's CNN State of the Union transcript is a single 9-10a ET segment with no AI mentions (segments 2-5 return 404); no other late Sunday-show AI quotes found. Seen but not added: Reuters, 'Musk says he will rename SpaceXAI to SpaceXSI' — Musk on X: \"Yes, we will make that change\" (rebrand, summary-only); ABC News, 'Former FTC Chair Khan dismisses 'constitution' signed by AI leaders to self-police' (Khan already on); CBS News, 'Trump announces formation of AI \"Super Intelligence Force\"' and other SIF coverage; Futurism, 'Anthropic Has Been Aggressively Lobbying the Vatican to Consider AI Consciousness'; The Decoder, 'Google researchers find a way to keep self-improving AI agents from memorizing their tests'. North Korea: re-coverage of the 'AI-piloted' missile claim only. Asia-Pacific: Korean editorials and recaps, no further new facts. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: Tom's Hardware Astra WoW, AP Trump Ohio data centers, the Independent's AI czar piece, the JoongAng recap, CNN/Fox/Politico SIF coverage, the Reflection Axios scoop, Firstpost on OpenAI lawsuits, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261004_chosunbiz_seven_firms_multicountry_ips_knpa_cyber_bureau",
+          "html": "<strong>🇰🇷 AI-aided hacks hit seven South Korea financial firms, expose security gaps</strong> (4 Oct 2026) Chosunbiz (English edition; the outlet notes the article was translated by AI): &quot;Authorities believe the attacks mobilized IPs not only from Korea but also from the United States, Japan, Hong Kong, Singapore, Vietnam, Thailand, and the United Kingdom.&quot; &quot;Traces of &quot;ARTEX AI&quot; use were also found in the IPs that attacked the banking sector.&quot; Because ARTEX AI is publicly available and the IPs are spread across countries, &quot;financial authorities said it is difficult to point to a specific country or organization as the actor behind the attacks&quot;. &quot;The Korean National Police Agency&#x27;s Cyber Bureau is investigating the attack routes and perpetrators.&quot; Among firms facing similar intrusion attempts, &quot;those that implemented multi-factor authentication or preemptively fixed vulnerabilities did not suffer actual breaches&quot;. FSC chair Lee Eog-weon: &quot;We must also quickly establish security systems that defend AI attacks with AI.&quot; (Follow-up to the same-IP seven-firm story already on.) (Chosunbiz)",
+          "plain": "🇰🇷 AI-aided hacks hit seven South Korea financial firms, expose security gaps (4 Oct 2026) Chosunbiz (English edition; the outlet notes the article was translated by AI): \"Authorities believe the attacks mobilized IPs not only from Korea but also from the United States, Japan, Hong Kong, Singapore, Vietnam, Thailand, and the United Kingdom.\" \"Traces of \"ARTEX AI\" use were also found in the IPs that attacked the banking sector.\" Because ARTEX AI is publicly available and the IPs are spread across countries, \"financial authorities said it is difficult to point to a specific country or organization as the actor behind the attacks\". \"The Korean National Police Agency's Cyber Bureau is investigating the attack routes and perpetrators.\" Among firms facing similar intrusion attempts, \"those that implemented multi-factor authentication or preemptively fixed vulnerabilities did not suffer actual breaches\". FSC chair Lee Eog-weon: \"We must also quickly establish security systems that defend AI attacks with AI.\" (Follow-up to the same-IP seven-firm story already on.) (Chosunbiz)",
+          "source": "Chosunbiz",
+          "url": "https://biz.chosun.com/en/en-finance/2026/10/04/JULRT3U25NG47AICMCH76TE5TY/",
+          "date": "2026-10-04",
+          "tags": [
+            "korea",
+            "finance",
+            "ai-hacking",
+            "artex",
+            "knpa"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261004_abc_thisweek_lina_khan_malfunctioning_products",
           "html": "<strong>&#x27;This Week&#x27; Transcript 10-4-26: Former FTC Chair Lina Khan</strong> ABC News rush transcript, This Week with George Stephanopoulos, 4 Oct. Lina Khan, former FTC chair: &quot;We&#x27;ve seen that self-regulation efforts by big tech have been a proven failure.&quot; She said &quot;you&#x27;re hearing from these executives that they are effectively developing malfunctioning products, A.I. systems that are engaging in repeated hacks of the servers of other companies, of the servers of other governments, and yet that they are somehow helpless as to do anything serious about it.&quot; On existing law: &quot;Product liability laws, consumer protection laws, tort laws, laws against cybersecurity breaches, laws against public nuisance.&quot; On liability: &quot;not just liability for these companies, but maybe even for the specific executives&quot;. &quot;I think then, you know, Congress needs to legislate.&quot; Stephanopoulos: &quot;The director of national intelligence, Jay Clayton, is in line to be Trump&#x27;s A.I. czar.&quot; (Commentary from a former official; no new government action.) (ABC News (This Week))",
           "plain": "'This Week' Transcript 10-4-26: Former FTC Chair Lina Khan ABC News rush transcript, This Week with George Stephanopoulos, 4 Oct. Lina Khan, former FTC chair: \"We've seen that self-regulation efforts by big tech have been a proven failure.\" She said \"you're hearing from these executives that they are effectively developing malfunctioning products, A.I. systems that are engaging in repeated hacks of the servers of other companies, of the servers of other governments, and yet that they are somehow helpless as to do anything serious about it.\" On existing law: \"Product liability laws, consumer protection laws, tort laws, laws against cybersecurity breaches, laws against public nuisance.\" On liability: \"not just liability for these companies, but maybe even for the specific executives\". \"I think then, you know, Congress needs to legislate.\" Stephanopoulos: \"The director of national intelligence, Jay Clayton, is in line to be Trump's A.I. czar.\" (Commentary from a former official; no new government action.) (ABC News (This Week))",
@@ -1777,27 +1794,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261002_bi_openai_safety_leader_robinson_resigns",
-          "html": "<strong>OpenAI safety leader David Robinson resigns as the team&#x27;s upheaval mounts</strong> (2 Oct 2026): David Robinson, a leader on OpenAI&#x27;s Safety Systems team, has resigned from the company. An OpenAI spokesperson told Business Insider on Friday that Robinson left last week. Robinson worked on safety transparency at the company, including helping to develop and share system cards that provide information about its models. He wrote on X that things at OpenAI &quot;are indeed changing significantly by the day, but I do not know whether we are changing fast enough.&quot; (Business Insider)",
-          "plain": "OpenAI safety leader David Robinson resigns as the team's upheaval mounts (2 Oct 2026): David Robinson, a leader on OpenAI's Safety Systems team, has resigned from the company. An OpenAI spokesperson told Business Insider on Friday that Robinson left last week. Robinson worked on safety transparency at the company, including helping to develop and share system cards that provide information about its models. He wrote on X that things at OpenAI \"are indeed changing significantly by the day, but I do not know whether we are changing fast enough.\" (Business Insider)",
-          "source": "Business Insider",
-          "url": "https://www.businessinsider.com/safety-leader-david-robinson-resigns-from-openai-2026-10",
-          "date": "2026-10-02",
-          "tags": [
-            "openai",
-            "safety",
-            "resignation",
-            "system-cards"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-04_scan_1815_dublin",
+      "at": "2026-10-04T17:11:59.599Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:12 London, Sun 4 Oct (site-only; covers 16:14 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related document still 'Inaugurating the Era of Super Intelligence', 2 Oct); no new Trump Truth Social post on AI since 08:23 EDT; the finance.biggo.com executive-order claim stays out. New: Chosunbiz, 'AI-aided hacks hit seven South Korea financial firms, expose security gaps' — attack IPs from Korea plus \"the United States, Japan, Hong Kong, Singapore, Vietnam, Thailand, and the United Kingdom\"; \"The Korean National Police Agency's Cyber Bureau is investigating\"; Lee Eog-weon: \"defend AI attacks with AI\" (published 17:12 KST / 09:12 BST, not on the board before). Sunday shows: today's CNN State of the Union transcript is a single 9-10a ET segment with no AI mentions (segments 2-5 return 404); no other late Sunday-show AI quotes found. Seen but not added: Reuters, 'Musk says he will rename SpaceXAI to SpaceXSI' — Musk on X: \"Yes, we will make that change\" (rebrand, summary-only); ABC News, 'Former FTC Chair Khan dismisses 'constitution' signed by AI leaders to self-police' (Khan already on); CBS News, 'Trump announces formation of AI \"Super Intelligence Force\"' and other SIF coverage; Futurism, 'Anthropic Has Been Aggressively Lobbying the Vatican to Consider AI Consciousness'; The Decoder, 'Google researchers find a way to keep self-improving AI agents from memorizing their tests'. North Korea: re-coverage of the 'AI-piloted' missile claim only. Asia-Pacific: Korean editorials and recaps, no further new facts. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: Tom's Hardware Astra WoW, AP Trump Ohio data centers, the Independent's AI czar piece, the JoongAng recap, CNN/Fox/Politico SIF coverage, the Reflection Axios scoop, Firstpost on OpenAI lawsuits, the Korea $900B plan and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (follow-up detail on an incident already on; no new powers, release or order).",
+      "patchId": "patch_2026-10-04_scan_1815_dublin"
+    },
     {
       "id": "patch_2026-10-04_scan_1615_dublin",
       "at": "2026-10-04T15:14:10.048Z",
@@ -2589,14 +2598,6 @@
       "type": "patch",
       "summary": "2h scan: UBTECH Liuzhou 10k/yr humanoid factory (robots-build-robots); Unitree G1-D wheeled; Counterpoint H1 China shipment lead; Robot Olympics 100m barrier fire comedy. T-800 58→59.",
       "patchId": "patch_2026-09-20_scan_2005_dublin"
-    },
-    {
-      "id": "patch_2026-09-20_extra_1942_dublin",
-      "at": "2026-09-20T18:42:02.152Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "EXTRA China/US scan: Dongfeng Xiaodong factory timeline; Figure Helix 2.5 zero-shot homes; Unitree G1+; Agility Digit 5; comedy China tumble-data centers. T-800 56→58.",
-      "patchId": "patch_2026-09-20_extra_1942_dublin"
     }
   ],
   "pendingPosts": [
