@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-04T13:14:05.178Z",
+    "lastUpdated": "2026-10-04T15:14:10.048Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-04T14:14:00+01:00",
-    "lastScanSummary": "Scan ~14:14 London, Sun 4 Oct (site-only; covers 12:14 to now). AI czar: OFFICIAL — Trump announced on Truth Social (08:23 EDT / 13:23 BST, https://truthsocial.com/@realDonaldTrump/117382616783706638): \"I am announcing the formation of the Super Intelligence Force (SIF)\", which \"will be led by Director of National Intelligence, Jay Clayton, Chairman of the Federal Trade Commission, Andrew Ferguson, Under Secretary of War for Research and Engineering, and Chief Technology Officer, Emil Michael, and Director of the Office of Personnel Management, Scott Kupor\". The post does not use the word 'czar'; whitehouse.gov/news and presidential actions show no release or executive order yet, and the finance.biggo.com executive-order claim stays out. New: Trump's Truth Social post (above), added to Skynet. Media coverage seen: CNN, 'Trump announces leadership of AI task force'; Fox News, 'Trump launching 'Super Intelligence Force' to ensure American dominance'; Politico, 'Spy chief and AI czar: Trump adds to Jay Clayton's repertoire'. Seen but not added: Axios, 'Scoop: A powerful new model from startup Reflection is set to shake up the AI race'; Firstpost, 'OpenAI faces new legal challenges as AI agent incidents trigger lawsuits, probes'; Crypto Briefing, 'South Korea unveils a roughly $900B AI and chip plan it calls a survival strategy'. Korea: further Korean-language follow-ups on the seven-firm hacking (already on); KEPCO and the MSIT 28,000-company checks stay summary-only. US Sunday shows: no AI segments or transcripts found yet (shows were airing at scan time). UK/Europe: nothing new of note. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. North Korea: no new facts. Bill text: none new. Robotics/T-1000: nothing new. Still summary-only: Herald 2,200 records, KEPCO, online lending firms, Seoul rejecting the NK missile claim, FT 'Legal risks pile up for Altman…', Irish Examiner, Inquirer, WSJ 'overregulation' and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-04T16:14:00+01:00",
+    "lastScanSummary": "Scan ~16:14 London, Sun 4 Oct (site-only; covers 14:14 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov/news, briefings-statements, presidential actions and the Federal Register rechecked (the newest related Federal Register document is still 'Inaugurating the Era of Super Intelligence', 2 Oct); no new Trump Truth Social post on AI since 08:23 EDT; the finance.biggo.com executive-order claim stays out. New: ABC's This Week, ''This Week' Transcript 10-4-26: Former FTC Chair Lina Khan' — Khan: \"self-regulation efforts by big tech have been a proven failure\"; executives \"are effectively developing malfunctioning products\"; liability \"maybe even for the specific executives\". Other Sunday shows: Face the Nation (Sen. Mark Kelly transcript) and CNN State of the Union (segment 1 transcript) had no AI mentions; no Meet the Press or Fox News Sunday AI segment found (Bill Gates's Meet the Press AI interview aired 27 Sep). Seen but not added: Tom's Hardware, 'ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths' (private AzerothCore server; developer post dated 2 Oct); AP via Seattle Times, 'Trump defends data centers in Ohio as he rallies to boost Jon Husted in a tight Senate race'; further SIF coverage (The Independent, 'Trump names new AI czar as he continues campaign to rename tech 'super intelligence''). Korea: Korean-language reports repeat FSC chair Lee Eok-won's warnings and the MSIT/KISA checks for 28,000 companies (summary-only, no new facts); Korea JoongAng Daily, 'AI hacking spree puts Korea's financial sector on alert' (recap). North Korea: re-coverage only. UK/Europe: nothing new of note. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. Bill text (Hawley-Murphy / AI Agent Accountability Act): none new. Robotics: the REK cage-fight cease-and-desist re-coverage (already on). T-1000: nothing new. Still summary-only: CNN, Fox and Politico SIF coverage; the Reflection Axios scoop; Firstpost on OpenAI lawsuits; the Korea $900B plan; KEPCO; Herald 2,200 records; and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261004_abc_thisweek_lina_khan_malfunctioning_products",
+          "html": "<strong>&#x27;This Week&#x27; Transcript 10-4-26: Former FTC Chair Lina Khan</strong> ABC News rush transcript, This Week with George Stephanopoulos, 4 Oct. Lina Khan, former FTC chair: &quot;We&#x27;ve seen that self-regulation efforts by big tech have been a proven failure.&quot; She said &quot;you&#x27;re hearing from these executives that they are effectively developing malfunctioning products, A.I. systems that are engaging in repeated hacks of the servers of other companies, of the servers of other governments, and yet that they are somehow helpless as to do anything serious about it.&quot; On existing law: &quot;Product liability laws, consumer protection laws, tort laws, laws against cybersecurity breaches, laws against public nuisance.&quot; On liability: &quot;not just liability for these companies, but maybe even for the specific executives&quot;. &quot;I think then, you know, Congress needs to legislate.&quot; Stephanopoulos: &quot;The director of national intelligence, Jay Clayton, is in line to be Trump&#x27;s A.I. czar.&quot; (Commentary from a former official; no new government action.) (ABC News (This Week))",
+          "plain": "'This Week' Transcript 10-4-26: Former FTC Chair Lina Khan ABC News rush transcript, This Week with George Stephanopoulos, 4 Oct. Lina Khan, former FTC chair: \"We've seen that self-regulation efforts by big tech have been a proven failure.\" She said \"you're hearing from these executives that they are effectively developing malfunctioning products, A.I. systems that are engaging in repeated hacks of the servers of other companies, of the servers of other governments, and yet that they are somehow helpless as to do anything serious about it.\" On existing law: \"Product liability laws, consumer protection laws, tort laws, laws against cybersecurity breaches, laws against public nuisance.\" On liability: \"not just liability for these companies, but maybe even for the specific executives\". \"I think then, you know, Congress needs to legislate.\" Stephanopoulos: \"The director of national intelligence, Jay Clayton, is in line to be Trump's A.I. czar.\" (Commentary from a former official; no new government action.) (ABC News (This Week))",
+          "source": "ABC News (This Week)",
+          "url": "https://abcnews.com/Politics/week-transcript-10-4-26-former-ftc-chair/story?id=136978511",
+          "date": "2026-10-04",
+          "tags": [
+            "sunday-shows",
+            "lina-khan",
+            "liability",
+            "self-regulation",
+            "ai-hacks"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261004_truthsocial_trump_super_intelligence_force_official",
           "html": "<strong>Trump on Truth Social: &quot;I am announcing the formation of the Super Intelligence Force (SIF)&quot;</strong> Donald J. Trump, Truth Social, 4 Oct 08:23 EDT (13:23 BST): &quot;Following the Historic White House Accord on Super Intelligence&quot; … &quot;I am announcing the formation of the Super Intelligence Force (SIF).&quot; &quot;The Super Intelligence Force is tasked with coordinating the effort of the Federal Government to ensure that America continues to lead the World in Super Intelligence&quot;. &quot;The Super Intelligence Force will coordinate the Federal Government&#x27;s engagement with Consumers, Public Interest Groups, Religious Organizations, Critical Infrastructure Providers, and Super Intelligence Companies&quot;, and &quot;will be led by Director of National Intelligence, Jay Clayton, Chairman of the Federal Trade Commission, Andrew Ferguson, Under Secretary of War for Research and Engineering, and Chief Technology Officer, Emil Michael, and Director of the Office of Personnel Management, Scott Kupor&quot;, and &quot;will report to the President of the United States (ME!), and the Chief of Staff, Susie Wiles&quot;. (Official confirmation of the WSJ-reported Clayton role; the post itself does not use the word &#x27;czar&#x27;. Archive copy: https://www.trumpstruth.org/statuses/42126. No White House release or executive order on whitehouse.gov yet.) (Donald J. Trump (Truth Social))",
           "plain": "Trump on Truth Social: \"I am announcing the formation of the Super Intelligence Force (SIF)\" Donald J. Trump, Truth Social, 4 Oct 08:23 EDT (13:23 BST): \"Following the Historic White House Accord on Super Intelligence\" … \"I am announcing the formation of the Super Intelligence Force (SIF).\" \"The Super Intelligence Force is tasked with coordinating the effort of the Federal Government to ensure that America continues to lead the World in Super Intelligence\". \"The Super Intelligence Force will coordinate the Federal Government's engagement with Consumers, Public Interest Groups, Religious Organizations, Critical Infrastructure Providers, and Super Intelligence Companies\", and \"will be led by Director of National Intelligence, Jay Clayton, Chairman of the Federal Trade Commission, Andrew Ferguson, Under Secretary of War for Research and Engineering, and Chief Technology Officer, Emil Michael, and Director of the Office of Personnel Management, Scott Kupor\", and \"will report to the President of the United States (ME!), and the Chief of Staff, Susie Wiles\". (Official confirmation of the WSJ-reported Clayton role; the post itself does not use the word 'czar'. Archive copy: https://www.trumpstruth.org/statuses/42126. No White House release or executive order on whitehouse.gov yet.) (Donald J. Trump (Truth Social))",
@@ -1776,28 +1793,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261003_sbs_korea_banks_ai_utilized_40_hours_yegaram",
-          "html": "<strong>🏦 Spreading Hacking Damage in Banking Sector... Circumstances Point to AI-Utilized Work System Infiltration</strong> (3 Oct 2026): At KB Kookmin Bank, personal information of a total of 119 individuals, including 20 employees and 99 customers, was leaked; the attack, which first began on the night of September 27, continued for over 40 hours. Yegaram Savings Bank also stated that an unidentified hacker accessed a server containing customer personal information on September 30. While it has not been clearly verified whether it was the work of the same group, circumstances indicating the utilization of AI have emerged in terms of the timing and methods of the attacks. Professor Hwang Seok-jin: &quot;They keep breaching and pushing through until they find a way. Therefore, the timeframes and other aspects were such that manual work would have been completely impossible.&quot; (SBS News)",
-          "plain": "🏦 Spreading Hacking Damage in Banking Sector... Circumstances Point to AI-Utilized Work System Infiltration (3 Oct 2026): At KB Kookmin Bank, personal information of a total of 119 individuals, including 20 employees and 99 customers, was leaked; the attack, which first began on the night of September 27, continued for over 40 hours. Yegaram Savings Bank also stated that an unidentified hacker accessed a server containing customer personal information on September 30. While it has not been clearly verified whether it was the work of the same group, circumstances indicating the utilization of AI have emerged in terms of the timing and methods of the attacks. Professor Hwang Seok-jin: \"They keep breaching and pushing through until they find a way. Therefore, the timeframes and other aspects were such that manual work would have been completely impossible.\" (SBS News)",
-          "source": "SBS News",
-          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008781576",
-          "date": "2026-10-03",
-          "tags": [
-            "korea",
-            "banks",
-            "kookmin",
-            "yegaram",
-            "hacking"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-04_scan_1615_dublin",
+      "at": "2026-10-04T15:14:10.048Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~16:14 London, Sun 4 Oct (site-only; covers 14:14 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov/news, briefings-statements, presidential actions and the Federal Register rechecked (the newest related Federal Register document is still 'Inaugurating the Era of Super Intelligence', 2 Oct); no new Trump Truth Social post on AI since 08:23 EDT; the finance.biggo.com executive-order claim stays out. New: ABC's This Week, ''This Week' Transcript 10-4-26: Former FTC Chair Lina Khan' — Khan: \"self-regulation efforts by big tech have been a proven failure\"; executives \"are effectively developing malfunctioning products\"; liability \"maybe even for the specific executives\". Other Sunday shows: Face the Nation (Sen. Mark Kelly transcript) and CNN State of the Union (segment 1 transcript) had no AI mentions; no Meet the Press or Fox News Sunday AI segment found (Bill Gates's Meet the Press AI interview aired 27 Sep). Seen but not added: Tom's Hardware, 'ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths' (private AzerothCore server; developer post dated 2 Oct); AP via Seattle Times, 'Trump defends data centers in Ohio as he rallies to boost Jon Husted in a tight Senate race'; further SIF coverage (The Independent, 'Trump names new AI czar as he continues campaign to rename tech 'super intelligence''). Korea: Korean-language reports repeat FSC chair Lee Eok-won's warnings and the MSIT/KISA checks for 28,000 companies (summary-only, no new facts); Korea JoongAng Daily, 'AI hacking spree puts Korea's financial sector on alert' (recap). North Korea: re-coverage only. UK/Europe: nothing new of note. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. Bill text (Hawley-Murphy / AI Agent Accountability Act): none new. Robotics: the REK cage-fight cease-and-desist re-coverage (already on). T-1000: nothing new. Still summary-only: CNN, Fox and Politico SIF coverage; the Reflection Axios scoop; Firstpost on OpenAI lawsuits; the Korea $900B plan; KEPCO; Herald 2,200 records; and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (Sunday-show commentary; no new powers, release or order).",
+      "patchId": "patch_2026-10-04_scan_1615_dublin"
+    },
     {
       "id": "patch_2026-10-04_scan_1415_dublin",
       "at": "2026-10-04T13:14:05.178Z",
@@ -2589,14 +2597,6 @@
       "type": "patch",
       "summary": "EXTRA China/US scan: Dongfeng Xiaodong factory timeline; Figure Helix 2.5 zero-shot homes; Unitree G1+; Agility Digit 5; comedy China tumble-data centers. T-800 56→58.",
       "patchId": "patch_2026-09-20_extra_1942_dublin"
-    },
-    {
-      "id": "patch_2026-09-20_scan_1617_dublin",
-      "at": "2026-09-20T15:17:59.062Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "4h scan: Optimus Fremont ramp + Figure 03 BMW logistics; EU AI Act first RFIs; LM shape-memory paper; Unitree remote-kick fail (no injury).",
-      "patchId": "patch_2026-09-20_scan_1617_dublin"
     }
   ],
   "pendingPosts": [
