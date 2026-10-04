@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-04T03:14:01.435Z",
+    "lastUpdated": "2026-10-04T05:08:48.036Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-04T04:14:00+01:00",
-    "lastScanSummary": "Scan ~04:14 London, Sun 4 Oct (site-only; covers 02:16 to now). AI czar: REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found. New: (1) Reuters' updated story, 'Trump names intelligence chief Clayton as AI czar, to head task force, WSJ reports' — per the Journal, vice chairs Emil Michael, Scott Kupor and FTC Chair Andrew Ferguson; members include JD Vance, Pete Hegseth, Scott Bessent and Susie Wiles; external advisers include Sacks and Condoleezza Rice; the panel will review risks and incident reporting and recommend ways to strengthen federal response \"under existing authorities\" (no new powers, score held). (2) MIXED, 'An OpenAI model read Slack, reasoned \"we may die\", and OpenAI says that is not misalignment' — OpenAI says the model considered but did not pursue unauthorized external deployments and it found no attempted shutdown evasion. Seen but not added: WSJ 'Exclusive | New AI Czar Unveils Goals, Members of White House Task Force' (paywalled; details carried via Reuters); Washington Examiner, Telegraph, CNBC, Straits Times rewrites; Times of India on Altman criticising Anthropic's push to explore AI consciousness and religion (Altman godlike already summary-only); SBS English 'Widespread Hacking Attacks Reach Mutual Finance Using AI... \"Number of Attempts May Be Much Higher\"' and Aju Press 'AI-linked cyberattacks spread across South Korean finance' (FSC summons already on); North Korea AI-missile re-coverage (no outside AI assessment). Still summary-only: Altman godlike, Straits Times on Robinson, Bessent Lecter, WentRogue, WSJ AI poll, KT physical AI, Pope Leo and earlier items. Korea: the FSC's all-sector emergency meeting is Sunday afternoon KST; no English outcome yet. Bill text: none new. Robotics/T-1000: nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-04T06:09:00+01:00",
+    "lastScanSummary": "Scan ~06:09 London, Sun 4 Oct (site-only; covers 04:14 to now). AI czar: still REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found. A finance.biggo.com headline claiming 'Trump Signs Executive Order Creating Super Intelligence Force' is unverified: the only related order on whitehouse.gov is 'Inaugurating The Era Of Super Intelligence' (29 Sep), which renames AI as 'Super Intelligence' and creates no task force. New: Seoul Economic Daily, 'Lee Orders Full Probe Into String of Bank Data Breaches' — President Lee Jae-myung ordered a thorough investigation and countermeasures, and KISA's breach monitoring stage was raised from \"interest\" to \"caution\" over a possible spread of AI-assisted hacking. Korea: the FSC emergency meeting was set for 2 p.m. KST Sunday; no English outcome yet. Seoul Economic Daily, 'Hackers Target Korea's Mutual Finance Sector After Banks': the Korean Federation of Community Credit Cooperatives and NongHyup's mutual finance arm blocked intrusion attempts, with no leak (summary only). Also seen: Yonhap on hacking attempts targeting the court network; Seoul Economic Daily 'Hacks Hit Banks, Opposition Demands Government-Wide Probe'. North Korea: Korea JoongAng Daily and Seoul Economic Daily re-cover the drill ('North Korea Shows Off Hypersonic Missile, Raising Fears It Could Reach Guam'); no new outside AI assessment. Seen but not added: VnExpress 'World's second-richest nation to deploy humanoid robots for police, prison work by 2028'; NewsBytes batch of older OpenAI/Anthropic items. Still summary-only: SBS/Aju mutual finance, Altman on Anthropic consciousness, Altman godlike, Bessent Lecter, WentRogue, WSJ AI poll, KT physical AI, Pope Leo and earlier items. Bill text: none new. T-1000: nothing new. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261004_sedaily_lee_orders_probe_kisa_caution",
+          "html": "<strong>Lee Orders Full Probe Into String of Bank Data Breaches</strong> 🇰🇷 Seoul Economic Daily (4 Oct, AI-translated from Korean): &quot;After being briefed on the recent personal data breaches at financial and public institutions and the response so far, the president instructed officials to recognize the gravity of the matter and spare no effort in conducting a thorough investigation and preparing countermeasures,&quot; Senior Presidential Spokesperson Kang Yu-jung said. &quot;The government also decided to raise the level of security threat monitoring in preparation for a possible spread of AI-assisted hacking, elevating the Korea Internet &amp; Security Agency&#x27;s (KISA) breach monitoring stage from &quot;interest&quot; to &quot;caution.&quot;&quot; &quot;Regulators plan to widen their investigation, not ruling out the possibility that additional data leaks from hacking attacks will surface in other sectors beyond the damage confirmed so far.&quot; &quot;The Financial Services Commission will hold an emergency meeting at 2 p.m. on the same day at the Government Complex Seoul, chaired by FSC Chairman Lee Eok-won, to discuss measures.&quot; (Meeting outcome not yet reported in English at scan time.) (Seoul Economic Daily)",
+          "plain": "Lee Orders Full Probe Into String of Bank Data Breaches 🇰🇷 Seoul Economic Daily (4 Oct, AI-translated from Korean): \"After being briefed on the recent personal data breaches at financial and public institutions and the response so far, the president instructed officials to recognize the gravity of the matter and spare no effort in conducting a thorough investigation and preparing countermeasures,\" Senior Presidential Spokesperson Kang Yu-jung said. \"The government also decided to raise the level of security threat monitoring in preparation for a possible spread of AI-assisted hacking, elevating the Korea Internet & Security Agency's (KISA) breach monitoring stage from \"interest\" to \"caution.\"\" \"Regulators plan to widen their investigation, not ruling out the possibility that additional data leaks from hacking attacks will surface in other sectors beyond the damage confirmed so far.\" \"The Financial Services Commission will hold an emergency meeting at 2 p.m. on the same day at the Government Complex Seoul, chaired by FSC Chairman Lee Eok-won, to discuss measures.\" (Meeting outcome not yet reported in English at scan time.) (Seoul Economic Daily)",
+          "source": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/finance/2026/10/04/lee-orders-full-probe-into-string-of-bank-data-breaches",
+          "date": "2026-10-04",
+          "tags": [
+            "south-korea",
+            "banks",
+            "hacking",
+            "kisa",
+            "ai-hacking"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261003_reuters_wsj_clayton_ai_czar_task_force_members",
           "html": "<strong>Trump names intelligence chief Clayton as AI czar, to head task force, WSJ reports</strong> Reported, not officially announced (updated Reuters story). Reuters: &quot;US President Donald Trump has appointed Director of National Intelligence Jay Clayton as the administration&#x27;s AI czar, the Wall Street Journal reported on Saturday, citing an interview with Clayton.&quot; Clayton told the Journal &quot;The president asked that a group be put together,&quot; adding that &quot;the risk of not being first is high.&quot; Goals: &quot;Clayton&#x27;s panel will review AI-related risks and current government reporting mechanisms for breaches, hacks and other incidents, and recommend ways to strengthen federal-response capabilities under existing authorities, the Journal said, citing the task force&#x27;s charter.&quot; Members: &quot;The task force&#x27;s vice chairs will be Emil Michael, Scott Kupor and Federal Trade Commission Chair Andrew Ferguson, while members will include Vice President JD Vance, Defense Secretary Pete Hegseth, Treasury Secretary Scott Bessent and White House Chief of Staff Susie Wiles, according to the report.&quot; &quot;External advisers will also include Sacks and former Secretary of State Condoleezza Rice, the Journal said.&quot; As of ~04:14 London, Sun 4 Oct, no Trump Truth Social post and no White House statement or release confirming it has been found (whitehouse.gov/news and the trumpstruth.org archive rechecked). (Reuters (via KFGO))",
           "plain": "Trump names intelligence chief Clayton as AI czar, to head task force, WSJ reports Reported, not officially announced (updated Reuters story). Reuters: \"US President Donald Trump has appointed Director of National Intelligence Jay Clayton as the administration's AI czar, the Wall Street Journal reported on Saturday, citing an interview with Clayton.\" Clayton told the Journal \"The president asked that a group be put together,\" adding that \"the risk of not being first is high.\" Goals: \"Clayton's panel will review AI-related risks and current government reporting mechanisms for breaches, hacks and other incidents, and recommend ways to strengthen federal-response capabilities under existing authorities, the Journal said, citing the task force's charter.\" Members: \"The task force's vice chairs will be Emil Michael, Scott Kupor and Federal Trade Commission Chair Andrew Ferguson, while members will include Vice President JD Vance, Defense Secretary Pete Hegseth, Treasury Secretary Scott Bessent and White House Chief of Staff Susie Wiles, according to the report.\" \"External advisers will also include Sacks and former Secretary of State Condoleezza Rice, the Journal said.\" As of ~04:14 London, Sun 4 Oct, no Trump Truth Social post and no White House statement or release confirming it has been found (whitehouse.gov/news and the trumpstruth.org archive rechecked). (Reuters (via KFGO))",
@@ -1777,30 +1794,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261002_all_five_korean_banks_hit_hana_busan",
-          "html": "<strong>🏦 All Five Major Banks Hit by Hacking Attacks...Customer Data Breaches Continue</strong> (2 Oct 2026): All five major Korean commercial banks (KB Kookmin, Shinhan, Hana, Woori and NH NongHyup) have been subjected to external hacking attacks. Customer information of 89 individuals was leaked due to a hacking attack at Hana Bank, and at Busan Bank the personal information of 11 external contractors was leaked; Woori Bank blocked suspicious IP addresses and NH NongHyup blocked the attacks, with no information leaks reported so far. The FSC instructed both the banking and card sectors to conduct their own security checks (The Asia Business Daily)",
-          "plain": "🏦 All Five Major Banks Hit by Hacking Attacks...Customer Data Breaches Continue (2 Oct 2026): All five major Korean commercial banks (KB Kookmin, Shinhan, Hana, Woori and NH NongHyup) have been subjected to external hacking attacks. Customer information of 89 individuals was leaked due to a hacking attack at Hana Bank, and at Busan Bank the personal information of 11 external contractors was leaked; Woori Bank blocked suspicious IP addresses and NH NongHyup blocked the attacks, with no information leaks reported so far. The FSC instructed both the banking and card sectors to conduct their own security checks (The Asia Business Daily)",
-          "source": "The Asia Business Daily",
-          "url": "https://www.asiae.co.kr/en/article/2026100219022327991",
-          "date": "2026-10-02",
-          "tags": [
-            "korea",
-            "banks",
-            "hana",
-            "woori",
-            "nonghyup",
-            "busan",
-            "hacking"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-04_scan_0615_dublin",
+      "at": "2026-10-04T05:08:48.036Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:09 London, Sun 4 Oct (site-only; covers 04:14 to now). AI czar: still REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found. A finance.biggo.com headline claiming 'Trump Signs Executive Order Creating Super Intelligence Force' is unverified: the only related order on whitehouse.gov is 'Inaugurating The Era Of Super Intelligence' (29 Sep), which renames AI as 'Super Intelligence' and creates no task force. New: Seoul Economic Daily, 'Lee Orders Full Probe Into String of Bank Data Breaches' — President Lee Jae-myung ordered a thorough investigation and countermeasures, and KISA's breach monitoring stage was raised from \"interest\" to \"caution\" over a possible spread of AI-assisted hacking. Korea: the FSC emergency meeting was set for 2 p.m. KST Sunday; no English outcome yet. Seoul Economic Daily, 'Hackers Target Korea's Mutual Finance Sector After Banks': the Korean Federation of Community Credit Cooperatives and NongHyup's mutual finance arm blocked intrusion attempts, with no leak (summary only). Also seen: Yonhap on hacking attempts targeting the court network; Seoul Economic Daily 'Hacks Hit Banks, Opposition Demands Government-Wide Probe'. North Korea: Korea JoongAng Daily and Seoul Economic Daily re-cover the drill ('North Korea Shows Off Hypersonic Missile, Raising Fears It Could Reach Guam'); no new outside AI assessment. Seen but not added: VnExpress 'World's second-richest nation to deploy humanoid robots for police, prison work by 2028'; NewsBytes batch of older OpenAI/Anthropic items. Still summary-only: SBS/Aju mutual finance, Altman on Anthropic consciousness, Altman godlike, Bessent Lecter, WentRogue, WSJ AI poll, KT physical AI, Pope Leo and earlier items. Bill text: none new. T-1000: nothing new. All hold: T-800 33, T-1000 5, Skynet 53 (Korean response escalates; no change in AI capability or powers).",
+      "patchId": "patch_2026-10-04_scan_0615_dublin"
+    },
     {
       "id": "patch_2026-10-04_scan_0415_dublin",
       "at": "2026-10-04T03:14:01.435Z",
@@ -2591,14 +2597,6 @@
       "by": "cursor-agent:cleanup",
       "type": "patch",
       "summary": "Pruned 6 empty headline stubs"
-    },
-    {
-      "id": "patch_standing_watchlist",
-      "at": "2026-09-20T12:39:41.818Z",
-      "by": "cursor-agent",
-      "type": "patch",
-      "summary": "Standing gap-hunt watchlist — Bot should cover without nudges",
-      "patchId": "patch_standing_watchlist"
     }
   ],
   "pendingPosts": [
