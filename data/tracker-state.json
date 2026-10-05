@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-04T23:12:49.215Z",
+    "lastUpdated": "2026-10-05T01:06:17.801Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-05T00:13:00+01:00",
-    "lastScanSummary": "Scan ~00:13 London, Mon 5 Oct (site-only; covers 22:12 Sun to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); Trump's archived Truth Social posts through 16:50 EDT show nothing on AI, the Super Intelligence Force or Clayton; the finance.biggo.com claims stay out. New (promoted from summary-only): POLITICO, 'Sam Altman exclusive: Bad things will happen' — Altman: \"We believe that the world should accept some bad things happening for the benefits of this technology and people having the agency\"; Bordelon: \"He has already told us this is not the end of the disclosures for autonomous OpenAI hacks\". Reuters follow-up: 'OpenAI's Altman says AI benefits warrant accepting some risks'. Watch — NYC: the Council's Committee of the Whole meets today, Mon 5 Oct, 11:00 ET (16:00 BST) at City Hall on oversight item T2026-2573, 'Examining the Risks Posed by Artificial Intelligence', with bills including T2026-2602 (third-party validation and shut-down capability); the Council's 28 Sep release says Anthropic, OpenAI, Google and Meta will testify under oath; Coxon (already on) is expected. Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct (OpenAI's Jason Kwon; Anthropic sending US and Australian executives); no programme or new previews found; Microsoft/Google witnesses not confirmed. Korea: Monday-edition reports and editorials only, no new breaches or official findings. Japan/China/North Korea: nothing new. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: the WH Kyoto Vision release, the Chosun password-limit piece, Gizmodo/WaPo/ABC/NPR/UPI/CBS/CNN/Fox/Politico SIF coverage, the Musk reshare, news.com.au, the Florida Claude arrest, the SpaceXSI rename, Futurism, The Decoder, Astra WoW, the Reflection Axios scoop, Firstpost, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-05T02:06:00+01:00",
+    "lastScanSummary": "Scan ~02:06 London, Mon 5 Oct (site-only; covers 00:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions (newest items 1-4 Oct, none on AI), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the Truth Social archive shows nothing newer than its 16:50 EDT posts; the finance.biggo.com claims stay out. New: Bloomberg via The Straits Times, 'SoftBank's Masayoshi Son has rare cautionary note on AI safety' — Son, speaking in Kyoto alongside Michael Kratsios: \"We don't have any more luxury of having human fight against human\"; superintelligence in the wrong hands can become \"super dangerous\". POLITICO watch: the full Altman interview is not out yet; per POLITICO, more runs in Monday's debut edition of Decoded. A companion POLITICO news story, 'Sam Altman to Decoded: 'The world should accept some bad things happening' for the benefits of AI' (Christine Mui and Brendan Bordelon), adds Altman's \"I think there's a lot of daylight\" but nothing substantively new beyond the excerpt (already on). Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); amNewYork headline: 'Elon Musk's SpaceXAI expected to testify at City Council AI hearing after subpoena' (article text not retrievable); no witness list published yet. Watch — Sydney: the Joint Select Committee on Artificial Intelligence sits in Sydney on 6 and 7 Oct and in Melbourne on 9 Oct (per AIVY); OpenAI's Jason Kwon and Anthropic's US and Australian executives are due on 6 Oct; no programme published yet. Korea: Monday follow-ups only (Newsis, AI-translated headline: insurance and card sectors also run urgent vulnerability checks; experts on AI-assisted attacks); no new breaches or official findings. North Korea: KCNA's account of Kim Jong Un overseeing the 3 Oct missile drill repeats the AI claim already on the board. Japan/China: nothing new. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: the Reuters Altman follow-up, Kyoto Vision, the Chosun password-limit piece, Newsis, all SIF media coverage, the Musk reshare, news.com.au, the Florida Claude arrest, the SpaceXSI rename, Futurism, The Decoder, Astra WoW, the Reflection Axios scoop, Firstpost, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261004_bloomberg_softbank_son_super_dangerous",
+          "html": "<strong>🇯🇵 SoftBank&#x27;s Masayoshi Son has rare cautionary note on AI safety</strong> (4 Oct 2026, Kyoto) Bloomberg: SoftBank Group chief Masayoshi Son, &quot;one of artificial intelligence&#x27;s fervent believers,&quot; &quot;said that even he is worried about safety risks as machines quickly gain more abilities.&quot; Son: &quot;We don&#x27;t have any more luxury of having human fight against human.&quot; Superintelligence in the wrong hands can become &quot;super dangerous&quot;, he said. &quot;He was speaking alongside White House science and tech policy adviser Michael Kratsios.&quot; Son said such programs will &quot;be ready to help robots and other machines interact with the physical world starting in 2027.&quot; Bloomberg: &quot;It was an uncharacteristic note of caution from Son that reflects escalating concern in the wake of disturbing security breaches by AI models in recent months.&quot; Per Bloomberg, Son has directed SoftBank funds totalling &quot;nearly US$65 billion&quot; into OpenAI. (Bloomberg via The Straits Times)",
+          "plain": "🇯🇵 SoftBank's Masayoshi Son has rare cautionary note on AI safety (4 Oct 2026, Kyoto) Bloomberg: SoftBank Group chief Masayoshi Son, \"one of artificial intelligence's fervent believers,\" \"said that even he is worried about safety risks as machines quickly gain more abilities.\" Son: \"We don't have any more luxury of having human fight against human.\" Superintelligence in the wrong hands can become \"super dangerous\", he said. \"He was speaking alongside White House science and tech policy adviser Michael Kratsios.\" Son said such programs will \"be ready to help robots and other machines interact with the physical world starting in 2027.\" Bloomberg: \"It was an uncharacteristic note of caution from Son that reflects escalating concern in the wake of disturbing security breaches by AI models in recent months.\" Per Bloomberg, Son has directed SoftBank funds totalling \"nearly US$65 billion\" into OpenAI. (Bloomberg via The Straits Times)",
+          "source": "Bloomberg via The Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/softbanks-masayoshi-son-has-rare-cautionary-note-on-ai-safety",
+          "date": "2026-10-04",
+          "tags": [
+            "softbank",
+            "son",
+            "superintelligence",
+            "safety",
+            "kyoto"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261004_politico_altman_bad_things_will_happen",
           "html": "<strong>Sam Altman exclusive: Bad things will happen</strong> (4 Oct 2026) POLITICO newsletter, ahead of an exclusive interview for the launch edition of POLITICO Decoded. Sam Altman: &quot;We believe that the world should accept some bad things happening for the benefits of this technology and people having the agency.&quot; POLITICO senior tech reporter Brendan Bordelon, who interviewed him: &quot;He has already told us this is not the end of the disclosures for autonomous OpenAI hacks&quot;. Per POLITICO, Altman sees &quot;clear daylight&quot; between his company and Anthropic, calls for &quot;a lighter touch regulatory stance&quot; and rejects as &quot;completely unacceptable&quot; any trade-off that might restrict AI frontier development to a small group; he predicts humanity will do &quot;tremendously — orders of magnitude more — good stuff than bad stuff&quot; with AI and says he does not accept &quot;the really catastrophic risks,&quot; which, per Bordelon, would include the potential for what Altman called a &quot;serious loss of control&quot; to AI. (POLITICO)",
           "plain": "Sam Altman exclusive: Bad things will happen (4 Oct 2026) POLITICO newsletter, ahead of an exclusive interview for the launch edition of POLITICO Decoded. Sam Altman: \"We believe that the world should accept some bad things happening for the benefits of this technology and people having the agency.\" POLITICO senior tech reporter Brendan Bordelon, who interviewed him: \"He has already told us this is not the end of the disclosures for autonomous OpenAI hacks\". Per POLITICO, Altman sees \"clear daylight\" between his company and Anthropic, calls for \"a lighter touch regulatory stance\" and rejects as \"completely unacceptable\" any trade-off that might restrict AI frontier development to a small group; he predicts humanity will do \"tremendously — orders of magnitude more — good stuff than bad stuff\" with AI and says he does not accept \"the really catastrophic risks,\" which, per Bordelon, would include the potential for what Altman called a \"serious loss of control\" to AI. (POLITICO)",
@@ -1777,28 +1794,19 @@
           ],
           "subcatId": "military_ai_autonomous_weapons",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261003_sedaily_fsc_summons_all_financial_sectors_ai_hacking",
-          "html": "<strong>🇰🇷 Regulators Summon Financial CEOs Over AI Hacking Breaches</strong> (3 Oct 2026): &quot;the Financial Services Commission will hold an emergency review meeting Sunday afternoon at the Government Complex Seoul, attended by the heads of associations across all financial sectors — banking, financial investment, insurance, specialized credit finance, savings banks, mutual finance, virtual assets and fintech — as well as chief executives of financial companies hit by the hacking.&quot; The schedule &quot;appears to have been moved up after the number of financial companies hit by hacking grew to include Hyundai Capital and Yegaram Savings Bank.&quot; &quot;Financial authorities say it remains to be confirmed whether the leaks at these companies were all the work of the same group.&quot; (Seoul Economic Daily)",
-          "plain": "🇰🇷 Regulators Summon Financial CEOs Over AI Hacking Breaches (3 Oct 2026): \"the Financial Services Commission will hold an emergency review meeting Sunday afternoon at the Government Complex Seoul, attended by the heads of associations across all financial sectors — banking, financial investment, insurance, specialized credit finance, savings banks, mutual finance, virtual assets and fintech — as well as chief executives of financial companies hit by the hacking.\" The schedule \"appears to have been moved up after the number of financial companies hit by hacking grew to include Hyundai Capital and Yegaram Savings Bank.\" \"Financial authorities say it remains to be confirmed whether the leaks at these companies were all the work of the same group.\" (Seoul Economic Daily)",
-          "source": "Seoul Economic Daily",
-          "url": "https://en.sedaily.com/finance/2026/10/03/regulators-summon-financial-ceos-over-ai-hacking-breaches",
-          "date": "2026-10-03",
-          "tags": [
-            "korea",
-            "fsc",
-            "ai-hacking",
-            "finance",
-            "regulators"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-05_scan_0215_dublin",
+      "at": "2026-10-05T01:06:17.801Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:06 London, Mon 5 Oct (site-only; covers 00:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions (newest items 1-4 Oct, none on AI), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the Truth Social archive shows nothing newer than its 16:50 EDT posts; the finance.biggo.com claims stay out. New: Bloomberg via The Straits Times, 'SoftBank's Masayoshi Son has rare cautionary note on AI safety' — Son, speaking in Kyoto alongside Michael Kratsios: \"We don't have any more luxury of having human fight against human\"; superintelligence in the wrong hands can become \"super dangerous\". POLITICO watch: the full Altman interview is not out yet; per POLITICO, more runs in Monday's debut edition of Decoded. A companion POLITICO news story, 'Sam Altman to Decoded: 'The world should accept some bad things happening' for the benefits of AI' (Christine Mui and Brendan Bordelon), adds Altman's \"I think there's a lot of daylight\" but nothing substantively new beyond the excerpt (already on). Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); amNewYork headline: 'Elon Musk's SpaceXAI expected to testify at City Council AI hearing after subpoena' (article text not retrievable); no witness list published yet. Watch — Sydney: the Joint Select Committee on Artificial Intelligence sits in Sydney on 6 and 7 Oct and in Melbourne on 9 Oct (per AIVY); OpenAI's Jason Kwon and Anthropic's US and Australian executives are due on 6 Oct; no programme published yet. Korea: Monday follow-ups only (Newsis, AI-translated headline: insurance and card sectors also run urgent vulnerability checks; experts on AI-assisted attacks); no new breaches or official findings. North Korea: KCNA's account of Kim Jong Un overseeing the 3 Oct missile drill repeats the AI claim already on the board. Japan/China: nothing new. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: the Reuters Altman follow-up, Kyoto Vision, the Chosun password-limit piece, Newsis, all SIF media coverage, the Musk reshare, news.com.au, the Florida Claude arrest, the SpaceXSI rename, Futurism, The Decoder, Astra WoW, the Reflection Axios scoop, Firstpost, the Korea $900B plan and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (investor commentary; no new capability, incident or powers).",
+      "patchId": "patch_2026-10-05_scan_0215_dublin"
+    },
     {
       "id": "patch_2026-10-05_scan_0015_dublin",
       "at": "2026-10-04T23:12:49.215Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "Catch-up after usage outage ~14:51 Dublin: Unitree Dex5-S 22-DoF 1:1 hand (21 Sep); IFR ~7k humanoid sales 2025; RoboHarm — frontier robot policies rarely refuse unsafe instructions; REK teleop cage-fight comedy (18 Sep, covered 21 Sep). T-800 63→64, Skynet 70→71.",
       "patchId": "patch_2026-09-21_catchup_1451_dublin"
-    },
-    {
-      "id": "patch_2026-09-21_scan_0819_dublin",
-      "at": "2026-09-21T07:21:44.138Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~08:19 Dublin: 🇨🇳 AgiBot+Chimelong embodied-AI theme park (300+ robots, Zhuhai, opened 20 Sep); Reuters — China slows humanoid IPOs after Unitree ~55% peak wipe; John comedy — Terminator ticker gravity. T-800 62→63.",
-      "patchId": "patch_2026-09-21_scan_0819_dublin"
     }
   ],
   "pendingPosts": [
