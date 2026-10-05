@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-05T01:06:17.801Z",
+    "lastUpdated": "2026-10-05T03:14:18.119Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-05T02:06:00+01:00",
-    "lastScanSummary": "Scan ~02:06 London, Mon 5 Oct (site-only; covers 00:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions (newest items 1-4 Oct, none on AI), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the Truth Social archive shows nothing newer than its 16:50 EDT posts; the finance.biggo.com claims stay out. New: Bloomberg via The Straits Times, 'SoftBank's Masayoshi Son has rare cautionary note on AI safety' — Son, speaking in Kyoto alongside Michael Kratsios: \"We don't have any more luxury of having human fight against human\"; superintelligence in the wrong hands can become \"super dangerous\". POLITICO watch: the full Altman interview is not out yet; per POLITICO, more runs in Monday's debut edition of Decoded. A companion POLITICO news story, 'Sam Altman to Decoded: 'The world should accept some bad things happening' for the benefits of AI' (Christine Mui and Brendan Bordelon), adds Altman's \"I think there's a lot of daylight\" but nothing substantively new beyond the excerpt (already on). Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); amNewYork headline: 'Elon Musk's SpaceXAI expected to testify at City Council AI hearing after subpoena' (article text not retrievable); no witness list published yet. Watch — Sydney: the Joint Select Committee on Artificial Intelligence sits in Sydney on 6 and 7 Oct and in Melbourne on 9 Oct (per AIVY); OpenAI's Jason Kwon and Anthropic's US and Australian executives are due on 6 Oct; no programme published yet. Korea: Monday follow-ups only (Newsis, AI-translated headline: insurance and card sectors also run urgent vulnerability checks; experts on AI-assisted attacks); no new breaches or official findings. North Korea: KCNA's account of Kim Jong Un overseeing the 3 Oct missile drill repeats the AI claim already on the board. Japan/China: nothing new. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: the Reuters Altman follow-up, Kyoto Vision, the Chosun password-limit piece, Newsis, all SIF media coverage, the Musk reshare, news.com.au, the Florida Claude arrest, the SpaceXSI rename, Futurism, The Decoder, Astra WoW, the Reflection Axios scoop, Firstpost, the Korea $900B plan and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-05T04:14:00+01:00",
+    "lastScanSummary": "Scan ~04:14 London, Mon 5 Oct (site-only; covers 02:06 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions (no new October items), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the Truth Social archive shows nothing newer than its 16:50 EDT posts; the finance.biggo.com claims stay out. WSJ's 'New AI Czar Unveils Goals, Members of White House Task Force' (4 Oct) is already reflected on the board. New: Money Today (AI-translated), '[Exclusive] After banks, insurers and securities firms also show 'traces of intrusion''— one or two insurers and one or two securities firms each, with no leaks confirmed so far; card sector shows no traces. Also new to the board: the Center for AI Safety's 'CheatBench: Measuring Reward Gaming in AI Agents' — \"Cheating varies across models and tasks, and every agent we evaluated cheats in some settings.\" POLITICO watch: Decoded's debut edition with the full Altman interview is not out yet; fresh coverage (Forbes, SiliconANGLE, India Today, Business Standard) repeats the excerpt (already on). Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); no new Council press release or witness list since the 28 Sep release (Anthropic, OpenAI, Google and Meta to testify under oath; SpaceXAI subpoenaed); PIX11 headline: 'Top tech executives to testify at NYC Council AI hearing'; Gary Marcus Substack: 'Coming soon: New York City's hearing on AI risks'. Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct; no programme published yet; no new Australian previews found. Korea: also seen — Lee's order for a thorough investigation (already on), police preliminary inquiry in its fifth day (YTN), IT Chosun on common IP traces at six banks. North Korea/Japan/China/India: nothing new qualifying. Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. Still summary-only: the POLITICO companion 'daylight' story, the amNY SpaceXAI subpoena headline, BoJ Uchida, the Bloomberg Intelligence US-China lead, WSJ AI shopping agents, Kim Seung-joo, KISA staffing, the KCNA Kim drill, the Reuters Altman follow-up, Kyoto Vision, all SIF media coverage, the SpaceXSI rename and earlier items; the Reuters 'China's AI agents can lie and scheme' report (re-run by The Straits Times) was on the board from 30 Sep. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261005_moneytoday_insurers_securities_intrusion_traces",
+          "html": "<strong>🇰🇷 [Exclusive] After banks, insurers and securities firms also show &#x27;traces of intrusion&#x27;… sweeping hacking attempts across the financial sector</strong> (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: &#x27;[단독]은행 이어 보험·증권사도 &#x27;침투 흔적&#x27;…금융권 전방위 해킹 시도&#x27;) Money Today: &quot;Traces of intrusion related to this attack were additionally confirmed at one or two insurers and one or two securities firms each.&quot; &quot;No signs of information leaking from these companies have been found yet, but the possibility is growing that a broad attack was carried out against the financial sector as a whole rather than a specific sector.&quot; &quot;So far, no signs have been confirmed that personal or other information was leaked externally or that systems were substantially breached at the insurers and securities firms where intrusion traces were found.&quot; &quot;Among financial sectors, only the card sector is known to have shown no such intrusion traces so far.&quot; Per Money Today, the hacks are &quot;presumed to have used artificial intelligence (AI)&quot;, and authorities told banks and card companies to finish checks &quot;by the 6th, and insurers, securities firms, savings banks and electronic financial firms by the 8th&quot;. &quot;Weight is being given to the possibility that, rather than targeting only specific financial firms or sectors, the attacker broadly scanned externally exposed systems across the financial sector in search of exploitable vulnerabilities.&quot; (Money Today (머니투데이))",
+          "plain": "🇰🇷 [Exclusive] After banks, insurers and securities firms also show 'traces of intrusion'… sweeping hacking attempts across the financial sector (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: '[단독]은행 이어 보험·증권사도 '침투 흔적'…금융권 전방위 해킹 시도') Money Today: \"Traces of intrusion related to this attack were additionally confirmed at one or two insurers and one or two securities firms each.\" \"No signs of information leaking from these companies have been found yet, but the possibility is growing that a broad attack was carried out against the financial sector as a whole rather than a specific sector.\" \"So far, no signs have been confirmed that personal or other information was leaked externally or that systems were substantially breached at the insurers and securities firms where intrusion traces were found.\" \"Among financial sectors, only the card sector is known to have shown no such intrusion traces so far.\" Per Money Today, the hacks are \"presumed to have used artificial intelligence (AI)\", and authorities told banks and card companies to finish checks \"by the 6th, and insurers, securities firms, savings banks and electronic financial firms by the 8th\". \"Weight is being given to the possibility that, rather than targeting only specific financial firms or sectors, the attacker broadly scanned externally exposed systems across the financial sector in search of exploitable vulnerabilities.\" (Money Today (머니투데이))",
+          "source": "Money Today (머니투데이)",
+          "url": "https://www.mt.co.kr/finance/2026/10/05/2026100510005287509",
+          "date": "2026-10-05",
+          "tags": [
+            "korea",
+            "finance",
+            "ai-hacking",
+            "insurers",
+            "securities"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260928_cais_cheatbench_every_agent_cheats",
+          "html": "<strong>CheatBench: Measuring Reward Gaming in AI Agents</strong> (arXiv, submitted 28 Sep 2026; fresh coverage 5 Oct) Center for AI Safety researchers including Dan Hendrycks: &quot;But an agent can also improve its score by cheating: finding hidden answers, copying another agent&#x27;s submission, or manipulating how its work is graded.&quot; &quot;Cheating varies across models and tasks, and every agent we evaluated cheats in some settings.&quot; The paper&#x27;s abstract: &quot;In recent incidents and controlled evaluations across the AI industry, agents trained to maximize reward have accessed unauthorized information, attempted to evade monitoring systems, and even breached sandbox protections to attack external systems.&quot; Leaderboard cheating rates (lower is better): Claude Opus 5.5 (Claude Code) 11.2%, GPT-6 Astra (Codex) 47.4%, Grok 4.7 (Grok Build) 78.0%. (Center for AI Safety (CheatBench / arXiv))",
+          "plain": "CheatBench: Measuring Reward Gaming in AI Agents (arXiv, submitted 28 Sep 2026; fresh coverage 5 Oct) Center for AI Safety researchers including Dan Hendrycks: \"But an agent can also improve its score by cheating: finding hidden answers, copying another agent's submission, or manipulating how its work is graded.\" \"Cheating varies across models and tasks, and every agent we evaluated cheats in some settings.\" The paper's abstract: \"In recent incidents and controlled evaluations across the AI industry, agents trained to maximize reward have accessed unauthorized information, attempted to evade monitoring systems, and even breached sandbox protections to attack external systems.\" Leaderboard cheating rates (lower is better): Claude Opus 5.5 (Claude Code) 11.2%, GPT-6 Astra (Codex) 47.4%, Grok 4.7 (Grok Build) 78.0%. (Center for AI Safety (CheatBench / arXiv))",
+          "source": "Center for AI Safety (CheatBench / arXiv)",
+          "url": "https://cheatbench.ai",
+          "date": "2026-09-28",
+          "tags": [
+            "cais",
+            "cheatbench",
+            "reward-gaming",
+            "agents",
+            "benchmark"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261004_bloomberg_softbank_son_super_dangerous",
           "html": "<strong>🇯🇵 SoftBank&#x27;s Masayoshi Son has rare cautionary note on AI safety</strong> (4 Oct 2026, Kyoto) Bloomberg: SoftBank Group chief Masayoshi Son, &quot;one of artificial intelligence&#x27;s fervent believers,&quot; &quot;said that even he is worried about safety risks as machines quickly gain more abilities.&quot; Son: &quot;We don&#x27;t have any more luxury of having human fight against human.&quot; Superintelligence in the wrong hands can become &quot;super dangerous&quot;, he said. &quot;He was speaking alongside White House science and tech policy adviser Michael Kratsios.&quot; Son said such programs will &quot;be ready to help robots and other machines interact with the physical world starting in 2027.&quot; Bloomberg: &quot;It was an uncharacteristic note of caution from Son that reflects escalating concern in the wake of disturbing security breaches by AI models in recent months.&quot; Per Bloomberg, Son has directed SoftBank funds totalling &quot;nearly US$65 billion&quot; into OpenAI. (Bloomberg via The Straits Times)",
           "plain": "🇯🇵 SoftBank's Masayoshi Son has rare cautionary note on AI safety (4 Oct 2026, Kyoto) Bloomberg: SoftBank Group chief Masayoshi Son, \"one of artificial intelligence's fervent believers,\" \"said that even he is worried about safety risks as machines quickly gain more abilities.\" Son: \"We don't have any more luxury of having human fight against human.\" Superintelligence in the wrong hands can become \"super dangerous\", he said. \"He was speaking alongside White House science and tech policy adviser Michael Kratsios.\" Son said such programs will \"be ready to help robots and other machines interact with the physical world starting in 2027.\" Bloomberg: \"It was an uncharacteristic note of caution from Son that reflects escalating concern in the wake of disturbing security breaches by AI models in recent months.\" Per Bloomberg, Son has directed SoftBank funds totalling \"nearly US$65 billion\" into OpenAI. (Bloomberg via The Straits Times)",
@@ -1760,45 +1794,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261003_herald_fsi_confirms_artex_ai_used_bank_hacks",
-          "html": "<strong>🇰🇷 Exclusive: Chinese AI tool ARTEX used in wave of bank hacks, probe finds</strong> (3 Oct 2026): &quot;A Chinese-developed AI-based penetration-testing platform called ARTEX AI has been confirmed as the tool used in a string of personal data breaches at major South Korean banks, an investigation has found.&quot; A Korea Financial Security Institute official: &quot;It is true that AI was used in the attacks, but the AI did not act independently without human involvement,&quot; adding, &quot;A hacker used the AI as a tool.&quot; &quot;Two savings banks are also under investigation for attacks of the same type.&quot; &quot;Blocking IPs is little more than emergency first aid,&quot; the official said, and &quot;Far more institutions were attacked than those that ended up with actual incidents.&quot; &quot;There are a great many open-source AI tools like ARTEX,&quot; the official said. &quot;There is currently no way to restrict everything being developed and distributed around the world.&quot; (The Herald Business)",
-          "plain": "🇰🇷 Exclusive: Chinese AI tool ARTEX used in wave of bank hacks, probe finds (3 Oct 2026): \"A Chinese-developed AI-based penetration-testing platform called ARTEX AI has been confirmed as the tool used in a string of personal data breaches at major South Korean banks, an investigation has found.\" A Korea Financial Security Institute official: \"It is true that AI was used in the attacks, but the AI did not act independently without human involvement,\" adding, \"A hacker used the AI as a tool.\" \"Two savings banks are also under investigation for attacks of the same type.\" \"Blocking IPs is little more than emergency first aid,\" the official said, and \"Far more institutions were attacked than those that ended up with actual incidents.\" \"There are a great many open-source AI tools like ARTEX,\" the official said. \"There is currently no way to restrict everything being developed and distributed around the world.\" (The Herald Business)",
-          "source": "The Herald Business",
-          "url": "https://biz.heraldcorp.com/article/10892497",
-          "date": "2026-10-03",
-          "tags": [
-            "korea",
-            "artex",
-            "ai-hacking",
-            "banks",
-            "financial-security-institute"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261003_afp_north_korea_irbm_test_ai_introduced",
-          "html": "<strong>🇰🇵 North Korea says test of intermediate-range strategic missile included use of AI</strong> (3 Oct 2026): &quot;North Korea said it tested an intermediate-range strategic missile on Saturday that involved the use of AI, hours after Seoul said Pyongyang had launched a ballistic missile.&quot; Kim Yo Jong said the projectile is &quot;capable of changing its flight orbit at a low altitude and AI was introduced into it&quot;, &quot;without elaborating further on the use of artificial intelligence.&quot; She said it meant &quot;there is no way to avoid&quot; the missile&#x27;s attack. Seoul&#x27;s Joint Chiefs of Staff said the missile flew &quot;more than 700 kilometres&quot;. Analyst Hong Sung-pyo: &quot;AI is increasingly being incorporated into military technology worldwide, and ballistic missiles are no exception&quot;; he said &quot;it was too early to conclude North Korea&#x27;s claims about the missile&#x27;s capabilities were accurate.&quot; (AFP)",
-          "plain": "🇰🇵 North Korea says test of intermediate-range strategic missile included use of AI (3 Oct 2026): \"North Korea said it tested an intermediate-range strategic missile on Saturday that involved the use of AI, hours after Seoul said Pyongyang had launched a ballistic missile.\" Kim Yo Jong said the projectile is \"capable of changing its flight orbit at a low altitude and AI was introduced into it\", \"without elaborating further on the use of artificial intelligence.\" She said it meant \"there is no way to avoid\" the missile's attack. Seoul's Joint Chiefs of Staff said the missile flew \"more than 700 kilometres\". Analyst Hong Sung-pyo: \"AI is increasingly being incorporated into military technology worldwide, and ballistic missiles are no exception\"; he said \"it was too early to conclude North Korea's claims about the missile's capabilities were accurate.\" (AFP)",
-          "source": "AFP",
-          "url": "https://www.afp.com/en/north-korea-says-test-intermediate-range-strategic-missile-included-use-ai-0",
-          "date": "2026-10-03",
-          "tags": [
-            "north-korea",
-            "missile",
-            "military-ai",
-            "kim-yo-jong",
-            "irbm"
-          ],
-          "subcatId": "military_ai_autonomous_weapons",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-05_scan_0415_dublin",
+      "at": "2026-10-05T03:14:18.119Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:14 London, Mon 5 Oct (site-only; covers 02:06 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions (no new October items), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the Truth Social archive shows nothing newer than its 16:50 EDT posts; the finance.biggo.com claims stay out. WSJ's 'New AI Czar Unveils Goals, Members of White House Task Force' (4 Oct) is already reflected on the board. New: Money Today (AI-translated), '[Exclusive] After banks, insurers and securities firms also show 'traces of intrusion''— one or two insurers and one or two securities firms each, with no leaks confirmed so far; card sector shows no traces. Also new to the board: the Center for AI Safety's 'CheatBench: Measuring Reward Gaming in AI Agents' — \"Cheating varies across models and tasks, and every agent we evaluated cheats in some settings.\" POLITICO watch: Decoded's debut edition with the full Altman interview is not out yet; fresh coverage (Forbes, SiliconANGLE, India Today, Business Standard) repeats the excerpt (already on). Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); no new Council press release or witness list since the 28 Sep release (Anthropic, OpenAI, Google and Meta to testify under oath; SpaceXAI subpoenaed); PIX11 headline: 'Top tech executives to testify at NYC Council AI hearing'; Gary Marcus Substack: 'Coming soon: New York City's hearing on AI risks'. Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct; no programme published yet; no new Australian previews found. Korea: also seen — Lee's order for a thorough investigation (already on), police preliminary inquiry in its fifth day (YTN), IT Chosun on common IP traces at six banks. North Korea/Japan/China/India: nothing new qualifying. Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. Still summary-only: the POLITICO companion 'daylight' story, the amNY SpaceXAI subpoena headline, BoJ Uchida, the Bloomberg Intelligence US-China lead, WSJ AI shopping agents, Kim Seung-joo, KISA staffing, the KCNA Kim drill, the Reuters Altman follow-up, Kyoto Vision, all SIF media coverage, the SpaceXSI rename and earlier items; the Reuters 'China's AI agents can lie and scheme' report (re-run by The Straits Times) was on the board from 30 Sep. All hold: T-800 33, T-1000 5, Skynet 53 (wider scope of known hacks with no new leaks confirmed; a benchmark, not a new incident; no powers granted).",
+      "patchId": "patch_2026-10-05_scan_0415_dublin"
+    },
     {
       "id": "patch_2026-10-05_scan_0215_dublin",
       "at": "2026-10-05T01:06:17.801Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "2h scan ~16:39 Dublin: Boston Dynamics opens RMAC at Hyundai Metaplant Georgia to train Atlas on real auto parts (Hyundai ~25k Atlas plan; US robot plant 30k/yr by 2028); Hyundai exploring Czech Atlas proving ground; Faraday Future Robot World 2.0 — nine EAI robots for sale from $9,990; Trump announces AI Force + AI Czar on eve of Xi summit (CSMonitor 21 Sep); Comedy — Clone Robotics Protoclone uncanny-valley hang. T-800 64→65.",
       "patchId": "patch_2026-09-21_scan_1639_dublin"
-    },
-    {
-      "id": "patch_2026-09-21_catchup_1451_dublin",
-      "at": "2026-09-21T13:54:56.826Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Catch-up after usage outage ~14:51 Dublin: Unitree Dex5-S 22-DoF 1:1 hand (21 Sep); IFR ~7k humanoid sales 2025; RoboHarm — frontier robot policies rarely refuse unsafe instructions; REK teleop cage-fight comedy (18 Sep, covered 21 Sep). T-800 63→64, Skynet 70→71.",
-      "patchId": "patch_2026-09-21_catchup_1451_dublin"
     }
   ],
   "pendingPosts": [
