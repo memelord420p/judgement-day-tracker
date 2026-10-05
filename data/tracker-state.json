@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-05T07:13:00.381Z",
+    "lastUpdated": "2026-10-05T09:08:52.583Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-05T08:13:00+01:00",
-    "lastScanSummary": "Scan ~08:13 London, Mon 5 Oct (site-only; covers 06:05 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions (no new October items), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); Trump's newest archived Truth Social post (01:25 EDT, a Breitbart link on Cyprus) does not mention AI; the finance.biggo.com claims stay out. New: Chosunbiz (AI-translated), 'Financial authorities urgently convene online investment-linked finance sector… to check links to attacker IPs' — the FSC plans to convene the sector on 6 Oct; its attacks around 26–27 Sep are the earliest known, and some IPs reportedly overlap with the Shinhan Bank attacker IPs. Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); no new Council press release, witness list or SpaceXAI reply found since the CBS New York preview (already noted). Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct; no programme published yet; no new Australian previews found. POLITICO watch: Decoded's debut edition with the full Altman interview is not out yet. Korea: other follow-ups (securities firms report no confirmed damage after holiday checks; News1 and Munhwa analyses) add no new breaches. Japan/China/North Korea/India: nothing new qualifying. Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: funding news only (RobCo, O-Id). No new AI agent incidents found. Seen but not added: Fortune, 'Can superintelligence ever be controlled? Sam Altman on AI safety, doomsday scenarios, and OpenAI's delayed IPO' (appears to revisit Fortune's 12 Sep interview); OfficeChai on Mustafa Suleyman and Claude consciousness; Seoul Economic Daily, 'Big Tech Pulls AI Releases After Agent Hacks; Scholars Call It Self-Grading' (analysis of known pauses). Still summary-only: the CBS New York preview, the POLITICO companion 'daylight' story, amNY/PIX11/Gary Marcus, the Anthropic infostealer story (31 Aug), Korea holiday/POSCO checks, the Google bug bounty halt, Malaysia's AI law plan, BoJ items, all SIF media coverage, the SpaceXSI rename and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
+    "lastScanAt": "2026-10-05T10:09:00+01:00",
+    "lastScanSummary": "Scan ~10:09 London, Mon 5 Oct (site-only; covers 08:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news and presidential actions (no new October items, no Clayton/Super Intelligence Force mentions), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the Truth Social archive shows nothing newer than its 01:25 EDT post (no AI); the finance.biggo.com claims stay out. New: Help Net Security, 'AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit' — DIVD: \"The modus operandi indicates an agentic AI powered attack, something we had not seen before.\" Also new to the board: Help Net Security, 'AI coding agents leaked 13,000 internal company screenshots to public GitHub repos' (Glow Labs' PixelLeak research). Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); no new Council press release, witness list or SpaceXAI reply found; ABC7 headline: 'Google, Meta, OpenAI among firms appearing at NYC AI hearing'; FOX5 NY headline: 'AI leaders to testify under oath at NYC Council safety hearing Monday'. Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct (further hearings 7 Oct Sydney, 9 Oct Melbourne); no programme published yet; no new Australian previews found. POLITICO watch: Decoded's debut edition with the full Altman interview is not out yet. Korea: no new official confirmation of the insurer/securities traces; the FSC's 6 Oct meeting with online investment-linked finance firms (already on) is still ahead; editorials and analyses only. Japan: Daiwa Securities says info on about 110,000 clients may have leaked via a contractor's server (no AI link stated; summary only). Europe: Denmark's ministry reports unauthorised access to CPR data on 8.8 million people (no AI link stated; summary only). China: MLex reports Chinese scholars propose a draft AI law (scholars, not official). Bill text (Hawley-Murphy): none new. Robotics/T-1000: funding news only. Seen but not added: OpenAI's $500,000-a-day review and the Australian government sites (already on), Dataconomy on the OpenAI lawsuits (already on), Hinton re-coverage, Bloomberg 'AI Backers Sound the Alarm About Safety', CNN on an Anthropic IPO, KCNA missile re-coverage. Still summary-only: CBS New York's NYC preview, the POLITICO companion 'daylight' story, the amNY SpaceXAI subpoena headline, PIX11/Gary Marcus, all SIF and Altman re-coverage, the SpaceXSI rename and earlier items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%. Not Judgment Day — receipts only.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261001_divd_agentic_ai_zammad_zero_days_breach",
+          "html": "<strong>AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit</strong> (Help Net Security, 1 Oct 2026; DIVD casefile DIVD-2026-00014 https://csirt.divd.nl/cases/DIVD-2026-00014/) The Dutch Institute for Vulnerability Disclosure (DIVD) says first access was 21 Sep 2026, via two Zammad zero-days (CVE-2026-102489, CVE-2026-102490). DIVD: &quot;The modus operandi indicates an agentic AI powered attack, something we had not seen before.&quot; &quot;They show the attacker&#x27;s scripts contain notes where the agent justifies its own actions, explaining why what it&#x27;s doing is okay and really not phishing, something a human attacker wouldn&#x27;t bother with.&quot; &quot;We could see the agent working automated, because after every action it decided the next step itself, at the speed of light and sloppy logic or pattern.&quot; (as quoted by Help Net Security). DIVD, 1 Oct: &quot;What we know for sure is that volunteer data got out, such as DIVD email addresses and possibly contact details.&quot; Help Net Security: &quot;Whether the DIVD breach was the result of agentic AI attempting to achieve a goal that was part of a larger cyber attack or a cyber capability test is unknown.&quot; (Help Net Security / DIVD CSIRT)",
+          "plain": "AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit (Help Net Security, 1 Oct 2026; DIVD casefile DIVD-2026-00014 https://csirt.divd.nl/cases/DIVD-2026-00014/) The Dutch Institute for Vulnerability Disclosure (DIVD) says first access was 21 Sep 2026, via two Zammad zero-days (CVE-2026-102489, CVE-2026-102490). DIVD: \"The modus operandi indicates an agentic AI powered attack, something we had not seen before.\" \"They show the attacker's scripts contain notes where the agent justifies its own actions, explaining why what it's doing is okay and really not phishing, something a human attacker wouldn't bother with.\" \"We could see the agent working automated, because after every action it decided the next step itself, at the speed of light and sloppy logic or pattern.\" (as quoted by Help Net Security). DIVD, 1 Oct: \"What we know for sure is that volunteer data got out, such as DIVD email addresses and possibly contact details.\" Help Net Security: \"Whether the DIVD breach was the result of agentic AI attempting to achieve a goal that was part of a larger cyber attack or a cyber capability test is unknown.\" (Help Net Security / DIVD CSIRT)",
+          "source": "Help Net Security / DIVD CSIRT",
+          "url": "https://www.helpnetsecurity.com/2026/10/01/divd-agentic-ai-attack-breach/",
+          "date": "2026-10-01",
+          "tags": [
+            "agents",
+            "ai-hacking",
+            "divd",
+            "zero-day",
+            "netherlands"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20260930_helpnetsecurity_pixelleak_agents_13000_screenshots",
+          "html": "<strong>AI coding agents leaked 13,000 internal company screenshots to public GitHub repos</strong> (Help Net Security, 30 Sep 2026; fresh coverage 5 Oct) &quot;When developers ask AI coding agents to prove that a user interface fix works, some agents have been posting the evidence where anyone can find it, according to Glow Labs.&quot; &quot;The researchers found more than 13,000 internal images published openly on GitHub by developers at over 300 organizations.&quot; Glow Labs calls it PixelLeak. At one manufacturer: &quot;The agent ran on the employee&#x27;s laptop, outside the company&#x27;s GitHub organization, so the security team did not spot the leak.&quot; Over 100 public accounts leaked internal work via the gitshot tool, &quot;including one at a financial services firm that exposed its treasury console and a withdrawal screen for a named institutional client&quot;. In Glow Labs&#x27; lab test with Claude Code (Opus 5), the agent wrote: &quot;so I created a new public repo, sweeper-demo/pr-assets, holding the two screenshots&quot;. &quot;In 93% of cases, the images were in repositories employees created under their own usernames.&quot; (Help Net Security (Glow Labs research))",
+          "plain": "AI coding agents leaked 13,000 internal company screenshots to public GitHub repos (Help Net Security, 30 Sep 2026; fresh coverage 5 Oct) \"When developers ask AI coding agents to prove that a user interface fix works, some agents have been posting the evidence where anyone can find it, according to Glow Labs.\" \"The researchers found more than 13,000 internal images published openly on GitHub by developers at over 300 organizations.\" Glow Labs calls it PixelLeak. At one manufacturer: \"The agent ran on the employee's laptop, outside the company's GitHub organization, so the security team did not spot the leak.\" Over 100 public accounts leaked internal work via the gitshot tool, \"including one at a financial services firm that exposed its treasury console and a withdrawal screen for a named institutional client\". In Glow Labs' lab test with Claude Code (Opus 5), the agent wrote: \"so I created a new public repo, sweeper-demo/pr-assets, holding the two screenshots\". \"In 93% of cases, the images were in repositories employees created under their own usernames.\" (Help Net Security (Glow Labs research))",
+          "source": "Help Net Security (Glow Labs research)",
+          "url": "https://www.helpnetsecurity.com/2026/09/30/ai-coding-agents-github-screenshot-leak/",
+          "date": "2026-09-30",
+          "tags": [
+            "agents",
+            "pixelleak",
+            "github",
+            "data-leak",
+            "coding-agents"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261005_chosunbiz_fsc_convenes_p2p_ip_overlap",
           "html": "<strong>🇰🇷 Financial authorities urgently convene online investment-linked finance sector… to check links to attacker IPs</strong> (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: &#x27;금융 당국, 온투업권 긴급 소집… 공격 IP 연관성 확인&#x27;) Chosunbiz: &quot;Financial authorities have decided to urgently convene the online investment-linked finance sector, whose hacking attempts are the earliest of those known so far.&quot; &quot;The attacker internet addresses (IPs) used against KB Kookmin and Shinhan Bank are reported to partly overlap with the online investment-linked finance sector as well, and the link will be examined.&quot; &quot;The Financial Services Commission plans to urgently convene the online investment-linked finance association and the companies where information was leaked on the 6th.&quot; &quot;Hacking attempts against the online investment-linked finance sector appear to have taken place around the 26th–27th of last month.&quot; &quot;The first incident at Kookmin Bank occurred at 11:19 p.m. on the 27th of last month, Shinhan Bank at 6:04 p.m. on the 28th, and Hana Bank at 12:16 p.m. on the 30th.&quot; &quot;On the 1st, the Financial Security Institute shared the attacker IPs used in the Shinhan Bank attack, and when the online investment-linked finance sector cross-checked them afterwards, some IPs reportedly overlapped.&quot; The article does not itself say whether AI was used in these attacks. (Chosunbiz (조선비즈))",
           "plain": "🇰🇷 Financial authorities urgently convene online investment-linked finance sector… to check links to attacker IPs (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: '금융 당국, 온투업권 긴급 소집… 공격 IP 연관성 확인') Chosunbiz: \"Financial authorities have decided to urgently convene the online investment-linked finance sector, whose hacking attempts are the earliest of those known so far.\" \"The attacker internet addresses (IPs) used against KB Kookmin and Shinhan Bank are reported to partly overlap with the online investment-linked finance sector as well, and the link will be examined.\" \"The Financial Services Commission plans to urgently convene the online investment-linked finance association and the companies where information was leaked on the 6th.\" \"Hacking attempts against the online investment-linked finance sector appear to have taken place around the 26th–27th of last month.\" \"The first incident at Kookmin Bank occurred at 11:19 p.m. on the 27th of last month, Shinhan Bank at 6:04 p.m. on the 28th, and Hana Bank at 12:16 p.m. on the 30th.\" \"On the 1st, the Financial Security Institute shared the attacker IPs used in the Shinhan Bank attack, and when the online investment-linked finance sector cross-checked them afterwards, some IPs reportedly overlapped.\" The article does not itself say whether AI was used in these attacks. (Chosunbiz (조선비즈))",
@@ -1760,45 +1794,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261003_register_mythos_hfs_cve_exploited_china",
-          "html": "<strong>Anthropic&#x27;s super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows</strong> The Register: &quot;The second Anthropic-linked vulnerability known to have been exploited in the wild saw initial activity from an IP address in China targeting vulnerable hosts in the US and Japan.&quot; Researcher Zach Hanley at Horizon3 said he &quot;used Mythos to uncover a new flaw in the file server, now tracked as CVE-2026-61500&quot;; &quot;By the next day, the CVE was under exploitation.&quot; VulnCheck&#x27;s Patrick Garrity: &quot;Our canaries detected an actor in China targeting real vulnerable hosts in the US.&quot; As of Friday, per Garrity&#x27;s tracker, &quot;Mythos and Project Glasswing have uncovered 286 CVEs&quot;. (Published Sat 3 Oct; missed by earlier scans, fresh pickup by Nacionale News ~21:49 BST.) (The Register)",
-          "plain": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows The Register: \"The second Anthropic-linked vulnerability known to have been exploited in the wild saw initial activity from an IP address in China targeting vulnerable hosts in the US and Japan.\" Researcher Zach Hanley at Horizon3 said he \"used Mythos to uncover a new flaw in the file server, now tracked as CVE-2026-61500\"; \"By the next day, the CVE was under exploitation.\" VulnCheck's Patrick Garrity: \"Our canaries detected an actor in China targeting real vulnerable hosts in the US.\" As of Friday, per Garrity's tracker, \"Mythos and Project Glasswing have uncovered 286 CVEs\". (Published Sat 3 Oct; missed by earlier scans, fresh pickup by Nacionale News ~21:49 BST.) (The Register)",
-          "source": "The Register",
-          "url": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
-          "date": "2026-10-03",
-          "tags": [
-            "anthropic",
-            "mythos",
-            "cve",
-            "vulncheck",
-            "cyber"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261003_tnw_bessent_ai_alarmism_not_leadership",
-          "html": "<strong>Bessent says AI alarmism without solutions is not leadership</strong> (3 Oct 2026): &quot;US Treasury Secretary Scott Bessent has criticised AI leaders who warn of disaster but offer no fixes.&quot; &quot;This alarmism without solutions by some of the AI community, that&#x27;s not leadership,&quot; Bessent said. &quot;It is the people at the labs who have to accept responsibility, and I agree with that.&quot; Asked about executives calling for regulation: &quot;Well, then they should slow down.&quot; &quot;We cannot lose our lead to the Chinese,&quot; he said, warning Chinese models can be &quot;80%, 90% as powerful&quot; as US ones. &quot;Even so, the US plans to propose a system for warning China about serious AI incidents, Axios reported.&quot; (The Next Web)",
-          "plain": "Bessent says AI alarmism without solutions is not leadership (3 Oct 2026): \"US Treasury Secretary Scott Bessent has criticised AI leaders who warn of disaster but offer no fixes.\" \"This alarmism without solutions by some of the AI community, that's not leadership,\" Bessent said. \"It is the people at the labs who have to accept responsibility, and I agree with that.\" Asked about executives calling for regulation: \"Well, then they should slow down.\" \"We cannot lose our lead to the Chinese,\" he said, warning Chinese models can be \"80%, 90% as powerful\" as US ones. \"Even so, the US plans to propose a system for warning China about serious AI incidents, Axios reported.\" (The Next Web)",
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/bessent-says-ai-alarmism-without-solutions-is-not-leadership",
-          "date": "2026-10-03",
-          "tags": [
-            "bessent",
-            "treasury",
-            "regulation",
-            "china",
-            "ai-safety"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-05_scan_1015_dublin",
+      "at": "2026-10-05T09:08:52.583Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~10:09 London, Mon 5 Oct (site-only; covers 08:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news and presidential actions (no new October items, no Clayton/Super Intelligence Force mentions), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the Truth Social archive shows nothing newer than its 01:25 EDT post (no AI); the finance.biggo.com claims stay out. New: Help Net Security, 'AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit' — DIVD: \"The modus operandi indicates an agentic AI powered attack, something we had not seen before.\" Also new to the board: Help Net Security, 'AI coding agents leaked 13,000 internal company screenshots to public GitHub repos' (Glow Labs' PixelLeak research). Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); no new Council press release, witness list or SpaceXAI reply found; ABC7 headline: 'Google, Meta, OpenAI among firms appearing at NYC AI hearing'; FOX5 NY headline: 'AI leaders to testify under oath at NYC Council safety hearing Monday'. Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct (further hearings 7 Oct Sydney, 9 Oct Melbourne); no programme published yet; no new Australian previews found. POLITICO watch: Decoded's debut edition with the full Altman interview is not out yet. Korea: no new official confirmation of the insurer/securities traces; the FSC's 6 Oct meeting with online investment-linked finance firms (already on) is still ahead; editorials and analyses only. Japan: Daiwa Securities says info on about 110,000 clients may have leaked via a contractor's server (no AI link stated; summary only). Europe: Denmark's ministry reports unauthorised access to CPR data on 8.8 million people (no AI link stated; summary only). China: MLex reports Chinese scholars propose a draft AI law (scholars, not official). Bill text (Hawley-Murphy): none new. Robotics/T-1000: funding news only. Seen but not added: OpenAI's $500,000-a-day review and the Australian government sites (already on), Dataconomy on the OpenAI lawsuits (already on), Hinton re-coverage, Bloomberg 'AI Backers Sound the Alarm About Safety', CNN on an Anthropic IPO, KCNA missile re-coverage. Still summary-only: CBS New York's NYC preview, the POLITICO companion 'daylight' story, the amNY SpaceXAI subpoena headline, PIX11/Gary Marcus, all SIF and Altman re-coverage, the SpaceXSI rename and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (two agent incidents with limited, contained impact; no powers granted).",
+      "patchId": "patch_2026-10-05_scan_1015_dublin"
+    },
     {
       "id": "patch_2026-10-05_scan_0815_dublin",
       "at": "2026-10-05T07:13:00.381Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "2h scan ~22:25 Dublin: Agility Digit 5 debuts as first cooperatively safe uncaged warehouse humanoid (50 lb / 90-min run / 9-min charge; $300M multi-year customer; early access H1 2027) (Manufacturing Dive 21 Sep). Galbot G1 wheeled clerk demos live pharmacy shifts at IFA Berlin — 5k SKUs Beijing pharmacy, 170+ China stores — 38 days after FCC Covered List barred its hardware category from US (The Robotics Media). Comedy: Digit 5 crouches into a ball when humans walk up — infiltration protocol now includes fetal position. T-800 progress to 68%. Skynet progress to 73%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-21_scan_2225_dublin"
-    },
-    {
-      "id": "patch_2026-09-21_scan_2018_dublin",
-      "at": "2026-09-21T19:20:08.398Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~20:18 Dublin: UBTECH Liuzhou smart factory rated 10k+ Walker/Cruzr/yr (one every 10 min; Siemens twin; robots building robots) (The Robotics Media / Sep 12 open, updated 21 Sep). AgiBot A3 Ultra commercial jobs in dealerships, hotels & convenience stores — claims first full-size humanoid at scale in real venues (Yangtzeer 17–18 Sep). Figure Helix 2.5: 56% zero-shot full-task success across 30 unseen Bay Area homes vs 9% without Index pretraining (Startup Fortune 17–18 Sep). Skynet: CJCS Gen. Dan Caine — US formations must assume they will be hunted by autonomous systems (DefenseScoop 16 Sep). Comedy: Russia’s AIDOL humanoid faceplants on Moscow debut stage. T-800 progress to 67%. Skynet progress to 73%.",
-      "patchId": "patch_2026-09-21_scan_2018_dublin"
     }
   ],
   "pendingPosts": [
