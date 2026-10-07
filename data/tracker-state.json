@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T21:07:49.799Z",
+    "lastUpdated": "2026-10-07T23:12:45.808Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T22:07:00+01:00",
-    "lastScanSummary": "Scan ~22:07 London, Wed 7 Oct (site-only; covers 20:13 to now). Backfill — Skynet: CNN's 18 Sep exclusive, checked against the original CNN page. An AI chatbot-assisted intelligence report \"inaccurately identified\" a Chinese ship's cargo as nuclear-weapons-program components, and US planes were in the air before the error was caught. One source said it \"almost started a war.\" It is a three-week-old near-miss that was already public, so no score change; Skynet holds at 53. Official SIF check: whitehouse.gov added two 7 Oct proclamations (Columbus Day; National Energy Dominance Month), neither on AI. The latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 2:29 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent refereeing, confirmation or refutation reported. Skynet holds. Korea: no FSC package yet. The National Assembly's audit of the FSC is on 8 Oct, and the AI-driven hacking is expected to dominate (News1, AI-translated paraphrase). Other sectors finish emergency checks 8 Oct. NYC: still no SpaceXAI enforcement filing reported. Wikimedia rogue-agent coverage (Dark Reading, 7 Oct) is already on. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-08T00:12:00+01:00",
+    "lastScanSummary": "Scan ~00:12 London, Thu 8 Oct (site-only; covers 22:07 to now). Backfill — T-800: Bloomberg's report on the Pentagon's internal probe of the 28 Feb Minab school strike (at least 123 children killed). Officials cite \"a cascade of preventable failures,\" including \"an overreliance on artificial intelligence technology\"; some CENTCOM staff relied too much on the AI in Palantir's Maven Smart System. Palantir denies responsibility. Bloomberg's own page is bot-blocked, so this uses the LA Times republication (21 Sep; Bloomberg byline) with its own title. Three-week-old, already-public report based on unnamed officials, so no score change. Official SIF check: whitehouse.gov latest are two 7 Oct proclamations (Columbus Day; National Energy Dominance Month), neither on AI. The latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct onward): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 6:02 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. Korea: the National Assembly's audit of the FSC (Chairman Lee Eog-weon) runs 8 Oct KST and hadn't started at scan time. AI-driven hacking is expected to be the top issue; bank CEOs are not testifying today (fnnews/News1, AI-translated paraphrase). Australia: the joint AI committee sits in East Melbourne 8–9 Oct (Amazon, Good Ancestors, Minderoo, Telstra; then the big banks); no new evidence yet. OpenAI: GPT-6 with Intelligent UI rolling out to all ChatGPT tiers (OpenAI, 7 Oct). It is a product rollout, so summary-only; GPT-6 Astra safety items are already on. Maths: no independent confirmation or refutation. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,25 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20260921_bloomberg_lat_minab_school_kill_chain_ai_overreliance",
+          "html": "<strong>Inside the U.S. &#x27;kill chain&#x27; that destroyed an Iranian school</strong> (Bloomberg via Los Angeles Times, 21 Sep 2026; backfill, added 8 Oct) Per Bloomberg, officials involved in an internal Pentagon probe of the 28 Feb Tomahawk strike on a school in Minab, Iran, which killed at least 123 children, describe &quot;a cascade of preventable failures.&quot; Compressed targeting timelines, &quot;combined with gaps in underlying information about the site, cuts in civilian protection personnel and an overreliance on artificial intelligence technology — set the stage for the deadly error.&quot; &quot;Inside Centcom, which conducted the U.S. attack, some personnel relied too much on the artificial intelligence embedded in Maven Smart System, the officials said.&quot; Palantir says it &quot;is not responsible for the underlying data nor identifying intelligence deficiencies&quot; and that there&#x27;s no evidence its software was at fault. (Los Angeles Times (Bloomberg))",
+          "plain": "Inside the U.S. 'kill chain' that destroyed an Iranian school (Bloomberg via Los Angeles Times, 21 Sep 2026; backfill, added 8 Oct) Per Bloomberg, officials involved in an internal Pentagon probe of the 28 Feb Tomahawk strike on a school in Minab, Iran, which killed at least 123 children, describe \"a cascade of preventable failures.\" Compressed targeting timelines, \"combined with gaps in underlying information about the site, cuts in civilian protection personnel and an overreliance on artificial intelligence technology — set the stage for the deadly error.\" \"Inside Centcom, which conducted the U.S. attack, some personnel relied too much on the artificial intelligence embedded in Maven Smart System, the officials said.\" Palantir says it \"is not responsible for the underlying data nor identifying intelligence deficiencies\" and that there's no evidence its software was at fault. (Los Angeles Times (Bloomberg))",
+          "source": "Los Angeles Times (Bloomberg)",
+          "url": "https://www.latimes.com/world-nation/story/2026-09-21/inside-u-s-kill-chain-that-destroyed-iranian-school",
+          "date": "2026-09-21",
+          "tags": [
+            "military",
+            "pentagon",
+            "maven",
+            "palantir",
+            "targeting",
+            "civilian-harm",
+            "backfill"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261007_wired_pentagon_tradewinds_kill_chain_ai_5min_videos",
           "html": "<strong>The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos</strong> (WIRED, 7 Oct 2026) Through the CDAO&#x27;s Tradewinds marketplace, DoD grants &#x27;post-competitive&#x27; status from product pitch videos &quot;that must be no longer than five minutes.&quot; WIRED reports the military is seeking pitches that can help &quot;enhance force lethality&quot; and AI-enabled agents for the joint targeting process, &quot;including so-called kill chain execution.&quot; Per a DOD official, some awards took &quot;less than a week.&quot; OpenAI, Anthropic and Google are listed as participants; Biden-era requests for &quot;a culture of responsible AI&quot; are no longer listed. (WIRED)",
           "plain": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos (WIRED, 7 Oct 2026) Through the CDAO's Tradewinds marketplace, DoD grants 'post-competitive' status from product pitch videos \"that must be no longer than five minutes.\" WIRED reports the military is seeking pitches that can help \"enhance force lethality\" and AI-enabled agents for the joint targeting process, \"including so-called kill chain execution.\" Per a DOD official, some awards took \"less than a week.\" OpenAI, Anthropic and Google are listed as participants; Biden-era requests for \"a culture of responsible AI\" are no longer listed. (WIRED)",
@@ -688,24 +707,6 @@
             "physical-ai",
             "dyna",
             "autonomy"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260922_japan_sdf_ai_humanoid_robots_study",
-          "html": "<strong>🇯🇵 Japan wants humanoid robots in its military — unarmed, for now</strong> (22–23 Sep 2026; backfill): Japan plans to explore humanoid robots with physical AI for the Self-Defense Forces as recruitment struggles, government and ruling-party sources said — starting with noncombat base patrols and logistics, with reconnaissance and rescue possible later. The Acquisition, Technology and Logistics Agency is expected to lead research and hold a competition for robots from companies and universities. A senior LDP security panel executive: &quot;We do not expect humanoid robots equipped with weapons will be used for fighting&quot; (Kyodo via Japan Today)",
-          "plain": "🇯🇵 Japan wants humanoid robots in its military — unarmed, for now (22–23 Sep 2026; backfill): Japan plans to explore humanoid robots with physical AI for the Self-Defense Forces as recruitment struggles, government and ruling-party sources said — starting with noncombat base patrols and logistics, with reconnaissance and rescue possible later. The Acquisition, Technology and Logistics Agency is expected to lead research and hold a competition for robots from companies and universities. A senior LDP security panel executive: \"We do not expect humanoid robots equipped with weapons will be used for fighting\" (Kyodo via Japan Today)",
-          "source": "Kyodo via Japan Today",
-          "url": "https://japantoday.com/category/national/update2-japan-to-study-use-of-ai-equipped-humanoid-robots-in-defense",
-          "date": "2026-09-22",
-          "tags": [
-            "japan",
-            "humanoids",
-            "military",
-            "sdf",
-            "atla",
-            "backfill"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1799,6 +1800,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-08_scan_0012_dublin",
+      "at": "2026-10-07T23:12:45.808Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:12 London, Thu 8 Oct (site-only; covers 22:07 to now). Backfill — T-800: Bloomberg's report on the Pentagon's internal probe of the 28 Feb Minab school strike (at least 123 children killed). Officials cite \"a cascade of preventable failures,\" including \"an overreliance on artificial intelligence technology\"; some CENTCOM staff relied too much on the AI in Palantir's Maven Smart System. Palantir denies responsibility. Bloomberg's own page is bot-blocked, so this uses the LA Times republication (21 Sep; Bloomberg byline) with its own title. Three-week-old, already-public report based on unnamed officials, so no score change. Official SIF check: whitehouse.gov latest are two 7 Oct proclamations (Columbus Day; National Energy Dominance Month), neither on AI. The latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct onward): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 6:02 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. Korea: the National Assembly's audit of the FSC (Chairman Lee Eog-weon) runs 8 Oct KST and hadn't started at scan time. AI-driven hacking is expected to be the top issue; bank CEOs are not testifying today (fnnews/News1, AI-translated paraphrase). Australia: the joint AI committee sits in East Melbourne 8–9 Oct (Amazon, Good Ancestors, Minderoo, Telstra; then the big banks); no new evidence yet. OpenAI: GPT-6 with Intelligent UI rolling out to all ChatGPT tiers (OpenAI, 7 Oct). It is a product rollout, so summary-only; GPT-6 Astra safety items are already on. Maths: no independent confirmation or refutation. NYC: still no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (Minab/Maven report is a three-week-old backfill already public; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-08_scan_0012_dublin"
+    },
+    {
       "id": "patch_2026-10-07_scan_2207_dublin",
       "at": "2026-10-07T21:07:49.799Z",
       "by": "judgment-day-watch",
@@ -2589,14 +2598,6 @@
       "type": "patch",
       "summary": "Plain-English scoring labels (drop Pareto jargon)",
       "patchId": "patch_scoring_copy_v2"
-    },
-    {
-      "id": "patch_pareto_scoring_v1",
-      "at": "2026-09-25T08:09:56.107Z",
-      "by": "cursor-agent:pareto",
-      "type": "patch",
-      "summary": "Migrate overall rings to bottleneck-weighted Pareto curve (k=1.4)",
-      "patchId": "patch_pareto_scoring_v1"
     }
   ],
   "pendingPosts": [
