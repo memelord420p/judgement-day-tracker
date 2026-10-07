@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T19:13:59.325Z",
+    "lastUpdated": "2026-10-07T21:07:49.799Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T20:13:00+01:00",
-    "lastScanSummary": "Scan ~20:13 London, Wed 7 Oct (site-only; covers 18:18 to now). Nothing new qualified for a headline. Official SIF check: whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); latest AI item still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 2:29 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent refereeing, confirmation or refutation of any headline result reported. Explainers (Stanford Tech Review, techscurrent) restate that Lean checks 162 of 722 main results and doesn't confirm that the formal statements match the papers. Skynet holds at 53. Korea: no FSC package yet. The FSC's 6 Oct explanatory note says shorter assessment cycles, a wider inspection scope and stronger enforcement will be announced 'as soon as possible' (AI-translated paraphrase). Per Newspim, compliance fines need a law change. NYC: still no SpaceXAI enforcement filing reported. Seen, not added: CNN's 18 Sep report on an AI-assisted false intelligence report that nearly led to a US intercept of a Chinese ship, recirculating today; it is old news, outside this window. SAFA industry standards body (26 Sep report, aggregator only). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T22:07:00+01:00",
+    "lastScanSummary": "Scan ~22:07 London, Wed 7 Oct (site-only; covers 20:13 to now). Backfill — Skynet: CNN's 18 Sep exclusive, checked against the original CNN page. An AI chatbot-assisted intelligence report \"inaccurately identified\" a Chinese ship's cargo as nuclear-weapons-program components, and US planes were in the air before the error was caught. One source said it \"almost started a war.\" It is a three-week-old near-miss that was already public, so no score change; Skynet holds at 53. Official SIF check: whitehouse.gov added two 7 Oct proclamations (Columbus Day; National Energy Dominance Month), neither on AI. The latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 2:29 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent refereeing, confirmation or refutation reported. Skynet holds. Korea: no FSC package yet. The National Assembly's audit of the FSC is on 8 Oct, and the AI-driven hacking is expected to dominate (News1, AI-translated paraphrase). Other sectors finish emergency checks 8 Oct. NYC: still no SpaceXAI enforcement filing reported. Wikimedia rogue-agent coverage (Dark Reading, 7 Oct) is already on. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1454,6 +1454,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20260918_cnn_ai_false_intel_report_near_intercept_chinese_ship",
+          "html": "<strong>Exclusive: US military had close call after using AI for false intelligence report, sources say</strong> (CNN, 18 Sep 2026; backfill of an 18 Sep report, added 7 Oct) Per four sources cited by CNN, an intelligence report circulated this spring during the Iran war said a Chinese ship in the Middle East carried nuclear-weapons-program components. The US military planned an intercept, and two sources said armed personnel were preparing to board. &quot;It was only just before the planned operation that officials dug deeper into the report put together by a special operations command analyst and found it had been generated with the help of artificial intelligence (AI) — and that a chatbot the analyst had used inaccurately identified the material the ship was carrying.&quot; One source said the report was &quot;entirely false&quot; and &quot;almost started a war.&quot; Another source: &quot;AI allows you to get to a bad idea faster.&quot; SOCPAC and the Pentagon did not respond to CNN. (CNN)",
+          "plain": "Exclusive: US military had close call after using AI for false intelligence report, sources say (CNN, 18 Sep 2026; backfill of an 18 Sep report, added 7 Oct) Per four sources cited by CNN, an intelligence report circulated this spring during the Iran war said a Chinese ship in the Middle East carried nuclear-weapons-program components. The US military planned an intercept, and two sources said armed personnel were preparing to board. \"It was only just before the planned operation that officials dug deeper into the report put together by a special operations command analyst and found it had been generated with the help of artificial intelligence (AI) — and that a chatbot the analyst had used inaccurately identified the material the ship was carrying.\" One source said the report was \"entirely false\" and \"almost started a war.\" Another source: \"AI allows you to get to a bad idea faster.\" SOCPAC and the Pentagon did not respond to CNN. (CNN)",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+          "date": "2026-09-18",
+          "tags": [
+            "military",
+            "intelligence",
+            "hallucination",
+            "china",
+            "near-miss",
+            "backfill"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261007_newscientist_openai_722_johnson_gave_up_buzzard_caution",
           "html": "<strong>🧮 OpenAI announces 722 mathematical discoveries in one go</strong> (New Scientist, 7 Oct 2026) UCL&#x27;s Francis Johnson, on Wall&#x27;s D(2) problem, one of those OpenAI&#x27;s model is said to have solved: &quot;I worked on this problem for 25 years. I produced two books on it. I, personally, gave up.&quot; &quot;Let&#x27;s face it, the genie is out of the bottle now. We&#x27;re going to have to live with it.&quot; Imperial&#x27;s Kevin Buzzard says that of 30 papers relevant to number theory, &quot;only seven of those seemed impressive and only one was formally verified in Lean&quot;. Buzzard: &quot;Unfortunately, acceptance of these results by the community will take time, and journalists are going to have to wait while the mathematicians do their job.&quot; Also Buzzard: &quot;It has been a long time since there were humans who were experts in all of mathematics, but now we seem to have machines with this property.&quot; No independent confirmation of a Millennium Prize result. (New Scientist)",
           "plain": "🧮 OpenAI announces 722 mathematical discoveries in one go (New Scientist, 7 Oct 2026) UCL's Francis Johnson, on Wall's D(2) problem, one of those OpenAI's model is said to have solved: \"I worked on this problem for 25 years. I produced two books on it. I, personally, gave up.\" \"Let's face it, the genie is out of the bottle now. We're going to have to live with it.\" Imperial's Kevin Buzzard says that of 30 papers relevant to number theory, \"only seven of those seemed impressive and only one was formally verified in Lean\". Buzzard: \"Unfortunately, acceptance of these results by the community will take time, and journalists are going to have to wait while the mathematicians do their job.\" Also Buzzard: \"It has been a long time since there were humans who were experts in all of mathematics, but now we seem to have machines with this property.\" No independent confirmation of a Millennium Prize result. (New Scientist)",
@@ -1775,28 +1793,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261005_gothamist_spacexai_responded_no_representative",
-          "html": "<strong>NYC Council hearing to put AI risks in the spotlight</strong> (Gothamist, 5 Oct 2026 04:00 ET; live-window confirmation) &quot;SpaceXAI responded to a subpoena, but the firm will likely not be sending a representative to the hearing, a spokesperson for Menin said.&quot; &quot;Anthropic will be represented by Logan Graham, head of its Frontier Red Team, while OpenAI plans to send Morgan Dwyer, head of policy development and operations. Meta has chosen Shane Cahill, director of its AI policy and legislation, while Google picked Alice Friend, global director of AI and emergency tech policy to testify, according to the speaker&#x27;s office.&quot; &quot;High-profile whistleblowers will also deliver testimony, including Jacob Coxon , a former Anthropic employee, Alex Turner , an ex-Google Deepmind worker, and Daniel Kokotajlo , who used to be with OpenAI.&quot; Also attending per Menin&#x27;s office: &quot;Sarah Milstein, deputy commissioner of strategic advisory services at the Office of Technology and Innovation; CJ Dixon, head of NYC cyber command at OTI; Samuel A.A. Levine, commissioner of the Department of Consumer and Worker Protection; and Benjamin Krakauer, first deputy commissioner of the Office of Emergency Management will also attend the hearing, Menin&#x27;s office said.&quot; (Gothamist)",
-          "plain": "NYC Council hearing to put AI risks in the spotlight (Gothamist, 5 Oct 2026 04:00 ET; live-window confirmation) \"SpaceXAI responded to a subpoena, but the firm will likely not be sending a representative to the hearing, a spokesperson for Menin said.\" \"Anthropic will be represented by Logan Graham, head of its Frontier Red Team, while OpenAI plans to send Morgan Dwyer, head of policy development and operations. Meta has chosen Shane Cahill, director of its AI policy and legislation, while Google picked Alice Friend, global director of AI and emergency tech policy to testify, according to the speaker's office.\" \"High-profile whistleblowers will also deliver testimony, including Jacob Coxon , a former Anthropic employee, Alex Turner , an ex-Google Deepmind worker, and Daniel Kokotajlo , who used to be with OpenAI.\" Also attending per Menin's office: \"Sarah Milstein, deputy commissioner of strategic advisory services at the Office of Technology and Innovation; CJ Dixon, head of NYC cyber command at OTI; Samuel A.A. Levine, commissioner of the Department of Consumer and Worker Protection; and Benjamin Krakauer, first deputy commissioner of the Office of Emergency Management will also attend the hearing, Menin's office said.\" (Gothamist)",
-          "source": "Gothamist",
-          "url": "https://gothamist.com/news/nyc-council-hearing-to-put-ai-risks-in-the-spotlight",
-          "date": "2026-10-05",
-          "tags": [
-            "nyc",
-            "spacexai",
-            "subpoena",
-            "hearing",
-            "whistleblowers"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-07_scan_2207_dublin",
+      "at": "2026-10-07T21:07:49.799Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:07 London, Wed 7 Oct (site-only; covers 20:13 to now). Backfill — Skynet: CNN's 18 Sep exclusive, checked against the original CNN page. An AI chatbot-assisted intelligence report \"inaccurately identified\" a Chinese ship's cargo as nuclear-weapons-program components, and US planes were in the air before the error was caught. One source said it \"almost started a war.\" It is a three-week-old near-miss that was already public, so no score change; Skynet holds at 53. Official SIF check: whitehouse.gov added two 7 Oct proclamations (Columbus Day; National Energy Dominance Month), neither on AI. The latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 2:29 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent refereeing, confirmation or refutation reported. Skynet holds. Korea: no FSC package yet. The National Assembly's audit of the FSC is on 8 Oct, and the AI-driven hacking is expected to dominate (News1, AI-translated paraphrase). Other sectors finish emergency checks 8 Oct. NYC: still no SpaceXAI enforcement filing reported. Wikimedia rogue-agent coverage (Dark Reading, 7 Oct) is already on. All hold: T-800 33, T-1000 5, Skynet 53 (CNN near-miss is a three-week-old backfill already public; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_2207_dublin"
+    },
     {
       "id": "patch_2026-10-07_scan_2013_dublin",
       "at": "2026-10-07T19:13:59.325Z",
@@ -2588,14 +2597,6 @@
       "type": "patch",
       "summary": "Migrate overall rings to bottleneck-weighted Pareto curve (k=1.4)",
       "patchId": "patch_pareto_scoring_v1"
-    },
-    {
-      "id": "patch_2026-09-23_scan_1700_dublin",
-      "at": "2026-09-23T16:00:56.024Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~16:58 Dublin: 🇨🇳 T-800 — Unitree 19× H2 full-size humanoids at WorldSkills Shanghai opening (22 Sep; CGTN/Global Times/OFweek 23 Sep): first claimed all-AI autonomous full-size swarm dance with 120 humans — onboard LiDAR only (no external base stations), ms-level swarm sync, RL choreography, auto error-correct/reposition. 🇺🇸 T-800 — Optimus Gen 3 design assets found in Tesla Android app APK (thicker forearms, tendon-driven ~22-DoF hands); supply-chain coverage cites ~15k-unit 2026 component orders / ramp toward ~2,500/week by YE2026 (Basenor / Startup Fortune / Not a Tesla App 23 Sep). Comedy: masks off — lead dancer + Unitree pack in matching light-up kits until the reveal (Global Times). T-800 progress to 76%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-23_scan_1700_dublin"
     }
   ],
   "pendingPosts": [
