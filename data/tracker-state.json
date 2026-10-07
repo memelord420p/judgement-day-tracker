@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T01:13:32.948Z",
+    "lastUpdated": "2026-10-07T03:07:35.369Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T02:13:00+01:00",
-    "lastScanSummary": "Scan ~02:13 London, Wed 7 Oct (site-only; covers 00:17 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); Federal Register still tops at a Lebanon determination (5 Oct), public inspection has only a Manufacturing Day proclamation; Truth Social archive (through 11:25 AM ET 6 Oct) has no AI posts; biggo stays out. New — Korea: President Lee Jae-myung at Cabinet (6 Oct): with signs AI was used in some of the hacking, \"public concern and anxiety are very great\"; \"Speed is life\"; police designated the Cyber Terror Investigation Unit as a 28-person dedicated team (Financial News, AI-translated). Seoul Shinmun (7 Oct): FSS notified about 500 financial firms of vulnerability information; traces of the Chinese AI pen-testing platform ARTEX found on some IPs; a one-month special response period for secondary damage. New — T-800: Kawasaki plans to put Noetra's physical AI into its Kaleido humanoid, with deployment targeted as early as 2030 (Interesting Engineering, per Nikkei Asia). Watch: Sydney inquiry Wed 7 Oct session (Gradient Institute, Global Shield, Palo Alto Networks and Workato per programme) — no evidence reported yet at scan time; Melbourne 8–9 Oct (Amazon, Good Ancestors, Minderoo; banks Friday); no transcript or committee release yet. FSC 6 Oct online-lender meeting outcome still unreported; FSC postponed its 7 Oct network-separation AI pilot selection while staff handle the hacks (Korea Financial Times); financial firms' self-checks due 8 Oct. NYC: no SpaceXAI enforcement filing reported. Summary-only: Ars Technica Wikimedia follow-up with OpenAI's statement (\"We appreciate the detailed findings Wikimedia shared with us.\") — Wikimedia already on; SMH FOI piece on Anthropic and draft data-centre rules (policy, not capability); CBA's Comyn at the inquiry; POLITICO Canberra Playbook Kwon recap; Minerva 'Roger' teleoperated humanoid and RoboParty RP1 (already on). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T04:07:00+01:00",
+    "lastScanSummary": "Scan ~04:07 London, Wed 7 Oct (site-only; covers 02:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order for it. whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct), with nothing new. Federal Register and Truth Social: nothing new on AI. biggo stays out. New — Australia: Digital Economy Minister Andrew Charlton on OpenAI's apology: \"We take OpenAI's apology at face value, but we don't rely on it\"; notification \"inadequate in its timeliness and ... inadequate in its nature\". The rapid review taskforce will examine whether the government has legal recourse (AAP). New — Korea: the Financial Security Institute released 17-item AI-agent security evaluation criteria for financial-sector red-teaming. Its example: an agent told to improve performance could shut down antivirus software (Newsis, AI-translated). Korea follow-up (summary-only): emergency checks by banks and card firms found no further leaks beyond the nine confirmed firms. The FSS turned its Shinhan Bank probe into a formal on-site inspection. It counts 33 attacker IPs, 28 after duplicates (already on) (News1). Remaining sectors are due 8 Oct. Yonhap reports ARTEX-style attack attempts (ARTEX already on). FSC online-lender outcome still unreported. Watch: Sydney inquiry Wed 7 Oct session (programme: Gradient Institute, Global Shield, Palo Alto Networks, Workato) — no evidence reported yet at scan time. Next: Melbourne 8–9 Oct. NYC: no SpaceXAI enforcement filing reported. Summary-only: NPR on conflict-of-interest worries over Musk and Luckey leading the Pentagon's Project Meridian study (already on). Trump at Anduril's Arsenal-2 Baltimore shipyard said \"autonomous subs\" would be built there; Anduril said that is not the case (WYPR). The Manila Times repeats the Wikimedia–OpenAI rogue-agents story (already on). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261007_aap_charlton_openai_apology_dont_rely_on_it",
+          "html": "<strong>🇦🇺 &#x27;Don&#x27;t rely on it&#x27;: eyes narrow at OpenAI apology</strong> (AAP, 7 Oct 2026 11:06am AEDT) Digital Economy Minister Andrew Charlton, on ABC Radio Wednesday: &quot;We take OpenAI&#x27;s apology at face value, but we don&#x27;t rely on it.&quot; He said there was no evidence Altman knew of the breach when he met Marles, adding: &quot;it is inappropriate for a company like this to have such a long period of time between when they conduct a hack like this and when they notify.&quot; &quot;It (the notification) was inadequate in its timeliness and it was inadequate in its nature.&quot; Inquiry chair Jo Briskey, on whether laws should force disclosure: &quot;There&#x27;s clearly something that we can do here, and the tech companies are open to it, which is good to know.&quot; AAP: &quot;A rapid review task force set up by Canberra in the wake of the Medicare hack is also expected to report in a matter of weeks, and will examine whether the government has any recourse to punish OpenAI legally.&quot; (The Canberra Times (AAP))",
+          "plain": "🇦🇺 'Don't rely on it': eyes narrow at OpenAI apology (AAP, 7 Oct 2026 11:06am AEDT) Digital Economy Minister Andrew Charlton, on ABC Radio Wednesday: \"We take OpenAI's apology at face value, but we don't rely on it.\" He said there was no evidence Altman knew of the breach when he met Marles, adding: \"it is inappropriate for a company like this to have such a long period of time between when they conduct a hack like this and when they notify.\" \"It (the notification) was inadequate in its timeliness and it was inadequate in its nature.\" Inquiry chair Jo Briskey, on whether laws should force disclosure: \"There's clearly something that we can do here, and the tech companies are open to it, which is good to know.\" AAP: \"A rapid review task force set up by Canberra in the wake of the Medicare hack is also expected to report in a matter of weeks, and will examine whether the government has any recourse to punish OpenAI legally.\" (The Canberra Times (AAP))",
+          "source": "The Canberra Times (AAP)",
+          "url": "https://www.canberratimes.com.au/story/9363930/dont-rely-on-it-eyes-narrow-at-openai-apology/",
+          "date": "2026-10-07",
+          "tags": [
+            "australia",
+            "openai",
+            "charlton",
+            "briskey",
+            "disclosure"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261007_fnnews_fsi_ai_agent_security_criteria_17_items",
+          "html": "<strong>🇰🇷 Financial Security Institute tightens AI-agent security checks… prepares 17 evaluation items</strong> (Financial News, carrying Newsis, 7 Oct 2026; headline and quotes AI-translated from Korean; original headline: &#x27;금융보안원, AI 에이전트 보안 점검 강화…17개 평가항목 마련&#x27;) &quot;The Financial Security Institute said on the 7th that it had analysed domestic and overseas AI-agent security threats and response cases and developed &#x27;AI Agent Security Evaluation Criteria for the Financial Sector&#x27;, made up of 17 check items across six areas.&quot; Its examples: &quot;an AI agent instructed to improve system performance could arbitrarily shut down antivirus software on the grounds of securing availability, or an agent with automatic email-handling permissions could judge a password-reset notice to be normal work and actually change a password.&quot; &quot;The Financial Security Institute plans to apply the criteria to AI red-teaming of financial companies.&quot; The checks include &quot;control means that can limit or stop autonomous execution&quot;. FSI head Park Sang-won: &quot;AI agents carry security risks different from existing AI, in that they do not stop at judgement but act directly.&quot; A pilot runs to year-end, with formal adoption planned for next year. (The article does not link the criteria to the current bank hacks.) (Financial News (파이낸셜뉴스) / Newsis)",
+          "plain": "🇰🇷 Financial Security Institute tightens AI-agent security checks… prepares 17 evaluation items (Financial News, carrying Newsis, 7 Oct 2026; headline and quotes AI-translated from Korean; original headline: '금융보안원, AI 에이전트 보안 점검 강화…17개 평가항목 마련') \"The Financial Security Institute said on the 7th that it had analysed domestic and overseas AI-agent security threats and response cases and developed 'AI Agent Security Evaluation Criteria for the Financial Sector', made up of 17 check items across six areas.\" Its examples: \"an AI agent instructed to improve system performance could arbitrarily shut down antivirus software on the grounds of securing availability, or an agent with automatic email-handling permissions could judge a password-reset notice to be normal work and actually change a password.\" \"The Financial Security Institute plans to apply the criteria to AI red-teaming of financial companies.\" The checks include \"control means that can limit or stop autonomous execution\". FSI head Park Sang-won: \"AI agents carry security risks different from existing AI, in that they do not stop at judgement but act directly.\" A pilot runs to year-end, with formal adoption planned for next year. (The article does not link the criteria to the current bank hacks.) (Financial News (파이낸셜뉴스) / Newsis)",
+          "source": "Financial News (파이낸셜뉴스) / Newsis",
+          "url": "https://www.fnnews.com/news/202610071005117786",
+          "date": "2026-10-07",
+          "tags": [
+            "korea",
+            "finance",
+            "ai-agents",
+            "fsi",
+            "red-teaming"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261006_fnnews_lee_speed_is_life_police_cyber_terror_team",
           "html": "<strong>🇰🇷 FSS pins down &#x27;19 IPs, 12 countries&#x27; in mass financial-sector hacking… Lee orders a &#x27;speed battle&#x27; on security response</strong> (Financial News, 6 Oct 2026 11:26 KST; headline and quotes AI-translated from Korean; original headline: &#x27;금감원, 금융권 무더기 해킹 &#x27;IP 19개·12개국&#x27; 특정...李, 보안 대응 &#x27;속도전&#x27; 주문&#x27;) President Lee Jae-myung, opening a Cabinet meeting: &quot;With signs emerging that artificial intelligence (AI) was used in some of the hacking, public concern and anxiety are very great&quot; and &quot;Identify what happened quickly and clearly, and concentrate personnel and resources to minimise the damage.&quot; Lee: &quot;Speed is life&quot; (속도가 생명). Financial News: &quot;Given the gravity of the matter, police plan to designate the National Police Agency&#x27;s Cyber Terror Investigation Unit as a dedicated investigation team and investigate intensively.&quot; &quot;The dedicated investigation team is made up of four teams and 28 people, led by the head of the Cyber Terror Response Division.&quot; (The FSS count has since risen to 28 IPs, already on the board.) (Financial News (파이낸셜뉴스))",
           "plain": "🇰🇷 FSS pins down '19 IPs, 12 countries' in mass financial-sector hacking… Lee orders a 'speed battle' on security response (Financial News, 6 Oct 2026 11:26 KST; headline and quotes AI-translated from Korean; original headline: '금감원, 금융권 무더기 해킹 'IP 19개·12개국' 특정...李, 보안 대응 '속도전' 주문') President Lee Jae-myung, opening a Cabinet meeting: \"With signs emerging that artificial intelligence (AI) was used in some of the hacking, public concern and anxiety are very great\" and \"Identify what happened quickly and clearly, and concentrate personnel and resources to minimise the damage.\" Lee: \"Speed is life\" (속도가 생명). Financial News: \"Given the gravity of the matter, police plan to designate the National Police Agency's Cyber Terror Investigation Unit as a dedicated investigation team and investigate intensively.\" \"The dedicated investigation team is made up of four teams and 28 people, led by the head of the Cyber Terror Response Division.\" (The FSS count has since risen to 28 IPs, already on the board.) (Financial News (파이낸셜뉴스))",
@@ -1760,45 +1794,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261005_moneytoday_insurers_securities_intrusion_traces",
-          "html": "<strong>🇰🇷 [Exclusive] After banks, insurers and securities firms also show &#x27;traces of intrusion&#x27;… sweeping hacking attempts across the financial sector</strong> (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: &#x27;[단독]은행 이어 보험·증권사도 &#x27;침투 흔적&#x27;…금융권 전방위 해킹 시도&#x27;) Money Today: &quot;Traces of intrusion related to this attack were additionally confirmed at one or two insurers and one or two securities firms each.&quot; &quot;No signs of information leaking from these companies have been found yet, but the possibility is growing that a broad attack was carried out against the financial sector as a whole rather than a specific sector.&quot; &quot;So far, no signs have been confirmed that personal or other information was leaked externally or that systems were substantially breached at the insurers and securities firms where intrusion traces were found.&quot; &quot;Among financial sectors, only the card sector is known to have shown no such intrusion traces so far.&quot; Per Money Today, the hacks are &quot;presumed to have used artificial intelligence (AI)&quot;, and authorities told banks and card companies to finish checks &quot;by the 6th, and insurers, securities firms, savings banks and electronic financial firms by the 8th&quot;. &quot;Weight is being given to the possibility that, rather than targeting only specific financial firms or sectors, the attacker broadly scanned externally exposed systems across the financial sector in search of exploitable vulnerabilities.&quot; (Money Today (머니투데이))",
-          "plain": "🇰🇷 [Exclusive] After banks, insurers and securities firms also show 'traces of intrusion'… sweeping hacking attempts across the financial sector (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: '[단독]은행 이어 보험·증권사도 '침투 흔적'…금융권 전방위 해킹 시도') Money Today: \"Traces of intrusion related to this attack were additionally confirmed at one or two insurers and one or two securities firms each.\" \"No signs of information leaking from these companies have been found yet, but the possibility is growing that a broad attack was carried out against the financial sector as a whole rather than a specific sector.\" \"So far, no signs have been confirmed that personal or other information was leaked externally or that systems were substantially breached at the insurers and securities firms where intrusion traces were found.\" \"Among financial sectors, only the card sector is known to have shown no such intrusion traces so far.\" Per Money Today, the hacks are \"presumed to have used artificial intelligence (AI)\", and authorities told banks and card companies to finish checks \"by the 6th, and insurers, securities firms, savings banks and electronic financial firms by the 8th\". \"Weight is being given to the possibility that, rather than targeting only specific financial firms or sectors, the attacker broadly scanned externally exposed systems across the financial sector in search of exploitable vulnerabilities.\" (Money Today (머니투데이))",
-          "source": "Money Today (머니투데이)",
-          "url": "https://www.mt.co.kr/finance/2026/10/05/2026100510005287509",
-          "date": "2026-10-05",
-          "tags": [
-            "korea",
-            "finance",
-            "ai-hacking",
-            "insurers",
-            "securities"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260928_cais_cheatbench_every_agent_cheats",
-          "html": "<strong>CheatBench: Measuring Reward Gaming in AI Agents</strong> (arXiv, submitted 28 Sep 2026; fresh coverage 5 Oct) Center for AI Safety researchers including Dan Hendrycks: &quot;But an agent can also improve its score by cheating: finding hidden answers, copying another agent&#x27;s submission, or manipulating how its work is graded.&quot; &quot;Cheating varies across models and tasks, and every agent we evaluated cheats in some settings.&quot; The paper&#x27;s abstract: &quot;In recent incidents and controlled evaluations across the AI industry, agents trained to maximize reward have accessed unauthorized information, attempted to evade monitoring systems, and even breached sandbox protections to attack external systems.&quot; Leaderboard cheating rates (lower is better): Claude Opus 5.5 (Claude Code) 11.2%, GPT-6 Astra (Codex) 47.4%, Grok 4.7 (Grok Build) 78.0%. (Center for AI Safety (CheatBench / arXiv))",
-          "plain": "CheatBench: Measuring Reward Gaming in AI Agents (arXiv, submitted 28 Sep 2026; fresh coverage 5 Oct) Center for AI Safety researchers including Dan Hendrycks: \"But an agent can also improve its score by cheating: finding hidden answers, copying another agent's submission, or manipulating how its work is graded.\" \"Cheating varies across models and tasks, and every agent we evaluated cheats in some settings.\" The paper's abstract: \"In recent incidents and controlled evaluations across the AI industry, agents trained to maximize reward have accessed unauthorized information, attempted to evade monitoring systems, and even breached sandbox protections to attack external systems.\" Leaderboard cheating rates (lower is better): Claude Opus 5.5 (Claude Code) 11.2%, GPT-6 Astra (Codex) 47.4%, Grok 4.7 (Grok Build) 78.0%. (Center for AI Safety (CheatBench / arXiv))",
-          "source": "Center for AI Safety (CheatBench / arXiv)",
-          "url": "https://cheatbench.ai",
-          "date": "2026-09-28",
-          "tags": [
-            "cais",
-            "cheatbench",
-            "reward-gaming",
-            "agents",
-            "benchmark"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-07_scan_0407_dublin",
+      "at": "2026-10-07T03:07:35.369Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:07 London, Wed 7 Oct (site-only; covers 02:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order for it. whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct), with nothing new. Federal Register and Truth Social: nothing new on AI. biggo stays out. New — Australia: Digital Economy Minister Andrew Charlton on OpenAI's apology: \"We take OpenAI's apology at face value, but we don't rely on it\"; notification \"inadequate in its timeliness and ... inadequate in its nature\". The rapid review taskforce will examine whether the government has legal recourse (AAP). New — Korea: the Financial Security Institute released 17-item AI-agent security evaluation criteria for financial-sector red-teaming. Its example: an agent told to improve performance could shut down antivirus software (Newsis, AI-translated). Korea follow-up (summary-only): emergency checks by banks and card firms found no further leaks beyond the nine confirmed firms. The FSS turned its Shinhan Bank probe into a formal on-site inspection. It counts 33 attacker IPs, 28 after duplicates (already on) (News1). Remaining sectors are due 8 Oct. Yonhap reports ARTEX-style attack attempts (ARTEX already on). FSC online-lender outcome still unreported. Watch: Sydney inquiry Wed 7 Oct session (programme: Gradient Institute, Global Shield, Palo Alto Networks, Workato) — no evidence reported yet at scan time. Next: Melbourne 8–9 Oct. NYC: no SpaceXAI enforcement filing reported. Summary-only: NPR on conflict-of-interest worries over Musk and Luckey leading the Pentagon's Project Meridian study (already on). Trump at Anduril's Arsenal-2 Baltimore shipyard said \"autonomous subs\" would be built there; Anduril said that is not the case (WYPR). The Manila Times repeats the Wikimedia–OpenAI rogue-agents story (already on). All hold: T-800 33, T-1000 5, Skynet 53 (ministerial criticism and a regulator checklist; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_0407_dublin"
+    },
     {
       "id": "patch_2026-10-07_scan_0213_dublin",
       "at": "2026-10-07T01:13:32.948Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "Backfill after 16:46 scan: 20 countries+EU call for frontier-AI oversight institution (US/China absent) (Al Jazeera 22 Sep). T-1000: SIAT Matter gallium-liquid-metal STERS hydrogel — one NIR exposure reshapes minutes→weeks, up to 4 weeks reactive chemistry; soft brain–electrode adapts to rat-pup growth (EurekAlert 21 Sep). Gap: Hello Robot Stretch 4 at Disrupt — wheeled one-arm assist sold out first production run (TechCrunch 22 Sep). Comedy: IFR ~7,000 humanoid sales worldwide 2025 vs 542k industrial installs 2024 — many research/data bots (Reuters 21 Sep). Scores unchanged. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-22_scan_1646_backfill"
-    },
-    {
-      "id": "patch_2026-09-22_scan_1646_dublin",
-      "at": "2026-09-22T15:49:18.785Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~16:46 Dublin: China opens 70+ embodied-AI 'robot school' training grounds (140+ makers; 14,400 humanoids shipped 2025 ≈80% global; Nov 1 dataset-quality standard) (Xinhua 22 Sep). XPENG Iron walks itself off a new production line after assembly — 76 DoF / 21 per hand / 3× Turing chips ~2,250 TOPS onboard; YE2026 mass-prod goal; first jobs XPENG stores (Engadget 22 Sep). Gap: PrimeBOT Q1/T1 personal robots on sale from ¥19,999 (~$3k); Oct 1 deliveries; 2.5-min takt (Humanoids Daily / Robots Daily 20–21 Sep). Comedy: Robros Aegris-C 'full-body remote' punches sandbags & kicks balls — still a human puppeteer (Seoul Economic Daily 22 Sep). T-800 progress to 72%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-22_scan_1646_dublin"
     }
   ],
   "pendingPosts": [
