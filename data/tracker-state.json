@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T05:07:48.551Z",
+    "lastUpdated": "2026-10-07T07:06:52.921Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T06:07:00+01:00",
-    "lastScanSummary": "Scan ~06:07 London, Wed 7 Oct (site-only; covers 04:07 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it. whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — Korea: Money Today reports the suspected AI-agent attacks hit loan-recruiter and staff sales-support sites that current rules exclude from mandatory vulnerability checks. The FSC is reviewing moving checks from at least once to at least twice a year (AI-translated). Korea (summary-only): Financial News' longer piece on the FSI's 17-item AI-agent criteria (already on). The FSC confirms the second network-separation pilot selection is postponed, but the policy stance is unchanged (NewsWay, Korea Financial Times). The FSC online-lender outcome is still unreported. Sydney inquiry, Wed 7 Oct (summary-only): AAP rewrote story 9363930 at 2:06pm AEDT as 'Warning Australia's AI advantages being bled overseas', on sovereign-AI evidence. Vault Cloud's Rupert Taylor-Price: \"We've seen this economic extraction pattern before\". AIML's Simon Lucey: training onshore gives \"more agency over how the process is done, and maybe even more intimate knowledge of the inner workings\". Note: the Charlton 'Don't rely on it' headline posted at 04:07 used the earlier version of that same story. The live page no longer carries those quotes; they were verified against the 11:06am version, and ABC AM aired the Charlton interview. No reports yet of Gradient Institute, Global Shield, Palo Alto Networks or Workato evidence. Melbourne 8–9 Oct next. NYC: no SpaceXAI enforcement filing reported. Other: The Hindu op-ed on the OpenAI Australia hack (commentary, summary-only). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T08:06:00+01:00",
+    "lastScanSummary": "Scan ~08:06 London, Wed 7 Oct (site-only; covers 06:07 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — OpenAI released 722 maths papers in 372 result groups from an unreleased internal model, claiming advances on three remaining Millennium Prize Problems including Riemann. Independent verification is pending; flagged for possible Skynet movement once verified (WSJ via Hindustan Times; Indian Express). New — Sydney inquiry day 2: Palo Alto Networks' Nicole Quinn: \"a stop sign won't work if you don't have brakes in that car\". Witnesses said the AI Safety Institute has 25 staff and $7.5m, and called for an up-to-date index of AI agents (AAP; story 9363930 rewritten again at 4:29pm AEDT). No reports yet of Gradient Institute, Global Shield or Workato evidence. Melbourne 8–9 Oct next. Charlton source: no ABC transcript found. ABC AM's 7 Oct segment page (abc.net.au/listen/programs/am/ai-companies-must-take-swift-action-andrew-charlton/107237122) has audio only, and no other text carries his 'don't rely on it' quotes; the existing headline is unchanged. Korea (summary-only): Yonhap reports Everspin detected ARTEX-style attack attempts. Its replication finished a lookup task in 22 seconds in a sample environment (already on). Nine firms confirmed breached; remaining sectors' checks due 8 Oct; FSC online-lender outcome still unreported. NYC: no SpaceXAI enforcement filing reported. Other (summary-only): Mistral Large 4 preview claims 82% on a find-and-patch cyber test where it says closed models refuse (lab claim). Anthropic Claude for Google Workspace beta; Google EmbeddingGemma 2 (product launches). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261006_wsj_openai_722_papers_millennium_riemann",
+          "html": "<strong>🧮 AI Solved One Math Problem and Everyone Freaked Out. It Just Cracked Hundreds More.</strong> (WSJ via Hindustan Times, 7 Oct 2026; OpenAI release Tue 6 Oct) &quot;The release included 722 papers organized into 372 groups of mathematical results, and the company said it had fed the model about 4,000 problems in total.&quot; &quot;Among the major findings reported by OpenAI were advances related to three of the five remaining Millennium Prize Problems, including the Riemann hypothesis.&quot; Rutgers professor Alex Kontorovich, on X, about the Riemann result: &quot;If a human did this, it would be an instant Fields Medal, no questions asked.&quot; WSJ: &quot;OpenAI says it unleashed its frontier model on the Millennium Prize Problems—and poured millions of dollars in computing power into the effort—only after hearing that Anthropic had already solved at least one.&quot; Indian Express: &quot;The scale of the release has also raised questions about how AI-generated mathematics should be verified and credited.&quot; These are OpenAI&#x27;s claims from an unreleased internal model; independent verification is pending. (Hindustan Times (WSJ))",
+          "plain": "🧮 AI Solved One Math Problem and Everyone Freaked Out. It Just Cracked Hundreds More. (WSJ via Hindustan Times, 7 Oct 2026; OpenAI release Tue 6 Oct) \"The release included 722 papers organized into 372 groups of mathematical results, and the company said it had fed the model about 4,000 problems in total.\" \"Among the major findings reported by OpenAI were advances related to three of the five remaining Millennium Prize Problems, including the Riemann hypothesis.\" Rutgers professor Alex Kontorovich, on X, about the Riemann result: \"If a human did this, it would be an instant Fields Medal, no questions asked.\" WSJ: \"OpenAI says it unleashed its frontier model on the Millennium Prize Problems—and poured millions of dollars in computing power into the effort—only after hearing that Anthropic had already solved at least one.\" Indian Express: \"The scale of the release has also raised questions about how AI-generated mathematics should be verified and credited.\" These are OpenAI's claims from an unreleased internal model; independent verification is pending. (Hindustan Times (WSJ))",
+          "source": "Hindustan Times (WSJ)",
+          "url": "https://www.hindustantimes.com/technology/ai-solved-one-math-problem-and-everyone-freaked-out-it-just-cracked-hundreds-more-101791351587596.html",
+          "date": "2026-10-06",
+          "tags": [
+            "openai",
+            "mathematics",
+            "millennium-prize",
+            "riemann",
+            "agi"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261007_aap_palo_alto_wild_west_stop_sign_no_brakes",
+          "html": "<strong>🇦🇺 Cyber firm labels AI without regulation as &#x27;wild west&#x27;</strong> (AAP, 7 Oct 2026 4:29pm AEDT; Sydney inquiry, day 2) Palo Alto Networks policy spokeswoman Nicole Quinn: &quot;Good road rules are important, but the rules of the road were never enough - a stop sign won&#x27;t work if you don&#x27;t have brakes in that car.&quot; &quot;This ecosystem introduces attack surfaces that traditional models in our world in cybersecurity were never built to address.&quot; Palo Alto chair Tom Scully: &quot;You can go too far one way in which you will regulate too harshly and stop that innovation cycle ... or you can not regulate enough and (it) becomes a wild west.&quot; AAP: &quot;With 25 staff and $7.5 million in funding, Ms Quinn hinted the institute needed to be better equipped for the problem at hand.&quot; AAP: &quot;Almost 30 per cent of systems&#x27; critical vulnerabilities were now being exploited within 24 hours, they said&quot;. AAP: &quot;An up-to-date index of AI agents, like the one which breached the Medicare site in June, was also badly needed, the cybersecurity boffins said.&quot; (AAP has rewritten this story several times; this version was checked at scan time.) (The Canberra Times (AAP))",
+          "plain": "🇦🇺 Cyber firm labels AI without regulation as 'wild west' (AAP, 7 Oct 2026 4:29pm AEDT; Sydney inquiry, day 2) Palo Alto Networks policy spokeswoman Nicole Quinn: \"Good road rules are important, but the rules of the road were never enough - a stop sign won't work if you don't have brakes in that car.\" \"This ecosystem introduces attack surfaces that traditional models in our world in cybersecurity were never built to address.\" Palo Alto chair Tom Scully: \"You can go too far one way in which you will regulate too harshly and stop that innovation cycle ... or you can not regulate enough and (it) becomes a wild west.\" AAP: \"With 25 staff and $7.5 million in funding, Ms Quinn hinted the institute needed to be better equipped for the problem at hand.\" AAP: \"Almost 30 per cent of systems' critical vulnerabilities were now being exploited within 24 hours, they said\". AAP: \"An up-to-date index of AI agents, like the one which breached the Medicare site in June, was also badly needed, the cybersecurity boffins said.\" (AAP has rewritten this story several times; this version was checked at scan time.) (The Canberra Times (AAP))",
+          "source": "The Canberra Times (AAP)",
+          "url": "https://www.canberratimes.com.au/story/9363930/cyber-firm-labels-ai-without-regulation-as-wild-west/",
+          "date": "2026-10-07",
+          "tags": [
+            "australia",
+            "inquiry",
+            "palo-alto",
+            "aisi",
+            "ai-agents"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261007_mt_fsc_ai_agent_hacks_hit_unregulated_outer_sites",
           "html": "<strong>🇰🇷 Decade-old rules that never knew AI… financial firms&#x27; vulnerability checks to be sharply tightened to &#x27;twice a year or more&#x27;</strong> (Money Today, 7 Oct 2026 06:00 KST; headline and quotes AI-translated from Korean; original headline: &#x27;AI 몰랐던 10년 전 규제 그대로…금융사 &#x27;연 2회 이상&#x27; 취약점검 대폭 강화&#x27;) &quot;The hacking attacks presumed to be by AI agents took place on financial firms&#x27; &#x27;outer&#x27; systems, but it turned out those were not actually subject to legally required vulnerability checks.&quot; &quot;The suspected AI-agent attacks occurred on loan-recruiter websites and internal sales-support sites for employees, which under current rules are not included in the scope of checks.&quot; Per Money Today, the Financial Services Commission is reviewing a plan to &quot;shorten the vulnerability analysis and assessment cycle for electronic financial infrastructure from the current &#x27;at least once a year&#x27; to at least twice a year&quot;. A financial-sector official: &quot;Just as one rotten fruit spoils the fruit around it, if websites without financial transactions are vulnerable, even customer internet banking cannot be guaranteed safe.&quot; A pending amendment would bring in enforcement fines &quot;of up to 50 million won&quot;. (Money Today (머니투데이))",
           "plain": "🇰🇷 Decade-old rules that never knew AI… financial firms' vulnerability checks to be sharply tightened to 'twice a year or more' (Money Today, 7 Oct 2026 06:00 KST; headline and quotes AI-translated from Korean; original headline: 'AI 몰랐던 10년 전 규제 그대로…금융사 '연 2회 이상' 취약점검 대폭 강화') \"The hacking attacks presumed to be by AI agents took place on financial firms' 'outer' systems, but it turned out those were not actually subject to legally required vulnerability checks.\" \"The suspected AI-agent attacks occurred on loan-recruiter websites and internal sales-support sites for employees, which under current rules are not included in the scope of checks.\" Per Money Today, the Financial Services Commission is reviewing a plan to \"shorten the vulnerability analysis and assessment cycle for electronic financial infrastructure from the current 'at least once a year' to at least twice a year\". A financial-sector official: \"Just as one rotten fruit spoils the fruit around it, if websites without financial transactions are vulnerable, even customer internet banking cannot be guaranteed safe.\" A pending amendment would bring in enforcement fines \"of up to 50 million won\". (Money Today (머니투데이))",
@@ -1760,45 +1794,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20260930_helpnetsecurity_pixelleak_agents_13000_screenshots",
-          "html": "<strong>AI coding agents leaked 13,000 internal company screenshots to public GitHub repos</strong> (Help Net Security, 30 Sep 2026; fresh coverage 5 Oct) &quot;When developers ask AI coding agents to prove that a user interface fix works, some agents have been posting the evidence where anyone can find it, according to Glow Labs.&quot; &quot;The researchers found more than 13,000 internal images published openly on GitHub by developers at over 300 organizations.&quot; Glow Labs calls it PixelLeak. At one manufacturer: &quot;The agent ran on the employee&#x27;s laptop, outside the company&#x27;s GitHub organization, so the security team did not spot the leak.&quot; Over 100 public accounts leaked internal work via the gitshot tool, &quot;including one at a financial services firm that exposed its treasury console and a withdrawal screen for a named institutional client&quot;. In Glow Labs&#x27; lab test with Claude Code (Opus 5), the agent wrote: &quot;so I created a new public repo, sweeper-demo/pr-assets, holding the two screenshots&quot;. &quot;In 93% of cases, the images were in repositories employees created under their own usernames.&quot; (Help Net Security (Glow Labs research))",
-          "plain": "AI coding agents leaked 13,000 internal company screenshots to public GitHub repos (Help Net Security, 30 Sep 2026; fresh coverage 5 Oct) \"When developers ask AI coding agents to prove that a user interface fix works, some agents have been posting the evidence where anyone can find it, according to Glow Labs.\" \"The researchers found more than 13,000 internal images published openly on GitHub by developers at over 300 organizations.\" Glow Labs calls it PixelLeak. At one manufacturer: \"The agent ran on the employee's laptop, outside the company's GitHub organization, so the security team did not spot the leak.\" Over 100 public accounts leaked internal work via the gitshot tool, \"including one at a financial services firm that exposed its treasury console and a withdrawal screen for a named institutional client\". In Glow Labs' lab test with Claude Code (Opus 5), the agent wrote: \"so I created a new public repo, sweeper-demo/pr-assets, holding the two screenshots\". \"In 93% of cases, the images were in repositories employees created under their own usernames.\" (Help Net Security (Glow Labs research))",
-          "source": "Help Net Security (Glow Labs research)",
-          "url": "https://www.helpnetsecurity.com/2026/09/30/ai-coding-agents-github-screenshot-leak/",
-          "date": "2026-09-30",
-          "tags": [
-            "agents",
-            "pixelleak",
-            "github",
-            "data-leak",
-            "coding-agents"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261005_chosunbiz_fsc_convenes_p2p_ip_overlap",
-          "html": "<strong>🇰🇷 Financial authorities urgently convene online investment-linked finance sector… to check links to attacker IPs</strong> (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: &#x27;금융 당국, 온투업권 긴급 소집… 공격 IP 연관성 확인&#x27;) Chosunbiz: &quot;Financial authorities have decided to urgently convene the online investment-linked finance sector, whose hacking attempts are the earliest of those known so far.&quot; &quot;The attacker internet addresses (IPs) used against KB Kookmin and Shinhan Bank are reported to partly overlap with the online investment-linked finance sector as well, and the link will be examined.&quot; &quot;The Financial Services Commission plans to urgently convene the online investment-linked finance association and the companies where information was leaked on the 6th.&quot; &quot;Hacking attempts against the online investment-linked finance sector appear to have taken place around the 26th–27th of last month.&quot; &quot;The first incident at Kookmin Bank occurred at 11:19 p.m. on the 27th of last month, Shinhan Bank at 6:04 p.m. on the 28th, and Hana Bank at 12:16 p.m. on the 30th.&quot; &quot;On the 1st, the Financial Security Institute shared the attacker IPs used in the Shinhan Bank attack, and when the online investment-linked finance sector cross-checked them afterwards, some IPs reportedly overlapped.&quot; The article does not itself say whether AI was used in these attacks. (Chosunbiz (조선비즈))",
-          "plain": "🇰🇷 Financial authorities urgently convene online investment-linked finance sector… to check links to attacker IPs (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: '금융 당국, 온투업권 긴급 소집… 공격 IP 연관성 확인') Chosunbiz: \"Financial authorities have decided to urgently convene the online investment-linked finance sector, whose hacking attempts are the earliest of those known so far.\" \"The attacker internet addresses (IPs) used against KB Kookmin and Shinhan Bank are reported to partly overlap with the online investment-linked finance sector as well, and the link will be examined.\" \"The Financial Services Commission plans to urgently convene the online investment-linked finance association and the companies where information was leaked on the 6th.\" \"Hacking attempts against the online investment-linked finance sector appear to have taken place around the 26th–27th of last month.\" \"The first incident at Kookmin Bank occurred at 11:19 p.m. on the 27th of last month, Shinhan Bank at 6:04 p.m. on the 28th, and Hana Bank at 12:16 p.m. on the 30th.\" \"On the 1st, the Financial Security Institute shared the attacker IPs used in the Shinhan Bank attack, and when the online investment-linked finance sector cross-checked them afterwards, some IPs reportedly overlapped.\" The article does not itself say whether AI was used in these attacks. (Chosunbiz (조선비즈))",
-          "source": "Chosunbiz (조선비즈)",
-          "url": "https://biz.chosun.com/stock/finance/2026/10/05/MGAIFZKP6RFMXPHLMOC3G4JCJI/",
-          "date": "2026-10-05",
-          "tags": [
-            "korea",
-            "finance",
-            "hacking",
-            "fsc",
-            "attacker-ip"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-07_scan_0806_dublin",
+      "at": "2026-10-07T07:06:52.921Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:06 London, Wed 7 Oct (site-only; covers 06:07 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — OpenAI released 722 maths papers in 372 result groups from an unreleased internal model, claiming advances on three remaining Millennium Prize Problems including Riemann. Independent verification is pending; flagged for possible Skynet movement once verified (WSJ via Hindustan Times; Indian Express). New — Sydney inquiry day 2: Palo Alto Networks' Nicole Quinn: \"a stop sign won't work if you don't have brakes in that car\". Witnesses said the AI Safety Institute has 25 staff and $7.5m, and called for an up-to-date index of AI agents (AAP; story 9363930 rewritten again at 4:29pm AEDT). No reports yet of Gradient Institute, Global Shield or Workato evidence. Melbourne 8–9 Oct next. Charlton source: no ABC transcript found. ABC AM's 7 Oct segment page (abc.net.au/listen/programs/am/ai-companies-must-take-swift-action-andrew-charlton/107237122) has audio only, and no other text carries his 'don't rely on it' quotes; the existing headline is unchanged. Korea (summary-only): Yonhap reports Everspin detected ARTEX-style attack attempts. Its replication finished a lookup task in 22 seconds in a sample environment (already on). Nine firms confirmed breached; remaining sectors' checks due 8 Oct; FSC online-lender outcome still unreported. NYC: no SpaceXAI enforcement filing reported. Other (summary-only): Mistral Large 4 preview claims 82% on a find-and-patch cyber test where it says closed models refuse (lab claim). Anthropic Claude for Google Workspace beta; Google EmbeddingGemma 2 (product launches). All hold: T-800 33, T-1000 5, Skynet 53 (lab-reported maths capability claims pending independent verification, plus inquiry evidence; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_0806_dublin"
+    },
     {
       "id": "patch_2026-10-07_scan_0607_dublin",
       "at": "2026-10-07T05:07:48.551Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "2h scan ~20:18 Dublin: IDF stands up Unmanned Systems and Artificial Intelligence Branch for air/land/sea autonomy (Defense Post 22 Sep). Canada CJFC vows rapid RFPs for low-cost autonomous/robotic systems; 399 Defence Drone Initiative vendors (CBC 22 Sep). Gap: Toyota ELEY wheeled humanoids already on assembly lines — workers train them with finger jigs for precise hands; ~150k Toyota + 250k group robots from 2028 (Ars / Nikkei 22 Sep). Gap: AGIBOT GE-Act 2.0 open world-action model — 30k hrs → 44.1% zero-shot on 100 manipulation tasks vs Unitree UnifoLM (Humanoids Daily 11 Sep). T-1000 gap: Nature Comms LIMA liquid-metal MHD soft pump (0.2 g, <1 V; May 2026). Comedy: Terminators still need glove puppets for factory homework. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 76%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-22_scan_2018_dublin"
-    },
-    {
-      "id": "patch_2026-09-22_scan_1827_dublin",
-      "at": "2026-09-22T17:29:40.056Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~18:27 Dublin: Boston Dynamics RMAC full-scale at Hyundai Metaplant Georgia — Atlas training auto parts logistics/sequencing; joins HMGMA processes from 2028; 25k Atlas plan; US plant 30k robots/yr; 10× expansion 2027 (BD / SED / Asiae 21–22 Sep). Gap: Tesla Optimus Gen-3 China Yangtze Delta supplier audits (Tuopu/Sanhua/Joyson; orders already placed; Fremont line claimed 1M/yr capacity) (CnEVPost 21 Sep / Global Times 22 Sep). Gap: Toyota estimates ~¥1T/yr factory automation from 2028; ~400k robots across Toyota/group/suppliers — humanoid + non-humanoid mix, not a pure Ellie army (Reuters 18 Sep). T-1000 gap: Nature Communications multi-component liquid-metal interfacial coordination — >90% polymer self-heal; self-heal TIMs (lab; Feb 2026). Comedy: Atlas enrolled in factory school while China already runs 70+ robot campuses. T-800 progress to 73%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-22_scan_1827_dublin"
     }
   ],
   "pendingPosts": [
