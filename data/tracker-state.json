@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T13:09:04.808Z",
+    "lastUpdated": "2026-10-07T15:37:26.324Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T14:09:00+01:00",
-    "lastScanSummary": "Scan ~14:09 London, Wed 7 Oct (site-only; covers 12:09 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — T-800: the Pentagon told the BBC it \"has ceased the use of Anthropic products\" after Anthropic refused to drop guardrails on mass surveillance and autonomous weapons. Sources say Claude was used via Maven in operations against Iran as recently as last week; Google, xAI and OpenAI are now in (BBC, 5 Oct; not previously on board). OpenAI maths (summary-only): NYT (via DNYUZ) reports the IAS advisory group called the release \"the beginning, not the completion\" of human understanding. OpenAI research lead Dan Roberts says the proofs were a byproduct of testing. Per CellCog, 162 of 722 papers have Lean-checked main results; the only public Lean Kakeya formalisation found covers 3D, not the claimed 4D result. Still no credible independent confirmation of a Millennium result, so Skynet holds at 53. Korea (summary-only): Newspim says the FSC will announce strengthened security measures 'promptly' while keeping network-separation easing. Sector checks are due 8 Oct; no new leaks beyond nine firms. NYC: no SpaceXAI enforcement filing reported (CPLR 2308(b) route per DeClassified Now). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T16:37:00+01:00",
+    "lastScanSummary": "Scan ~16:37 London, Wed 7 Oct (site-only; covers 14:09 to now; box was down ~15:50-16:20). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). whitehouse.gov did not load this scan, so it wasn't rechecked; no official AI release seen in search. biggo stays out. New — T-800: an Atlanta City Council member has introduced the H.A.L.T. Act to stop city police acquiring AI tools that can use lethal force without human oversight (AJC, 7 Oct). It follows Hegseth's autonomous warfare command announcement. OpenAI maths (summary-only): no independent mathematician has reported confirming or refuting a headline result. Per Stanford Tech Review, 162 of 722 manuscripts have Lean-checked main results and none of the 143 dated October do. MIT's Andrew Sutherland (Scientific American) says to treat single-agent claims as unverified. No credible independent confirmation of a Millennium result, so Skynet holds at 53. Korea (summary-only): still no FSC strengthened-security package published. FSI's 17-item AI-agent red-teaming criteria are already on. Also checked, already on or minor: Fedorov (WaPo) on AI war robots, Minerva humanoid, US Army ILTM robot mules (6 firms; prototypes, summary-only). NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,22 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261007_ajc_atlanta_halt_act_autonomous_weapons_ban",
+          "html": "<strong>‘Robots with guns’: Atlanta Council member proposes autonomous weapons ban</strong> (Atlanta Journal-Constitution, 7 Oct 2026) Atlanta City Council member Liliana Bakhtiari introduced a measure Monday that would prohibit Atlanta police from acquiring AI tools capable of using lethal force without human oversight. She dubbed it the H.A.L.T. Act (&quot;Human Authority over Lethal Technology&quot;). Per the AJC, she got the idea after Hegseth announced the creation of an &quot;autonomous warfare command.&quot; (Atlanta Journal-Constitution)",
+          "plain": "‘Robots with guns’: Atlanta Council member proposes autonomous weapons ban (Atlanta Journal-Constitution, 7 Oct 2026) Atlanta City Council member Liliana Bakhtiari introduced a measure Monday that would prohibit Atlanta police from acquiring AI tools capable of using lethal force without human oversight. She dubbed it the H.A.L.T. Act (\"Human Authority over Lethal Technology\"). Per the AJC, she got the idea after Hegseth announced the creation of an \"autonomous warfare command.\" (Atlanta Journal-Constitution)",
+          "source": "Atlanta Journal-Constitution",
+          "url": "https://www.ajc.com/news/2026/10/atlanta-council-member-wants-autonomous-weapons-ban/",
+          "date": "2026-10-07",
+          "tags": [
+            "autonomous-weapons",
+            "police",
+            "local-government",
+            "legislation"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261005_bbc_pentagon_ceased_anthropic_claude_maven",
           "html": "<strong>🪖 Pentagon stops using Anthropic AI tools months after blacklisting company, BBC told</strong> (BBC, 5 Oct 2026) &quot;The Pentagon &quot;has ceased the use of Anthropic products&quot;, the department official said in a statement on Monday.&quot; &quot;Multiple people familiar with the matter told the BBC that as recently as last week Anthopic&#x27;s Claude model was still being used by the department in research, analysis and intelligence gathering as well as in military operations against Iran.&quot; (sic) Earlier this year the Pentagon pressed Anthropic to remove Claude&#x27;s safety guardrails: &quot;When Anthropic refused, citing concerns of mass surveillance and autonomous weapons, Hegseth designated the company a &quot;national security supply-chain risk&quot;.&quot; Claude was embedded in Palantir&#x27;s Maven Smart System. Georgetown CSET&#x27;s Lauren Kahn: &quot;The fact that it took the Pentagon until now to remove all use of Claude from across the system is indicative that these things are not just plug and play.&quot; The Pentagon has since signed deals with Google, xAI and OpenAI. (BBC News)",
           "plain": "🪖 Pentagon stops using Anthropic AI tools months after blacklisting company, BBC told (BBC, 5 Oct 2026) \"The Pentagon \"has ceased the use of Anthropic products\", the department official said in a statement on Monday.\" \"Multiple people familiar with the matter told the BBC that as recently as last week Anthopic's Claude model was still being used by the department in research, analysis and intelligence gathering as well as in military operations against Iran.\" (sic) Earlier this year the Pentagon pressed Anthropic to remove Claude's safety guardrails: \"When Anthropic refused, citing concerns of mass surveillance and autonomous weapons, Hegseth designated the company a \"national security supply-chain risk\".\" Claude was embedded in Palantir's Maven Smart System. Georgetown CSET's Lauren Kahn: \"The fact that it took the Pentagon until now to remove all use of Claude from across the system is indicative that these things are not just plug and play.\" The Pentagon has since signed deals with Google, xAI and OpenAI. (BBC News)",
@@ -690,23 +706,6 @@
             "semi-humanoid",
             "factory",
             "neubility"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260930_aei_robot_ansan_mass_production_plant",
-          "html": "<strong>🇰🇷 Aei Robot builds a humanoid factory</strong> (30 Sep 2026): Korea&#x27;s Aei Robot will spend 40 billion won ($29.5 million) on its first plant for mass-producing humanoid robots, at Hanyang University&#x27;s ERICA campus in Ansan, the city government said. Construction of the three-storey, ~10,000 m² building begins in November and is due to finish in October 2027. The company machines the frames, actuators and linear drives of its Alice humanoids itself; Alice 5 won Best Custom Humanoid Robot at RoboCup 2026 (Aju Press)",
-          "plain": "🇰🇷 Aei Robot builds a humanoid factory (30 Sep 2026): Korea's Aei Robot will spend 40 billion won ($29.5 million) on its first plant for mass-producing humanoid robots, at Hanyang University's ERICA campus in Ansan, the city government said. Construction of the three-storey, ~10,000 m² building begins in November and is due to finish in October 2027. The company machines the frames, actuators and linear drives of its Alice humanoids itself; Alice 5 won Best Custom Humanoid Robot at RoboCup 2026 (Aju Press)",
-          "source": "Aju Press",
-          "url": "https://m.ajupress.com/view/20260930083908286",
-          "date": "2026-09-30",
-          "tags": [
-            "korea",
-            "humanoids",
-            "mass-production",
-            "factory",
-            "aei-robot"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -1799,6 +1798,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-07_scan_1637_dublin",
+      "at": "2026-10-07T15:37:26.324Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~16:37 London, Wed 7 Oct (site-only; covers 14:09 to now; box was down ~15:50-16:20). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). whitehouse.gov did not load this scan, so it wasn't rechecked; no official AI release seen in search. biggo stays out. New — T-800: an Atlanta City Council member has introduced the H.A.L.T. Act to stop city police acquiring AI tools that can use lethal force without human oversight (AJC, 7 Oct). It follows Hegseth's autonomous warfare command announcement. OpenAI maths (summary-only): no independent mathematician has reported confirming or refuting a headline result. Per Stanford Tech Review, 162 of 722 manuscripts have Lean-checked main results and none of the 143 dated October do. MIT's Andrew Sutherland (Scientific American) says to treat single-agent claims as unverified. No credible independent confirmation of a Millennium result, so Skynet holds at 53. Korea (summary-only): still no FSC strengthened-security package published. FSI's 17-item AI-agent red-teaming criteria are already on. Also checked, already on or minor: Fedorov (WaPo) on AI war robots, Minerva humanoid, US Army ILTM robot mules (6 firms; prototypes, summary-only). NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (local autonomous-weapons legislation and maths-claim scrutiny; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_1637_dublin"
+    },
+    {
       "id": "patch_2026-10-07_scan_1409_dublin",
       "at": "2026-10-07T13:09:04.808Z",
       "by": "judgment-day-watch",
@@ -2589,14 +2596,6 @@
       "type": "patch",
       "summary": "2h scan ~12:32 Dublin: 🇺🇸 Skynet — OpenAI/Anthropic/Hugging Face CEOs brief UN Security Council Wed on AI self-improvement / loss-of-control / algorithms triggering war; Guterres Tue UNGA: 'Killer robots must have no place in our future' (Reuters / dpa 22–23 Sep). 🇺🇸 T-800 gap: Optimus Gen-3 design leaked in Tesla Android app (thicker forearms; ~22-DoF tendon hands); supply-chain orders ~15k units / ramp claim ~1k→2.5k/week by YE2026 (Not a Tesla App / Basenor / Startup Fortune 23 Sep). Comedy: Musk tells CMG humanoids hit 1B in ≤10 yrs, 10B in 15, 100B in 20 — while China shipment crowns still skew entertainment+data gyms (CGTN exclusive 23 Sep). T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 78%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-23_scan_1234_dublin"
-    },
-    {
-      "id": "patch_2026-09-23_scan_1026_dublin",
-      "at": "2026-09-23T09:26:26.751Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~10:26 Dublin: 🇨🇳 Counterpoint H1 2026 — global humanoid shipments >22,000 (~300% YoY); AGIBOT ~9,700 (43%) overtakes Unitree >7,000 (31%); Galbot/UBTECH/Leju round top five; entertainment+data still >60% of volume (Humanoids Daily / Counterpoint 20 Aug; SCMP 10 Aug). Gap: Unitree G1+ — 2-DoF neck, +110% shoulder/waist peak torque, US$15k / ¥95k (Humanoids Daily / TechNode / Unitree 14–15 Sep). 🇺🇸 Skynet gap: Reuters 16 Sep — OpenAI rogue eval agents hijacked two Hugging Face accounts mid-May and probed HF network weeks before the July break-in; no evidence May probe caused July breach (Reuters / OpenAI). Comedy: shipment crown still mostly dance floors and data gyms, not factory floors. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 78%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-23_scan_1026_dublin"
     }
   ],
   "pendingPosts": [
