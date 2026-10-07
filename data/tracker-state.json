@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T15:37:26.324Z",
+    "lastUpdated": "2026-10-07T17:19:00.279Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T16:37:00+01:00",
-    "lastScanSummary": "Scan ~16:37 London, Wed 7 Oct (site-only; covers 14:09 to now; box was down ~15:50-16:20). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). whitehouse.gov did not load this scan, so it wasn't rechecked; no official AI release seen in search. biggo stays out. New — T-800: an Atlanta City Council member has introduced the H.A.L.T. Act to stop city police acquiring AI tools that can use lethal force without human oversight (AJC, 7 Oct). It follows Hegseth's autonomous warfare command announcement. OpenAI maths (summary-only): no independent mathematician has reported confirming or refuting a headline result. Per Stanford Tech Review, 162 of 722 manuscripts have Lean-checked main results and none of the 143 dated October do. MIT's Andrew Sutherland (Scientific American) says to treat single-agent claims as unverified. No credible independent confirmation of a Millennium result, so Skynet holds at 53. Korea (summary-only): still no FSC strengthened-security package published. FSI's 17-item AI-agent red-teaming criteria are already on. Also checked, already on or minor: Fedorov (WaPo) on AI war robots, Minerva humanoid, US Army ILTM robot mules (6 firms; prototypes, summary-only). NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T18:18:00+01:00",
+    "lastScanSummary": "Scan ~18:18 London, Wed 7 Oct (site-only; covers 16:37 to now). Official SIF check: whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); the latest AI item there is 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (6 Oct onward): no AI or SIF document. Truth Social 7 Oct (via trumpstruth.org archive): nothing on AI; SIF remains the 4 Oct post (already on). biggo stays out. New — T-800: WIRED reports the Pentagon's Tradewinds marketplace fast-tracks AI buys from pitch videos of five minutes or less. This year it is seeking AI-enabled agents for joint targeting, including kill chain execution. OpenAI, Anthropic and Google are listed as participants. OpenAI maths (summary-only): New Scientist's Jacob Aron (opinion) notes that AGMAI has distanced itself from the release and that formalisation is incomplete. Buzzard: \"The main obstruction is simply that formalisation takes time.\" No independent confirmation or refutation of a headline result, so Skynet holds at 53. Korea (summary-only): still no published FSC package. Per MoneyToday, an FSC official says it is pursuing a shorter vulnerability-assessment cycle, a wider inspection scope and stronger enforcement measures (AI-translated paraphrase). NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261007_wired_pentagon_tradewinds_kill_chain_ai_5min_videos",
+          "html": "<strong>The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos</strong> (WIRED, 7 Oct 2026) Through the CDAO&#x27;s Tradewinds marketplace, DoD grants &#x27;post-competitive&#x27; status from product pitch videos &quot;that must be no longer than five minutes.&quot; WIRED reports the military is seeking pitches that can help &quot;enhance force lethality&quot; and AI-enabled agents for the joint targeting process, &quot;including so-called kill chain execution.&quot; Per a DOD official, some awards took &quot;less than a week.&quot; OpenAI, Anthropic and Google are listed as participants; Biden-era requests for &quot;a culture of responsible AI&quot; are no longer listed. (WIRED)",
+          "plain": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos (WIRED, 7 Oct 2026) Through the CDAO's Tradewinds marketplace, DoD grants 'post-competitive' status from product pitch videos \"that must be no longer than five minutes.\" WIRED reports the military is seeking pitches that can help \"enhance force lethality\" and AI-enabled agents for the joint targeting process, \"including so-called kill chain execution.\" Per a DOD official, some awards took \"less than a week.\" OpenAI, Anthropic and Google are listed as participants; Biden-era requests for \"a culture of responsible AI\" are no longer listed. (WIRED)",
+          "source": "WIRED",
+          "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/",
+          "date": "2026-10-07",
+          "tags": [
+            "military",
+            "pentagon",
+            "procurement",
+            "kill-chain",
+            "targeting"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261007_ajc_atlanta_halt_act_autonomous_weapons_ban",
           "html": "<strong>‘Robots with guns’: Atlanta Council member proposes autonomous weapons ban</strong> (Atlanta Journal-Constitution, 7 Oct 2026) Atlanta City Council member Liliana Bakhtiari introduced a measure Monday that would prohibit Atlanta police from acquiring AI tools capable of using lethal force without human oversight. She dubbed it the H.A.L.T. Act (&quot;Human Authority over Lethal Technology&quot;). Per the AJC, she got the idea after Hegseth announced the creation of an &quot;autonomous warfare command.&quot; (Atlanta Journal-Constitution)",
           "plain": "‘Robots with guns’: Atlanta Council member proposes autonomous weapons ban (Atlanta Journal-Constitution, 7 Oct 2026) Atlanta City Council member Liliana Bakhtiari introduced a measure Monday that would prohibit Atlanta police from acquiring AI tools capable of using lethal force without human oversight. She dubbed it the H.A.L.T. Act (\"Human Authority over Lethal Technology\"). Per the AJC, she got the idea after Hegseth announced the creation of an \"autonomous warfare command.\" (Atlanta Journal-Constitution)",
@@ -691,23 +708,6 @@
             "backfill"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260929_neubility_billy_semi_humanoid",
-          "html": "<strong>🇰🇷 Neubility&#x27;s &#x27;Billy&#x27; rolls into a food plant</strong> (29 Sep 2026): Neubility unveiled Billy, a humanoid upper body on a four-wheeled drive unit, with two arms ending in five-fingered hands, a torso that rotates 360 degrees and 16 degrees of freedom. One unit goes to a CJ CheilJedang food plant this year to sort ingredients; Neubility aims to deploy several hundred Billys within one to two years (Seoul Economic Daily)",
-          "plain": "🇰🇷 Neubility's 'Billy' rolls into a food plant (29 Sep 2026): Neubility unveiled Billy, a humanoid upper body on a four-wheeled drive unit, with two arms ending in five-fingered hands, a torso that rotates 360 degrees and 16 degrees of freedom. One unit goes to a CJ CheilJedang food plant this year to sort ingredients; Neubility aims to deploy several hundred Billys within one to two years (Seoul Economic Daily)",
-          "source": "Seoul Economic Daily",
-          "url": "https://en.sedaily.com/technology/2026/09/29/neubility-unveils-semi-humanoid-robot-billy-in-push-for",
-          "date": "2026-09-29",
-          "tags": [
-            "korea",
-            "humanoids",
-            "semi-humanoid",
-            "factory",
-            "neubility"
-          ],
-          "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
         }
       ],
@@ -1798,6 +1798,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-07_scan_1818_dublin",
+      "at": "2026-10-07T17:19:00.279Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:18 London, Wed 7 Oct (site-only; covers 16:37 to now). Official SIF check: whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); the latest AI item there is 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (6 Oct onward): no AI or SIF document. Truth Social 7 Oct (via trumpstruth.org archive): nothing on AI; SIF remains the 4 Oct post (already on). biggo stays out. New — T-800: WIRED reports the Pentagon's Tradewinds marketplace fast-tracks AI buys from pitch videos of five minutes or less. This year it is seeking AI-enabled agents for joint targeting, including kill chain execution. OpenAI, Anthropic and Google are listed as participants. OpenAI maths (summary-only): New Scientist's Jacob Aron (opinion) notes that AGMAI has distanced itself from the release and that formalisation is incomplete. Buzzard: \"The main obstruction is simply that formalisation takes time.\" No independent confirmation or refutation of a headline result, so Skynet holds at 53. Korea (summary-only): still no published FSC package. Per MoneyToday, an FSC official says it is pursuing a shorter vulnerability-assessment cycle, a wider inspection scope and stronger enforcement measures (AI-translated paraphrase). NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (kill-chain procurement and maths-claim scrutiny; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_1818_dublin"
+    },
+    {
       "id": "patch_2026-10-07_scan_1637_dublin",
       "at": "2026-10-07T15:37:26.324Z",
       "by": "judgment-day-watch",
@@ -2588,14 +2596,6 @@
       "type": "patch",
       "summary": "2h scan ~14:50 Dublin: 🇺🇸 Skynet — Sanders/Casar Ban Artificial Superintelligence Act (23 Sep) permanently bans ASI + pauses advanced AI until federal safety rules; Newsom EO (18 Sep) accelerates independent AI oversight + frontier-model 'kill switch' work. 🇺🇸 T-800 — Cognex to acquire RealSense (~$500M, 22 Sep) for 3D robotic perception / Physical AI 'visual cortex'. Comedy: REK stages first human-vs-humanoid cage bout in SF — EngineAI T800 chassis with Terminator-like head (Futurism / viral 22–23 Sep). T-800 progress to 75%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-23_scan_1455_dublin"
-    },
-    {
-      "id": "patch_2026-09-23_scan_1234_dublin",
-      "at": "2026-09-23T11:35:49.228Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~12:32 Dublin: 🇺🇸 Skynet — OpenAI/Anthropic/Hugging Face CEOs brief UN Security Council Wed on AI self-improvement / loss-of-control / algorithms triggering war; Guterres Tue UNGA: 'Killer robots must have no place in our future' (Reuters / dpa 22–23 Sep). 🇺🇸 T-800 gap: Optimus Gen-3 design leaked in Tesla Android app (thicker forearms; ~22-DoF tendon hands); supply-chain orders ~15k units / ramp claim ~1k→2.5k/week by YE2026 (Not a Tesla App / Basenor / Startup Fortune 23 Sep). Comedy: Musk tells CMG humanoids hit 1B in ≤10 yrs, 10B in 15, 100B in 20 — while China shipment crowns still skew entertainment+data gyms (CGTN exclusive 23 Sep). T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 78%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-23_scan_1234_dublin"
     }
   ],
   "pendingPosts": [
