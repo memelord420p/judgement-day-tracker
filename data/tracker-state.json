@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T17:19:00.279Z",
+    "lastUpdated": "2026-10-07T19:13:59.325Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T18:18:00+01:00",
-    "lastScanSummary": "Scan ~18:18 London, Wed 7 Oct (site-only; covers 16:37 to now). Official SIF check: whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); the latest AI item there is 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (6 Oct onward): no AI or SIF document. Truth Social 7 Oct (via trumpstruth.org archive): nothing on AI; SIF remains the 4 Oct post (already on). biggo stays out. New — T-800: WIRED reports the Pentagon's Tradewinds marketplace fast-tracks AI buys from pitch videos of five minutes or less. This year it is seeking AI-enabled agents for joint targeting, including kill chain execution. OpenAI, Anthropic and Google are listed as participants. OpenAI maths (summary-only): New Scientist's Jacob Aron (opinion) notes that AGMAI has distanced itself from the release and that formalisation is incomplete. Buzzard: \"The main obstruction is simply that formalisation takes time.\" No independent confirmation or refutation of a headline result, so Skynet holds at 53. Korea (summary-only): still no published FSC package. Per MoneyToday, an FSC official says it is pursuing a shorter vulnerability-assessment cycle, a wider inspection scope and stronger enforcement measures (AI-translated paraphrase). NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T20:13:00+01:00",
+    "lastScanSummary": "Scan ~20:13 London, Wed 7 Oct (site-only; covers 18:18 to now). Nothing new qualified for a headline. Official SIF check: whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); latest AI item still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 2:29 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent refereeing, confirmation or refutation of any headline result reported. Explainers (Stanford Tech Review, techscurrent) restate that Lean checks 162 of 722 main results and doesn't confirm that the formal statements match the papers. Skynet holds at 53. Korea: no FSC package yet. The FSC's 6 Oct explanatory note says shorter assessment cycles, a wider inspection scope and stronger enforcement will be announced 'as soon as possible' (AI-translated paraphrase). Per Newspim, compliance fines need a law change. NYC: still no SpaceXAI enforcement filing reported. Seen, not added: CNN's 18 Sep report on an AI-assisted false intelligence report that nearly led to a US intercept of a Chinese ship, recirculating today; it is old news, outside this window. SAFA industry standards body (26 Sep report, aggregator only). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1798,6 +1798,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-07_scan_2013_dublin",
+      "at": "2026-10-07T19:13:59.325Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:13 London, Wed 7 Oct (site-only; covers 18:18 to now). Nothing new qualified for a headline. Official SIF check: whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); latest AI item still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 2:29 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent refereeing, confirmation or refutation of any headline result reported. Explainers (Stanford Tech Review, techscurrent) restate that Lean checks 162 of 722 main results and doesn't confirm that the formal statements match the papers. Skynet holds at 53. Korea: no FSC package yet. The FSC's 6 Oct explanatory note says shorter assessment cycles, a wider inspection scope and stronger enforcement will be announced 'as soon as possible' (AI-translated paraphrase). Per Newspim, compliance fines need a law change. NYC: still no SpaceXAI enforcement filing reported. Seen, not added: CNN's 18 Sep report on an AI-assisted false intelligence report that nearly led to a US intercept of a Chinese ship, recirculating today; it is old news, outside this window. SAFA industry standards body (26 Sep report, aggregator only). All hold: T-800 33, T-1000 5, Skynet 53 (maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_2013_dublin"
+    },
+    {
       "id": "patch_2026-10-07_scan_1818_dublin",
       "at": "2026-10-07T17:19:00.279Z",
       "by": "judgment-day-watch",
@@ -2588,14 +2596,6 @@
       "type": "patch",
       "summary": "2h scan ~16:58 Dublin: 🇨🇳 T-800 — Unitree 19× H2 full-size humanoids at WorldSkills Shanghai opening (22 Sep; CGTN/Global Times/OFweek 23 Sep): first claimed all-AI autonomous full-size swarm dance with 120 humans — onboard LiDAR only (no external base stations), ms-level swarm sync, RL choreography, auto error-correct/reposition. 🇺🇸 T-800 — Optimus Gen 3 design assets found in Tesla Android app APK (thicker forearms, tendon-driven ~22-DoF hands); supply-chain coverage cites ~15k-unit 2026 component orders / ramp toward ~2,500/week by YE2026 (Basenor / Startup Fortune / Not a Tesla App 23 Sep). Comedy: masks off — lead dancer + Unitree pack in matching light-up kits until the reveal (Global Times). T-800 progress to 76%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-23_scan_1700_dublin"
-    },
-    {
-      "id": "patch_2026-09-23_scan_1455_dublin",
-      "at": "2026-09-23T13:55:27.439Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~14:50 Dublin: 🇺🇸 Skynet — Sanders/Casar Ban Artificial Superintelligence Act (23 Sep) permanently bans ASI + pauses advanced AI until federal safety rules; Newsom EO (18 Sep) accelerates independent AI oversight + frontier-model 'kill switch' work. 🇺🇸 T-800 — Cognex to acquire RealSense (~$500M, 22 Sep) for 3D robotic perception / Physical AI 'visual cortex'. Comedy: REK stages first human-vs-humanoid cage bout in SF — EngineAI T800 chassis with Terminator-like head (Futurism / viral 22–23 Sep). T-800 progress to 75%. T-1000 progress to 14%. Skynet progress to 79%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-23_scan_1455_dublin"
     }
   ],
   "pendingPosts": [
