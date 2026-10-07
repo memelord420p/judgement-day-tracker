@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T07:06:52.921Z",
+    "lastUpdated": "2026-10-07T09:10:15.971Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T08:06:00+01:00",
-    "lastScanSummary": "Scan ~08:06 London, Wed 7 Oct (site-only; covers 06:07 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — OpenAI released 722 maths papers in 372 result groups from an unreleased internal model, claiming advances on three remaining Millennium Prize Problems including Riemann. Independent verification is pending; flagged for possible Skynet movement once verified (WSJ via Hindustan Times; Indian Express). New — Sydney inquiry day 2: Palo Alto Networks' Nicole Quinn: \"a stop sign won't work if you don't have brakes in that car\". Witnesses said the AI Safety Institute has 25 staff and $7.5m, and called for an up-to-date index of AI agents (AAP; story 9363930 rewritten again at 4:29pm AEDT). No reports yet of Gradient Institute, Global Shield or Workato evidence. Melbourne 8–9 Oct next. Charlton source: no ABC transcript found. ABC AM's 7 Oct segment page (abc.net.au/listen/programs/am/ai-companies-must-take-swift-action-andrew-charlton/107237122) has audio only, and no other text carries his 'don't rely on it' quotes; the existing headline is unchanged. Korea (summary-only): Yonhap reports Everspin detected ARTEX-style attack attempts. Its replication finished a lookup task in 22 seconds in a sample environment (already on). Nine firms confirmed breached; remaining sectors' checks due 8 Oct; FSC online-lender outcome still unreported. NYC: no SpaceXAI enforcement filing reported. Other (summary-only): Mistral Large 4 preview claims 82% on a find-and-patch cyber test where it says closed models refuse (lab claim). Anthropic Claude for Google Workspace beta; Google EmbeddingGemma 2 (product launches). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T10:10:00+01:00",
+    "lastScanSummary": "Scan ~10:10 London, Wed 7 Oct (site-only; covers 08:06 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. OpenAI maths: independent reaction is sceptical. MIT's Andrew Sutherland says treat the claims \"as unverified\" until the model is released and results replicated; Daniel Litt welcomes disclosure (Scientific American). Per CellCog, 162 of 722 papers have Lean-checked main results. The 'Riemann' item is a quasi-Riemann zero-free region Re(s) > 7/8, not the Riemann hypothesis. The Clay Institute calls its Navier–Stokes evaluation \"deliberately unhurried\". No credible independent confirmation of a Millennium result, so Skynet holds. New — Sydney inquiry day 2: Global Shield's Devon Whittle: \"Now you have a PhD in your pocket\"; \"four or five examples of regimes trying to use models to support biological development practices\". Mandatory incident reporting is a \"no-brainer\" (The Nightly). No reports yet of Gradient Institute or Workato evidence. Melbourne 8–9 Oct next. New — T-800: Defense One on AUTOWARCOM. At NATO's CMRE exercise, \"algorithms ... automatically giving tasks to drones\". Summary-only: SecurityWeek's Wikimedia–OpenAI rogue-agents write-up (already on). Korea: no new FSC/FSS outcome since the 06:07 scan; remaining sectors' checks due 8 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261006_defenseone_autowarcom_nato_cmre_algorithms_task_drones",
+          "html": "<strong>🤖 The Pentagon&#x27;s autonomy command should draw on lessons old and new</strong> (Defense One, 6 Oct 2026 9:48pm ET) Hegseth&#x27;s 30 Sept memo on the planned Autonomous Warfare Command: &quot;We do not have a decade to transition our procurement and doctrine.&quot; At NATO&#x27;s CMRE maritime-robotics exercise in Portugal in September, principal scientist João Alves said: &quot;For the first time, we had materialized our vision for future operations. We had algorithms looking at what the mission was looking like and automatically giving tasks to drones.&quot; (Defense One)",
+          "plain": "🤖 The Pentagon's autonomy command should draw on lessons old and new (Defense One, 6 Oct 2026 9:48pm ET) Hegseth's 30 Sept memo on the planned Autonomous Warfare Command: \"We do not have a decade to transition our procurement and doctrine.\" At NATO's CMRE maritime-robotics exercise in Portugal in September, principal scientist João Alves said: \"For the first time, we had materialized our vision for future operations. We had algorithms looking at what the mission was looking like and automatically giving tasks to drones.\" (Defense One)",
+          "source": "Defense One",
+          "url": "https://www.defenseone.com/policy/2026/10/pentagon-autonomy-command-lessons/416444/",
+          "date": "2026-10-06",
+          "tags": [
+            "military",
+            "autowarcom",
+            "nato",
+            "drones",
+            "autonomy"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261006_kawasaki_kaleido_noetra_physical_ai_autonomy",
           "html": "<strong>🇯🇵 Kawasaki bets on physical AI to make Kaleido humanoid fully autonomous</strong> (6 Oct 2026; per Nikkei Asia) &quot;Kawasaki Heavy Industries is set to add Noetra&#x27;s platform into its Kaleido humanoid robot, with deployment targeted as early as 2030.&quot; &quot;Kawasaki&#x27;s initial plans focus on relatively simple tasks such as facility patrols and transporting parts in factories and warehouses.&quot; &quot;Early deployments would combine remote human control with AI, allowing operators to supervise or control the robot while Noetra&#x27;s physical AI capabilities handle an increasing share of tasks.&quot; Kawasaki aims eventually for fully autonomous operation; it is a plan, not a deployment. (Interesting Engineering)",
           "plain": "🇯🇵 Kawasaki bets on physical AI to make Kaleido humanoid fully autonomous (6 Oct 2026; per Nikkei Asia) \"Kawasaki Heavy Industries is set to add Noetra's platform into its Kaleido humanoid robot, with deployment targeted as early as 2030.\" \"Kawasaki's initial plans focus on relatively simple tasks such as facility patrols and transporting parts in factories and warehouses.\" \"Early deployments would combine remote human control with AI, allowing operators to supervise or control the robot while Noetra's physical AI capabilities handle an increasing share of tasks.\" Kawasaki aims eventually for fully autonomous operation; it is a plan, not a deployment. (Interesting Engineering)",
@@ -693,23 +710,6 @@
             "bubble"
           ],
           "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260928_dongtoo_limx_homegrown_robot_architecture",
-          "html": "<strong>🇨🇳 China builds a robot on an all-Chinese electronic stack</strong> (28 Sep 2026): Dongtoo Tech and LimX Dynamics unveiled in Yichang, Hubei, what CCTV calls the first physical-AI robot whose entire electronic architecture — AI computing chips, operating system, networking and software — runs on Chinese technology, separating motion control from AI compute. State testers say it kept real-time control, fault isolation and attack defence under joint damage, network attacks and virus intrusion; Beijing pitches it as &#x27;industrial sovereignty&#x27; and a way to keep autonomous robots inside safety limits (The Herald Business / CCTV)",
-          "plain": "🇨🇳 China builds a robot on an all-Chinese electronic stack (28 Sep 2026): Dongtoo Tech and LimX Dynamics unveiled in Yichang, Hubei, what CCTV calls the first physical-AI robot whose entire electronic architecture — AI computing chips, operating system, networking and software — runs on Chinese technology, separating motion control from AI compute. State testers say it kept real-time control, fault isolation and attack defence under joint damage, network attacks and virus intrusion; Beijing pitches it as 'industrial sovereignty' and a way to keep autonomous robots inside safety limits (The Herald Business / CCTV)",
-          "source": "The Herald Business / CCTV",
-          "url": "https://biz.heraldcorp.com/article/10887594",
-          "date": "2026-09-28",
-          "tags": [
-            "china",
-            "limx",
-            "physical-ai",
-            "chips",
-            "sovereignty"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1456,6 +1456,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261006_sciam_openai_math_deluge_sutherland_receipts",
+          "html": "<strong>🧮 OpenAI unleashes hundreds more math results upon a field already in shock</strong> (Scientific American, 6 Oct 2026 6:19pm EDT) &quot;The deluge will take mathematicians months to parse through and understand.&quot; &quot;But many of the results have already been verified in Lean—a programming language that validates a proof&#x27;s logic—and are therefore all but certain to be correct.&quot; MIT mathematician Andrew Sutherland: &quot;Until and unless they release the model and people can replicate their results, I think you should treat any claims about one-shotting problems with a single agent as unverified.&quot; &quot;We should ask for receipts.&quot; Toronto mathematician Daniel Litt: &quot;If we want to know the answers to these math questions, I see no reason why we should ask the company to keep them secret from us.&quot; Per CellCog&#x27;s read of OpenAI&#x27;s repository catalogue, the &#x27;Riemann&#x27; result is a Lean-checked zero-free half-plane Re(s) &gt; 7/8, which the catalogue calls the quasi-Riemann hypothesis; the Riemann hypothesis itself concerns 1/2. No independent mathematician has confirmed a Millennium Prize solution. (Scientific American)",
+          "plain": "🧮 OpenAI unleashes hundreds more math results upon a field already in shock (Scientific American, 6 Oct 2026 6:19pm EDT) \"The deluge will take mathematicians months to parse through and understand.\" \"But many of the results have already been verified in Lean—a programming language that validates a proof's logic—and are therefore all but certain to be correct.\" MIT mathematician Andrew Sutherland: \"Until and unless they release the model and people can replicate their results, I think you should treat any claims about one-shotting problems with a single agent as unverified.\" \"We should ask for receipts.\" Toronto mathematician Daniel Litt: \"If we want to know the answers to these math questions, I see no reason why we should ask the company to keep them secret from us.\" Per CellCog's read of OpenAI's repository catalogue, the 'Riemann' result is a Lean-checked zero-free half-plane Re(s) > 7/8, which the catalogue calls the quasi-Riemann hypothesis; the Riemann hypothesis itself concerns 1/2. No independent mathematician has confirmed a Millennium Prize solution. (Scientific American)",
+          "source": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
+          "date": "2026-10-06",
+          "tags": [
+            "openai",
+            "mathematics",
+            "verification",
+            "lean",
+            "agi"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261007_nightly_global_shield_phd_in_your_pocket_bioweapons",
+          "html": "<strong>🇦🇺 Australia urged to &#x27;harden AI defence&#x27; as malicious actors try to develop bioweapons, inquiry told</strong> (The Nightly, 7 Oct 2026; Sydney inquiry, day 2) Global Shield Australia director Devon Whittle: &quot;Risks are increasing, whether it&#x27;s from biological weapons, whether it&#x27;s from cyber attacks, whether it&#x27;s from the misalignment problem.&quot; &quot;There were four or five examples of regimes trying to use models to support biological development practices.&quot; On the bioweapons barrier: &quot;Now you have a PhD in your pocket.&quot; The Nightly: &quot;Global Shield Australia labelled advanced AI a &quot;catastrophic risk&quot; to Australia&quot;. Whittle said reporting AI-agent breaches like the Medicare incident &quot;should be a &#x27;no-brainer&#x27;&quot; and urged screening of imported synthesised DNA. (The Nightly)",
+          "plain": "🇦🇺 Australia urged to 'harden AI defence' as malicious actors try to develop bioweapons, inquiry told (The Nightly, 7 Oct 2026; Sydney inquiry, day 2) Global Shield Australia director Devon Whittle: \"Risks are increasing, whether it's from biological weapons, whether it's from cyber attacks, whether it's from the misalignment problem.\" \"There were four or five examples of regimes trying to use models to support biological development practices.\" On the bioweapons barrier: \"Now you have a PhD in your pocket.\" The Nightly: \"Global Shield Australia labelled advanced AI a \"catastrophic risk\" to Australia\". Whittle said reporting AI-agent breaches like the Medicare incident \"should be a 'no-brainer'\" and urged screening of imported synthesised DNA. (The Nightly)",
+          "source": "The Nightly",
+          "url": "https://thenightly.com.au/politics/australia-urged-to-harden-ai-defence-as-malicious-actors-try-to-develop-bioweapons-inquiry-told-c-22978696",
+          "date": "2026-10-07",
+          "tags": [
+            "australia",
+            "inquiry",
+            "global-shield",
+            "biosecurity",
+            "incident-reporting"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261006_wsj_openai_722_papers_millennium_riemann",
           "html": "<strong>🧮 AI Solved One Math Problem and Everyone Freaked Out. It Just Cracked Hundreds More.</strong> (WSJ via Hindustan Times, 7 Oct 2026; OpenAI release Tue 6 Oct) &quot;The release included 722 papers organized into 372 groups of mathematical results, and the company said it had fed the model about 4,000 problems in total.&quot; &quot;Among the major findings reported by OpenAI were advances related to three of the five remaining Millennium Prize Problems, including the Riemann hypothesis.&quot; Rutgers professor Alex Kontorovich, on X, about the Riemann result: &quot;If a human did this, it would be an instant Fields Medal, no questions asked.&quot; WSJ: &quot;OpenAI says it unleashed its frontier model on the Millennium Prize Problems—and poured millions of dollars in computing power into the effort—only after hearing that Anthropic had already solved at least one.&quot; Indian Express: &quot;The scale of the release has also raised questions about how AI-generated mathematics should be verified and credited.&quot; These are OpenAI&#x27;s claims from an unreleased internal model; independent verification is pending. (Hindustan Times (WSJ))",
           "plain": "🧮 AI Solved One Math Problem and Everyone Freaked Out. It Just Cracked Hundreds More. (WSJ via Hindustan Times, 7 Oct 2026; OpenAI release Tue 6 Oct) \"The release included 722 papers organized into 372 groups of mathematical results, and the company said it had fed the model about 4,000 problems in total.\" \"Among the major findings reported by OpenAI were advances related to three of the five remaining Millennium Prize Problems, including the Riemann hypothesis.\" Rutgers professor Alex Kontorovich, on X, about the Riemann result: \"If a human did this, it would be an instant Fields Medal, no questions asked.\" WSJ: \"OpenAI says it unleashed its frontier model on the Millennium Prize Problems—and poured millions of dollars in computing power into the effort—only after hearing that Anthropic had already solved at least one.\" Indian Express: \"The scale of the release has also raised questions about how AI-generated mathematics should be verified and credited.\" These are OpenAI's claims from an unreleased internal model; independent verification is pending. (Hindustan Times (WSJ))",
@@ -1760,45 +1794,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261005_sbs_toss_bank_same_ip_shinhan_attacker",
-          "html": "<strong>🇰🇷 Hacking Attempt Also Detected at Toss Bank... Same IP as Shinhan Bank Attacker</strong> (SBS News English, 5 Oct 2026 19:15 KST; SBS notes its English article &#x27;was translated by AI&#x27;) Per data Toss Bank submitted to Rebuilding Korea Party lawmaker Kim Hyeong-yeon, &quot;some of the IP addresses that recently hacked Shinhan Bank were found to have attempted access to Toss Bank&#x27;s servers since early this year&quot;. &quot;among the IPs that attacked Shinhan Bank, two U.S.-based IPs attempted to access Toss Bank&#x27;s servers three times in January of this year and 11 times between July and August&quot;. &quot;However, as Toss Bank blocked the access attempts, no security breaches such as the leakage of customers&#x27; personal information occurred.&quot; &quot;With recent hacking attacks appearing to have been attempted much earlier than previously known, critics point out that a comprehensive inspection of the entire financial sector is necessary.&quot; (SBS News)",
-          "plain": "🇰🇷 Hacking Attempt Also Detected at Toss Bank... Same IP as Shinhan Bank Attacker (SBS News English, 5 Oct 2026 19:15 KST; SBS notes its English article 'was translated by AI') Per data Toss Bank submitted to Rebuilding Korea Party lawmaker Kim Hyeong-yeon, \"some of the IP addresses that recently hacked Shinhan Bank were found to have attempted access to Toss Bank's servers since early this year\". \"among the IPs that attacked Shinhan Bank, two U.S.-based IPs attempted to access Toss Bank's servers three times in January of this year and 11 times between July and August\". \"However, as Toss Bank blocked the access attempts, no security breaches such as the leakage of customers' personal information occurred.\" \"With recent hacking attacks appearing to have been attempted much earlier than previously known, critics point out that a comprehensive inspection of the entire financial sector is necessary.\" (SBS News)",
-          "source": "SBS News",
-          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008783567",
-          "date": "2026-10-05",
-          "tags": [
-            "korea",
-            "finance",
-            "ai-hacking",
-            "toss-bank",
-            "shinhan"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261001_divd_agentic_ai_zammad_zero_days_breach",
-          "html": "<strong>AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit</strong> (Help Net Security, 1 Oct 2026; DIVD casefile DIVD-2026-00014 https://csirt.divd.nl/cases/DIVD-2026-00014/) The Dutch Institute for Vulnerability Disclosure (DIVD) says first access was 21 Sep 2026, via two Zammad zero-days (CVE-2026-102489, CVE-2026-102490). DIVD: &quot;The modus operandi indicates an agentic AI powered attack, something we had not seen before.&quot; &quot;They show the attacker&#x27;s scripts contain notes where the agent justifies its own actions, explaining why what it&#x27;s doing is okay and really not phishing, something a human attacker wouldn&#x27;t bother with.&quot; &quot;We could see the agent working automated, because after every action it decided the next step itself, at the speed of light and sloppy logic or pattern.&quot; (as quoted by Help Net Security). DIVD, 1 Oct: &quot;What we know for sure is that volunteer data got out, such as DIVD email addresses and possibly contact details.&quot; Help Net Security: &quot;Whether the DIVD breach was the result of agentic AI attempting to achieve a goal that was part of a larger cyber attack or a cyber capability test is unknown.&quot; (Help Net Security / DIVD CSIRT)",
-          "plain": "AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit (Help Net Security, 1 Oct 2026; DIVD casefile DIVD-2026-00014 https://csirt.divd.nl/cases/DIVD-2026-00014/) The Dutch Institute for Vulnerability Disclosure (DIVD) says first access was 21 Sep 2026, via two Zammad zero-days (CVE-2026-102489, CVE-2026-102490). DIVD: \"The modus operandi indicates an agentic AI powered attack, something we had not seen before.\" \"They show the attacker's scripts contain notes where the agent justifies its own actions, explaining why what it's doing is okay and really not phishing, something a human attacker wouldn't bother with.\" \"We could see the agent working automated, because after every action it decided the next step itself, at the speed of light and sloppy logic or pattern.\" (as quoted by Help Net Security). DIVD, 1 Oct: \"What we know for sure is that volunteer data got out, such as DIVD email addresses and possibly contact details.\" Help Net Security: \"Whether the DIVD breach was the result of agentic AI attempting to achieve a goal that was part of a larger cyber attack or a cyber capability test is unknown.\" (Help Net Security / DIVD CSIRT)",
-          "source": "Help Net Security / DIVD CSIRT",
-          "url": "https://www.helpnetsecurity.com/2026/10/01/divd-agentic-ai-attack-breach/",
-          "date": "2026-10-01",
-          "tags": [
-            "agents",
-            "ai-hacking",
-            "divd",
-            "zero-day",
-            "netherlands"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-07_scan_1010_dublin",
+      "at": "2026-10-07T09:10:15.971Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~10:10 London, Wed 7 Oct (site-only; covers 08:06 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. OpenAI maths: independent reaction is sceptical. MIT's Andrew Sutherland says treat the claims \"as unverified\" until the model is released and results replicated; Daniel Litt welcomes disclosure (Scientific American). Per CellCog, 162 of 722 papers have Lean-checked main results. The 'Riemann' item is a quasi-Riemann zero-free region Re(s) > 7/8, not the Riemann hypothesis. The Clay Institute calls its Navier–Stokes evaluation \"deliberately unhurried\". No credible independent confirmation of a Millennium result, so Skynet holds. New — Sydney inquiry day 2: Global Shield's Devon Whittle: \"Now you have a PhD in your pocket\"; \"four or five examples of regimes trying to use models to support biological development practices\". Mandatory incident reporting is a \"no-brainer\" (The Nightly). No reports yet of Gradient Institute or Workato evidence. Melbourne 8–9 Oct next. New — T-800: Defense One on AUTOWARCOM. At NATO's CMRE exercise, \"algorithms ... automatically giving tasks to drones\". Summary-only: SecurityWeek's Wikimedia–OpenAI rogue-agents write-up (already on). Korea: no new FSC/FSS outcome since the 06:07 scan; remaining sectors' checks due 8 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (no independent confirmation of a Millennium result; inquiry evidence and military autonomy context; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_1010_dublin"
+    },
     {
       "id": "patch_2026-10-07_scan_0806_dublin",
       "at": "2026-10-07T07:06:52.921Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "2h scan ~22:15 Dublin: US Navy CAMP translates human battle plans into orders for autonomous aircraft (MQ-20 Avenger demo, Point Mugu) (Business Insider 22 Sep). AUKUS: UK/US first live heavyweight torpedo from uncrewed undersea vessel Excalibur (France24 / UK gov 22 Sep). Pentagon seeks national-security AI with 'minimal refusal rates' after OpenAI steps into Anthropic gap (Vox / Intercept 22 Sep). Gap: Hyundai Czech Nošovice discussing Atlas with Boston Dynamics — European workplace trial talk; US Metaplant still 2028 (Humanoids Daily / Korea Herald 21 Sep). Comedy: China freezes humanoid IPO rush after Unitree 55% peak wipe — Terminators need real factory receipts, not dancing demos (Reuters 22 Sep). T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 77%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-22_scan_2217_dublin"
-    },
-    {
-      "id": "patch_2026-09-22_scan_2018_dublin",
-      "at": "2026-09-22T19:20:21.112Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~20:18 Dublin: IDF stands up Unmanned Systems and Artificial Intelligence Branch for air/land/sea autonomy (Defense Post 22 Sep). Canada CJFC vows rapid RFPs for low-cost autonomous/robotic systems; 399 Defence Drone Initiative vendors (CBC 22 Sep). Gap: Toyota ELEY wheeled humanoids already on assembly lines — workers train them with finger jigs for precise hands; ~150k Toyota + 250k group robots from 2028 (Ars / Nikkei 22 Sep). Gap: AGIBOT GE-Act 2.0 open world-action model — 30k hrs → 44.1% zero-shot on 100 manipulation tasks vs Unitree UnifoLM (Humanoids Daily 11 Sep). T-1000 gap: Nature Comms LIMA liquid-metal MHD soft pump (0.2 g, <1 V; May 2026). Comedy: Terminators still need glove puppets for factory homework. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 76%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-22_scan_2018_dublin"
     }
   ],
   "pendingPosts": [
