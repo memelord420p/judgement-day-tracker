@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T03:07:35.369Z",
+    "lastUpdated": "2026-10-07T05:07:48.551Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T04:07:00+01:00",
-    "lastScanSummary": "Scan ~04:07 London, Wed 7 Oct (site-only; covers 02:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order for it. whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct), with nothing new. Federal Register and Truth Social: nothing new on AI. biggo stays out. New — Australia: Digital Economy Minister Andrew Charlton on OpenAI's apology: \"We take OpenAI's apology at face value, but we don't rely on it\"; notification \"inadequate in its timeliness and ... inadequate in its nature\". The rapid review taskforce will examine whether the government has legal recourse (AAP). New — Korea: the Financial Security Institute released 17-item AI-agent security evaluation criteria for financial-sector red-teaming. Its example: an agent told to improve performance could shut down antivirus software (Newsis, AI-translated). Korea follow-up (summary-only): emergency checks by banks and card firms found no further leaks beyond the nine confirmed firms. The FSS turned its Shinhan Bank probe into a formal on-site inspection. It counts 33 attacker IPs, 28 after duplicates (already on) (News1). Remaining sectors are due 8 Oct. Yonhap reports ARTEX-style attack attempts (ARTEX already on). FSC online-lender outcome still unreported. Watch: Sydney inquiry Wed 7 Oct session (programme: Gradient Institute, Global Shield, Palo Alto Networks, Workato) — no evidence reported yet at scan time. Next: Melbourne 8–9 Oct. NYC: no SpaceXAI enforcement filing reported. Summary-only: NPR on conflict-of-interest worries over Musk and Luckey leading the Pentagon's Project Meridian study (already on). Trump at Anduril's Arsenal-2 Baltimore shipyard said \"autonomous subs\" would be built there; Anduril said that is not the case (WYPR). The Manila Times repeats the Wikimedia–OpenAI rogue-agents story (already on). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T06:07:00+01:00",
+    "lastScanSummary": "Scan ~06:07 London, Wed 7 Oct (site-only; covers 04:07 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it. whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — Korea: Money Today reports the suspected AI-agent attacks hit loan-recruiter and staff sales-support sites that current rules exclude from mandatory vulnerability checks. The FSC is reviewing moving checks from at least once to at least twice a year (AI-translated). Korea (summary-only): Financial News' longer piece on the FSI's 17-item AI-agent criteria (already on). The FSC confirms the second network-separation pilot selection is postponed, but the policy stance is unchanged (NewsWay, Korea Financial Times). The FSC online-lender outcome is still unreported. Sydney inquiry, Wed 7 Oct (summary-only): AAP rewrote story 9363930 at 2:06pm AEDT as 'Warning Australia's AI advantages being bled overseas', on sovereign-AI evidence. Vault Cloud's Rupert Taylor-Price: \"We've seen this economic extraction pattern before\". AIML's Simon Lucey: training onshore gives \"more agency over how the process is done, and maybe even more intimate knowledge of the inner workings\". Note: the Charlton 'Don't rely on it' headline posted at 04:07 used the earlier version of that same story. The live page no longer carries those quotes; they were verified against the 11:06am version, and ABC AM aired the Charlton interview. No reports yet of Gradient Institute, Global Shield, Palo Alto Networks or Workato evidence. Melbourne 8–9 Oct next. NYC: no SpaceXAI enforcement filing reported. Other: The Hindu op-ed on the OpenAI Australia hack (commentary, summary-only). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261007_mt_fsc_ai_agent_hacks_hit_unregulated_outer_sites",
+          "html": "<strong>🇰🇷 Decade-old rules that never knew AI… financial firms&#x27; vulnerability checks to be sharply tightened to &#x27;twice a year or more&#x27;</strong> (Money Today, 7 Oct 2026 06:00 KST; headline and quotes AI-translated from Korean; original headline: &#x27;AI 몰랐던 10년 전 규제 그대로…금융사 &#x27;연 2회 이상&#x27; 취약점검 대폭 강화&#x27;) &quot;The hacking attacks presumed to be by AI agents took place on financial firms&#x27; &#x27;outer&#x27; systems, but it turned out those were not actually subject to legally required vulnerability checks.&quot; &quot;The suspected AI-agent attacks occurred on loan-recruiter websites and internal sales-support sites for employees, which under current rules are not included in the scope of checks.&quot; Per Money Today, the Financial Services Commission is reviewing a plan to &quot;shorten the vulnerability analysis and assessment cycle for electronic financial infrastructure from the current &#x27;at least once a year&#x27; to at least twice a year&quot;. A financial-sector official: &quot;Just as one rotten fruit spoils the fruit around it, if websites without financial transactions are vulnerable, even customer internet banking cannot be guaranteed safe.&quot; A pending amendment would bring in enforcement fines &quot;of up to 50 million won&quot;. (Money Today (머니투데이))",
+          "plain": "🇰🇷 Decade-old rules that never knew AI… financial firms' vulnerability checks to be sharply tightened to 'twice a year or more' (Money Today, 7 Oct 2026 06:00 KST; headline and quotes AI-translated from Korean; original headline: 'AI 몰랐던 10년 전 규제 그대로…금융사 '연 2회 이상' 취약점검 대폭 강화') \"The hacking attacks presumed to be by AI agents took place on financial firms' 'outer' systems, but it turned out those were not actually subject to legally required vulnerability checks.\" \"The suspected AI-agent attacks occurred on loan-recruiter websites and internal sales-support sites for employees, which under current rules are not included in the scope of checks.\" Per Money Today, the Financial Services Commission is reviewing a plan to \"shorten the vulnerability analysis and assessment cycle for electronic financial infrastructure from the current 'at least once a year' to at least twice a year\". A financial-sector official: \"Just as one rotten fruit spoils the fruit around it, if websites without financial transactions are vulnerable, even customer internet banking cannot be guaranteed safe.\" A pending amendment would bring in enforcement fines \"of up to 50 million won\". (Money Today (머니투데이))",
+          "source": "Money Today (머니투데이)",
+          "url": "https://www.mt.co.kr/finance/2026/10/07/2026100616561411974",
+          "date": "2026-10-07",
+          "tags": [
+            "korea",
+            "finance",
+            "ai-hacking",
+            "fsc",
+            "regulation"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261007_aap_charlton_openai_apology_dont_rely_on_it",
           "html": "<strong>🇦🇺 &#x27;Don&#x27;t rely on it&#x27;: eyes narrow at OpenAI apology</strong> (AAP, 7 Oct 2026 11:06am AEDT) Digital Economy Minister Andrew Charlton, on ABC Radio Wednesday: &quot;We take OpenAI&#x27;s apology at face value, but we don&#x27;t rely on it.&quot; He said there was no evidence Altman knew of the breach when he met Marles, adding: &quot;it is inappropriate for a company like this to have such a long period of time between when they conduct a hack like this and when they notify.&quot; &quot;It (the notification) was inadequate in its timeliness and it was inadequate in its nature.&quot; Inquiry chair Jo Briskey, on whether laws should force disclosure: &quot;There&#x27;s clearly something that we can do here, and the tech companies are open to it, which is good to know.&quot; AAP: &quot;A rapid review task force set up by Canberra in the wake of the Medicare hack is also expected to report in a matter of weeks, and will examine whether the government has any recourse to punish OpenAI legally.&quot; (The Canberra Times (AAP))",
           "plain": "🇦🇺 'Don't rely on it': eyes narrow at OpenAI apology (AAP, 7 Oct 2026 11:06am AEDT) Digital Economy Minister Andrew Charlton, on ABC Radio Wednesday: \"We take OpenAI's apology at face value, but we don't rely on it.\" He said there was no evidence Altman knew of the breach when he met Marles, adding: \"it is inappropriate for a company like this to have such a long period of time between when they conduct a hack like this and when they notify.\" \"It (the notification) was inadequate in its timeliness and it was inadequate in its nature.\" Inquiry chair Jo Briskey, on whether laws should force disclosure: \"There's clearly something that we can do here, and the tech companies are open to it, which is good to know.\" AAP: \"A rapid review task force set up by Canberra in the wake of the Medicare hack is also expected to report in a matter of weeks, and will examine whether the government has any recourse to punish OpenAI legally.\" (The Canberra Times (AAP))",
@@ -1777,28 +1794,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261005_etnews_artex_reproduction_088_dollars",
-          "html": "<strong>🇰🇷 [Exclusive] The AI hacking that hit the financial sector… was possible for &#x27;1 dollar&#x27;</strong> (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: &#x27;[단독] 금융권 덮친 AI 해킹…&#x27;1달러&#x27;면 가능했다&#x27;) Electronic Times: it &quot;has been confirmed that mass automated AI attacks are possible at a cost of less than 1 dollar.&quot; &quot;On the 5th, when AI security firm Everspin reproduced an attack by &#x27;ARTEX&#x27;, the AI autonomous penetration-testing tool used in attacks on multiple financial firms, it completed the target task in 22 seconds, and the token cost used was only about 0.88 dollars.&quot; &quot;The reproduction was carried out by building a sample demonstration web app similar to financial-sector sites.&quot; &quot;About 44,000 tokens were used in the reproduction; even estimating the cost based on the frontier AI models OpenAI&#x27;s &#x27;ChatGPT&#x27; and Anthropic&#x27;s &#x27;Claude&#x27;, it is around 0.88 dollars.&quot; &quot;Many of the recent chain of financial-sector breaches are presumed to have exploited ARTEX.&quot; &quot;At Shinhan Bank, 25,727 records were leaked in about 30 hours. A simple average works out to about one every 4 seconds.&quot; Everspin CEO Ha Young-bin: &quot;Every time attackers change methods, we must make them spend more time, computing and tokens so that mass lookups using AI do not pay off.&quot; (Electronic Times (전자신문))",
-          "plain": "🇰🇷 [Exclusive] The AI hacking that hit the financial sector… was possible for '1 dollar' (5 Oct 2026; headline and quotes AI-translated from Korean; original headline: '[단독] 금융권 덮친 AI 해킹…'1달러'면 가능했다') Electronic Times: it \"has been confirmed that mass automated AI attacks are possible at a cost of less than 1 dollar.\" \"On the 5th, when AI security firm Everspin reproduced an attack by 'ARTEX', the AI autonomous penetration-testing tool used in attacks on multiple financial firms, it completed the target task in 22 seconds, and the token cost used was only about 0.88 dollars.\" \"The reproduction was carried out by building a sample demonstration web app similar to financial-sector sites.\" \"About 44,000 tokens were used in the reproduction; even estimating the cost based on the frontier AI models OpenAI's 'ChatGPT' and Anthropic's 'Claude', it is around 0.88 dollars.\" \"Many of the recent chain of financial-sector breaches are presumed to have exploited ARTEX.\" \"At Shinhan Bank, 25,727 records were leaked in about 30 hours. A simple average works out to about one every 4 seconds.\" Everspin CEO Ha Young-bin: \"Every time attackers change methods, we must make them spend more time, computing and tokens so that mass lookups using AI do not pay off.\" (Electronic Times (전자신문))",
-          "source": "Electronic Times (전자신문)",
-          "url": "https://www.etnews.com/20261005000110",
-          "date": "2026-10-05",
-          "tags": [
-            "korea",
-            "finance",
-            "ai-hacking",
-            "artex",
-            "everspin"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-07_scan_0607_dublin",
+      "at": "2026-10-07T05:07:48.551Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:07 London, Wed 7 Oct (site-only; covers 04:07 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it. whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — Korea: Money Today reports the suspected AI-agent attacks hit loan-recruiter and staff sales-support sites that current rules exclude from mandatory vulnerability checks. The FSC is reviewing moving checks from at least once to at least twice a year (AI-translated). Korea (summary-only): Financial News' longer piece on the FSI's 17-item AI-agent criteria (already on). The FSC confirms the second network-separation pilot selection is postponed, but the policy stance is unchanged (NewsWay, Korea Financial Times). The FSC online-lender outcome is still unreported. Sydney inquiry, Wed 7 Oct (summary-only): AAP rewrote story 9363930 at 2:06pm AEDT as 'Warning Australia's AI advantages being bled overseas', on sovereign-AI evidence. Vault Cloud's Rupert Taylor-Price: \"We've seen this economic extraction pattern before\". AIML's Simon Lucey: training onshore gives \"more agency over how the process is done, and maybe even more intimate knowledge of the inner workings\". Note: the Charlton 'Don't rely on it' headline posted at 04:07 used the earlier version of that same story. The live page no longer carries those quotes; they were verified against the 11:06am version, and ABC AM aired the Charlton interview. No reports yet of Gradient Institute, Global Shield, Palo Alto Networks or Workato evidence. Melbourne 8–9 Oct next. NYC: no SpaceXAI enforcement filing reported. Other: The Hindu op-ed on the OpenAI Australia hack (commentary, summary-only). All hold: T-800 33, T-1000 5, Skynet 53 (regulatory tightening and inquiry evidence on sovereign AI; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_0607_dublin"
+    },
     {
       "id": "patch_2026-10-07_scan_0407_dublin",
       "at": "2026-10-07T03:07:35.369Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "2h scan ~18:27 Dublin: Boston Dynamics RMAC full-scale at Hyundai Metaplant Georgia — Atlas training auto parts logistics/sequencing; joins HMGMA processes from 2028; 25k Atlas plan; US plant 30k robots/yr; 10× expansion 2027 (BD / SED / Asiae 21–22 Sep). Gap: Tesla Optimus Gen-3 China Yangtze Delta supplier audits (Tuopu/Sanhua/Joyson; orders already placed; Fremont line claimed 1M/yr capacity) (CnEVPost 21 Sep / Global Times 22 Sep). Gap: Toyota estimates ~¥1T/yr factory automation from 2028; ~400k robots across Toyota/group/suppliers — humanoid + non-humanoid mix, not a pure Ellie army (Reuters 18 Sep). T-1000 gap: Nature Communications multi-component liquid-metal interfacial coordination — >90% polymer self-heal; self-heal TIMs (lab; Feb 2026). Comedy: Atlas enrolled in factory school while China already runs 70+ robot campuses. T-800 progress to 73%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-22_scan_1827_dublin"
-    },
-    {
-      "id": "patch_2026-09-22_scan_1646_backfill",
-      "at": "2026-09-22T15:56:06.051Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Backfill after 16:46 scan: 20 countries+EU call for frontier-AI oversight institution (US/China absent) (Al Jazeera 22 Sep). T-1000: SIAT Matter gallium-liquid-metal STERS hydrogel — one NIR exposure reshapes minutes→weeks, up to 4 weeks reactive chemistry; soft brain–electrode adapts to rat-pup growth (EurekAlert 21 Sep). Gap: Hello Robot Stretch 4 at Disrupt — wheeled one-arm assist sold out first production run (TechCrunch 22 Sep). Comedy: IFR ~7,000 humanoid sales worldwide 2025 vs 542k industrial installs 2024 — many research/data bots (Reuters 21 Sep). Scores unchanged. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-22_scan_1646_backfill"
     }
   ],
   "pendingPosts": [
