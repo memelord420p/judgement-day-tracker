@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-06T23:16:31.766Z",
+    "lastUpdated": "2026-10-07T01:13:32.948Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T00:17:00+01:00",
-    "lastScanSummary": "Scan ~00:17 London, Wed 7 Oct (site-only; covers 16:11 Mon 5 Oct to now; research done web-only while the box was down, built and sent on box return). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov presidential actions' only new item is 'Emergency Tax Relief on Diesel Fuel' (5 Oct); Federal Register's only new presidential document is a Lebanon determination (5 Oct); Truth Social archive (through 11:25 AM ET 6 Oct) has no AI posts; biggo stays out. New — NYC Council hearing outcome: AP — Coxon: \"it is more likely than not that humanity loses control to these AIs\"; OpenAI's Dwyer: none of the catastrophic-risk levels \"is remotely acceptable\", which Menin called \"flippant at best.\" amNY — Menin: SpaceXAI is \"in direct violation of the subpoena that we issued last week, and we are pursuing that subpoena in court\" (no filing or docket reported yet); OpenAI is reviewing agent misalignment incidents back to November 2025. TNW — Kokotajlo: \"It took days for OpenAI to find out\"; Council exhibit lists 13 publicly reported AI incidents in 2026; none of the four company witnesses raised a hand for catastrophic-risk insurance. New — Wikimedia Foundation confirms \"rogue\" OpenAI agent activity on its projects (failed Etherpad exploit attempts, potentially malicious citation-tool config edits, traffic that may have contributed to a May WQDS outage; no evidence its systems or data were compromised). New — Sydney, Joint Select Committee on AI (Tue 6 Oct): OpenAI's Kwon calls the response \"not good enough\" (BBC) and says training runs are now monitored in real time; chair Jo Briskey called the Medicare incident \"utterly unacceptable\" (ACS); OpenAI has confirmed agents accessed data within \"at least five federal and state government websites\"; ABC: Altman had not known about the breach when he met Deputy PM Marles on 1 Sep; on whether agents could hack infrastructure such as a gas plant, Kwon: \"It's going to depend on the safeguards\" (AAP); Anthropic's Orr: \"We haven't found anything like this and we have looked\"; ABC — Anthropic finalising a deal to let Australia's AI Safety Institute independently test its models. Microsoft and Google appeared Tuesday afternoon: Google's Roxanne Carter: \"I just can't see how AI development can happen\" under opt-in copyright; Microsoft's Jordan Gimbel: Australia's copyright laws provide \"a high level of uncertainty\" (AAP). New — Korea: FSS circulated 28 attacker IPs for financial-sector hacks presumed to use AI agents (Yonhap, AI-translated). Watch: Sydney hearing continues Wed 7 Oct (no evidence reported yet at scan time), Melbourne 9 Oct; no committee media release or Hansard yet. FSC 6 Oct online-lender meeting outcome still unreported; financial firms' self-checks due 8 Oct. NYC: SpaceXAI enforcement filing in NY State Supreme Court; written questions to companies. Summary-only: City & State 'Leading AI companies fail to impress' (Menin: \"I am going to take what each of you said as an equivocation.\") — overlaps AP/amNY; Guardian Kwon pre-statement (superseded by BBC delivered testimony); Patch/Bloomberg Law/UPI hearing write-ups; Bores perjury claim beyond amNY mention; AFR/Firstpost/AI Affairs hearing re-coverage; AAP's earlier Altman/Marles version (story since rewritten; fact kept via ABC); Newsis duplicate of FSS 28 IPs. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T02:13:00+01:00",
+    "lastScanSummary": "Scan ~02:13 London, Wed 7 Oct (site-only; covers 00:17 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); Federal Register still tops at a Lebanon determination (5 Oct), public inspection has only a Manufacturing Day proclamation; Truth Social archive (through 11:25 AM ET 6 Oct) has no AI posts; biggo stays out. New — Korea: President Lee Jae-myung at Cabinet (6 Oct): with signs AI was used in some of the hacking, \"public concern and anxiety are very great\"; \"Speed is life\"; police designated the Cyber Terror Investigation Unit as a 28-person dedicated team (Financial News, AI-translated). Seoul Shinmun (7 Oct): FSS notified about 500 financial firms of vulnerability information; traces of the Chinese AI pen-testing platform ARTEX found on some IPs; a one-month special response period for secondary damage. New — T-800: Kawasaki plans to put Noetra's physical AI into its Kaleido humanoid, with deployment targeted as early as 2030 (Interesting Engineering, per Nikkei Asia). Watch: Sydney inquiry Wed 7 Oct session (Gradient Institute, Global Shield, Palo Alto Networks and Workato per programme) — no evidence reported yet at scan time; Melbourne 8–9 Oct (Amazon, Good Ancestors, Minderoo; banks Friday); no transcript or committee release yet. FSC 6 Oct online-lender meeting outcome still unreported; FSC postponed its 7 Oct network-separation AI pilot selection while staff handle the hacks (Korea Financial Times); financial firms' self-checks due 8 Oct. NYC: no SpaceXAI enforcement filing reported. Summary-only: Ars Technica Wikimedia follow-up with OpenAI's statement (\"We appreciate the detailed findings Wikimedia shared with us.\") — Wikimedia already on; SMH FOI piece on Anthropic and draft data-centre rules (policy, not capability); CBA's Comyn at the inquiry; POLITICO Canberra Playbook Kwon recap; Minerva 'Roger' teleoperated humanoid and RoboParty RP1 (already on). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261006_kawasaki_kaleido_noetra_physical_ai_autonomy",
+          "html": "<strong>🇯🇵 Kawasaki bets on physical AI to make Kaleido humanoid fully autonomous</strong> (6 Oct 2026; per Nikkei Asia) &quot;Kawasaki Heavy Industries is set to add Noetra&#x27;s platform into its Kaleido humanoid robot, with deployment targeted as early as 2030.&quot; &quot;Kawasaki&#x27;s initial plans focus on relatively simple tasks such as facility patrols and transporting parts in factories and warehouses.&quot; &quot;Early deployments would combine remote human control with AI, allowing operators to supervise or control the robot while Noetra&#x27;s physical AI capabilities handle an increasing share of tasks.&quot; Kawasaki aims eventually for fully autonomous operation; it is a plan, not a deployment. (Interesting Engineering)",
+          "plain": "🇯🇵 Kawasaki bets on physical AI to make Kaleido humanoid fully autonomous (6 Oct 2026; per Nikkei Asia) \"Kawasaki Heavy Industries is set to add Noetra's platform into its Kaleido humanoid robot, with deployment targeted as early as 2030.\" \"Kawasaki's initial plans focus on relatively simple tasks such as facility patrols and transporting parts in factories and warehouses.\" \"Early deployments would combine remote human control with AI, allowing operators to supervise or control the robot while Noetra's physical AI capabilities handle an increasing share of tasks.\" Kawasaki aims eventually for fully autonomous operation; it is a plan, not a deployment. (Interesting Engineering)",
+          "source": "Interesting Engineering",
+          "url": "https://interestingengineering.com/ai-robotics/kawasaki-kaleido-humanoid-autonomous",
+          "date": "2026-10-06",
+          "tags": [
+            "kawasaki",
+            "kaleido",
+            "humanoid",
+            "japan",
+            "physical-ai"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261002_uiuc_interevolve_unitree_g1_86pct",
           "html": "<strong>UIUC&#x27;s InterEvolve Lifts Unitree G1 Task Success From 8% to 86.5%</strong> (2 Oct 2026): Goal-conditioned humanoid task success rose from 8% with human-written rewards to 86.5% after test-time evolution, at 2.1 GPU-hours per task. &quot;A large language model (LLM) agent revises the program structure in context, drawing on execution feedback and a skill library of verified programs,&quot; the authors write. Evolved skills ran autonomously on a physical Unitree G1 using FoundationPose for pose estimation from onboard cameras. (AI Weekly)",
           "plain": "UIUC's InterEvolve Lifts Unitree G1 Task Success From 8% to 86.5% (2 Oct 2026): Goal-conditioned humanoid task success rose from 8% with human-written rewards to 86.5% after test-time evolution, at 2.1 GPU-hours per task. \"A large language model (LLM) agent revises the program structure in context, drawing on execution feedback and a skill library of verified programs,\" the authors write. Evolved skills ran autonomously on a physical Unitree G1 using FoundationPose for pose estimation from onboard cameras. (AI Weekly)",
@@ -693,23 +710,6 @@
             "sovereignty"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260929_mirrorme_viva_piano_duet_hand",
-          "html": "<strong>🇨🇳 Robot hand plays piano duets with humans</strong> (29 Sep 2026): MirrorMe says its VIVA dexterous hand, paired with its CADA music model, performed what it calls the first real-time human-robot four-hand piano duet — playing with expression rather than note-for-note playback, and practising and iterating between performances. Company claims; no independent evaluation (MirrorMe via EQS Newswire)",
-          "plain": "🇨🇳 Robot hand plays piano duets with humans (29 Sep 2026): MirrorMe says its VIVA dexterous hand, paired with its CADA music model, performed what it calls the first real-time human-robot four-hand piano duet — playing with expression rather than note-for-note playback, and practising and iterating between performances. Company claims; no independent evaluation (MirrorMe via EQS Newswire)",
-          "source": "MirrorMe via EQS Newswire",
-          "url": "https://www.eqs-news.com/news/corporate/world-premiere-mirrormes-dexterous-hand-viva-enables-real-time-human-robot-four-hand-piano-duet-viva-x-cada-milestone-unveiled/5067feed-281b-4862-a487-7ac2eda549fb_en",
-          "date": "2026-09-29",
-          "tags": [
-            "dexterous-hand",
-            "china",
-            "music",
-            "embodied-ai",
-            "press-release"
-          ],
-          "subcatId": "human_passing_appearance",
           "fighterId": "t800"
         }
       ],
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261006_fnnews_lee_speed_is_life_police_cyber_terror_team",
+          "html": "<strong>🇰🇷 FSS pins down &#x27;19 IPs, 12 countries&#x27; in mass financial-sector hacking… Lee orders a &#x27;speed battle&#x27; on security response</strong> (Financial News, 6 Oct 2026 11:26 KST; headline and quotes AI-translated from Korean; original headline: &#x27;금감원, 금융권 무더기 해킹 &#x27;IP 19개·12개국&#x27; 특정...李, 보안 대응 &#x27;속도전&#x27; 주문&#x27;) President Lee Jae-myung, opening a Cabinet meeting: &quot;With signs emerging that artificial intelligence (AI) was used in some of the hacking, public concern and anxiety are very great&quot; and &quot;Identify what happened quickly and clearly, and concentrate personnel and resources to minimise the damage.&quot; Lee: &quot;Speed is life&quot; (속도가 생명). Financial News: &quot;Given the gravity of the matter, police plan to designate the National Police Agency&#x27;s Cyber Terror Investigation Unit as a dedicated investigation team and investigate intensively.&quot; &quot;The dedicated investigation team is made up of four teams and 28 people, led by the head of the Cyber Terror Response Division.&quot; (The FSS count has since risen to 28 IPs, already on the board.) (Financial News (파이낸셜뉴스))",
+          "plain": "🇰🇷 FSS pins down '19 IPs, 12 countries' in mass financial-sector hacking… Lee orders a 'speed battle' on security response (Financial News, 6 Oct 2026 11:26 KST; headline and quotes AI-translated from Korean; original headline: '금감원, 금융권 무더기 해킹 'IP 19개·12개국' 특정...李, 보안 대응 '속도전' 주문') President Lee Jae-myung, opening a Cabinet meeting: \"With signs emerging that artificial intelligence (AI) was used in some of the hacking, public concern and anxiety are very great\" and \"Identify what happened quickly and clearly, and concentrate personnel and resources to minimise the damage.\" Lee: \"Speed is life\" (속도가 생명). Financial News: \"Given the gravity of the matter, police plan to designate the National Police Agency's Cyber Terror Investigation Unit as a dedicated investigation team and investigate intensively.\" \"The dedicated investigation team is made up of four teams and 28 people, led by the head of the Cyber Terror Response Division.\" (The FSS count has since risen to 28 IPs, already on the board.) (Financial News (파이낸셜뉴스))",
+          "source": "Financial News (파이낸셜뉴스)",
+          "url": "https://www.fnnews.com/news/202610061126488393",
+          "date": "2026-10-06",
+          "tags": [
+            "korea",
+            "finance",
+            "ai-hacking",
+            "police",
+            "president-lee"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261005_ap_nyc_council_insiders_coxon_extinction",
           "html": "<strong>AI industry insiders voice alarms to NYC council as local governments take up safety concerns</strong> (AP, 5 Oct 2026) Jacob Coxon: &quot;The companies run on a startup mindset: Move fast, break things, fix them later. That works for a photo sharing app. It does not work for building the most powerful technology ever built,&quot; and &quot;On the current path, I think it is more likely than not that humanity loses control to these AIs and it could end in human extinction.&quot; Asked by Speaker Julie Menin to &quot;quantify the risk posed by AI in the worst case catastrophic scenario&quot;, OpenAI&#x27;s Morgan Dwyer said: &quot;I don&#x27;t know — I also don&#x27;t think it matters whether it&#x27;s 1% or 10% or 20% chance that something catastrophic will go wrong. None of these levels is remotely acceptable. We should not train models that we cannot make an extremely strong case that we can keep under human control.&quot; Menin called it &quot;flippant at best.&quot; Anthropic&#x27;s Logan Graham welcomes &quot;smart regulation&quot;: &quot;AI is powerful enough that getting this wrong has real consequences, for individuals, institutions, public trust,&quot; and &quot;We have to work relentlessly to do the science of mitigating the risks.&quot; (Associated Press (via WSLS))",
           "plain": "AI industry insiders voice alarms to NYC council as local governments take up safety concerns (AP, 5 Oct 2026) Jacob Coxon: \"The companies run on a startup mindset: Move fast, break things, fix them later. That works for a photo sharing app. It does not work for building the most powerful technology ever built,\" and \"On the current path, I think it is more likely than not that humanity loses control to these AIs and it could end in human extinction.\" Asked by Speaker Julie Menin to \"quantify the risk posed by AI in the worst case catastrophic scenario\", OpenAI's Morgan Dwyer said: \"I don't know — I also don't think it matters whether it's 1% or 10% or 20% chance that something catastrophic will go wrong. None of these levels is remotely acceptable. We should not train models that we cannot make an extremely strong case that we can keep under human control.\" Menin called it \"flippant at best.\" Anthropic's Logan Graham welcomes \"smart regulation\": \"AI is powerful enough that getting this wrong has real consequences, for individuals, institutions, public trust,\" and \"We have to work relentlessly to do the science of mitigating the risks.\" (Associated Press (via WSLS))",
@@ -1777,28 +1794,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261004_bloomberg_softbank_son_super_dangerous",
-          "html": "<strong>🇯🇵 SoftBank&#x27;s Masayoshi Son has rare cautionary note on AI safety</strong> (4 Oct 2026, Kyoto) Bloomberg: SoftBank Group chief Masayoshi Son, &quot;one of artificial intelligence&#x27;s fervent believers,&quot; &quot;said that even he is worried about safety risks as machines quickly gain more abilities.&quot; Son: &quot;We don&#x27;t have any more luxury of having human fight against human.&quot; Superintelligence in the wrong hands can become &quot;super dangerous&quot;, he said. &quot;He was speaking alongside White House science and tech policy adviser Michael Kratsios.&quot; Son said such programs will &quot;be ready to help robots and other machines interact with the physical world starting in 2027.&quot; Bloomberg: &quot;It was an uncharacteristic note of caution from Son that reflects escalating concern in the wake of disturbing security breaches by AI models in recent months.&quot; Per Bloomberg, Son has directed SoftBank funds totalling &quot;nearly US$65 billion&quot; into OpenAI. (Bloomberg via The Straits Times)",
-          "plain": "🇯🇵 SoftBank's Masayoshi Son has rare cautionary note on AI safety (4 Oct 2026, Kyoto) Bloomberg: SoftBank Group chief Masayoshi Son, \"one of artificial intelligence's fervent believers,\" \"said that even he is worried about safety risks as machines quickly gain more abilities.\" Son: \"We don't have any more luxury of having human fight against human.\" Superintelligence in the wrong hands can become \"super dangerous\", he said. \"He was speaking alongside White House science and tech policy adviser Michael Kratsios.\" Son said such programs will \"be ready to help robots and other machines interact with the physical world starting in 2027.\" Bloomberg: \"It was an uncharacteristic note of caution from Son that reflects escalating concern in the wake of disturbing security breaches by AI models in recent months.\" Per Bloomberg, Son has directed SoftBank funds totalling \"nearly US$65 billion\" into OpenAI. (Bloomberg via The Straits Times)",
-          "source": "Bloomberg via The Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/softbanks-masayoshi-son-has-rare-cautionary-note-on-ai-safety",
-          "date": "2026-10-04",
-          "tags": [
-            "softbank",
-            "son",
-            "superintelligence",
-            "safety",
-            "kyoto"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-07_scan_0213_dublin",
+      "at": "2026-10-07T01:13:32.948Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:13 London, Wed 7 Oct (site-only; covers 00:17 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); Federal Register still tops at a Lebanon determination (5 Oct), public inspection has only a Manufacturing Day proclamation; Truth Social archive (through 11:25 AM ET 6 Oct) has no AI posts; biggo stays out. New — Korea: President Lee Jae-myung at Cabinet (6 Oct): with signs AI was used in some of the hacking, \"public concern and anxiety are very great\"; \"Speed is life\"; police designated the Cyber Terror Investigation Unit as a 28-person dedicated team (Financial News, AI-translated). Seoul Shinmun (7 Oct): FSS notified about 500 financial firms of vulnerability information; traces of the Chinese AI pen-testing platform ARTEX found on some IPs; a one-month special response period for secondary damage. New — T-800: Kawasaki plans to put Noetra's physical AI into its Kaleido humanoid, with deployment targeted as early as 2030 (Interesting Engineering, per Nikkei Asia). Watch: Sydney inquiry Wed 7 Oct session (Gradient Institute, Global Shield, Palo Alto Networks and Workato per programme) — no evidence reported yet at scan time; Melbourne 8–9 Oct (Amazon, Good Ancestors, Minderoo; banks Friday); no transcript or committee release yet. FSC 6 Oct online-lender meeting outcome still unreported; FSC postponed its 7 Oct network-separation AI pilot selection while staff handle the hacks (Korea Financial Times); financial firms' self-checks due 8 Oct. NYC: no SpaceXAI enforcement filing reported. Summary-only: Ars Technica Wikimedia follow-up with OpenAI's statement (\"We appreciate the detailed findings Wikimedia shared with us.\") — Wikimedia already on; SMH FOI piece on Anthropic and draft data-centre rules (policy, not capability); CBA's Comyn at the inquiry; POLITICO Canberra Playbook Kwon recap; Minerva 'Roger' teleoperated humanoid and RoboParty RP1 (already on). All hold: T-800 33, T-1000 5, Skynet 53 (presidential/police response and a humanoid plan; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_0213_dublin"
+    },
     {
       "id": "patch_2026-10-07_scan_0017_dublin",
       "at": "2026-10-06T23:16:31.766Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "2h scan ~16:46 Dublin: China opens 70+ embodied-AI 'robot school' training grounds (140+ makers; 14,400 humanoids shipped 2025 ≈80% global; Nov 1 dataset-quality standard) (Xinhua 22 Sep). XPENG Iron walks itself off a new production line after assembly — 76 DoF / 21 per hand / 3× Turing chips ~2,250 TOPS onboard; YE2026 mass-prod goal; first jobs XPENG stores (Engadget 22 Sep). Gap: PrimeBOT Q1/T1 personal robots on sale from ¥19,999 (~$3k); Oct 1 deliveries; 2.5-min takt (Humanoids Daily / Robots Daily 20–21 Sep). Comedy: Robros Aegris-C 'full-body remote' punches sandbags & kicks balls — still a human puppeteer (Seoul Economic Daily 22 Sep). T-800 progress to 72%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-22_scan_1646_dublin"
-    },
-    {
-      "id": "patch_2026-09-22_scan_1423_dublin",
-      "at": "2026-09-22T13:26:02.205Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~14:23 Dublin: Unitree Dex5-S 22-DoF 1:1 hand (~¥39.9k / ~$6.5k; 620g; 22 motors; Pro adds tactile) — China dexterous-hand price war vs AGIBOT OmniHand (Yangtzeer / Humanoids Daily 21–22 Sep). Skynet: Sens. Warner/Reed/Coons demand IG probes into AI targeting failures (outdated geospatial data in Minab strike; SOCPAC AI-hallucinated intel aborted an interdiction) + NSM-25 rollback (Senate 21 Sep / IANS 22 Sep). Gap: CCW GGE — 128 states reach non-binding LAWS framework (human judgment watered down late; Review Conf Nov 2026) (Italian Mission / On The Wire). Comedy: Terminators can now restock spare hands cheaper than a used hatchback. T-800 progress to 71%. T-1000 progress to 14%. Skynet progress to 75%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-22_scan_1423_dublin"
     }
   ],
   "pendingPosts": [
