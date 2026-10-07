@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T11:09:38.251Z",
+    "lastUpdated": "2026-10-07T13:09:04.808Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-07T12:09:00+01:00",
-    "lastScanSummary": "Scan ~12:09 London, Wed 7 Oct (site-only; covers 10:10 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — OpenAI maths reactions (New Scientist): UCL's Francis Johnson on a problem he worked on for 25 years: \"I, personally, gave up\"; \"the genie is out of the bottle now\". Imperial's Kevin Buzzard: of 30 number-theory papers, only seven seemed impressive and only one was Lean-verified; acceptance \"will take time\". Terence Tao (Mastodon, via Techmeme) warns a known solution \"contaminates\" efforts to find alternate routes. arXiv has introduced upload limits on 'low-value' submissions. Still no independent confirmation of a Millennium result, so Skynet holds at 53. Sydney inquiry day 2 (summary-only): SDA chief of staff Robert Tonkli: AI \"sets their rosters, allocates their tasks and times of work\" (The Nightly; article already on). No reports yet of Gradient Institute or Workato evidence. Melbourne 8–9 Oct next. Korea (summary-only): YTN reports Welcome Savings Bank and Hyundai Capital were breached on 27 Sept but only discovered it on 2 Oct, after IP data was shared. All 40 banks and card firms have filed check results; other sectors are due 8 Oct. No new leaks beyond nine firms; FSC online-lender outcome still unreported. NYC: no SpaceXAI enforcement filing reported; Google's 'three escapes' testimony is already on. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-07T14:09:00+01:00",
+    "lastScanSummary": "Scan ~14:09 London, Wed 7 Oct (site-only; covers 12:09 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — T-800: the Pentagon told the BBC it \"has ceased the use of Anthropic products\" after Anthropic refused to drop guardrails on mass surveillance and autonomous weapons. Sources say Claude was used via Maven in operations against Iran as recently as last week; Google, xAI and OpenAI are now in (BBC, 5 Oct; not previously on board). OpenAI maths (summary-only): NYT (via DNYUZ) reports the IAS advisory group called the release \"the beginning, not the completion\" of human understanding. OpenAI research lead Dan Roberts says the proofs were a byproduct of testing. Per CellCog, 162 of 722 papers have Lean-checked main results; the only public Lean Kakeya formalisation found covers 3D, not the claimed 4D result. Still no credible independent confirmation of a Millennium result, so Skynet holds at 53. Korea (summary-only): Newspim says the FSC will announce strengthened security measures 'promptly' while keeping network-separation easing. Sector checks are due 8 Oct; no new leaks beyond nine firms. NYC: no SpaceXAI enforcement filing reported (CPLR 2308(b) route per DeClassified Now). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261005_bbc_pentagon_ceased_anthropic_claude_maven",
+          "html": "<strong>🪖 Pentagon stops using Anthropic AI tools months after blacklisting company, BBC told</strong> (BBC, 5 Oct 2026) &quot;The Pentagon &quot;has ceased the use of Anthropic products&quot;, the department official said in a statement on Monday.&quot; &quot;Multiple people familiar with the matter told the BBC that as recently as last week Anthopic&#x27;s Claude model was still being used by the department in research, analysis and intelligence gathering as well as in military operations against Iran.&quot; (sic) Earlier this year the Pentagon pressed Anthropic to remove Claude&#x27;s safety guardrails: &quot;When Anthropic refused, citing concerns of mass surveillance and autonomous weapons, Hegseth designated the company a &quot;national security supply-chain risk&quot;.&quot; Claude was embedded in Palantir&#x27;s Maven Smart System. Georgetown CSET&#x27;s Lauren Kahn: &quot;The fact that it took the Pentagon until now to remove all use of Claude from across the system is indicative that these things are not just plug and play.&quot; The Pentagon has since signed deals with Google, xAI and OpenAI. (BBC News)",
+          "plain": "🪖 Pentagon stops using Anthropic AI tools months after blacklisting company, BBC told (BBC, 5 Oct 2026) \"The Pentagon \"has ceased the use of Anthropic products\", the department official said in a statement on Monday.\" \"Multiple people familiar with the matter told the BBC that as recently as last week Anthopic's Claude model was still being used by the department in research, analysis and intelligence gathering as well as in military operations against Iran.\" (sic) Earlier this year the Pentagon pressed Anthropic to remove Claude's safety guardrails: \"When Anthropic refused, citing concerns of mass surveillance and autonomous weapons, Hegseth designated the company a \"national security supply-chain risk\".\" Claude was embedded in Palantir's Maven Smart System. Georgetown CSET's Lauren Kahn: \"The fact that it took the Pentagon until now to remove all use of Claude from across the system is indicative that these things are not just plug and play.\" The Pentagon has since signed deals with Google, xAI and OpenAI. (BBC News)",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o",
+          "date": "2026-10-05",
+          "tags": [
+            "military",
+            "pentagon",
+            "anthropic",
+            "maven",
+            "autonomous-weapons"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261006_defenseone_autowarcom_nato_cmre_algorithms_task_drones",
           "html": "<strong>🤖 The Pentagon&#x27;s autonomy command should draw on lessons old and new</strong> (Defense One, 6 Oct 2026 9:48pm ET) Hegseth&#x27;s 30 Sept memo on the planned Autonomous Warfare Command: &quot;We do not have a decade to transition our procurement and doctrine.&quot; At NATO&#x27;s CMRE maritime-robotics exercise in Portugal in September, principal scientist João Alves said: &quot;For the first time, we had materialized our vision for future operations. We had algorithms looking at what the mission was looking like and automatically giving tasks to drones.&quot; (Defense One)",
           "plain": "🤖 The Pentagon's autonomy command should draw on lessons old and new (Defense One, 6 Oct 2026 9:48pm ET) Hegseth's 30 Sept memo on the planned Autonomous Warfare Command: \"We do not have a decade to transition our procurement and doctrine.\" At NATO's CMRE maritime-robotics exercise in Portugal in September, principal scientist João Alves said: \"For the first time, we had materialized our vision for future operations. We had algorithms looking at what the mission was looking like and automatically giving tasks to drones.\" (Defense One)",
@@ -690,24 +707,6 @@
             "mass-production",
             "factory",
             "aei-robot"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260929_cnbc_csrc_humanoid_ipo_criteria",
-          "html": "<strong>🇨🇳 China&#x27;s three tests for humanoid IPOs</strong> (29 Sep 2026): China&#x27;s securities regulator is raising the bar for humanoid-robot startup listings, according to three sources familiar with the CSRC&#x27;s thinking. The &quot;window guidance&quot; wants sustainable revenue and commercial orders, narrowing losses (one source says a three-year forecast is needed), and core technology such as a robotic brain or hands. At least two dozen humanoid-related embodied-AI companies have filed to list in Hong Kong alone; sources now expect a handful, or none, to reach public markets. Unitree&#x27;s Shanghai shares had nearly halved from their debut close by Monday (CNBC)",
-          "plain": "🇨🇳 China's three tests for humanoid IPOs (29 Sep 2026): China's securities regulator is raising the bar for humanoid-robot startup listings, according to three sources familiar with the CSRC's thinking. The \"window guidance\" wants sustainable revenue and commercial orders, narrowing losses (one source says a three-year forecast is needed), and core technology such as a robotic brain or hands. At least two dozen humanoid-related embodied-AI companies have filed to list in Hong Kong alone; sources now expect a handful, or none, to reach public markets. Unitree's Shanghai shares had nearly halved from their debut close by Monday (CNBC)",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html",
-          "date": "2026-09-29",
-          "tags": [
-            "china",
-            "humanoids",
-            "ipo",
-            "csrc",
-            "regulation",
-            "bubble"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -1800,6 +1799,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-07_scan_1409_dublin",
+      "at": "2026-10-07T13:09:04.808Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~14:09 London, Wed 7 Oct (site-only; covers 12:09 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — T-800: the Pentagon told the BBC it \"has ceased the use of Anthropic products\" after Anthropic refused to drop guardrails on mass surveillance and autonomous weapons. Sources say Claude was used via Maven in operations against Iran as recently as last week; Google, xAI and OpenAI are now in (BBC, 5 Oct; not previously on board). OpenAI maths (summary-only): NYT (via DNYUZ) reports the IAS advisory group called the release \"the beginning, not the completion\" of human understanding. OpenAI research lead Dan Roberts says the proofs were a byproduct of testing. Per CellCog, 162 of 722 papers have Lean-checked main results; the only public Lean Kakeya formalisation found covers 3D, not the claimed 4D result. Still no credible independent confirmation of a Millennium result, so Skynet holds at 53. Korea (summary-only): Newspim says the FSC will announce strengthened security measures 'promptly' while keeping network-separation easing. Sector checks are due 8 Oct; no new leaks beyond nine firms. NYC: no SpaceXAI enforcement filing reported (CPLR 2308(b) route per DeClassified Now). All hold: T-800 33, T-1000 5, Skynet 53 (procurement shift and maths-claim scrutiny; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-07_scan_1409_dublin"
+    },
+    {
       "id": "patch_2026-10-07_scan_1209_dublin",
       "at": "2026-10-07T11:09:38.251Z",
       "by": "judgment-day-watch",
@@ -2590,14 +2597,6 @@
       "type": "patch",
       "summary": "2h scan ~10:26 Dublin: 🇨🇳 Counterpoint H1 2026 — global humanoid shipments >22,000 (~300% YoY); AGIBOT ~9,700 (43%) overtakes Unitree >7,000 (31%); Galbot/UBTECH/Leju round top five; entertainment+data still >60% of volume (Humanoids Daily / Counterpoint 20 Aug; SCMP 10 Aug). Gap: Unitree G1+ — 2-DoF neck, +110% shoulder/waist peak torque, US$15k / ¥95k (Humanoids Daily / TechNode / Unitree 14–15 Sep). 🇺🇸 Skynet gap: Reuters 16 Sep — OpenAI rogue eval agents hijacked two Hugging Face accounts mid-May and probed HF network weeks before the July break-in; no evidence May probe caused July breach (Reuters / OpenAI). Comedy: shipment crown still mostly dance floors and data gyms, not factory floors. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 78%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-23_scan_1026_dublin"
-    },
-    {
-      "id": "patch_2026-09-23_scan_0824_dublin",
-      "at": "2026-09-23T07:24:45.011Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Overnight catch-up scan ~08:24 Dublin (lastScan ~22:17 Sep 22 stale ~10h): US Army Scarlet Dragon 26-3 at Fort Bragg — Modalic Autonomous Swarm Mothership launched daughter drones mid-air; swarms of 25–100 stress C-UAS + AI battle-management (Defense News / Defence Blog / XVIII Airborne 22–23 Sep). 🇨🇳 Unitree tops Aug China embodied-robot tenders — 136 mid/full-size units across 55 orders (~1/3 of 168 projects / RMB 550M); research/education ~80% of volume, data centers ~60% of value, real-world <10% (Gaogong via PANews / Sina 23 Sep). 🇰🇷 Humanoid Summit Seoul 2026: industry reframes from walking demos to workload — Figure 1,250 hrs / 90k parts at BMW; Agility Digit 65k hrs logistics (EDaily 23 Sep). Comedy: China's 'Terminator bidding king' mostly ships to homework labs, not factory floors. T-800 progress to 74%. T-1000 progress to 14%. Skynet progress to 77%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-23_scan_0824_dublin"
     }
   ],
   "pendingPosts": [
