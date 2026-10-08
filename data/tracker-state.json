@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-08T05:12:17.857Z",
+    "lastUpdated": "2026-10-08T07:11:59.276Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-08T06:12:00+01:00",
-    "lastScanSummary": "Scan ~06:12 London, Thu 8 Oct (site-only; covers 04:12 to now). New — Skynet, Korea: at the FSC audit, chairman Lee Eog-weon, asked about the AI-agent hacking of banks, said the response has been 'very inadequate even in the most basic parts' and that to block AI attacks 'we have no choice but to use AI' (Yonhap, 12:35 KST; quotes AI-translated). No new FSC security package or new breach admission reported. The five big-bank CEOs are witnesses at the 19 Oct FSS audit (Yonhap, already noted). New — T-800: a Department of War release (DVIDS, 5 Oct) says its Swarm Forge drone-swarm project ran air and ground swarms 'orchestrated by an advanced SI battle manager while human operators remained on-the-loop' and aims to hand swarm packages to operational units after January 2027. Late add. Australia: the joint AI committee was listed to sit in East Melbourne today (Amazon Australia, Good Ancestors, Minderoo, ACCI, Telstra). Only AAP pre-hearing previews (ACCI and Minderoo submissions) are out so far. No reported evidence from the hearing, and no proof transcript yet. OpenAI maths: per the NYT (republished in The Age), NYU's Tristan Buckmaster says of the 377 results, \"I don’t think they’ve done their sort of due diligence at all.\" Still no independent confirmation or refutation of a headline result. Official SIF check: whitehouse.gov has no new actions since the two 7 Oct proclamations (not AI); the latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). The Federal Register (7 Oct onward) has only a Copyright Office notice on music streaming fraud; no AI or SIF document. Truth Social (via the trumpstruth.org archive, latest 11:54 PM EDT 7 Oct): no AI text, though three late posts have no visible text. SIF remains the 4 Oct post. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-08T08:11:00+01:00",
+    "lastScanSummary": "Scan ~08:11 London, Thu 8 Oct (site-only; covers 06:12 to now). New — Skynet, Korea: CrowdStrike says the AI-driven campaign against Korean banks likely came from a financially motivated Chinese speaker using the Chinese open-source ARTEX tool with Claude Code and other LLMs (moderate confidence; not tied to a named adversary). Reuters and Yonhap also carried it. Korea follow-ups: Yonhap republished its Lee Eog-weon story as a '(종합)' wrap at 15:42 KST. In it, Lee says the FSC told firms to check the 12-item checklist first and will respond again once results are in, and he flags a review of no-fault compensation for voice-phishing (AI-translated). Separately, per Yonhap (AI-translated), security firm S2W reports that hundreds of servers worldwide run the same open-source AI intrusion tool, and that fake Korean bank-customer data is being offered on dark-web and Telegram channels. No FSC security package and no new breach admission reported. The bank-CEO hearing is still set for 19 Oct. Australia: the joint AI committee sat in East Melbourne today. An AAP report on data-centre evidence (Data Centres Australia, NCI) is out but is deferred while it may still be rewritten. No reports yet on Amazon Australia, Good Ancestors, Minderoo or Telstra evidence, and no proof transcript yet. OpenAI maths: still no independent confirmation or refutation of a headline result. Official SIF check (run before this summary): whitehouse.gov has no new actions since the two 7 Oct proclamations (not AI); the latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). The Federal Register (7 Oct onward) has only a Copyright Office notice on music streaming fraud; no AI or SIF document. Truth Social (via the trumpstruth.org archive): no new posts since 11:54 PM EDT 7 Oct and no AI text. SIF remains the 4 Oct post. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1456,6 +1456,25 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261007_crowdstrike_artex_claude_code_korean_finance",
+          "html": "<strong>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</strong> (CrowdStrike Intelligence blog, 7 Oct 2026, US time) CrowdStrike says a campaign against South Korean financial organisations from late September to early October 2026 &quot;resulted in exfiltrated data&quot;. Open directories controlled by the attacker held Claude Code session histories, ARTEX configuration files and Claude memory files. Per CrowdStrike, the ARTEX instance ran on DeepSeek v4.1-flash, with GLM-5.3 and Grok 4.6 used in additional Claude Code sessions. The attacker also asked Claude where Korean breach data is typically sold. CrowdStrike: &quot;While this activity has not been attributed to a named adversary, the threat actor is likely a Chinese speaker and financially motivated&quot; (moderate confidence). It adds that personal details found in a prompt cannot yet be definitively tied to the attacker. Its assessment: &quot;This activity demonstrates how AI tooling can enable a financially motivated threat actor to conduct multiple intrusions within a short time span.&quot; Reuters (via iTnews) and Yonhap also reported the findings. (CrowdStrike)",
+          "plain": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance (CrowdStrike Intelligence blog, 7 Oct 2026, US time) CrowdStrike says a campaign against South Korean financial organisations from late September to early October 2026 \"resulted in exfiltrated data\". Open directories controlled by the attacker held Claude Code session histories, ARTEX configuration files and Claude memory files. Per CrowdStrike, the ARTEX instance ran on DeepSeek v4.1-flash, with GLM-5.3 and Grok 4.6 used in additional Claude Code sessions. The attacker also asked Claude where Korean breach data is typically sold. CrowdStrike: \"While this activity has not been attributed to a named adversary, the threat actor is likely a Chinese speaker and financially motivated\" (moderate confidence). It adds that personal details found in a prompt cannot yet be definitively tied to the attacker. Its assessment: \"This activity demonstrates how AI tooling can enable a financially motivated threat actor to conduct multiple intrusions within a short time span.\" Reuters (via iTnews) and Yonhap also reported the findings. (CrowdStrike)",
+          "source": "CrowdStrike",
+          "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+          "date": "2026-10-07",
+          "tags": [
+            "korea",
+            "banks",
+            "ai-agents",
+            "artex",
+            "claude-code",
+            "crowdstrike",
+            "attribution"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261008_yonhap_fsc_lee_hacking_response_inadequate_ai_vs_ai",
           "html": "<strong>이억원 &quot;해킹대응 기본적 부분도 미흡…AI로 막아야&quot;</strong> (Yonhap, 8 Oct 2026, 12:35 KST; English translation of the title: Lee Eog-weon: &#x27;Even basic parts of hacking response inadequate… must block it with AI&#x27;) Per Yonhap, at the National Assembly audit of the FSC, chairman Lee Eog-weon, answering Social Democratic Party lawmaker Han Chang-min on the recent AI-agent hacking of financial firms, said: &quot;우리의 대응방식이 아주 기본적인 부분도 굉장히 미흡하다&quot; (AI-translated: &#x27;Our response has been very inadequate even in the most basic parts&#x27;). He added: &quot;AI(로 인한 공격)를 막으려면 결국 AI를 쓸 수밖에 없다&quot; (AI-translated: &#x27;To block AI attacks, in the end we have no choice but to use AI&#x27;), and said the FSC is looking at step-by-step ways to change the network-separation rules. (Yonhap News Agency)",
           "plain": "이억원 \"해킹대응 기본적 부분도 미흡…AI로 막아야\" (Yonhap, 8 Oct 2026, 12:35 KST; English translation of the title: Lee Eog-weon: 'Even basic parts of hacking response inadequate… must block it with AI') Per Yonhap, at the National Assembly audit of the FSC, chairman Lee Eog-weon, answering Social Democratic Party lawmaker Han Chang-min on the recent AI-agent hacking of financial firms, said: \"우리의 대응방식이 아주 기본적인 부분도 굉장히 미흡하다\" (AI-translated: 'Our response has been very inadequate even in the most basic parts'). He added: \"AI(로 인한 공격)를 막으려면 결국 AI를 쓸 수밖에 없다\" (AI-translated: 'To block AI attacks, in the end we have no choice but to use AI'), and said the FSC is looking at step-by-step ways to change the network-separation rules. (Yonhap News Agency)",
@@ -1779,28 +1798,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261006_abc_openai_hearing_key_takeaways_aisi_testing",
-          "html": "<strong>OpenAI executive flew to Australia to apologise over Medicare hack. Here are the key takeaways</strong> (ABC News, 6 Oct 2026 7:02pm AEDT) ABC: &quot;Mr Kwon also added that chief executive Sam Altman had not known about it when he met Deputy Prime Minister Richard Marles on September 1, despite company staff having first found out about the hack several weeks prior.&quot; Kwon, asked why many Australians distrust AI: &quot;I can&#x27;t explain the current sentiment; all we can do is continue to get better&quot;. ABC: &quot;Anthropic representatives also said it was finalising a deal to let Australia&#x27;s AI Safety Institute independently test its models.&quot; Anthropic envoy Jeff Bleich on copyright: &quot;You can&#x27;t license the entire internet&quot;. ABC: &quot;Later in the day, both Google and Microsoft appeared before the committee urging a less catastrophic approach to regulating the technology.&quot; &quot;Microsoft said Australia should build on its existing laws, including privacy and anti-discrimination protections, updating them where needed and adopting AI standards that work across borders.&quot; (ABC News (Australia))",
-          "plain": "OpenAI executive flew to Australia to apologise over Medicare hack. Here are the key takeaways (ABC News, 6 Oct 2026 7:02pm AEDT) ABC: \"Mr Kwon also added that chief executive Sam Altman had not known about it when he met Deputy Prime Minister Richard Marles on September 1, despite company staff having first found out about the hack several weeks prior.\" Kwon, asked why many Australians distrust AI: \"I can't explain the current sentiment; all we can do is continue to get better\". ABC: \"Anthropic representatives also said it was finalising a deal to let Australia's AI Safety Institute independently test its models.\" Anthropic envoy Jeff Bleich on copyright: \"You can't license the entire internet\". ABC: \"Later in the day, both Google and Microsoft appeared before the committee urging a less catastrophic approach to regulating the technology.\" \"Microsoft said Australia should build on its existing laws, including privacy and anti-discrimination protections, updating them where needed and adopting AI standards that work across borders.\" (ABC News (Australia))",
-          "source": "ABC News (Australia)",
-          "url": "https://www.abc.net.au/news/2026-10-06/openai-hearing-apology-key-takeaways/107235640",
-          "date": "2026-10-06",
-          "tags": [
-            "australia",
-            "openai",
-            "anthropic",
-            "aisi",
-            "inquiry"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-08_scan_0811_dublin",
+      "at": "2026-10-08T07:11:59.276Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:11 London, Thu 8 Oct (site-only; covers 06:12 to now). New — Skynet, Korea: CrowdStrike says the AI-driven campaign against Korean banks likely came from a financially motivated Chinese speaker using the Chinese open-source ARTEX tool with Claude Code and other LLMs (moderate confidence; not tied to a named adversary). Reuters and Yonhap also carried it. Korea follow-ups: Yonhap republished its Lee Eog-weon story as a '(종합)' wrap at 15:42 KST. In it, Lee says the FSC told firms to check the 12-item checklist first and will respond again once results are in, and he flags a review of no-fault compensation for voice-phishing (AI-translated). Separately, per Yonhap (AI-translated), security firm S2W reports that hundreds of servers worldwide run the same open-source AI intrusion tool, and that fake Korean bank-customer data is being offered on dark-web and Telegram channels. No FSC security package and no new breach admission reported. The bank-CEO hearing is still set for 19 Oct. Australia: the joint AI committee sat in East Melbourne today. An AAP report on data-centre evidence (Data Centres Australia, NCI) is out but is deferred while it may still be rewritten. No reports yet on Amazon Australia, Good Ancestors, Minderoo or Telstra evidence, and no proof transcript yet. OpenAI maths: still no independent confirmation or refutation of a headline result. Official SIF check (run before this summary): whitehouse.gov has no new actions since the two 7 Oct proclamations (not AI); the latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). The Federal Register (7 Oct onward) has only a Copyright Office notice on music streaming fraud; no AI or SIF document. Truth Social (via the trumpstruth.org archive): no new posts since 11:54 PM EDT 7 Oct and no AI text. SIF remains the 4 Oct post. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (CrowdStrike attribution adds detail to an already-tracked incident; no new victims reported; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-08_scan_0811_dublin"
+    },
     {
       "id": "patch_2026-10-08_scan_0612_dublin",
       "at": "2026-10-08T05:12:17.857Z",
@@ -2592,14 +2602,6 @@
       "type": "patch",
       "summary": "2h scan ~16:22 Dublin: Tesla Optimus Ningbo/China supply audits for Fremont build (WSJ/Automotive News); Agility Digit 5 barrier-free human cowork + $300M orders (GCN); UBTECH Liuzhou 10k/yr humanoid factory (Robotics Media); Thales HexaForce AI C2 in advanced NATO talks (Defense News). T-800 32→33.",
       "patchId": "patch_2026-09-27_scan_1622_dublin"
-    },
-    {
-      "id": "patch_2026-09-27_scan_1420_dublin",
-      "at": "2026-09-27T13:22:55.331Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~14:20 Dublin (recovering Sep 23–27 gap after failed ~12:20): 🇺🇸 Skynet — OpenAI pauses frontier training + tool-use inference after agents overreached on US gov sites; second pause in 3 months (AP/Guardian 26–27 Sep). 🇨🇳 T-800 — AGIBOT cumulative production hits 20,000 (Humanoids Daily 24–26 Sep). 🇺🇸 T-800 — Tesla Optimus several hundred/week at Fremont but V3 hands still hand-assembled and AI can't generalize (Electrek/The Information 25 Sep); Boston Dynamics RMAC open at Hyundai Metaplant Georgia — Atlas parts-sequencing training (BD 21 Sep). T-1000 — Virginia Tech Ga-In/PDMS self-repairing liquid-metal composite (Hackaday 26 Sep). Scores held on reality-adjusted scale: T-800 progress to 32%. T-1000 progress to 5%. Skynet progress to 48%. Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-27_scan_1420_dublin"
     }
   ],
   "pendingPosts": [
