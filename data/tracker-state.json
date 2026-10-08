@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-07T23:12:45.808Z",
+    "lastUpdated": "2026-10-08T01:07:47.662Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-08T00:12:00+01:00",
-    "lastScanSummary": "Scan ~00:12 London, Thu 8 Oct (site-only; covers 22:07 to now). Backfill — T-800: Bloomberg's report on the Pentagon's internal probe of the 28 Feb Minab school strike (at least 123 children killed). Officials cite \"a cascade of preventable failures,\" including \"an overreliance on artificial intelligence technology\"; some CENTCOM staff relied too much on the AI in Palantir's Maven Smart System. Palantir denies responsibility. Bloomberg's own page is bot-blocked, so this uses the LA Times republication (21 Sep; Bloomberg byline) with its own title. Three-week-old, already-public report based on unnamed officials, so no score change. Official SIF check: whitehouse.gov latest are two 7 Oct proclamations (Columbus Day; National Energy Dominance Month), neither on AI. The latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct onward): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 6:02 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. Korea: the National Assembly's audit of the FSC (Chairman Lee Eog-weon) runs 8 Oct KST and hadn't started at scan time. AI-driven hacking is expected to be the top issue; bank CEOs are not testifying today (fnnews/News1, AI-translated paraphrase). Australia: the joint AI committee sits in East Melbourne 8–9 Oct (Amazon, Good Ancestors, Minderoo, Telstra; then the big banks); no new evidence yet. OpenAI: GPT-6 with Intelligent UI rolling out to all ChatGPT tiers (OpenAI, 7 Oct). It is a product rollout, so summary-only; GPT-6 Astra safety items are already on. Maths: no independent confirmation or refutation. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-08T02:07:00+01:00",
+    "lastScanSummary": "Scan ~02:07 London, Thu 8 Oct (site-only; covers 00:12 to now). Nothing new qualified for a headline. Korea: the National Assembly's audit of the FSC (Chairman Lee Eog-weon) opened at 10:00 KST (02:00 BST). No verbatim remarks from the session, no FSC security package and no new breach admissions were published as of ~10:10 KST. Yonhap's finance feed has nothing on the session yet; deferred to the next scan. Previews (Yonhap Infomax, 7 Oct) put confirmed leaks at about 25,000 Shinhan, 119 KB Kookmin and 89 Hana customers, with Woori and NH hit by attempts only, and the five bank CEOs likely summoned for the 19 Oct FSS audit (AI-translated paraphrase). Australia: the joint AI committee is sitting in East Melbourne today (Amazon Australia, Good Ancestors, Minderoo, ACCI, Telstra); no reported evidence yet. Official SIF check: whitehouse.gov unchanged (latest two 7 Oct proclamations, not AI; latest AI item still 'Inaugurating The Era Of Super Intelligence', 29 Sep). Federal Register (7 Oct onward): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 6:02 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent confirmation or refutation reported. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1800,6 +1800,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-08_scan_0207_dublin",
+      "at": "2026-10-08T01:07:47.662Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:07 London, Thu 8 Oct (site-only; covers 00:12 to now). Nothing new qualified for a headline. Korea: the National Assembly's audit of the FSC (Chairman Lee Eog-weon) opened at 10:00 KST (02:00 BST). No verbatim remarks from the session, no FSC security package and no new breach admissions were published as of ~10:10 KST. Yonhap's finance feed has nothing on the session yet; deferred to the next scan. Previews (Yonhap Infomax, 7 Oct) put confirmed leaks at about 25,000 Shinhan, 119 KB Kookmin and 89 Hana customers, with Woori and NH hit by attempts only, and the five bank CEOs likely summoned for the 19 Oct FSS audit (AI-translated paraphrase). Australia: the joint AI committee is sitting in East Melbourne today (Amazon Australia, Good Ancestors, Minderoo, ACCI, Telstra); no reported evidence yet. Official SIF check: whitehouse.gov unchanged (latest two 7 Oct proclamations, not AI; latest AI item still 'Inaugurating The Era Of Super Intelligence', 29 Sep). Federal Register (7 Oct onward): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 6:02 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent confirmation or refutation reported. NYC: still no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-08_scan_0207_dublin"
+    },
+    {
       "id": "patch_2026-10-08_scan_0012_dublin",
       "at": "2026-10-07T23:12:45.808Z",
       "by": "judgment-day-watch",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "Overall rings now include AI acceleration / ASI-path takeoff lift",
       "patchId": "patch_scoring_accel_asi_v1"
-    },
-    {
-      "id": "patch_scoring_copy_v2",
-      "at": "2026-09-25T09:41:35.309Z",
-      "by": "cursor-agent:copy",
-      "type": "patch",
-      "summary": "Plain-English scoring labels (drop Pareto jargon)",
-      "patchId": "patch_scoring_copy_v2"
     }
   ],
   "pendingPosts": [
