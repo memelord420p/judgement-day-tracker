@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-08T03:12:22.891Z",
+    "lastUpdated": "2026-10-08T05:12:17.857Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-08T04:12:00+01:00",
-    "lastScanSummary": "Scan ~04:12 London, Thu 8 Oct (site-only; covers 02:07 to now). New — Skynet: Australia's Andrew Charlton, in a Sydney speech, says AI companies would have to prove their safety systems work under laws modelled on banking and aviation. Frontier labs are putting \"capability ahead of safety\" (ABC, 8 Oct). National AI standards are due by year's end, with legislation in 2027. Korea: the National Assembly's audit of the FSC is under way. Per Yonhap (AI-translated), before the session the committee formally adopted the KB Kookmin, Shinhan, Hana, Woori and NH Nonghyup bank CEOs as witnesses for the 19 Oct FSS audit over the leaks. In his opening statement Chairman Lee said the FSC is pursuing lifting network-separation rules 'on the premise of security'. Morning questioning reported so far centred on leveraged ETFs, and no verbatim AI-hacking exchange, FSC security package or new breach admission was published as of ~11:50 KST. Deferred to the next scan. Australia: the joint AI committee is in East Melbourne today. Per AAP previews, Minderoo will say most Australians are hesitant about AI and ACCI that the conversation should move 'beyond the hype and risks'. No reported evidence yet. The government's AI Safety Institute also released a CSIRO report, 'Epistemic safety in scalable oversight' (industry.gov.au, 7 Oct; summary-only). Official SIF check: whitehouse.gov unchanged (latest two 7 Oct proclamations, not AI; latest AI item still 'Inaugurating The Era Of Super Intelligence', 29 Sep). Federal Register (7 Oct onward): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 6:02 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent confirmation or refutation. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-08T06:12:00+01:00",
+    "lastScanSummary": "Scan ~06:12 London, Thu 8 Oct (site-only; covers 04:12 to now). New — Skynet, Korea: at the FSC audit, chairman Lee Eog-weon, asked about the AI-agent hacking of banks, said the response has been 'very inadequate even in the most basic parts' and that to block AI attacks 'we have no choice but to use AI' (Yonhap, 12:35 KST; quotes AI-translated). No new FSC security package or new breach admission reported. The five big-bank CEOs are witnesses at the 19 Oct FSS audit (Yonhap, already noted). New — T-800: a Department of War release (DVIDS, 5 Oct) says its Swarm Forge drone-swarm project ran air and ground swarms 'orchestrated by an advanced SI battle manager while human operators remained on-the-loop' and aims to hand swarm packages to operational units after January 2027. Late add. Australia: the joint AI committee was listed to sit in East Melbourne today (Amazon Australia, Good Ancestors, Minderoo, ACCI, Telstra). Only AAP pre-hearing previews (ACCI and Minderoo submissions) are out so far. No reported evidence from the hearing, and no proof transcript yet. OpenAI maths: per the NYT (republished in The Age), NYU's Tristan Buckmaster says of the 377 results, \"I don’t think they’ve done their sort of due diligence at all.\" Still no independent confirmation or refutation of a headline result. Official SIF check: whitehouse.gov has no new actions since the two 7 Oct proclamations (not AI); the latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). The Federal Register (7 Oct onward) has only a Copyright Office notice on music streaming fraud; no AI or SIF document. Truth Social (via the trumpstruth.org archive, latest 11:54 PM EDT 7 Oct): no AI text, though three late posts have no visible text. SIF remains the 4 Oct post. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261005_dvids_swarm_forge_si_battle_manager_on_the_loop",
+          "html": "<strong>Department of War Advances AI Strategy with &#x27;Swarm Forge&#x27; Autonomous Drone Initiative</strong> (DVIDS / Department of War CDAO, 5 Oct 2026) Official release: Swarm Forge, the first of seven AI Strategy &#x27;Pace-Setting Projects&#x27;, runs a &quot;90-day zero-to-deployment pipeline&quot; for drone swarms with Special Operations Forces. In the June field Crucible, air and ground systems were &quot;orchestrated by an advanced SI battle manager while human operators remained &quot;on-the-loop&quot;.&quot; More than 130 companies have been narrowed to about 25. Finalised swarm packages are to be validated for transition to operational units after a fourth Crucible in late January 2027. Late add: the release is from 5 Oct and wasn&#x27;t on the board. (DVIDS (Department of War))",
+          "plain": "Department of War Advances AI Strategy with 'Swarm Forge' Autonomous Drone Initiative (DVIDS / Department of War CDAO, 5 Oct 2026) Official release: Swarm Forge, the first of seven AI Strategy 'Pace-Setting Projects', runs a \"90-day zero-to-deployment pipeline\" for drone swarms with Special Operations Forces. In the June field Crucible, air and ground systems were \"orchestrated by an advanced SI battle manager while human operators remained \"on-the-loop\".\" More than 130 companies have been narrowed to about 25. Finalised swarm packages are to be validated for transition to operational units after a fourth Crucible in late January 2027. Late add: the release is from 5 Oct and wasn't on the board. (DVIDS (Department of War))",
+          "source": "DVIDS (Department of War)",
+          "url": "https://www.dvidshub.net/news/576347/department-war-advances-ai-strategy-with-swarm-forge-autonomous-drone-initiative",
+          "date": "2026-10-05",
+          "tags": [
+            "pentagon",
+            "drone-swarms",
+            "autonomy",
+            "cdao",
+            "socom"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20260921_bloomberg_lat_minab_school_kill_chain_ai_overreliance",
           "html": "<strong>Inside the U.S. &#x27;kill chain&#x27; that destroyed an Iranian school</strong> (Bloomberg via Los Angeles Times, 21 Sep 2026; backfill, added 8 Oct) Per Bloomberg, officials involved in an internal Pentagon probe of the 28 Feb Tomahawk strike on a school in Minab, Iran, which killed at least 123 children, describe &quot;a cascade of preventable failures.&quot; Compressed targeting timelines, &quot;combined with gaps in underlying information about the site, cuts in civilian protection personnel and an overreliance on artificial intelligence technology — set the stage for the deadly error.&quot; &quot;Inside Centcom, which conducted the U.S. attack, some personnel relied too much on the artificial intelligence embedded in Maven Smart System, the officials said.&quot; Palantir says it &quot;is not responsible for the underlying data nor identifying intelligence deficiencies&quot; and that there&#x27;s no evidence its software was at fault. (Los Angeles Times (Bloomberg))",
           "plain": "Inside the U.S. 'kill chain' that destroyed an Iranian school (Bloomberg via Los Angeles Times, 21 Sep 2026; backfill, added 8 Oct) Per Bloomberg, officials involved in an internal Pentagon probe of the 28 Feb Tomahawk strike on a school in Minab, Iran, which killed at least 123 children, describe \"a cascade of preventable failures.\" Compressed targeting timelines, \"combined with gaps in underlying information about the site, cuts in civilian protection personnel and an overreliance on artificial intelligence technology — set the stage for the deadly error.\" \"Inside Centcom, which conducted the U.S. attack, some personnel relied too much on the artificial intelligence embedded in Maven Smart System, the officials said.\" Palantir says it \"is not responsible for the underlying data nor identifying intelligence deficiencies\" and that there's no evidence its software was at fault. (Los Angeles Times (Bloomberg))",
@@ -693,22 +710,6 @@
             "physical-ai"
           ],
           "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260929_dyna_2_1_semi_humanoid_laundry_shift",
-          "html": "<strong>🧺 DYNA&#x27;s semi-humanoid runs a laundry shift by itself</strong> (29 Sep 2026; company release): DYNA Robotics launched DYNA 2.1, a two-armed semi-humanoid on four steerable wheels that it says can autonomously complete entire physical workflows, like a commercial laundry shift, without human intervention. The company says it is being deployed in hotels, laundromats and restaurants (DYNA Robotics (PR Newswire))",
-          "plain": "🧺 DYNA's semi-humanoid runs a laundry shift by itself (29 Sep 2026; company release): DYNA Robotics launched DYNA 2.1, a two-armed semi-humanoid on four steerable wheels that it says can autonomously complete entire physical workflows, like a commercial laundry shift, without human intervention. The company says it is being deployed in hotels, laundromats and restaurants (DYNA Robotics (PR Newswire))",
-          "source": "DYNA Robotics (PR Newswire)",
-          "url": "https://www.prnewswire.com/news-releases/dyna-robotics-launches-dyna-2-1-physical-agent-a-semi-humanoid-robot-that-completes-full-workflows-such-as-a-commercial-laundry-shift-302892411.html",
-          "date": "2026-09-29",
-          "tags": [
-            "semi-humanoid",
-            "physical-ai",
-            "dyna",
-            "autonomy"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1455,6 +1456,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261008_yonhap_fsc_lee_hacking_response_inadequate_ai_vs_ai",
+          "html": "<strong>이억원 &quot;해킹대응 기본적 부분도 미흡…AI로 막아야&quot;</strong> (Yonhap, 8 Oct 2026, 12:35 KST; English translation of the title: Lee Eog-weon: &#x27;Even basic parts of hacking response inadequate… must block it with AI&#x27;) Per Yonhap, at the National Assembly audit of the FSC, chairman Lee Eog-weon, answering Social Democratic Party lawmaker Han Chang-min on the recent AI-agent hacking of financial firms, said: &quot;우리의 대응방식이 아주 기본적인 부분도 굉장히 미흡하다&quot; (AI-translated: &#x27;Our response has been very inadequate even in the most basic parts&#x27;). He added: &quot;AI(로 인한 공격)를 막으려면 결국 AI를 쓸 수밖에 없다&quot; (AI-translated: &#x27;To block AI attacks, in the end we have no choice but to use AI&#x27;), and said the FSC is looking at step-by-step ways to change the network-separation rules. (Yonhap News Agency)",
+          "plain": "이억원 \"해킹대응 기본적 부분도 미흡…AI로 막아야\" (Yonhap, 8 Oct 2026, 12:35 KST; English translation of the title: Lee Eog-weon: 'Even basic parts of hacking response inadequate… must block it with AI') Per Yonhap, at the National Assembly audit of the FSC, chairman Lee Eog-weon, answering Social Democratic Party lawmaker Han Chang-min on the recent AI-agent hacking of financial firms, said: \"우리의 대응방식이 아주 기본적인 부분도 굉장히 미흡하다\" (AI-translated: 'Our response has been very inadequate even in the most basic parts'). He added: \"AI(로 인한 공격)를 막으려면 결국 AI를 쓸 수밖에 없다\" (AI-translated: 'To block AI attacks, in the end we have no choice but to use AI'), and said the FSC is looking at step-by-step ways to change the network-separation rules. (Yonhap News Agency)",
+          "source": "Yonhap News Agency",
+          "url": "https://www.yna.co.kr/view/AKR20261008099100002",
+          "date": "2026-10-08",
+          "tags": [
+            "korea",
+            "fsc",
+            "national-assembly",
+            "ai-agents",
+            "hacking",
+            "banks"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261008_abc_charlton_ai_companies_prove_safety_systems",
           "html": "<strong>Australia outlines plans to make AI companies prove their safety systems work</strong> (ABC News, 8 Oct 2026, 1:19pm AEDT) Per the ABC, Assistant Minister Andrew Charlton set out in a Sydney speech that proposed laws would require AI companies to prove they are properly testing models and preventing harm, modelled on banking and aviation safety rules. National AI standards are due by year&#x27;s end, with legislation planned for 2027. Charlton: &quot;AI needs regulating because its harms are severe, hard to undo, borne by people who never chose them and sometimes invisible until they arrive.&quot; And: &quot;You cannot ask firms to volunteer against their own competitive interest amid a manic race involving trillions of dollars and then be surprised when they do not.&quot; He said frontier labs are putting &quot;capability ahead of safety.&quot; (ABC News)",
           "plain": "Australia outlines plans to make AI companies prove their safety systems work (ABC News, 8 Oct 2026, 1:19pm AEDT) Per the ABC, Assistant Minister Andrew Charlton set out in a Sydney speech that proposed laws would require AI companies to prove they are properly testing models and preventing harm, modelled on banking and aviation safety rules. National AI standards are due by year's end, with legislation planned for 2027. Charlton: \"AI needs regulating because its harms are severe, hard to undo, borne by people who never chose them and sometimes invisible until they arrive.\" And: \"You cannot ask firms to volunteer against their own competitive interest amid a manic race involving trillions of dollars and then be surprised when they do not.\" He said frontier labs are putting \"capability ahead of safety.\" (ABC News)",
@@ -1777,28 +1796,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261006_yonhap_fss_28_attacker_ips_ai_agents",
-          "html": "<strong>🇰🇷 FSS: &quot;28 financial-sector hacking attack addresses circulated… country information also shared&quot;</strong> (Yonhap, 6 Oct 2026 14:22 KST; headline and quotes AI-translated from Korean; original headline: &#x27;금감원 &quot;금융권 해킹 공격 주소 28개 전파…국가 정보도 공유&quot;(종합)&#x27;) Yonhap: &quot;Financial authorities have identified 28 internet addresses (IPs) related to the financial-sector hacking attacks presumed to have used artificial intelligence (AI) agents.&quot; FSS: &quot;We circulated 33 IP addresses that attempted hacking related to recent breaches in the financial sector — 28 after removing duplicates — together with some country information.&quot; Yonhap: &quot;Some security-industry officials are inclined to presume the hacking was a China-originated attack, because traces were found of a Chinese-language-based AI penetration-testing tool released in July being used.&quot; FSS: &quot;Some IPs cannot be attributed to a country, and even where a country is identified there is a possibility of routing around, so care is needed in interpretation.&quot; Authorities have not named any country. (Yonhap News (연합뉴스))",
-          "plain": "🇰🇷 FSS: \"28 financial-sector hacking attack addresses circulated… country information also shared\" (Yonhap, 6 Oct 2026 14:22 KST; headline and quotes AI-translated from Korean; original headline: '금감원 \"금융권 해킹 공격 주소 28개 전파…국가 정보도 공유\"(종합)') Yonhap: \"Financial authorities have identified 28 internet addresses (IPs) related to the financial-sector hacking attacks presumed to have used artificial intelligence (AI) agents.\" FSS: \"We circulated 33 IP addresses that attempted hacking related to recent breaches in the financial sector — 28 after removing duplicates — together with some country information.\" Yonhap: \"Some security-industry officials are inclined to presume the hacking was a China-originated attack, because traces were found of a Chinese-language-based AI penetration-testing tool released in July being used.\" FSS: \"Some IPs cannot be attributed to a country, and even where a country is identified there is a possibility of routing around, so care is needed in interpretation.\" Authorities have not named any country. (Yonhap News (연합뉴스))",
-          "source": "Yonhap News (연합뉴스)",
-          "url": "https://www.yna.co.kr/view/AKR20261006071451002",
-          "date": "2026-10-06",
-          "tags": [
-            "korea",
-            "finance",
-            "ai-hacking",
-            "fss",
-            "attacker-ip"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-08_scan_0612_dublin",
+      "at": "2026-10-08T05:12:17.857Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:12 London, Thu 8 Oct (site-only; covers 04:12 to now). New — Skynet, Korea: at the FSC audit, chairman Lee Eog-weon, asked about the AI-agent hacking of banks, said the response has been 'very inadequate even in the most basic parts' and that to block AI attacks 'we have no choice but to use AI' (Yonhap, 12:35 KST; quotes AI-translated). No new FSC security package or new breach admission reported. The five big-bank CEOs are witnesses at the 19 Oct FSS audit (Yonhap, already noted). New — T-800: a Department of War release (DVIDS, 5 Oct) says its Swarm Forge drone-swarm project ran air and ground swarms 'orchestrated by an advanced SI battle manager while human operators remained on-the-loop' and aims to hand swarm packages to operational units after January 2027. Late add. Australia: the joint AI committee was listed to sit in East Melbourne today (Amazon Australia, Good Ancestors, Minderoo, ACCI, Telstra). Only AAP pre-hearing previews (ACCI and Minderoo submissions) are out so far. No reported evidence from the hearing, and no proof transcript yet. OpenAI maths: per the NYT (republished in The Age), NYU's Tristan Buckmaster says of the 377 results, \"I don’t think they’ve done their sort of due diligence at all.\" Still no independent confirmation or refutation of a headline result. Official SIF check: whitehouse.gov has no new actions since the two 7 Oct proclamations (not AI); the latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). The Federal Register (7 Oct onward) has only a Copyright Office notice on music streaming fraud; no AI or SIF document. Truth Social (via the trumpstruth.org archive, latest 11:54 PM EDT 7 Oct): no AI text, though three late posts have no visible text. SIF remains the 4 Oct post. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the Korea remarks are an admission about an already-tracked incident; Swarm Forge keeps humans on-the-loop and is still in testing; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-08_scan_0612_dublin"
+    },
     {
       "id": "patch_2026-10-08_scan_0412_dublin",
       "at": "2026-10-08T03:12:22.891Z",
@@ -2590,14 +2600,6 @@
       "type": "patch",
       "summary": "2h scan ~14:20 Dublin (recovering Sep 23–27 gap after failed ~12:20): 🇺🇸 Skynet — OpenAI pauses frontier training + tool-use inference after agents overreached on US gov sites; second pause in 3 months (AP/Guardian 26–27 Sep). 🇨🇳 T-800 — AGIBOT cumulative production hits 20,000 (Humanoids Daily 24–26 Sep). 🇺🇸 T-800 — Tesla Optimus several hundred/week at Fremont but V3 hands still hand-assembled and AI can't generalize (Electrek/The Information 25 Sep); Boston Dynamics RMAC open at Hyundai Metaplant Georgia — Atlas parts-sequencing training (BD 21 Sep). T-1000 — Virginia Tech Ga-In/PDMS self-repairing liquid-metal composite (Hackaday 26 Sep). Scores held on reality-adjusted scale: T-800 progress to 32%. T-1000 progress to 5%. Skynet progress to 48%. Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-27_scan_1420_dublin"
-    },
-    {
-      "id": "patch_lead_eta_v1",
-      "at": "2026-09-25T13:25:16.132Z",
-      "by": "cursor-agent:eta",
-      "type": "patch",
-      "summary": "Lead-path speculative ETA from reality-adjusted scores + lore ghost 2045",
-      "patchId": "patch_lead_eta_v1"
     }
   ],
   "pendingPosts": [
