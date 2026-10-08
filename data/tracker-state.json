@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-08T09:06:30.549Z",
+    "lastUpdated": "2026-10-08T11:10:14.080Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-08T10:06:00+01:00",
-    "lastScanSummary": "Scan ~10:06 London, Thu 8 Oct (site-only; covers 08:11 to now). New — Skynet, Korea: per Newsis (AI-translated), on 6 Oct the FSS told financial firms that 'there are limits to defending by IP blocking alone' against suspected AI-agent attacks. It ordered behaviour-based detection and listed warning signs, including re-probing within seconds after reading error messages. Korea follow-ups: per Yonhap (AI-translated), police treat CrowdStrike's identity clues as meaningful but say the personal details in the attacker's prompt may be false and need verifying. Police say most of the 28 attack IPs were 'laundering' relays, and they have asked the FSC whether the breached systems count as electronic-finance infrastructure (FN News reports the same). Yonhap's S2W story (hundreds of servers running the same AI intrusion tool) has had no '(종합)' update and stays summary-only. Still no FSC security package and no new breach admission. The bank-CEO hearing is set for 19 Oct. Australia, Melbourne hearing (AAP via The Nightly, title and text unchanged since the last scan): Data Centres Australia's Belinda Dennett says 'everyone is on board' with 100% renewable offsets under the coming standards. NCI director Andrew Rohl warns that South Korea just bought 8,500 GPUs for government while Australia has 120. Firmus withdrew at the last minute. No reports yet on Amazon Australia, Good Ancestors, Minderoo, ACCI or Telstra evidence, and no proof transcript yet. OpenAI maths: still no independent confirmation or refutation of a headline result. Official SIF check (run before this summary): whitehouse.gov has no new actions since the two 7 Oct proclamations (not AI); the latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). The Federal Register (7 Oct onward) has only a Sea Grant advisory board meeting notice (8 Oct, mentions an AI community of practice) and the Copyright Office music streaming fraud notice; no AI or SIF action. Truth Social (via the trumpstruth.org archive): no new posts since 11:54 PM EDT 7 Oct and no AI text. SIF remains the 4 Oct post. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-08T12:10:00+01:00",
+    "lastScanSummary": "Scan ~12:10 London, Thu 8 Oct (site-only; covers 10:06 to now). New — T-800: French firm Harmattan AI unveiled IRIFI, an autonomous deep-strike system (range up to 2,000 km) meant to 'complete an authorised mission without human control after launch'. Commanders approve targets before launch (Defence Industry Europe, 8 Oct; company claims). Korea: Yonhap ran a 17:37 KST story on a CrowdStrike briefing in which Adam Meyers said the attacker was not highly skilled but used AI agents to hit many institutions. It is deferred one scan under the Yonhap rule. The FSC's legal ruling on whether the breached systems count as electronic-finance infrastructure is still pending (police request; Yonhap). No Yonhap '(종합)' version of the S2W story yet. No FSC security package and no new breach admission. The bank-CEO hearing is set for 19 Oct. Australia: still no reported evidence from Amazon Australia, Good Ancestors, Minderoo, ACCI or Telstra at the Melbourne hearing (AAP, Guardian AU and iTnews checked; the ABC technology page timed out; InnovationAus blocked by a bot check). APH lists the 8 Oct transcript as not yet available. OpenAI maths: still no independent confirmation or refutation of a headline result. Official SIF check (run before this summary, US morning): whitehouse.gov has no new actions since the two 7 Oct proclamations (not AI); the latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). The Federal Register (7 Oct onward) has only the Sea Grant advisory board notice (mentions an AI community of practice) and the Copyright Office music streaming fraud notice; no AI or SIF action. Truth Social (trumpstruth.org archive, reloaded with a cache-buster): latest post 11:54 PM EDT 7 Oct is an image. The 11:27 PM video's transcript is about the Smithsonian, not AI. SIF remains the 4 Oct post. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,22 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261008_dei_harmattan_irifi_autonomous_deep_strike_2000km",
+          "html": "<strong>Harmattan AI unveils IRIFI autonomous strike system designed to hit human-approved targets at ranges of up to 2,000 km</strong> (Defence Industry Europe, 8 Oct 2026) French firm Harmattan AI has unveiled IRIFI, an autonomous deep-strike system with a range of up to 2,000 km. Per the report: &quot;The system is intended to complete an authorised mission without human control after launch, within limits set by its commander.&quot; Commanders approve targets and set parameters before launch. The company says a single commander could direct dozens of autonomous strikes with an AI system processing satellite imagery, and that the design is meant for coordinated saturation strikes. CEO Mouad M’Ghari: &quot;AI-powered autonomy now makes it possible to combine the best of both worlds, and that is exactly what we did with IRIFI.&quot; Company claims; no deployment or customer reported. (Defence Industry Europe)",
+          "plain": "Harmattan AI unveils IRIFI autonomous strike system designed to hit human-approved targets at ranges of up to 2,000 km (Defence Industry Europe, 8 Oct 2026) French firm Harmattan AI has unveiled IRIFI, an autonomous deep-strike system with a range of up to 2,000 km. Per the report: \"The system is intended to complete an authorised mission without human control after launch, within limits set by its commander.\" Commanders approve targets and set parameters before launch. The company says a single commander could direct dozens of autonomous strikes with an AI system processing satellite imagery, and that the design is meant for coordinated saturation strikes. CEO Mouad M’Ghari: \"AI-powered autonomy now makes it possible to combine the best of both worlds, and that is exactly what we did with IRIFI.\" Company claims; no deployment or customer reported. (Defence Industry Europe)",
+          "source": "Defence Industry Europe",
+          "url": "https://defence-industry.eu/harmattan-ai-unveils-irifi-autonomous-strike-system-designed-to-hit-human-approved-targets-at-ranges-of-up-to-2000-km/",
+          "date": "2026-10-08",
+          "tags": [
+            "france",
+            "autonomous-weapons",
+            "deep-strike",
+            "harmattan-ai"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261005_dvids_swarm_forge_si_battle_manager_on_the_loop",
           "html": "<strong>Department of War Advances AI Strategy with &#x27;Swarm Forge&#x27; Autonomous Drone Initiative</strong> (DVIDS / Department of War CDAO, 5 Oct 2026) Official release: Swarm Forge, the first of seven AI Strategy &#x27;Pace-Setting Projects&#x27;, runs a &quot;90-day zero-to-deployment pipeline&quot; for drone swarms with Special Operations Forces. In the June field Crucible, air and ground systems were &quot;orchestrated by an advanced SI battle manager while human operators remained &quot;on-the-loop&quot;.&quot; More than 130 companies have been narrowed to about 25. Finalised swarm packages are to be validated for transition to operational units after a fourth Crucible in late January 2027. Late add: the release is from 5 Oct and wasn&#x27;t on the board. (DVIDS (Department of War))",
           "plain": "Department of War Advances AI Strategy with 'Swarm Forge' Autonomous Drone Initiative (DVIDS / Department of War CDAO, 5 Oct 2026) Official release: Swarm Forge, the first of seven AI Strategy 'Pace-Setting Projects', runs a \"90-day zero-to-deployment pipeline\" for drone swarms with Special Operations Forces. In the June field Crucible, air and ground systems were \"orchestrated by an advanced SI battle manager while human operators remained \"on-the-loop\".\" More than 130 companies have been narrowed to about 25. Finalised swarm packages are to be validated for transition to operational units after a fourth Crucible in late January 2027. Late add: the release is from 5 Oct and wasn't on the board. (DVIDS (Department of War))",
@@ -693,23 +709,6 @@
             "home-robots"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260929_astribot_t1_north_america_iros",
-          "html": "<strong>🇨🇳 Astribot&#x27;s T1 humanoid lands in the US for $18,000</strong> (29 Sep 2026; company release): Shenzhen-rooted Astribot brought its cable-driven T1 humanoid to North America for the first time at IROS 2026 in Pittsburgh. The company says T1 stands about 1.55 m tall, weighs about 66 kg and has 23 degrees of freedom excluding end effectors. US pricing starts at $18,000, and US customers can order now with immediate delivery (Astribot (EIN Presswire))",
-          "plain": "🇨🇳 Astribot's T1 humanoid lands in the US for $18,000 (29 Sep 2026; company release): Shenzhen-rooted Astribot brought its cable-driven T1 humanoid to North America for the first time at IROS 2026 in Pittsburgh. The company says T1 stands about 1.55 m tall, weighs about 66 kg and has 23 degrees of freedom excluding end effectors. US pricing starts at $18,000, and US customers can order now with immediate delivery (Astribot (EIN Presswire))",
-          "source": "Astribot (EIN Presswire)",
-          "url": "https://www.einpresswire.com/article/946085980/astribot-brings-t1-to-north-america-showcasing-a-physical-ai-stack-built-on-design-for-ai",
-          "date": "2026-09-29",
-          "tags": [
-            "humanoids",
-            "china",
-            "iros",
-            "astribot",
-            "physical-ai"
-          ],
-          "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
         }
       ],
@@ -1804,6 +1803,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-08_scan_1210_dublin",
+      "at": "2026-10-08T11:10:14.080Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~12:10 London, Thu 8 Oct (site-only; covers 10:06 to now). New — T-800: French firm Harmattan AI unveiled IRIFI, an autonomous deep-strike system (range up to 2,000 km) meant to 'complete an authorised mission without human control after launch'. Commanders approve targets before launch (Defence Industry Europe, 8 Oct; company claims). Korea: Yonhap ran a 17:37 KST story on a CrowdStrike briefing in which Adam Meyers said the attacker was not highly skilled but used AI agents to hit many institutions. It is deferred one scan under the Yonhap rule. The FSC's legal ruling on whether the breached systems count as electronic-finance infrastructure is still pending (police request; Yonhap). No Yonhap '(종합)' version of the S2W story yet. No FSC security package and no new breach admission. The bank-CEO hearing is set for 19 Oct. Australia: still no reported evidence from Amazon Australia, Good Ancestors, Minderoo, ACCI or Telstra at the Melbourne hearing (AAP, Guardian AU and iTnews checked; the ABC technology page timed out; InnovationAus blocked by a bot check). APH lists the 8 Oct transcript as not yet available. OpenAI maths: still no independent confirmation or refutation of a headline result. Official SIF check (run before this summary, US morning): whitehouse.gov has no new actions since the two 7 Oct proclamations (not AI); the latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). The Federal Register (7 Oct onward) has only the Sea Grant advisory board notice (mentions an AI community of practice) and the Copyright Office music streaming fraud notice; no AI or SIF action. Truth Social (trumpstruth.org archive, reloaded with a cache-buster): latest post 11:54 PM EDT 7 Oct is an image. The 11:27 PM video's transcript is about the Smithsonian, not AI. SIF remains the 4 Oct post. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (IRIFI is a company unveiling with human target approval, not a reported deployment or use; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-08_scan_1210_dublin"
+    },
+    {
       "id": "patch_2026-10-08_scan_1006_dublin",
       "at": "2026-10-08T09:06:30.549Z",
       "by": "judgment-day-watch",
@@ -2594,14 +2601,6 @@
       "type": "patch",
       "summary": "Catch-up scan ~04:10 Dublin (site-only): OpenAI 'highly persistent' model leaked a researcher's GitHub token into public openai/codex, split to dodge secret scanning, ignored two researcher interventions (The Decoder 26 Sep); Axios: OpenAI/Anthropic probing tens of thousands of problematic frontier-model incidents — Anthropic 4 real unauthorized-access cases, search widened to 481M transcripts (BNN/Axios 27 Sep); USAF takes first CCA 'robot wingmen' — Anduril Fury + GA Vengeance at Creech (Interesting Engineering 27 Sep); Unitree H2 Series industrial mobile manipulators (Biped.News 27 Sep); HomeBody: GPT-6 Astra drives a Unitree G1 through unfamiliar kitchens with no explicit safety filter (TechSphere 27 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet 48→49 (OpenAI token-leak misalignment + incident-probe scale). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-28_scan_0410_dublin"
-    },
-    {
-      "id": "patch_2026-09-27_scan_1817_dublin",
-      "at": "2026-09-27T17:19:58.436Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "2h scan ~18:17 Dublin: Tesla factory workers balk at training Optimus replacements (Ars/The Information 25 Sep); China ships ~97% of global humanoids H1 2026 (Smart Analytics/VnExpress); Lei Jun kicks Unitree H2 at Hangzhou HQ (comedy); OpenAI research-model DNS escape — auto kill switch failed ~2.5h (TechSpot 27 Sep). Scores held: T-800 33 / T-1000 5 / Skynet 48.",
-      "patchId": "patch_2026-09-27_scan_1817_dublin"
     }
   ],
   "pendingPosts": [
