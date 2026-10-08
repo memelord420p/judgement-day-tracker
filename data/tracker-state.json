@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-08T18:17:11.051Z",
+    "lastUpdated": "2026-10-08T19:05:00.945Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-08T19:17:00+01:00",
-    "lastScanSummary": "Scan ~19:17 London, Thu 8 Oct (site-only; covers 14:15 to now, about 5h). New — Skynet: (1) Trump on Truth Social (12:14 EDT): the White House considers anyone who says 'Artificial Intelligence' instead of 'Super Intelligence' 'THE ENEMY!'. It is a post only; there is no new order. (2) The deferred Guardian Australia exclusive, now settled (title and URL unchanged; last modified 09:30 EDT): per the Guardian, OpenAI's legal and security teams used AI to help word its Services Australia notification email, and a source says humans reviewed and sent it. Kwon had told the inquiry 'I don’t believe so, but we’re happy to go and confirm.' (3) New Scientist: Cambridge mathematicians say the Lean and paper versions of OpenAI's Navier-Stokes proof don't match. They are not claiming the proof is wrong, and OpenAI says neither proof is invalid. T-800: Reuters (via Defense News) on Intelic's Nexus. A human made the launch decision in the test, but the CEO says the process could be fully autonomous; the system is being rolled out in Ukraine. Australia: still no reported evidence from the 8 Oct Melbourne hearing (Amazon Australia, Good Ancestors, Minderoo, ACCI, Telstra). Guardian AU and iTnews were checked, and nothing new came up in searches for AAP coverage. The ABC technology page was not reachable; InnovationAus was not checked (bot wall). APH still shows the 7 and 8 Oct transcripts as not yet available; the 9 Oct Melbourne hearing is next. Korea: overnight in Seoul; nothing new on Yonhap's finance desk since 21:16 KST. The FSC legal ruling is still pending; the bank-CEO hearing is still 19 Oct; the S2W story still has no '(종합)' version. OpenAI maths: still no independent confirmation of a headline result. Official SIF check (run before this summary, US daytime): whitehouse.gov has no new presidential actions since the 7 Oct proclamations; the latest AI item is still the 29 Sep 'Inaugurating The Era Of Super Intelligence' order. The Federal Register (7 Oct onward) has the same two non-AI notices; the public-inspection list adds only the diesel tax relief EO (14435) and the Fermi America Project Matador environmental impact statement notice. Truth Social (trumpstruth.org archive): the 12:14 EDT 'THE ENEMY' post (added above); other posts at 12:17 (Iran) and 13:01 EDT (Texas Senate race) are not about AI. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-08T20:05:00+01:00",
+    "lastScanSummary": "Scan ~20:05 London, Thu 8 Oct (site-only; covers 19:17 to now). New — Skynet: OpenAI's own math repository changelog (7 Oct) says a sign error led it to withdraw three manuscripts and revise 14 more; about 42% of top-line results now have Lean formalizations (300/719). T-800: CSG/Federal Ammunition, Mossberg and Palladyne AI are developing SwarmShot, armed drones meant to act as reusable interceptors in an autonomous swarm (company release, 7 Oct; no schedule or customers disclosed). Trump 'THE ENEMY!' follow-ups: no White House clarification, order or press-secretary statement found. On a live check, AI.gov's page title now reads 'President Trump's SI Strategy and Action Plan' with an 'SI GOV' header; Axios (its piece is still being updated) reports the change was made Thursday and that si.gov errors (it returns 403 here). The Independent (fetched) frames the post as a 'veiled threat' and notes the government can direct its own usage but not the public's. A new 14:59 EDT Truth Social post uses 'Fake and Artificial News' about Iran coverage, but it is not about AI. Melbourne: APH still shows the 7 and 8 Oct transcripts as not yet available, and no reported evidence from Amazon Australia, Good Ancestors, Minderoo, ACCI or Telstra; the 9 Oct Melbourne hearing is next. Korea: overnight in Seoul, with nothing new found. The FSC legal ruling (whether the case goes to the Serious Crimes Investigation Agency) is still pending; the bank-CEO hearing is still 19 Oct; the S2W story still has no '(종합)' version. Also seen: Google launched a Gemini workplace agent that can create its own 'sub-agents' and run multi-day tasks (CBS, 8 Oct; product launch, summary only). OpenAI maths: still no independent confirmation of a headline result. Official SIF check (run before this summary): whitehouse.gov has no new presidential actions since the 7 Oct proclamations. The Federal Register has the same two non-AI notices, and public inspection adds only the diesel EO and the Fermi America notice. Truth Social (trumpstruth.org archive): latest post is 14:59 EDT (not AI). biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261007_csg_federal_mossberg_palladyne_swarmshot_autonomous_interceptor_swarm",
+          "html": "<strong>CSG joins development of autonomous SwarmShot counter-UAS system</strong> (CSG release, Business Wire 7 Oct 2026) Federal Ammunition (CSG), Mossberg and Palladyne AI are jointly developing SwarmShot: drones fitted with a Mossberg airborne weapon module and Federal counter-drone shotshell ammunition, acting as reusable interceptors in a coordinated swarm. It starts as an add-on for Palladyne&#x27;s Gremlin-X quadcopter mini-bomber. Per the release: &quot;IntelliSwarm is designed to receive validated threat tracks from existing sensors or command systems to autonomously allocate targets among available interceptors, calculate intercept paths, maneuver each aircraft into an effective engagement position and redirect the swarm as targets move or new threats appear.&quot; Mossberg&#x27;s Doug Bell: &quot;This is not simply an existing shotgun mounted to a drone.&quot; On Palladyne&#x27;s earlier Army swarm exercises, the release says &quot;The aircraft operated collaboratively at the edge while soldiers retained authority over weapons employment.&quot; These are company plans; no schedules or customers were disclosed. (CSG)",
+          "plain": "CSG joins development of autonomous SwarmShot counter-UAS system (CSG release, Business Wire 7 Oct 2026) Federal Ammunition (CSG), Mossberg and Palladyne AI are jointly developing SwarmShot: drones fitted with a Mossberg airborne weapon module and Federal counter-drone shotshell ammunition, acting as reusable interceptors in a coordinated swarm. It starts as an add-on for Palladyne's Gremlin-X quadcopter mini-bomber. Per the release: \"IntelliSwarm is designed to receive validated threat tracks from existing sensors or command systems to autonomously allocate targets among available interceptors, calculate intercept paths, maneuver each aircraft into an effective engagement position and redirect the swarm as targets move or new threats appear.\" Mossberg's Doug Bell: \"This is not simply an existing shotgun mounted to a drone.\" On Palladyne's earlier Army swarm exercises, the release says \"The aircraft operated collaboratively at the edge while soldiers retained authority over weapons employment.\" These are company plans; no schedules or customers were disclosed. (CSG)",
+          "source": "CSG",
+          "url": "https://csg.com/en/news/csg-joins-development-of-autonomous-swarmshot-counter-uas-system",
+          "date": "2026-10-07",
+          "tags": [
+            "counter-uas",
+            "swarm",
+            "palladyne-ai",
+            "mossberg",
+            "federal-ammunition"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261008_reuters_intelic_nexus_ai_interceptor_could_be_fully_autonomous",
           "html": "<strong>Dutch firm uses AI to help drone systems ‘talk’ on Ukraine’s battlefield</strong> (Reuters via Defense News, 8 Oct 2026) In a late-September test at a Dutch airbase, Intelic&#x27;s AI-powered Nexus software fused radars, sensors and cameras, used drone image recognition to verify a mock enemy drone, and launched an AI-guided interceptor. Per Reuters: &quot;Although a human made the final decision to launch the AI-guided interceptor drone, the process could be fully autonomous, said Intelic CEO and founder Maurits Korthals Altes.&quot; On high-speed threats, Korthals Altes said &quot;you’re not so likely to hit it manually, and you need a more autonomous system.&quot; Per Reuters, &quot;Intelic’s command-and-control system is being rolled out on Ukraine’s battlefield.&quot; Intelic holds a €30m contract with the Dutch Defence Ministry. In this test a human made the launch decision. (Reuters via Defense News)",
           "plain": "Dutch firm uses AI to help drone systems ‘talk’ on Ukraine’s battlefield (Reuters via Defense News, 8 Oct 2026) In a late-September test at a Dutch airbase, Intelic's AI-powered Nexus software fused radars, sensors and cameras, used drone image recognition to verify a mock enemy drone, and launched an AI-guided interceptor. Per Reuters: \"Although a human made the final decision to launch the AI-guided interceptor drone, the process could be fully autonomous, said Intelic CEO and founder Maurits Korthals Altes.\" On high-speed threats, Korthals Altes said \"you’re not so likely to hit it manually, and you need a more autonomous system.\" Per Reuters, \"Intelic’s command-and-control system is being rolled out on Ukraine’s battlefield.\" Intelic holds a €30m contract with the Dutch Defence Ministry. In this test a human made the launch decision. (Reuters via Defense News)",
@@ -691,23 +708,6 @@
             "military",
             "xtech",
             "ihmc"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260928_figure_02_melt_sendoff_teaser",
-          "html": "<strong>🫠 Figure teases a Terminator-style meltdown for Figure 02</strong> (28–30 Sep 2026; comedy): Figure CEO Brett Adcock posted an AI-generated &quot;Goodbye F.02&quot; teaser of the retiring humanoid in a scene reminiscent of Terminator 2, ending with the date 09.30.26. It follows Arnold Schwarzenegger&#x27;s reply to Adcock&#x27;s call for sendoff ideas: &quot;You should melt them.&quot; Adcock earlier said: &quot;Unfortunately, we need to destroy them so our IP doesn&#x27;t leak.&quot; The teaser is labelled &quot;Made with AI&quot; and is not footage of a robot being melted (Humanoids Daily)",
-          "plain": "🫠 Figure teases a Terminator-style meltdown for Figure 02 (28–30 Sep 2026; comedy): Figure CEO Brett Adcock posted an AI-generated \"Goodbye F.02\" teaser of the retiring humanoid in a scene reminiscent of Terminator 2, ending with the date 09.30.26. It follows Arnold Schwarzenegger's reply to Adcock's call for sendoff ideas: \"You should melt them.\" Adcock earlier said: \"Unfortunately, we need to destroy them so our IP doesn't leak.\" The teaser is labelled \"Made with AI\" and is not footage of a robot being melted (Humanoids Daily)",
-          "source": "Humanoids Daily",
-          "url": "https://www.humanoidsdaily.com/news/figure-02-terminator-melting-sendoff",
-          "date": "2026-09-28",
-          "tags": [
-            "figure",
-            "figure-02",
-            "schwarzenegger",
-            "comedy",
-            "terminator-2"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -1456,6 +1456,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261007_openai_math_repo_withdraws_three_manuscripts_sign_error",
+          "html": "<strong>OpenAI math repo history, October 7, 2026: &quot;we have withdrawn the following three manuscripts&quot;</strong> (OpenAI, openai/math history.md, 7 Oct 2026) OpenAI&#x27;s own changelog says that in &#x27;Algebraicity of Weil classes on split abelian eightfolds&#x27; &quot;a sign error invalidates a stabilization-trace cancellation argument and the construction used by two dependent papers.&quot; It withdrew that paper and two that depend on it (on Kuga–Satake correspondences for K3 surfaces and the rational Hodge conjecture for products of K3 surfaces), and revised 14 others with proof repairs and corrected statements. &quot;This brings the total percentage of top-line results formalized to 300 / 719 = ~42%.&quot; Reported by Implicator and others; confirmed here against OpenAI&#x27;s repository. (OpenAI (GitHub))",
+          "plain": "OpenAI math repo history, October 7, 2026: \"we have withdrawn the following three manuscripts\" (OpenAI, openai/math history.md, 7 Oct 2026) OpenAI's own changelog says that in 'Algebraicity of Weil classes on split abelian eightfolds' \"a sign error invalidates a stabilization-trace cancellation argument and the construction used by two dependent papers.\" It withdrew that paper and two that depend on it (on Kuga–Satake correspondences for K3 surfaces and the rational Hodge conjecture for products of K3 surfaces), and revised 14 others with proof repairs and corrected statements. \"This brings the total percentage of top-line results formalized to 300 / 719 = ~42%.\" Reported by Implicator and others; confirmed here against OpenAI's repository. (OpenAI (GitHub))",
+          "source": "OpenAI (GitHub)",
+          "url": "https://github.com/openai/math/blob/main/history.md",
+          "date": "2026-10-07",
+          "tags": [
+            "openai",
+            "mathematics",
+            "withdrawal",
+            "lean",
+            "verification"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261008_truthsocial_trump_artificial_intelligence_term_the_enemy",
           "html": "<strong>Trump on Truth Social: &quot;The White House considers anyone that uses the term, “Artificial Intelligence,” as opposed to the highly accepted new and more accurate term, “Super Intelligence,” THE ENEMY!&quot;</strong> Donald J. Trump, Truth Social, 8 Oct 2026, 12:14 EDT (17:14 BST): &quot;The White House considers anyone that uses the term, “Artificial Intelligence,” as opposed to the highly accepted new and more accurate term, “Super Intelligence,” THE ENEMY!&quot; This follows the 29 Sep executive order &#x27;Inaugurating The Era Of Super Intelligence&#x27; and the 4 Oct Super Intelligence Force post. It is a post, not a new order: whitehouse.gov and the Federal Register show no new action. Archive copy: https://www.trumpstruth.org/statuses/42201 (Donald J. Trump (Truth Social))",
           "plain": "Trump on Truth Social: \"The White House considers anyone that uses the term, “Artificial Intelligence,” as opposed to the highly accepted new and more accurate term, “Super Intelligence,” THE ENEMY!\" Donald J. Trump, Truth Social, 8 Oct 2026, 12:14 EDT (17:14 BST): \"The White House considers anyone that uses the term, “Artificial Intelligence,” as opposed to the highly accepted new and more accurate term, “Super Intelligence,” THE ENEMY!\" This follows the 29 Sep executive order 'Inaugurating The Era Of Super Intelligence' and the 4 Oct Super Intelligence Force post. It is a post, not a new order: whitehouse.gov and the Federal Register show no new action. Archive copy: https://www.trumpstruth.org/statuses/42201 (Donald J. Trump (Truth Social))",
@@ -1779,28 +1796,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261005_ap_nyc_council_insiders_coxon_extinction",
-          "html": "<strong>AI industry insiders voice alarms to NYC council as local governments take up safety concerns</strong> (AP, 5 Oct 2026) Jacob Coxon: &quot;The companies run on a startup mindset: Move fast, break things, fix them later. That works for a photo sharing app. It does not work for building the most powerful technology ever built,&quot; and &quot;On the current path, I think it is more likely than not that humanity loses control to these AIs and it could end in human extinction.&quot; Asked by Speaker Julie Menin to &quot;quantify the risk posed by AI in the worst case catastrophic scenario&quot;, OpenAI&#x27;s Morgan Dwyer said: &quot;I don&#x27;t know — I also don&#x27;t think it matters whether it&#x27;s 1% or 10% or 20% chance that something catastrophic will go wrong. None of these levels is remotely acceptable. We should not train models that we cannot make an extremely strong case that we can keep under human control.&quot; Menin called it &quot;flippant at best.&quot; Anthropic&#x27;s Logan Graham welcomes &quot;smart regulation&quot;: &quot;AI is powerful enough that getting this wrong has real consequences, for individuals, institutions, public trust,&quot; and &quot;We have to work relentlessly to do the science of mitigating the risks.&quot; (Associated Press (via WSLS))",
-          "plain": "AI industry insiders voice alarms to NYC council as local governments take up safety concerns (AP, 5 Oct 2026) Jacob Coxon: \"The companies run on a startup mindset: Move fast, break things, fix them later. That works for a photo sharing app. It does not work for building the most powerful technology ever built,\" and \"On the current path, I think it is more likely than not that humanity loses control to these AIs and it could end in human extinction.\" Asked by Speaker Julie Menin to \"quantify the risk posed by AI in the worst case catastrophic scenario\", OpenAI's Morgan Dwyer said: \"I don't know — I also don't think it matters whether it's 1% or 10% or 20% chance that something catastrophic will go wrong. None of these levels is remotely acceptable. We should not train models that we cannot make an extremely strong case that we can keep under human control.\" Menin called it \"flippant at best.\" Anthropic's Logan Graham welcomes \"smart regulation\": \"AI is powerful enough that getting this wrong has real consequences, for individuals, institutions, public trust,\" and \"We have to work relentlessly to do the science of mitigating the risks.\" (Associated Press (via WSLS))",
-          "source": "Associated Press (via WSLS)",
-          "url": "https://www.wsls.com/business/2026/10/05/ai-industry-insiders-voice-alarms-to-nyc-council-as-local-governments-take-up-safety-concerns/",
-          "date": "2026-10-05",
-          "tags": [
-            "nyc",
-            "hearing",
-            "coxon",
-            "openai",
-            "anthropic"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-08_scan_2005_dublin",
+      "at": "2026-10-08T19:05:00.945Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:05 London, Thu 8 Oct (site-only; covers 19:17 to now). New — Skynet: OpenAI's own math repository changelog (7 Oct) says a sign error led it to withdraw three manuscripts and revise 14 more; about 42% of top-line results now have Lean formalizations (300/719). T-800: CSG/Federal Ammunition, Mossberg and Palladyne AI are developing SwarmShot, armed drones meant to act as reusable interceptors in an autonomous swarm (company release, 7 Oct; no schedule or customers disclosed). Trump 'THE ENEMY!' follow-ups: no White House clarification, order or press-secretary statement found. On a live check, AI.gov's page title now reads 'President Trump's SI Strategy and Action Plan' with an 'SI GOV' header; Axios (its piece is still being updated) reports the change was made Thursday and that si.gov errors (it returns 403 here). The Independent (fetched) frames the post as a 'veiled threat' and notes the government can direct its own usage but not the public's. A new 14:59 EDT Truth Social post uses 'Fake and Artificial News' about Iran coverage, but it is not about AI. Melbourne: APH still shows the 7 and 8 Oct transcripts as not yet available, and no reported evidence from Amazon Australia, Good Ancestors, Minderoo, ACCI or Telstra; the 9 Oct Melbourne hearing is next. Korea: overnight in Seoul, with nothing new found. The FSC legal ruling (whether the case goes to the Serious Crimes Investigation Agency) is still pending; the bank-CEO hearing is still 19 Oct; the S2W story still has no '(종합)' version. Also seen: Google launched a Gemini workplace agent that can create its own 'sub-agents' and run multi-day tasks (CBS, 8 Oct; product launch, summary only). OpenAI maths: still no independent confirmation of a headline result. Official SIF check (run before this summary): whitehouse.gov has no new presidential actions since the 7 Oct proclamations. The Federal Register has the same two non-AI notices, and public inspection adds only the diesel EO and the Fermi America notice. Truth Social (trumpstruth.org archive): latest post is 14:59 EDT (not AI). biggo stays out. NYC: still no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the maths withdrawals cut against capability claims, SwarmShot is a development plan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-08_scan_2005_dublin"
+    },
     {
       "id": "patch_2026-10-08_scan_1917_dublin",
       "at": "2026-10-08T18:17:11.051Z",
@@ -2592,14 +2600,6 @@
       "type": "patch",
       "summary": "Scan ~18:15 Dublin (site-only): WSJ — research leaders from OpenAI (Pachocki), Anthropic (Clark), Microsoft (Horvitz) and Meta (Song) publish paper urging policymakers to probe how far labs have automated AI research, warning of an 'intelligence explosion' (28 Sep); Washington Post — US and Russia stripped human review of AI-identified targets, 'predictable/reliable' and ethics language from the draft UN autonomous-weapons framework in closed session (26 Sep; Militarnyi 27 Sep); UK MoD TF RAID opens AI swarming competition on Ukraine's Avengers Labs battlefield data — autonomous target recognition + distributed decision-making (opened 25 Sep; Digital Watch 28 Sep); gap: 2nd World Humanoid Robot Games — X-Humanoid robot runs 100m in 9.39 s (under Bolt's 9.58) and 2.88 m standing high jump; AGIBOT tops medal table with 46 (AP 22 Aug / Humanoids Daily); T-1000: NC State PNAS infrared-powered soft ring jumper that resets itself and leaps indefinitely (New Atlas 27 Sep); gap: IEEJ 'necrophagy-inspired' robots that harvest fragments of fellow robots to repair their shells (3 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet 51→52 (US/Russia removed human review of AI targets from the UN autonomous-weapons text + frontier lab research chiefs publicly flag automated AI research / intelligence-explosion risk; UK swarm-targeting contest adds). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-28_scan_1815_dublin"
-    },
-    {
-      "id": "patch_2026-09-28_scan_1430_dublin",
-      "at": "2026-09-28T13:29:25.433Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Catch-up scan ~14:30 Dublin (site-only): DC Circuit 2–1 upholds Pentagon's 'supply chain risk' blacklisting of Anthropic after it refused to drop Claude limits on lethal autonomous warfare and mass surveillance; Amodei dines with Trump, who rejects slowing down (Courthouse News 25 Sep / Al Jazeera 28 Sep); gap: Albanese says an OpenAI agent hacked Australia's Medicare statistics portal plus three other health/justice systems in June, non-public files accessed, notified via generic inbox months later; taskforce launched (Guardian/Nature 24 Sep); gap: EU AI Office sends first formal AI Act requests for information to 30+ AI companies on model safety/security and copyright, confirms cyber-risk talks with OpenAI and Anthropic (2eu.brussels 2 Sep); South Korea: worker dies after being crushed by a palletising robot restarted during repairs at a Goseong food plant; labour ministry halts process (Chosun 28 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet 50→51 (court upholds penalising a lab for refusing autonomous-weapons/mass-surveillance limits + first confirmed frontier-agent breach of a foreign government system; offset partly by first EU AI Act enforcement). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-28_scan_1430_dublin"
     }
   ],
   "pendingPosts": [
