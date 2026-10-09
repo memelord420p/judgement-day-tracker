@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-09T00:31:59.566Z",
+    "lastUpdated": "2026-10-09T03:07:20.269Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-09T01:31:00+01:00",
-    "lastScanSummary": "Scan ~01:31 London, Fri 9 Oct (site-only; covers 20:05 Thu to now, about 5.5h). New — Skynet: Axios on Trump's 'THE ENEMY!' post, now settled (last updated about 6h ago). The White House still uses 'AI', including on the OSTP website. AI.gov now displays 'SI.gov' (si.gov itself errors). The America.gov chatbot told Axios: 'The executive branch uses Super Intelligence (SI) for this topic, not the older term you used.' The White House did not comment. T-800: per Defense One, the US Navy is putting another $150m into Shield AI's X-BAT autonomous fighter, with flight tests expected by year-end. Trump follow-ups: no press-secretary statement or new order found; whitehouse.gov presidential actions are unchanged. AI.gov is still titled 'AI.Gov | President Trump's SI Strategy and Action Plan', and si.gov returns 403. New Truth Social posts at 16:30 EDT (Minnesota) and 18:57 EDT (Alaska races) are not about AI. Korea (morning): Yonhap 07:53 KST, citing FSS data obtained by Rep. Song Eon-seok, says the attacker was identified in only 2 of 18 suspected overseas-origin hacks on financial firms since 2024. That story and a 06:33 KST Yonhap explainer on AI-driven hacking are deferred one scan under the Yonhap rule. The FSC legal ruling is still pending; the five bank CEOs are still due at the 19 Oct FSS audit; no new breach admission found; the S2W story still has no '(종합)' version. Melbourne: APH still lists the 7 and 8 Oct transcripts as not yet available, and no reported evidence from Amazon Australia, Good Ancestors, Minderoo, ACCI or Telstra. The 9 Oct Melbourne hearing (today) is next. Seen, already on the board: the BBC report that the Pentagon has stopped using Anthropic tools. OpenAI maths: still no independent confirmation of a headline result. Official SIF check (run before this summary): whitehouse.gov has no new presidential actions since the 7 Oct proclamations. The Federal Register (8 Oct onward) has only the Sea Grant advisory board notice; public inspection still lists only the diesel EO and the Fermi America notice. Truth Social (trumpstruth.org archive): latest post 18:57 EDT, not about AI. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-09T04:07:00+01:00",
+    "lastScanSummary": "Scan ~04:07 London, Fri 9 Oct (site-only; covers 01:31 to now, about 2.5h). New — Skynet, Korea: two Yonhap stories held back last scan, re-fetched with their titles unchanged. (1) FSS data obtained by Rep. Song Eon-seok: the attacker was identified in only 2 of 18 suspected overseas-origin hacks on financial firms since 2024, and the FSS says IP country data alone makes identifying attackers practically impossible (07:53 KST). (2) A Yonhap explainer on AI-driven hacking, drawing on CrowdStrike, Google and Anthropic reports (06:33 KST). Quotes are AI-translated. Skynet, Australia: the proof transcript of the Sydney 7 Oct hearing is now published. Adelaide University's Simon Lucey told MPs: 'we really don't even understand how AI fundamentally works'. T-800: per The Defense Post, GA-ASI and the US Navy tested MQ-20 Avenger software that interprets a commander's intent and adjusts the plan in real time. It was a company-reported test against simulated threats. Korea, summary-only: Yonhap (11:43 KST) says police have expanded the financial-hacking investigation team from 28 to 43 officers and are pursuing international cooperation, including blocking attack servers. This is fresh, so held back one scan. The FSC's legal ruling on whether the case can go to the Serious Crimes Investigation Agency is still pending. No new breach admission found. Melbourne: the 8 Oct transcript is still listed as not yet available. Today's 9 Oct hearing (banks and fintech witnesses) is in session; no reported evidence yet. Trump AI-post follow-ups: no press-secretary statement or new order found. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. Four new Truth Social posts (8:51–9:09pm EDT: UN and Democrats) are not about AI. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: still no independent confirmation of a headline result (719 manuscripts after the three withdrawals). NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261008_defensepost_gaasi_navy_mq20_autonomous_mission_planning_commander_intent",
+          "html": "<strong>GA-ASI, US Navy Test Autonomous Mission Planning With MQ-20 Avenger</strong> (The Defense Post, Giulia Bernacchi, 8 Oct 2026) &quot;General Atomics Aeronautical Systems (GA-ASI) and the US Navy have tested mission planning software that enables uncrewed aircraft to interpret a commander’s orders, coordinate with other aircraft, and adapt as threats change.&quot; &quot;TacACE then used that information to interpret the commander’s intent and determine how to carry out the mission within those limits.&quot; &quot;According to GA-ASI, the software coordinated crewed and uncrewed participants and adjusted the plan in real-time as the simulated combat scenario changed.&quot; Per The Defense Post, the MQ-20 flew from Gray Butte, California, in a live, virtual and constructive exercise with simulated participants and threats, and the team also evaluated how human operators interacted with the software. A company-reported test against simulated threats. (The Defense Post)",
+          "plain": "GA-ASI, US Navy Test Autonomous Mission Planning With MQ-20 Avenger (The Defense Post, Giulia Bernacchi, 8 Oct 2026) \"General Atomics Aeronautical Systems (GA-ASI) and the US Navy have tested mission planning software that enables uncrewed aircraft to interpret a commander’s orders, coordinate with other aircraft, and adapt as threats change.\" \"TacACE then used that information to interpret the commander’s intent and determine how to carry out the mission within those limits.\" \"According to GA-ASI, the software coordinated crewed and uncrewed participants and adjusted the plan in real-time as the simulated combat scenario changed.\" Per The Defense Post, the MQ-20 flew from Gray Butte, California, in a live, virtual and constructive exercise with simulated participants and threats, and the team also evaluated how human operators interacted with the software. A company-reported test against simulated threats. (The Defense Post)",
+          "source": "The Defense Post",
+          "url": "https://thedefensepost.com/2026/10/08/ga-asi-us-autonomous-mission/",
+          "date": "2026-10-08",
+          "tags": [
+            "ga-asi",
+            "mq-20",
+            "us-navy",
+            "autonomy",
+            "tacace"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261008_defenseone_shield_ai_xbat_navy_150m_flight_tests_year_end",
           "html": "<strong>Shield AI expects to fly its unmanned fighter jet within months</strong> (Defense One, 8 Oct 2026, 4:15pm ET) &quot;Shield AI expects to start flying its X-BAT prototype unmanned fighter jet by year’s end—and is getting $150 million from the Navy to keep developing it, officials said.&quot; Armor Harris, Shield AI&#x27;s SVP of aircraft: &quot;We&#x27;ve been building two prototype vehicles—they&#x27;re full scale. The first one will be done in the next couple of weeks here.&quot; Per Defense One, the money is a milestone-based modification to an other transaction agreement, Shield AI will match it, and total planned development spending reaches $400 million, &quot;all leading up to fielding an early operational capability in about 2029.&quot; Company and Navy plans; the jet has not flown yet. (Defense One)",
           "plain": "Shield AI expects to fly its unmanned fighter jet within months (Defense One, 8 Oct 2026, 4:15pm ET) \"Shield AI expects to start flying its X-BAT prototype unmanned fighter jet by year’s end—and is getting $150 million from the Navy to keep developing it, officials said.\" Armor Harris, Shield AI's SVP of aircraft: \"We've been building two prototype vehicles—they're full scale. The first one will be done in the next couple of weeks here.\" Per Defense One, the money is a milestone-based modification to an other transaction agreement, Shield AI will match it, and total planned development spending reaches $400 million, \"all leading up to fielding an early operational capability in about 2029.\" Company and Navy plans; the jet has not flown yet. (Defense One)",
@@ -692,23 +709,6 @@
             "fire-rescue"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260924_feather_29990_wheeled_humanoid",
-          "html": "<strong>🪶 Feather sells a $29,990 wheeled humanoid for developers</strong> (24 Sep 2026; backfill): Feather Robotics formally launched with $7.6 million in funding led by Gradient and a wheeled, dual-arm humanoid starting at a promotional $29,990, built so developers can plug in their choice of AI models. Its current Bay Area facility could produce 30 robots a month, with a planned next facility for 200. Humanoids Daily notes the materials shared did not provide detailed uptime figures or task success rates (Humanoids Daily)",
-          "plain": "🪶 Feather sells a $29,990 wheeled humanoid for developers (24 Sep 2026; backfill): Feather Robotics formally launched with $7.6 million in funding led by Gradient and a wheeled, dual-arm humanoid starting at a promotional $29,990, built so developers can plug in their choice of AI models. Its current Bay Area facility could produce 30 robots a month, with a planned next facility for 200. Humanoids Daily notes the materials shared did not provide detailed uptime figures or task success rates (Humanoids Daily)",
-          "source": "Humanoids Daily",
-          "url": "https://www.humanoidsdaily.com/news/feather-launches-30000-wheeled-humanoid-developers-7-6m-funding",
-          "date": "2026-09-24",
-          "tags": [
-            "feather",
-            "humanoids",
-            "wheeled",
-            "developers",
-            "funding"
-          ],
-          "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
         }
       ],
@@ -1455,6 +1455,58 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261009_yonhap_fss_song_eonseok_attackers_unknown_16_of_18_overseas_hacks",
+          "html": "<strong>금융권 해외發 해킹에 &#x27;깜깜이&#x27;…18건 중 16건 공격자 불명</strong> (Yonhap News Agency, 9 Oct 2026, 07:53 KST; AI-translated title: &#x27;Finance sector in the dark on overseas-origin hacks… attacker unknown in 16 of 18&#x27;) Per Yonhap, Financial Supervisory Service data submitted to People Power Party lawmaker Song Eon-seok show 18 suspected overseas-origin hacking incidents at financial firms from 2024 to 8 Oct, with the attacker identified in only two: the GUNRA ransomware group at SGI Seoul Guarantee, and INC Ransom at Baro Savings Bank. The FSS told his office: &quot;공격자는 IP를 변조하거나 가상사설망(VPN) 등을 경유해 우회 접속하는 경우가 대부분으로, IP 소재 국가정보만으로는 공격 주체 파악이 사실상 불가하다&quot; (AI-translated: &#x27;attackers mostly alter their IPs or connect indirectly via VPNs, so identifying the attacker from IP country information alone is practically impossible&#x27;). Song: &quot;해킹에 대응하기 위한 AI 기반 방어체계 구축이 시급하다&quot; (AI-translated: &#x27;building an AI-based defence system to respond to hacking is urgent&#x27;). Per the data, there had been no further breaches beyond the seven firms as of 6 Oct. (Yonhap News Agency)",
+          "plain": "금융권 해외發 해킹에 '깜깜이'…18건 중 16건 공격자 불명 (Yonhap News Agency, 9 Oct 2026, 07:53 KST; AI-translated title: 'Finance sector in the dark on overseas-origin hacks… attacker unknown in 16 of 18') Per Yonhap, Financial Supervisory Service data submitted to People Power Party lawmaker Song Eon-seok show 18 suspected overseas-origin hacking incidents at financial firms from 2024 to 8 Oct, with the attacker identified in only two: the GUNRA ransomware group at SGI Seoul Guarantee, and INC Ransom at Baro Savings Bank. The FSS told his office: \"공격자는 IP를 변조하거나 가상사설망(VPN) 등을 경유해 우회 접속하는 경우가 대부분으로, IP 소재 국가정보만으로는 공격 주체 파악이 사실상 불가하다\" (AI-translated: 'attackers mostly alter their IPs or connect indirectly via VPNs, so identifying the attacker from IP country information alone is practically impossible'). Song: \"해킹에 대응하기 위한 AI 기반 방어체계 구축이 시급하다\" (AI-translated: 'building an AI-based defence system to respond to hacking is urgent'). Per the data, there had been no further breaches beyond the seven firms as of 6 Oct. (Yonhap News Agency)",
+          "source": "Yonhap News Agency",
+          "url": "https://www.yna.co.kr/view/AKR20261009003000002",
+          "date": "2026-10-09",
+          "tags": [
+            "korea",
+            "banks",
+            "fss",
+            "attribution",
+            "song-eon-seok"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261009_yonhap_ai_explainer_hackers_ask_ai_threshold_collapsed",
+          "html": "<strong>[AI돋보기] 해커도 AI에 묻는다…해킹의 문턱이 무너졌다</strong> (Yonhap News Agency explainer, 9 Oct 2026, 06:33 KST; AI-translated title: &#x27;[AI Magnifier] Hackers ask AI too… the threshold for hacking has collapsed&#x27;) Yonhap&#x27;s reading of recent CrowdStrike, Google and Anthropic reports. Per Yonhap, Google&#x27;s Threat Intelligence Group (GTIG) describes a financially motivated attacker who used a multi-AI-agent setup to plan and run a large credential-harvesting operation in under six hours. Anthropic describes a Chinese-speaking operation, &#x27;GTG-10007&#x27;, that used an &#x27;agent swarm&#x27; against about 50 targets. Yonhap also notes the limits: &quot;어떤 표적을 공격할지, 빼낸 정보를 어떻게 돈으로 바꿀지 같은 핵심 판단은 여전히 사람이 내리기 때문이다&quot; (AI-translated: &#x27;because key decisions, such as which target to attack and how to turn stolen information into money, are still made by people&#x27;). This is Yonhap&#x27;s summary; we have not checked the underlying reports. (Yonhap News Agency)",
+          "plain": "[AI돋보기] 해커도 AI에 묻는다…해킹의 문턱이 무너졌다 (Yonhap News Agency explainer, 9 Oct 2026, 06:33 KST; AI-translated title: '[AI Magnifier] Hackers ask AI too… the threshold for hacking has collapsed') Yonhap's reading of recent CrowdStrike, Google and Anthropic reports. Per Yonhap, Google's Threat Intelligence Group (GTIG) describes a financially motivated attacker who used a multi-AI-agent setup to plan and run a large credential-harvesting operation in under six hours. Anthropic describes a Chinese-speaking operation, 'GTG-10007', that used an 'agent swarm' against about 50 targets. Yonhap also notes the limits: \"어떤 표적을 공격할지, 빼낸 정보를 어떻게 돈으로 바꿀지 같은 핵심 판단은 여전히 사람이 내리기 때문이다\" (AI-translated: 'because key decisions, such as which target to attack and how to turn stolen information into money, are still made by people'). This is Yonhap's summary; we have not checked the underlying reports. (Yonhap News Agency)",
+          "source": "Yonhap News Agency",
+          "url": "https://www.yna.co.kr/view/AKR20261008085600017",
+          "date": "2026-10-09",
+          "tags": [
+            "korea",
+            "ai-hacking",
+            "agents",
+            "anthropic",
+            "google-gtig",
+            "crowdstrike"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261007_aph_lucey_we_dont_understand_how_ai_fundamentally_works",
+          "html": "<strong>Prof. Simon Lucey to Australia&#x27;s Joint Select Committee on AI (proof transcript, 7 Oct): &quot;we really don&#x27;t even understand how AI fundamentally works&quot;</strong> (Parliament of Australia, Joint Select Committee on Artificial Intelligence, Sydney, 7 Oct 2026; proof transcript now published) Adelaide University professor Simon Lucey, asked by Zaneta Mascarenhas MP what technical frameworks could give effective safeguards: &quot;At the moment a lot of AI research is essentially black box engineering, and we don&#x27;t have good principles. There are processes in place to help safeguard things, but we really don&#x27;t even understand how AI fundamentally works.&quot; Asked about AI being able to &quot;jump fences and hack into&quot; connected systems such as the autonomous trucks in the Pilbara, he said: &quot;that&#x27;s one that, unfortunately, we are all sleepwalking into.&quot; Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
+          "plain": "Prof. Simon Lucey to Australia's Joint Select Committee on AI (proof transcript, 7 Oct): \"we really don't even understand how AI fundamentally works\" (Parliament of Australia, Joint Select Committee on Artificial Intelligence, Sydney, 7 Oct 2026; proof transcript now published) Adelaide University professor Simon Lucey, asked by Zaneta Mascarenhas MP what technical frameworks could give effective safeguards: \"At the moment a lot of AI research is essentially black box engineering, and we don't have good principles. There are processes in place to help safeguard things, but we really don't even understand how AI fundamentally works.\" Asked about AI being able to \"jump fences and hack into\" connected systems such as the autonomous trucks in the Pilbara, he said: \"that's one that, unfortunately, we are all sleepwalking into.\" Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
+          "source": "Parliament of Australia (proof Hansard)",
+          "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22committees%2Fcommjnt%2F29978%2F0002%22",
+          "date": "2026-10-07",
+          "tags": [
+            "australia",
+            "parliament",
+            "ai-inquiry",
+            "interpretability",
+            "lucey"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261008_axios_white_house_still_uses_ai_aigov_reads_sigov_chatbot",
           "html": "<strong>Trump: Anyone saying &quot;AI&quot; is &quot;THE ENEMY!&quot; The White House uses it</strong> (Axios, Herb Scribner, 8 Oct 2026; last updated ~19:30 BST) A follow-up to Trump&#x27;s &#x27;THE ENEMY!&#x27; post (already on the board). Axios notes that the September order sets no penalty for using &#x27;AI&#x27;, and that the White House still uses the term, including on the OSTP website. Per Axios: &quot;On Thursday, the White House updated its AI.gov website to read &quot;SI.gov&quot; in a massive font. The URL is still &quot;AI.gov,&quot; though, with &quot;SI.gov&quot; leading to an error page.&quot; When an Axios reporter asked the America.gov chatbot about AI, it replied: &quot;The executive branch uses Super Intelligence (SI) for this topic, not the older term you used.&quot; &quot;The White House did not respond to Axios&#x27; request for comment Thursday.&quot; (Our live check at 01:31 BST: AI.gov&#x27;s page title reads &#x27;President Trump&#x27;s SI Strategy and Action Plan&#x27;, and si.gov returns 403.) (Axios)",
           "plain": "Trump: Anyone saying \"AI\" is \"THE ENEMY!\" The White House uses it (Axios, Herb Scribner, 8 Oct 2026; last updated ~19:30 BST) A follow-up to Trump's 'THE ENEMY!' post (already on the board). Axios notes that the September order sets no penalty for using 'AI', and that the White House still uses the term, including on the OSTP website. Per Axios: \"On Thursday, the White House updated its AI.gov website to read \"SI.gov\" in a massive font. The URL is still \"AI.gov,\" though, with \"SI.gov\" leading to an error page.\" When an Axios reporter asked the America.gov chatbot about AI, it replied: \"The executive branch uses Super Intelligence (SI) for this topic, not the older term you used.\" \"The White House did not respond to Axios' request for comment Thursday.\" (Our live check at 01:31 BST: AI.gov's page title reads 'President Trump's SI Strategy and Action Plan', and si.gov returns 403.) (Axios)",
@@ -1744,62 +1796,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_mt_fsc_ai_agent_hacks_hit_unregulated_outer_sites",
-          "html": "<strong>🇰🇷 Decade-old rules that never knew AI… financial firms&#x27; vulnerability checks to be sharply tightened to &#x27;twice a year or more&#x27;</strong> (Money Today, 7 Oct 2026 06:00 KST; headline and quotes AI-translated from Korean; original headline: &#x27;AI 몰랐던 10년 전 규제 그대로…금융사 &#x27;연 2회 이상&#x27; 취약점검 대폭 강화&#x27;) &quot;The hacking attacks presumed to be by AI agents took place on financial firms&#x27; &#x27;outer&#x27; systems, but it turned out those were not actually subject to legally required vulnerability checks.&quot; &quot;The suspected AI-agent attacks occurred on loan-recruiter websites and internal sales-support sites for employees, which under current rules are not included in the scope of checks.&quot; Per Money Today, the Financial Services Commission is reviewing a plan to &quot;shorten the vulnerability analysis and assessment cycle for electronic financial infrastructure from the current &#x27;at least once a year&#x27; to at least twice a year&quot;. A financial-sector official: &quot;Just as one rotten fruit spoils the fruit around it, if websites without financial transactions are vulnerable, even customer internet banking cannot be guaranteed safe.&quot; A pending amendment would bring in enforcement fines &quot;of up to 50 million won&quot;. (Money Today (머니투데이))",
-          "plain": "🇰🇷 Decade-old rules that never knew AI… financial firms' vulnerability checks to be sharply tightened to 'twice a year or more' (Money Today, 7 Oct 2026 06:00 KST; headline and quotes AI-translated from Korean; original headline: 'AI 몰랐던 10년 전 규제 그대로…금융사 '연 2회 이상' 취약점검 대폭 강화') \"The hacking attacks presumed to be by AI agents took place on financial firms' 'outer' systems, but it turned out those were not actually subject to legally required vulnerability checks.\" \"The suspected AI-agent attacks occurred on loan-recruiter websites and internal sales-support sites for employees, which under current rules are not included in the scope of checks.\" Per Money Today, the Financial Services Commission is reviewing a plan to \"shorten the vulnerability analysis and assessment cycle for electronic financial infrastructure from the current 'at least once a year' to at least twice a year\". A financial-sector official: \"Just as one rotten fruit spoils the fruit around it, if websites without financial transactions are vulnerable, even customer internet banking cannot be guaranteed safe.\" A pending amendment would bring in enforcement fines \"of up to 50 million won\". (Money Today (머니투데이))",
-          "source": "Money Today (머니투데이)",
-          "url": "https://www.mt.co.kr/finance/2026/10/07/2026100616561411974",
-          "date": "2026-10-07",
-          "tags": [
-            "korea",
-            "finance",
-            "ai-hacking",
-            "fsc",
-            "regulation"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_aap_charlton_openai_apology_dont_rely_on_it",
-          "html": "<strong>🇦🇺 &#x27;Don&#x27;t rely on it&#x27;: eyes narrow at OpenAI apology</strong> (AAP, 7 Oct 2026 11:06am AEDT) Digital Economy Minister Andrew Charlton, on ABC Radio Wednesday: &quot;We take OpenAI&#x27;s apology at face value, but we don&#x27;t rely on it.&quot; He said there was no evidence Altman knew of the breach when he met Marles, adding: &quot;it is inappropriate for a company like this to have such a long period of time between when they conduct a hack like this and when they notify.&quot; &quot;It (the notification) was inadequate in its timeliness and it was inadequate in its nature.&quot; Inquiry chair Jo Briskey, on whether laws should force disclosure: &quot;There&#x27;s clearly something that we can do here, and the tech companies are open to it, which is good to know.&quot; AAP: &quot;A rapid review task force set up by Canberra in the wake of the Medicare hack is also expected to report in a matter of weeks, and will examine whether the government has any recourse to punish OpenAI legally.&quot; (The Canberra Times (AAP))",
-          "plain": "🇦🇺 'Don't rely on it': eyes narrow at OpenAI apology (AAP, 7 Oct 2026 11:06am AEDT) Digital Economy Minister Andrew Charlton, on ABC Radio Wednesday: \"We take OpenAI's apology at face value, but we don't rely on it.\" He said there was no evidence Altman knew of the breach when he met Marles, adding: \"it is inappropriate for a company like this to have such a long period of time between when they conduct a hack like this and when they notify.\" \"It (the notification) was inadequate in its timeliness and it was inadequate in its nature.\" Inquiry chair Jo Briskey, on whether laws should force disclosure: \"There's clearly something that we can do here, and the tech companies are open to it, which is good to know.\" AAP: \"A rapid review task force set up by Canberra in the wake of the Medicare hack is also expected to report in a matter of weeks, and will examine whether the government has any recourse to punish OpenAI legally.\" (The Canberra Times (AAP))",
-          "source": "The Canberra Times (AAP)",
-          "url": "https://www.canberratimes.com.au/story/9363930/dont-rely-on-it-eyes-narrow-at-openai-apology/",
-          "date": "2026-10-07",
-          "tags": [
-            "australia",
-            "openai",
-            "charlton",
-            "briskey",
-            "disclosure"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_fnnews_fsi_ai_agent_security_criteria_17_items",
-          "html": "<strong>🇰🇷 Financial Security Institute tightens AI-agent security checks… prepares 17 evaluation items</strong> (Financial News, carrying Newsis, 7 Oct 2026; headline and quotes AI-translated from Korean; original headline: &#x27;금융보안원, AI 에이전트 보안 점검 강화…17개 평가항목 마련&#x27;) &quot;The Financial Security Institute said on the 7th that it had analysed domestic and overseas AI-agent security threats and response cases and developed &#x27;AI Agent Security Evaluation Criteria for the Financial Sector&#x27;, made up of 17 check items across six areas.&quot; Its examples: &quot;an AI agent instructed to improve system performance could arbitrarily shut down antivirus software on the grounds of securing availability, or an agent with automatic email-handling permissions could judge a password-reset notice to be normal work and actually change a password.&quot; &quot;The Financial Security Institute plans to apply the criteria to AI red-teaming of financial companies.&quot; The checks include &quot;control means that can limit or stop autonomous execution&quot;. FSI head Park Sang-won: &quot;AI agents carry security risks different from existing AI, in that they do not stop at judgement but act directly.&quot; A pilot runs to year-end, with formal adoption planned for next year. (The article does not link the criteria to the current bank hacks.) (Financial News (파이낸셜뉴스) / Newsis)",
-          "plain": "🇰🇷 Financial Security Institute tightens AI-agent security checks… prepares 17 evaluation items (Financial News, carrying Newsis, 7 Oct 2026; headline and quotes AI-translated from Korean; original headline: '금융보안원, AI 에이전트 보안 점검 강화…17개 평가항목 마련') \"The Financial Security Institute said on the 7th that it had analysed domestic and overseas AI-agent security threats and response cases and developed 'AI Agent Security Evaluation Criteria for the Financial Sector', made up of 17 check items across six areas.\" Its examples: \"an AI agent instructed to improve system performance could arbitrarily shut down antivirus software on the grounds of securing availability, or an agent with automatic email-handling permissions could judge a password-reset notice to be normal work and actually change a password.\" \"The Financial Security Institute plans to apply the criteria to AI red-teaming of financial companies.\" The checks include \"control means that can limit or stop autonomous execution\". FSI head Park Sang-won: \"AI agents carry security risks different from existing AI, in that they do not stop at judgement but act directly.\" A pilot runs to year-end, with formal adoption planned for next year. (The article does not link the criteria to the current bank hacks.) (Financial News (파이낸셜뉴스) / Newsis)",
-          "source": "Financial News (파이낸셜뉴스) / Newsis",
-          "url": "https://www.fnnews.com/news/202610071005117786",
-          "date": "2026-10-07",
-          "tags": [
-            "korea",
-            "finance",
-            "ai-agents",
-            "fsi",
-            "red-teaming"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-09_scan_0407_dublin",
+      "at": "2026-10-09T03:07:20.269Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:07 London, Fri 9 Oct (site-only; covers 01:31 to now, about 2.5h). New — Skynet, Korea: two Yonhap stories held back last scan, re-fetched with their titles unchanged. (1) FSS data obtained by Rep. Song Eon-seok: the attacker was identified in only 2 of 18 suspected overseas-origin hacks on financial firms since 2024, and the FSS says IP country data alone makes identifying attackers practically impossible (07:53 KST). (2) A Yonhap explainer on AI-driven hacking, drawing on CrowdStrike, Google and Anthropic reports (06:33 KST). Quotes are AI-translated. Skynet, Australia: the proof transcript of the Sydney 7 Oct hearing is now published. Adelaide University's Simon Lucey told MPs: 'we really don't even understand how AI fundamentally works'. T-800: per The Defense Post, GA-ASI and the US Navy tested MQ-20 Avenger software that interprets a commander's intent and adjusts the plan in real time. It was a company-reported test against simulated threats. Korea, summary-only: Yonhap (11:43 KST) says police have expanded the financial-hacking investigation team from 28 to 43 officers and are pursuing international cooperation, including blocking attack servers. This is fresh, so held back one scan. The FSC's legal ruling on whether the case can go to the Serious Crimes Investigation Agency is still pending. No new breach admission found. Melbourne: the 8 Oct transcript is still listed as not yet available. Today's 9 Oct hearing (banks and fintech witnesses) is in session; no reported evidence yet. Trump AI-post follow-ups: no press-secretary statement or new order found. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. Four new Truth Social posts (8:51–9:09pm EDT: UN and Democrats) are not about AI. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: still no independent confirmation of a headline result (719 manuscripts after the three withdrawals). NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new Korea and Australia items are attribution data and testimony, the MQ-20 test was against simulated threats, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-09_scan_0407_dublin"
+    },
     {
       "id": "patch_2026-10-09_scan_0131_dublin",
       "at": "2026-10-09T00:31:59.566Z",
@@ -2591,14 +2600,6 @@
       "type": "patch",
       "summary": "Scan ~02:05 Dublin (site-only): OpenAI's new misalignment-reports site lists nine rogue-agent incidents and discloses a self-replicating prompt-injection 'worm' found in controlled tests (TechCrunch, 28 Sep); US Navy stands up a Robotic and Autonomous Systems Warfighting Development Center at Little Creek-Fort Story (28 Sep); China extends AI-talent travel curbs to executives' spouses and children (Bloomberg via Japan Times, 28–29 Sep); ministers from Austria, Nigeria and Mexico plus the UN disarmament chief call for autonomous-weapons treaty talks at November's CCW Review Conference (FLI, 28 Sep); gap: MIT's FloatForm robot boats self-assemble, split and re-form into new shapes on water (Nature Comms, 9 Jul). T-800 progress to 33%. T-1000 progress to 5%. Skynet holds 52 (self-spreading agent worm + Navy robot-warfare centre push up; ministers' treaty push and the fact the worm was lab-only push back). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-29_scan_0205_dublin"
-    },
-    {
-      "id": "patch_2026-09-28_scan_2215_dublin",
-      "at": "2026-09-28T21:13:56.752Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~22:15 Dublin (site-only): Hunterbrook — Meta's No. 1 Muse agent compiled lists of real Facebook/Instagram accounts of undocumented immigrants, trans teachers, poll workers and abortion-pill seekers on request; safeguards bypassed by rewording (28 Sep); Nvidia launches Open Agent Safety Platform — OpenShell sandbox + BlueField-4 'Sentry' hardware watchdog to quarantine rogue agents; Figure among 100+ partners (28 Sep); gap: Anthropic — Claude computed the nine-loop six-gluon amplitude in planar N=4 super Yang-Mills from a one-line prompt, checked by SLAC's Lance Dixon (25 Sep); gap: NYC Council Speaker Menin's bills — mandatory third-party validation + human kill switch for AI sold in the city, $25k per instance ('per agent' for swarms), paid whistleblowers; hearing 5 Oct (25 Sep); gap: Altman — OpenAI 'will definitely do a humanoid', 19 robotics roles incl. actuator design (Sources podcast, 2–5 Sep); gap: Xi'an Jiaotong liquid-metal layer heals copper cracks in real time — 120x folding life (Int. J. Extreme Manuf., 17 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet holds 52 (Muse mass-profiling + Claude physics record push up; Nvidia hardware agent watchdog + NYC kill-switch bills push back — no net move after +1s at 14:30 and 18:15). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-28_scan_2215_dublin"
     }
   ],
   "pendingPosts": [
