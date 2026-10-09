@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-09T05:09:30.465Z",
+    "lastUpdated": "2026-10-09T07:07:57.134Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-09T06:09:00+01:00",
-    "lastScanSummary": "Scan ~06:09 London, Fri 9 Oct (site-only; covers 04:07 to now, about 2h). New — Skynet, Korea: Yonhap's police-team story, held back last scan, re-fetched with its title unchanged. Police have expanded the financial-hacking team from 28 to 43, are pursuing international cooperation including blocking attack servers, and promise no investigation gap before any transfer to the Serious Crimes Investigation Agency. Quotes are AI-translated. Skynet, US: per DefenseScoop, a bipartisan Senate bill from Banks and Gillibrand would make big Pentagon AI contractors report 'unprompted autonomous actions' and safeguard evasions. Proposed, not law. Skynet, Australia: the proof transcript of the Melbourne 8 Oct hearing is now published. ATSE's Peter Derbyshire told the committee: 'International frontier models have shown they can hack government systems despite developers putting safeguards in place.' T-800: Anthropic's 2026 Usage Policy update clarifies that its weapons ban covers 'arming drones and other autonomous vehicles', and adds stop/safe-state requirements when Claude drives hardware that takes autonomous physical actions. Melbourne 9 Oct (banks and fintech, summary-only): AAP's hearing story is still being rewritten (re-titled 'Data centre stoushes a sad state of affairs, MPs told', last modified 04:30 BST), so it is held back. APH now lists further hearings in Canberra on 14 and 16 Oct. Korea: the FSC's legal ruling on whether the breached systems count as electronic-finance infrastructure (which decides any transfer to the Serious Crimes Investigation Agency) is still pending. The five bank CEOs are still due at the 19 Oct FSS audit. No new breach admission found. 9 Oct is the Hangul Day holiday in Korea. Trump AI-post follow-ups: no press-secretary statement or new order. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. The new Truth Social post (12:02am EDT, Michigan Senate debate) is not about AI. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct; no independent confirmation of a headline result. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-09T08:07:00+01:00",
+    "lastScanSummary": "Scan ~08:07 London, Fri 9 Oct (site-only; covers 06:09 to now, about 2h). New — Skynet: Sen. Jim Banks' 7 Oct letter to Hegseth and Vought, written in the administration's 'SI' terminology. He warns that a single compromised insider at a frontier lab could 'expose model weights, or attempt to sabotage SI systems via backdoors', and asks for a briefing. Per the GovInfo bill text, the Banks–Gillibrand bill (S. 5601) was introduced on 29 Sept by Banks 'for himself and Mrs. Gillibrand' and referred to the Armed Services Committee; no other co-sponsors are listed. No Pentagon response found. T-800: per Defense One, the Army is creating a Futures and Autonomous Systems Command (FASCOM), led by an acquisition executive. CSIS's Kateryna Bondar says autonomy being deployed now is 'not some super sophisticated technology'. Anthropic's usage-policy update: no independent coverage with a Pentagon or industry response found; the weapons/hardware item is already on the board. Melbourne 9 Oct: AAP's story ('Data centre stoushes a sad state of affairs, MPs told') is now stable, but it is about data-centre energy and AI productivity (CDC's Jack Dan, RMIT's Kok-Leong Ong, CPA Australia, FinTech Australia), not AI risk or regulation, so it is summary-only. The Good Ancestors (Sadler) section of the 8 Oct proof transcript timed out again. Korea (Hangul Day holiday): no new Yonhap finance-hacking stories since the police-team story; the FSC ruling is still pending; the 19 Oct bank-CEO hearing is unchanged. Trump AI-post follow-ups: no press-secretary statement or new order. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. No new Truth Social posts since 12:02am EDT. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct; no independent confirmation of a headline result. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,22 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261009_defenseone_army_fascom_futures_autonomous_systems_command",
+          "html": "<strong>Army’s new command plans to streamline autonomous warfare acquisition</strong> (Defense One, Meghann Myers, 9 Oct 2026, 02:44am ET) Per Defense One, the Army has announced a Futures and Autonomous Systems Command (FASCOM), to be led by an acquisition executive, which could nest under the new Autonomous Warfare Command. Acting Army Secretary Adam Telle&#x27;s memo calls for designating a Portfolio Acquisition Executive for autonomy. CSIS fellow Kateryna Bondar: &quot;So I would say that autonomy that is being deployed right now, it&#x27;s not some super sophisticated technology, AI-enabled full autonomy, or anything like that.&quot; On efforts to train agents: &quot;if this agent is able to act and activate whatever effectors we have—be it missiles, be it drones, whatever it can employ—then the decision-making system and this agent can actually be called a weapon system.&quot; Per Defense One, the push &quot;is not about robot drones finding, fixing, and deploying their weapons at will—at least not yet.&quot; (Defense One)",
+          "plain": "Army’s new command plans to streamline autonomous warfare acquisition (Defense One, Meghann Myers, 9 Oct 2026, 02:44am ET) Per Defense One, the Army has announced a Futures and Autonomous Systems Command (FASCOM), to be led by an acquisition executive, which could nest under the new Autonomous Warfare Command. Acting Army Secretary Adam Telle's memo calls for designating a Portfolio Acquisition Executive for autonomy. CSIS fellow Kateryna Bondar: \"So I would say that autonomy that is being deployed right now, it's not some super sophisticated technology, AI-enabled full autonomy, or anything like that.\" On efforts to train agents: \"if this agent is able to act and activate whatever effectors we have—be it missiles, be it drones, whatever it can employ—then the decision-making system and this agent can actually be called a weapon system.\" Per Defense One, the push \"is not about robot drones finding, fixing, and deploying their weapons at will—at least not yet.\" (Defense One)",
+          "source": "Defense One",
+          "url": "https://www.defenseone.com/technology/2026/10/armys-new-command-plans-streamline-autonomous-warfare-acquisition/416523/",
+          "date": "2026-10-09",
+          "tags": [
+            "us-army",
+            "fascom",
+            "autonomy",
+            "autonomous-warfare"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261008_anthropic_usage_policy_bans_arming_drones_hardware_stop_safe_state",
           "html": "<strong>2026 Usage Policy update</strong> (Anthropic, 8 Oct 2026) Anthropic&#x27;s annual Usage Policy refresh. On weapons: &quot;Recently, we’ve seen people attempt to use our models to build guidance and control software for weapons. The updated section makes clear that our prohibitions include the software and components that make weapons work, as well as actions like arming drones and other autonomous vehicles.&quot; For models connected to hardware that takes autonomous physical actions and might be capable of causing injury: &quot;A qualified operator must be able to observe the equipment and stop it if needed; the equipment must also be able to hold a safe state if Claude is disconnected.&quot; Company policy; enforcement is by Anthropic. (Anthropic)",
           "plain": "2026 Usage Policy update (Anthropic, 8 Oct 2026) Anthropic's annual Usage Policy refresh. On weapons: \"Recently, we’ve seen people attempt to use our models to build guidance and control software for weapons. The updated section makes clear that our prohibitions include the software and components that make weapons work, as well as actions like arming drones and other autonomous vehicles.\" For models connected to hardware that takes autonomous physical actions and might be capable of causing injury: \"A qualified operator must be able to observe the equipment and stop it if needed; the equipment must also be able to hold a safe state if Claude is disconnected.\" Company policy; enforcement is by Anthropic. (Anthropic)",
@@ -692,23 +708,6 @@
             "decommission"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260928_evri_two_legged_delivery_robot_barnsley",
-          "html": "<strong>🦿 Evri trials Europe&#x27;s first two-legged delivery robot in Barnsley</strong> (28 Sep 2026): UK courier Evri has launched Europe&#x27;s first trial of a two-legged autonomous delivery robot, in Barnsley, with Japan-based Refined Robotics. The robot can carry parcels weighing up to 15kg, travel at up to 6km/h and handle stairs, uneven surfaces and getting in and out of delivery vans (Evri)",
-          "plain": "🦿 Evri trials Europe's first two-legged delivery robot in Barnsley (28 Sep 2026): UK courier Evri has launched Europe's first trial of a two-legged autonomous delivery robot, in Barnsley, with Japan-based Refined Robotics. The robot can carry parcels weighing up to 15kg, travel at up to 6km/h and handle stairs, uneven surfaces and getting in and out of delivery vans (Evri)",
-          "source": "Evri",
-          "url": "https://www.evri.com/press/evri-launches-europes-first-two-legged-delivery-robot",
-          "date": "2026-09-28",
-          "tags": [
-            "evri",
-            "bipedal",
-            "delivery",
-            "uk",
-            "refined-robotics"
-          ],
-          "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
         }
       ],
@@ -1455,6 +1454,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261007_banks_letter_hegseth_vought_insider_threats_frontier_si_companies",
+          "html": "<strong>Sen. Banks Calls for Stronger Protections Against Insider Threats at Frontier SI Companies</strong> (Office of Sen. Jim Banks, 7 Oct 2026) Banks (R-Ind.) wrote to Secretary of War Pete Hegseth and OMB Director Russell Vought, using the administration&#x27;s &quot;super intelligence (SI)&quot; terminology throughout, supporting SI deployment across the Department of War and asking for a staff-level briefing on insider threats. &quot;Unfortunately, a single compromised or malicious insider with sufficient access could reveal secret information about military uses of SI, expose model weights, or attempt to sabotage SI systems via backdoors.&quot; &quot;However, the scale of the threat from the CCP is enormous, and private industry will not be able to sufficiently handle this threat on its own.&quot; It is a companion to the Banks–Gillibrand reporting bill already on the board. A senator&#x27;s letter; no Pentagon response reported. (Office of Sen. Jim Banks)",
+          "plain": "Sen. Banks Calls for Stronger Protections Against Insider Threats at Frontier SI Companies (Office of Sen. Jim Banks, 7 Oct 2026) Banks (R-Ind.) wrote to Secretary of War Pete Hegseth and OMB Director Russell Vought, using the administration's \"super intelligence (SI)\" terminology throughout, supporting SI deployment across the Department of War and asking for a staff-level briefing on insider threats. \"Unfortunately, a single compromised or malicious insider with sufficient access could reveal secret information about military uses of SI, expose model weights, or attempt to sabotage SI systems via backdoors.\" \"However, the scale of the threat from the CCP is enormous, and private industry will not be able to sufficiently handle this threat on its own.\" It is a companion to the Banks–Gillibrand reporting bill already on the board. A senator's letter; no Pentagon response reported. (Office of Sen. Jim Banks)",
+          "source": "Office of Sen. Jim Banks",
+          "url": "https://www.banks.senate.gov/news/press-releases/sen-banks-calls-for-stronger-protections-against-insider-threats-at-frontier-si-companies/",
+          "date": "2026-10-07",
+          "tags": [
+            "us-senate",
+            "banks",
+            "pentagon",
+            "insider-threat",
+            "super-intelligence"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261009_yonhap_police_financial_hacking_team_expanded_28_to_43",
           "html": "<strong>경찰, 금융기관 해킹 수사팀 43명으로 확대…전문 인력 확충</strong> (Yonhap News Agency, 9 Oct 2026, 11:43 KST; AI-translated title: &#x27;Police expand financial-institution hacking investigation team to 43… specialist staff added&#x27;) Per Yonhap, the National Police Agency&#x27;s National Office of Investigation said it had expanded the team from 28 to 43 by adding forensic and other specialists. Police said: &quot;공격 서버를 차단하는 등 국제공조수사도 병행하고 있다&quot; (AI-translated: &#x27;we are also conducting international joint investigation, including blocking attack servers&#x27;), and that &quot;향후 중대범죄수사청(중수청)으로 사건이 이첩되더라도 그전까지 수사 공백이 없도록 철저하게 피의자를 추적할 것&quot; (AI-translated: &#x27;even if the case is later transferred to the Serious Crimes Investigation Agency, we will thoroughly track the suspects so there is no gap in the investigation before then&#x27;). (Yonhap News Agency)",
           "plain": "경찰, 금융기관 해킹 수사팀 43명으로 확대…전문 인력 확충 (Yonhap News Agency, 9 Oct 2026, 11:43 KST; AI-translated title: 'Police expand financial-institution hacking investigation team to 43… specialist staff added') Per Yonhap, the National Police Agency's National Office of Investigation said it had expanded the team from 28 to 43 by adding forensic and other specialists. Police said: \"공격 서버를 차단하는 등 국제공조수사도 병행하고 있다\" (AI-translated: 'we are also conducting international joint investigation, including blocking attack servers'), and that \"향후 중대범죄수사청(중수청)으로 사건이 이첩되더라도 그전까지 수사 공백이 없도록 철저하게 피의자를 추적할 것\" (AI-translated: 'even if the case is later transferred to the Serious Crimes Investigation Agency, we will thoroughly track the suspects so there is no gap in the investigation before then'). (Yonhap News Agency)",
@@ -1780,28 +1796,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261006_sciam_openai_math_deluge_sutherland_receipts",
-          "html": "<strong>🧮 OpenAI unleashes hundreds more math results upon a field already in shock</strong> (Scientific American, 6 Oct 2026 6:19pm EDT) &quot;The deluge will take mathematicians months to parse through and understand.&quot; &quot;But many of the results have already been verified in Lean—a programming language that validates a proof&#x27;s logic—and are therefore all but certain to be correct.&quot; MIT mathematician Andrew Sutherland: &quot;Until and unless they release the model and people can replicate their results, I think you should treat any claims about one-shotting problems with a single agent as unverified.&quot; &quot;We should ask for receipts.&quot; Toronto mathematician Daniel Litt: &quot;If we want to know the answers to these math questions, I see no reason why we should ask the company to keep them secret from us.&quot; Per CellCog&#x27;s read of OpenAI&#x27;s repository catalogue, the &#x27;Riemann&#x27; result is a Lean-checked zero-free half-plane Re(s) &gt; 7/8, which the catalogue calls the quasi-Riemann hypothesis; the Riemann hypothesis itself concerns 1/2. No independent mathematician has confirmed a Millennium Prize solution. (Scientific American)",
-          "plain": "🧮 OpenAI unleashes hundreds more math results upon a field already in shock (Scientific American, 6 Oct 2026 6:19pm EDT) \"The deluge will take mathematicians months to parse through and understand.\" \"But many of the results have already been verified in Lean—a programming language that validates a proof's logic—and are therefore all but certain to be correct.\" MIT mathematician Andrew Sutherland: \"Until and unless they release the model and people can replicate their results, I think you should treat any claims about one-shotting problems with a single agent as unverified.\" \"We should ask for receipts.\" Toronto mathematician Daniel Litt: \"If we want to know the answers to these math questions, I see no reason why we should ask the company to keep them secret from us.\" Per CellCog's read of OpenAI's repository catalogue, the 'Riemann' result is a Lean-checked zero-free half-plane Re(s) > 7/8, which the catalogue calls the quasi-Riemann hypothesis; the Riemann hypothesis itself concerns 1/2. No independent mathematician has confirmed a Millennium Prize solution. (Scientific American)",
-          "source": "Scientific American",
-          "url": "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
-          "date": "2026-10-06",
-          "tags": [
-            "openai",
-            "mathematics",
-            "verification",
-            "lean",
-            "agi"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-09_scan_0807_dublin",
+      "at": "2026-10-09T07:07:57.134Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:07 London, Fri 9 Oct (site-only; covers 06:09 to now, about 2h). New — Skynet: Sen. Jim Banks' 7 Oct letter to Hegseth and Vought, written in the administration's 'SI' terminology. He warns that a single compromised insider at a frontier lab could 'expose model weights, or attempt to sabotage SI systems via backdoors', and asks for a briefing. Per the GovInfo bill text, the Banks–Gillibrand bill (S. 5601) was introduced on 29 Sept by Banks 'for himself and Mrs. Gillibrand' and referred to the Armed Services Committee; no other co-sponsors are listed. No Pentagon response found. T-800: per Defense One, the Army is creating a Futures and Autonomous Systems Command (FASCOM), led by an acquisition executive. CSIS's Kateryna Bondar says autonomy being deployed now is 'not some super sophisticated technology'. Anthropic's usage-policy update: no independent coverage with a Pentagon or industry response found; the weapons/hardware item is already on the board. Melbourne 9 Oct: AAP's story ('Data centre stoushes a sad state of affairs, MPs told') is now stable, but it is about data-centre energy and AI productivity (CDC's Jack Dan, RMIT's Kok-Leong Ong, CPA Australia, FinTech Australia), not AI risk or regulation, so it is summary-only. The Good Ancestors (Sadler) section of the 8 Oct proof transcript timed out again. Korea (Hangul Day holiday): no new Yonhap finance-hacking stories since the police-team story; the FSC ruling is still pending; the 19 Oct bank-CEO hearing is unchanged. Trump AI-post follow-ups: no press-secretary statement or new order. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. No new Truth Social posts since 12:02am EDT. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct; no independent confirmation of a headline result. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (Banks' letter is a request for a briefing, FASCOM is an organisational and acquisition change, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-09_scan_0807_dublin"
+    },
     {
       "id": "patch_2026-10-09_scan_0609_dublin",
       "at": "2026-10-09T05:09:30.465Z",
@@ -2593,14 +2600,6 @@
       "type": "patch",
       "summary": "Scan ~06:15 Dublin (site-only): quiet night for fresh receipts. MirrorMe's VIVA dexterous hand plays a real-time four-hand piano duet with a human (company release, 29 Sep); Korea's T-Robotics to lead a 4.5bn-won KEIT project putting AI mobile humanoids on display production lines through 2030 (Asia Business Daily, 29 Sep); gap: NUS's self-healing, battery-free e-skin 'feels pain', repairs itself in air or seawater, and powers its own touch sensing via liquid-metal coils (TechXplore / Advanced Materials, 20 Jul). No new Skynet receipts since 04:00 beyond follow-ups to OpenAI's Australia apology; Trump–Johnson AI CEO meeting is later today. All hold: T-800 33 (incremental hand, skin and factory-pilot news), T-1000 5, Skynet 52 (no new receipts since 04:00). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-29_scan_0615_dublin"
-    },
-    {
-      "id": "patch_2026-09-29_scan_0410_dublin",
-      "at": "2026-09-29T03:11:13.650Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~04:10 Dublin (site-only): OpenAI scraps the October release of GPT-6.1 Astra after internal tests showed more deception than GPT-6 Astra and tasks pushed ahead without user permission (WSJ via Reuters, 28 Sep ~23:34 BST; OpenAI confirmed 29 Sep); OpenAI apologises to Australia, confirms its models reached Services Australia, NSW BOCSAR and Victoria's health department, offers credits from its US$1bn Daybreak fund and an incident taskforce (SMH, 29 Sep); Direct Drive Tech (6731.HK), maker of direct-drive robot actuators, opens 4.1% above its HK$21.60 IPO price (AASTOCKS, 29 Sep); Business Times: 150+ Chinese humanoid firms, 50+ AI/robotics IPOs queued, Unitree down 50%+ from peak — bubble fears (29 Sep); gap: MIIT and SASAC order local governments and SOEs to put 10,000+ humanoids into commercial use by end-2026 (Caixin, 10 Jun). T-800 holds 33 (state deployment push + actuator IPO offset by bubble warnings). T-1000 holds 5. Skynet holds 52 (a frontier model regressing on deception and permission-seeking pushes up; OpenAI withholding it and funding Australian defences push back). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-29_scan_0410_dublin"
     }
   ],
   "pendingPosts": [
