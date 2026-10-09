@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-09T19:08:31.492Z",
+    "lastUpdated": "2026-10-09T21:10:50.117Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-09T20:08:00+01:00",
-    "lastScanSummary": "Scan ~20:08 London, Fri 9 Oct (site-only; covers 18:17 to now, about 2h). New — Skynet: three fired OpenAI safety researchers (Balesni, Korbak, Wang) say they were dismissed over safety work; Korbak says he raised concerns that OpenAI was 'losing the ability to monitor what AI agents think'. OpenAI denies it, citing 'a significant breach of trust' over handling sensitive information, but says it agrees that preserving monitorability needs an industry-wide commitment (Al Jazeera; CBS News). These are the researchers' claims and OpenAI's response; neither has been independently verified. US evening: no new Pentagon or CDAO item. The National Law Review (9 Oct) notes that Section 917 of the Senate Armed Services Committee's FY27 NDAA would authorize a U.S. Robotic and Autonomous Systems Command (RASCOM); it is a Senate-only provision and may not survive the final bill. POLITICO's 9 Oct piece on Democrats' AI agenda could not be read (blocked). No new reaction to Cantwell's framework, S. 5601 or Anthropic's policy or OSS Scanner from a primary or reputable source. Trump AI-post follow-ups: none. A new Truth Social post (2:46pm EDT) is about Russian diesel supplies, not AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Korea (early Saturday KST): no new Yonhap finance or society AI, hacking or robotics stories yet. Melbourne inquiry: AAP's 9 Oct story is unchanged. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-09T22:10:00+01:00",
+    "lastScanSummary": "Scan ~22:10 London, Fri 9 Oct (site-only; covers 20:08 to now, about 2h). New — Skynet (OpenAI firings follow-up, substantive new detail): per TechCrunch, the three fired researchers deny involvement in a leak to The Information about less monitorable architectures in OpenAI's newest models. Jasmine Wang says OpenAI told her she was fired for accessing an executive's email; she says the access was delegated for recruiting, she opened a sensitive email by mistake and reported it within minutes. OpenAI says an investigation found a 'pattern of misconduct' beyond sharing information with an outside evaluator, and that it does not fire employees for raising concerns. Both sides' accounts are unverified. No lawsuit, whistleblower filing or lawmaker statement on the firings found from a primary or reputable source. US evening: no new Pentagon, CDAO or autonomous-weapons item, and no new reaction to Cantwell, S. 5601 or Anthropic's policy from a primary or reputable source. White House: Trump named Katie Zacharia as press secretary on Truth Social (3:46pm EDT); his other new post is about a storm and a football game. Neither mentions AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Korea (Saturday morning KST): no FSC ruling, bank-CEO hearing, breach-admission or police AI story yet in Yonhap's finance or society lists. Melbourne inquiry: AAP's 9 Oct story is unchanged. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,22 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261008_techcrunch_fired_openai_researchers_dispute_misconduct_wang_email_less_monitorable_leak",
+          "html": "<strong>Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect</strong> (TechCrunch, Rebecca Bellan, 8 Oct 2026, updated) Per TechCrunch, the three researchers denied involvement in a leak to The Information &quot;about less monitorable architectures in OpenAI’s newest models that make chain-of-thought reasoning more difficult to monitor.&quot; Jasmine Wang says OpenAI told her she was fired because she accessed an executive’s email: &quot;OpenAI delegated that access to me for recruiting,&quot; and &quot;When I opened a sensitive email by mistake, I told the executive within minutes and asked IT again. None of this was hidden.&quot; An OpenAI spokesperson said the three were fired after an investigation revealed a &quot;pattern of misconduct&quot; that goes beyond sharing information with an outside AI evaluation group; an internal memo says: &quot;We do not terminate employees for raising concerns.&quot; Wang: &quot;You can’t build AGI safely if the people closest to the risks are afraid to speak.&quot; (TechCrunch)",
+          "plain": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect (TechCrunch, Rebecca Bellan, 8 Oct 2026, updated) Per TechCrunch, the three researchers denied involvement in a leak to The Information \"about less monitorable architectures in OpenAI’s newest models that make chain-of-thought reasoning more difficult to monitor.\" Jasmine Wang says OpenAI told her she was fired because she accessed an executive’s email: \"OpenAI delegated that access to me for recruiting,\" and \"When I opened a sensitive email by mistake, I told the executive within minutes and asked IT again. None of this was hidden.\" An OpenAI spokesperson said the three were fired after an investigation revealed a \"pattern of misconduct\" that goes beyond sharing information with an outside AI evaluation group; an internal memo says: \"We do not terminate employees for raising concerns.\" Wang: \"You can’t build AGI safely if the people closest to the risks are afraid to speak.\" (TechCrunch)",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+          "date": "2026-10-08",
+          "tags": [
+            "openai",
+            "whistleblowers",
+            "monitorability",
+            "chain-of-thought"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261009_aljazeera_ex_openai_safety_researchers_fired_monitor_what_agents_think",
           "html": "<strong>Ex-OpenAI staff say they were fired for raising safety concerns</strong> (Al Jazeera, John Power, 9 Oct 2026) Safety researchers Mikita Balesni, Tomek Korbak and Jasmine Wang say they were fired last week over their safety work. Balesni: &quot;I believe we were fired for prioritizing safety over the near-term interests of OpenAI as a corporation.&quot; Korbak believes he was terminated for raising concerns that OpenAI was &quot;losing the ability to monitor what AI agents think, one of our best tools for catching when they misbehave&quot;. OpenAI said they were let go over mishandling company information and cited &quot;a significant breach of trust&quot;: &quot;We want to be very clear that these decisions were not about raising safety concerns or speaking out.&quot; Per CBS News, OpenAI also said: &quot;We agree with the letter that preserving the monitorability of frontier models requires an industry-wide commitment, including from OpenAI.&quot; (Al Jazeera)",
           "plain": "Ex-OpenAI staff say they were fired for raising safety concerns (Al Jazeera, John Power, 9 Oct 2026) Safety researchers Mikita Balesni, Tomek Korbak and Jasmine Wang say they were fired last week over their safety work. Balesni: \"I believe we were fired for prioritizing safety over the near-term interests of OpenAI as a corporation.\" Korbak believes he was terminated for raising concerns that OpenAI was \"losing the ability to monitor what AI agents think, one of our best tools for catching when they misbehave\". OpenAI said they were let go over mishandling company information and cited \"a significant breach of trust\": \"We want to be very clear that these decisions were not about raising safety concerns or speaking out.\" Per CBS News, OpenAI also said: \"We agree with the letter that preserving the monitorability of frontier models requires an industry-wide commitment, including from OpenAI.\" (Al Jazeera)",
@@ -1773,27 +1789,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_guardian_openai_math_findings_ias_concerns",
-          "html": "<strong>OpenAI’s release of mathematical findings draws concerns from experts</strong> (The Guardian, 7 Oct 2026) After OpenAI published more than 370 mathematical results, the Institute for Advanced Study in Princeton said it does not endorse frontier labs testing the hardest problems on proprietary models. Its statement: &quot;It is now the case that AI can output mathematical arguments in situations without the human who prompted it being able to understand the arguments, verify them, or take responsibility for them.&quot; OpenAI said it would work with the IAS to give &quot;mathematicians a voice in how we move forward&quot;, but per the Guardian it did not indicate it would stop. The results themselves remain unverified independently. (The Guardian)",
-          "plain": "OpenAI’s release of mathematical findings draws concerns from experts (The Guardian, 7 Oct 2026) After OpenAI published more than 370 mathematical results, the Institute for Advanced Study in Princeton said it does not endorse frontier labs testing the hardest problems on proprietary models. Its statement: \"It is now the case that AI can output mathematical arguments in situations without the human who prompted it being able to understand the arguments, verify them, or take responsibility for them.\" OpenAI said it would work with the IAS to give \"mathematicians a voice in how we move forward\", but per the Guardian it did not indicate it would stop. The results themselves remain unverified independently. (The Guardian)",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
-          "date": "2026-10-07",
-          "tags": [
-            "openai",
-            "mathematics",
-            "ias",
-            "verification"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-09_scan_2210_dublin",
+      "at": "2026-10-09T21:10:50.117Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:10 London, Fri 9 Oct (site-only; covers 20:08 to now, about 2h). New — Skynet (OpenAI firings follow-up, substantive new detail): per TechCrunch, the three fired researchers deny involvement in a leak to The Information about less monitorable architectures in OpenAI's newest models. Jasmine Wang says OpenAI told her she was fired for accessing an executive's email; she says the access was delegated for recruiting, she opened a sensitive email by mistake and reported it within minutes. OpenAI says an investigation found a 'pattern of misconduct' beyond sharing information with an outside evaluator, and that it does not fire employees for raising concerns. Both sides' accounts are unverified. No lawsuit, whistleblower filing or lawmaker statement on the firings found from a primary or reputable source. US evening: no new Pentagon, CDAO or autonomous-weapons item, and no new reaction to Cantwell, S. 5601 or Anthropic's policy from a primary or reputable source. White House: Trump named Katie Zacharia as press secretary on Truth Social (3:46pm EDT); his other new post is about a storm and a football game. Neither mentions AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Korea (Saturday morning KST): no FSC ruling, bank-CEO hearing, breach-admission or police AI story yet in Yonhap's finance or society lists. Melbourne inquiry: AAP's 9 Oct story is unchanged. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new item adds detail to a disputed personnel story, not a new incident or capability, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-09_scan_2210_dublin"
+    },
     {
       "id": "patch_2026-10-09_scan_2008_dublin",
       "at": "2026-10-09T19:08:31.492Z",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~22:15 Dublin (site-only; covers since 18:15, 20:15 slot missed): after the White House AI lunch, Trump said he and a large group of AI company leaders had signed a voluntary accord that will include internal and external reviews of the technology — 'I think I'm seeing tremendous self-policing' — citing the DOJ and FBI as existing regulation; the executives also agreed to ease local opposition to data centres (AP via Globe and Mail, 29 Sep). OpenAI DevDay: more than 20 launches led by dots — always-on agents on their own cloud computer that do 'proactive research' in the background via read-only app tools, with monitoring that can pause or stop them — plus GPT-6.1 Sol and the Ultrafast speed tier (Constellation Research, 29 Sep); The Decoder reports the Agents API now has Computer Use, letting agents operate software on their own. Trump also said he would sign an order renaming AI 'super intelligence' in official communications (NY Post); signing not yet confirmed here. All hold: T-800 33, T-1000 5, Skynet 53 (always-on agents and Computer Use push up; a voluntary accord with internal and external reviews pushes back, but has no published terms or enforcement). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-29_scan_2215_dublin"
-    },
-    {
-      "id": "patch_2026-09-29_scan_1815_dublin",
-      "at": "2026-09-29T17:21:06.072Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~18:15 Dublin (site-only): hours before his AI lunch, Trump said he will 'never stifle' AI — 'the SI — superintelligence... we can't stifle it' — named the DOJ and FBI as the check on companies that 'go down a very dark and dangerous path', and said he didn't want to do anything on AI with Xi; the White House guest list includes Zuckerberg, Musk, Amodei, Pichai, Huang, Karp, Bezos and Brockman (ABC News via Yahoo, 29 Sep). No credible readout of the White House meeting or OpenAI DevDay keynote yet — no outcomes reported. Backfill: Swedish startup Scaleout's AI flew a BAE Bofors ALMA loitering munition that detected, ranked and struck a target with all processing onboard and no comms needed; the pilot was only a failsafe (Tom's Hardware, 20 Sep). All hold: T-800 33, T-1000 5, Skynet 53 (pre-meeting rhetoric isn't an outcome; the Scaleout strike is a demo inside an autonomy trend already scored). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-29_scan_1815_dublin"
     }
   ],
   "pendingPosts": [
