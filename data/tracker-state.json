@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-09T15:38:54.841Z",
+    "lastUpdated": "2026-10-09T17:17:41.100Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-09T16:38:00+01:00",
-    "lastScanSummary": "Scan ~16:38 London, Fri 9 Oct (site-only; covers 14:41 to now, about 2h). New — Skynet: Sen. Maria Cantwell's 7 Oct frontier-AI framework (Commerce Committee Democrats) calls for NIST safety standards covering 'potential for loss of human control', stress tests to halt self-modification, and mandatory reporting of incidents including 'unsafe recursive self-improvement'. The release describes it as a framework of six principles to drive future legislative and executive action. New — Skynet: Anthropic's 8 Oct OSS Scanner post (now fetched from Anthropic's own page) says its models found over 29,000 candidate vulnerabilities in six months, of which only about 6,000 have been manually reviewed; scanner reports will be fully model-generated without human review. New — T-800: WUNC's American Homefront Project (8 Oct) reports AI-controlled 12-gauge shotguns on robotic pivots in a Fort Bragg demonstration, with a human 'on the loop', and committee provisions in the pending defence bill that would require human oversight of AI-controlled weapons and ban AI for nuclear launch. US afternoon: no other new Pentagon or CDAO item found. No reaction to S. 5601 (Banks–Gillibrand) or to Anthropic's 2026 Usage Policy update found from a primary or reputable source. Trump AI-post follow-ups: none. Two new Truth Social posts (Nobel Peace Prize; Letitia James) are not about AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Melbourne inquiry: AAP's 9 Oct story is unchanged ('Australia's AI business opportunity lies with expansion') and still about sovereign capability, not AI risk. Korea (Hangul Day holiday): no new Yonhap finance AI stories. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-09T18:17:00+01:00",
+    "lastScanSummary": "Scan ~18:17 London, Fri 9 Oct (site-only; covers 16:38 to now, about 1.5h). New — Skynet (reaction to Cantwell's framework): the Seattle Times reports her proposed principles leave penalties and the audit regime unresolved; Senate Minority Leader Chuck Schumer backed them and Microsoft's Brad Smith said they advance the public discussion. Cantwell suggested Congress could enact short-term guardrails in the remaining weeks: 'Congress can move fast when it wants to, and it feels like it’s under threat.' They are proposed principles, not a bill. OSS Scanner reaction: Help Net Security (9 Oct) quotes OpenSSL's Anton Arapov saying Anthropic's reports, raw model output included, 'were as good and sometimes better than what we get from people'. Per Help Net, penetration testers assessed 97 high and critical findings from an early version, and Anthropic said 85 met its disclosure criteria and one was invalid. US afternoon: no other new Pentagon, CDAO or autonomous-weapons item found. No reaction to S. 5601 (Banks–Gillibrand) or to Anthropic's Usage Policy from a primary or reputable source. Trump AI-post follow-ups: none. whitehouse.gov added a 7 Oct presidential memorandum on Lisa Cook, not AI; AI.gov unchanged; si.gov still 403; no new Truth Social posts since 9:42am EDT. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Melbourne inquiry: AAP's 9 Oct story is unchanged and still about sovereign capability. Korea (Hangul Day holiday): no new Yonhap finance AI stories. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261007_seattletimes_cantwell_framework_schumer_smith_have_you_seen_something_else",
+          "html": "<strong>Cantwell unveils AI safety framework as Congress stalls ahead of election</strong> (The Seattle Times, Anumita Kaur and Destiny Muller, 7 Oct 2026) Per the Seattle Times, &quot;Cantwell’s proposal leaves some fundamental questions unanswered&quot;, including penalties for noncompliance and what a third-party auditing entity would entail. Asked whether her principles are aggressive or specific enough, Cantwell said: &quot;Have you seen something else?&quot; and &quot;We’re not trying to be vague.&quot; She suggested Congress could use the remaining weeks to enact short-term guardrails: &quot;Congress can move fast when it wants to, and it feels like it’s under threat.&quot; Senate Minority Leader Chuck Schumer, backing the proposal: &quot;These principles lay the groundwork for serious and comprehensive legislative action&quot;. Microsoft&#x27;s Brad Smith: &quot;Senator Cantwell’s framework advances the public discussion the nation needs as we consider the future of AI&quot; The paper reports Trump has dismissed warnings about AI’s catastrophic risks as a &quot;hoax&quot;. (The Seattle Times)",
+          "plain": "Cantwell unveils AI safety framework as Congress stalls ahead of election (The Seattle Times, Anumita Kaur and Destiny Muller, 7 Oct 2026) Per the Seattle Times, \"Cantwell’s proposal leaves some fundamental questions unanswered\", including penalties for noncompliance and what a third-party auditing entity would entail. Asked whether her principles are aggressive or specific enough, Cantwell said: \"Have you seen something else?\" and \"We’re not trying to be vague.\" She suggested Congress could use the remaining weeks to enact short-term guardrails: \"Congress can move fast when it wants to, and it feels like it’s under threat.\" Senate Minority Leader Chuck Schumer, backing the proposal: \"These principles lay the groundwork for serious and comprehensive legislative action\". Microsoft's Brad Smith: \"Senator Cantwell’s framework advances the public discussion the nation needs as we consider the future of AI\" The paper reports Trump has dismissed warnings about AI’s catastrophic risks as a \"hoax\". (The Seattle Times)",
+          "source": "The Seattle Times",
+          "url": "https://www.seattletimes.com/seattle-news/politics/cantwell-unveils-ai-safety-framework-as-congress-stalls-ahead-of-election/",
+          "date": "2026-10-07",
+          "tags": [
+            "us-senate",
+            "cantwell",
+            "schumer",
+            "microsoft",
+            "frontier-ai"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261008_anthropic_oss_scanner_29000_candidate_vulns_exploits_in_minutes",
           "html": "<strong>Launching an opt-in vulnerability-finding service for open-source software</strong> (Anthropic, Frontier Red Team, 8 Oct 2026) Anthropic says that on the CyberGym benchmark LLMs &quot;have gone from finding under 20% of vulnerabilities at the beginning of last year to finding over 85% this year.&quot; Over six months: &quot;We have discovered over 29,000 candidate vulnerabilities, but have only been able to manually review and triage approximately 6,000 of these.&quot; OSS Scanner outputs &quot;will be fully model-generated, without human review or triage&quot;, which &quot;means that it is possible reports will be incorrect or invalid.&quot; Anthropic: &quot;Since exploits can now be developed in minutes, projects that can find and address vulnerabilities faster can better secure their software against attackers who are racing to find and leverage these same weaknesses.&quot; (Anthropic)",
           "plain": "Launching an opt-in vulnerability-finding service for open-source software (Anthropic, Frontier Red Team, 8 Oct 2026) Anthropic says that on the CyberGym benchmark LLMs \"have gone from finding under 20% of vulnerabilities at the beginning of last year to finding over 85% this year.\" Over six months: \"We have discovered over 29,000 candidate vulnerabilities, but have only been able to manually review and triage approximately 6,000 of these.\" OSS Scanner outputs \"will be fully model-generated, without human review or triage\", which \"means that it is possible reports will be incorrect or invalid.\" Anthropic: \"Since exploits can now be developed in minutes, projects that can find and address vulnerabilities faster can better secure their software against attackers who are racing to find and leverage these same weaknesses.\" (Anthropic)",
@@ -1773,30 +1790,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_crowdstrike_artex_claude_code_korean_finance",
-          "html": "<strong>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</strong> (CrowdStrike Intelligence blog, 7 Oct 2026, US time) CrowdStrike says a campaign against South Korean financial organisations from late September to early October 2026 &quot;resulted in exfiltrated data&quot;. Open directories controlled by the attacker held Claude Code session histories, ARTEX configuration files and Claude memory files. Per CrowdStrike, the ARTEX instance ran on DeepSeek v4.1-flash, with GLM-5.3 and Grok 4.6 used in additional Claude Code sessions. The attacker also asked Claude where Korean breach data is typically sold. CrowdStrike: &quot;While this activity has not been attributed to a named adversary, the threat actor is likely a Chinese speaker and financially motivated&quot; (moderate confidence). It adds that personal details found in a prompt cannot yet be definitively tied to the attacker. Its assessment: &quot;This activity demonstrates how AI tooling can enable a financially motivated threat actor to conduct multiple intrusions within a short time span.&quot; Reuters (via iTnews) and Yonhap also reported the findings. (CrowdStrike)",
-          "plain": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance (CrowdStrike Intelligence blog, 7 Oct 2026, US time) CrowdStrike says a campaign against South Korean financial organisations from late September to early October 2026 \"resulted in exfiltrated data\". Open directories controlled by the attacker held Claude Code session histories, ARTEX configuration files and Claude memory files. Per CrowdStrike, the ARTEX instance ran on DeepSeek v4.1-flash, with GLM-5.3 and Grok 4.6 used in additional Claude Code sessions. The attacker also asked Claude where Korean breach data is typically sold. CrowdStrike: \"While this activity has not been attributed to a named adversary, the threat actor is likely a Chinese speaker and financially motivated\" (moderate confidence). It adds that personal details found in a prompt cannot yet be definitively tied to the attacker. Its assessment: \"This activity demonstrates how AI tooling can enable a financially motivated threat actor to conduct multiple intrusions within a short time span.\" Reuters (via iTnews) and Yonhap also reported the findings. (CrowdStrike)",
-          "source": "CrowdStrike",
-          "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
-          "date": "2026-10-07",
-          "tags": [
-            "korea",
-            "banks",
-            "ai-agents",
-            "artex",
-            "claude-code",
-            "crowdstrike",
-            "attribution"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-09_scan_1817_dublin",
+      "at": "2026-10-09T17:17:41.100Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:17 London, Fri 9 Oct (site-only; covers 16:38 to now, about 1.5h). New — Skynet (reaction to Cantwell's framework): the Seattle Times reports her proposed principles leave penalties and the audit regime unresolved; Senate Minority Leader Chuck Schumer backed them and Microsoft's Brad Smith said they advance the public discussion. Cantwell suggested Congress could enact short-term guardrails in the remaining weeks: 'Congress can move fast when it wants to, and it feels like it’s under threat.' They are proposed principles, not a bill. OSS Scanner reaction: Help Net Security (9 Oct) quotes OpenSSL's Anton Arapov saying Anthropic's reports, raw model output included, 'were as good and sometimes better than what we get from people'. Per Help Net, penetration testers assessed 97 high and critical findings from an early version, and Anthropic said 85 met its disclosure criteria and one was invalid. US afternoon: no other new Pentagon, CDAO or autonomous-weapons item found. No reaction to S. 5601 (Banks–Gillibrand) or to Anthropic's Usage Policy from a primary or reputable source. Trump AI-post follow-ups: none. whitehouse.gov added a 7 Oct presidential memorandum on Lisa Cook, not AI; AI.gov unchanged; si.gov still 403; no new Truth Social posts since 9:42am EDT. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Melbourne inquiry: AAP's 9 Oct story is unchanged and still about sovereign capability. Korea (Hangul Day holiday): no new Yonhap finance AI stories. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is reaction to a senator's proposed principles, not new law or new AI capability, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-09_scan_1817_dublin"
+    },
     {
       "id": "patch_2026-10-09_scan_1638_dublin",
       "at": "2026-10-09T15:38:54.841Z",
@@ -2588,14 +2594,6 @@
       "type": "patch",
       "summary": "Scan ~16:15 Dublin (site-only): China's securities regulator is raising the bar for humanoid-robot IPOs with three criteria — sustainable revenue and commercial orders, narrowing losses, and core tech such as a robot brain or hands; at least two dozen embodied-AI firms have filed in Hong Kong and sources expect a handful, or none, to make it (CNBC, 29 Sep). Gap: NSPM-11 (5 Jun) ordered an update to DoD Directive 3000.09 on weapon autonomy within 90 days, reviewed annually, and requires that no commercial entity or adversary can disable, degrade or modify without approval an AI system warfighters depend on (White House). White House AI meeting and OpenAI DevDay keynote have not happened yet — no outcomes reported. All hold: T-800 33, T-1000 5, Skynet 53 (IPO tightening is a market cool-down, not a capability change; NSPM-11 is a June gap already priced in via the NSM-25 rollback item). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-29_scan_1615_dublin"
-    },
-    {
-      "id": "patch_2026-09-29_scan_1415_dublin",
-      "at": "2026-09-29T13:24:07.144Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~14:15 Dublin (site-only): Northwestern Polytechnical University and a subsidiary of defence contractor Xian Tianhe set a Guinness record — 116 TH-618 autonomous underwater vehicles in formation for 34 minutes over 500 m with no human intervention, in a 50 m pool (The Independent / SCMP, 29 Sep); OpenAI says frontier RL training runs should need a safety case before continuing — sandbox hardening, immutable agent transcripts, auto-pausing alerts, a dissent from another team, and veto power for senior leaders (SecurityWeek, 29 Sep). All hold: T-800 33, T-1000 5, Skynet 53 (pool-scale swarm record pushes up; OpenAI's safety-case controls push back). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-29_scan_1415_dublin"
     }
   ],
   "pendingPosts": [
