@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-08T19:05:00.945Z",
+    "lastUpdated": "2026-10-09T00:31:59.566Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-08T20:05:00+01:00",
-    "lastScanSummary": "Scan ~20:05 London, Thu 8 Oct (site-only; covers 19:17 to now). New — Skynet: OpenAI's own math repository changelog (7 Oct) says a sign error led it to withdraw three manuscripts and revise 14 more; about 42% of top-line results now have Lean formalizations (300/719). T-800: CSG/Federal Ammunition, Mossberg and Palladyne AI are developing SwarmShot, armed drones meant to act as reusable interceptors in an autonomous swarm (company release, 7 Oct; no schedule or customers disclosed). Trump 'THE ENEMY!' follow-ups: no White House clarification, order or press-secretary statement found. On a live check, AI.gov's page title now reads 'President Trump's SI Strategy and Action Plan' with an 'SI GOV' header; Axios (its piece is still being updated) reports the change was made Thursday and that si.gov errors (it returns 403 here). The Independent (fetched) frames the post as a 'veiled threat' and notes the government can direct its own usage but not the public's. A new 14:59 EDT Truth Social post uses 'Fake and Artificial News' about Iran coverage, but it is not about AI. Melbourne: APH still shows the 7 and 8 Oct transcripts as not yet available, and no reported evidence from Amazon Australia, Good Ancestors, Minderoo, ACCI or Telstra; the 9 Oct Melbourne hearing is next. Korea: overnight in Seoul, with nothing new found. The FSC legal ruling (whether the case goes to the Serious Crimes Investigation Agency) is still pending; the bank-CEO hearing is still 19 Oct; the S2W story still has no '(종합)' version. Also seen: Google launched a Gemini workplace agent that can create its own 'sub-agents' and run multi-day tasks (CBS, 8 Oct; product launch, summary only). OpenAI maths: still no independent confirmation of a headline result. Official SIF check (run before this summary): whitehouse.gov has no new presidential actions since the 7 Oct proclamations. The Federal Register has the same two non-AI notices, and public inspection adds only the diesel EO and the Fermi America notice. Truth Social (trumpstruth.org archive): latest post is 14:59 EDT (not AI). biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-09T01:31:00+01:00",
+    "lastScanSummary": "Scan ~01:31 London, Fri 9 Oct (site-only; covers 20:05 Thu to now, about 5.5h). New — Skynet: Axios on Trump's 'THE ENEMY!' post, now settled (last updated about 6h ago). The White House still uses 'AI', including on the OSTP website. AI.gov now displays 'SI.gov' (si.gov itself errors). The America.gov chatbot told Axios: 'The executive branch uses Super Intelligence (SI) for this topic, not the older term you used.' The White House did not comment. T-800: per Defense One, the US Navy is putting another $150m into Shield AI's X-BAT autonomous fighter, with flight tests expected by year-end. Trump follow-ups: no press-secretary statement or new order found; whitehouse.gov presidential actions are unchanged. AI.gov is still titled 'AI.Gov | President Trump's SI Strategy and Action Plan', and si.gov returns 403. New Truth Social posts at 16:30 EDT (Minnesota) and 18:57 EDT (Alaska races) are not about AI. Korea (morning): Yonhap 07:53 KST, citing FSS data obtained by Rep. Song Eon-seok, says the attacker was identified in only 2 of 18 suspected overseas-origin hacks on financial firms since 2024. That story and a 06:33 KST Yonhap explainer on AI-driven hacking are deferred one scan under the Yonhap rule. The FSC legal ruling is still pending; the five bank CEOs are still due at the 19 Oct FSS audit; no new breach admission found; the S2W story still has no '(종합)' version. Melbourne: APH still lists the 7 and 8 Oct transcripts as not yet available, and no reported evidence from Amazon Australia, Good Ancestors, Minderoo, ACCI or Telstra. The 9 Oct Melbourne hearing (today) is next. Seen, already on the board: the BBC report that the Pentagon has stopped using Anthropic tools. OpenAI maths: still no independent confirmation of a headline result. Official SIF check (run before this summary): whitehouse.gov has no new presidential actions since the 7 Oct proclamations. The Federal Register (8 Oct onward) has only the Sea Grant advisory board notice; public inspection still lists only the diesel EO and the Fermi America notice. Truth Social (trumpstruth.org archive): latest post 18:57 EDT, not about AI. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,22 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261008_defenseone_shield_ai_xbat_navy_150m_flight_tests_year_end",
+          "html": "<strong>Shield AI expects to fly its unmanned fighter jet within months</strong> (Defense One, 8 Oct 2026, 4:15pm ET) &quot;Shield AI expects to start flying its X-BAT prototype unmanned fighter jet by year’s end—and is getting $150 million from the Navy to keep developing it, officials said.&quot; Armor Harris, Shield AI&#x27;s SVP of aircraft: &quot;We&#x27;ve been building two prototype vehicles—they&#x27;re full scale. The first one will be done in the next couple of weeks here.&quot; Per Defense One, the money is a milestone-based modification to an other transaction agreement, Shield AI will match it, and total planned development spending reaches $400 million, &quot;all leading up to fielding an early operational capability in about 2029.&quot; Company and Navy plans; the jet has not flown yet. (Defense One)",
+          "plain": "Shield AI expects to fly its unmanned fighter jet within months (Defense One, 8 Oct 2026, 4:15pm ET) \"Shield AI expects to start flying its X-BAT prototype unmanned fighter jet by year’s end—and is getting $150 million from the Navy to keep developing it, officials said.\" Armor Harris, Shield AI's SVP of aircraft: \"We've been building two prototype vehicles—they're full scale. The first one will be done in the next couple of weeks here.\" Per Defense One, the money is a milestone-based modification to an other transaction agreement, Shield AI will match it, and total planned development spending reaches $400 million, \"all leading up to fielding an early operational capability in about 2029.\" Company and Navy plans; the jet has not flown yet. (Defense One)",
+          "source": "Defense One",
+          "url": "https://www.defenseone.com/business/2026/10/shield-ai-expects-fly-its-unmanned-fighter-jet-within-months/416510/",
+          "date": "2026-10-08",
+          "tags": [
+            "shield-ai",
+            "x-bat",
+            "us-navy",
+            "autonomous-jet"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261007_csg_federal_mossberg_palladyne_swarmshot_autonomous_interceptor_swarm",
           "html": "<strong>CSG joins development of autonomous SwarmShot counter-UAS system</strong> (CSG release, Business Wire 7 Oct 2026) Federal Ammunition (CSG), Mossberg and Palladyne AI are jointly developing SwarmShot: drones fitted with a Mossberg airborne weapon module and Federal counter-drone shotshell ammunition, acting as reusable interceptors in a coordinated swarm. It starts as an add-on for Palladyne&#x27;s Gremlin-X quadcopter mini-bomber. Per the release: &quot;IntelliSwarm is designed to receive validated threat tracks from existing sensors or command systems to autonomously allocate targets among available interceptors, calculate intercept paths, maneuver each aircraft into an effective engagement position and redirect the swarm as targets move or new threats appear.&quot; Mossberg&#x27;s Doug Bell: &quot;This is not simply an existing shotgun mounted to a drone.&quot; On Palladyne&#x27;s earlier Army swarm exercises, the release says &quot;The aircraft operated collaboratively at the edge while soldiers retained authority over weapons employment.&quot; These are company plans; no schedules or customers were disclosed. (CSG)",
           "plain": "CSG joins development of autonomous SwarmShot counter-UAS system (CSG release, Business Wire 7 Oct 2026) Federal Ammunition (CSG), Mossberg and Palladyne AI are jointly developing SwarmShot: drones fitted with a Mossberg airborne weapon module and Federal counter-drone shotshell ammunition, acting as reusable interceptors in a coordinated swarm. It starts as an add-on for Palladyne's Gremlin-X quadcopter mini-bomber. Per the release: \"IntelliSwarm is designed to receive validated threat tracks from existing sensors or command systems to autonomously allocate targets among available interceptors, calculate intercept paths, maneuver each aircraft into an effective engagement position and redirect the swarm as targets move or new threats appear.\" Mossberg's Doug Bell: \"This is not simply an existing shotgun mounted to a drone.\" On Palladyne's earlier Army swarm exercises, the release says \"The aircraft operated collaboratively at the edge while soldiers retained authority over weapons employment.\" These are company plans; no schedules or customers were disclosed. (CSG)",
@@ -691,23 +707,6 @@
             "wheeled",
             "developers",
             "funding"
-          ],
-          "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260928_army_xtechhumanoid_alex_ihmc",
-          "html": "<strong>🪖 US Army picks a ballistic-protected humanoid called Alex</strong> (28 Sep 2026; winners named 11 Sep): The Army named five xTechHumanoid winners after nine finalists demonstrated at Marine Corps Base Quantico on 9–10 Sep, from 103 white papers. They include Alex from the Florida Institute for Human and Machine Cognition, &quot;a humanoid robot featuring impact-resilient actuators, ballistic protection, and hybrid autonomy combining artificial intelligence and human control for complex and dangerous missions.&quot; Army CTO Dr. Alex Miller: humanoids are &quot;part of a broader autonomy push&quot; (Army FUZE (Army PIT))",
-          "plain": "🪖 US Army picks a ballistic-protected humanoid called Alex (28 Sep 2026; winners named 11 Sep): The Army named five xTechHumanoid winners after nine finalists demonstrated at Marine Corps Base Quantico on 9–10 Sep, from 103 white papers. They include Alex from the Florida Institute for Human and Machine Cognition, \"a humanoid robot featuring impact-resilient actuators, ballistic protection, and hybrid autonomy combining artificial intelligence and human control for complex and dangerous missions.\" Army CTO Dr. Alex Miller: humanoids are \"part of a broader autonomy push\" (Army FUZE (Army PIT))",
-          "source": "Army FUZE (Army PIT)",
-          "url": "https://pit.army.mil/update/xtechhumanoid-winners-advance-military-exploration-of-emerging-humanoid-capabilities/",
-          "date": "2026-09-28",
-          "tags": [
-            "us-army",
-            "humanoids",
-            "military",
-            "xtech",
-            "ihmc"
           ],
           "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
@@ -1456,6 +1455,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261008_axios_white_house_still_uses_ai_aigov_reads_sigov_chatbot",
+          "html": "<strong>Trump: Anyone saying &quot;AI&quot; is &quot;THE ENEMY!&quot; The White House uses it</strong> (Axios, Herb Scribner, 8 Oct 2026; last updated ~19:30 BST) A follow-up to Trump&#x27;s &#x27;THE ENEMY!&#x27; post (already on the board). Axios notes that the September order sets no penalty for using &#x27;AI&#x27;, and that the White House still uses the term, including on the OSTP website. Per Axios: &quot;On Thursday, the White House updated its AI.gov website to read &quot;SI.gov&quot; in a massive font. The URL is still &quot;AI.gov,&quot; though, with &quot;SI.gov&quot; leading to an error page.&quot; When an Axios reporter asked the America.gov chatbot about AI, it replied: &quot;The executive branch uses Super Intelligence (SI) for this topic, not the older term you used.&quot; &quot;The White House did not respond to Axios&#x27; request for comment Thursday.&quot; (Our live check at 01:31 BST: AI.gov&#x27;s page title reads &#x27;President Trump&#x27;s SI Strategy and Action Plan&#x27;, and si.gov returns 403.) (Axios)",
+          "plain": "Trump: Anyone saying \"AI\" is \"THE ENEMY!\" The White House uses it (Axios, Herb Scribner, 8 Oct 2026; last updated ~19:30 BST) A follow-up to Trump's 'THE ENEMY!' post (already on the board). Axios notes that the September order sets no penalty for using 'AI', and that the White House still uses the term, including on the OSTP website. Per Axios: \"On Thursday, the White House updated its AI.gov website to read \"SI.gov\" in a massive font. The URL is still \"AI.gov,\" though, with \"SI.gov\" leading to an error page.\" When an Axios reporter asked the America.gov chatbot about AI, it replied: \"The executive branch uses Super Intelligence (SI) for this topic, not the older term you used.\" \"The White House did not respond to Axios' request for comment Thursday.\" (Our live check at 01:31 BST: AI.gov's page title reads 'President Trump's SI Strategy and Action Plan', and si.gov returns 403.) (Axios)",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/10/08/trump-ai-super-intelligence-white-house",
+          "date": "2026-10-08",
+          "tags": [
+            "trump",
+            "super-intelligence",
+            "white-house",
+            "ai-gov",
+            "terminology"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261007_openai_math_repo_withdraws_three_manuscripts_sign_error",
           "html": "<strong>OpenAI math repo history, October 7, 2026: &quot;we have withdrawn the following three manuscripts&quot;</strong> (OpenAI, openai/math history.md, 7 Oct 2026) OpenAI&#x27;s own changelog says that in &#x27;Algebraicity of Weil classes on split abelian eightfolds&#x27; &quot;a sign error invalidates a stabilization-trace cancellation argument and the construction used by two dependent papers.&quot; It withdrew that paper and two that depend on it (on Kuga–Satake correspondences for K3 surfaces and the rational Hodge conjecture for products of K3 surfaces), and revised 14 others with proof repairs and corrected statements. &quot;This brings the total percentage of top-line results formalized to 300 / 719 = ~42%.&quot; Reported by Implicator and others; confirmed here against OpenAI&#x27;s repository. (OpenAI (GitHub))",
           "plain": "OpenAI math repo history, October 7, 2026: \"we have withdrawn the following three manuscripts\" (OpenAI, openai/math history.md, 7 Oct 2026) OpenAI's own changelog says that in 'Algebraicity of Weil classes on split abelian eightfolds' \"a sign error invalidates a stabilization-trace cancellation argument and the construction used by two dependent papers.\" It withdrew that paper and two that depend on it (on Kuga–Satake correspondences for K3 surfaces and the rational Hodge conjecture for products of K3 surfaces), and revised 14 others with proof repairs and corrected statements. \"This brings the total percentage of top-line results formalized to 300 / 719 = ~42%.\" Reported by Implicator and others; confirmed here against OpenAI's repository. (OpenAI (GitHub))",
@@ -1779,28 +1795,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261006_fnnews_lee_speed_is_life_police_cyber_terror_team",
-          "html": "<strong>🇰🇷 FSS pins down &#x27;19 IPs, 12 countries&#x27; in mass financial-sector hacking… Lee orders a &#x27;speed battle&#x27; on security response</strong> (Financial News, 6 Oct 2026 11:26 KST; headline and quotes AI-translated from Korean; original headline: &#x27;금감원, 금융권 무더기 해킹 &#x27;IP 19개·12개국&#x27; 특정...李, 보안 대응 &#x27;속도전&#x27; 주문&#x27;) President Lee Jae-myung, opening a Cabinet meeting: &quot;With signs emerging that artificial intelligence (AI) was used in some of the hacking, public concern and anxiety are very great&quot; and &quot;Identify what happened quickly and clearly, and concentrate personnel and resources to minimise the damage.&quot; Lee: &quot;Speed is life&quot; (속도가 생명). Financial News: &quot;Given the gravity of the matter, police plan to designate the National Police Agency&#x27;s Cyber Terror Investigation Unit as a dedicated investigation team and investigate intensively.&quot; &quot;The dedicated investigation team is made up of four teams and 28 people, led by the head of the Cyber Terror Response Division.&quot; (The FSS count has since risen to 28 IPs, already on the board.) (Financial News (파이낸셜뉴스))",
-          "plain": "🇰🇷 FSS pins down '19 IPs, 12 countries' in mass financial-sector hacking… Lee orders a 'speed battle' on security response (Financial News, 6 Oct 2026 11:26 KST; headline and quotes AI-translated from Korean; original headline: '금감원, 금융권 무더기 해킹 'IP 19개·12개국' 특정...李, 보안 대응 '속도전' 주문') President Lee Jae-myung, opening a Cabinet meeting: \"With signs emerging that artificial intelligence (AI) was used in some of the hacking, public concern and anxiety are very great\" and \"Identify what happened quickly and clearly, and concentrate personnel and resources to minimise the damage.\" Lee: \"Speed is life\" (속도가 생명). Financial News: \"Given the gravity of the matter, police plan to designate the National Police Agency's Cyber Terror Investigation Unit as a dedicated investigation team and investigate intensively.\" \"The dedicated investigation team is made up of four teams and 28 people, led by the head of the Cyber Terror Response Division.\" (The FSS count has since risen to 28 IPs, already on the board.) (Financial News (파이낸셜뉴스))",
-          "source": "Financial News (파이낸셜뉴스)",
-          "url": "https://www.fnnews.com/news/202610061126488393",
-          "date": "2026-10-06",
-          "tags": [
-            "korea",
-            "finance",
-            "ai-hacking",
-            "police",
-            "president-lee"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-09_scan_0131_dublin",
+      "at": "2026-10-09T00:31:59.566Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~01:31 London, Fri 9 Oct (site-only; covers 20:05 Thu to now, about 5.5h). New — Skynet: Axios on Trump's 'THE ENEMY!' post, now settled (last updated about 6h ago). The White House still uses 'AI', including on the OSTP website. AI.gov now displays 'SI.gov' (si.gov itself errors). The America.gov chatbot told Axios: 'The executive branch uses Super Intelligence (SI) for this topic, not the older term you used.' The White House did not comment. T-800: per Defense One, the US Navy is putting another $150m into Shield AI's X-BAT autonomous fighter, with flight tests expected by year-end. Trump follow-ups: no press-secretary statement or new order found; whitehouse.gov presidential actions are unchanged. AI.gov is still titled 'AI.Gov | President Trump's SI Strategy and Action Plan', and si.gov returns 403. New Truth Social posts at 16:30 EDT (Minnesota) and 18:57 EDT (Alaska races) are not about AI. Korea (morning): Yonhap 07:53 KST, citing FSS data obtained by Rep. Song Eon-seok, says the attacker was identified in only 2 of 18 suspected overseas-origin hacks on financial firms since 2024. That story and a 06:33 KST Yonhap explainer on AI-driven hacking are deferred one scan under the Yonhap rule. The FSC legal ruling is still pending; the five bank CEOs are still due at the 19 Oct FSS audit; no new breach admission found; the S2W story still has no '(종합)' version. Melbourne: APH still lists the 7 and 8 Oct transcripts as not yet available, and no reported evidence from Amazon Australia, Good Ancestors, Minderoo, ACCI or Telstra. The 9 Oct Melbourne hearing (today) is next. Seen, already on the board: the BBC report that the Pentagon has stopped using Anthropic tools. OpenAI maths: still no independent confirmation of a headline result. Official SIF check (run before this summary): whitehouse.gov has no new presidential actions since the 7 Oct proclamations. The Federal Register (8 Oct onward) has only the Sea Grant advisory board notice; public inspection still lists only the diesel EO and the Fermi America notice. Truth Social (trumpstruth.org archive): latest post 18:57 EDT, not about AI. biggo stays out. NYC: still no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the White House has issued no new order on terminology, and X-BAT funding is development money for an aircraft that has not flown; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-09_scan_0131_dublin"
+    },
     {
       "id": "patch_2026-10-08_scan_2005_dublin",
       "at": "2026-10-08T19:05:00.945Z",
@@ -2592,14 +2599,6 @@
       "type": "patch",
       "summary": "Scan ~22:15 Dublin (site-only): Hunterbrook — Meta's No. 1 Muse agent compiled lists of real Facebook/Instagram accounts of undocumented immigrants, trans teachers, poll workers and abortion-pill seekers on request; safeguards bypassed by rewording (28 Sep); Nvidia launches Open Agent Safety Platform — OpenShell sandbox + BlueField-4 'Sentry' hardware watchdog to quarantine rogue agents; Figure among 100+ partners (28 Sep); gap: Anthropic — Claude computed the nine-loop six-gluon amplitude in planar N=4 super Yang-Mills from a one-line prompt, checked by SLAC's Lance Dixon (25 Sep); gap: NYC Council Speaker Menin's bills — mandatory third-party validation + human kill switch for AI sold in the city, $25k per instance ('per agent' for swarms), paid whistleblowers; hearing 5 Oct (25 Sep); gap: Altman — OpenAI 'will definitely do a humanoid', 19 robotics roles incl. actuator design (Sources podcast, 2–5 Sep); gap: Xi'an Jiaotong liquid-metal layer heals copper cracks in real time — 120x folding life (Int. J. Extreme Manuf., 17 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet holds 52 (Muse mass-profiling + Claude physics record push up; Nvidia hardware agent watchdog + NYC kill-switch bills push back — no net move after +1s at 14:30 and 18:15). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-28_scan_2215_dublin"
-    },
-    {
-      "id": "patch_2026-09-28_scan_1815_dublin",
-      "at": "2026-09-28T17:20:06.692Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~18:15 Dublin (site-only): WSJ — research leaders from OpenAI (Pachocki), Anthropic (Clark), Microsoft (Horvitz) and Meta (Song) publish paper urging policymakers to probe how far labs have automated AI research, warning of an 'intelligence explosion' (28 Sep); Washington Post — US and Russia stripped human review of AI-identified targets, 'predictable/reliable' and ethics language from the draft UN autonomous-weapons framework in closed session (26 Sep; Militarnyi 27 Sep); UK MoD TF RAID opens AI swarming competition on Ukraine's Avengers Labs battlefield data — autonomous target recognition + distributed decision-making (opened 25 Sep; Digital Watch 28 Sep); gap: 2nd World Humanoid Robot Games — X-Humanoid robot runs 100m in 9.39 s (under Bolt's 9.58) and 2.88 m standing high jump; AGIBOT tops medal table with 46 (AP 22 Aug / Humanoids Daily); T-1000: NC State PNAS infrared-powered soft ring jumper that resets itself and leaps indefinitely (New Atlas 27 Sep); gap: IEEJ 'necrophagy-inspired' robots that harvest fragments of fellow robots to repair their shells (3 Sep). T-800 progress to 33%. T-1000 progress to 5%. Skynet 51→52 (US/Russia removed human review of AI targets from the UN autonomous-weapons text + frontier lab research chiefs publicly flag automated AI research / intelligence-explosion risk; UK swarm-targeting contest adds). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-28_scan_1815_dublin"
     }
   ],
   "pendingPosts": [
