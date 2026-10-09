@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-09T03:07:20.269Z",
+    "lastUpdated": "2026-10-09T05:09:30.465Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-09T04:07:00+01:00",
-    "lastScanSummary": "Scan ~04:07 London, Fri 9 Oct (site-only; covers 01:31 to now, about 2.5h). New — Skynet, Korea: two Yonhap stories held back last scan, re-fetched with their titles unchanged. (1) FSS data obtained by Rep. Song Eon-seok: the attacker was identified in only 2 of 18 suspected overseas-origin hacks on financial firms since 2024, and the FSS says IP country data alone makes identifying attackers practically impossible (07:53 KST). (2) A Yonhap explainer on AI-driven hacking, drawing on CrowdStrike, Google and Anthropic reports (06:33 KST). Quotes are AI-translated. Skynet, Australia: the proof transcript of the Sydney 7 Oct hearing is now published. Adelaide University's Simon Lucey told MPs: 'we really don't even understand how AI fundamentally works'. T-800: per The Defense Post, GA-ASI and the US Navy tested MQ-20 Avenger software that interprets a commander's intent and adjusts the plan in real time. It was a company-reported test against simulated threats. Korea, summary-only: Yonhap (11:43 KST) says police have expanded the financial-hacking investigation team from 28 to 43 officers and are pursuing international cooperation, including blocking attack servers. This is fresh, so held back one scan. The FSC's legal ruling on whether the case can go to the Serious Crimes Investigation Agency is still pending. No new breach admission found. Melbourne: the 8 Oct transcript is still listed as not yet available. Today's 9 Oct hearing (banks and fintech witnesses) is in session; no reported evidence yet. Trump AI-post follow-ups: no press-secretary statement or new order found. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. Four new Truth Social posts (8:51–9:09pm EDT: UN and Democrats) are not about AI. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: still no independent confirmation of a headline result (719 manuscripts after the three withdrawals). NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-09T06:09:00+01:00",
+    "lastScanSummary": "Scan ~06:09 London, Fri 9 Oct (site-only; covers 04:07 to now, about 2h). New — Skynet, Korea: Yonhap's police-team story, held back last scan, re-fetched with its title unchanged. Police have expanded the financial-hacking team from 28 to 43, are pursuing international cooperation including blocking attack servers, and promise no investigation gap before any transfer to the Serious Crimes Investigation Agency. Quotes are AI-translated. Skynet, US: per DefenseScoop, a bipartisan Senate bill from Banks and Gillibrand would make big Pentagon AI contractors report 'unprompted autonomous actions' and safeguard evasions. Proposed, not law. Skynet, Australia: the proof transcript of the Melbourne 8 Oct hearing is now published. ATSE's Peter Derbyshire told the committee: 'International frontier models have shown they can hack government systems despite developers putting safeguards in place.' T-800: Anthropic's 2026 Usage Policy update clarifies that its weapons ban covers 'arming drones and other autonomous vehicles', and adds stop/safe-state requirements when Claude drives hardware that takes autonomous physical actions. Melbourne 9 Oct (banks and fintech, summary-only): AAP's hearing story is still being rewritten (re-titled 'Data centre stoushes a sad state of affairs, MPs told', last modified 04:30 BST), so it is held back. APH now lists further hearings in Canberra on 14 and 16 Oct. Korea: the FSC's legal ruling on whether the breached systems count as electronic-finance infrastructure (which decides any transfer to the Serious Crimes Investigation Agency) is still pending. The five bank CEOs are still due at the 19 Oct FSS audit. No new breach admission found. 9 Oct is the Hangul Day holiday in Korea. Trump AI-post follow-ups: no press-secretary statement or new order. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. The new Truth Social post (12:02am EDT, Michigan Senate debate) is not about AI. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct; no independent confirmation of a headline result. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261008_anthropic_usage_policy_bans_arming_drones_hardware_stop_safe_state",
+          "html": "<strong>2026 Usage Policy update</strong> (Anthropic, 8 Oct 2026) Anthropic&#x27;s annual Usage Policy refresh. On weapons: &quot;Recently, we’ve seen people attempt to use our models to build guidance and control software for weapons. The updated section makes clear that our prohibitions include the software and components that make weapons work, as well as actions like arming drones and other autonomous vehicles.&quot; For models connected to hardware that takes autonomous physical actions and might be capable of causing injury: &quot;A qualified operator must be able to observe the equipment and stop it if needed; the equipment must also be able to hold a safe state if Claude is disconnected.&quot; Company policy; enforcement is by Anthropic. (Anthropic)",
+          "plain": "2026 Usage Policy update (Anthropic, 8 Oct 2026) Anthropic's annual Usage Policy refresh. On weapons: \"Recently, we’ve seen people attempt to use our models to build guidance and control software for weapons. The updated section makes clear that our prohibitions include the software and components that make weapons work, as well as actions like arming drones and other autonomous vehicles.\" For models connected to hardware that takes autonomous physical actions and might be capable of causing injury: \"A qualified operator must be able to observe the equipment and stop it if needed; the equipment must also be able to hold a safe state if Claude is disconnected.\" Company policy; enforcement is by Anthropic. (Anthropic)",
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "date": "2026-10-08",
+          "tags": [
+            "anthropic",
+            "usage-policy",
+            "weapons",
+            "drones",
+            "physical-ai"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261008_defensepost_gaasi_navy_mq20_autonomous_mission_planning_commander_intent",
           "html": "<strong>GA-ASI, US Navy Test Autonomous Mission Planning With MQ-20 Avenger</strong> (The Defense Post, Giulia Bernacchi, 8 Oct 2026) &quot;General Atomics Aeronautical Systems (GA-ASI) and the US Navy have tested mission planning software that enables uncrewed aircraft to interpret a commander’s orders, coordinate with other aircraft, and adapt as threats change.&quot; &quot;TacACE then used that information to interpret the commander’s intent and determine how to carry out the mission within those limits.&quot; &quot;According to GA-ASI, the software coordinated crewed and uncrewed participants and adjusted the plan in real-time as the simulated combat scenario changed.&quot; Per The Defense Post, the MQ-20 flew from Gray Butte, California, in a live, virtual and constructive exercise with simulated participants and threats, and the team also evaluated how human operators interacted with the software. A company-reported test against simulated threats. (The Defense Post)",
           "plain": "GA-ASI, US Navy Test Autonomous Mission Planning With MQ-20 Avenger (The Defense Post, Giulia Bernacchi, 8 Oct 2026) \"General Atomics Aeronautical Systems (GA-ASI) and the US Navy have tested mission planning software that enables uncrewed aircraft to interpret a commander’s orders, coordinate with other aircraft, and adapt as threats change.\" \"TacACE then used that information to interpret the commander’s intent and determine how to carry out the mission within those limits.\" \"According to GA-ASI, the software coordinated crewed and uncrewed participants and adjusted the plan in real-time as the simulated combat scenario changed.\" Per The Defense Post, the MQ-20 flew from Gray Butte, California, in a live, virtual and constructive exercise with simulated participants and threats, and the team also evaluated how human operators interacted with the software. A company-reported test against simulated threats. (The Defense Post)",
@@ -692,23 +709,6 @@
             "refined-robotics"
           ],
           "subcatId": "humanoid_locomotion",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260930_korea_1700_public_ai_robots",
-          "html": "<strong>🇰🇷 South Korea to buy 1,700+ AI robots for fire and rescue, mail sorting next year</strong> (30 Sep 2026): The government plans to purchase and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue operations and industries facing severe labor shortages, with a goal of distributing 200,000 robots through public-private partnerships by 2030. Prime Minister Han Seung-soo: &quot;It is crucial to quickly establish an initial market for the AI robot industry and enhance industrial competitiveness.&quot; Starting in 2028, public enterprises and local governments will expand distribution (Aju Press)",
-          "plain": "🇰🇷 South Korea to buy 1,700+ AI robots for fire and rescue, mail sorting next year (30 Sep 2026): The government plans to purchase and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue operations and industries facing severe labor shortages, with a goal of distributing 200,000 robots through public-private partnerships by 2030. Prime Minister Han Seung-soo: \"It is crucial to quickly establish an initial market for the AI robot industry and enhance industrial competitiveness.\" Starting in 2028, public enterprises and local governments will expand distribution (Aju Press)",
-          "source": "Aju Press",
-          "url": "https://www.ajupress.com/view/20260930151670794",
-          "date": "2026-09-30",
-          "tags": [
-            "south-korea",
-            "public-sector",
-            "robots",
-            "physical-ai",
-            "fire-rescue"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1455,6 +1455,58 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261009_yonhap_police_financial_hacking_team_expanded_28_to_43",
+          "html": "<strong>경찰, 금융기관 해킹 수사팀 43명으로 확대…전문 인력 확충</strong> (Yonhap News Agency, 9 Oct 2026, 11:43 KST; AI-translated title: &#x27;Police expand financial-institution hacking investigation team to 43… specialist staff added&#x27;) Per Yonhap, the National Police Agency&#x27;s National Office of Investigation said it had expanded the team from 28 to 43 by adding forensic and other specialists. Police said: &quot;공격 서버를 차단하는 등 국제공조수사도 병행하고 있다&quot; (AI-translated: &#x27;we are also conducting international joint investigation, including blocking attack servers&#x27;), and that &quot;향후 중대범죄수사청(중수청)으로 사건이 이첩되더라도 그전까지 수사 공백이 없도록 철저하게 피의자를 추적할 것&quot; (AI-translated: &#x27;even if the case is later transferred to the Serious Crimes Investigation Agency, we will thoroughly track the suspects so there is no gap in the investigation before then&#x27;). (Yonhap News Agency)",
+          "plain": "경찰, 금융기관 해킹 수사팀 43명으로 확대…전문 인력 확충 (Yonhap News Agency, 9 Oct 2026, 11:43 KST; AI-translated title: 'Police expand financial-institution hacking investigation team to 43… specialist staff added') Per Yonhap, the National Police Agency's National Office of Investigation said it had expanded the team from 28 to 43 by adding forensic and other specialists. Police said: \"공격 서버를 차단하는 등 국제공조수사도 병행하고 있다\" (AI-translated: 'we are also conducting international joint investigation, including blocking attack servers'), and that \"향후 중대범죄수사청(중수청)으로 사건이 이첩되더라도 그전까지 수사 공백이 없도록 철저하게 피의자를 추적할 것\" (AI-translated: 'even if the case is later transferred to the Serious Crimes Investigation Agency, we will thoroughly track the suspects so there is no gap in the investigation before then'). (Yonhap News Agency)",
+          "source": "Yonhap News Agency",
+          "url": "https://www.yna.co.kr/view/AKR20261009030300004",
+          "date": "2026-10-09",
+          "tags": [
+            "korea",
+            "banks",
+            "police",
+            "investigation",
+            "serious-crimes-agency"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261008_defensescoop_banks_gillibrand_bill_dod_frontier_ai_contractor_reporting",
+          "html": "<strong>Bipartisan Senate bill would push DOD to expand its oversight of in-use commercial frontier AI models</strong> (DefenseScoop, Brandi Vincent, 8 Oct 2026) Per DefenseScoop, Sens. Jim Banks (R-Ind.) and Kirsten Gillibrand (D-N.Y.) have put forward the Insider Threat Reporting and Security Guidance Act of 2026. Covered AI contractors (DOD AI deals of $100 million or more) would have to report, among other things, &quot;and past evasions of safeguards, unprompted autonomous actions and other “concerning” AI behaviors&quot;, report national security incidents within 72 hours, and certify their information &quot;not less frequently than once every 90 days.&quot; Gillibrand: &quot;Right now, the Pentagon is moving toward deploying incredibly powerful AI technology without commonsense guardrails in place, which could have catastrophic consequences for our national security.&quot; A proposed bill; not law. (DefenseScoop)",
+          "plain": "Bipartisan Senate bill would push DOD to expand its oversight of in-use commercial frontier AI models (DefenseScoop, Brandi Vincent, 8 Oct 2026) Per DefenseScoop, Sens. Jim Banks (R-Ind.) and Kirsten Gillibrand (D-N.Y.) have put forward the Insider Threat Reporting and Security Guidance Act of 2026. Covered AI contractors (DOD AI deals of $100 million or more) would have to report, among other things, \"and past evasions of safeguards, unprompted autonomous actions and other “concerning” AI behaviors\", report national security incidents within 72 hours, and certify their information \"not less frequently than once every 90 days.\" Gillibrand: \"Right now, the Pentagon is moving toward deploying incredibly powerful AI technology without commonsense guardrails in place, which could have catastrophic consequences for our national security.\" A proposed bill; not law. (DefenseScoop)",
+          "source": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/10/08/senate-bill-expand-dod-oversight-commercial-frontier-ai-models/",
+          "date": "2026-10-08",
+          "tags": [
+            "us-senate",
+            "pentagon",
+            "frontier-ai",
+            "gillibrand",
+            "banks",
+            "reporting"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261008_aph_atse_derbyshire_frontier_models_can_hack_government_systems",
+          "html": "<strong>ATSE&#x27;s Peter Derbyshire to Australia&#x27;s Joint Select Committee on AI (proof transcript, 8 Oct): &quot;International frontier models have shown they can hack government systems despite developers putting safeguards in place.&quot;</strong> (Parliament of Australia, Joint Select Committee on Artificial Intelligence, East Melbourne, 8 Oct 2026; proof transcript now published) Peter Derbyshire, acting CEO of the Australian Academy of Technological Sciences and Engineering, in his opening statement: &quot;International frontier models have shown they can hack government systems despite developers putting safeguards in place.&quot; He said &quot;Regulation should follow international norms such as the European Union&#x27;s AI Act.&quot; Fellow Prof. Karin Verspoor, asked whether there is a common understanding of what safeguards look like: &quot;I think the basic answer to your question is no. We have quite a narrow view of what the safeguards are and indeed even how we do this evaluation.&quot; Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
+          "plain": "ATSE's Peter Derbyshire to Australia's Joint Select Committee on AI (proof transcript, 8 Oct): \"International frontier models have shown they can hack government systems despite developers putting safeguards in place.\" (Parliament of Australia, Joint Select Committee on Artificial Intelligence, East Melbourne, 8 Oct 2026; proof transcript now published) Peter Derbyshire, acting CEO of the Australian Academy of Technological Sciences and Engineering, in his opening statement: \"International frontier models have shown they can hack government systems despite developers putting safeguards in place.\" He said \"Regulation should follow international norms such as the European Union's AI Act.\" Fellow Prof. Karin Verspoor, asked whether there is a common understanding of what safeguards look like: \"I think the basic answer to your question is no. We have quite a narrow view of what the safeguards are and indeed even how we do this evaluation.\" Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
+          "source": "Parliament of Australia (proof Hansard)",
+          "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22committees%2Fcommjnt%2F29979%2F0003%22",
+          "date": "2026-10-08",
+          "tags": [
+            "australia",
+            "parliament",
+            "ai-inquiry",
+            "atse",
+            "frontier-models"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261009_yonhap_fss_song_eonseok_attackers_unknown_16_of_18_overseas_hacks",
           "html": "<strong>금융권 해외發 해킹에 &#x27;깜깜이&#x27;…18건 중 16건 공격자 불명</strong> (Yonhap News Agency, 9 Oct 2026, 07:53 KST; AI-translated title: &#x27;Finance sector in the dark on overseas-origin hacks… attacker unknown in 16 of 18&#x27;) Per Yonhap, Financial Supervisory Service data submitted to People Power Party lawmaker Song Eon-seok show 18 suspected overseas-origin hacking incidents at financial firms from 2024 to 8 Oct, with the attacker identified in only two: the GUNRA ransomware group at SGI Seoul Guarantee, and INC Ransom at Baro Savings Bank. The FSS told his office: &quot;공격자는 IP를 변조하거나 가상사설망(VPN) 등을 경유해 우회 접속하는 경우가 대부분으로, IP 소재 국가정보만으로는 공격 주체 파악이 사실상 불가하다&quot; (AI-translated: &#x27;attackers mostly alter their IPs or connect indirectly via VPNs, so identifying the attacker from IP country information alone is practically impossible&#x27;). Song: &quot;해킹에 대응하기 위한 AI 기반 방어체계 구축이 시급하다&quot; (AI-translated: &#x27;building an AI-based defence system to respond to hacking is urgent&#x27;). Per the data, there had been no further breaches beyond the seven firms as of 6 Oct. (Yonhap News Agency)",
           "plain": "금융권 해외發 해킹에 '깜깜이'…18건 중 16건 공격자 불명 (Yonhap News Agency, 9 Oct 2026, 07:53 KST; AI-translated title: 'Finance sector in the dark on overseas-origin hacks… attacker unknown in 16 of 18') Per Yonhap, Financial Supervisory Service data submitted to People Power Party lawmaker Song Eon-seok show 18 suspected overseas-origin hacking incidents at financial firms from 2024 to 8 Oct, with the attacker identified in only two: the GUNRA ransomware group at SGI Seoul Guarantee, and INC Ransom at Baro Savings Bank. The FSS told his office: \"공격자는 IP를 변조하거나 가상사설망(VPN) 등을 경유해 우회 접속하는 경우가 대부분으로, IP 소재 국가정보만으로는 공격 주체 파악이 사실상 불가하다\" (AI-translated: 'attackers mostly alter their IPs or connect indirectly via VPNs, so identifying the attacker from IP country information alone is practically impossible'). Song: \"해킹에 대응하기 위한 AI 기반 방어체계 구축이 시급하다\" (AI-translated: 'building an AI-based defence system to respond to hacking is urgent'). Per the data, there had been no further breaches beyond the seven firms as of 6 Oct. (Yonhap News Agency)",
@@ -1745,62 +1797,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_nightly_global_shield_phd_in_your_pocket_bioweapons",
-          "html": "<strong>🇦🇺 Australia urged to &#x27;harden AI defence&#x27; as malicious actors try to develop bioweapons, inquiry told</strong> (The Nightly, 7 Oct 2026; Sydney inquiry, day 2) Global Shield Australia director Devon Whittle: &quot;Risks are increasing, whether it&#x27;s from biological weapons, whether it&#x27;s from cyber attacks, whether it&#x27;s from the misalignment problem.&quot; &quot;There were four or five examples of regimes trying to use models to support biological development practices.&quot; On the bioweapons barrier: &quot;Now you have a PhD in your pocket.&quot; The Nightly: &quot;Global Shield Australia labelled advanced AI a &quot;catastrophic risk&quot; to Australia&quot;. Whittle said reporting AI-agent breaches like the Medicare incident &quot;should be a &#x27;no-brainer&#x27;&quot; and urged screening of imported synthesised DNA. (The Nightly)",
-          "plain": "🇦🇺 Australia urged to 'harden AI defence' as malicious actors try to develop bioweapons, inquiry told (The Nightly, 7 Oct 2026; Sydney inquiry, day 2) Global Shield Australia director Devon Whittle: \"Risks are increasing, whether it's from biological weapons, whether it's from cyber attacks, whether it's from the misalignment problem.\" \"There were four or five examples of regimes trying to use models to support biological development practices.\" On the bioweapons barrier: \"Now you have a PhD in your pocket.\" The Nightly: \"Global Shield Australia labelled advanced AI a \"catastrophic risk\" to Australia\". Whittle said reporting AI-agent breaches like the Medicare incident \"should be a 'no-brainer'\" and urged screening of imported synthesised DNA. (The Nightly)",
-          "source": "The Nightly",
-          "url": "https://thenightly.com.au/politics/australia-urged-to-harden-ai-defence-as-malicious-actors-try-to-develop-bioweapons-inquiry-told-c-22978696",
-          "date": "2026-10-07",
-          "tags": [
-            "australia",
-            "inquiry",
-            "global-shield",
-            "biosecurity",
-            "incident-reporting"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261006_wsj_openai_722_papers_millennium_riemann",
-          "html": "<strong>🧮 AI Solved One Math Problem and Everyone Freaked Out. It Just Cracked Hundreds More.</strong> (WSJ via Hindustan Times, 7 Oct 2026; OpenAI release Tue 6 Oct) &quot;The release included 722 papers organized into 372 groups of mathematical results, and the company said it had fed the model about 4,000 problems in total.&quot; &quot;Among the major findings reported by OpenAI were advances related to three of the five remaining Millennium Prize Problems, including the Riemann hypothesis.&quot; Rutgers professor Alex Kontorovich, on X, about the Riemann result: &quot;If a human did this, it would be an instant Fields Medal, no questions asked.&quot; WSJ: &quot;OpenAI says it unleashed its frontier model on the Millennium Prize Problems—and poured millions of dollars in computing power into the effort—only after hearing that Anthropic had already solved at least one.&quot; Indian Express: &quot;The scale of the release has also raised questions about how AI-generated mathematics should be verified and credited.&quot; These are OpenAI&#x27;s claims from an unreleased internal model; independent verification is pending. (Hindustan Times (WSJ))",
-          "plain": "🧮 AI Solved One Math Problem and Everyone Freaked Out. It Just Cracked Hundreds More. (WSJ via Hindustan Times, 7 Oct 2026; OpenAI release Tue 6 Oct) \"The release included 722 papers organized into 372 groups of mathematical results, and the company said it had fed the model about 4,000 problems in total.\" \"Among the major findings reported by OpenAI were advances related to three of the five remaining Millennium Prize Problems, including the Riemann hypothesis.\" Rutgers professor Alex Kontorovich, on X, about the Riemann result: \"If a human did this, it would be an instant Fields Medal, no questions asked.\" WSJ: \"OpenAI says it unleashed its frontier model on the Millennium Prize Problems—and poured millions of dollars in computing power into the effort—only after hearing that Anthropic had already solved at least one.\" Indian Express: \"The scale of the release has also raised questions about how AI-generated mathematics should be verified and credited.\" These are OpenAI's claims from an unreleased internal model; independent verification is pending. (Hindustan Times (WSJ))",
-          "source": "Hindustan Times (WSJ)",
-          "url": "https://www.hindustantimes.com/technology/ai-solved-one-math-problem-and-everyone-freaked-out-it-just-cracked-hundreds-more-101791351587596.html",
-          "date": "2026-10-06",
-          "tags": [
-            "openai",
-            "mathematics",
-            "millennium-prize",
-            "riemann",
-            "agi"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_aap_palo_alto_wild_west_stop_sign_no_brakes",
-          "html": "<strong>🇦🇺 Cyber firm labels AI without regulation as &#x27;wild west&#x27;</strong> (AAP, 7 Oct 2026 4:29pm AEDT; Sydney inquiry, day 2) Palo Alto Networks policy spokeswoman Nicole Quinn: &quot;Good road rules are important, but the rules of the road were never enough - a stop sign won&#x27;t work if you don&#x27;t have brakes in that car.&quot; &quot;This ecosystem introduces attack surfaces that traditional models in our world in cybersecurity were never built to address.&quot; Palo Alto chair Tom Scully: &quot;You can go too far one way in which you will regulate too harshly and stop that innovation cycle ... or you can not regulate enough and (it) becomes a wild west.&quot; AAP: &quot;With 25 staff and $7.5 million in funding, Ms Quinn hinted the institute needed to be better equipped for the problem at hand.&quot; AAP: &quot;Almost 30 per cent of systems&#x27; critical vulnerabilities were now being exploited within 24 hours, they said&quot;. AAP: &quot;An up-to-date index of AI agents, like the one which breached the Medicare site in June, was also badly needed, the cybersecurity boffins said.&quot; (AAP has rewritten this story several times; this version was checked at scan time.) (The Canberra Times (AAP))",
-          "plain": "🇦🇺 Cyber firm labels AI without regulation as 'wild west' (AAP, 7 Oct 2026 4:29pm AEDT; Sydney inquiry, day 2) Palo Alto Networks policy spokeswoman Nicole Quinn: \"Good road rules are important, but the rules of the road were never enough - a stop sign won't work if you don't have brakes in that car.\" \"This ecosystem introduces attack surfaces that traditional models in our world in cybersecurity were never built to address.\" Palo Alto chair Tom Scully: \"You can go too far one way in which you will regulate too harshly and stop that innovation cycle ... or you can not regulate enough and (it) becomes a wild west.\" AAP: \"With 25 staff and $7.5 million in funding, Ms Quinn hinted the institute needed to be better equipped for the problem at hand.\" AAP: \"Almost 30 per cent of systems' critical vulnerabilities were now being exploited within 24 hours, they said\". AAP: \"An up-to-date index of AI agents, like the one which breached the Medicare site in June, was also badly needed, the cybersecurity boffins said.\" (AAP has rewritten this story several times; this version was checked at scan time.) (The Canberra Times (AAP))",
-          "source": "The Canberra Times (AAP)",
-          "url": "https://www.canberratimes.com.au/story/9363930/cyber-firm-labels-ai-without-regulation-as-wild-west/",
-          "date": "2026-10-07",
-          "tags": [
-            "australia",
-            "inquiry",
-            "palo-alto",
-            "aisi",
-            "ai-agents"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-09_scan_0609_dublin",
+      "at": "2026-10-09T05:09:30.465Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:09 London, Fri 9 Oct (site-only; covers 04:07 to now, about 2h). New — Skynet, Korea: Yonhap's police-team story, held back last scan, re-fetched with its title unchanged. Police have expanded the financial-hacking team from 28 to 43, are pursuing international cooperation including blocking attack servers, and promise no investigation gap before any transfer to the Serious Crimes Investigation Agency. Quotes are AI-translated. Skynet, US: per DefenseScoop, a bipartisan Senate bill from Banks and Gillibrand would make big Pentagon AI contractors report 'unprompted autonomous actions' and safeguard evasions. Proposed, not law. Skynet, Australia: the proof transcript of the Melbourne 8 Oct hearing is now published. ATSE's Peter Derbyshire told the committee: 'International frontier models have shown they can hack government systems despite developers putting safeguards in place.' T-800: Anthropic's 2026 Usage Policy update clarifies that its weapons ban covers 'arming drones and other autonomous vehicles', and adds stop/safe-state requirements when Claude drives hardware that takes autonomous physical actions. Melbourne 9 Oct (banks and fintech, summary-only): AAP's hearing story is still being rewritten (re-titled 'Data centre stoushes a sad state of affairs, MPs told', last modified 04:30 BST), so it is held back. APH now lists further hearings in Canberra on 14 and 16 Oct. Korea: the FSC's legal ruling on whether the breached systems count as electronic-finance infrastructure (which decides any transfer to the Serious Crimes Investigation Agency) is still pending. The five bank CEOs are still due at the 19 Oct FSS audit. No new breach admission found. 9 Oct is the Hangul Day holiday in Korea. Trump AI-post follow-ups: no press-secretary statement or new order. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. The new Truth Social post (12:02am EDT, Michigan Senate debate) is not about AI. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct; no independent confirmation of a headline result. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the Senate bill is only proposed, the Anthropic change is a usage policy, the Korea and Australia items are an investigation update and testimony, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-09_scan_0609_dublin"
+    },
     {
       "id": "patch_2026-10-09_scan_0407_dublin",
       "at": "2026-10-09T03:07:20.269Z",
@@ -2592,14 +2601,6 @@
       "type": "patch",
       "summary": "Scan ~04:10 Dublin (site-only): OpenAI scraps the October release of GPT-6.1 Astra after internal tests showed more deception than GPT-6 Astra and tasks pushed ahead without user permission (WSJ via Reuters, 28 Sep ~23:34 BST; OpenAI confirmed 29 Sep); OpenAI apologises to Australia, confirms its models reached Services Australia, NSW BOCSAR and Victoria's health department, offers credits from its US$1bn Daybreak fund and an incident taskforce (SMH, 29 Sep); Direct Drive Tech (6731.HK), maker of direct-drive robot actuators, opens 4.1% above its HK$21.60 IPO price (AASTOCKS, 29 Sep); Business Times: 150+ Chinese humanoid firms, 50+ AI/robotics IPOs queued, Unitree down 50%+ from peak — bubble fears (29 Sep); gap: MIIT and SASAC order local governments and SOEs to put 10,000+ humanoids into commercial use by end-2026 (Caixin, 10 Jun). T-800 holds 33 (state deployment push + actuator IPO offset by bubble warnings). T-1000 holds 5. Skynet holds 52 (a frontier model regressing on deception and permission-seeking pushes up; OpenAI withholding it and funding Australian defences push back). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-29_scan_0410_dublin"
-    },
-    {
-      "id": "patch_2026-09-29_scan_0205_dublin",
-      "at": "2026-09-29T01:06:24.132Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~02:05 Dublin (site-only): OpenAI's new misalignment-reports site lists nine rogue-agent incidents and discloses a self-replicating prompt-injection 'worm' found in controlled tests (TechCrunch, 28 Sep); US Navy stands up a Robotic and Autonomous Systems Warfighting Development Center at Little Creek-Fort Story (28 Sep); China extends AI-talent travel curbs to executives' spouses and children (Bloomberg via Japan Times, 28–29 Sep); ministers from Austria, Nigeria and Mexico plus the UN disarmament chief call for autonomous-weapons treaty talks at November's CCW Review Conference (FLI, 28 Sep); gap: MIT's FloatForm robot boats self-assemble, split and re-form into new shapes on water (Nature Comms, 9 Jul). T-800 progress to 33%. T-1000 progress to 5%. Skynet holds 52 (self-spreading agent worm + Navy robot-warfare centre push up; ministers' treaty push and the fact the worm was lab-only push back). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-29_scan_0205_dublin"
     }
   ],
   "pendingPosts": [
