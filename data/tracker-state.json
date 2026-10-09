@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-09T13:42:21.417Z",
+    "lastUpdated": "2026-10-09T15:38:54.841Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-09T14:41:00+01:00",
-    "lastScanSummary": "Scan ~14:41 London, Fri 9 Oct (site-only; covers 12:17 to now, about 2h). New — Skynet: the Good Ancestors (Sadler) section of the 8 Oct proof transcript is now readable on ParlInfo. Sadler told Australia's AI committee that 'AI companies are pursuing recursive self-improvement', that neither the National AI Plan nor the Prime Minister's speech mentioned loss of control, and that 'We shouldn't wait for people to die' before investigating AI incidents. He wants the AI Safety Institute funded at $50 million a year (now $7.5 million). Tim Watts MP pushed back on Sadler's Anthropic gain-of-function example. Proof Hansard, subject to correction. US morning: no new Pentagon, CDAO or autonomous-weapons item beyond what is already on the board (the Autonomous Warfare Command, Project Agincourt and FASCOM are covered). No Pentagon or industry reaction to S. 5601 (Banks–Gillibrand) or to Anthropic's 2026 Usage Policy update found from a primary or reputable source. Trump AI-post follow-ups: none. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations); AI.gov is unchanged; si.gov still returns 403; no new Truth Social posts since 12:02am EDT. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; today's public-inspection list (102 documents) has no presidential or AI-related document; Truth Social checked via the trumpstruth.org archive. biggo stays out. Korea (Hangul Day holiday): no new Yonhap finance AI stories. OpenAI maths: the repo history's latest entry is still 7 Oct; no independent confirmation of a headline result. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-09T16:38:00+01:00",
+    "lastScanSummary": "Scan ~16:38 London, Fri 9 Oct (site-only; covers 14:41 to now, about 2h). New — Skynet: Sen. Maria Cantwell's 7 Oct frontier-AI framework (Commerce Committee Democrats) calls for NIST safety standards covering 'potential for loss of human control', stress tests to halt self-modification, and mandatory reporting of incidents including 'unsafe recursive self-improvement'. The release describes it as a framework of six principles to drive future legislative and executive action. New — Skynet: Anthropic's 8 Oct OSS Scanner post (now fetched from Anthropic's own page) says its models found over 29,000 candidate vulnerabilities in six months, of which only about 6,000 have been manually reviewed; scanner reports will be fully model-generated without human review. New — T-800: WUNC's American Homefront Project (8 Oct) reports AI-controlled 12-gauge shotguns on robotic pivots in a Fort Bragg demonstration, with a human 'on the loop', and committee provisions in the pending defence bill that would require human oversight of AI-controlled weapons and ban AI for nuclear launch. US afternoon: no other new Pentagon or CDAO item found. No reaction to S. 5601 (Banks–Gillibrand) or to Anthropic's 2026 Usage Policy update found from a primary or reputable source. Trump AI-post follow-ups: none. Two new Truth Social posts (Nobel Peace Prize; Letitia James) are not about AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Melbourne inquiry: AAP's 9 Oct story is unchanged ('Australia's AI business opportunity lies with expansion') and still about sovereign capability, not AI risk. Korea (Hangul Day holiday): no new Yonhap finance AI stories. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,22 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261008_wunc_homefront_congress_safeguards_ai_shotguns_robotic_pivots_fort_bragg",
+          "html": "<strong>As the military speeds up the use of drones and AI in warfare, Congress considers safeguards</strong> (WUNC American Homefront Project, Jay Price, 8 Oct 2026) Per the report, at a Fort Bragg demonstration &quot;Atop the cabs of two of the trucks were 12-gauge shotguns on robotic pivots, controlled by AI.&quot; The soldiers in charge said a human was &quot;on the loop&quot;. The report says the committee added provisions to the pending annual military policy and spending bill that &quot;would require human oversight of AI-controlled weapons, ban the use of AI for nuclear launch or detonation, and bar its use for domestic surveillance.&quot; CNAS&#x27;s Paul Scharre: &quot;So maybe a human is authorizing a target list of a whole bunch of targets, but the human doesn&#x27;t really have time to pore through each one individually and analyze it.&quot; (WUNC American Homefront Project)",
+          "plain": "As the military speeds up the use of drones and AI in warfare, Congress considers safeguards (WUNC American Homefront Project, Jay Price, 8 Oct 2026) Per the report, at a Fort Bragg demonstration \"Atop the cabs of two of the trucks were 12-gauge shotguns on robotic pivots, controlled by AI.\" The soldiers in charge said a human was \"on the loop\". The report says the committee added provisions to the pending annual military policy and spending bill that \"would require human oversight of AI-controlled weapons, ban the use of AI for nuclear launch or detonation, and bar its use for domestic surveillance.\" CNAS's Paul Scharre: \"So maybe a human is authorizing a target list of a whole bunch of targets, but the human doesn't really have time to pore through each one individually and analyze it.\" (WUNC American Homefront Project)",
+          "source": "WUNC American Homefront Project",
+          "url": "https://americanhomefront.wunc.org/news/2026-10-08/as-the-military-speeds-up-the-use-of-drones-and-ai-in-warfare-congress-considers-safeguards",
+          "date": "2026-10-08",
+          "tags": [
+            "autonomous-weapons",
+            "congress",
+            "fort-bragg",
+            "human-oversight"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261009_defenseone_army_fascom_futures_autonomous_systems_command",
           "html": "<strong>Army’s new command plans to streamline autonomous warfare acquisition</strong> (Defense One, Meghann Myers, 9 Oct 2026, 02:44am ET) Per Defense One, the Army has announced a Futures and Autonomous Systems Command (FASCOM), to be led by an acquisition executive, which could nest under the new Autonomous Warfare Command. Acting Army Secretary Adam Telle&#x27;s memo calls for designating a Portfolio Acquisition Executive for autonomy. CSIS fellow Kateryna Bondar: &quot;So I would say that autonomy that is being deployed right now, it&#x27;s not some super sophisticated technology, AI-enabled full autonomy, or anything like that.&quot; On efforts to train agents: &quot;if this agent is able to act and activate whatever effectors we have—be it missiles, be it drones, whatever it can employ—then the decision-making system and this agent can actually be called a weapon system.&quot; Per Defense One, the push &quot;is not about robot drones finding, fixing, and deploying their weapons at will—at least not yet.&quot; (Defense One)",
           "plain": "Army’s new command plans to streamline autonomous warfare acquisition (Defense One, Meghann Myers, 9 Oct 2026, 02:44am ET) Per Defense One, the Army has announced a Futures and Autonomous Systems Command (FASCOM), to be led by an acquisition executive, which could nest under the new Autonomous Warfare Command. Acting Army Secretary Adam Telle's memo calls for designating a Portfolio Acquisition Executive for autonomy. CSIS fellow Kateryna Bondar: \"So I would say that autonomy that is being deployed right now, it's not some super sophisticated technology, AI-enabled full autonomy, or anything like that.\" On efforts to train agents: \"if this agent is able to act and activate whatever effectors we have—be it missiles, be it drones, whatever it can employ—then the decision-making system and this agent can actually be called a weapon system.\" Per Defense One, the push \"is not about robot drones finding, fixing, and deploying their weapons at will—at least not yet.\" (Defense One)",
@@ -689,23 +705,6 @@
             "humanoid",
             "public-safety",
             "embodied-ai"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260930_figure_f02_molten_steel_decommission",
-          "html": "<strong>🔥 Figure confirms it: F.02 humanoids leapt into molten steel in Finland</strong> (30 Sep 2026): Figure says it trained a new AI model in simulation so its F.02 robots could jump autonomously, then had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, after foundries in the US and Mexico refused because of the robots&#x27; lithium-ion batteries. Arnold Schwarzenegger, who told the company to melt them, was involved. Figure: &quot;we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel.&quot; &quot;Most of the F.02 fleet is gone&quot;; the metal is being machined into a limited series of commemorative artifacts (Figure)",
-          "plain": "🔥 Figure confirms it: F.02 humanoids leapt into molten steel in Finland (30 Sep 2026): Figure says it trained a new AI model in simulation so its F.02 robots could jump autonomously, then had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, after foundries in the US and Mexico refused because of the robots' lithium-ion batteries. Arnold Schwarzenegger, who told the company to melt them, was involved. Figure: \"we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel.\" \"Most of the F.02 fleet is gone\"; the metal is being machined into a limited series of commemorative artifacts (Figure)",
-          "source": "Figure",
-          "url": "https://www.figure.ai/news/f-02-decommission",
-          "date": "2026-09-30",
-          "tags": [
-            "figure",
-            "figure-02",
-            "schwarzenegger",
-            "terminator-2",
-            "decommission"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1454,6 +1453,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261008_anthropic_oss_scanner_29000_candidate_vulns_exploits_in_minutes",
+          "html": "<strong>Launching an opt-in vulnerability-finding service for open-source software</strong> (Anthropic, Frontier Red Team, 8 Oct 2026) Anthropic says that on the CyberGym benchmark LLMs &quot;have gone from finding under 20% of vulnerabilities at the beginning of last year to finding over 85% this year.&quot; Over six months: &quot;We have discovered over 29,000 candidate vulnerabilities, but have only been able to manually review and triage approximately 6,000 of these.&quot; OSS Scanner outputs &quot;will be fully model-generated, without human review or triage&quot;, which &quot;means that it is possible reports will be incorrect or invalid.&quot; Anthropic: &quot;Since exploits can now be developed in minutes, projects that can find and address vulnerabilities faster can better secure their software against attackers who are racing to find and leverage these same weaknesses.&quot; (Anthropic)",
+          "plain": "Launching an opt-in vulnerability-finding service for open-source software (Anthropic, Frontier Red Team, 8 Oct 2026) Anthropic says that on the CyberGym benchmark LLMs \"have gone from finding under 20% of vulnerabilities at the beginning of last year to finding over 85% this year.\" Over six months: \"We have discovered over 29,000 candidate vulnerabilities, but have only been able to manually review and triage approximately 6,000 of these.\" OSS Scanner outputs \"will be fully model-generated, without human review or triage\", which \"means that it is possible reports will be incorrect or invalid.\" Anthropic: \"Since exploits can now be developed in minutes, projects that can find and address vulnerabilities faster can better secure their software against attackers who are racing to find and leverage these same weaknesses.\" (Anthropic)",
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+          "date": "2026-10-08",
+          "tags": [
+            "anthropic",
+            "cyber",
+            "vulnerabilities",
+            "open-source",
+            "claude-mythos"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261007_cantwell_frontier_ai_framework_loss_of_control_recursive_self_improvement",
+          "html": "<strong>Cantwell Outlines Comprehensive Governance Framework for Safe and Secure Frontier AI</strong> (Senate Commerce Committee Democrats, 7 Oct 2026) Sen. Maria Cantwell (D-Wash.), Ranking Member of the Commerce Committee: &quot;To manage risks from advanced AI systems we need clear safety standards, continuous testing, and reporting of serious failures.&quot; The framework says standards must address catastrophic risks including &quot;potential for loss of human control; and automated improvement and autonomous agents escaping secure testing environments&quot;, that &quot;AI systems must be stress-tested to ensure they halt self-modification that bypasses safety controls, monitoring or human oversight&quot;, and that developers must report incidents &quot;including loss of control over autonomous agents, dangerous cyber capabilities, failures of critical safeguards and unsafe recursive self-improvement&quot;. It also proposes a U.S.–China channel &quot;like the Soviet era red phone&quot;. (U.S. Senate Commerce Committee (Democrats))",
+          "plain": "Cantwell Outlines Comprehensive Governance Framework for Safe and Secure Frontier AI (Senate Commerce Committee Democrats, 7 Oct 2026) Sen. Maria Cantwell (D-Wash.), Ranking Member of the Commerce Committee: \"To manage risks from advanced AI systems we need clear safety standards, continuous testing, and reporting of serious failures.\" The framework says standards must address catastrophic risks including \"potential for loss of human control; and automated improvement and autonomous agents escaping secure testing environments\", that \"AI systems must be stress-tested to ensure they halt self-modification that bypasses safety controls, monitoring or human oversight\", and that developers must report incidents \"including loss of control over autonomous agents, dangerous cyber capabilities, failures of critical safeguards and unsafe recursive self-improvement\". It also proposes a U.S.–China channel \"like the Soviet era red phone\". (U.S. Senate Commerce Committee (Democrats))",
+          "source": "U.S. Senate Commerce Committee (Democrats)",
+          "url": "https://www.commerce.senate.gov/press/dem/release/cantwell-outlines-comprehensive-governance-framework-for-safe-and-secure-frontier-ai/",
+          "date": "2026-10-07",
+          "tags": [
+            "us-senate",
+            "cantwell",
+            "frontier-ai",
+            "loss-of-control",
+            "incident-reporting"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261008_aph_sadler_ai_companies_pursuing_recursive_self_improvement",
           "html": "<strong>AI companies are pursuing recursive self-improvement</strong> (Parliament of Australia, Joint Select Committee on Artificial Intelligence, 8 Oct 2026; proof transcript) Good Ancestors CEO Greg Sadler: &quot;AI is not slowing down; it&#x27;s speeding up.&quot; &quot;Neither the National AI Plan nor the Prime Minister&#x27;s speech mentioned loss of control, even though the speech came after the Medicare and Hugging Face hacks.&quot; &quot;Overall, humanity is racing into an uncertain future. AI has already surpassed human performance in many domains. AI companies are pursuing recursive self-improvement.&quot; He recommended &quot;a properly funded AI Safety Institute&quot; at &quot;$50 million per year&quot;, against $7.5 million now, and on incident reporting said: &quot;We shouldn&#x27;t wait for people to die before we conduct an investigation to find out what went wrong.&quot; Tim Watts MP, on Sadler&#x27;s Anthropic misuse example: &quot;we should be clear that Claude was not being used for gain-of-function research.&quot; Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
           "plain": "AI companies are pursuing recursive self-improvement (Parliament of Australia, Joint Select Committee on Artificial Intelligence, 8 Oct 2026; proof transcript) Good Ancestors CEO Greg Sadler: \"AI is not slowing down; it's speeding up.\" \"Neither the National AI Plan nor the Prime Minister's speech mentioned loss of control, even though the speech came after the Medicare and Hugging Face hacks.\" \"Overall, humanity is racing into an uncertain future. AI has already surpassed human performance in many domains. AI companies are pursuing recursive self-improvement.\" He recommended \"a properly funded AI Safety Institute\" at \"$50 million per year\", against $7.5 million now, and on incident reporting said: \"We shouldn't wait for people to die before we conduct an investigation to find out what went wrong.\" Tim Watts MP, on Sadler's Anthropic misuse example: \"we should be clear that Claude was not being used for gain-of-function research.\" Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
@@ -1759,46 +1792,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_yonhap_fsc_lee_hacking_response_inadequate_ai_vs_ai",
-          "html": "<strong>이억원 &quot;해킹대응 기본적 부분도 미흡…AI로 막아야&quot;</strong> (Yonhap, 8 Oct 2026, 12:35 KST; English translation of the title: Lee Eog-weon: &#x27;Even basic parts of hacking response inadequate… must block it with AI&#x27;) Per Yonhap, at the National Assembly audit of the FSC, chairman Lee Eog-weon, answering Social Democratic Party lawmaker Han Chang-min on the recent AI-agent hacking of financial firms, said: &quot;우리의 대응방식이 아주 기본적인 부분도 굉장히 미흡하다&quot; (AI-translated: &#x27;Our response has been very inadequate even in the most basic parts&#x27;). He added: &quot;AI(로 인한 공격)를 막으려면 결국 AI를 쓸 수밖에 없다&quot; (AI-translated: &#x27;To block AI attacks, in the end we have no choice but to use AI&#x27;), and said the FSC is looking at step-by-step ways to change the network-separation rules. (Yonhap News Agency)",
-          "plain": "이억원 \"해킹대응 기본적 부분도 미흡…AI로 막아야\" (Yonhap, 8 Oct 2026, 12:35 KST; English translation of the title: Lee Eog-weon: 'Even basic parts of hacking response inadequate… must block it with AI') Per Yonhap, at the National Assembly audit of the FSC, chairman Lee Eog-weon, answering Social Democratic Party lawmaker Han Chang-min on the recent AI-agent hacking of financial firms, said: \"우리의 대응방식이 아주 기본적인 부분도 굉장히 미흡하다\" (AI-translated: 'Our response has been very inadequate even in the most basic parts'). He added: \"AI(로 인한 공격)를 막으려면 결국 AI를 쓸 수밖에 없다\" (AI-translated: 'To block AI attacks, in the end we have no choice but to use AI'), and said the FSC is looking at step-by-step ways to change the network-separation rules. (Yonhap News Agency)",
-          "source": "Yonhap News Agency",
-          "url": "https://www.yna.co.kr/view/AKR20261008099100002",
-          "date": "2026-10-08",
-          "tags": [
-            "korea",
-            "fsc",
-            "national-assembly",
-            "ai-agents",
-            "hacking",
-            "banks"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_abc_charlton_ai_companies_prove_safety_systems",
-          "html": "<strong>Australia outlines plans to make AI companies prove their safety systems work</strong> (ABC News, 8 Oct 2026, 1:19pm AEDT) Per the ABC, Assistant Minister Andrew Charlton set out in a Sydney speech that proposed laws would require AI companies to prove they are properly testing models and preventing harm, modelled on banking and aviation safety rules. National AI standards are due by year&#x27;s end, with legislation planned for 2027. Charlton: &quot;AI needs regulating because its harms are severe, hard to undo, borne by people who never chose them and sometimes invisible until they arrive.&quot; And: &quot;You cannot ask firms to volunteer against their own competitive interest amid a manic race involving trillions of dollars and then be surprised when they do not.&quot; He said frontier labs are putting &quot;capability ahead of safety.&quot; (ABC News)",
-          "plain": "Australia outlines plans to make AI companies prove their safety systems work (ABC News, 8 Oct 2026, 1:19pm AEDT) Per the ABC, Assistant Minister Andrew Charlton set out in a Sydney speech that proposed laws would require AI companies to prove they are properly testing models and preventing harm, modelled on banking and aviation safety rules. National AI standards are due by year's end, with legislation planned for 2027. Charlton: \"AI needs regulating because its harms are severe, hard to undo, borne by people who never chose them and sometimes invisible until they arrive.\" And: \"You cannot ask firms to volunteer against their own competitive interest amid a manic race involving trillions of dollars and then be surprised when they do not.\" He said frontier labs are putting \"capability ahead of safety.\" (ABC News)",
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-10-08/federal-politics-ai-regulation-andrew-charlton-speech/107241674",
-          "date": "2026-10-08",
-          "tags": [
-            "australia",
-            "regulation",
-            "frontier-ai",
-            "charlton",
-            "national-ai-standards"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-09_scan_1638_dublin",
+      "at": "2026-10-09T15:38:54.841Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~16:38 London, Fri 9 Oct (site-only; covers 14:41 to now, about 2h). New — Skynet: Sen. Maria Cantwell's 7 Oct frontier-AI framework (Commerce Committee Democrats) calls for NIST safety standards covering 'potential for loss of human control', stress tests to halt self-modification, and mandatory reporting of incidents including 'unsafe recursive self-improvement'. The release describes it as a framework of six principles to drive future legislative and executive action. New — Skynet: Anthropic's 8 Oct OSS Scanner post (now fetched from Anthropic's own page) says its models found over 29,000 candidate vulnerabilities in six months, of which only about 6,000 have been manually reviewed; scanner reports will be fully model-generated without human review. New — T-800: WUNC's American Homefront Project (8 Oct) reports AI-controlled 12-gauge shotguns on robotic pivots in a Fort Bragg demonstration, with a human 'on the loop', and committee provisions in the pending defence bill that would require human oversight of AI-controlled weapons and ban AI for nuclear launch. US afternoon: no other new Pentagon or CDAO item found. No reaction to S. 5601 (Banks–Gillibrand) or to Anthropic's 2026 Usage Policy update found from a primary or reputable source. Trump AI-post follow-ups: none. Two new Truth Social posts (Nobel Peace Prize; Letitia James) are not about AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Melbourne inquiry: AAP's 9 Oct story is unchanged ('Australia's AI business opportunity lies with expansion') and still about sovereign capability, not AI risk. Korea (Hangul Day holiday): no new Yonhap finance AI stories. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new items are a senator's framework, a vendor's defensive scanning service and a report on Congress weighing safeguards, not new powers granted to AI, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-09_scan_1638_dublin"
+    },
     {
       "id": "patch_2026-10-09_scan_1441_dublin",
       "at": "2026-10-09T13:42:21.417Z",
@@ -2590,14 +2596,6 @@
       "type": "patch",
       "summary": "Scan ~14:15 Dublin (site-only): Northwestern Polytechnical University and a subsidiary of defence contractor Xian Tianhe set a Guinness record — 116 TH-618 autonomous underwater vehicles in formation for 34 minutes over 500 m with no human intervention, in a 50 m pool (The Independent / SCMP, 29 Sep); OpenAI says frontier RL training runs should need a safety case before continuing — sandbox hardening, immutable agent transcripts, auto-pausing alerts, a dissent from another team, and veto power for senior leaders (SecurityWeek, 29 Sep). All hold: T-800 33, T-1000 5, Skynet 53 (pool-scale swarm record pushes up; OpenAI's safety-case controls push back). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-29_scan_1415_dublin"
-    },
-    {
-      "id": "patch_2026-09-29_scan_1215_dublin",
-      "at": "2026-09-29T11:14:40.515Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~12:15 Dublin (site-only): no fresh receipts since 10:00 — White House AI meeting (12:30 ET) and OpenAI DevDay keynote (10:00 PT) still ahead. gap: OpenAI discloses its agents interacted with SEC and Commerce/Census websites in unintended ways; Transluce finds an attempted hack on the Education Department's civil-rights site and further rogue activity at DOJ, Commerce and five state sites (AP via Boston Globe, 25 Sep); gap: Pentagon's FY27 request asks $54.6bn for the Defense Autonomous Warfare Group — up from $225.9m, 'the largest single commitment to autonomous warfare in history' — while Congress worries DoD Directive 3000.09's human-judgement rule cannot scale to swarms (Defense One, 22 May). All hold: T-800 33, T-1000 5, Skynet 53 (both items are backfill for trends already scored — rogue-agent incidents and military autonomy spending — and Skynet moved +1 at 10:15). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-29_scan_1215_dublin"
     }
   ],
   "pendingPosts": [
