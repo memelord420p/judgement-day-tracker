@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-09T17:17:41.100Z",
+    "lastUpdated": "2026-10-09T19:08:31.492Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-09T18:17:00+01:00",
-    "lastScanSummary": "Scan ~18:17 London, Fri 9 Oct (site-only; covers 16:38 to now, about 1.5h). New — Skynet (reaction to Cantwell's framework): the Seattle Times reports her proposed principles leave penalties and the audit regime unresolved; Senate Minority Leader Chuck Schumer backed them and Microsoft's Brad Smith said they advance the public discussion. Cantwell suggested Congress could enact short-term guardrails in the remaining weeks: 'Congress can move fast when it wants to, and it feels like it’s under threat.' They are proposed principles, not a bill. OSS Scanner reaction: Help Net Security (9 Oct) quotes OpenSSL's Anton Arapov saying Anthropic's reports, raw model output included, 'were as good and sometimes better than what we get from people'. Per Help Net, penetration testers assessed 97 high and critical findings from an early version, and Anthropic said 85 met its disclosure criteria and one was invalid. US afternoon: no other new Pentagon, CDAO or autonomous-weapons item found. No reaction to S. 5601 (Banks–Gillibrand) or to Anthropic's Usage Policy from a primary or reputable source. Trump AI-post follow-ups: none. whitehouse.gov added a 7 Oct presidential memorandum on Lisa Cook, not AI; AI.gov unchanged; si.gov still 403; no new Truth Social posts since 9:42am EDT. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Melbourne inquiry: AAP's 9 Oct story is unchanged and still about sovereign capability. Korea (Hangul Day holiday): no new Yonhap finance AI stories. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-09T20:08:00+01:00",
+    "lastScanSummary": "Scan ~20:08 London, Fri 9 Oct (site-only; covers 18:17 to now, about 2h). New — Skynet: three fired OpenAI safety researchers (Balesni, Korbak, Wang) say they were dismissed over safety work; Korbak says he raised concerns that OpenAI was 'losing the ability to monitor what AI agents think'. OpenAI denies it, citing 'a significant breach of trust' over handling sensitive information, but says it agrees that preserving monitorability needs an industry-wide commitment (Al Jazeera; CBS News). These are the researchers' claims and OpenAI's response; neither has been independently verified. US evening: no new Pentagon or CDAO item. The National Law Review (9 Oct) notes that Section 917 of the Senate Armed Services Committee's FY27 NDAA would authorize a U.S. Robotic and Autonomous Systems Command (RASCOM); it is a Senate-only provision and may not survive the final bill. POLITICO's 9 Oct piece on Democrats' AI agenda could not be read (blocked). No new reaction to Cantwell's framework, S. 5601 or Anthropic's policy or OSS Scanner from a primary or reputable source. Trump AI-post follow-ups: none. A new Truth Social post (2:46pm EDT) is about Russian diesel supplies, not AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Korea (early Saturday KST): no new Yonhap finance or society AI, hacking or robotics stories yet. Melbourne inquiry: AAP's 9 Oct story is unchanged. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,22 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261009_aljazeera_ex_openai_safety_researchers_fired_monitor_what_agents_think",
+          "html": "<strong>Ex-OpenAI staff say they were fired for raising safety concerns</strong> (Al Jazeera, John Power, 9 Oct 2026) Safety researchers Mikita Balesni, Tomek Korbak and Jasmine Wang say they were fired last week over their safety work. Balesni: &quot;I believe we were fired for prioritizing safety over the near-term interests of OpenAI as a corporation.&quot; Korbak believes he was terminated for raising concerns that OpenAI was &quot;losing the ability to monitor what AI agents think, one of our best tools for catching when they misbehave&quot;. OpenAI said they were let go over mishandling company information and cited &quot;a significant breach of trust&quot;: &quot;We want to be very clear that these decisions were not about raising safety concerns or speaking out.&quot; Per CBS News, OpenAI also said: &quot;We agree with the letter that preserving the monitorability of frontier models requires an industry-wide commitment, including from OpenAI.&quot; (Al Jazeera)",
+          "plain": "Ex-OpenAI staff say they were fired for raising safety concerns (Al Jazeera, John Power, 9 Oct 2026) Safety researchers Mikita Balesni, Tomek Korbak and Jasmine Wang say they were fired last week over their safety work. Balesni: \"I believe we were fired for prioritizing safety over the near-term interests of OpenAI as a corporation.\" Korbak believes he was terminated for raising concerns that OpenAI was \"losing the ability to monitor what AI agents think, one of our best tools for catching when they misbehave\". OpenAI said they were let go over mishandling company information and cited \"a significant breach of trust\": \"We want to be very clear that these decisions were not about raising safety concerns or speaking out.\" Per CBS News, OpenAI also said: \"We agree with the letter that preserving the monitorability of frontier models requires an industry-wide commitment, including from OpenAI.\" (Al Jazeera)",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/9/ex-openai-staff-say-they-were-fired-for-raising-safety-concerns",
+          "date": "2026-10-09",
+          "tags": [
+            "openai",
+            "whistleblowers",
+            "safety-researchers",
+            "monitorability"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261007_seattletimes_cantwell_framework_schumer_smith_have_you_seen_something_else",
           "html": "<strong>Cantwell unveils AI safety framework as Congress stalls ahead of election</strong> (The Seattle Times, Anumita Kaur and Destiny Muller, 7 Oct 2026) Per the Seattle Times, &quot;Cantwell’s proposal leaves some fundamental questions unanswered&quot;, including penalties for noncompliance and what a third-party auditing entity would entail. Asked whether her principles are aggressive or specific enough, Cantwell said: &quot;Have you seen something else?&quot; and &quot;We’re not trying to be vague.&quot; She suggested Congress could use the remaining weeks to enact short-term guardrails: &quot;Congress can move fast when it wants to, and it feels like it’s under threat.&quot; Senate Minority Leader Chuck Schumer, backing the proposal: &quot;These principles lay the groundwork for serious and comprehensive legislative action&quot;. Microsoft&#x27;s Brad Smith: &quot;Senator Cantwell’s framework advances the public discussion the nation needs as we consider the future of AI&quot; The paper reports Trump has dismissed warnings about AI’s catastrophic risks as a &quot;hoax&quot;. (The Seattle Times)",
           "plain": "Cantwell unveils AI safety framework as Congress stalls ahead of election (The Seattle Times, Anumita Kaur and Destiny Muller, 7 Oct 2026) Per the Seattle Times, \"Cantwell’s proposal leaves some fundamental questions unanswered\", including penalties for noncompliance and what a third-party auditing entity would entail. Asked whether her principles are aggressive or specific enough, Cantwell said: \"Have you seen something else?\" and \"We’re not trying to be vague.\" She suggested Congress could use the remaining weeks to enact short-term guardrails: \"Congress can move fast when it wants to, and it feels like it’s under threat.\" Senate Minority Leader Chuck Schumer, backing the proposal: \"These principles lay the groundwork for serious and comprehensive legislative action\". Microsoft's Brad Smith: \"Senator Cantwell’s framework advances the public discussion the nation needs as we consider the future of AI\" The paper reports Trump has dismissed warnings about AI’s catastrophic risks as a \"hoax\". (The Seattle Times)",
@@ -1773,28 +1789,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_newsis_fss_ip_blocking_not_enough_ai_agent_detection",
-          "html": "<strong>금감원 &quot;AI 해킹, IP 차단만으론 한계&quot;…금융권에 탐지 강화 주문</strong> (Newsis, 8 Oct 2026, 09:19 KST, updated 09:36; English translation of the title: FSS: &#x27;Blocking IPs alone is not enough against AI hacking&#x27;… orders financial sector to strengthen detection) Per Newsis, citing documents submitted to lawmaker Park Sung-hoon, on 6 Oct the FSS sent financial firms a request headed &#x27;AI Agent 활용 의심 공격 관련 모니터링 및 대응 강화 요청&#x27;. Because attackers can switch source IPs through proxies, the FSS wrote: &quot;IP 차단만으로는 방어에 한계가 있다&quot; (AI-translated: &#x27;There are limits to defending by IP blocking alone&#x27;). It told firms to detect attacks by request and response behaviour. Warning signs it listed include repeated rapid probing with changing parameters, and re-accessing a server within seconds after reading its error messages. It also asked firms to correlate slow, distributed requests from changing IPs. (Newsis)",
-          "plain": "금감원 \"AI 해킹, IP 차단만으론 한계\"…금융권에 탐지 강화 주문 (Newsis, 8 Oct 2026, 09:19 KST, updated 09:36; English translation of the title: FSS: 'Blocking IPs alone is not enough against AI hacking'… orders financial sector to strengthen detection) Per Newsis, citing documents submitted to lawmaker Park Sung-hoon, on 6 Oct the FSS sent financial firms a request headed 'AI Agent 활용 의심 공격 관련 모니터링 및 대응 강화 요청'. Because attackers can switch source IPs through proxies, the FSS wrote: \"IP 차단만으로는 방어에 한계가 있다\" (AI-translated: 'There are limits to defending by IP blocking alone'). It told firms to detect attacks by request and response behaviour. Warning signs it listed include repeated rapid probing with changing parameters, and re-accessing a server within seconds after reading its error messages. It also asked firms to correlate slow, distributed requests from changing IPs. (Newsis)",
-          "source": "Newsis",
-          "url": "https://www.newsis.com/view/NISX20261008_0003818345",
-          "date": "2026-10-08",
-          "tags": [
-            "korea",
-            "fss",
-            "ai-agents",
-            "banks",
-            "detection"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-09_scan_2008_dublin",
+      "at": "2026-10-09T19:08:31.492Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:08 London, Fri 9 Oct (site-only; covers 18:17 to now, about 2h). New — Skynet: three fired OpenAI safety researchers (Balesni, Korbak, Wang) say they were dismissed over safety work; Korbak says he raised concerns that OpenAI was 'losing the ability to monitor what AI agents think'. OpenAI denies it, citing 'a significant breach of trust' over handling sensitive information, but says it agrees that preserving monitorability needs an industry-wide commitment (Al Jazeera; CBS News). These are the researchers' claims and OpenAI's response; neither has been independently verified. US evening: no new Pentagon or CDAO item. The National Law Review (9 Oct) notes that Section 917 of the Senate Armed Services Committee's FY27 NDAA would authorize a U.S. Robotic and Autonomous Systems Command (RASCOM); it is a Senate-only provision and may not survive the final bill. POLITICO's 9 Oct piece on Democrats' AI agenda could not be read (blocked). No new reaction to Cantwell's framework, S. 5601 or Anthropic's policy or OSS Scanner from a primary or reputable source. Trump AI-post follow-ups: none. A new Truth Social post (2:46pm EDT) is about Russian diesel supplies, not AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Korea (early Saturday KST): no new Yonhap finance or society AI, hacking or robotics stories yet. Melbourne inquiry: AAP's 9 Oct story is unchanged. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is a disputed personnel story, not a new incident or capability, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-09_scan_2008_dublin"
+    },
     {
       "id": "patch_2026-10-09_scan_1817_dublin",
       "at": "2026-10-09T17:17:41.100Z",
@@ -2586,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~18:15 Dublin (site-only): hours before his AI lunch, Trump said he will 'never stifle' AI — 'the SI — superintelligence... we can't stifle it' — named the DOJ and FBI as the check on companies that 'go down a very dark and dangerous path', and said he didn't want to do anything on AI with Xi; the White House guest list includes Zuckerberg, Musk, Amodei, Pichai, Huang, Karp, Bezos and Brockman (ABC News via Yahoo, 29 Sep). No credible readout of the White House meeting or OpenAI DevDay keynote yet — no outcomes reported. Backfill: Swedish startup Scaleout's AI flew a BAE Bofors ALMA loitering munition that detected, ranked and struck a target with all processing onboard and no comms needed; the pilot was only a failsafe (Tom's Hardware, 20 Sep). All hold: T-800 33, T-1000 5, Skynet 53 (pre-meeting rhetoric isn't an outcome; the Scaleout strike is a demo inside an autonomy trend already scored). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-29_scan_1815_dublin"
-    },
-    {
-      "id": "patch_2026-09-29_scan_1615_dublin",
-      "at": "2026-09-29T15:24:18.632Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~16:15 Dublin (site-only): China's securities regulator is raising the bar for humanoid-robot IPOs with three criteria — sustainable revenue and commercial orders, narrowing losses, and core tech such as a robot brain or hands; at least two dozen embodied-AI firms have filed in Hong Kong and sources expect a handful, or none, to make it (CNBC, 29 Sep). Gap: NSPM-11 (5 Jun) ordered an update to DoD Directive 3000.09 on weapon autonomy within 90 days, reviewed annually, and requires that no commercial entity or adversary can disable, degrade or modify without approval an AI system warfighters depend on (White House). White House AI meeting and OpenAI DevDay keynote have not happened yet — no outcomes reported. All hold: T-800 33, T-1000 5, Skynet 53 (IPO tightening is a market cool-down, not a capability change; NSPM-11 is a June gap already priced in via the NSM-25 rollback item). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-29_scan_1615_dublin"
     }
   ],
   "pendingPosts": [
