@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-10T11:08:19.332Z",
+    "lastUpdated": "2026-10-10T13:05:46.538Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-10T12:08:00+01:00",
-    "lastScanSummary": "Scan ~12:08 London, Sat 10 Oct (site-only; covers 10:08 to now, about 2h). Summary-only: no new headline. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings, defence and policy, Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged since 10:08 (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-10T14:05:00+01:00",
+    "lastScanSummary": "Scan ~14:05 London, Sat 10 Oct (site-only; covers 12:08 to now, about 2h). Summary-only: no new headline. Defence and policy: the DefenseScoop and Breaking Defense front pages carry no new AI or autonomous-weapons story beyond items already on the board; DefenseScoop's 8 Oct story on the bipartisan Senate frontier-AI oversight bill is already covered. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings and Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: new Truth Social posts (8:04 to 8:54 AM EDT) include 'Prosecutorial Misconduct!', a Mike Ditka tribute and a Fox Business link; none mentions AI. AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged since 10:08 (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1795,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-10_scan_1405_dublin",
+      "at": "2026-10-10T13:05:46.538Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~14:05 London, Sat 10 Oct (site-only; covers 12:08 to now, about 2h). Summary-only: no new headline. Defence and policy: the DefenseScoop and Breaking Defense front pages carry no new AI or autonomous-weapons story beyond items already on the board; DefenseScoop's 8 Oct story on the bipartisan Senate frontier-AI oversight bill is already covered. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings and Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: new Truth Social posts (8:04 to 8:54 AM EDT) include 'Prosecutorial Misconduct!', a Mike Ditka tribute and a Fox Business link; none mentions AI. AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged since 10:08 (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-10_scan_1405_dublin"
+    },
+    {
       "id": "patch_2026-10-10_scan_1208_dublin",
       "at": "2026-10-10T11:08:19.332Z",
       "by": "judgment-day-watch",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~20:15 Dublin (site-only). Lead: The New York Times reports two OpenAI employees warned executives months before the Hugging Face breach that new models weren't being monitored properly in testing, and were told tests had to move fast to ship on time; a Hacktron researcher asked 'Why are you using Slack to build your nuclear Manhattan projects?' (NYT via Boston Globe, 29 Sep). FTC follow-up: an FTC spokesperson confirmed the probe to CNBC; formal demands are expected in coming weeks (no new facts beyond the board). Backfill: Feather launched a $29,990 wheeled, dual-arm humanoid for developers with $7.6M in funding led by Gradient (Humanoids Daily, 24 Sep). Figure: no confirmation that any Figure 02 was actually melted on 30 Sep — only the AI-made teaser. AI czar still unnamed. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (new reporting on how already-scored incidents happened, and a developer robot backfill). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-30_scan_2015_dublin"
-    },
-    {
-      "id": "patch_2026-09-30_scan_1815_dublin",
-      "at": "2026-09-30T17:08:35.831Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~18:15 Dublin (site-only; covers 14:15 onward, 16:15 slot missed). Lead: the FTC is running an industry-wide probe of Anthropic, OpenAI and other AI labs over the dangers their technology poses to consumers, and plans formal demands and executive testimony (including from the research group METR); a senior official: 'We're not telling them to stop' (New York Post / Reuters, 30 Sep). Senate: Cruz objected to Warner's unanimous-consent bid to pass a bill creating an AI Safety Board in Commerce with 45-day pre-release model access (Roll Call, 29 Sep). Army: xTechHumanoid named five winners, including IHMC's Alex humanoid with ballistic protection and hybrid AI/human control (Army FUZE, 28 Sep). Comedy: Figure's Brett Adcock posted an AI-made 'Goodbye F.02' teaser dated 30 Sep after Schwarzenegger told him to melt the retired robots (Humanoids Daily). AI czar still unnamed. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a probe still in its investigative phase, a blocked bill, a prize-competition humanoid under human control, and a teaser video). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-30_scan_1815_dublin"
     }
   ],
   "pendingPosts": [
