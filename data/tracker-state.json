@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-10T17:08:37.656Z",
+    "lastUpdated": "2026-10-10T19:08:00.310Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-10T18:08:00+01:00",
-    "lastScanSummary": "Scan ~18:08 London, Sat 10 Oct (site-only; covers 16:11 to now, about 2h). Summary-only: no new headline. Defence and policy: Defense One's RSS feed still has no item newer than 9 Oct ('The Pentagon awarded $350M to a firm tied to a senior DOD official'); the DefenseScoop and Breaking Defense front pages carry no new story since the last scan. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings and Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-10T20:07:00+01:00",
+    "lastScanSummary": "Scan ~20:07 London, Sat 10 Oct (site-only; covers 18:08 to now, about 2h). Summary-only: no new headline. Defence and policy: Defense One's RSS feed still has no item newer than 9 Oct ('The Pentagon awarded $350M to a firm tied to a senior DOD official'); the DefenseScoop and Breaking Defense front pages carry no new story since the last scan. Reuters' AI page could not be read. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings and Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: three new Truth Social posts (archive times October 10, 2026, 2:35 PM to 2:59 PM) are about Doug Schoen, landing in Tennessee, and the 'Dumocrats'; none mentions AI. AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1795,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-10_scan_2007_dublin",
+      "at": "2026-10-10T19:08:00.310Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:07 London, Sat 10 Oct (site-only; covers 18:08 to now, about 2h). Summary-only: no new headline. Defence and policy: Defense One's RSS feed still has no item newer than 9 Oct ('The Pentagon awarded $350M to a firm tied to a senior DOD official'); the DefenseScoop and Breaking Defense front pages carry no new story since the last scan. Reuters' AI page could not be read. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings and Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: three new Truth Social posts (archive times October 10, 2026, 2:35 PM to 2:59 PM) are about Doug Schoen, landing in Tennessee, and the 'Dumocrats'; none mentions AI. AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-10_scan_2007_dublin"
+    },
+    {
       "id": "patch_2026-10-10_scan_1808_dublin",
       "at": "2026-10-10T17:08:37.656Z",
       "by": "judgment-day-watch",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~02:15 Dublin (site-only). New: OpenAI says it identified and disrupted a coordinated campaign to extract protected reasoning from its models, attributing a core cluster to individuals associated with China's Moonshot AI (developer of Kimi); activity surged to 16,000 requests from more than 4,000 users over two days, and OpenAI says the operators did not breach its encryption, databases or stored conversations (CNBC, 30 Sep ET). AI czar still unnamed (Trump's 3–4 day window is still open). FTC and Gemini 4 Argon: no new developments beyond the board. Australia's Senate inquiry hearing in Canberra on 1 Oct has asked Altman and Amodei to appear, but their attendance is unconfirmed; watching for the hearing record. Korea items (T-Robotics, ETRI NAMI) are already on the board; the Seoul AI Robot Show (6–8 Oct) is upcoming. T-1000: the VT MADE liquid-metal self-healing circuits are already on the board; nothing new. All hold: T-800 33, T-1000 5, Skynet 53 (a security and IP incident that was already disrupted, no capability jump). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-01_scan_0215_dublin"
-    },
-    {
-      "id": "patch_2026-10-01_scan_0015_dublin",
-      "at": "2026-09-30T23:14:05.377Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~00:15 Dublin (site-only). New: South Korea plans to buy and deploy over 1,700 AI robots next year for high-risk areas such as fire and rescue and for labor-short industries, aiming for 200,000 robots by 2030 through public-private partnerships (Aju Press, 30 Sep). Gemini 4 Argon follow-ups (Google blog, The Verge, Techzine): access is still limited to trusted cyber defenders via the Fairwind Program while Google takes part in the US government's voluntary pre-release review; no new facts that change the board. FTC probe: no new developments beyond the board. AI czar still unnamed (Trump's 3–4 day window is still open). China's National Day robot shows (1–7 Oct) are entertainment rather than new capability. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a procurement plan and follow-ups, no capability jump). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-01_scan_0015_dublin"
     }
   ],
   "pendingPosts": [
