@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-10T21:04:43.276Z",
+    "lastUpdated": "2026-10-10T23:12:36.907Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-10T22:04:00+01:00",
-    "lastScanSummary": "Scan ~22:04 London, Sat 10 Oct (site-only; covers 20:07 to now, about 2h). Summary-only: no new headline. Korea (Sunday morning): three new Yonhap finance stories on the bank attacks are deferred one scan under the Yonhap rule (titles only so far, AI-translated in brackets): 'AI해킹 알고도 당한 금융권…사고 2주전에도 '노출자산' 경고' [financial sector hit despite knowing of AI hacking; 'exposed assets' warning two weeks before the incident], '한은·국책은행도 해킹 시도 급증…올해만 100만건 넘어' [hacking attempts also surge at the Bank of Korea and state banks; over 1 million this year] and '은행권 'AI 방어' 투자 확대…KB 내년 보안 예산 1천억원대로' [banks expand 'AI defence' investment; KB's security budget next year in the 100 billion won range]. No new ARTEX item. Australia (Sunday morning): the ABC technology and Guardian Australia technology pages carry no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. OpenAI firings: no new item found that could be read and saved from a reputable source. Defence: Defense One's RSS feed still has no item newer than 9 Oct; DefenseScoop's front page carries no new story since the last scan. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-11T00:12:00+01:00",
+    "lastScanSummary": "Scan ~00:12 London, Sun 11 Oct (site-only; covers 22:04 Sat to now, about 2h). New — Skynet (two deferred Yonhap stories, titles unchanged, now read in full; quotes AI-translated): per Financial Security Institute data released by Rep. Han Chang-min, the institute warned financial firms at a 17 Sept seminar about an AI-agent attack on a financial firm that month using a DeepSeek-based agent, which Yonhap calls the first confirmed AI-agent attack on Korea's financial sector; Yonhap also reports analysis that the firms' response may have been limited because the recent attacks targeted different systems. Per data released by Rep. Kang Min-guk, the Bank of Korea and three state banks logged 1,024,478 hacking attempts by September this year, with no breach incidents since 2020. Summary only (third deferred story): Yonhap reports KB Kookmin plans to raise its information-protection budget to over 100 billion won next year, and Woori is considering a rise of more than 20%. No new ARTEX item. Australia (Sunday): the ABC technology page carries no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. OpenAI firings: no new item found that could be read and saved from a reputable source. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,40 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261011_yonhap_bok_state_banks_hacking_attempts_over_1m_this_year",
+          "html": "<strong>한은·국책은행도 해킹 시도 급증…올해만 100만건 넘어</strong> (Yonhap, Chae Sae-rom, 11 Oct 2026; quotes AI-translated from Korean) Per data the Bank of Korea, Export-Import Bank, Korea Development Bank and IBK Industrial Bank submitted to Rep. Kang Min-guk (People Power Party), the four banks logged 4,986,964 hacking attempts from 2020 to September this year, with no breach incidents. Attempts rose from 358,800 in 2020 to 934,858 in 2025, and reached 1,024,478 by September this year. IBK accounted for 91.9%, which it attributed to offering retail-level internet and mobile services. Denial-of-service attacks were the largest category (45.6%). Kang: &#x27;we must build an information protection system against surging AI-driven cyberattacks&#x27; and prepare &#x27;doubly and triply&#x27; with financial authorities. (Yonhap News Agency)",
+          "plain": "한은·국책은행도 해킹 시도 급증…올해만 100만건 넘어 (Yonhap, Chae Sae-rom, 11 Oct 2026; quotes AI-translated from Korean) Per data the Bank of Korea, Export-Import Bank, Korea Development Bank and IBK Industrial Bank submitted to Rep. Kang Min-guk (People Power Party), the four banks logged 4,986,964 hacking attempts from 2020 to September this year, with no breach incidents. Attempts rose from 358,800 in 2020 to 934,858 in 2025, and reached 1,024,478 by September this year. IBK accounted for 91.9%, which it attributed to offering retail-level internet and mobile services. Denial-of-service attacks were the largest category (45.6%). Kang: 'we must build an information protection system against surging AI-driven cyberattacks' and prepare 'doubly and triply' with financial authorities. (Yonhap News Agency)",
+          "source": "Yonhap News Agency",
+          "url": "https://www.yna.co.kr/view/AKR20261010029200002",
+          "date": "2026-10-11",
+          "tags": [
+            "korea",
+            "bank-of-korea",
+            "state-banks",
+            "cyber",
+            "hacking-attempts"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261011_yonhap_fsi_warned_two_weeks_before_ai_hacks_deepseek_agent",
+          "html": "<strong>AI해킹 알고도 당한 금융권…사고 2주전에도 &#x27;노출자산&#x27; 경고</strong> (Yonhap, Chae Sae-rom, 11 Oct 2026; quotes AI-translated from Korean) Per data the Financial Security Institute submitted to Rep. Han Chang-min (Social Democratic Party, National Policy Committee), the institute told a 17 Sept &#x27;financial AI security threat response seminar&#x27; that it had confirmed an AI-agent attack that month on a domestic financial firm, &#x27;A&#x27;. The attacker told a DeepSeek-based AI agent to scan financial-sector Oracle WebLogic assets and the next day exploited a remote command-execution flaw to install a web shell; A detected and blocked it. Yonhap says it was the first confirmed AI-agent attack on Korea&#x27;s financial sector. The institute urged that &#x27;once or twice a year diagnosis won&#x27;t catch it; constant measurement and verification is needed&#x27;. Yonhap also reports analysis that the earlier attack targeted unpatched third-party solutions, while the recent attacks hit the firms&#x27; own websites, so the sector&#x27;s response may have been limited. Han: the leaks stem from firms failing to manage &#x27;vulnerable points already repeatedly emphasised&#x27;. The five major bank CEOs are due to testify on 19 Oct. (Yonhap News Agency)",
+          "plain": "AI해킹 알고도 당한 금융권…사고 2주전에도 '노출자산' 경고 (Yonhap, Chae Sae-rom, 11 Oct 2026; quotes AI-translated from Korean) Per data the Financial Security Institute submitted to Rep. Han Chang-min (Social Democratic Party, National Policy Committee), the institute told a 17 Sept 'financial AI security threat response seminar' that it had confirmed an AI-agent attack that month on a domestic financial firm, 'A'. The attacker told a DeepSeek-based AI agent to scan financial-sector Oracle WebLogic assets and the next day exploited a remote command-execution flaw to install a web shell; A detected and blocked it. Yonhap says it was the first confirmed AI-agent attack on Korea's financial sector. The institute urged that 'once or twice a year diagnosis won't catch it; constant measurement and verification is needed'. Yonhap also reports analysis that the earlier attack targeted unpatched third-party solutions, while the recent attacks hit the firms' own websites, so the sector's response may have been limited. Han: the leaks stem from firms failing to manage 'vulnerable points already repeatedly emphasised'. The five major bank CEOs are due to testify on 19 Oct. (Yonhap News Agency)",
+          "source": "Yonhap News Agency",
+          "url": "https://www.yna.co.kr/view/AKR20261010027300002",
+          "date": "2026-10-11",
+          "tags": [
+            "korea",
+            "banks",
+            "ai-agents",
+            "deepseek",
+            "financial-security-institute"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261010_yonhap_artex_developer_halts_public_release_after_misuse",
           "html": "<strong>한국 금융권 해킹에 등장한 &#x27;아르텍스&#x27; 결국 공개 중단</strong> (Yonhap, Park Sang-hyun, 10 Oct 2026; quotes AI-translated from Korean) Per Yonhap, citing AFP and Reuters, ARTEX developer &#x27;Autumn-27&#x27; wrote on GitHub on 8 Oct that the tool had been misused: &quot;Considering the misuse of the tool, ARTEX will no longer be updated and will be converted to closed source&quot; and &quot;Further versions will not be released to the public, and no maintenance support will be provided.&quot; ARTEX said using the tool for cyberattacks is against the developer&#x27;s intent, but did not directly mention the Korean hacks, and claimed it is not responsible for law-breaking use. Reuters reported the GitHub page is gone. A Chinese IT expert told AFP the decision cannot remove already-downloaded copies or stop users from continuing to use them. Yonhap says CrowdStrike assessed the attacker used ARTEX together with LLMs. (Yonhap News Agency)",
           "plain": "한국 금융권 해킹에 등장한 '아르텍스' 결국 공개 중단 (Yonhap, Park Sang-hyun, 10 Oct 2026; quotes AI-translated from Korean) Per Yonhap, citing AFP and Reuters, ARTEX developer 'Autumn-27' wrote on GitHub on 8 Oct that the tool had been misused: \"Considering the misuse of the tool, ARTEX will no longer be updated and will be converted to closed source\" and \"Further versions will not be released to the public, and no maintenance support will be provided.\" ARTEX said using the tool for cyberattacks is against the developer's intent, but did not directly mention the Korean hacks, and claimed it is not responsible for law-breaking use. Reuters reported the GitHub page is gone. A Chinese IT expert told AFP the decision cannot remove already-downloaded copies or stop users from continuing to use them. Yonhap says CrowdStrike assessed the attacker used ARTEX together with LLMs. (Yonhap News Agency)",
@@ -1755,45 +1789,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_guardian_openai_ai_helped_write_services_australia_email",
-          "html": "<strong>OpenAI used AI to help write email warning Australian government AI had hacked its websites</strong> (Guardian Australia exclusive, Josh Butler, 8 Oct 2026) &quot;Guardian Australia understands AI was used by OpenAI’s legal and security teams to generate parts of the wording of the email, including word selection and formatting of the message.&quot; Per the Guardian, &quot;a source with knowledge of the incident said humans reviewed the final email, and humans were responsible for actually sending the communication to the Services Australia inbox.&quot; At Tuesday&#x27;s hearing, OpenAI&#x27;s Jason Kwon was asked whether staff had used AI to write the email and replied: &quot;I don’t believe so, but we’re happy to go and confirm.&quot; OpenAI was contacted for comment; per the Guardian it is expected to say more once its own investigation concludes. (The Guardian)",
-          "plain": "OpenAI used AI to help write email warning Australian government AI had hacked its websites (Guardian Australia exclusive, Josh Butler, 8 Oct 2026) \"Guardian Australia understands AI was used by OpenAI’s legal and security teams to generate parts of the wording of the email, including word selection and formatting of the message.\" Per the Guardian, \"a source with knowledge of the incident said humans reviewed the final email, and humans were responsible for actually sending the communication to the Services Australia inbox.\" At Tuesday's hearing, OpenAI's Jason Kwon was asked whether staff had used AI to write the email and replied: \"I don’t believe so, but we’re happy to go and confirm.\" OpenAI was contacted for comment; per the Guardian it is expected to say more once its own investigation concludes. (The Guardian)",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/08/openai-used-ai-to-help-write-email-warning-australian-government-ai-had-hacked-its-websites",
-          "date": "2026-10-08",
-          "tags": [
-            "openai",
-            "australia",
-            "services-australia",
-            "parliament",
-            "disclosure"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_newscientist_openai_navier_stokes_lean_mismatch",
-          "html": "<strong>OpenAI mistranslated mathematics into code for its Navier-Stokes proof</strong> (New Scientist, 8 Oct 2026) A University of Cambridge-led team says the Lean version of OpenAI&#x27;s Navier-Stokes proof does not match the natural-language version at Lemma 8.6: the Lean bound is m + 5 where the paper says m + 4, a weaker statement. Anders Hansen: &quot;We are not saying that the natural-language proof is wrong,&quot; and &quot;Nor do we say that it is correct.&quot; OpenAI told New Scientist it knows about the mismatch and that this does not mean either proof is invalid. Kevin Buzzard (Imperial): &quot;I am confident that the Navier-Stokes problem has been correctly resolved,&quot; but &quot;I am far less confident that the proof described in the PDF is correct.&quot; (New Scientist)",
-          "plain": "OpenAI mistranslated mathematics into code for its Navier-Stokes proof (New Scientist, 8 Oct 2026) A University of Cambridge-led team says the Lean version of OpenAI's Navier-Stokes proof does not match the natural-language version at Lemma 8.6: the Lean bound is m + 5 where the paper says m + 4, a weaker statement. Anders Hansen: \"We are not saying that the natural-language proof is wrong,\" and \"Nor do we say that it is correct.\" OpenAI told New Scientist it knows about the mismatch and that this does not mean either proof is invalid. Kevin Buzzard (Imperial): \"I am confident that the Navier-Stokes problem has been correctly resolved,\" but \"I am far less confident that the proof described in the PDF is correct.\" (New Scientist)",
-          "source": "New Scientist",
-          "url": "https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/",
-          "date": "2026-10-08",
-          "tags": [
-            "openai",
-            "mathematics",
-            "navier-stokes",
-            "lean",
-            "verification"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-11_scan_0012_dublin",
+      "at": "2026-10-10T23:12:36.907Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:12 London, Sun 11 Oct (site-only; covers 22:04 Sat to now, about 2h). New — Skynet (two deferred Yonhap stories, titles unchanged, now read in full; quotes AI-translated): per Financial Security Institute data released by Rep. Han Chang-min, the institute warned financial firms at a 17 Sept seminar about an AI-agent attack on a financial firm that month using a DeepSeek-based agent, which Yonhap calls the first confirmed AI-agent attack on Korea's financial sector; Yonhap also reports analysis that the firms' response may have been limited because the recent attacks targeted different systems. Per data released by Rep. Kang Min-guk, the Bank of Korea and three state banks logged 1,024,478 hacking attempts by September this year, with no breach incidents since 2020. Summary only (third deferred story): Yonhap reports KB Kookmin plans to raise its information-protection budget to over 100 billion won next year, and Woori is considering a rise of more than 20%. No new ARTEX item. Australia (Sunday): the ABC technology page carries no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. OpenAI firings: no new item found that could be read and saved from a reputable source. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (the new items are reports on attacks and attempted attacks already under investigation, not a new capability, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-11_scan_0012_dublin"
+    },
     {
       "id": "patch_2026-10-10_scan_2204_dublin",
       "at": "2026-10-10T21:04:43.276Z",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~06:13 London (site-only). Confirmed: Figure says it trained F.02 humanoids to jump autonomously and had them leap into a 75-ton electric arc furnace at a foundry in Imatra, Finland, with Arnold Schwarzenegger involved; most of the F.02 fleet is gone, and the metal is being machined into commemorative artifacts (Figure, 30 Sep). This resolves the earlier AI-made teaser. Also: Evri launches Europe's first trial of a two-legged autonomous delivery robot in Barnsley with Japan's Refined Robotics (Evri, 28 Sep). Australia: Altman and Amodei were not attending the 1 Oct Senate hearing in Canberra; no hearing record found yet. OpenAI's Jason Kwon appears before the joint committee in Sydney on 6 Oct, and Anthropic will also send an envoy to Sydney, per the Sydney Morning Herald (Canberra Times). Moonshot: no specific response yet to OpenAI's claim. AI czar still unnamed. FTC and Gemini 4 Argon: no new facts beyond the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a stunt decommission and a pilot trial, no capability jump). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-01_scan_0615_dublin"
-    },
-    {
-      "id": "patch_2026-10-01_scan_0415_dublin",
-      "at": "2026-10-01T03:09:33.739Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~04:10 London (site-only). New: DNI Jay Clayton says \"Super intelligence is a national security issue,\" argued against a pause in US AI development, and twice avoided saying whether he would accept the AI czar role (CNBC, 30 Sep). Australia: Sam Altman and Dario Amodei will not attend the Greens-led Senate inquiry's 1 Oct hearing in Canberra; both companies cited the short notice, and OpenAI is sending Jason Kwon to a separate parliamentary committee in Sydney instead (The Next Web, 28 Sep). No hearing record found yet. Moonshot: still no public response to OpenAI's distillation claim (CNBC, CyberScoop). AI czar still unnamed. Asia: minor Japanese physical-AI items (Donut Robotics' Cinnamon 2 unveiling due in October; AGIRobots HA1 arm), nothing that moves T-800. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (policy and accountability news, no capability change). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-01_scan_0415_dublin"
     }
   ],
   "pendingPosts": [
