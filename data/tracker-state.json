@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-10T03:07:55.088Z",
+    "lastUpdated": "2026-10-10T05:06:08.562Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-10T04:07:00+01:00",
-    "lastScanSummary": "Scan ~04:07 London, Sat 10 Oct (site-only; covers 02:08 to now, about 2h). Summary-only: no new headline. Korea (Saturday midday KST): Yonhap has a fresh story headlined '한국 금융권 해킹에 등장한 '아르텍스' 결국 공개 중단' (title only, AI-translated: the ARTEX tool that appeared in the Korean financial-sector hacks has halted public release). Not yet a (종합) version, so it is deferred one scan under the Yonhap rule. A Reuters roundup (10 Oct, via GMA News) says nine South Korean banks and two mega-churches are probing attacks that may have involved AI tools, and that authorities are still investigating whether and how AI was used; it adds little beyond what is already covered. No new FSC, FSS, police or 19 Oct bank-CEO hearing item. Australia (Saturday): no new AI inquiry, Charlton, Services Australia or OpenAI-hack item; AAP's 9 Oct Melbourne story is unchanged. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: no new Truth Social posts since the last scan; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-10T06:06:00+01:00",
+    "lastScanSummary": "Scan ~06:06 London, Sat 10 Oct (site-only; covers 04:07 to now, about 2h). New — Skynet (deferred Yonhap story, title unchanged, now read in full): per Yonhap, citing AFP and Reuters, the developer of ARTEX ('Autumn-27'), the Chinese AI penetration-testing tool CrowdStrike says was used in the Korean bank attacks, wrote on GitHub on 8 Oct that because of misuse ARTEX will no longer be updated and will go closed-source (AI-translated). The developer did not directly mention the Korean hacks and disclaimed responsibility for unlawful use; a Chinese IT expert told AFP already-downloaded copies cannot be pulled back. Korea investigations: no new official statement on the bank or church attacks; Reuters' 10 Oct roundup says authorities are still investigating whether and how AI was used. No new FSC, FSS, police or 19 Oct bank-CEO hearing item. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. Australia: nothing new. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: one new Truth Social post (about the Nobel Peace Prize winner), not AI; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261010_yonhap_artex_developer_halts_public_release_after_misuse",
+          "html": "<strong>한국 금융권 해킹에 등장한 &#x27;아르텍스&#x27; 결국 공개 중단</strong> (Yonhap, Park Sang-hyun, 10 Oct 2026; quotes AI-translated from Korean) Per Yonhap, citing AFP and Reuters, ARTEX developer &#x27;Autumn-27&#x27; wrote on GitHub on 8 Oct that the tool had been misused: &quot;Considering the misuse of the tool, ARTEX will no longer be updated and will be converted to closed source&quot; and &quot;Further versions will not be released to the public, and no maintenance support will be provided.&quot; ARTEX said using the tool for cyberattacks is against the developer&#x27;s intent, but did not directly mention the Korean hacks, and claimed it is not responsible for law-breaking use. Reuters reported the GitHub page is gone. A Chinese IT expert told AFP the decision cannot remove already-downloaded copies or stop users from continuing to use them. Yonhap says CrowdStrike assessed the attacker used ARTEX together with LLMs. (Yonhap News Agency)",
+          "plain": "한국 금융권 해킹에 등장한 '아르텍스' 결국 공개 중단 (Yonhap, Park Sang-hyun, 10 Oct 2026; quotes AI-translated from Korean) Per Yonhap, citing AFP and Reuters, ARTEX developer 'Autumn-27' wrote on GitHub on 8 Oct that the tool had been misused: \"Considering the misuse of the tool, ARTEX will no longer be updated and will be converted to closed source\" and \"Further versions will not be released to the public, and no maintenance support will be provided.\" ARTEX said using the tool for cyberattacks is against the developer's intent, but did not directly mention the Korean hacks, and claimed it is not responsible for law-breaking use. Reuters reported the GitHub page is gone. A Chinese IT expert told AFP the decision cannot remove already-downloaded copies or stop users from continuing to use them. Yonhap says CrowdStrike assessed the attacker used ARTEX together with LLMs. (Yonhap News Agency)",
+          "source": "Yonhap News Agency",
+          "url": "https://www.yna.co.kr/view/AKR20261010022500017",
+          "date": "2026-10-10",
+          "tags": [
+            "korea",
+            "artex",
+            "cyber",
+            "open-source",
+            "ai-agents"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261008_techcrunch_fired_openai_researchers_dispute_misconduct_wang_email_less_monitorable_leak",
           "html": "<strong>Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect</strong> (TechCrunch, Rebecca Bellan, 8 Oct 2026, updated) Per TechCrunch, the three researchers denied involvement in a leak to The Information &quot;about less monitorable architectures in OpenAI’s newest models that make chain-of-thought reasoning more difficult to monitor.&quot; Jasmine Wang says OpenAI told her she was fired because she accessed an executive’s email: &quot;OpenAI delegated that access to me for recruiting,&quot; and &quot;When I opened a sensitive email by mistake, I told the executive within minutes and asked IT again. None of this was hidden.&quot; An OpenAI spokesperson said the three were fired after an investigation revealed a &quot;pattern of misconduct&quot; that goes beyond sharing information with an outside AI evaluation group; an internal memo says: &quot;We do not terminate employees for raising concerns.&quot; Wang: &quot;You can’t build AGI safely if the people closest to the risks are afraid to speak.&quot; (TechCrunch)",
           "plain": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect (TechCrunch, Rebecca Bellan, 8 Oct 2026, updated) Per TechCrunch, the three researchers denied involvement in a leak to The Information \"about less monitorable architectures in OpenAI’s newest models that make chain-of-thought reasoning more difficult to monitor.\" Jasmine Wang says OpenAI told her she was fired because she accessed an executive’s email: \"OpenAI delegated that access to me for recruiting,\" and \"When I opened a sensitive email by mistake, I told the executive within minutes and asked IT again. None of this was hidden.\" An OpenAI spokesperson said the three were fired after an investigation revealed a \"pattern of misconduct\" that goes beyond sharing information with an outside AI evaluation group; an internal memo says: \"We do not terminate employees for raising concerns.\" Wang: \"You can’t build AGI safely if the people closest to the risks are afraid to speak.\" (TechCrunch)",
@@ -1772,28 +1789,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_yonhap_crowdstrike_meyers_briefing_not_skilled_hacker_ai_scaled",
-          "html": "<strong>&quot;해킹 고수도 아니었다&quot;…한국 금융권 공격 키운 AI</strong> (Yonhap, 8 Oct 2026, 17:37 KST) A follow-up to CrowdStrike&#x27;s ARTEX report: in a video briefing, CrowdStrike&#x27;s Adam Meyers said the attacker behind the Korean finance hacks was not highly skilled. &quot;공격자가 AI 없이 혼자서 이 정도 규모의 공격을 해냈을 것이라고 보지는 않는다&quot; [AI translation: &quot;I don&#x27;t think the attacker could have carried out an attack of this scale alone without AI.&quot;] He called it &quot;이는 사람 공격자가 에이전트를 활용해 광범위한 공격을 벌인 것으로 공개된 초기 사례 중 하나&quot; [AI translation: &quot;one of the early publicly disclosed cases of a human attacker using agents to carry out wide-ranging attacks&quot;]. Per Yonhap, CrowdStrike says AI-generated events (detection signals, not attacks) outnumbered human-generated ones 2.5 to 1 over six months, and it classes 6 to 7 of the roughly 300 groups it tracks as &#x27;agentic&#x27;. Meyers also said &quot;AI 공격이라고 해서 실제로 새로운 것은 없다&quot; [AI translation: &quot;there is actually nothing new about AI attacks&quot;], arguing EDR can still track them. Asked about the AI model&#x27;s guardrails: &quot;가드레일이 실제로 작동하지 않았을 수 있다&quot; [AI translation: &quot;the guardrails may in fact not have worked&quot;], though he said it depends on the model used. He said there is no sign yet that the stolen data has been sold. (Yonhap)",
-          "plain": "\"해킹 고수도 아니었다\"…한국 금융권 공격 키운 AI (Yonhap, 8 Oct 2026, 17:37 KST) A follow-up to CrowdStrike's ARTEX report: in a video briefing, CrowdStrike's Adam Meyers said the attacker behind the Korean finance hacks was not highly skilled. \"공격자가 AI 없이 혼자서 이 정도 규모의 공격을 해냈을 것이라고 보지는 않는다\" [AI translation: \"I don't think the attacker could have carried out an attack of this scale alone without AI.\"] He called it \"이는 사람 공격자가 에이전트를 활용해 광범위한 공격을 벌인 것으로 공개된 초기 사례 중 하나\" [AI translation: \"one of the early publicly disclosed cases of a human attacker using agents to carry out wide-ranging attacks\"]. Per Yonhap, CrowdStrike says AI-generated events (detection signals, not attacks) outnumbered human-generated ones 2.5 to 1 over six months, and it classes 6 to 7 of the roughly 300 groups it tracks as 'agentic'. Meyers also said \"AI 공격이라고 해서 실제로 새로운 것은 없다\" [AI translation: \"there is actually nothing new about AI attacks\"], arguing EDR can still track them. Asked about the AI model's guardrails: \"가드레일이 실제로 작동하지 않았을 수 있다\" [AI translation: \"the guardrails may in fact not have worked\"], though he said it depends on the model used. He said there is no sign yet that the stolen data has been sold. (Yonhap)",
-          "source": "Yonhap",
-          "url": "https://www.yna.co.kr/view/AKR20261008181900017",
-          "date": "2026-10-08",
-          "tags": [
-            "south-korea",
-            "crowdstrike",
-            "ai-agents",
-            "banking",
-            "cyberattack"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-10_scan_0606_dublin",
+      "at": "2026-10-10T05:06:08.562Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:06 London, Sat 10 Oct (site-only; covers 04:07 to now, about 2h). New — Skynet (deferred Yonhap story, title unchanged, now read in full): per Yonhap, citing AFP and Reuters, the developer of ARTEX ('Autumn-27'), the Chinese AI penetration-testing tool CrowdStrike says was used in the Korean bank attacks, wrote on GitHub on 8 Oct that because of misuse ARTEX will no longer be updated and will go closed-source (AI-translated). The developer did not directly mention the Korean hacks and disclaimed responsibility for unlawful use; a Chinese IT expert told AFP already-downloaded copies cannot be pulled back. Korea investigations: no new official statement on the bank or church attacks; Reuters' 10 Oct roundup says authorities are still investigating whether and how AI was used. No new FSC, FSS, police or 19 Oct bank-CEO hearing item. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. Australia: nothing new. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: one new Truth Social post (about the Nobel Peace Prize winner), not AI; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is a developer withdrawing an open-source tool, not a new capability or incident, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-10_scan_0606_dublin"
+    },
     {
       "id": "patch_2026-10-10_scan_0407_dublin",
       "at": "2026-10-10T03:07:55.088Z",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~06:15 Dublin (site-only). AI czar still not named, but Trump told Axios that DNI Jay Clayton would be a good pick: Clayton is 'a good man. He's right here. That's a good idea' (Axios, 29 Sep). Trump also said he is thinking about a 10-person committee to oversee the AI sector (Reuters via Nikkei Asia, 29 Sep). Military AI: Ukraine's Defense AI Center A1 is testing SPECTR, called an 'operating system for warfighting', with several combat units (The Defense Post, 29 Sep); Pentagon's Maven Smart System users have doubled from about 50,000 in January to over 100,000 (DefenseScoop, 22 Sep; backfill). Robots: DYNA Robotics says its DYNA 2.1 semi-humanoid can run entire workflows like a commercial laundry shift without human intervention (company release, 29 Sep). All hold: T-800 33, T-1000 5, Skynet 53 (a czar shortlist remark, a floated committee, military planning tools already in use and a vendor-claimed robot launch don't move the needle). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-30_scan_0615_dublin"
-    },
-    {
-      "id": "patch_2026-09-30_scan_0415_dublin",
-      "at": "2026-09-30T03:06:18.753Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~04:15 Dublin (site-only): quiet Asia morning. Backfill: Japan plans to study AI-equipped humanoid robots for the Self-Defense Forces — base patrols and logistics first, maybe reconnaissance and rescue later — with ATLA to run a competition for company and university robots; an LDP security official: 'We do not expect humanoid robots equipped with weapons will be used for fighting' (Kyodo via Japan Today, 22–23 Sep). Korea: Neubility unveiled 'Billy', a semi-humanoid on four wheels with five-fingered hands, heading to a CJ CheilJedang food plant this year; it aims for several hundred units at work sites within one to two years (Seoul Economic Daily, 29 Sep). AI czar still unnamed (Trump: 'next three to four days' as of 29 Sep). All hold: T-800 33, T-1000 5, Skynet 53 (a military humanoid study and a single-unit factory pilot are early-stage). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-30_scan_0415_dublin"
     }
   ],
   "pendingPosts": [
