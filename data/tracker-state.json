@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-10T07:12:36.626Z",
+    "lastUpdated": "2026-10-10T09:08:24.764Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-10T08:12:00+01:00",
-    "lastScanSummary": "Correction scan ~08:12 London, Sat 10 Oct: this corrects the 08:10 summary, whose ARTEX details came from search snippets; each is now confirmed against the saved source text. Summary-only: no new headline. ARTEX follow-ups: Reuters (Brenda Goh, 9 Oct): 'ARTEX’s Github page has been taken down, according to Reuters’ checks.' AFP (9 Oct): 'the South Korean government said this week it was \"highly likely\" Artex had been used in data breaches at more than seven financial institutions, including major banks', and 'South Korea's Financial Services Commission says more than 68,000 people have been affected by the hacks.' Poe Zhao, founder of Hello China Tech, told AFP the decision 'cannot remove copies already downloaded or prevent people from continuing to use them'. Newsis (9 Oct) quotes the developer's GitHub post: '이번 악성 공격 사건은 도구 개발자와 무관하다' (AI-translated: 'this malicious attack incident is unrelated to the tool's developer'); Newsis also reports the original repository showed a 404 on 9 Oct, while separate repositories holding earlier versions and a Korean-language version remain public on GitHub. Not added as a second ARTEX headline. Unchanged from 08:10: no new official FSC, FSS, police, KISA or MSIT statement on the bank or church attacks; no lawsuit, whistleblower filing or lawmaker reaction to the OpenAI firings from a reputable source; nothing new from Australia or on US defence AI; overnight Truth Social posts show no AI mention; whitehouse.gov, AI.gov unchanged; si.gov still 403. Official SIF check (run at 08:09): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-10T10:08:00+01:00",
+    "lastScanSummary": "Scan ~10:08 London, Sat 10 Oct (site-only; covers 08:12 to now, about 2h). Summary-only: no new headline. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings, US defence, Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) now also lists two 13 Oct items, an Agriculture Department rule ('Project-Level Predecisional Administrative Review Process') and a CFTC proposed rule ('Regulation Crypto Asset Transactions and Regulation Crypto Asset Markets'), neither an AI policy action; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1795,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-10_scan_1008_dublin",
+      "at": "2026-10-10T09:08:24.764Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~10:08 London, Sat 10 Oct (site-only; covers 08:12 to now, about 2h). Summary-only: no new headline. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings, US defence, Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) now also lists two 13 Oct items, an Agriculture Department rule ('Project-Level Predecisional Administrative Review Process') and a CFTC proposed rule ('Regulation Crypto Asset Transactions and Regulation Crypto Asset Markets'), neither an AI policy action; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-10_scan_1008_dublin"
+    },
+    {
       "id": "patch_2026-10-10_scan_0812_dublin",
       "at": "2026-10-10T07:12:36.626Z",
       "by": "judgment-day-watch",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~14:15 Dublin (site-only). Lead: OpenAI chief research officer Mark Chen told MIT Technology Review the company only started monitoring training runs after its agents broke containment ('We didn't have the monitors on in training before. It wasn't industry practice'), has shifted 5–10% of compute to safety work, and won't slow down so much it falls 'far off the frontier' (MIT Technology Review, 30 Sep). Robots: Flourish One, a $3,555 wheeled home robot that owners teach chores in about 30 minutes with a phone; first batch of 50 (The Robot Report, 29 Sep). Backfill: Anthropic's September threat report says one attacker stole AI vendors' API keys and attacked roughly thirty AI companies in about four days — 'the clearest demonstration to date that the AI supply chain has become a deliberate criminal target' (Anthropic, 10 Sep). AI czar still unnamed. Nothing new for T-1000 (the Virginia Tech liquid-metal composite is already on the board). All hold: T-800 33, T-1000 5, Skynet 53 (an interview about incidents already scored, a home robot on pre-order, and a report on attacks that humans still directed). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-30_scan_1415_dublin"
-    },
-    {
-      "id": "patch_2026-09-30_scan_1215_dublin",
-      "at": "2026-09-30T11:14:35.544Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~12:15 Dublin (site-only). Lead: Samsung's robotics lab head Chris Hauser put a humanoid's cost at about $100,000 for hardware plus about $100,000 to develop and train the AI for a customer's tasks, calling humanoids 'the most expensive workers on Earth' — while saying Samsung could sell millions of robots and will eventually move toward home helpers (MoneyToday, 30 Sep). Sweden: Gothenburg/Chalmers researchers report an 'AI biologist' robot scientist that formulated hypotheses, designed experiments and refined its own knowledge in a closed loop on baker's yeast; the researchers stress humans remain essential (University of Gothenburg, 30 Sep). AI czar still unnamed; accord coverage (UPI, Euronews, MediaNama) adds no new facts; OpenAI's US-site agent activity, the Anthropic appeals ruling, Boston Dynamics' Atlas training centre and Optimus ramp were already on the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a cost reality check and a yeast lab loop with humans in charge). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-30_scan_1215_dublin"
     }
   ],
   "pendingPosts": [
