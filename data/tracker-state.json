@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-10T01:08:27.596Z",
+    "lastUpdated": "2026-10-10T03:07:55.088Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-10T02:08:00+01:00",
-    "lastScanSummary": "Scan ~02:08 London, Sat 10 Oct (site-only; covers 00:07 to now, about 2h). Summary-only: no new headline. Korea (Saturday morning KST): no new FSC, FSS, police, 19 Oct bank-CEO hearing or breach-admission AI story in Yonhap's finance or society lists; the newest items found (FSC chair's 8 Oct audit remarks on easing network-separation rules for security AI; police tracking of the attacker) predate this scan and add nothing beyond what is already covered. Australia (Saturday): no new AI inquiry, Charlton, Services Australia or OpenAI-hack item or weekend feature found in the SMH, The Age, the ABC or the Guardian; AAP's 9 Oct Melbourne story is unchanged. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: no new Truth Social posts since the last scan; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-10T04:07:00+01:00",
+    "lastScanSummary": "Scan ~04:07 London, Sat 10 Oct (site-only; covers 02:08 to now, about 2h). Summary-only: no new headline. Korea (Saturday midday KST): Yonhap has a fresh story headlined '한국 금융권 해킹에 등장한 '아르텍스' 결국 공개 중단' (title only, AI-translated: the ARTEX tool that appeared in the Korean financial-sector hacks has halted public release). Not yet a (종합) version, so it is deferred one scan under the Yonhap rule. A Reuters roundup (10 Oct, via GMA News) says nine South Korean banks and two mega-churches are probing attacks that may have involved AI tools, and that authorities are still investigating whether and how AI was used; it adds little beyond what is already covered. No new FSC, FSS, police or 19 Oct bank-CEO hearing item. Australia (Saturday): no new AI inquiry, Charlton, Services Australia or OpenAI-hack item; AAP's 9 Oct Melbourne story is unchanged. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: no new Truth Social posts since the last scan; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1795,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-10_scan_0407_dublin",
+      "at": "2026-10-10T03:07:55.088Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:07 London, Sat 10 Oct (site-only; covers 02:08 to now, about 2h). Summary-only: no new headline. Korea (Saturday midday KST): Yonhap has a fresh story headlined '한국 금융권 해킹에 등장한 '아르텍스' 결국 공개 중단' (title only, AI-translated: the ARTEX tool that appeared in the Korean financial-sector hacks has halted public release). Not yet a (종합) version, so it is deferred one scan under the Yonhap rule. A Reuters roundup (10 Oct, via GMA News) says nine South Korean banks and two mega-churches are probing attacks that may have involved AI tools, and that authorities are still investigating whether and how AI was used; it adds little beyond what is already covered. No new FSC, FSS, police or 19 Oct bank-CEO hearing item. Australia (Saturday): no new AI inquiry, Charlton, Services Australia or OpenAI-hack item; AAP's 9 Oct Melbourne story is unchanged. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: no new Truth Social posts since the last scan; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-10_scan_0407_dublin"
+    },
+    {
       "id": "patch_2026-10-10_scan_0208_dublin",
       "at": "2026-10-10T01:08:27.596Z",
       "by": "judgment-day-watch",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~04:15 Dublin (site-only): quiet Asia morning. Backfill: Japan plans to study AI-equipped humanoid robots for the Self-Defense Forces — base patrols and logistics first, maybe reconnaissance and rescue later — with ATLA to run a competition for company and university robots; an LDP security official: 'We do not expect humanoid robots equipped with weapons will be used for fighting' (Kyodo via Japan Today, 22–23 Sep). Korea: Neubility unveiled 'Billy', a semi-humanoid on four wheels with five-fingered hands, heading to a CJ CheilJedang food plant this year; it aims for several hundred units at work sites within one to two years (Seoul Economic Daily, 29 Sep). AI czar still unnamed (Trump: 'next three to four days' as of 29 Sep). All hold: T-800 33, T-1000 5, Skynet 53 (a military humanoid study and a single-unit factory pilot are early-stage). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-30_scan_0415_dublin"
-    },
-    {
-      "id": "patch_2026-09-30_scan_0215_dublin",
-      "at": "2026-09-30T01:10:28.316Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~02:15 Dublin (site-only): accord terms surface — per a copy seen by Nextgov, each signatory gets four layers: internal controls monitoring model capabilities and alignment in training and deployment, an internal oversight team, independent external auditors, and an independent committee overseeing both; signed by Trump, Pichai, Amodei, Zuckerberg, Brockman, Musk and Huang. Musk: 'just generally grading each other's homework' (Nextgov/FCW, 29 Sep). The 'Super Intelligence' order is signed: the executive branch will use 'Super Intelligence'/'SI' in official materials and officials are expected not to acknowledge 'AI' in relevant settings; past regulations don't change (The Verge, 29 Sep). Asia morning: Korea's Aei Robot commits ₩40bn to its first humanoid mass-production plant in Ansan, due October 2027 (Aju Press, 30 Sep). AI czar still unnamed — Trump says 'next three to four days'. All hold: T-800 33, T-1000 5, Skynet 53 (accord terms and a naming order are governance, not capability; a ₩40bn plant due 2027 is one more factory in a trend already scored). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-30_scan_0215_dublin"
     }
   ],
   "pendingPosts": [
