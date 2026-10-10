@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-09T23:07:53.482Z",
+    "lastUpdated": "2026-10-10T01:08:27.596Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-10T00:07:00+01:00",
-    "lastScanSummary": "Scan ~00:07 London, Sat 10 Oct (site-only; covers 22:10 Fri to now, about 2h). Summary-only: no new headline. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. NPR (9 Oct) adds that Tomek Korbak wrote on X that he was 'told verbally I was fired because of the way I communicated with METR', with no details given; OpenAI told NPR the three violated policies more than once and that the mishandling went beyond their work with an outside evaluation group. Both accounts are unverified; the story is already on the board twice. Australia (Saturday): no new AI inquiry hearing, Charlton, Services Australia or OpenAI-hack item beyond what is already covered; AAP's 9 Oct Melbourne story is unchanged. Korea (Saturday): no FSC, FSS, police or 19 Oct bank-CEO hearing AI story in Yonhap's finance or society lists. US defence: no new Pentagon, CDAO, autonomous-weapons or NDAA item; Project Agincourt, FASCOM and the Senate-only RASCOM provision are already covered. White House: the only new Truth Social post is Katie Zacharia's thank-you as press secretary, not AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-10T02:08:00+01:00",
+    "lastScanSummary": "Scan ~02:08 London, Sat 10 Oct (site-only; covers 00:07 to now, about 2h). Summary-only: no new headline. Korea (Saturday morning KST): no new FSC, FSS, police, 19 Oct bank-CEO hearing or breach-admission AI story in Yonhap's finance or society lists; the newest items found (FSC chair's 8 Oct audit remarks on easing network-separation rules for security AI; police tracking of the attacker) predate this scan and add nothing beyond what is already covered. Australia (Saturday): no new AI inquiry, Charlton, Services Australia or OpenAI-hack item or weekend feature found in the SMH, The Age, the ABC or the Guardian; AAP's 9 Oct Melbourne story is unchanged. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: no new Truth Social posts since the last scan; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1795,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-10_scan_0208_dublin",
+      "at": "2026-10-10T01:08:27.596Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:08 London, Sat 10 Oct (site-only; covers 00:07 to now, about 2h). Summary-only: no new headline. Korea (Saturday morning KST): no new FSC, FSS, police, 19 Oct bank-CEO hearing or breach-admission AI story in Yonhap's finance or society lists; the newest items found (FSC chair's 8 Oct audit remarks on easing network-separation rules for security AI; police tracking of the attacker) predate this scan and add nothing beyond what is already covered. Australia (Saturday): no new AI inquiry, Charlton, Services Australia or OpenAI-hack item or weekend feature found in the SMH, The Age, the ABC or the Guardian; AAP's 9 Oct Melbourne story is unchanged. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: no new Truth Social posts since the last scan; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-10_scan_0208_dublin"
+    },
+    {
       "id": "patch_2026-10-10_scan_0007_dublin",
       "at": "2026-10-09T23:07:53.482Z",
       "by": "judgment-day-watch",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~02:15 Dublin (site-only): accord terms surface — per a copy seen by Nextgov, each signatory gets four layers: internal controls monitoring model capabilities and alignment in training and deployment, an internal oversight team, independent external auditors, and an independent committee overseeing both; signed by Trump, Pichai, Amodei, Zuckerberg, Brockman, Musk and Huang. Musk: 'just generally grading each other's homework' (Nextgov/FCW, 29 Sep). The 'Super Intelligence' order is signed: the executive branch will use 'Super Intelligence'/'SI' in official materials and officials are expected not to acknowledge 'AI' in relevant settings; past regulations don't change (The Verge, 29 Sep). Asia morning: Korea's Aei Robot commits ₩40bn to its first humanoid mass-production plant in Ansan, due October 2027 (Aju Press, 30 Sep). AI czar still unnamed — Trump says 'next three to four days'. All hold: T-800 33, T-1000 5, Skynet 53 (accord terms and a naming order are governance, not capability; a ₩40bn plant due 2027 is one more factory in a trend already scored). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-09-30_scan_0215_dublin"
-    },
-    {
-      "id": "patch_2026-09-30_scan_0015_dublin",
-      "at": "2026-09-29T23:13:10.441Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~00:15 Dublin (site-only): the accord now has a name — 'White House Accord on Superintelligence: A Joint Commitment on Frontier SI Responsibilities'. Trump conceded it is not binding but called it 'morally binding' and 'almost like a constitution'; Speaker Johnson summed it up as 'robust internal controls and layers of internal and external review'; Amodei said the mechanism for addressing 'very real risks' is 'still under discussion' (Washington Examiner, 29 Sep). No accord text published yet. At DevDay Altman called Nvidia's agent safety platform 'a good thing' but not 'a full solution' — 'we are doing similar things' — warning AI safety is also 'a science problem'; he said no incident he knows of is 'as serious' as the Hugging Face breach (CNBC, 29 Sep). That's the source of the Axios 'agent safety platform' line: a comment, not a launched OpenAI product. 'Super intelligence' rename order: Trump said it would come out at about 5pm ET; no signed text found yet. Asia morning: nothing new. All hold: T-800 33, T-1000 5, Skynet 53 (follow-ups add detail — a non-binding accord and an admitted science gap in alignment — but no new capability or incident). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-09-30_scan_0015_dublin"
     }
   ],
   "pendingPosts": [
