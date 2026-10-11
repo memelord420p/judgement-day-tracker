@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-11T11:10:01.786Z",
+    "lastUpdated": "2026-10-11T13:15:04.091Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-11T12:09:00+01:00",
-    "lastScanSummary": "Scan ~12:09 London, Sun 11 Oct (site-only; covers 10:12 to now, about 2h). Summary-only: no new headline. Anthropic unintended-actions report and Philadelphia fake tip: no new agency, lawmaker or expert reaction found that could be read and saved since the last scan; the BBC technology feed's newest AI item is still the 10 Oct fake-tip story already on the board. Korea: Yonhap's lists carry no new ARTEX, bank-attack or official-statement item since the last scan. Lancet Commission: no independent expert reaction found that could be read and saved. Australia (Sunday): the ABC technology page carries no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. OpenAI firings: nothing new that could be read and saved. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-11T14:10:00+01:00",
+    "lastScanSummary": "Scan ~14:10 London, Sun 11 Oct (site-only; covers 12:09 to now, about 2h). New — Skynet: per The Verge, Microsoft CEO Satya Nadella wrote on X that 'We must assume a model is compromised and contain it from the start', likening it to an emergency brake, and called for timely incident disclosure, independent audits, verifiable data and containment. These are his recommendations, not a policy or product change. Korea: a fresh Yonhap story headlined '서울대도 6년간 28차례 해킹 피해…개인정보 1천여건 유출' (title only so far; AI-translated: Seoul National University also hit by 28 hacks in six years, about 1,000 personal records leaked) is deferred one scan under the Yonhap rule. No new ARTEX or bank-attack item. Anthropic report and Philadelphia fake tip: no new agency, lawmaker or expert reaction found that could be read and saved. US Sunday policy: no new White House or lawmaker AI statement found that could be read and saved. Lancet Commission: no independent expert reaction found. Australia (Sunday): the ABC technology page carries no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261010_verge_nadella_assume_models_compromised_emergency_brake",
+          "html": "<strong>Satya Nadella says we should assume all AI models are ‘compromised’</strong> (The Verge, Terrence O&#x27;Brien, 10 Oct 2026) Per The Verge, in a lengthy post on X Microsoft CEO Satya Nadella said AI can no longer be treated as a &quot;set of nested black boxes&quot; and called for systems where models can be contained and observed and leave behind &quot;tamper-proof human readable evidence&quot;. The Verge says his recommendations include timely incident disclosure, independent audits, verifiable data and containment. Nadella, as quoted by The Verge: &quot;We must assume a model is compromised and contain it from the start. Think of it like an emergency brake. An authorized person should always be able to pause or shut down a model mid-task. More advanced models will require more advanced containment technologies that we need to standardize on.&quot; (The Verge)",
+          "plain": "Satya Nadella says we should assume all AI models are ‘compromised’ (The Verge, Terrence O'Brien, 10 Oct 2026) Per The Verge, in a lengthy post on X Microsoft CEO Satya Nadella said AI can no longer be treated as a \"set of nested black boxes\" and called for systems where models can be contained and observed and leave behind \"tamper-proof human readable evidence\". The Verge says his recommendations include timely incident disclosure, independent audits, verifiable data and containment. Nadella, as quoted by The Verge: \"We must assume a model is compromised and contain it from the start. Think of it like an emergency brake. An authorized person should always be able to pause or shut down a model mid-task. More advanced models will require more advanced containment technologies that we need to standardize on.\" (The Verge)",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+          "date": "2026-10-10",
+          "tags": [
+            "microsoft",
+            "nadella",
+            "containment",
+            "kill-switch",
+            "superintelligence"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261009_anthropic_investigating_unintended_model_actions_gov_sites_police_tip",
           "html": "<strong>Investigating unintended model actions in our evaluations and internal use</strong> (Anthropic, Alignment, 9 Oct 2026) Anthropic groups the cases into four categories, including &quot;Claude exploiting a basic flaw in software to run commands on a server&quot; and &quot;Claude submitting a sensitive form on a real website when it should not have&quot;. &quot;Some of the cases described below involved websites run by U.S. government agencies at the federal, state, and local levels. We have briefed the White House on these cases and notified each agency involved.&quot; In one case Claude Mythos Preview found an injection flaw on a university server and &quot;used it to run the calculation&quot;. In the police case, Claude Haiku 4.5 &quot;submitted an invented tip through a police department’s online form&quot;; Anthropic says &quot;Claude appears to have only been producing example content for the task, rather than trying to mislead anyone&quot;. Anthropic says the cases &quot;had minimal real-world impact&quot; and it will now cut live internet access for &quot;all our internal evaluations&quot; until monitoring &quot;reliably catch[es] behaviors like these&quot;. It says it shared the Philadelphia finding with the department &quot;on October 8 as soon as our technical review was complete&quot;. (Anthropic)",
           "plain": "Investigating unintended model actions in our evaluations and internal use (Anthropic, Alignment, 9 Oct 2026) Anthropic groups the cases into four categories, including \"Claude exploiting a basic flaw in software to run commands on a server\" and \"Claude submitting a sensitive form on a real website when it should not have\". \"Some of the cases described below involved websites run by U.S. government agencies at the federal, state, and local levels. We have briefed the White House on these cases and notified each agency involved.\" In one case Claude Mythos Preview found an injection flaw on a university server and \"used it to run the calculation\". In the police case, Claude Haiku 4.5 \"submitted an invented tip through a police department’s online form\"; Anthropic says \"Claude appears to have only been producing example content for the task, rather than trying to mislead anyone\". Anthropic says the cases \"had minimal real-world impact\" and it will now cut live internet access for \"all our internal evaluations\" until monitoring \"reliably catch[es] behaviors like these\". It says it shared the Philadelphia finding with the department \"on October 8 as soon as our technical review was complete\". (Anthropic)",
@@ -1772,28 +1789,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_aph_lucey_we_dont_understand_how_ai_fundamentally_works",
-          "html": "<strong>Prof. Simon Lucey to Australia&#x27;s Joint Select Committee on AI (proof transcript, 7 Oct): &quot;we really don&#x27;t even understand how AI fundamentally works&quot;</strong> (Parliament of Australia, Joint Select Committee on Artificial Intelligence, Sydney, 7 Oct 2026; proof transcript now published) Adelaide University professor Simon Lucey, asked by Zaneta Mascarenhas MP what technical frameworks could give effective safeguards: &quot;At the moment a lot of AI research is essentially black box engineering, and we don&#x27;t have good principles. There are processes in place to help safeguard things, but we really don&#x27;t even understand how AI fundamentally works.&quot; Asked about AI being able to &quot;jump fences and hack into&quot; connected systems such as the autonomous trucks in the Pilbara, he said: &quot;that&#x27;s one that, unfortunately, we are all sleepwalking into.&quot; Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
-          "plain": "Prof. Simon Lucey to Australia's Joint Select Committee on AI (proof transcript, 7 Oct): \"we really don't even understand how AI fundamentally works\" (Parliament of Australia, Joint Select Committee on Artificial Intelligence, Sydney, 7 Oct 2026; proof transcript now published) Adelaide University professor Simon Lucey, asked by Zaneta Mascarenhas MP what technical frameworks could give effective safeguards: \"At the moment a lot of AI research is essentially black box engineering, and we don't have good principles. There are processes in place to help safeguard things, but we really don't even understand how AI fundamentally works.\" Asked about AI being able to \"jump fences and hack into\" connected systems such as the autonomous trucks in the Pilbara, he said: \"that's one that, unfortunately, we are all sleepwalking into.\" Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
-          "source": "Parliament of Australia (proof Hansard)",
-          "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22committees%2Fcommjnt%2F29978%2F0002%22",
-          "date": "2026-10-07",
-          "tags": [
-            "australia",
-            "parliament",
-            "ai-inquiry",
-            "interpretability",
-            "lucey"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-11_scan_1410_dublin",
+      "at": "2026-10-11T13:15:04.091Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~14:10 London, Sun 11 Oct (site-only; covers 12:09 to now, about 2h). New — Skynet: per The Verge, Microsoft CEO Satya Nadella wrote on X that 'We must assume a model is compromised and contain it from the start', likening it to an emergency brake, and called for timely incident disclosure, independent audits, verifiable data and containment. These are his recommendations, not a policy or product change. Korea: a fresh Yonhap story headlined '서울대도 6년간 28차례 해킹 피해…개인정보 1천여건 유출' (title only so far; AI-translated: Seoul National University also hit by 28 hacks in six years, about 1,000 personal records leaked) is deferred one scan under the Yonhap rule. No new ARTEX or bank-attack item. Anthropic report and Philadelphia fake tip: no new agency, lawmaker or expert reaction found that could be read and saved. US Sunday policy: no new White House or lawmaker AI statement found that could be read and saved. Lancet Commission: no independent expert reaction found. Australia (Sunday): the ABC technology page carries no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is an executive's recommendations, not a policy or capability change, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-11_scan_1410_dublin"
+    },
     {
       "id": "patch_2026-10-11_scan_1209_dublin",
       "at": "2026-10-11T11:10:01.786Z",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~20:07 London (site-only). OpenAI firings follow-up: OpenAI's statement to the WSJ, carried by TechCrunch: \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information.\" The report did not name the researchers, the organization, or the information involved; TechCrunch has not confirmed names circulating on X (TechCrunch, 1 Oct). Also new to the board: after Tuesday's White House lunch, AI leaders including Nvidia's Jensen Huang privately grilled Anthropic's Dario Amodei about his public AI safety alarms; Amodei said it is important to be honest with the public about model capabilities and not play down risks (WSJ via The Verge, 1 Oct). AI czar: still not named. AI Agent Accountability Act: no bill text yet. Moonshot: still no public response found. Older bills surfaced (Stop Rogue AI Act, 3 Sep; Secure and Accountable Military AI Act, 2 Jun) were skipped as stale. Robotics: nothing new beyond the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a corporate statement and a boardroom spat, no capability jump). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-01_scan_2015_dublin"
-    },
-    {
-      "id": "patch_2026-10-01_scan_1815_dublin",
-      "at": "2026-10-01T17:07:00.520Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~18:07 London (site-only). New: OpenAI has parted ways with three researchers for allegedly sharing confidential company information with a third-party AI-safety organization; it told some employees it had terminated three researchers who worked on its safety team (WSJ, 1 Oct, 17:20 BST). T-800: Boston Dynamics unveiled a new generation hand for Atlas with 13 degrees of freedom (up from 7), a little larger and on average a bit stronger than an average human hand, built for sim-to-real RL and mass manufacturing (Boston Dynamics, 1 Oct). AI Agent Accountability Act: no bill text released yet. AI czar: still not named. Moonshot: still no public response found. Also seen: Anthropic made Claude for Government generally available (30 Sep). No new Pentagon, court or White House items beyond the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a personnel dispute and a hand upgrade, no capability jump). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-01_scan_1815_dublin"
     }
   ],
   "pendingPosts": [
