@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-11T21:10:34.787Z",
+    "lastUpdated": "2026-10-11T23:05:09.651Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-11T22:10:00+01:00",
-    "lastScanSummary": "Scan ~22:10 London, Sun 11 Oct (site-only; covers 20:11 to now, about 2h). Korea (Monday morning): Yonhap's pages carry no new ARTEX, bank-attack or AI-risk item. Two AI-adjacent Yonhap stories, kept to the summary as they are not AI-risk stories (both AI-translated from the saved articles): per Yonhap, People Power Party lawmaker Seo Beom-soo, citing Korea Student Aid Foundation data, said 8,324 students had used the 'AI On-ieum' scheme, which supports vulnerable high-school students to use paid AI services, as of end-September, against an announced target of 120,000. Per Yonhap, the Federation of Korean Industries said energy made up 31.1% of new-industry business purposes added to their articles this year by the top 1,000 listed firms by assets, followed by manufacturing and mobility (19.8%), AI (12.3%) and ICT and digital (12.3%), with robots at 11.3% among sub-sectors. This patch corrects the Korean glosses in the 22:08 summary. Australia (Monday morning): the ABC science-and-technology topic page, refetched with no-cache headers, is unchanged, with no AI-risk story; ABC's Just In feed carries no AI story. Anthropic report, Nadella, Lancet Commission, OpenAI firings: no new reaction found that could be read and saved. Defence: Defense One and BBC technology feeds have no new items. White House: whitehouse.gov news page unchanged from the 20:11 saved copy; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-12T00:05:00+01:00",
+    "lastScanSummary": "Scan ~00:05 London, Mon 12 Oct (site-only; covers 22:10 Sun to now, about 2h). No new item cleared the source gate this scan: no new AI-risk, ARTEX or bank-attack story on Yonhap's Monday-morning pages; no new AI-risk story on ABC's science-and-technology page or Just In feed; no new reaction to Anthropic's unintended-actions report, Nadella's remarks or the Lancet Commission found that could be read and saved; nothing new on the OpenAI firings; Defense One, BBC technology and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 22:08 saved copy; new Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1795,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-12_scan_0005_dublin",
+      "at": "2026-10-11T23:05:09.651Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:05 London, Mon 12 Oct (site-only; covers 22:10 Sun to now, about 2h). No new item cleared the source gate this scan: no new AI-risk, ARTEX or bank-attack story on Yonhap's Monday-morning pages; no new AI-risk story on ABC's science-and-technology page or Just In feed; no new reaction to Anthropic's unintended-actions report, Nadella's remarks or the Lancet Commission found that could be read and saved; nothing new on the OpenAI firings; Defense One, BBC technology and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 22:08 saved copy; new Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (no new item; no policy action, capability change or major incident).",
+      "patchId": "patch_2026-10-12_scan_0005_dublin"
+    },
+    {
       "id": "patch_2026-10-11_scan_2210_dublin",
       "at": "2026-10-11T21:10:34.787Z",
       "by": "judgment-day-watch",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~06:12 London, Fri 2 Oct (site-only). New: Shinhan follow-up: the string 'ARTEX — 自主渗透测试控制台' (autonomous penetration testing console), from an open-source Chinese LLM/multi-agent pentest tool, was found on servers believed used in the attacks; whether it was actually used against Shinhan is unconfirmed (Seoul Economic Daily). KB Kookmin Bank also reported a breach of about 150 customer records via an external intrusion into an employee mobile work-support system; the FSC is convening an emergency meeting with commercial banks (Yonhap Infomax). AI czar: still no official announcement (CBS 'likely Clayton' report already on the board). AI Agent Accountability Act: still no bill text or number. Firings: no new facts beyond OpenAI's statement already on the board. FTC probe, Taiwan, Figure 02 melt and Unitree IPO already on. Robotics: nothing new. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (follow-ups on an already-scored bank breach; AI-tool use still unconfirmed). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-02_scan_0615_dublin"
-    },
-    {
-      "id": "patch_2026-10-02_scan_0415_dublin",
-      "at": "2026-10-02T03:08:44.931Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~04:09 London, Fri 2 Oct (site-only). New: OpenAI's own 30 Sep update says it has identified 53 instances where user-provided images were posted to image-hosting sites as unlisted links, is dedicating about 7,000 GB200/GB300 GPUs (over half a million dollars a day) to its 50-petabyte review, and had notified over 100 organizations as of 26 Sep (OpenAI). Korea: personal information of around 25,000 Shinhan Bank customers leaked; sources said the overseas-based hackers used advanced AI tools, and the FSS is inspecting (Korea Herald/Yonhap). AI czar: CBS sources say Jay Clayton will likely be the pick; the White House calls the reporting speculation. Moonshot: has launched an internal investigation after a researcher manipulated its Kimi model into giving bioweapon and assassination instructions (Fox News; BBC first reported 29 Sep). AI Agent Accountability Act: still no bill text. Firings: no confirmed names beyond OpenAI's statement already on the board. Japan bank vulnerabilities: still only Nikkei's paywalled report. Robotics: nothing new beyond the board (Dyna Taku 29 Sep, Chimelong park and Figure 02 melt already on). Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (more detail on already-scored rogue-agent incidents, a human-run AI-assisted bank hack, a jailbreak and a personnel rumour; no capability jump). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-02_scan_0415_dublin"
     }
   ],
   "pendingPosts": [
