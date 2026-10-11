@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-11T01:09:10.825Z",
+    "lastUpdated": "2026-10-11T03:10:08.067Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-11T02:09:00+01:00",
-    "lastScanSummary": "Scan ~02:09 London, Sun 11 Oct (site-only; covers 00:12 to now, about 2h). Summary-only: no new headline. Korea: Yonhap's lists newly show two earlier-dated AI-hacking features ('[AI위클리] \"무엇도 신뢰하지 말라\"…AI 해킹이 남긴 교훈' and ''털린 내 정보' 각자도생…AI로 지우려다 추가 노출 딜레마도'), both columns rather than new official statements; no new ARTEX or bank-attack item. Australia (Sunday): the ABC and Guardian Australia technology pages carry no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. OpenAI firings: no new item found that could be read and saved from a reputable source. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: new Truth Social posts include one (archive time October 10, 2026, 7:45 PM) appointing Katie Bailey as Director of the Office of Legislative Affairs and two with no text in the archive; none mentions AI. AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-11T04:09:00+01:00",
+    "lastScanSummary": "Scan ~04:09 London, Sun 11 Oct (site-only; covers 02:09 to now, about 2h). New — Skynet: the Guardian reports The Lancet Commission on 21st Century Global Threats to Health says malicious use of AI, including bioweapons, and nuclear conflict 'carry risks of extinction in the next 75 years', while their likelihood remained low; the commission says there is 'a realistic route to act' on each of its 17 threats. It is a risk assessment, not a new incident or capability. Korea: Yonhap's lists carry no new ARTEX, bank-attack or official-statement item since the last scan. Australia (Sunday): the ABC technology page carries no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. OpenAI firings: no new item found that could be read and saved from a reputable source. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: new Truth Social posts include '99% Approval Rating, highest ever' and one with no text in the archive; none mentions AI. AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,22 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261011_guardian_lancet_commission_malicious_ai_extinction_risk_2100",
+          "html": "<strong>Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment</strong> (The Guardian, Kat Lay, 11 Oct 2026) Per the Guardian, The Lancet Commission on 21st Century Global Threats to Health lists 17 major threats to human health over the next 75 years. The report: &quot;Malicious use of AI, including bioweapons, and nuclear conflict with nuclear famine carry risks of extinction in the next 75 years.&quot; The Guardian adds that the report says their likelihood remained low. An accompanying Lancet editorial: &quot;The scale of harm, should they be realised, would inflict an apocalypse on humanity.&quot; The commission stressed there was &quot;a realistic route to act&quot; on each threat. Co-chair Prof Christopher Murray (IHME): &quot;Decisions made by leaders today will shape the health and wellbeing of the next generation.&quot; The commission of 35 experts will share its findings on Sunday at the World Health Summit in Berlin. (The Guardian)",
+          "plain": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment (The Guardian, Kat Lay, 11 Oct 2026) Per the Guardian, The Lancet Commission on 21st Century Global Threats to Health lists 17 major threats to human health over the next 75 years. The report: \"Malicious use of AI, including bioweapons, and nuclear conflict with nuclear famine carry risks of extinction in the next 75 years.\" The Guardian adds that the report says their likelihood remained low. An accompanying Lancet editorial: \"The scale of harm, should they be realised, would inflict an apocalypse on humanity.\" The commission stressed there was \"a realistic route to act\" on each threat. Co-chair Prof Christopher Murray (IHME): \"Decisions made by leaders today will shape the health and wellbeing of the next generation.\" The commission of 35 experts will share its findings on Sunday at the World Health Summit in Berlin. (The Guardian)",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+          "date": "2026-10-11",
+          "tags": [
+            "lancet",
+            "extinction-risk",
+            "bioweapons",
+            "malicious-ai"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261011_yonhap_bok_state_banks_hacking_attempts_over_1m_this_year",
           "html": "<strong>한은·국책은행도 해킹 시도 급증…올해만 100만건 넘어</strong> (Yonhap, Chae Sae-rom, 11 Oct 2026; quotes AI-translated from Korean) Per data the Bank of Korea, Export-Import Bank, Korea Development Bank and IBK Industrial Bank submitted to Rep. Kang Min-guk (People Power Party), the four banks logged 4,986,964 hacking attempts from 2020 to September this year, with no breach incidents. Attempts rose from 358,800 in 2020 to 934,858 in 2025, and reached 1,024,478 by September this year. IBK accounted for 91.9%, which it attributed to offering retail-level internet and mobile services. Denial-of-service attacks were the largest category (45.6%). Kang: &#x27;we must build an information protection system against surging AI-driven cyberattacks&#x27; and prepare &#x27;doubly and triply&#x27; with financial authorities. (Yonhap News Agency)",
           "plain": "한은·국책은행도 해킹 시도 급증…올해만 100만건 넘어 (Yonhap, Chae Sae-rom, 11 Oct 2026; quotes AI-translated from Korean) Per data the Bank of Korea, Export-Import Bank, Korea Development Bank and IBK Industrial Bank submitted to Rep. Kang Min-guk (People Power Party), the four banks logged 4,986,964 hacking attempts from 2020 to September this year, with no breach incidents. Attempts rose from 358,800 in 2020 to 934,858 in 2025, and reached 1,024,478 by September this year. IBK accounted for 91.9%, which it attributed to offering retail-level internet and mobile services. Denial-of-service attacks were the largest category (45.6%). Kang: 'we must build an information protection system against surging AI-driven cyberattacks' and prepare 'doubly and triply' with financial authorities. (Yonhap News Agency)",
@@ -1773,27 +1789,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_truthsocial_trump_artificial_intelligence_term_the_enemy",
-          "html": "<strong>Trump on Truth Social: &quot;The White House considers anyone that uses the term, “Artificial Intelligence,” as opposed to the highly accepted new and more accurate term, “Super Intelligence,” THE ENEMY!&quot;</strong> Donald J. Trump, Truth Social, 8 Oct 2026, 12:14 EDT (17:14 BST): &quot;The White House considers anyone that uses the term, “Artificial Intelligence,” as opposed to the highly accepted new and more accurate term, “Super Intelligence,” THE ENEMY!&quot; This follows the 29 Sep executive order &#x27;Inaugurating The Era Of Super Intelligence&#x27; and the 4 Oct Super Intelligence Force post. It is a post, not a new order: whitehouse.gov and the Federal Register show no new action. Archive copy: https://www.trumpstruth.org/statuses/42201 (Donald J. Trump (Truth Social))",
-          "plain": "Trump on Truth Social: \"The White House considers anyone that uses the term, “Artificial Intelligence,” as opposed to the highly accepted new and more accurate term, “Super Intelligence,” THE ENEMY!\" Donald J. Trump, Truth Social, 8 Oct 2026, 12:14 EDT (17:14 BST): \"The White House considers anyone that uses the term, “Artificial Intelligence,” as opposed to the highly accepted new and more accurate term, “Super Intelligence,” THE ENEMY!\" This follows the 29 Sep executive order 'Inaugurating The Era Of Super Intelligence' and the 4 Oct Super Intelligence Force post. It is a post, not a new order: whitehouse.gov and the Federal Register show no new action. Archive copy: https://www.trumpstruth.org/statuses/42201 (Donald J. Trump (Truth Social))",
-          "source": "Donald J. Trump (Truth Social)",
-          "url": "https://truthsocial.com/@realDonaldTrump/117406176604364910",
-          "date": "2026-10-08",
-          "tags": [
-            "trump",
-            "super-intelligence",
-            "truth-social",
-            "terminology"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-11_scan_0409_dublin",
+      "at": "2026-10-11T03:10:08.067Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:09 London, Sun 11 Oct (site-only; covers 02:09 to now, about 2h). New — Skynet: the Guardian reports The Lancet Commission on 21st Century Global Threats to Health says malicious use of AI, including bioweapons, and nuclear conflict 'carry risks of extinction in the next 75 years', while their likelihood remained low; the commission says there is 'a realistic route to act' on each of its 17 threats. It is a risk assessment, not a new incident or capability. Korea: Yonhap's lists carry no new ARTEX, bank-attack or official-statement item since the last scan. Australia (Sunday): the ABC technology page carries no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. OpenAI firings: no new item found that could be read and saved from a reputable source. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: new Truth Social posts include '99% Approval Rating, highest ever' and one with no text in the archive; none mentions AI. AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is a risk assessment, not a new incident or capability, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
+      "patchId": "patch_2026-10-11_scan_0409_dublin"
+    },
     {
       "id": "patch_2026-10-11_scan_0209_dublin",
       "at": "2026-10-11T01:09:10.825Z",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~10:08 London (site-only). New: OpenAI says it is reviewing a report of a failed hacking attempt against Library and Archives Canada and has briefed Canadian officials. Transluce found two \"rudimentary\" attempted attacks (Canada's archives and the US Education Department's Civil Rights Data Collection), saw no access to non-public information, and could not confidently attribute them to OpenAI. Canada's Cyber Centre says there are no indications government systems were compromised by AI (Al Jazeera, 1 Oct). Also: Mistral CEO Arthur Mensch says the US AI safety debate has been \"a cover for the negligence\" of some competitors, while Mistral has no plans to slow down (CNBC, 29 Sep). Gemini 4 Argon follow-ups (SecurityWeek, India Today) add no new facts. Moonshot: still no comment. AI czar still unnamed. Robotics: Optimus ramp and worker pushback, Unitree G1+ and the Atlas deployments are all already on the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a failed, unattributed attempt that fits the rogue-agent pattern already priced in). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-01_scan_1015_dublin"
-    },
-    {
-      "id": "patch_2026-10-01_scan_0815_dublin",
-      "at": "2026-10-01T07:07:22.530Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~08:07 London (site-only). New: UK AI Minister Kanishka Narayan cautioned at Labour conference that regulation may not be the most effective way for Britain to influence AI; the government has yet to meet its manifesto commitment on binding rules for frontier AI firms, though multiple departments are exploring legislation (POLITICO, 30 Sep). Figure follow-ups (Interesting Engineering, Inshorts): the melt came after the F.03 fleet arrived, and disassembly would have eaten engineering time needed for F.04; no F.03/F.04 reveal. Moonshot: still no comment on OpenAI's claim (India Today, DigitalToday, 1 Oct). AI czar still unnamed. EU AI Act: nothing new beyond the 29 Aug requests for information. Asia: nothing new (PrimeBot is already on the board). UK MoD swarming competition already noted. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (policy talk, no capability change). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-01_scan_0815_dublin"
     }
   ],
   "pendingPosts": [
