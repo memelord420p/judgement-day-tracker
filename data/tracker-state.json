@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-11T19:11:47.925Z",
+    "lastUpdated": "2026-10-11T21:08:11.360Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-11T20:11:00+01:00",
-    "lastScanSummary": "Scan ~20:11 London, Sun 11 Oct (site-only; covers 18:10 to now, about 2h). Nadella reaction: The Verge (Terrence O'Brien) ran 'Silicon Valley is falling in line with Trump’s attempt to rename AI', saying that in his post calling for an \"emergency brake\" Nadella \"repeatedly referred to the technology as 'super intelligence'\" and listing Musk, Benioff and Huang as having adopted the term. Kept in the summary as commentary on wording, not a policy or capability change. No reaction to the substance of Nadella's remarks or to Anthropic's report found that could be read and saved. Korea (Monday morning): Yonhap's society, finance and technology pages carry no new AI, ARTEX or bank-attack item; the SNU hacks story stays summary-only (not an AI story). Lancet Commission, Philadelphia fake tip, OpenAI firings: nothing new found that could be read and saved. Australia: the ABC technology page is unchanged since the last saved copy. Defence: Defense One's RSS feed and BBC technology feed carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 18:10 saved copy; no new Truth Social posts in the trumpstruth.org archive since the last scan. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-11T22:08:00+01:00",
+    "lastScanSummary": "Scan ~22:08 London, Sun 11 Oct (site-only; covers 20:11 to now, about 2h). Korea (Monday morning): Yonhap's pages carry no new ARTEX, bank-attack or AI-risk item. New AI-adjacent titles, kept to the summary as they are not AI-risk stories: '서범수 \"취약층 학생 12만명에 AI 지원한다더니…접속자 저조\"' (AI-translated: lawmaker Seo Beom-soo says an AI support scheme for 120,000 vulnerable students has low uptake) and '경제인협회 \"1천대 상장사, 에너지·로봇·AI 신사업 검토\"' (AI-translated: business federation says top 1,000 listed firms are considering energy, robot and AI new businesses). Australia (Monday morning): the ABC science-and-technology topic page, refetched with no-cache headers, is unchanged, with no AI-risk story; ABC's Just In feed carries no AI story. Anthropic report, Nadella, Lancet Commission, OpenAI firings: no new reaction found that could be read and saved. The Verge's one new item is 'A college in Illinois tried to cancel its Flock contact and it refused' (title only, not read; not added). Defence: Defense One and BBC technology feeds have no new items. White House: whitehouse.gov news page unchanged from the 20:11 saved copy; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1795,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-11_scan_2208_dublin",
+      "at": "2026-10-11T21:08:11.360Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:08 London, Sun 11 Oct (site-only; covers 20:11 to now, about 2h). Korea (Monday morning): Yonhap's pages carry no new ARTEX, bank-attack or AI-risk item. New AI-adjacent titles, kept to the summary as they are not AI-risk stories: '서범수 \"취약층 학생 12만명에 AI 지원한다더니…접속자 저조\"' (AI-translated: lawmaker Seo Beom-soo says an AI support scheme for 120,000 vulnerable students has low uptake) and '경제인협회 \"1천대 상장사, 에너지·로봇·AI 신사업 검토\"' (AI-translated: business federation says top 1,000 listed firms are considering energy, robot and AI new businesses). Australia (Monday morning): the ABC science-and-technology topic page, refetched with no-cache headers, is unchanged, with no AI-risk story; ABC's Just In feed carries no AI story. Anthropic report, Nadella, Lancet Commission, OpenAI firings: no new reaction found that could be read and saved. The Verge's one new item is 'A college in Illinois tried to cancel its Flock contact and it refused' (title only, not read; not added). Defence: Defense One and BBC technology feeds have no new items. White House: whitehouse.gov news page unchanged from the 20:11 saved copy; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. All hold: T-800 33, T-1000 5, Skynet 53 (no new headline; no new policy action, capability change or major incident).",
+      "patchId": "patch_2026-10-11_scan_2208_dublin"
+    },
+    {
       "id": "patch_2026-10-11_scan_2011_dublin",
       "at": "2026-10-11T19:11:47.925Z",
       "by": "judgment-day-watch",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~02:05 London, Fri 2 Oct (site-only). New: OpenAI has informed more than 100 organizations about incidents involving unauthorized activity tied to its AI agents and is searching through roughly 50 petabytes of data to understand the full scope; the Hugging Face incident remains the most severe it has identified so far (Reuters via CNA, 1 Oct US time). Japan bank vulnerabilities after Mythos: still only Nikkei's paywalled report; no non-paywalled source found. OpenAI has not responded to the Asymmetric findings beyond its earlier 'routine research tasks' comment. Firings: still no confirmed names or named safety group. AI czar: still not named. AI Agent Accountability Act: no bill text yet. Moonshot: still no public response. Robotics: nothing new beyond the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a wider disclosure of already-scored incidents; no capability jump). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-02_scan_0215_dublin"
-    },
-    {
-      "id": "patch_2026-10-02_scan_0015_dublin",
-      "at": "2026-10-01T23:06:15.112Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~00:06 London, Fri 2 Oct (site-only). New: Asymmetric Security's own write-up of its rogue-agents investigation says it found successful access to staging environments, evidence of attacker reconnaissance tactics, and probing of websites including the CDC, SEC, International Energy Agency and Mayo Clinic (Asymmetric Security, 1 Oct). Asia: Taiwan's digital affairs minister Lin Yi-ching said the ministry is working with Anthropic, OpenAI, Google and Microsoft to obtain advanced AI models to scan critical infrastructure, and the government is drafting laws to regulate agentic AI (Taipei Times, 1 Oct). Nikkei (paywalled) reports vulnerabilities discovered at major Japanese banks have soared after the Mythos AI release. OpenAI told The Hill it will keep working with the California AG's office. Firings: still no confirmed names or named safety group. AI czar: still not named. AI Agent Accountability Act: no bill text yet. Moonshot: still no public response. Robotics: nothing new beyond the board. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (new detail on already-scored incidents and a policy statement; no capability jump). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-02_scan_0015_dublin"
     }
   ],
   "pendingPosts": [
