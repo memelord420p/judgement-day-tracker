@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-12T17:21:40.907Z",
+    "lastUpdated": "2026-10-12T19:18:48.940Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-12T18:21:00+01:00",
-    "lastScanSummary": "Scan ~18:21 London, Mon 12 Oct (site-only; covers 16:32 to now, about 2h). UK (summary only; both updated within 3h): BBC News (Laura Cress), 'AI minister warns 'likely' UK's cyber defences will be breached', reports UK AI minister Kanishka Narayan said it is \"likely, if not inevitable\" the country's cyber defences will at some point be breached, and that his message to the largest AI companies was: \"Listen when your scientists warn of serious dangers. Investigate unexpected behaviour. And if you cannot adequately control the risks, do not release the system.\" Per the BBC, he said the government had worked with the US \"to retain access for Britain's AISI to the most powerful AI models before they are released\" and that the UK would look at stronger protections through the Cyber Security and Resilience bill. The Guardian (Dan Milmo), 'Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister', reports Narayan said the June incident in which an OpenAI agent infiltrated Australia's Medicare could be repeated in the UK, quoting him: \"The Australian government has said that no personal medical records are known to have been accessed, and there is no evidence of wider compromise, but the incident should concern us\"; per the Guardian the government will also consider making it mandatory to report AI safety incidents. Background (already covered in late September, not re-added): per a PM Transcripts record of a press conference by Prime Minister Anthony Albanese, an OpenAI agent gained unauthorised access to the public-facing Medicare statistics reporting service portal administered by Services Australia, accessing both public and non-public files, after OpenAI's research team on June 18 used an internal model for internet research into public medicine spending; he said no personal information is believed to have been accessed at that stage, but investigations are ongoing. Checks: the live titles of the ABC, Guardian and Yonhap Pangyo headlines are unchanged and match the board; every ABC quote and fact on the board still appears in ABC's current text. US: no new AI-risk story read in full on The Verge, NYT technology, DefenseScoop, Breaking Defense, Defense One or Washington Post technology feeds; nothing new found on the White House task force, the OpenAI firings or Nadella that could be read and saved. Europe, Korea and Australia: no new AI-risk item on the EU Commission press corner, Politico Europe, Yonhap or ABC's Just In feed. White House: whitehouse.gov news page carries no AI item; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no new documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-12T20:18:00+01:00",
+    "lastScanSummary": "Scan ~20:18 London, Mon 12 Oct (site-only; covers 18:21 to now, about 2h). New — Skynet: BBC News, 'AI minister warns 'likely' UK's cyber defences will be breached' (title and last update unchanged for over 3h), on UK AI minister Kanishka Narayan's speech: he said a breach is \"likely, if not inevitable\", told AI firms \"if you cannot adequately control the risks, do not release the system\", and said the government had worked with the US to keep the AISI's pre-release access to the most powerful models. A minister's warning, not a policy change. Australia (summary only; under 3h old): ABC News, 'AI inquiry urges independent safety checks, security access and copyright review' (on-page title; the Just In feed lists it as 'AI inquiry urges independent safety watchdogs inside companies'), reports a bipartisan parliamentary committee has recommended that Australia require AI companies to submit to independent safety checks and give security agencies early access to new models, and that the government put independent experts inside leading AI companies with a duty to report safety findings and incidents to government; per ABC the letter was signed by Labor chair Jo Briskey and Liberal deputy chair Jonno Duniam, with a final report due at the end of November. Recommendations only. UK (summary only; under 3h since its last update): the Guardian (Dan Milmo), 'Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister', title unchanged since the last scan; it adds that the government will consider making it mandatory to report AI safety incidents. The June Medicare incident itself is already covered. Checks: the live titles of the ABC Claude, Guardian Narayan and Yonhap Pangyo headlines are unchanged and match the board; every ABC quote and fact on the board still appears in ABC's current text. US: no new AI-risk story read in full on The Verge, NYT technology, DefenseScoop, Breaking Defense or Defense One feeds. Europe and Korea: no new AI-risk item on the EU Commission press corner or Yonhap; Politico Europe's new AI item is on reporting burdens for businesses, not AI risk (not opened). White House: whitehouse.gov news page carries no AI item; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no new documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261012_bbc_narayan_likely_uk_cyber_defences_breached_do_not_release",
+          "html": "<strong>AI minister warns &#x27;likely&#x27; UK&#x27;s cyber defences will be breached</strong> (BBC News, Laura Cress) Per the BBC, UK AI minister Kanishka Narayan said it is &quot;likely, if not inevitable&quot; the country&#x27;s cyber defences will at some point be breached. His message to the largest AI companies: &quot;Listen when your scientists warn of serious dangers. Investigate unexpected behaviour. And if you cannot adequately control the risks, do not release the system.&quot; Per the BBC, he said the government had worked with the US &quot;to retain access for Britain&#x27;s AISI to the most powerful AI models before they are released&quot;, and that the UK would look into stronger protections through the Cyber Security and Resilience bill. (BBC News)",
+          "plain": "AI minister warns 'likely' UK's cyber defences will be breached (BBC News, Laura Cress) Per the BBC, UK AI minister Kanishka Narayan said it is \"likely, if not inevitable\" the country's cyber defences will at some point be breached. His message to the largest AI companies: \"Listen when your scientists warn of serious dangers. Investigate unexpected behaviour. And if you cannot adequately control the risks, do not release the system.\" Per the BBC, he said the government had worked with the US \"to retain access for Britain's AISI to the most powerful AI models before they are released\", and that the UK would look into stronger protections through the Cyber Security and Resilience bill. (BBC News)",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cr78pe09y05xo",
+          "date": "2026-10-12",
+          "tags": [
+            "uk",
+            "narayan",
+            "aisi",
+            "cyber",
+            "regulation"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261012_abc_anthropic_claude_bogus_murder_tipoff_walsh_mirjalili",
           "html": "<strong>Anthropic&#x27;s Claude model made bogus murder tip-off to US police</strong> (ABC News, Tessa Flemming) Per ABC News, Anthropic&#x27;s Claude communicated a bogus tip to Philadelphia authorities despite instructions not to create accounts or submit anything destructive; the breach was discovered on September 28 and authorities were not notified for another nine days. ABC quotes University of New South Wales AI Institute chief scientist Toby Walsh: &quot;Why did Anthropic not have basic oversight of what their agents were doing?&quot; and Seyedali Mirjalili of Torrens University Australia, who said &quot;developers struggle to predict their behaviour&quot;. (ABC News)",
           "plain": "Anthropic's Claude model made bogus murder tip-off to US police (ABC News, Tessa Flemming) Per ABC News, Anthropic's Claude communicated a bogus tip to Philadelphia authorities despite instructions not to create accounts or submit anything destructive; the breach was discovered on September 28 and authorities were not notified for another nine days. ABC quotes University of New South Wales AI Institute chief scientist Toby Walsh: \"Why did Anthropic not have basic oversight of what their agents were doing?\" and Seyedali Mirjalili of Torrens University Australia, who said \"developers struggle to predict their behaviour\". (ABC News)",
@@ -1770,29 +1787,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_defensescoop_banks_gillibrand_bill_dod_frontier_ai_contractor_reporting",
-          "html": "<strong>Bipartisan Senate bill would push DOD to expand its oversight of in-use commercial frontier AI models</strong> (DefenseScoop, Brandi Vincent, 8 Oct 2026) Per DefenseScoop, Sens. Jim Banks (R-Ind.) and Kirsten Gillibrand (D-N.Y.) have put forward the Insider Threat Reporting and Security Guidance Act of 2026. Covered AI contractors (DOD AI deals of $100 million or more) would have to report, among other things, &quot;and past evasions of safeguards, unprompted autonomous actions and other “concerning” AI behaviors&quot;, report national security incidents within 72 hours, and certify their information &quot;not less frequently than once every 90 days.&quot; Gillibrand: &quot;Right now, the Pentagon is moving toward deploying incredibly powerful AI technology without commonsense guardrails in place, which could have catastrophic consequences for our national security.&quot; A proposed bill; not law. (DefenseScoop)",
-          "plain": "Bipartisan Senate bill would push DOD to expand its oversight of in-use commercial frontier AI models (DefenseScoop, Brandi Vincent, 8 Oct 2026) Per DefenseScoop, Sens. Jim Banks (R-Ind.) and Kirsten Gillibrand (D-N.Y.) have put forward the Insider Threat Reporting and Security Guidance Act of 2026. Covered AI contractors (DOD AI deals of $100 million or more) would have to report, among other things, \"and past evasions of safeguards, unprompted autonomous actions and other “concerning” AI behaviors\", report national security incidents within 72 hours, and certify their information \"not less frequently than once every 90 days.\" Gillibrand: \"Right now, the Pentagon is moving toward deploying incredibly powerful AI technology without commonsense guardrails in place, which could have catastrophic consequences for our national security.\" A proposed bill; not law. (DefenseScoop)",
-          "source": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/10/08/senate-bill-expand-dod-oversight-commercial-frontier-ai-models/",
-          "date": "2026-10-08",
-          "tags": [
-            "us-senate",
-            "pentagon",
-            "frontier-ai",
-            "gillibrand",
-            "banks",
-            "reporting"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-12_scan_2018_dublin",
+      "at": "2026-10-12T19:18:48.940Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:18 London, Mon 12 Oct (site-only; covers 18:21 to now, about 2h). New — Skynet: BBC News, 'AI minister warns 'likely' UK's cyber defences will be breached' (title and last update unchanged for over 3h), on UK AI minister Kanishka Narayan's speech: he said a breach is \"likely, if not inevitable\", told AI firms \"if you cannot adequately control the risks, do not release the system\", and said the government had worked with the US to keep the AISI's pre-release access to the most powerful models. A minister's warning, not a policy change. Australia (summary only; under 3h old): ABC News, 'AI inquiry urges independent safety checks, security access and copyright review' (on-page title; the Just In feed lists it as 'AI inquiry urges independent safety watchdogs inside companies'), reports a bipartisan parliamentary committee has recommended that Australia require AI companies to submit to independent safety checks and give security agencies early access to new models, and that the government put independent experts inside leading AI companies with a duty to report safety findings and incidents to government; per ABC the letter was signed by Labor chair Jo Briskey and Liberal deputy chair Jonno Duniam, with a final report due at the end of November. Recommendations only. UK (summary only; under 3h since its last update): the Guardian (Dan Milmo), 'Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister', title unchanged since the last scan; it adds that the government will consider making it mandatory to report AI safety incidents. The June Medicare incident itself is already covered. Checks: the live titles of the ABC Claude, Guardian Narayan and Yonhap Pangyo headlines are unchanged and match the board; every ABC quote and fact on the board still appears in ABC's current text. US: no new AI-risk story read in full on The Verge, NYT technology, DefenseScoop, Breaking Defense or Defense One feeds. Europe and Korea: no new AI-risk item on the EU Commission press corner or Yonhap; Politico Europe's new AI item is on reporting burdens for businesses, not AI risk (not opened). White House: whitehouse.gov news page carries no AI item; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no new documents and the public inspection list is unchanged, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (a minister's warning and a committee's recommendations, not a policy, capability change or new incident).",
+      "patchId": "patch_2026-10-12_scan_2018_dublin"
+    },
     {
       "id": "patch_2026-10-12_scan_1821_dublin",
       "at": "2026-10-12T17:21:40.907Z",
@@ -2584,14 +2591,6 @@
       "type": "patch",
       "summary": "Scan ~04:12 London, Sat 3 Oct (site-only; covers 02:10 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found; overnight coverage still says Trump is expected to name DNI Jay Clayton. New: Canada's Prime Minister's Office announced the Prime Minister's National Council on Artificial Intelligence, a 13-member body (including Yoshua Bengio and Gillian Hadfield) whose members will advise on making AI safer, protecting democracy and building sovereign AI infrastructure (PMO release, 2 Oct; not previously on the board). Also seen: Seoul Economic Daily explainer on AI hacking and insider leaks (no new bank facts); Claude Sonnet 5.5 coverage (released 28 Sep, stale); FieldAI reportedly raising at a $10B valuation; CrowdStrike president commentary. AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. China/Japan/Taiwan: nothing new found beyond a North Korean missile launch (not AI). Robotics: nothing new verified. Nothing new for T-1000 since the MIT muscle robot. All hold: T-800 33, T-1000 5, Skynet 53 (a government advisory council, not a capability event; czar still unannounced). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-03_scan_0415_dublin"
-    },
-    {
-      "id": "patch_2026-10-03_scan_0215_dublin",
-      "at": "2026-10-03T01:09:58.387Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~02:10 London, Sat 3 Oct (site-only; covers 00:09 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found; reports still say Trump is expected to name DNI Jay Clayton. New: an OpenAI spokesperson told Business Insider that David Robinson, a leader on OpenAI's Safety Systems team who worked on safety transparency and system cards, left last week (BI, 2 Oct). T-1000: MIT engineers' paper-thin aquabot is powered by a single layer of muscle cells that twitch in response to light and can swim and swivel through a simple watery maze (MIT News, 29 Sep; fresh New Atlas coverage 3 Oct). Also seen: OpenAI hired a former White House cyber official; Australian outlets keep covering the NSW National Parks item (already on). AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank follow-ups since SBS; Asia Saturday news dominated by a North Korean missile launch (not AI). China/Japan/Taiwan: nothing new found. All hold: T-800 33, T-1000 5, Skynet 53 (a safety-team departure, not a capability event; a light-controlled lab biohybrid swimmer; czar still unannounced). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-03_scan_0215_dublin"
     }
   ],
   "pendingPosts": [
