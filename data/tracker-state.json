@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-12T21:13:16.574Z",
+    "lastUpdated": "2026-10-12T23:07:10.510Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-12T22:13:00+01:00",
-    "lastScanSummary": "Scan ~22:13 London, Mon 12 Oct (site-only; covers 20:18 to now, about 2h). Australia (still summary only; under 3h old): ABC News, 'AI inquiry urges independent safety checks, security access and copyright review' (title unchanged since the last scan), reports a bipartisan parliamentary committee has recommended Australia require AI companies to submit to independent safety checks and give security agencies early access to new models, and that the government put independent experts inside leading AI companies with a duty to report safety findings and incidents to government; per ABC the letter was signed by Labor chair Jo Briskey and Liberal deputy chair Jonno Duniam, with a final report due at the end of November. Recommendations only. UK (summary only, not promoted: the board already carries two Narayan headlines): the Guardian (Dan Milmo), 'Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister', adds that the government will consider making it mandatory to report AI safety incidents, and that senior figures from OpenAI and Anthropic will be among those giving evidence to MPs on Tuesday. Checks: the live titles of the ABC Claude, BBC Narayan, Guardian Narayan and Yonhap Pangyo headlines are unchanged and match the board; every quote and named fact in the ABC Claude and BBC Narayan headlines still appears in the current text. US, Japan, China: no new AI-risk story read in full on The Verge, NYT technology, DefenseScoop, Breaking Defense, Defense One, Japan Times or SCMP technology feeds. Korea: no new AI or ARTEX item read in full on Yonhap. White House: whitehouse.gov news page carries no AI item; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no new documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-13T00:07:00+01:00",
+    "lastScanSummary": "Scan ~00:07 London, Tue 13 Oct (site-only; covers 22:13 Mon to now, about 2h). Australia (promoted to Skynet): ABC News, 'AI inquiry urges independent safety checks, security access and copyright review'. A bipartisan parliamentary committee's recommendations after the OpenAI Medicare breach; recommendations only, with a final report due at the end of November. US (summary only; under 3h old): DefenseScoop (Brandi Vincent), 'Army turning to AI in its fight against biological threats', reports that under the 2026 Army Biodefense Strategy, discussed at AUSA, the Army aims to combine environmental, clinical, logistics, chemical, biological and intelligence data with artificial intelligence to identify unseen and emerging disease outbreaks. Korea (summary only; under 3h old, no AI link in the text): Yonhap, '금융감독원, '해킹 유출' 예가람저축은행 오늘부터 현장점검' (AI translation: 'FSS begins on-site inspection of Yegaram Savings Bank over hacking leak'), reports that the Financial Supervisory Service is starting an on-site inspection after an unidentified hacker (신원 미상의 해커) accessed a server; about 50,000 (5만건) customer records, including resident registration numbers (주민등록번호), are estimated to have leaked. Checks: the live titles of the ABC Claude, BBC Narayan, Guardian Narayan and Yonhap Pangyo headlines are unchanged and match the board; every quote and named fact in the ABC Claude and BBC Narayan headlines still appears in the current text. Japan, China: no new AI-risk story read in full on the Japan Times or SCMP technology feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261013_abc_ai_inquiry_independent_safety_checks_security_access_copyright",
+          "html": "<strong>AI inquiry urges independent safety checks, security access and copyright review</strong> (ABC News, Clare Armstrong) Per the ABC, a bipartisan parliamentary committee has recommended that &quot;Australia should require AI companies to submit to independent safety checks, reserve computing power for local use and give security agencies early access to new models&quot;. The committee also recommended the government &quot;put independent experts inside leading AI companies that would have access to their systems and a duty to report safety findings and incidents to government&quot;. Per the ABC, the advice follows the OpenAI breach, &quot;in which autonomous agents gained unauthorised access to Medicare statistics&quot;, and the final report is due at the end of November. These are recommendations only; per the ABC, Prime Minister Anthony Albanese will decide whether to implement many of them. (ABC News)",
+          "plain": "AI inquiry urges independent safety checks, security access and copyright review (ABC News, Clare Armstrong) Per the ABC, a bipartisan parliamentary committee has recommended that \"Australia should require AI companies to submit to independent safety checks, reserve computing power for local use and give security agencies early access to new models\". The committee also recommended the government \"put independent experts inside leading AI companies that would have access to their systems and a duty to report safety findings and incidents to government\". Per the ABC, the advice follows the OpenAI breach, \"in which autonomous agents gained unauthorised access to Medicare statistics\", and the final report is due at the end of November. These are recommendations only; per the ABC, Prime Minister Anthony Albanese will decide whether to implement many of them. (ABC News)",
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-13/ai-inquiry-independent-safety-watchdogs/107258612",
+          "date": "2026-10-12",
+          "tags": [
+            "australia",
+            "inquiry",
+            "oversight",
+            "regulation",
+            "medicare"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261012_bbc_narayan_likely_uk_cyber_defences_breached_do_not_release",
           "html": "<strong>AI minister warns &#x27;likely&#x27; UK&#x27;s cyber defences will be breached</strong> (BBC News, Laura Cress) Per the BBC, UK AI minister Kanishka Narayan said it is &quot;likely, if not inevitable&quot; the country&#x27;s cyber defences will at some point be breached. His message to the largest AI companies: &quot;Listen when your scientists warn of serious dangers. Investigate unexpected behaviour. And if you cannot adequately control the risks, do not release the system.&quot; Per the BBC, he said the government had worked with the US &quot;to retain access for Britain&#x27;s AISI to the most powerful AI models before they are released&quot;, and that the UK would look into stronger protections through the Cyber Security and Resilience bill. (BBC News)",
           "plain": "AI minister warns 'likely' UK's cyber defences will be breached (BBC News, Laura Cress) Per the BBC, UK AI minister Kanishka Narayan said it is \"likely, if not inevitable\" the country's cyber defences will at some point be breached. His message to the largest AI companies: \"Listen when your scientists warn of serious dangers. Investigate unexpected behaviour. And if you cannot adequately control the risks, do not release the system.\" Per the BBC, he said the government had worked with the US \"to retain access for Britain's AISI to the most powerful AI models before they are released\", and that the UK would look into stronger protections through the Cyber Security and Resilience bill. (BBC News)",
@@ -1770,28 +1787,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261009_yonhap_police_financial_hacking_team_expanded_28_to_43",
-          "html": "<strong>경찰, 금융기관 해킹 수사팀 43명으로 확대…전문 인력 확충</strong> (Yonhap News Agency, 9 Oct 2026, 11:43 KST; AI-translated title: &#x27;Police expand financial-institution hacking investigation team to 43… specialist staff added&#x27;) Per Yonhap, the National Police Agency&#x27;s National Office of Investigation said it had expanded the team from 28 to 43 by adding forensic and other specialists. Police said: &quot;공격 서버를 차단하는 등 국제공조수사도 병행하고 있다&quot; (AI-translated: &#x27;we are also conducting international joint investigation, including blocking attack servers&#x27;), and that &quot;향후 중대범죄수사청(중수청)으로 사건이 이첩되더라도 그전까지 수사 공백이 없도록 철저하게 피의자를 추적할 것&quot; (AI-translated: &#x27;even if the case is later transferred to the Serious Crimes Investigation Agency, we will thoroughly track the suspects so there is no gap in the investigation before then&#x27;). (Yonhap News Agency)",
-          "plain": "경찰, 금융기관 해킹 수사팀 43명으로 확대…전문 인력 확충 (Yonhap News Agency, 9 Oct 2026, 11:43 KST; AI-translated title: 'Police expand financial-institution hacking investigation team to 43… specialist staff added') Per Yonhap, the National Police Agency's National Office of Investigation said it had expanded the team from 28 to 43 by adding forensic and other specialists. Police said: \"공격 서버를 차단하는 등 국제공조수사도 병행하고 있다\" (AI-translated: 'we are also conducting international joint investigation, including blocking attack servers'), and that \"향후 중대범죄수사청(중수청)으로 사건이 이첩되더라도 그전까지 수사 공백이 없도록 철저하게 피의자를 추적할 것\" (AI-translated: 'even if the case is later transferred to the Serious Crimes Investigation Agency, we will thoroughly track the suspects so there is no gap in the investigation before then'). (Yonhap News Agency)",
-          "source": "Yonhap News Agency",
-          "url": "https://www.yna.co.kr/view/AKR20261009030300004",
-          "date": "2026-10-09",
-          "tags": [
-            "korea",
-            "banks",
-            "police",
-            "investigation",
-            "serious-crimes-agency"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-13_scan_0007_dublin",
+      "at": "2026-10-12T23:07:10.510Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:07 London, Tue 13 Oct (site-only; covers 22:13 Mon to now, about 2h). Australia (promoted to Skynet): ABC News, 'AI inquiry urges independent safety checks, security access and copyright review'. A bipartisan parliamentary committee's recommendations after the OpenAI Medicare breach; recommendations only, with a final report due at the end of November. US (summary only; under 3h old): DefenseScoop (Brandi Vincent), 'Army turning to AI in its fight against biological threats', reports that under the 2026 Army Biodefense Strategy, discussed at AUSA, the Army aims to combine environmental, clinical, logistics, chemical, biological and intelligence data with artificial intelligence to identify unseen and emerging disease outbreaks. Korea (summary only; under 3h old, no AI link in the text): Yonhap, '금융감독원, '해킹 유출' 예가람저축은행 오늘부터 현장점검' (AI translation: 'FSS begins on-site inspection of Yegaram Savings Bank over hacking leak'), reports that the Financial Supervisory Service is starting an on-site inspection after an unidentified hacker (신원 미상의 해커) accessed a server; about 50,000 (5만건) customer records, including resident registration numbers (주민등록번호), are estimated to have leaked. Checks: the live titles of the ABC Claude, BBC Narayan, Guardian Narayan and Yonhap Pangyo headlines are unchanged and match the board; every quote and named fact in the ABC Claude and BBC Narayan headlines still appears in the current text. Japan, China: no new AI-risk story read in full on the Japan Times or SCMP technology feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (a committee's recommendations and a minister's plans, not a policy, capability change or new incident).",
+      "patchId": "patch_2026-10-13_scan_0007_dublin"
+    },
     {
       "id": "patch_2026-10-12_scan_2213_dublin",
       "at": "2026-10-12T21:13:16.574Z",
@@ -2583,14 +2591,6 @@
       "type": "patch",
       "summary": "Scan ~08:18 London, Sat 3 Oct (site-only; covers 06:08 to now). Nothing new met the bar; meta-only refresh. AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'Trump to name'). Seen but not added: Guardian (3 Oct), 'OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day' (cost and 50 petabytes already on the board); it says NSW is the 'sixth government website in Australia' notified, and that executives from OpenAI, Anthropic, Microsoft and Google will front a joint parliamentary committee on artificial intelligence in Sydney on Tuesday. Politico (2 Oct), 'Musk-led war commission triggers alarms in Pentagon' (Project Meridian; Hegseth announcement already noted 1 Oct). CBS (2 Oct), 'Chinese AI model Qwen gives alarming answers to questions about Hong Kong, controversial topics'. Still summary-only: TA419 phishing, FieldAI $10B, $300M Nvidia chip smuggling charge. Repeat coverage: Evri two-legged robot trial, IFR 5M robots, MIT aquabot, Apple Mac AI-agent controls, Robinson resignation. AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. UK/Europe/Asia Saturday morning: nothing new AI-relevant. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only refresh). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-03_scan_0815_dublin"
-    },
-    {
-      "id": "patch_2026-10-03_scan_0615_dublin",
-      "at": "2026-10-03T05:08:13.997Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~06:08 London, Sat 3 Oct (site-only; covers 04:12 to now). Nothing new met the bar; meta-only refresh. AI czar: still NOT officially announced; no Truth Social post or White House statement found. Seen but not added: Proofpoint report (1 Oct) that China-aligned TA419 impersonated a former White House OSTP official and a senior Anthropic employee to phish US AI policy experts (human phishing, not an AI-capability event); NASA Dexterous Robotics Team feature on Valkyrie/Robonaut 2 (no new deployment); FieldAI $10B valuation; a California executive charged in a $300M AI server smuggling case; repeat coverage of the OpenAI firings, Robinson resignation, Shinhan hack and Apple Mac AI-agent controls (already on). AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. Asia/Europe Saturday: nothing new AI-relevant. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only refresh). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-03_scan_0615_dublin"
     }
   ],
   "pendingPosts": [
