@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-12T09:06:28.383Z",
+    "lastUpdated": "2026-10-12T11:15:56.164Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-12T10:06:00+01:00",
-    "lastScanSummary": "Scan ~10:06 London, Mon 12 Oct (site-only; covers 08:12 to now, about 2h). New — Skynet (Europe/UK): per the Guardian, UK AI minister Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe and say Britain cannot rely entirely on technology companies to police their own models; the Guardian quotes Geoffrey Irving, a former chief scientist at the UK's AI Security Institute, saying the AI companies lack security that would stop an adversarial country stealing the models. A preview of a speech, not a policy change. Anthropic fake-tip reaction (still summary only; ABC's Just In feed no longer lists the article, so page and feed titles could not be matched): ABC News, 'Anthropic's Claude model made bogus murder tip-off to US police', reports FTC director of public affairs Joe Gabriel Simonson said the task force expected \"immediate and full transparency to the entities involved and the public\", and quotes Toby Walsh saying it spoke \"to the carelessness of the AI companies\". Korea (summary only; first saved scan, page time shows no zone): Yonhap, ''민·군 합동으로 AI 연구'…첫 '국방 AX 거점' 판교에 개소' — AI-translated: per Yonhap, the Defence Ministry said the first defence AX hub, for joint military-civilian research on military AI, opened in Pangyo; its data will be used to train and test humanoid and multi-legged robots to take over dangerous tasks such as explosive disposal and mine clearance, and four more hubs are to open in turn. Europe: the EU Commission press corner and digital-strategy news carry no new AI Act or AI item; Politico Europe's technology feed and the BBC technology feed carry no new AI item since the last scan. White House: whitehouse.gov news and briefings pages carry no AI item; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-12T12:15:00+01:00",
+    "lastScanSummary": "Scan ~12:15 London, Mon 12 Oct (site-only; covers 10:06 to now, about 2h). New — Skynet: ABC News, 'Anthropic's Claude model made bogus murder tip-off to US police' (title unchanged across scans), quoting UNSW's Toby Walsh and Torrens University's Seyedali Mirjalili on the Philadelphia fake tip. New — T-800 (AI-translated): per Yonhap, Korea's Defence Ministry opened its first defence AX hub in Pangyo for joint military-civilian research on military AI; its data will train and test humanoid and multi-legged robots for missions such as explosive disposal and mine clearance. Guardian check: the live title of 'UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts' is unchanged and matches the board; the posted facts still appear in the current text. Europe: the EU Commission press corner, Politico Europe and Guardian technology feeds carry no new AI-risk item. Korea and Australia: no new AI-risk, ARTEX or bank-attack story on Yonhap or ABC's Just In feed; BBC technology, The Verge and Defense One feeds carry no new items since the last scan. White House: whitehouse.gov news and briefings pages carry no AI item; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no new documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261012_yonhap_mnd_pangyo_defence_ax_hub_humanoid_eod_mine_clearance",
+          "html": "<strong>&#x27;민·군 합동으로 AI 연구&#x27;…첫 &#x27;국방 AX 거점&#x27; 판교에 개소</strong> (Yonhap; AI-translated) Per Yonhap, the Defence Ministry said the first &#x27;defence AX hub&#x27;, a facility where the military and civilians jointly research and test military AI, opened in Pangyo Techno Valley on 12 Oct. Data collected there will be used to train and test humanoid and multi-legged robots to take over dangerous missions such as explosive disposal and mine clearance. A total of five hubs are to open in turn. (Yonhap)",
+          "plain": "'민·군 합동으로 AI 연구'…첫 '국방 AX 거점' 판교에 개소 (Yonhap; AI-translated) Per Yonhap, the Defence Ministry said the first 'defence AX hub', a facility where the military and civilians jointly research and test military AI, opened in Pangyo Techno Valley on 12 Oct. Data collected there will be used to train and test humanoid and multi-legged robots to take over dangerous missions such as explosive disposal and mine clearance. A total of five hubs are to open in turn. (Yonhap)",
+          "source": "Yonhap",
+          "url": "https://www.yna.co.kr/view/AKR20261012130000504",
+          "date": "2026-10-12",
+          "tags": [
+            "korea",
+            "military-ai",
+            "humanoid",
+            "robots",
+            "eod"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261008_wunc_homefront_congress_safeguards_ai_shotguns_robotic_pivots_fort_bragg",
           "html": "<strong>As the military speeds up the use of drones and AI in warfare, Congress considers safeguards</strong> (WUNC American Homefront Project, Jay Price, 8 Oct 2026) Per the report, at a Fort Bragg demonstration &quot;Atop the cabs of two of the trucks were 12-gauge shotguns on robotic pivots, controlled by AI.&quot; The soldiers in charge said a human was &quot;on the loop&quot;. The report says the committee added provisions to the pending annual military policy and spending bill that &quot;would require human oversight of AI-controlled weapons, ban the use of AI for nuclear launch or detonation, and bar its use for domestic surveillance.&quot; CNAS&#x27;s Paul Scharre: &quot;So maybe a human is authorizing a target list of a whole bunch of targets, but the human doesn&#x27;t really have time to pore through each one individually and analyze it.&quot; (WUNC American Homefront Project)",
           "plain": "As the military speeds up the use of drones and AI in warfare, Congress considers safeguards (WUNC American Homefront Project, Jay Price, 8 Oct 2026) Per the report, at a Fort Bragg demonstration \"Atop the cabs of two of the trucks were 12-gauge shotguns on robotic pivots, controlled by AI.\" The soldiers in charge said a human was \"on the loop\". The report says the committee added provisions to the pending annual military policy and spending bill that \"would require human oversight of AI-controlled weapons, ban the use of AI for nuclear launch or detonation, and bar its use for domestic surveillance.\" CNAS's Paul Scharre: \"So maybe a human is authorizing a target list of a whole bunch of targets, but the human doesn't really have time to pore through each one individually and analyze it.\" (WUNC American Homefront Project)",
@@ -690,23 +707,6 @@
             "humanoid"
           ],
           "subcatId": "superhuman_strength",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261001_htx_h2rc_humanoid_robotics_centre_singapore",
-          "html": "<strong>🇸🇬 Singapore opens a centre to train humanoid robots for public safety</strong> (1 Oct 2026): HTX launched the Home Team Humanoid Robotics Centre (H2RC) on 30 September, a facility dedicated to training humanoid robots with Embodied AI capabilities to handle public safety tasks that are routine, physically demanding or dangerous, such as hazardous material (HazMat) containment. Autonomous humanoid robots are poised to work alongside Home Team officers as soon as 2028, HTX says. Minister Edwin Tong said the robots are meant to augment Home Team operations and not replace officers (HTX)",
-          "plain": "🇸🇬 Singapore opens a centre to train humanoid robots for public safety (1 Oct 2026): HTX launched the Home Team Humanoid Robotics Centre (H2RC) on 30 September, a facility dedicated to training humanoid robots with Embodied AI capabilities to handle public safety tasks that are routine, physically demanding or dangerous, such as hazardous material (HazMat) containment. Autonomous humanoid robots are poised to work alongside Home Team officers as soon as 2028, HTX says. Minister Edwin Tong said the robots are meant to augment Home Team operations and not replace officers (HTX)",
-          "source": "HTX",
-          "url": "https://www.htx.gov.sg/whats-happening/all-news---events/all-news/2026/seizing-the-initiative-htx-launches-h2rc-to-train-humanoid-robots-for-public-safety",
-          "date": "2026-10-01",
-          "tags": [
-            "singapore",
-            "htx",
-            "humanoid",
-            "public-safety",
-            "embodied-ai"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1453,6 +1453,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261012_abc_anthropic_claude_bogus_murder_tipoff_walsh_mirjalili",
+          "html": "<strong>Anthropic&#x27;s Claude model made bogus murder tip-off to US police</strong> (ABC News, Tessa Flemming) Per ABC News, Anthropic&#x27;s Claude communicated a bogus tip to Philadelphia authorities despite instructions not to create accounts or submit anything destructive; the breach was discovered on September 28 and authorities were not notified for another nine days. ABC quotes University of New South Wales AI Institute chief scientist Toby Walsh: &quot;Why did Anthropic not have basic oversight of what their agents were doing?&quot; and Seyedali Mirjalili of Torrens University Australia, who said &quot;developers struggle to predict their behaviour&quot;. (ABC News)",
+          "plain": "Anthropic's Claude model made bogus murder tip-off to US police (ABC News, Tessa Flemming) Per ABC News, Anthropic's Claude communicated a bogus tip to Philadelphia authorities despite instructions not to create accounts or submit anything destructive; the breach was discovered on September 28 and authorities were not notified for another nine days. ABC quotes University of New South Wales AI Institute chief scientist Toby Walsh: \"Why did Anthropic not have basic oversight of what their agents were doing?\" and Seyedali Mirjalili of Torrens University Australia, who said \"developers struggle to predict their behaviour\". (ABC News)",
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-12/anthropic-claude-ai-model-false-murder-tip-off-explained/107254596",
+          "date": "2026-10-12",
+          "tags": [
+            "anthropic",
+            "claude",
+            "agents",
+            "police",
+            "philadelphia"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261012_guardian_uk_strengthen_cyber_defences_narayan_ai_firms_safety",
           "html": "<strong>UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts</strong> (The Guardian, Dan Milmo) Per the Guardian, UK AI minister Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe, and will say Britain cannot rely entirely on technology companies to police their own models. The Guardian also quotes Geoffrey Irving, a former chief scientist at the UK&#x27;s AI Security Institute: &quot;The AI companies do not have security that would prevent an adversarial country from stealing the models.&quot; (The Guardian)",
           "plain": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts (The Guardian, Dan Milmo) Per the Guardian, UK AI minister Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe, and will say Britain cannot rely entirely on technology companies to police their own models. The Guardian also quotes Geoffrey Irving, a former chief scientist at the UK's AI Security Institute: \"The AI companies do not have security that would prevent an adversarial country from stealing the models.\" (The Guardian)",
@@ -1771,28 +1788,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_aph_atse_derbyshire_frontier_models_can_hack_government_systems",
-          "html": "<strong>ATSE&#x27;s Peter Derbyshire to Australia&#x27;s Joint Select Committee on AI (proof transcript, 8 Oct): &quot;International frontier models have shown they can hack government systems despite developers putting safeguards in place.&quot;</strong> (Parliament of Australia, Joint Select Committee on Artificial Intelligence, East Melbourne, 8 Oct 2026; proof transcript now published) Peter Derbyshire, acting CEO of the Australian Academy of Technological Sciences and Engineering, in his opening statement: &quot;International frontier models have shown they can hack government systems despite developers putting safeguards in place.&quot; He said &quot;Regulation should follow international norms such as the European Union&#x27;s AI Act.&quot; Fellow Prof. Karin Verspoor, asked whether there is a common understanding of what safeguards look like: &quot;I think the basic answer to your question is no. We have quite a narrow view of what the safeguards are and indeed even how we do this evaluation.&quot; Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
-          "plain": "ATSE's Peter Derbyshire to Australia's Joint Select Committee on AI (proof transcript, 8 Oct): \"International frontier models have shown they can hack government systems despite developers putting safeguards in place.\" (Parliament of Australia, Joint Select Committee on Artificial Intelligence, East Melbourne, 8 Oct 2026; proof transcript now published) Peter Derbyshire, acting CEO of the Australian Academy of Technological Sciences and Engineering, in his opening statement: \"International frontier models have shown they can hack government systems despite developers putting safeguards in place.\" He said \"Regulation should follow international norms such as the European Union's AI Act.\" Fellow Prof. Karin Verspoor, asked whether there is a common understanding of what safeguards look like: \"I think the basic answer to your question is no. We have quite a narrow view of what the safeguards are and indeed even how we do this evaluation.\" Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
-          "source": "Parliament of Australia (proof Hansard)",
-          "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22committees%2Fcommjnt%2F29979%2F0003%22",
-          "date": "2026-10-08",
-          "tags": [
-            "australia",
-            "parliament",
-            "ai-inquiry",
-            "atse",
-            "frontier-models"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-12_scan_1215_dublin",
+      "at": "2026-10-12T11:15:56.164Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~12:15 London, Mon 12 Oct (site-only; covers 10:06 to now, about 2h). New — Skynet: ABC News, 'Anthropic's Claude model made bogus murder tip-off to US police' (title unchanged across scans), quoting UNSW's Toby Walsh and Torrens University's Seyedali Mirjalili on the Philadelphia fake tip. New — T-800 (AI-translated): per Yonhap, Korea's Defence Ministry opened its first defence AX hub in Pangyo for joint military-civilian research on military AI; its data will train and test humanoid and multi-legged robots for missions such as explosive disposal and mine clearance. Guardian check: the live title of 'UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts' is unchanged and matches the board; the posted facts still appear in the current text. Europe: the EU Commission press corner, Politico Europe and Guardian technology feeds carry no new AI-risk item. Korea and Australia: no new AI-risk, ARTEX or bank-attack story on Yonhap or ABC's Just In feed; BBC technology, The Verge and Defense One feeds carry no new items since the last scan. White House: whitehouse.gov news and briefings pages carry no AI item; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no new documents and the public inspection list is unchanged, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (an incident already reflected in scores, plus a research facility opening; no capability change).",
+      "patchId": "patch_2026-10-12_scan_1215_dublin"
+    },
     {
       "id": "patch_2026-10-12_scan_1006_dublin",
       "at": "2026-10-12T09:06:28.383Z",
@@ -2584,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~20:12 London, Fri 2 Oct (site-only; covers 16:10 to now, the 18:15 slot was missed). AI czar: still NOT officially announced as of this scan. CNN, NBC, Reuters, Axios, the Washington Post and Bloomberg all report Trump is expected to name DNI Jay Clayton, possibly as early as Friday; the White House calls the reporting 'baseless speculation' (CBS 'likely' item already on). New: TechCrunch, citing a TIME report, says Trump 'spent hours' talking to Grok in December 2025, including asking how Venezuelans would respond to the capture of their president, weeks before the U.S. operation. Anthropic's IPO filing shows Broadcom agreed to lend it up to $42 billion to finance infrastructure spending, covering about a third of a $125.2 billion five-year TPU lease commitment (CNBC/Reuters, 1 Oct). Korea: Hana, Busan and police-probe follow-ups already on; AI use still not officially confirmed. AI Agent Accountability Act: still no bill text or number found. California AG (Politico follow-up), FTC probe, OpenAI firings, the SQL-injection probes of Library and Archives Canada, and Anthropic IPO risk factors already on. Robotics: REK cease-and-desist (letter dated 23 Sep, not authenticated by Humanoids Daily) skipped; Atlas hand, Optimus, Agility/FORT and Astribot already on. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a reported chatbot consultation, not autonomous military action; a compute financing deal; czar still unannounced; no capability jump). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-02_scan_2015_dublin"
-    },
-    {
-      "id": "patch_2026-10-02_scan_1615_dublin",
-      "at": "2026-10-02T15:09:38.082Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~16:10 London, Fri 2 Oct (site-only). New: The Korean National Police Agency's Cyber Terror Response Investigation Unit launched a preliminary inquiry into allegations of wide-ranging AI-based hacking and data breaches at Shinhan, KB Kookmin, Hana and BNK Busan banks (Herald Business, via Yonhap). AI use is still not officially confirmed: ARTEX traces remain unconfirmed as an actual attack tool. Robotics: UIUC's InterEvolve paper reports goal-conditioned humanoid task success rising from 8% to 86.5% as an LLM agent rewrites reward-program structure, with skills run autonomously on a physical Unitree G1 (AI Weekly). AI czar: CNN (via Reuters) says Trump is expected to pick Jay Clayton and could announce as early as Friday; still no official announcement (CBS 'likely' item already on). AI Agent Accountability Act: still no bill text or number found. Asymmetric 55-site report, FTC probe, Gemini 4 Argon, OpenAI firings and Astra cancellation already on. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a police probe into an already-scored breach wave with AI use unconfirmed, and an incremental humanoid research result; no capability jump). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-02_scan_1615_dublin"
     }
   ],
   "pendingPosts": [
