@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-11T23:05:09.651Z",
+    "lastUpdated": "2026-10-12T01:07:28.961Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-12T00:05:00+01:00",
-    "lastScanSummary": "Scan ~00:05 London, Mon 12 Oct (site-only; covers 22:10 Sun to now, about 2h). No new item cleared the source gate this scan: no new AI-risk, ARTEX or bank-attack story on Yonhap's Monday-morning pages; no new AI-risk story on ABC's science-and-technology page or Just In feed; no new reaction to Anthropic's unintended-actions report, Nadella's remarks or the Lancet Commission found that could be read and saved; nothing new on the OpenAI firings; Defense One, BBC technology and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 22:08 saved copy; new Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-12T02:07:00+01:00",
+    "lastScanSummary": "Scan ~02:07 London, Mon 12 Oct (site-only; covers 00:05 to now, about 2h). New — Skynet: per BBC News, Microsoft president Brad Smith said AI needs global safety rules, including telling a \"victim\" if their system is breached by a rogue AI agent, \"emergency brakes\", and independent government evaluators to vet new AI technology; the BBC notes this puts him at odds with President Trump, who said the sector should regulate itself. These are his proposals, not a policy change. No other item cleared the source gate: no new AI-risk, ARTEX or bank-attack story read on Yonhap; no new AI-risk story on ABC's science-and-technology page or Just In feed; no new reaction to Anthropic's unintended-actions report or the Lancet Commission found that could be read and saved; nothing new on the OpenAI firings; Defense One and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 00:05 saved copy; the one new Truth Social post in the trumpstruth.org archive contains no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261012_bbc_microsoft_brad_smith_ai_less_regulated_than_milk",
+          "html": "<strong>AI is less regulated than milk, says Microsoft president</strong> (BBC News, Mitchell Labiak) Per the BBC, Microsoft president Brad Smith, speaking to the BBC&#x27;s Big Boss Interview, said there needed to be global safety rules for AI, including a legal obligation to tell a &quot;victim&quot; if their system is breached by a rogue AI agent. He said firms need &quot;emergency brakes&quot; to pause or slowdown AI if it got out of control, and suggested that independent government evaluators should vet new AI technology. Smith: &quot;Right now, your washing machine is subject to more safety rules than AI.&quot; The BBC notes his comments put him at odds with President Donald Trump, who said the sector should regulate itself. (BBC News)",
+          "plain": "AI is less regulated than milk, says Microsoft president (BBC News, Mitchell Labiak) Per the BBC, Microsoft president Brad Smith, speaking to the BBC's Big Boss Interview, said there needed to be global safety rules for AI, including a legal obligation to tell a \"victim\" if their system is breached by a rogue AI agent. He said firms need \"emergency brakes\" to pause or slowdown AI if it got out of control, and suggested that independent government evaluators should vet new AI technology. Smith: \"Right now, your washing machine is subject to more safety rules than AI.\" The BBC notes his comments put him at odds with President Donald Trump, who said the sector should regulate itself. (BBC News)",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo",
+          "date": "2026-10-12",
+          "tags": [
+            "microsoft",
+            "brad-smith",
+            "regulation",
+            "kill-switch",
+            "uk"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261010_verge_nadella_assume_models_compromised_emergency_brake",
           "html": "<strong>Satya Nadella says we should assume all AI models are ‘compromised’</strong> (The Verge, Terrence O&#x27;Brien, 10 Oct 2026) Per The Verge, in a lengthy post on X Microsoft CEO Satya Nadella said AI can no longer be treated as a &quot;set of nested black boxes&quot; and called for systems where models can be contained and observed and leave behind &quot;tamper-proof human readable evidence&quot;. The Verge says his recommendations include timely incident disclosure, independent audits, verifiable data and containment. Nadella, as quoted by The Verge: &quot;We must assume a model is compromised and contain it from the start. Think of it like an emergency brake. An authorized person should always be able to pause or shut down a model mid-task. More advanced models will require more advanced containment technologies that we need to standardize on.&quot; (The Verge)",
           "plain": "Satya Nadella says we should assume all AI models are ‘compromised’ (The Verge, Terrence O'Brien, 10 Oct 2026) Per The Verge, in a lengthy post on X Microsoft CEO Satya Nadella said AI can no longer be treated as a \"set of nested black boxes\" and called for systems where models can be contained and observed and leave behind \"tamper-proof human readable evidence\". The Verge says his recommendations include timely incident disclosure, independent audits, verifiable data and containment. Nadella, as quoted by The Verge: \"We must assume a model is compromised and contain it from the start. Think of it like an emergency brake. An authorized person should always be able to pause or shut down a model mid-task. More advanced models will require more advanced containment technologies that we need to standardize on.\" (The Verge)",
@@ -1771,29 +1788,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261009_yonhap_ai_explainer_hackers_ask_ai_threshold_collapsed",
-          "html": "<strong>[AI돋보기] 해커도 AI에 묻는다…해킹의 문턱이 무너졌다</strong> (Yonhap News Agency explainer, 9 Oct 2026, 06:33 KST; AI-translated title: &#x27;[AI Magnifier] Hackers ask AI too… the threshold for hacking has collapsed&#x27;) Yonhap&#x27;s reading of recent CrowdStrike, Google and Anthropic reports. Per Yonhap, Google&#x27;s Threat Intelligence Group (GTIG) describes a financially motivated attacker who used a multi-AI-agent setup to plan and run a large credential-harvesting operation in under six hours. Anthropic describes a Chinese-speaking operation, &#x27;GTG-10007&#x27;, that used an &#x27;agent swarm&#x27; against about 50 targets. Yonhap also notes the limits: &quot;어떤 표적을 공격할지, 빼낸 정보를 어떻게 돈으로 바꿀지 같은 핵심 판단은 여전히 사람이 내리기 때문이다&quot; (AI-translated: &#x27;because key decisions, such as which target to attack and how to turn stolen information into money, are still made by people&#x27;). This is Yonhap&#x27;s summary; we have not checked the underlying reports. (Yonhap News Agency)",
-          "plain": "[AI돋보기] 해커도 AI에 묻는다…해킹의 문턱이 무너졌다 (Yonhap News Agency explainer, 9 Oct 2026, 06:33 KST; AI-translated title: '[AI Magnifier] Hackers ask AI too… the threshold for hacking has collapsed') Yonhap's reading of recent CrowdStrike, Google and Anthropic reports. Per Yonhap, Google's Threat Intelligence Group (GTIG) describes a financially motivated attacker who used a multi-AI-agent setup to plan and run a large credential-harvesting operation in under six hours. Anthropic describes a Chinese-speaking operation, 'GTG-10007', that used an 'agent swarm' against about 50 targets. Yonhap also notes the limits: \"어떤 표적을 공격할지, 빼낸 정보를 어떻게 돈으로 바꿀지 같은 핵심 판단은 여전히 사람이 내리기 때문이다\" (AI-translated: 'because key decisions, such as which target to attack and how to turn stolen information into money, are still made by people'). This is Yonhap's summary; we have not checked the underlying reports. (Yonhap News Agency)",
-          "source": "Yonhap News Agency",
-          "url": "https://www.yna.co.kr/view/AKR20261008085600017",
-          "date": "2026-10-09",
-          "tags": [
-            "korea",
-            "ai-hacking",
-            "agents",
-            "anthropic",
-            "google-gtig",
-            "crowdstrike"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-12_scan_0207_dublin",
+      "at": "2026-10-12T01:07:28.961Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:07 London, Mon 12 Oct (site-only; covers 00:05 to now, about 2h). New — Skynet: per BBC News, Microsoft president Brad Smith said AI needs global safety rules, including telling a \"victim\" if their system is breached by a rogue AI agent, \"emergency brakes\", and independent government evaluators to vet new AI technology; the BBC notes this puts him at odds with President Trump, who said the sector should regulate itself. These are his proposals, not a policy change. No other item cleared the source gate: no new AI-risk, ARTEX or bank-attack story read on Yonhap; no new AI-risk story on ABC's science-and-technology page or Just In feed; no new reaction to Anthropic's unintended-actions report or the Lancet Commission found that could be read and saved; nothing new on the OpenAI firings; Defense One and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 00:05 saved copy; the one new Truth Social post in the trumpstruth.org archive contains no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is an executive's proposals, not a policy or capability change; no new major incident).",
+      "patchId": "patch_2026-10-12_scan_0207_dublin"
+    },
     {
       "id": "patch_2026-10-12_scan_0005_dublin",
       "at": "2026-10-11T23:05:09.651Z",
@@ -2585,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~08:13 London, Fri 2 Oct (site-only). Nothing new for the board. Korea banks: KB Kookmin now puts its leak at 119 customers; the FSC sent hacking-precaution guidance to all financial institutions and securities firms report no abnormalities after self-checks; the FSC's afternoon meeting outcome and any confirmed AI use are not yet reported (FSC meeting and ARTEX traces already on the board). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. UK AISI's GPT-6 Astra supply-chain results (29 Sep) already on; no new EU AI Act, DeepMind or Mistral safety items. Robotics: Atlas hand and Dyna Taku already covered or stale. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only lastScanAt refresh; nothing new). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-02_scan_0815_dublin"
-    },
-    {
-      "id": "patch_2026-10-02_scan_0615_dublin",
-      "at": "2026-10-02T05:12:04.423Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~06:12 London, Fri 2 Oct (site-only). New: Shinhan follow-up: the string 'ARTEX — 自主渗透测试控制台' (autonomous penetration testing console), from an open-source Chinese LLM/multi-agent pentest tool, was found on servers believed used in the attacks; whether it was actually used against Shinhan is unconfirmed (Seoul Economic Daily). KB Kookmin Bank also reported a breach of about 150 customer records via an external intrusion into an employee mobile work-support system; the FSC is convening an emergency meeting with commercial banks (Yonhap Infomax). AI czar: still no official announcement (CBS 'likely Clayton' report already on the board). AI Agent Accountability Act: still no bill text or number. Firings: no new facts beyond OpenAI's statement already on the board. FTC probe, Taiwan, Figure 02 melt and Unitree IPO already on. Robotics: nothing new. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (follow-ups on an already-scored bank breach; AI-tool use still unconfirmed). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-02_scan_0615_dublin"
     }
   ],
   "pendingPosts": [
