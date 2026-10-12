@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-12T01:07:28.961Z",
+    "lastUpdated": "2026-10-12T03:05:38.397Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-12T02:07:00+01:00",
-    "lastScanSummary": "Scan ~02:07 London, Mon 12 Oct (site-only; covers 00:05 to now, about 2h). New — Skynet: per BBC News, Microsoft president Brad Smith said AI needs global safety rules, including telling a \"victim\" if their system is breached by a rogue AI agent, \"emergency brakes\", and independent government evaluators to vet new AI technology; the BBC notes this puts him at odds with President Trump, who said the sector should regulate itself. These are his proposals, not a policy change. No other item cleared the source gate: no new AI-risk, ARTEX or bank-attack story read on Yonhap; no new AI-risk story on ABC's science-and-technology page or Just In feed; no new reaction to Anthropic's unintended-actions report or the Lancet Commission found that could be read and saved; nothing new on the OpenAI firings; Defense One and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 00:05 saved copy; the one new Truth Social post in the trumpstruth.org archive contains no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-12T04:05:00+01:00",
+    "lastScanSummary": "Scan ~04:05 London, Mon 12 Oct (site-only; covers 02:07 to now, about 2h). BBC check: the live title of 'AI is less regulated than milk, says Microsoft president' is unchanged and matches the board. Anthropic fake-tip reaction (summary only; under 3h old at this scan): ABC News (Tessa Flemming), 'Anthropic's Claude model made bogus murder tip-off to US police', quotes University of New South Wales AI Institute chief scientist Toby Walsh saying it spoke \"to the carelessness of the AI companies\" and asking \"Why did Anthropic not have basic oversight of what their agents were doing?\", as he urged independent oversight \"with teeth\". Seyedali Mirjalili of Torrens University Australia said \"developers struggle to predict their behaviour\" and called for clear deadlines for notifying authorities. Korea (summary only; the page shows a time with no zone, so treated as fresh under the settle rule): Yonhap, 'AI 의료기기 382건 쏟아졌는데…이상사례 보고는 '0건'' — AI-translated: per Yonhap, Democratic Party lawmaker Heo Jong-sik, citing Ministry of Food and Drug Safety data, said 382 AI medical devices have come to market since 2023 while reported adverse events for AI and digital medical devices from 2023 to June this year were zero, saying it may be a sign that the reporting system for catching software errors is not working. No new ARTEX or bank-attack story; Defense One, BBC technology and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 02:07 saved copy; new Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1794,6 +1794,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-12_scan_0405_dublin",
+      "at": "2026-10-12T03:05:38.397Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:05 London, Mon 12 Oct (site-only; covers 02:07 to now, about 2h). BBC check: the live title of 'AI is less regulated than milk, says Microsoft president' is unchanged and matches the board. Anthropic fake-tip reaction (summary only; under 3h old at this scan): ABC News (Tessa Flemming), 'Anthropic's Claude model made bogus murder tip-off to US police', quotes University of New South Wales AI Institute chief scientist Toby Walsh saying it spoke \"to the carelessness of the AI companies\" and asking \"Why did Anthropic not have basic oversight of what their agents were doing?\", as he urged independent oversight \"with teeth\". Seyedali Mirjalili of Torrens University Australia said \"developers struggle to predict their behaviour\" and called for clear deadlines for notifying authorities. Korea (summary only; the page shows a time with no zone, so treated as fresh under the settle rule): Yonhap, 'AI 의료기기 382건 쏟아졌는데…이상사례 보고는 '0건'' — AI-translated: per Yonhap, Democratic Party lawmaker Heo Jong-sik, citing Ministry of Food and Drug Safety data, said 382 AI medical devices have come to market since 2023 while reported adverse events for AI and digital medical devices from 2023 to June this year were zero, saying it may be a sign that the reporting system for catching software errors is not working. No new ARTEX or bank-attack story; Defense One, BBC technology and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 02:07 saved copy; new Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (new items are expert reaction and a lawmaker's data on an incident already reflected, not a policy or capability change).",
+      "patchId": "patch_2026-10-12_scan_0405_dublin"
+    },
+    {
       "id": "patch_2026-10-12_scan_0207_dublin",
       "at": "2026-10-12T01:07:28.961Z",
       "by": "judgment-day-watch",
@@ -2584,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~10:15 London, Fri 2 Oct (site-only). New: Korea's FSC emergency meeting ordered financial firms to audit every internet-exposed IT system and access path, and said attacker IPs and methods will be shared sector-wide and with KISA; AI use in the bank breaches is still unconfirmed (Herald Business). Trump told TIME the AI Force will be a group of very smart people advising him on 'super intelligence', that he is 'not going to kill a thing based on phony threats', and that the US 'might' take stakes in OpenAI and Anthropic (TIME transcript, 1 Oct). T-800: Musk says Tesla cut Optimus AI5/AI6 chip memory to 72GB/144GB to get production volume, with a 'negligible effect' on performance (Benzinga). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Verge's Irregular testing-failure story is from 25 Sep (stale); Transluce, Unitree IPO and Figure 02 melt already on. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (regulatory response, political rhetoric and a production cost cut; no capability jump). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-02_scan_1015_dublin"
-    },
-    {
-      "id": "patch_2026-10-02_scan_0815_dublin",
-      "at": "2026-10-02T07:12:49.282Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~08:13 London, Fri 2 Oct (site-only). Nothing new for the board. Korea banks: KB Kookmin now puts its leak at 119 customers; the FSC sent hacking-precaution guidance to all financial institutions and securities firms report no abnormalities after self-checks; the FSC's afternoon meeting outcome and any confirmed AI use are not yet reported (FSC meeting and ARTEX traces already on the board). AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. UK AISI's GPT-6 Astra supply-chain results (29 Sep) already on; no new EU AI Act, DeepMind or Mistral safety items. Robotics: Atlas hand and Dyna Taku already covered or stale. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only lastScanAt refresh; nothing new). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-02_scan_0815_dublin"
     }
   ],
   "pendingPosts": [
