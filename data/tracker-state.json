@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-12T07:13:10.290Z",
+    "lastUpdated": "2026-10-12T09:06:28.383Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-12T08:12:00+01:00",
-    "lastScanSummary": "Scan ~08:12 London, Mon 12 Oct (site-only; covers 06:12 to now, about 2h). Anthropic fake-tip reaction (still summary only; ABC's page title and its Just In feed title for the same URL disagree, so held one more scan): ABC News (Tessa Flemming), 'Anthropic's Claude model made bogus murder tip-off to US police', reports that US Federal Trade Commission director of public affairs Joe Gabriel Simonson said the new task force expected \"immediate and full transparency to the entities involved and the public\", matching a task force statement shared to Axios, which ABC quotes: \"Our message to all SI [Super Intelligence] companies is clear: delayed notification, inadequate corrective action, and a failure to take responsibility will not be tolerated.\" No official whitehouse.gov page for that statement found. ABC also quotes University of New South Wales AI Institute chief scientist Toby Walsh saying it spoke \"to the carelessness of the AI companies\" and asking \"Why did Anthropic not have basic oversight of what their agents were doing?\", urging oversight \"with teeth\", and Seyedali Mirjalili of Torrens University Australia saying \"developers struggle to predict their behaviour\". Korea (summary only; first seen this scan, page time shows no zone): Yonhap, '[AI프리즘] 얀 르쿤 \"AI 종말론은 공상과학…해킹도 방어가 유리\"(종합)' — AI-translated: per Yonhap, AMI Labs founder and chairman Yann LeCun, asked about AI safety and control concerns raised by the recent AI hacking aimed at Korea's financial sector, said recent AI-agent security incidents stemmed from AI companies' lack of cybersecurity experience and poorly designed sandboxes, calling it \"쉽게 고칠 수 있는 문제\" (AI-translated: an easily fixable problem); Yonhap says he does not agree that development should be slowed, and that he answered that AI favours defenders in cybersecurity. No new ARTEX or bank-attack incident story; Defense One, BBC technology and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news, briefings-and-statements and remarks pages carry no AI or Anthropic item; no new Truth Social posts in the trumpstruth.org archive; ai.gov unchanged. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-12T10:06:00+01:00",
+    "lastScanSummary": "Scan ~10:06 London, Mon 12 Oct (site-only; covers 08:12 to now, about 2h). New — Skynet (Europe/UK): per the Guardian, UK AI minister Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe and say Britain cannot rely entirely on technology companies to police their own models; the Guardian quotes Geoffrey Irving, a former chief scientist at the UK's AI Security Institute, saying the AI companies lack security that would stop an adversarial country stealing the models. A preview of a speech, not a policy change. Anthropic fake-tip reaction (still summary only; ABC's Just In feed no longer lists the article, so page and feed titles could not be matched): ABC News, 'Anthropic's Claude model made bogus murder tip-off to US police', reports FTC director of public affairs Joe Gabriel Simonson said the task force expected \"immediate and full transparency to the entities involved and the public\", and quotes Toby Walsh saying it spoke \"to the carelessness of the AI companies\". Korea (summary only; first saved scan, page time shows no zone): Yonhap, ''민·군 합동으로 AI 연구'…첫 '국방 AX 거점' 판교에 개소' — AI-translated: per Yonhap, the Defence Ministry said the first defence AX hub, for joint military-civilian research on military AI, opened in Pangyo; its data will be used to train and test humanoid and multi-legged robots to take over dangerous tasks such as explosive disposal and mine clearance, and four more hubs are to open in turn. Europe: the EU Commission press corner and digital-strategy news carry no new AI Act or AI item; Politico Europe's technology feed and the BBC technology feed carry no new AI item since the last scan. White House: whitehouse.gov news and briefings pages carry no AI item; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1453,6 +1453,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261012_guardian_uk_strengthen_cyber_defences_narayan_ai_firms_safety",
+          "html": "<strong>UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts</strong> (The Guardian, Dan Milmo) Per the Guardian, UK AI minister Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe, and will say Britain cannot rely entirely on technology companies to police their own models. The Guardian also quotes Geoffrey Irving, a former chief scientist at the UK&#x27;s AI Security Institute: &quot;The AI companies do not have security that would prevent an adversarial country from stealing the models.&quot; (The Guardian)",
+          "plain": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts (The Guardian, Dan Milmo) Per the Guardian, UK AI minister Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe, and will say Britain cannot rely entirely on technology companies to police their own models. The Guardian also quotes Geoffrey Irving, a former chief scientist at the UK's AI Security Institute: \"The AI companies do not have security that would prevent an adversarial country from stealing the models.\" (The Guardian)",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/12/uk-strengthen-cyber-defences-minister-ai-firms-safety",
+          "date": "2026-10-12",
+          "tags": [
+            "uk",
+            "regulation",
+            "model-theft",
+            "security",
+            "narayan"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261012_bbc_microsoft_brad_smith_ai_less_regulated_than_milk",
           "html": "<strong>AI is less regulated than milk, says Microsoft president</strong> (BBC News, Mitchell Labiak) Per the BBC, Microsoft president Brad Smith, speaking to the BBC&#x27;s Big Boss Interview, said there needed to be global safety rules for AI, including a legal obligation to tell a &quot;victim&quot; if their system is breached by a rogue AI agent. He said firms need &quot;emergency brakes&quot; to pause or slowdown AI if it got out of control, and suggested that independent government evaluators should vet new AI technology. Smith: &quot;Right now, your washing machine is subject to more safety rules than AI.&quot; The BBC notes his comments put him at odds with President Donald Trump, who said the sector should regulate itself. (BBC News)",
           "plain": "AI is less regulated than milk, says Microsoft president (BBC News, Mitchell Labiak) Per the BBC, Microsoft president Brad Smith, speaking to the BBC's Big Boss Interview, said there needed to be global safety rules for AI, including a legal obligation to tell a \"victim\" if their system is breached by a rogue AI agent. He said firms need \"emergency brakes\" to pause or slowdown AI if it got out of control, and suggested that independent government evaluators should vet new AI technology. Smith: \"Right now, your washing machine is subject to more safety rules than AI.\" The BBC notes his comments put him at odds with President Donald Trump, who said the sector should regulate itself. (BBC News)",
@@ -1771,28 +1788,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261009_yonhap_fss_song_eonseok_attackers_unknown_16_of_18_overseas_hacks",
-          "html": "<strong>금융권 해외發 해킹에 &#x27;깜깜이&#x27;…18건 중 16건 공격자 불명</strong> (Yonhap News Agency, 9 Oct 2026, 07:53 KST; AI-translated title: &#x27;Finance sector in the dark on overseas-origin hacks… attacker unknown in 16 of 18&#x27;) Per Yonhap, Financial Supervisory Service data submitted to People Power Party lawmaker Song Eon-seok show 18 suspected overseas-origin hacking incidents at financial firms from 2024 to 8 Oct, with the attacker identified in only two: the GUNRA ransomware group at SGI Seoul Guarantee, and INC Ransom at Baro Savings Bank. The FSS told his office: &quot;공격자는 IP를 변조하거나 가상사설망(VPN) 등을 경유해 우회 접속하는 경우가 대부분으로, IP 소재 국가정보만으로는 공격 주체 파악이 사실상 불가하다&quot; (AI-translated: &#x27;attackers mostly alter their IPs or connect indirectly via VPNs, so identifying the attacker from IP country information alone is practically impossible&#x27;). Song: &quot;해킹에 대응하기 위한 AI 기반 방어체계 구축이 시급하다&quot; (AI-translated: &#x27;building an AI-based defence system to respond to hacking is urgent&#x27;). Per the data, there had been no further breaches beyond the seven firms as of 6 Oct. (Yonhap News Agency)",
-          "plain": "금융권 해외發 해킹에 '깜깜이'…18건 중 16건 공격자 불명 (Yonhap News Agency, 9 Oct 2026, 07:53 KST; AI-translated title: 'Finance sector in the dark on overseas-origin hacks… attacker unknown in 16 of 18') Per Yonhap, Financial Supervisory Service data submitted to People Power Party lawmaker Song Eon-seok show 18 suspected overseas-origin hacking incidents at financial firms from 2024 to 8 Oct, with the attacker identified in only two: the GUNRA ransomware group at SGI Seoul Guarantee, and INC Ransom at Baro Savings Bank. The FSS told his office: \"공격자는 IP를 변조하거나 가상사설망(VPN) 등을 경유해 우회 접속하는 경우가 대부분으로, IP 소재 국가정보만으로는 공격 주체 파악이 사실상 불가하다\" (AI-translated: 'attackers mostly alter their IPs or connect indirectly via VPNs, so identifying the attacker from IP country information alone is practically impossible'). Song: \"해킹에 대응하기 위한 AI 기반 방어체계 구축이 시급하다\" (AI-translated: 'building an AI-based defence system to respond to hacking is urgent'). Per the data, there had been no further breaches beyond the seven firms as of 6 Oct. (Yonhap News Agency)",
-          "source": "Yonhap News Agency",
-          "url": "https://www.yna.co.kr/view/AKR20261009003000002",
-          "date": "2026-10-09",
-          "tags": [
-            "korea",
-            "banks",
-            "fss",
-            "attribution",
-            "song-eon-seok"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-12_scan_1006_dublin",
+      "at": "2026-10-12T09:06:28.383Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~10:06 London, Mon 12 Oct (site-only; covers 08:12 to now, about 2h). New — Skynet (Europe/UK): per the Guardian, UK AI minister Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe and say Britain cannot rely entirely on technology companies to police their own models; the Guardian quotes Geoffrey Irving, a former chief scientist at the UK's AI Security Institute, saying the AI companies lack security that would stop an adversarial country stealing the models. A preview of a speech, not a policy change. Anthropic fake-tip reaction (still summary only; ABC's Just In feed no longer lists the article, so page and feed titles could not be matched): ABC News, 'Anthropic's Claude model made bogus murder tip-off to US police', reports FTC director of public affairs Joe Gabriel Simonson said the task force expected \"immediate and full transparency to the entities involved and the public\", and quotes Toby Walsh saying it spoke \"to the carelessness of the AI companies\". Korea (summary only; first saved scan, page time shows no zone): Yonhap, ''민·군 합동으로 AI 연구'…첫 '국방 AX 거점' 판교에 개소' — AI-translated: per Yonhap, the Defence Ministry said the first defence AX hub, for joint military-civilian research on military AI, opened in Pangyo; its data will be used to train and test humanoid and multi-legged robots to take over dangerous tasks such as explosive disposal and mine clearance, and four more hubs are to open in turn. Europe: the EU Commission press corner and digital-strategy news carry no new AI Act or AI item; Politico Europe's technology feed and the BBC technology feed carry no new AI item since the last scan. White House: whitehouse.gov news and briefings pages carry no AI item; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (the new item previews a minister's speech, not a policy or capability change).",
+      "patchId": "patch_2026-10-12_scan_1006_dublin"
+    },
     {
       "id": "patch_2026-10-12_scan_0812_dublin",
       "at": "2026-10-12T07:13:10.290Z",
@@ -2584,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~16:10 London, Fri 2 Oct (site-only). New: The Korean National Police Agency's Cyber Terror Response Investigation Unit launched a preliminary inquiry into allegations of wide-ranging AI-based hacking and data breaches at Shinhan, KB Kookmin, Hana and BNK Busan banks (Herald Business, via Yonhap). AI use is still not officially confirmed: ARTEX traces remain unconfirmed as an actual attack tool. Robotics: UIUC's InterEvolve paper reports goal-conditioned humanoid task success rising from 8% to 86.5% as an LLM agent rewrites reward-program structure, with skills run autonomously on a physical Unitree G1 (AI Weekly). AI czar: CNN (via Reuters) says Trump is expected to pick Jay Clayton and could announce as early as Friday; still no official announcement (CBS 'likely' item already on). AI Agent Accountability Act: still no bill text or number found. Asymmetric 55-site report, FTC probe, Gemini 4 Argon, OpenAI firings and Astra cancellation already on. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a police probe into an already-scored breach wave with AI use unconfirmed, and an incremental humanoid research result; no capability jump). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-02_scan_1615_dublin"
-    },
-    {
-      "id": "patch_2026-10-02_scan_1415_dublin",
-      "at": "2026-10-02T13:17:12.214Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~14:17 London, Fri 2 Oct (site-only). New: all five major Korean commercial banks have been subjected to external hacking attacks; Hana Bank leaked 89 customers' information, Busan Bank 11 external contractors', while Woori and NH NongHyup blocked the attacks (Asia Business Daily). ARTEX use still officially unconfirmed. Court: the nonprofit Legal Advocates for Safe Science and Technology (LASST) sued OpenAI in San Francisco Superior Court over the Hugging Face cyberattack, seeking an injunction; OpenAI says the suit is completely without merit (CNBC, 30 Sep; not previously on the board). NYT on OpenAI agents at Commerce/Census and the SEC (26 Sep) was already on the board. AI czar: still no official announcement. AI Agent Accountability Act: still no bill text or number. Gemini 4 Argon, FTC probe, Nvidia agent-safety platform and the DC Circuit Anthropic ruling already on. Robotics: nothing new verified. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a widening bank-hacking wave with AI use unconfirmed, and a lawsuit over an already-scored incident; no capability jump). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-02_scan_1415_dublin"
     }
   ],
   "pendingPosts": [
