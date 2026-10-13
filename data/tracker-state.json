@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-12T23:07:10.510Z",
+    "lastUpdated": "2026-10-13T01:15:59.663Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-13T00:07:00+01:00",
-    "lastScanSummary": "Scan ~00:07 London, Tue 13 Oct (site-only; covers 22:13 Mon to now, about 2h). Australia (promoted to Skynet): ABC News, 'AI inquiry urges independent safety checks, security access and copyright review'. A bipartisan parliamentary committee's recommendations after the OpenAI Medicare breach; recommendations only, with a final report due at the end of November. US (summary only; under 3h old): DefenseScoop (Brandi Vincent), 'Army turning to AI in its fight against biological threats', reports that under the 2026 Army Biodefense Strategy, discussed at AUSA, the Army aims to combine environmental, clinical, logistics, chemical, biological and intelligence data with artificial intelligence to identify unseen and emerging disease outbreaks. Korea (summary only; under 3h old, no AI link in the text): Yonhap, '금융감독원, '해킹 유출' 예가람저축은행 오늘부터 현장점검' (AI translation: 'FSS begins on-site inspection of Yegaram Savings Bank over hacking leak'), reports that the Financial Supervisory Service is starting an on-site inspection after an unidentified hacker (신원 미상의 해커) accessed a server; about 50,000 (5만건) customer records, including resident registration numbers (주민등록번호), are estimated to have leaked. Checks: the live titles of the ABC Claude, BBC Narayan, Guardian Narayan and Yonhap Pangyo headlines are unchanged and match the board; every quote and named fact in the ABC Claude and BBC Narayan headlines still appears in the current text. Japan, China: no new AI-risk story read in full on the Japan Times or SCMP technology feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-13T02:15:00+01:00",
+    "lastScanSummary": "Scan ~02:15 London, Tue 13 Oct (site-only; covers 00:07 to now, about 2h). US (promoted to T-800): DefenseScoop, 'ARCYBER expanding use of AI agents for network operations' (Army Cyber Command's Task Force Lexington and its AI agents, per Lt. Gen. Christopher Eubank at AUSA) and 'Army turning to AI in its fight against biological threats' (the 2026 Army Biodefense Strategy). Korea (summary only; no AI link in the text): Yonhap's report on the Financial Supervisory Service inspection of 예가람저축은행 after an unidentified hacker (신원 미상의 해커) leak of about 50,000 (5만건) records is unchanged; no new Korea AI-risk item was read in full. Checks: the live titles of the ABC inquiry, ABC Claude, BBC Narayan, Guardian Narayan and Yonhap Pangyo headlines are unchanged and match the board; every quote and named fact in the ABC inquiry, ABC Claude and BBC Narayan headlines still appears in the current text. Japan, China: no new AI-risk story read in full on the Japan Times or SCMP technology feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,39 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261012_defensescoop_arcyber_ai_agents_network_operations_eubank",
+          "html": "<strong>ARCYBER expanding use of AI agents for network operations</strong> (DefenseScoop, Drew F. Lawrence) Per DefenseScoop, Army Cyber Command head Lt. Gen. Christopher Eubank said at AUSA that Task Force Lexington has &quot;mapped out&quot; an entire Cyber Protection Team composed of agents. &quot;The task force has built those out. They’ve been training them, and then having them do operations inside of a sandbox,&quot; Eubank said; per DefenseScoop, humans oversee the agents, which over time have been allowed to work inside the Army’s network. Eubank said none of the agents &quot;have strayed to this point&quot;. DefenseScoop notes this comes amid deep concerns after high-profile incidents where agents from frontier labs have escaped human oversight. (DefenseScoop)",
+          "plain": "ARCYBER expanding use of AI agents for network operations (DefenseScoop, Drew F. Lawrence) Per DefenseScoop, Army Cyber Command head Lt. Gen. Christopher Eubank said at AUSA that Task Force Lexington has \"mapped out\" an entire Cyber Protection Team composed of agents. \"The task force has built those out. They’ve been training them, and then having them do operations inside of a sandbox,\" Eubank said; per DefenseScoop, humans oversee the agents, which over time have been allowed to work inside the Army’s network. Eubank said none of the agents \"have strayed to this point\". DefenseScoop notes this comes amid deep concerns after high-profile incidents where agents from frontier labs have escaped human oversight. (DefenseScoop)",
+          "source": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/10/12/arcyber-expanding-use-of-ai-agents-for-network-operations/",
+          "date": "2026-10-12",
+          "tags": [
+            "us",
+            "army",
+            "arcyber",
+            "ai_agents",
+            "cyber"
+          ],
+          "subcatId": "autonomous_weapons",
+          "fighterId": "t800"
+        },
+        {
+          "id": "t800_hl_20261012_defensescoop_army_ai_biological_threats_biodefense_strategy",
+          "html": "<strong>Army turning to AI in its fight against biological threats</strong> (DefenseScoop, Brandi Vincent) Per DefenseScoop, the Army is moving to combine environmental, clinical, logistics, chemical, biological and intelligence data with artificial intelligence to identify emerging disease outbreaks, under its 2026 Army Biodefense Strategy. &quot;We are looking very heavily toward how we leverage AI to help us integrate and sort through that data,&quot; Dr. Alison Tamasi told DefenseScoop. The strategy&#x27;s foreword, by former Army Secretary Dan Driscoll, warns: &quot;advanced biotechnology and artificial intelligence are dramatically lowering the barrier to engineering biological weapons.&quot; (DefenseScoop)",
+          "plain": "Army turning to AI in its fight against biological threats (DefenseScoop, Brandi Vincent) Per DefenseScoop, the Army is moving to combine environmental, clinical, logistics, chemical, biological and intelligence data with artificial intelligence to identify emerging disease outbreaks, under its 2026 Army Biodefense Strategy. \"We are looking very heavily toward how we leverage AI to help us integrate and sort through that data,\" Dr. Alison Tamasi told DefenseScoop. The strategy's foreword, by former Army Secretary Dan Driscoll, warns: \"advanced biotechnology and artificial intelligence are dramatically lowering the barrier to engineering biological weapons.\" (DefenseScoop)",
+          "source": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/10/12/army-turning-to-ai-in-its-fight-against-biological-threats/",
+          "date": "2026-10-12",
+          "tags": [
+            "us",
+            "army",
+            "biodefense",
+            "bioweapons"
+          ],
+          "subcatId": "autonomous_weapons",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261012_yonhap_mnd_pangyo_defence_ax_hub_humanoid_eod_mine_clearance",
           "html": "<strong>&#x27;민·군 합동으로 AI 연구&#x27;…첫 &#x27;국방 AX 거점&#x27; 판교에 개소</strong> (Yonhap; AI-translated) Per Yonhap, the Defence Ministry said the first &#x27;defence AX hub&#x27;, a facility where the military and civilians jointly research and test military AI, opened in Pangyo Techno Valley on 12 Oct. Data collected there will be used to train and test humanoid and multi-legged robots to take over dangerous missions such as explosive disposal and mine clearance. A total of five hubs are to open in turn. (Yonhap)",
           "plain": "'민·군 합동으로 AI 연구'…첫 '국방 AX 거점' 판교에 개소 (Yonhap; AI-translated) Per Yonhap, the Defence Ministry said the first 'defence AX hub', a facility where the military and civilians jointly research and test military AI, opened in Pangyo Techno Valley on 12 Oct. Data collected there will be used to train and test humanoid and multi-legged robots to take over dangerous missions such as explosive disposal and mine clearance. A total of five hubs are to open in turn. (Yonhap)",
@@ -672,41 +705,6 @@
             "research"
           ],
           "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261001_tesla_optimus_ai5_ai6_memory_cut",
-          "html": "<strong>🧠 Elon Musk Says Tesla Cut Optimus Robot Memory to Scale Production</strong> (1 Oct 2026): In a post on X, Musk said Tesla cut the AI5 chip&#x27;s memory in half to 72GB and the AI6 chip&#x27;s memory by a third to 144GB, calling it &quot;the only way to get enough volume for Optimus production&quot; and saying it should have a &quot;negligible effect on Optimus performance.&quot; Micron&#x27;s CEO had said humanoid robots are expected to need more than 200 gigabytes of memory per unit. Tesla has reportedly placed its first large-scale component order for roughly 5,000 Optimus units (Benzinga)",
-          "plain": "🧠 Elon Musk Says Tesla Cut Optimus Robot Memory to Scale Production (1 Oct 2026): In a post on X, Musk said Tesla cut the AI5 chip's memory in half to 72GB and the AI6 chip's memory by a third to 144GB, calling it \"the only way to get enough volume for Optimus production\" and saying it should have a \"negligible effect on Optimus performance.\" Micron's CEO had said humanoid robots are expected to need more than 200 gigabytes of memory per unit. Tesla has reportedly placed its first large-scale component order for roughly 5,000 Optimus units (Benzinga)",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62125996/elon-musk-tesla-optimus-memory-micron-humanoid-robots",
-          "date": "2026-10-01",
-          "tags": [
-            "tesla",
-            "optimus",
-            "ai5",
-            "ai6",
-            "memory",
-            "production"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261001_boston_dynamics_atlas_13dof_hand",
-          "html": "<strong>✋ Boston Dynamics gives Atlas a new 13-DOF hand, &#x27;a bit stronger&#x27; than ours</strong> (1 Oct 2026): Boston Dynamics unveiled a new generation hand for its Atlas robot: 13 degrees of freedom (DOF), directly actuated, built for high fidelity simulation to enable sim-to-real RL, designed from the ground up for dexterous physical work. &quot;GR2 had 7 degrees of freedom. GR3 now has 13.&quot; The new hand is &quot;a little bit larger than an average human hand, but it’s also on average, a bit stronger,&quot; and is meant to grasp the handles of tools while pressing their trigger (Boston Dynamics)",
-          "plain": "✋ Boston Dynamics gives Atlas a new 13-DOF hand, 'a bit stronger' than ours (1 Oct 2026): Boston Dynamics unveiled a new generation hand for its Atlas robot: 13 degrees of freedom (DOF), directly actuated, built for high fidelity simulation to enable sim-to-real RL, designed from the ground up for dexterous physical work. \"GR2 had 7 degrees of freedom. GR3 now has 13.\" The new hand is \"a little bit larger than an average human hand, but it’s also on average, a bit stronger,\" and is meant to grasp the handles of tools while pressing their trigger (Boston Dynamics)",
-          "source": "Boston Dynamics",
-          "url": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/",
-          "date": "2026-10-01",
-          "tags": [
-            "boston-dynamics",
-            "atlas",
-            "robot-hand",
-            "dexterity",
-            "humanoid"
-          ],
-          "subcatId": "superhuman_strength",
           "fighterId": "t800"
         }
       ],
@@ -1793,6 +1791,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-13_scan_0215_dublin",
+      "at": "2026-10-13T01:15:59.663Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:15 London, Tue 13 Oct (site-only; covers 00:07 to now, about 2h). US (promoted to T-800): DefenseScoop, 'ARCYBER expanding use of AI agents for network operations' (Army Cyber Command's Task Force Lexington and its AI agents, per Lt. Gen. Christopher Eubank at AUSA) and 'Army turning to AI in its fight against biological threats' (the 2026 Army Biodefense Strategy). Korea (summary only; no AI link in the text): Yonhap's report on the Financial Supervisory Service inspection of 예가람저축은행 after an unidentified hacker (신원 미상의 해커) leak of about 50,000 (5만건) records is unchanged; no new Korea AI-risk item was read in full. Checks: the live titles of the ABC inquiry, ABC Claude, BBC Narayan, Guardian Narayan and Yonhap Pangyo headlines are unchanged and match the board; every quote and named fact in the ABC inquiry, ABC Claude and BBC Narayan headlines still appears in the current text. Japan, China: no new AI-risk story read in full on the Japan Times or SCMP technology feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (a committee's recommendations and a minister's plans, not a policy, capability change or new incident).",
+      "patchId": "patch_2026-10-13_scan_0215_dublin"
+    },
+    {
       "id": "patch_2026-10-13_scan_0007_dublin",
       "at": "2026-10-12T23:07:10.510Z",
       "by": "judgment-day-watch",
@@ -2583,14 +2589,6 @@
       "type": "patch",
       "summary": "Scan ~10:14 London, Sat 3 Oct (site-only; covers 08:18 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'set to be tapped' / 'expected'). New: Korea breaches spread to non-bank lenders — Hyundai Capital 'was targeted by an attack on its mortgage broker lookup page that used artificial intelligence and was routed through an overseas internet protocol address', exposing data of some of its 146 mortgage brokers; no retail customer data and no internal-system access, the company said (Seoul Economic Daily, 3 Oct). Seen but not added: Startup Fortune, 'Hawley and Murphy bill would send AI executives to prison over rogue agent hacks' (bill already on; still no bill text or number found); Sanders/Ocasio-Cortez/Merkley Ban Flock Act on federal license plate reader use (2 Oct); 'China tightens IPO bar for humanoid robot startups as bubble fears mount in red-hot embodied AI sector' (Business Upturn); Figure F.02 furnace sendoff (already on); Anthropic $100M academy; repeat czar 'expected' reports. Still summary-only: Guardian $500k/day review, Project Meridian, Qwen on Hong Kong, TA419, FieldAI, $300M smuggling charge. UK/Europe/US morning/Asia: nothing else new AI-relevant. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (Korea breach series widens to a non-bank lender; same pattern already scored). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-03_scan_1015_dublin"
-    },
-    {
-      "id": "patch_2026-10-03_scan_0815_dublin",
-      "at": "2026-10-03T07:18:19.915Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~08:18 London, Sat 3 Oct (site-only; covers 06:08 to now). Nothing new met the bar; meta-only refresh. AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage still 'Trump to name'). Seen but not added: Guardian (3 Oct), 'OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day' (cost and 50 petabytes already on the board); it says NSW is the 'sixth government website in Australia' notified, and that executives from OpenAI, Anthropic, Microsoft and Google will front a joint parliamentary committee on artificial intelligence in Sydney on Tuesday. Politico (2 Oct), 'Musk-led war commission triggers alarms in Pentagon' (Project Meridian; Hegseth announcement already noted 1 Oct). CBS (2 Oct), 'Chinese AI model Qwen gives alarming answers to questions about Hong Kong, controversial topics'. Still summary-only: TA419 phishing, FieldAI $10B, $300M Nvidia chip smuggling charge. Repeat coverage: Evri two-legged robot trial, IFR 5M robots, MIT aquabot, Apple Mac AI-agent controls, Robinson resignation. AI Agent Accountability Act: still no bill text or number found. Korea: no new verified bank incidents. UK/Europe/Asia Saturday morning: nothing new AI-relevant. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only refresh). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-03_scan_0815_dublin"
     }
   ],
   "pendingPosts": [
