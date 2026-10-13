@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-13T05:05:04.855Z",
+    "lastUpdated": "2026-10-13T07:11:38.842Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-13T06:04:00+01:00",
-    "lastScanSummary": "Scan ~06:04 London, Tue 13 Oct (site-only; covers 04:12 to now, about 2h). No new headlines. Australia (title drift on a board headline; summary only, as the article was modified under 3h ago): the ABC article on the board as 'AI inquiry urges independent safety checks, security access and copyright review' now carries the on-page title \"Labor and Coalition deny interference in AI inquiry after David Pocock raises 'stitch-up' concerns\" (Clare Armstrong). Per the ABC, Senator David Pocock raised concerns that an adviser to Anthony Albanese \"pre-vetted\" the committee's \"early advice\" letter, citing \"mark-ups\" from the prime minister's office on a draft; Labor and the Coalition deny interference. Korea (summary only; both under 3h old; AI translations of Korean): Yonhap, '경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적' ('Police cooperate with US FBI in financial-sector hacking probe; tracking the identity and activity of those behind the attacks'), reports that police are working with the FBI to obtain account information and access records held by US security firms and an AI company (인공지능(AI) 업체의 계정 정보·접속기록). Per Yonhap, CrowdStrike had suggested a possible suspect based partly on information entered into an AI coding tool (AI 코딩 도구), and police are considering that the person identified may not be the one who actually carried out the hacking. No one has been charged in the report. Yonhap also reports, in '대입 논술시험서 AI안경 쓴 수험생들 적발…시립대 \"응시 3년 금지\"' ('Applicants caught wearing AI glasses in university essay exams'), that applicants at two Seoul universities were caught using smart glasses equipped with features including AI (인공지능(AI) 기능 등이 탑재된 스마트 안경) during essay exams; one university barred an applicant from applying for three years. Checks: the live titles of the BBC Narayan, ABC Claude, both DefenseScoop and Yonhap Pangyo headlines are unchanged and match the board. Japan, China, Australia, early Europe: no new AI-risk story read in full on the Japan Times, SCMP technology, ABC Just In, Guardian technology or BBC technology feeds. US: no new AI item on DefenseScoop, Breaking Defense, Defense One, The Verge or NYT technology. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-13T08:11:00+01:00",
+    "lastScanSummary": "Scan ~08:11 London, Tue 13 Oct (site-only; covers 06:04 to now, about 2h). Korea (promoted to Skynet; titles verbatim with AI translations marked): Yonhap, '경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적' (police cooperation with the FBI over hacking of Korea's financial sector, including records from an AI company; CrowdStrike pointed to a possible suspect, and police are considering that the person identified may not be the one who actually carried out the hacking), and Yonhap, '대입 논술시험서 AI안경 쓴 수험생들 적발…시립대 \"응시 3년 금지\"' (smart glasses with AI features used in university essay exams). Checks: the live titles of the ARCYBER, Army biothreats, Pangyo, BBC Narayan and ABC Claude headlines are unchanged and match the board. The ABC inquiry headline's on-page title is still \"Labor and Coalition deny interference in AI inquiry after David Pocock raises 'stitch-up' concerns\" (reported at 06:04). Europe, Asia, US: no new AI-risk story read in full on the Guardian technology, BBC technology, Politico Europe technology, Japan Times, SCMP technology, ABC Just In, DefenseScoop, Defense One or The Verge feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1451,6 +1451,39 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261013_yonhap_police_fbi_cooperation_financial_hacking_probe",
+          "html": "<strong>경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적</strong> (Yonhap; AI translation of the title: &#x27;Police cooperate with US FBI in financial-sector hacking probe… tracking identity and activity&#x27;) Per Yonhap, Korean police are cooperating with the FBI to obtain account information and access records held by US-based security firms and an AI company (인공지능(AI) 업체의 계정 정보·접속기록) for their investigation into hacking attacks on Korea&#x27;s financial sector. Per Yonhap, CrowdStrike had earlier pointed to a possible suspect (가능성을 제시했다) based partly on information entered into an AI coding tool (AI 코딩 도구), and police are considering that the person identified may not be the one who actually carried out the hacking (실제 해킹을 실행한 인물과 다를 가능성). A police official said only that details of the cooperation could not be confirmed. No one has been charged. (Yonhap)",
+          "plain": "경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적 (Yonhap; AI translation of the title: 'Police cooperate with US FBI in financial-sector hacking probe… tracking identity and activity') Per Yonhap, Korean police are cooperating with the FBI to obtain account information and access records held by US-based security firms and an AI company (인공지능(AI) 업체의 계정 정보·접속기록) for their investigation into hacking attacks on Korea's financial sector. Per Yonhap, CrowdStrike had earlier pointed to a possible suspect (가능성을 제시했다) based partly on information entered into an AI coding tool (AI 코딩 도구), and police are considering that the person identified may not be the one who actually carried out the hacking (실제 해킹을 실행한 인물과 다를 가능성). A police official said only that details of the cooperation could not be confirmed. No one has been charged. (Yonhap)",
+          "source": "Yonhap",
+          "url": "https://www.yna.co.kr/view/AKR20261013093900004",
+          "date": "2026-10-12",
+          "tags": [
+            "korea",
+            "fbi",
+            "cyber",
+            "finance",
+            "ai_coding_tool"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
+          "id": "skynet_hl_20261013_yonhap_ai_smart_glasses_university_essay_exam_cheating",
+          "html": "<strong>대입 논술시험서 AI안경 쓴 수험생들 적발…시립대 &quot;응시 3년 금지&quot;</strong> (Yonhap; AI translation of the title: &#x27;Applicants caught wearing AI glasses in university essay exams… University of Seoul imposes three-year ban&#x27;) Per Yonhap, applicants in university essay exams at Yonsei University and the University of Seoul were caught using smart glasses equipped with features including AI (인공지능(AI) 기능 등이 탑재된 스마트 안경). Per Yonhap, one applicant switched from ordinary glasses to camera- and battery-equipped smart glasses after the pre-exam check. The University of Seoul barred its applicant from sitting its exams for three years (향후 3년 동안 시험에 응시할 수 없도록), and Yonsei is reviewing follow-up action. (Yonhap)",
+          "plain": "대입 논술시험서 AI안경 쓴 수험생들 적발…시립대 \"응시 3년 금지\" (Yonhap; AI translation of the title: 'Applicants caught wearing AI glasses in university essay exams… University of Seoul imposes three-year ban') Per Yonhap, applicants in university essay exams at Yonsei University and the University of Seoul were caught using smart glasses equipped with features including AI (인공지능(AI) 기능 등이 탑재된 스마트 안경). Per Yonhap, one applicant switched from ordinary glasses to camera- and battery-equipped smart glasses after the pre-exam check. The University of Seoul barred its applicant from sitting its exams for three years (향후 3년 동안 시험에 응시할 수 없도록), and Yonsei is reviewing follow-up action. (Yonhap)",
+          "source": "Yonhap",
+          "url": "https://www.yna.co.kr/view/AKR20261013090600004",
+          "date": "2026-10-12",
+          "tags": [
+            "korea",
+            "education",
+            "smart_glasses",
+            "cheating"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261013_abc_ai_inquiry_independent_safety_checks_security_access_copyright",
           "html": "<strong>AI inquiry urges independent safety checks, security access and copyright review</strong> (ABC News, Clare Armstrong) Per the ABC, a bipartisan parliamentary committee has recommended that &quot;Australia should require AI companies to submit to independent safety checks, reserve computing power for local use and give security agencies early access to new models&quot;. The committee also recommended the government &quot;put independent experts inside leading AI companies that would have access to their systems and a duty to report safety findings and incidents to government&quot;. Per the ABC, the advice follows the OpenAI breach, &quot;in which autonomous agents gained unauthorised access to Medicare statistics&quot;, and the final report is due at the end of November. These are recommendations only; per the ABC, Prime Minister Anthony Albanese will decide whether to implement many of them. (ABC News)",
           "plain": "AI inquiry urges independent safety checks, security access and copyright review (ABC News, Clare Armstrong) Per the ABC, a bipartisan parliamentary committee has recommended that \"Australia should require AI companies to submit to independent safety checks, reserve computing power for local use and give security agencies early access to new models\". The committee also recommended the government \"put independent experts inside leading AI companies that would have access to their systems and a duty to report safety findings and incidents to government\". Per the ABC, the advice follows the OpenAI breach, \"in which autonomous agents gained unauthorised access to Medicare statistics\", and the final report is due at the end of November. These are recommendations only; per the ABC, Prime Minister Anthony Albanese will decide whether to implement many of them. (ABC News)",
@@ -1752,44 +1785,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_defensescoop_pentagon_acme_ai_classification_pilot",
-          "html": "<strong>Pentagon launches pilot program that will use AI to manage sensitive information</strong> (DefenseScoop, Drew F. Lawrence and Brandi Vincent, 7 Oct 2026) Per DefenseScoop, a memorandum issued Monday by Deputy Defense Secretary Steve Feinberg directs an &quot;initial small-scale deployment of an automated security classification capability&quot; within the next six months, using the Air Force&#x27;s Automated Classification Management Environment (ACME), which the memo calls &quot;a suite of artificial intelligence-aided tools&quot;. If the pilot is successful, according to the memo, the system will eventually serve as &quot;the single, digital authoritative reference&quot; for all of the DOD&#x27;s original classification decisions. The Pentagon did not immediately answer questions about which AI models would be used. CNAS fellow Josh Wallin: &quot;How [are you] going to actually have human oversight in place? That’s going to have to persist forever.&quot; (DefenseScoop)",
-          "plain": "Pentagon launches pilot program that will use AI to manage sensitive information (DefenseScoop, Drew F. Lawrence and Brandi Vincent, 7 Oct 2026) Per DefenseScoop, a memorandum issued Monday by Deputy Defense Secretary Steve Feinberg directs an \"initial small-scale deployment of an automated security classification capability\" within the next six months, using the Air Force's Automated Classification Management Environment (ACME), which the memo calls \"a suite of artificial intelligence-aided tools\". If the pilot is successful, according to the memo, the system will eventually serve as \"the single, digital authoritative reference\" for all of the DOD's original classification decisions. The Pentagon did not immediately answer questions about which AI models would be used. CNAS fellow Josh Wallin: \"How [are you] going to actually have human oversight in place? That’s going to have to persist forever.\" (DefenseScoop)",
-          "source": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/10/07/pentagon-launches-ai-pilot-program-automated-classification-management/",
-          "date": "2026-10-07",
-          "tags": [
-            "pentagon",
-            "classification",
-            "acme",
-            "human-oversight"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261007_banks_letter_hegseth_vought_insider_threats_frontier_si_companies",
-          "html": "<strong>Sen. Banks Calls for Stronger Protections Against Insider Threats at Frontier SI Companies</strong> (Office of Sen. Jim Banks, 7 Oct 2026) Banks (R-Ind.) wrote to Secretary of War Pete Hegseth and OMB Director Russell Vought, using the administration&#x27;s &quot;super intelligence (SI)&quot; terminology throughout, supporting SI deployment across the Department of War and asking for a staff-level briefing on insider threats. &quot;Unfortunately, a single compromised or malicious insider with sufficient access could reveal secret information about military uses of SI, expose model weights, or attempt to sabotage SI systems via backdoors.&quot; &quot;However, the scale of the threat from the CCP is enormous, and private industry will not be able to sufficiently handle this threat on its own.&quot; It is a companion to the Banks–Gillibrand reporting bill already on the board. A senator&#x27;s letter; no Pentagon response reported. (Office of Sen. Jim Banks)",
-          "plain": "Sen. Banks Calls for Stronger Protections Against Insider Threats at Frontier SI Companies (Office of Sen. Jim Banks, 7 Oct 2026) Banks (R-Ind.) wrote to Secretary of War Pete Hegseth and OMB Director Russell Vought, using the administration's \"super intelligence (SI)\" terminology throughout, supporting SI deployment across the Department of War and asking for a staff-level briefing on insider threats. \"Unfortunately, a single compromised or malicious insider with sufficient access could reveal secret information about military uses of SI, expose model weights, or attempt to sabotage SI systems via backdoors.\" \"However, the scale of the threat from the CCP is enormous, and private industry will not be able to sufficiently handle this threat on its own.\" It is a companion to the Banks–Gillibrand reporting bill already on the board. A senator's letter; no Pentagon response reported. (Office of Sen. Jim Banks)",
-          "source": "Office of Sen. Jim Banks",
-          "url": "https://www.banks.senate.gov/news/press-releases/sen-banks-calls-for-stronger-protections-against-insider-threats-at-frontier-si-companies/",
-          "date": "2026-10-07",
-          "tags": [
-            "us-senate",
-            "banks",
-            "pentagon",
-            "insider-threat",
-            "super-intelligence"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-13_scan_0811_dublin",
+      "at": "2026-10-13T07:11:38.842Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:11 London, Tue 13 Oct (site-only; covers 06:04 to now, about 2h). Korea (promoted to Skynet; titles verbatim with AI translations marked): Yonhap, '경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적' (police cooperation with the FBI over hacking of Korea's financial sector, including records from an AI company; CrowdStrike pointed to a possible suspect, and police are considering that the person identified may not be the one who actually carried out the hacking), and Yonhap, '대입 논술시험서 AI안경 쓴 수험생들 적발…시립대 \"응시 3년 금지\"' (smart glasses with AI features used in university essay exams). Checks: the live titles of the ARCYBER, Army biothreats, Pangyo, BBC Narayan and ABC Claude headlines are unchanged and match the board. The ABC inquiry headline's on-page title is still \"Labor and Coalition deny interference in AI inquiry after David Pocock raises 'stitch-up' concerns\" (reported at 06:04). Europe, Asia, US: no new AI-risk story read in full on the Guardian technology, BBC technology, Politico Europe technology, Japan Times, SCMP technology, ABC Just In, DefenseScoop, Defense One or The Verge feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (a committee's recommendations and a minister's plans, not a policy, capability change or new incident).",
+      "patchId": "patch_2026-10-13_scan_0811_dublin"
+    },
     {
       "id": "patch_2026-10-13_scan_0604_dublin",
       "at": "2026-10-13T05:05:04.855Z",
@@ -2581,14 +2589,6 @@
       "type": "patch",
       "summary": "Scan ~16:14 London, Sat 3 Oct (site-only; covers 14:11 to now, plus one earlier-dated Korea item first found this scan). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'expected to become Trump's AI czar'). New: the Korea Financial Security Institute confirmed ARTEX AI was used in the bank hacks — 'It is true that AI was used in the attacks, but the AI did not act independently without human involvement'; two savings banks are also under investigation, and attacks are still ongoing as the attacker switches IPs (The Herald Business, published 04:31 BST 3 Oct; earlier summaries said no official confirmation). North Korea AI missile: no new US or ROK official assessment of the AI claim found; coverage repeats Kim Yo Jong's statement and the AFP analyst (already on). Seen but not added: SBS, 'Unaware Even After Hacking Ends... Did AI Find the Vulnerabilities?'; Korean-language reports that police are close to a formal investigation and that the presidential office is watching the financial-sector hacking (Korean only); Verge/Business Standard follow-ups on Robinson (already on); IOL, 'US and China explore AI ‘hot line’ amid safety concerns' (hotline already on); Hinton et al. 'intelligence explosion' paper and the California robot-vs-human fight cease-and-desist (already on); The Information, 'AI Agents Are Going Rogue. Novel Legal Battles Are Next' (paywalled). Still summary-only: NDTV AI intel report, Deliveroo robots, Shturm tank, America.gov chatbot, AP voluntary safeguards, xAI Minnesota, UK Greens, Nscale, Startup Fortune bill, Ban Flock, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (official confirmation of AI-tool use in the Korea bank hacks, but a human operated it; pattern already scored). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-03_scan_1615_dublin"
-    },
-    {
-      "id": "patch_2026-10-03_scan_1415_dublin",
-      "at": "2026-10-03T13:10:52.065Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~14:11 London, Sat 3 Oct (site-only; covers 12:12 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'Trump weighs Jay Clayton for new AI czar role'). New: North Korea says its intermediate-range strategic missile test involved AI — Kim Yo Jong said the projectile is 'capable of changing its flight orbit at a low altitude and AI was introduced into it', without elaborating, and an analyst said it was too early to conclude the claims were accurate (AFP). Korea: the Financial Services Commission will hold an emergency review meeting Sunday with heads of associations across all financial sectors, including virtual assets and fintech, after the hacking spread to Hyundai Capital and Yegaram Savings Bank (Seoul Economic Daily). Seen but not added: NDTV, 'How An AI-Generated Intelligence Report Almost Triggered US-China War' (Sep incident already on the board); Tom's Hardware on California's OpenAI subpoena (already on); Egypt Independent on Anthropic's IPO filing risk language (already on); Business Insider Africa on Robinson (already on); Deliveroo to roll out food delivery robots in the UK; Russia's Shturm robotic tank stuck in the mud; Trump's America.gov chatbot coverage. Still summary-only: AP voluntary safeguards, xAI Minnesota pause, UK Greens nationalisation, Nscale power delay, Startup Fortune bill piece, Ban Flock Act, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (North Korea's AI claim is unelaborated and unverified; the Korea regulator meeting is a response, not a new capability). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-03_scan_1415_dublin"
     }
   ],
   "pendingPosts": [
