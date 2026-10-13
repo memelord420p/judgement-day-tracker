@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-13T07:11:38.842Z",
+    "lastUpdated": "2026-10-13T09:08:03.665Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-13T08:11:00+01:00",
-    "lastScanSummary": "Scan ~08:11 London, Tue 13 Oct (site-only; covers 06:04 to now, about 2h). Korea (promoted to Skynet; titles verbatim with AI translations marked): Yonhap, '경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적' (police cooperation with the FBI over hacking of Korea's financial sector, including records from an AI company; CrowdStrike pointed to a possible suspect, and police are considering that the person identified may not be the one who actually carried out the hacking), and Yonhap, '대입 논술시험서 AI안경 쓴 수험생들 적발…시립대 \"응시 3년 금지\"' (smart glasses with AI features used in university essay exams). Checks: the live titles of the ARCYBER, Army biothreats, Pangyo, BBC Narayan and ABC Claude headlines are unchanged and match the board. The ABC inquiry headline's on-page title is still \"Labor and Coalition deny interference in AI inquiry after David Pocock raises 'stitch-up' concerns\" (reported at 06:04). Europe, Asia, US: no new AI-risk story read in full on the Guardian technology, BBC technology, Politico Europe technology, Japan Times, SCMP technology, ABC Just In, DefenseScoop, Defense One or The Verge feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-13T10:07:00+01:00",
+    "lastScanSummary": "Scan ~10:07 London, Tue 13 Oct (site-only; covers 08:11 to now, about 2h). Europe (promoted to Skynet): POLITICO Europe, 'Europe’s AI policing plan stokes privacy concerns' (first published 5 Oct, updated 6 Oct): the plan to expand Europol's AI powers, and EU officials' privacy warnings. Korea (summary only; under 3h old; AI translation of the title: Tving CEO: suspected AI-based hacking… PIPC: aim to finish sanctions this year): Yonhap, '티빙 대표 \"AI 기반 해킹 추정\"…개인정보위 \"연내 처분 마무리\"', reports that the CEO of streaming service Tving told a National Assembly audit that the company suspects its large personal-data leak (3천954만건; 39.54 million records) came from AI-based hacking (인공지능(AI) 기반 해킹에 따른 사고로 추정), and that police are investigating (경찰이 수사 중). The privacy regulator said it is trying to finish its sanctions this year (연내에 처분을 마무리하려고 노력하고 있다). Checks: the live titles of the FBI probe, AI-glasses, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 08:11. US and Europe: no new AI-risk story read in full on The Verge, NYT technology, DefenseScoop, Breaking Defense, Defense One, Guardian technology or BBC technology feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1451,6 +1451,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261005_politico_europe_ai_policing_plan_europol_privacy",
+          "html": "<strong>Europe’s AI policing plan stokes privacy concerns</strong> (POLITICO Europe, Ellen O&#x27;Regan) Per POLITICO, a plan to expand Europol&#x27;s AI powers, announced this summer, would double its budget to €3 billion. Senior EU officials warn it could threaten privacy. Jürgen Ebner, Europol&#x27;s deputy executive director, who has been named to lead it: &quot;AI is transforming how crime is committed across a broad range of criminal activities… AI makes criminal activities faster, more sophisticated and easier to carry out at scale.&quot; EU data protection supervisor Wojciech Wiewiórowski said he backs empowering Europol with AI-powered tools, but there &quot;has to be oversight.&quot; (POLITICO Europe)",
+          "plain": "Europe’s AI policing plan stokes privacy concerns (POLITICO Europe, Ellen O'Regan) Per POLITICO, a plan to expand Europol's AI powers, announced this summer, would double its budget to €3 billion. Senior EU officials warn it could threaten privacy. Jürgen Ebner, Europol's deputy executive director, who has been named to lead it: \"AI is transforming how crime is committed across a broad range of criminal activities… AI makes criminal activities faster, more sophisticated and easier to carry out at scale.\" EU data protection supervisor Wojciech Wiewiórowski said he backs empowering Europol with AI-powered tools, but there \"has to be oversight.\" (POLITICO Europe)",
+          "source": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/europol-ai-new-weapons-new-privacy-risks-reboots-for-the-era/",
+          "date": "2026-10-12",
+          "tags": [
+            "eu",
+            "europol",
+            "policing",
+            "privacy",
+            "ai_crime"
+          ],
+          "subcatId": "artificial_general_intelligence",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261013_yonhap_police_fbi_cooperation_financial_hacking_probe",
           "html": "<strong>경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적</strong> (Yonhap; AI translation of the title: &#x27;Police cooperate with US FBI in financial-sector hacking probe… tracking identity and activity&#x27;) Per Yonhap, Korean police are cooperating with the FBI to obtain account information and access records held by US-based security firms and an AI company (인공지능(AI) 업체의 계정 정보·접속기록) for their investigation into hacking attacks on Korea&#x27;s financial sector. Per Yonhap, CrowdStrike had earlier pointed to a possible suspect (가능성을 제시했다) based partly on information entered into an AI coding tool (AI 코딩 도구), and police are considering that the person identified may not be the one who actually carried out the hacking (실제 해킹을 실행한 인물과 다를 가능성). A police official said only that details of the cooperation could not be confirmed. No one has been charged. (Yonhap)",
           "plain": "경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적 (Yonhap; AI translation of the title: 'Police cooperate with US FBI in financial-sector hacking probe… tracking identity and activity') Per Yonhap, Korean police are cooperating with the FBI to obtain account information and access records held by US-based security firms and an AI company (인공지능(AI) 업체의 계정 정보·접속기록) for their investigation into hacking attacks on Korea's financial sector. Per Yonhap, CrowdStrike had earlier pointed to a possible suspect (가능성을 제시했다) based partly on information entered into an AI coding tool (AI 코딩 도구), and police are considering that the person identified may not be the one who actually carried out the hacking (실제 해킹을 실행한 인물과 다를 가능성). A police official said only that details of the cooperation could not be confirmed. No one has been charged. (Yonhap)",
@@ -1768,28 +1785,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261008_aph_sadler_ai_companies_pursuing_recursive_self_improvement",
-          "html": "<strong>AI companies are pursuing recursive self-improvement</strong> (Parliament of Australia, Joint Select Committee on Artificial Intelligence, 8 Oct 2026; proof transcript) Good Ancestors CEO Greg Sadler: &quot;AI is not slowing down; it&#x27;s speeding up.&quot; &quot;Neither the National AI Plan nor the Prime Minister&#x27;s speech mentioned loss of control, even though the speech came after the Medicare and Hugging Face hacks.&quot; &quot;Overall, humanity is racing into an uncertain future. AI has already surpassed human performance in many domains. AI companies are pursuing recursive self-improvement.&quot; He recommended &quot;a properly funded AI Safety Institute&quot; at &quot;$50 million per year&quot;, against $7.5 million now, and on incident reporting said: &quot;We shouldn&#x27;t wait for people to die before we conduct an investigation to find out what went wrong.&quot; Tim Watts MP, on Sadler&#x27;s Anthropic misuse example: &quot;we should be clear that Claude was not being used for gain-of-function research.&quot; Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
-          "plain": "AI companies are pursuing recursive self-improvement (Parliament of Australia, Joint Select Committee on Artificial Intelligence, 8 Oct 2026; proof transcript) Good Ancestors CEO Greg Sadler: \"AI is not slowing down; it's speeding up.\" \"Neither the National AI Plan nor the Prime Minister's speech mentioned loss of control, even though the speech came after the Medicare and Hugging Face hacks.\" \"Overall, humanity is racing into an uncertain future. AI has already surpassed human performance in many domains. AI companies are pursuing recursive self-improvement.\" He recommended \"a properly funded AI Safety Institute\" at \"$50 million per year\", against $7.5 million now, and on incident reporting said: \"We shouldn't wait for people to die before we conduct an investigation to find out what went wrong.\" Tim Watts MP, on Sadler's Anthropic misuse example: \"we should be clear that Claude was not being used for gain-of-function research.\" Proof Hansard, subject to correction. (Parliament of Australia (proof Hansard))",
-          "source": "Parliament of Australia (proof Hansard)",
-          "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22committees%2Fcommjnt%2F29979%2F0004%22",
-          "date": "2026-10-08",
-          "tags": [
-            "australia",
-            "parliament",
-            "good-ancestors",
-            "recursive-self-improvement",
-            "incident-reporting"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-13_scan_1007_dublin",
+      "at": "2026-10-13T09:08:03.665Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~10:07 London, Tue 13 Oct (site-only; covers 08:11 to now, about 2h). Europe (promoted to Skynet): POLITICO Europe, 'Europe’s AI policing plan stokes privacy concerns' (first published 5 Oct, updated 6 Oct): the plan to expand Europol's AI powers, and EU officials' privacy warnings. Korea (summary only; under 3h old; AI translation of the title: Tving CEO: suspected AI-based hacking… PIPC: aim to finish sanctions this year): Yonhap, '티빙 대표 \"AI 기반 해킹 추정\"…개인정보위 \"연내 처분 마무리\"', reports that the CEO of streaming service Tving told a National Assembly audit that the company suspects its large personal-data leak (3천954만건; 39.54 million records) came from AI-based hacking (인공지능(AI) 기반 해킹에 따른 사고로 추정), and that police are investigating (경찰이 수사 중). The privacy regulator said it is trying to finish its sanctions this year (연내에 처분을 마무리하려고 노력하고 있다). Checks: the live titles of the FBI probe, AI-glasses, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 08:11. US and Europe: no new AI-risk story read in full on The Verge, NYT technology, DefenseScoop, Breaking Defense, Defense One, Guardian technology or BBC technology feeds. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents and the public inspection list is unchanged, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (a committee's recommendations and a minister's plans, not a policy, capability change or new incident).",
+      "patchId": "patch_2026-10-13_scan_1007_dublin"
+    },
     {
       "id": "patch_2026-10-13_scan_0811_dublin",
       "at": "2026-10-13T07:11:38.842Z",
@@ -2581,14 +2589,6 @@
       "type": "patch",
       "summary": "Scan ~18:11 London, Sat 3 Oct (site-only; covers 16:14 to now). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'Man Behind the XRP Lawsuit Could Get a White House AI Role Soon'). New: Scale AI was awarded a $12,093,115 modification 'for Agentic Artificial Intelligence for the E-4C/Survivable Airborne Operations Center Program', bringing the contract to $44,340,309 (ClearanceJobs, from the 2 Oct contract announcements). OpenAI's Multi-agent guide says GPT-6.1 Sol runs 'have no fixed limit on tree depth or the total number of subagents created during a run' (MIXED). North Korea AI missile: no new US or ROK official assessment found; coverage repeats Kim Yo Jong's statement. Korea: no English-language reports found of new police or presidential-office moves. Seen but not added: NYT, 'A.I. Is Going Rogue. Who Should Be Held Responsible?'; 'Nvidia unveils security platform to stop AI agents from going rogue'; 'RoboParty Unveils RP1, a High-Performance Full-Stack Open-Source Humanoid Robot at IROS'; Chainalysis traced the $387M Bitget hack to North Korea; TechCrunch/Fox follow-ups on Robinson and Cybernews/AP on the NSW hack (already on). Still summary-only: SBS 'Did AI Find the Vulnerabilities', The Information rogue agents piece, NDTV, Deliveroo, Shturm, America.gov, AP safeguards, xAI Minnesota, UK Greens, Nscale, Startup Fortune bill, Ban Flock, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (a contract modification with no published capability details, and a beta API setting still bounded by rate limits). Not Judgment Day — receipts only.",
       "patchId": "patch_2026-10-03_scan_1815_dublin"
-    },
-    {
-      "id": "patch_2026-10-03_scan_1615_dublin",
-      "at": "2026-10-03T15:13:37.149Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~16:14 London, Sat 3 Oct (site-only; covers 14:11 to now, plus one earlier-dated Korea item first found this scan). AI czar: still NOT officially announced; no Truth Social post or White House statement found (latest coverage: 'expected to become Trump's AI czar'). New: the Korea Financial Security Institute confirmed ARTEX AI was used in the bank hacks — 'It is true that AI was used in the attacks, but the AI did not act independently without human involvement'; two savings banks are also under investigation, and attacks are still ongoing as the attacker switches IPs (The Herald Business, published 04:31 BST 3 Oct; earlier summaries said no official confirmation). North Korea AI missile: no new US or ROK official assessment of the AI claim found; coverage repeats Kim Yo Jong's statement and the AFP analyst (already on). Seen but not added: SBS, 'Unaware Even After Hacking Ends... Did AI Find the Vulnerabilities?'; Korean-language reports that police are close to a formal investigation and that the presidential office is watching the financial-sector hacking (Korean only); Verge/Business Standard follow-ups on Robinson (already on); IOL, 'US and China explore AI ‘hot line’ amid safety concerns' (hotline already on); Hinton et al. 'intelligence explosion' paper and the California robot-vs-human fight cease-and-desist (already on); The Information, 'AI Agents Are Going Rogue. Novel Legal Battles Are Next' (paywalled). Still summary-only: NDTV AI intel report, Deliveroo robots, Shturm tank, America.gov chatbot, AP voluntary safeguards, xAI Minnesota, UK Greens, Nscale, Startup Fortune bill, Ban Flock, China humanoid IPO bar, Guardian $500k/day, Project Meridian, Qwen, TA419, FieldAI, $300M smuggling charge. AI Agent Accountability Act: still no bill text or number found. Nothing new for T-1000. All hold: T-800 33, T-1000 5, Skynet 53 (official confirmation of AI-tool use in the Korea bank hacks, but a human operated it; pattern already scored). Not Judgment Day — receipts only.",
-      "patchId": "patch_2026-10-03_scan_1615_dublin"
     }
   ],
   "pendingPosts": [
