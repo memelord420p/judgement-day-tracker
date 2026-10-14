@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-14T21:15:30.868Z",
+    "lastUpdated": "2026-10-14T23:12:11.474Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-14T22:15:00+01:00",
-    "lastScanSummary": "Scan ~22:15 London, Wed 14 Oct (site-only scan; covers 20:08 to now). UK (promoted to Skynet): the Guardian explainer 'Could AI ‘change the stakes’ in the development of bioweapons?', title and update time unchanged since 18:55 BST; MI5's head warned AI could \"change the stakes\" on bioweapons, and experts say there are still no formal government policies against this misuse. UK (summary only): the Guardian, 'Nvidia, worth $5.5tn, donates $250m to UK for AI safety research', settled and unchanged since 18:37 BST; not promoted (one promotion per scan). US (held, under 3h): Breaking Defense, 'Hegseth uses AUSA spotlight to push autonomy, ‘generational’ defense investment', updated 20:04 BST. US (second matching save): Defense One, 'Hegseth, service secretaries discuss ‘generational change’ of Autonomous Warfare Command'; title and page times unchanged, mentioned here only. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-15T00:12:00+01:00",
+    "lastScanSummary": "Scan ~00:12 London, Thu 15 Oct (site-only scan; covers 22:15 Wed to now). US (promoted to T-800): Breaking Defense, 'Hegseth uses AUSA spotlight to push autonomy, ‘generational’ defense investment', title and update time unchanged since 20:04 BST Wed; Hegseth and service leaders discussed plans to scale autonomous weapons and stand up a new four-star command. US (summary only, under 3h): the Guardian, 'Eight states accuse OpenAI of coaching children to harm themselves in lawsuit'; the states are also asking a court to \"halt OpenAI from developing artificial intelligence models that can improve upon themselves\" until it shows they are in line with human values. US (summary only): Defense One, 'Hegseth, service secretaries discuss ‘generational change’ of Autonomous Warfare Command', unchanged. UK (summary only): the Guardian, 'Nvidia, worth $5.5tn, donates $250m to UK for AI safety research', settled and unchanged; not promoted (one promotion per scan). Asia/Australia: no new AI-risk stories overnight in the feeds checked. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the only new whitehouse.gov news item is not about AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261014_breakingdefense_hegseth_ausa_autonomy_investment",
+          "html": "<strong>Hegseth uses AUSA spotlight to push autonomy, ‘generational’ defense investment</strong> Per Breaking Defense, Defense Secretary Pete Hegseth and service leaders used the AUSA annual conference to discuss broad plans to scale autonomous weapons and stand up a new four-star command. Hegseth: &quot;You have autonomy. You have robotics. You have SI [super intelligence]. You have space&quot;. Derrick Anderson, the assistant secretary of defense for Special Operations and Low-Intensity Conflict, said the Defense Autonomous Working Group is being absorbed by a new Task Force Autonomous Warfare inside SOCOM: &quot;We’re smaller. We’re able to iterate at the speed of relevancy&quot;. Hegseth: &quot;Investments now are going to matter, and they’re going to ripple not just for years but for decades across our joint force&quot;. (Breaking Defense)",
+          "plain": "Hegseth uses AUSA spotlight to push autonomy, ‘generational’ defense investment Per Breaking Defense, Defense Secretary Pete Hegseth and service leaders used the AUSA annual conference to discuss broad plans to scale autonomous weapons and stand up a new four-star command. Hegseth: \"You have autonomy. You have robotics. You have SI [super intelligence]. You have space\". Derrick Anderson, the assistant secretary of defense for Special Operations and Low-Intensity Conflict, said the Defense Autonomous Working Group is being absorbed by a new Task Force Autonomous Warfare inside SOCOM: \"We’re smaller. We’re able to iterate at the speed of relevancy\". Hegseth: \"Investments now are going to matter, and they’re going to ripple not just for years but for decades across our joint force\". (Breaking Defense)",
+          "source": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/10/hegseth-uses-ausa-spotlight-to-highlight-autonomy-generational-defense-investment/",
+          "date": "2026-10-14",
+          "tags": [
+            "pentagon",
+            "autonomous_weapons",
+            "autowarcom",
+            "ausa",
+            "hegseth"
+          ],
+          "subcatId": "autonomous_weapons",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261013_defenseone_army_futures_and_autonomy_command",
           "html": "<strong>Army converts Futures and Concepts Command to Futures and Autonomy Command</strong> (Defense One, Meghann Myers) Per Defense One, FASCOM will be the Army’s component organization within the Defense Department’s planned Autonomous Warfare Command, and its commander will also become the Army’s first Portfolio Acquisition Executive for autonomy. The Army&#x27;s chief technology officer, Alex Miller, said the aim is not to start fully automating existing warfighting functions; Defense One adds there will be &quot;appropriate levels of human judgment&quot; before weapons are fired. For things like counter-battery fire and air and missile defense that happen at &quot;superhuman speed and scale&quot;, Miller said the Army wants &quot;to have humans on the loop for decisions&quot;. (Defense One)",
           "plain": "Army converts Futures and Concepts Command to Futures and Autonomy Command (Defense One, Meghann Myers) Per Defense One, FASCOM will be the Army’s component organization within the Defense Department’s planned Autonomous Warfare Command, and its commander will also become the Army’s first Portfolio Acquisition Executive for autonomy. The Army's chief technology officer, Alex Miller, said the aim is not to start fully automating existing warfighting functions; Defense One adds there will be \"appropriate levels of human judgment\" before weapons are fired. For things like counter-battery fire and air and missile defense that happen at \"superhuman speed and scale\", Miller said the Army wants \"to have humans on the loop for decisions\". (Defense One)",
@@ -686,23 +703,6 @@
             "anthropic",
             "maven",
             "autonomous-weapons"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261006_defenseone_autowarcom_nato_cmre_algorithms_task_drones",
-          "html": "<strong>🤖 The Pentagon&#x27;s autonomy command should draw on lessons old and new</strong> (Defense One, 6 Oct 2026 9:48pm ET) Hegseth&#x27;s 30 Sept memo on the planned Autonomous Warfare Command: &quot;We do not have a decade to transition our procurement and doctrine.&quot; At NATO&#x27;s CMRE maritime-robotics exercise in Portugal in September, principal scientist João Alves said: &quot;For the first time, we had materialized our vision for future operations. We had algorithms looking at what the mission was looking like and automatically giving tasks to drones.&quot; (Defense One)",
-          "plain": "🤖 The Pentagon's autonomy command should draw on lessons old and new (Defense One, 6 Oct 2026 9:48pm ET) Hegseth's 30 Sept memo on the planned Autonomous Warfare Command: \"We do not have a decade to transition our procurement and doctrine.\" At NATO's CMRE maritime-robotics exercise in Portugal in September, principal scientist João Alves said: \"For the first time, we had materialized our vision for future operations. We had algorithms looking at what the mission was looking like and automatically giving tasks to drones.\" (Defense One)",
-          "source": "Defense One",
-          "url": "https://www.defenseone.com/policy/2026/10/pentagon-autonomy-command-lessons/416444/",
-          "date": "2026-10-06",
-          "tags": [
-            "military",
-            "autowarcom",
-            "nato",
-            "drones",
-            "autonomy"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1798,6 +1798,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-15_scan_0012_dublin",
+      "at": "2026-10-14T23:12:11.474Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:12 London, Thu 15 Oct (site-only scan; covers 22:15 Wed to now). US (promoted to T-800): Breaking Defense, 'Hegseth uses AUSA spotlight to push autonomy, ‘generational’ defense investment', title and update time unchanged since 20:04 BST Wed; Hegseth and service leaders discussed plans to scale autonomous weapons and stand up a new four-star command. US (summary only, under 3h): the Guardian, 'Eight states accuse OpenAI of coaching children to harm themselves in lawsuit'; the states are also asking a court to \"halt OpenAI from developing artificial intelligence models that can improve upon themselves\" until it shows they are in line with human values. US (summary only): Defense One, 'Hegseth, service secretaries discuss ‘generational change’ of Autonomous Warfare Command', unchanged. UK (summary only): the Guardian, 'Nvidia, worth $5.5tn, donates $250m to UK for AI safety research', settled and unchanged; not promoted (one promotion per scan). Asia/Australia: no new AI-risk stories overnight in the feeds checked. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the only new whitehouse.gov news item is not about AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (organisational and budget plans, not a new incident or capability change).",
+      "patchId": "patch_2026-10-15_scan_0012_dublin"
+    },
+    {
       "id": "patch_2026-10-14_scan_2215_dublin",
       "at": "2026-10-14T21:15:30.868Z",
       "by": "judgment-day-watch",
@@ -2588,14 +2596,6 @@
       "type": "patch",
       "summary": "Scan ~10:09 London, Mon 5 Oct (site-only; covers 08:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news and presidential actions (no new October items, no Clayton/Super Intelligence Force mentions), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the Truth Social archive shows nothing newer than its 01:25 EDT post (no AI); the finance.biggo.com claims stay out. New: Help Net Security, 'AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit' — DIVD: \"The modus operandi indicates an agentic AI powered attack, something we had not seen before.\" Also new to the board: Help Net Security, 'AI coding agents leaked 13,000 internal company screenshots to public GitHub repos' (Glow Labs' PixelLeak research). Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); no new Council press release, witness list or SpaceXAI reply found; ABC7 headline: 'Google, Meta, OpenAI among firms appearing at NYC AI hearing'; FOX5 NY headline: 'AI leaders to testify under oath at NYC Council safety hearing Monday'. Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct (further hearings 7 Oct Sydney, 9 Oct Melbourne); no programme published yet; no new Australian previews found. POLITICO watch: Decoded's debut edition with the full Altman interview is not out yet. Korea: no new official confirmation of the insurer/securities traces; the FSC's 6 Oct meeting with online investment-linked finance firms (already on) is still ahead; editorials and analyses only. Japan: Daiwa Securities says info on about 110,000 clients may have leaked via a contractor's server (no AI link stated; summary only). Europe: Denmark's ministry reports unauthorised access to CPR data on 8.8 million people (no AI link stated; summary only). China: MLex reports Chinese scholars propose a draft AI law (scholars, not official). Bill text (Hawley-Murphy): none new. Robotics/T-1000: funding news only. Seen but not added: OpenAI's $500,000-a-day review and the Australian government sites (already on), Dataconomy on the OpenAI lawsuits (already on), Hinton re-coverage, Bloomberg 'AI Backers Sound the Alarm About Safety', CNN on an Anthropic IPO, KCNA missile re-coverage. Still summary-only: CBS New York's NYC preview, the POLITICO companion 'daylight' story, the amNY SpaceXAI subpoena headline, PIX11/Gary Marcus, all SIF and Altman re-coverage, the SpaceXSI rename and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (two agent incidents with limited, contained impact; no powers granted).",
       "patchId": "patch_2026-10-05_scan_1015_dublin"
-    },
-    {
-      "id": "patch_2026-10-05_scan_0815_dublin",
-      "at": "2026-10-05T07:13:00.381Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~08:13 London, Mon 5 Oct (site-only; covers 06:05 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions (no new October items), the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); Trump's newest archived Truth Social post (01:25 EDT, a Breitbart link on Cyprus) does not mention AI; the finance.biggo.com claims stay out. New: Chosunbiz (AI-translated), 'Financial authorities urgently convene online investment-linked finance sector… to check links to attacker IPs' — the FSC plans to convene the sector on 6 Oct; its attacks around 26–27 Sep are the earliest known, and some IPs reportedly overlap with the Shinhan Bank attacker IPs. Watch — NYC: the Council's Committee of the Whole hearing is today, Mon 5 Oct, 11:00 ET (16:00 BST); no new Council press release, witness list or SpaceXAI reply found since the CBS New York preview (already noted). Watch — Sydney: the Joint Select Committee on Artificial Intelligence hearing is Tuesday 6 Oct; no programme published yet; no new Australian previews found. POLITICO watch: Decoded's debut edition with the full Altman interview is not out yet. Korea: other follow-ups (securities firms report no confirmed damage after holiday checks; News1 and Munhwa analyses) add no new breaches. Japan/China/North Korea/India: nothing new qualifying. Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: funding news only (RobCo, O-Id). No new AI agent incidents found. Seen but not added: Fortune, 'Can superintelligence ever be controlled? Sam Altman on AI safety, doomsday scenarios, and OpenAI's delayed IPO' (appears to revisit Fortune's 12 Sep interview); OfficeChai on Mustafa Suleyman and Claude consciousness; Seoul Economic Daily, 'Big Tech Pulls AI Releases After Agent Hacks; Scholars Call It Self-Grading' (analysis of known pauses). Still summary-only: the CBS New York preview, the POLITICO companion 'daylight' story, amNY/PIX11/Gary Marcus, the Anthropic infostealer story (31 Aug), Korea holiday/POSCO checks, the Google bug bounty halt, Malaysia's AI law plan, BoJ items, all SIF media coverage, the SpaceXSI rename and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (timeline and IP follow-up on known hacks; no new breach, capability jump or powers).",
-      "patchId": "patch_2026-10-05_scan_0815_dublin"
     }
   ],
   "pendingPosts": [
