@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-14T09:11:07.657Z",
+    "lastUpdated": "2026-10-14T11:06:43.984Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-14T10:10:00+01:00",
-    "lastScanSummary": "Scan ~10:10 London, Wed 14 Oct (site-only; covers 08:11 to now, about 2h). No headline promoted this scan. US (held, summary only): Defense One, 'Army converts Futures and Concepts Command to Futures and Autonomy Command', reports FASCOM's commander will also become the Army's first Portfolio Acquisition Executive for autonomy, and that there will be appropriate levels of human judgment before weapons are fired, per the Army's chief technology officer. The page's own timestamp carries no time zone, so it is held for a second matching save. UK (summary only; under 3h old): the Guardian, 'Bank of England and IMF bosses issue stark warning on cyber threat to trust', reports Andrew Bailey and Kristalina Georgieva warning that rising cyber-attacks risk undermining trust in the financial system. UK (summary only; labour-market story, no AI-risk angle): BBC, ''I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire', cites a trade group finding that 92% of employers had encountered or suspected AI misconduct in hiring. Checks: the live titles of the Anthropic, WIRED, Breaking Defense, ARCYBER and Army biothreats headlines are unchanged and match the board. The Yonhap site could not be reached from the box this scan, so the new Yonhap Skynet #1 headline and Korean morning news could not be rechecked; its title was byte-identical at 08:11. Asia, Europe and US morning: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list's one presidential document is not about AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-14T12:06:00+01:00",
+    "lastScanSummary": "Scan ~12:06 London, Wed 14 Oct (site-only; covers 10:10 to now, about 2h). US (promoted to T-800): Defense One, 'Army converts Futures and Concepts Command to Futures and Autonomy Command', title unchanged across two full saves; the Army's new autonomy command will sit under the Pentagon's planned Autonomous Warfare Command, with humans kept on the loop for weapons decisions per the Army's chief technology officer. UK (held): the Guardian retitled its Bank of England and IMF cyber-threat story to 'Bank of England and IMF bosses warn of cyber threat to trust in financial system' and updated it at 11:09 BST, so its settle clock restarts. Also summary only, under 3h old: the Guardian, 'Nvidia, worth $5.5tn, donates $250m to UK for AI safety research' ($250m worth of computing power). Europe (summary only; under 3h since update): POLITICO, 'EU’s cyber unit turns to AI to fend off ‘high-risk’ hacks', on a Commission IT department plan for automated protective measures against emerging AI-driven threats, under human oversight. Yonhap: www.yna.co.kr and en.yna.co.kr were unreachable from the box this scan (TLS connection failures), so the six Yonhap headlines, including Skynet #1, were not rechecked, and no new Yonhap item is named. Checks: the live titles of the Breaking Defense, ARCYBER, Army biothreats, Anthropic and WIRED headlines are unchanged and match the board. Asia, Europe and US: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list's one presidential document is not about AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261013_defenseone_army_futures_and_autonomy_command",
+          "html": "<strong>Army converts Futures and Concepts Command to Futures and Autonomy Command</strong> (Defense One, Meghann Myers) Per Defense One, FASCOM will be the Army’s component organization within the Defense Department’s planned Autonomous Warfare Command, and its commander will also become the Army’s first Portfolio Acquisition Executive for autonomy. The Army&#x27;s chief technology officer, Alex Miller, said the aim is not to start fully automating existing warfighting functions; Defense One adds there will be &quot;appropriate levels of human judgment&quot; before weapons are fired. For things like counter-battery fire and air and missile defense that happen at &quot;superhuman speed and scale&quot;, Miller said the Army wants &quot;to have humans on the loop for decisions&quot;. (Defense One)",
+          "plain": "Army converts Futures and Concepts Command to Futures and Autonomy Command (Defense One, Meghann Myers) Per Defense One, FASCOM will be the Army’s component organization within the Defense Department’s planned Autonomous Warfare Command, and its commander will also become the Army’s first Portfolio Acquisition Executive for autonomy. The Army's chief technology officer, Alex Miller, said the aim is not to start fully automating existing warfighting functions; Defense One adds there will be \"appropriate levels of human judgment\" before weapons are fired. For things like counter-battery fire and air and missile defense that happen at \"superhuman speed and scale\", Miller said the Army wants \"to have humans on the loop for decisions\". (Defense One)",
+          "source": "Defense One",
+          "url": "https://www.defenseone.com/technology/2026/10/army-converts-futures-and-concepts-command-futures-and-autonomy-command/416576/",
+          "date": "2026-10-12",
+          "tags": [
+            "us_army",
+            "fascom",
+            "autonomy",
+            "autowarcom",
+            "human_on_the_loop"
+          ],
+          "subcatId": "autonomous_weapons",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261013_breakingdefense_army_cautious_step_ai_agents_networks",
           "html": "<strong>Army to take a (cautious) step toward employing AI agents to defend networks: Official</strong> (Breaking Defense, Mark Pomerleau) Beyond the ARCYBER sandbox work: per Breaking Defense, the Army plans Friday awards to two companies under Project Griffin, its network AI effort, which drew 108 submissions narrowed to 10 finalists. Principal cyber advisor Brandon Pugh called the award &quot;our take action element&quot;, aimed at &quot;having an autonomous response within prescribed parameters of a human operator, or even in conjunction with that&quot;. Officials said agents won’t begin work on government networks immediately. ARCYBER&#x27;s Lt. Gen. Christopher Eubank: &quot;Are we as humans ready to let the agent actually take action?&quot; (Breaking Defense)",
           "plain": "Army to take a (cautious) step toward employing AI agents to defend networks: Official (Breaking Defense, Mark Pomerleau) Beyond the ARCYBER sandbox work: per Breaking Defense, the Army plans Friday awards to two companies under Project Griffin, its network AI effort, which drew 108 submissions narrowed to 10 finalists. Principal cyber advisor Brandon Pugh called the award \"our take action element\", aimed at \"having an autonomous response within prescribed parameters of a human operator, or even in conjunction with that\". Officials said agents won’t begin work on government networks immediately. ARCYBER's Lt. Gen. Christopher Eubank: \"Are we as humans ready to let the agent actually take action?\" (Breaking Defense)",
@@ -686,23 +703,6 @@
             "nato",
             "drones",
             "autonomy"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261006_kawasaki_kaleido_noetra_physical_ai_autonomy",
-          "html": "<strong>🇯🇵 Kawasaki bets on physical AI to make Kaleido humanoid fully autonomous</strong> (6 Oct 2026; per Nikkei Asia) &quot;Kawasaki Heavy Industries is set to add Noetra&#x27;s platform into its Kaleido humanoid robot, with deployment targeted as early as 2030.&quot; &quot;Kawasaki&#x27;s initial plans focus on relatively simple tasks such as facility patrols and transporting parts in factories and warehouses.&quot; &quot;Early deployments would combine remote human control with AI, allowing operators to supervise or control the robot while Noetra&#x27;s physical AI capabilities handle an increasing share of tasks.&quot; Kawasaki aims eventually for fully autonomous operation; it is a plan, not a deployment. (Interesting Engineering)",
-          "plain": "🇯🇵 Kawasaki bets on physical AI to make Kaleido humanoid fully autonomous (6 Oct 2026; per Nikkei Asia) \"Kawasaki Heavy Industries is set to add Noetra's platform into its Kaleido humanoid robot, with deployment targeted as early as 2030.\" \"Kawasaki's initial plans focus on relatively simple tasks such as facility patrols and transporting parts in factories and warehouses.\" \"Early deployments would combine remote human control with AI, allowing operators to supervise or control the robot while Noetra's physical AI capabilities handle an increasing share of tasks.\" Kawasaki aims eventually for fully autonomous operation; it is a plan, not a deployment. (Interesting Engineering)",
-          "source": "Interesting Engineering",
-          "url": "https://interestingengineering.com/ai-robotics/kawasaki-kaleido-humanoid-autonomous",
-          "date": "2026-10-06",
-          "tags": [
-            "kawasaki",
-            "kaleido",
-            "humanoid",
-            "japan",
-            "physical-ai"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1797,6 +1797,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-14_scan_1206_dublin",
+      "at": "2026-10-14T11:06:43.984Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~12:06 London, Wed 14 Oct (site-only; covers 10:10 to now, about 2h). US (promoted to T-800): Defense One, 'Army converts Futures and Concepts Command to Futures and Autonomy Command', title unchanged across two full saves; the Army's new autonomy command will sit under the Pentagon's planned Autonomous Warfare Command, with humans kept on the loop for weapons decisions per the Army's chief technology officer. UK (held): the Guardian retitled its Bank of England and IMF cyber-threat story to 'Bank of England and IMF bosses warn of cyber threat to trust in financial system' and updated it at 11:09 BST, so its settle clock restarts. Also summary only, under 3h old: the Guardian, 'Nvidia, worth $5.5tn, donates $250m to UK for AI safety research' ($250m worth of computing power). Europe (summary only; under 3h since update): POLITICO, 'EU’s cyber unit turns to AI to fend off ‘high-risk’ hacks', on a Commission IT department plan for automated protective measures against emerging AI-driven threats, under human oversight. Yonhap: www.yna.co.kr and en.yna.co.kr were unreachable from the box this scan (TLS connection failures), so the six Yonhap headlines, including Skynet #1, were not rechecked, and no new Yonhap item is named. Checks: the live titles of the Breaking Defense, ARCYBER, Army biothreats, Anthropic and WIRED headlines are unchanged and match the board. Asia, Europe and US: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list's one presidential document is not about AI. All hold: T-800 33, T-1000 5, Skynet 53 (an organisational change, not a deployment, capability change or new incident).",
+      "patchId": "patch_2026-10-14_scan_1206_dublin"
+    },
+    {
       "id": "patch_2026-10-14_scan_1010_dublin",
       "at": "2026-10-14T09:11:07.657Z",
       "by": "judgment-day-watch",
@@ -2587,14 +2595,6 @@
       "type": "patch",
       "summary": "Scan ~20:12 London, Sun 4 Oct (site-only; covers 18:12 to now; meta-only refresh — nothing new qualified). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related Federal Register document still 'Inaugurating the Era of Super Intelligence', 2 Oct); the finance.biggo.com claims stay out. Trump's Truth Social since 13:09 EDT: at 13:38 EDT he shared an image of Elon Musk's X post reading \"No more AI SI It's better\" (no added text); no new post on the Super Intelligence Force or Clayton. Seen but not added: ABC News, 'President Donald Trump announces creation of 'Super Intelligence Force' AI task force' — Clayton quotes from the WSJ interview (already on); NPR, 'Trump names national intelligence chief Jay Clayton as new AI czar'; UPI, 'Trump names Jay Clayton to new artificial intelligence czar post'; news.com.au, ''Drunk' AI exposes scary new threat' (UNSW study, reported in September); local reports of a Florida woman arrested after Anthropic flagged threats typed into Claude (arrest reported 30 Sep). Korea: Monday-edition Korean reports repeat the seven-firm figures, police preliminary inquiry and FSC warnings; no new breaches or official findings. North Korea: no new assessment beyond Seoul's earlier rejection of the AI-missile claim. Sydney joint committee hearing (Tuesday 6 Oct, OpenAI's Jason Kwon and Anthropic expected): no new previews. Japan/China, UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: Reuters Musk SpaceXAI to SpaceXSI, ABC Khan 'constitution', CBS SIF, Futurism Anthropic/Vatican, The Decoder Google self-improving agents, Tom's Hardware Astra WoW, AP Ohio data centers, the Independent's AI czar piece, CNN/Fox/Politico SIF, the Reflection Axios scoop, Firstpost on OpenAI lawsuits, the Korea $900B plan and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (meta-only refresh).",
       "patchId": "patch_2026-10-04_scan_2015_dublin"
-    },
-    {
-      "id": "patch_2026-10-04_scan_1815_dublin",
-      "at": "2026-10-04T17:11:59.599Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~18:12 London, Sun 4 Oct (site-only; covers 16:14 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov news, briefings-statements and presidential actions, the Federal Register and public inspection rechecked (newest related document still 'Inaugurating the Era of Super Intelligence', 2 Oct); no new Trump Truth Social post on AI since 08:23 EDT; the finance.biggo.com executive-order claim stays out. New: Chosunbiz, 'AI-aided hacks hit seven South Korea financial firms, expose security gaps' — attack IPs from Korea plus \"the United States, Japan, Hong Kong, Singapore, Vietnam, Thailand, and the United Kingdom\"; \"The Korean National Police Agency's Cyber Bureau is investigating\"; Lee Eog-weon: \"defend AI attacks with AI\" (published 17:12 KST / 09:12 BST, not on the board before). Sunday shows: today's CNN State of the Union transcript is a single 9-10a ET segment with no AI mentions (segments 2-5 return 404); no other late Sunday-show AI quotes found. Seen but not added: Reuters, 'Musk says he will rename SpaceXAI to SpaceXSI' — Musk on X: \"Yes, we will make that change\" (rebrand, summary-only); ABC News, 'Former FTC Chair Khan dismisses 'constitution' signed by AI leaders to self-police' (Khan already on); CBS News, 'Trump announces formation of AI \"Super Intelligence Force\"' and other SIF coverage; Futurism, 'Anthropic Has Been Aggressively Lobbying the Vatican to Consider AI Consciousness'; The Decoder, 'Google researchers find a way to keep self-improving AI agents from memorizing their tests'. North Korea: re-coverage of the 'AI-piloted' missile claim only. Asia-Pacific: Korean editorials and recaps, no further new facts. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. UK/Europe: nothing new of note. Bill text (Hawley-Murphy): none new. Robotics/T-1000: nothing new. No new AI agent incidents found. Still summary-only: Tom's Hardware Astra WoW, AP Trump Ohio data centers, the Independent's AI czar piece, the JoongAng recap, CNN/Fox/Politico SIF coverage, the Reflection Axios scoop, Firstpost on OpenAI lawsuits, the Korea $900B plan and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (follow-up detail on an incident already on; no new powers, release or order).",
-      "patchId": "patch_2026-10-04_scan_1815_dublin"
     }
   ],
   "pendingPosts": [
