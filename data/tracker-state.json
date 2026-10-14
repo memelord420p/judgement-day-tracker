@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-13T23:05:43.898Z",
+    "lastUpdated": "2026-10-14T01:10:50.455Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-14T00:05:00+01:00",
-    "lastScanSummary": "Scan ~00:05 London, Wed 14 Oct (site-only; covers 22:10 Tue to now, about 2h). Correction to the 22:10 summary: the DefenseScoop item 'Three-star will head Army’s new autonomy command, which will initially focus on corps-level systems' was named from its title only; that line is withdrawn and replaced by the sourced line below. UK (promoted to Skynet): WIRED, 'OpenAI and Anthropic Tell British Lawmakers: Regulate Us', which adds the regulation split and the AI Security Institute's voluntary-access position to the Independent's account of the same session. Research (summary only; under 3h old): the Guardian, 'AI in your oven? Anthropic warns models ‘months away’ from self-replication on smart devices'. Anthropic's own report, 'AI models may be capable of self-replicating without access to a datacenter', says small AI models may be months away from being capable enough to self-replicate on IoT devices such as smart ovens and off-brand Android TV boxes; the report's wording is more hedged than the headline and is limited to small models. US (summary only, per the task; the DefenseScoop piece is under 3h old): Breaking Defense, 'LaNeve ‘redesignates’ Army’s Futures and Concepts Command as new FASCOM autonomy command', and DefenseScoop, 'Three-star will head Army’s new autonomy command, which will initially focus on corps-level systems', report the Army's new Futures and Autonomous Systems Command (FASCOM); the service did not disclose who that leader will be. Checks: the live titles of the Independent, Hinton, MI5, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 22:10. Asia and US evening: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-14T02:10:00+01:00",
+    "lastScanSummary": "Scan ~02:10 London, Wed 14 Oct (site-only; covers 00:05 to now, about 2h). Research (promoted to Skynet): Anthropic's own report, 'AI models may be capable of self-replicating without access to a datacenter', a Frontier Red Team post saying small AI models may be months away from being able to self-replicate on IoT devices; the claim is hedged and limited to small models. Checks: the live titles of the WIRED, Independent, Hinton, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 00:05. Asia and Australia (Wednesday morning), US late evening: no new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1451,6 +1451,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261012_anthropic_self_replicating_without_datacenter",
+          "html": "<strong>AI models may be capable of self-replicating without access to a datacenter</strong> (Anthropic research post, Frontier Red Team, William Zhou and Daniel Freeman) Anthropic says its experiments suggest that &quot;small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes.&quot; It adds: &quot;A replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days).&quot; Per the post, &quot;In our simplified evaluations, GLM-5.2 and stronger models are capable of end to end replication.&quot; Anthropic ran Gemma4-26B-A4B across 15 off-brand Android TV boxes at 0.39 tokens per second. (Anthropic)",
+          "plain": "AI models may be capable of self-replicating without access to a datacenter (Anthropic research post, Frontier Red Team, William Zhou and Daniel Freeman) Anthropic says its experiments suggest that \"small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes.\" It adds: \"A replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days).\" Per the post, \"In our simplified evaluations, GLM-5.2 and stronger models are capable of end to end replication.\" Anthropic ran Gemma4-26B-A4B across 15 off-brand Android TV boxes at 0.39 tokens per second. (Anthropic)",
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/research/self-replicating-ai",
+          "date": "2026-10-12",
+          "tags": [
+            "anthropic",
+            "self_replication",
+            "ara",
+            "iot",
+            "ai_worm",
+            "frontier_red_team"
+          ],
+          "subcatId": "autonomous_replication",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261013_wired_openai_anthropic_tell_lawmakers_regulate_us",
           "html": "<strong>OpenAI and Anthropic Tell British Lawmakers: Regulate Us</strong> (WIRED, Ben Gartside) At the same Commons committee session, WIRED reports a split on regulation. Anthropic&#x27;s Liam Booth-Smith: &quot;The rules should be binding&quot; Google DeepMind&#x27;s Owen Larter: &quot;Focus on the standards is what we would be doing.&quot; Cat Little, the top civil servant at the Cabinet Office, which houses the AI Security Institute, was asked whether the whole regime was voluntary: &quot;At the moment, yes, it is&quot; AISI director Henry de Zoete acknowledged AISI had no ability to prevent a company releasing a model it judged too dangerous. (WIRED)",
           "plain": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us (WIRED, Ben Gartside) At the same Commons committee session, WIRED reports a split on regulation. Anthropic's Liam Booth-Smith: \"The rules should be binding\" Google DeepMind's Owen Larter: \"Focus on the standards is what we would be doing.\" Cat Little, the top civil servant at the Cabinet Office, which houses the AI Security Institute, was asked whether the whole regime was voluntary: \"At the moment, yes, it is\" AISI director Henry de Zoete acknowledged AISI had no ability to prevent a company releasing a model it judged too dangerous. (WIRED)",
@@ -1773,28 +1791,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261010_yonhap_artex_developer_halts_public_release_after_misuse",
-          "html": "<strong>한국 금융권 해킹에 등장한 &#x27;아르텍스&#x27; 결국 공개 중단</strong> (Yonhap, Park Sang-hyun, 10 Oct 2026; quotes AI-translated from Korean) Per Yonhap, citing AFP and Reuters, ARTEX developer &#x27;Autumn-27&#x27; wrote on GitHub on 8 Oct that the tool had been misused: &quot;Considering the misuse of the tool, ARTEX will no longer be updated and will be converted to closed source&quot; and &quot;Further versions will not be released to the public, and no maintenance support will be provided.&quot; ARTEX said using the tool for cyberattacks is against the developer&#x27;s intent, but did not directly mention the Korean hacks, and claimed it is not responsible for law-breaking use. Reuters reported the GitHub page is gone. A Chinese IT expert told AFP the decision cannot remove already-downloaded copies or stop users from continuing to use them. Yonhap says CrowdStrike assessed the attacker used ARTEX together with LLMs. (Yonhap News Agency)",
-          "plain": "한국 금융권 해킹에 등장한 '아르텍스' 결국 공개 중단 (Yonhap, Park Sang-hyun, 10 Oct 2026; quotes AI-translated from Korean) Per Yonhap, citing AFP and Reuters, ARTEX developer 'Autumn-27' wrote on GitHub on 8 Oct that the tool had been misused: \"Considering the misuse of the tool, ARTEX will no longer be updated and will be converted to closed source\" and \"Further versions will not be released to the public, and no maintenance support will be provided.\" ARTEX said using the tool for cyberattacks is against the developer's intent, but did not directly mention the Korean hacks, and claimed it is not responsible for law-breaking use. Reuters reported the GitHub page is gone. A Chinese IT expert told AFP the decision cannot remove already-downloaded copies or stop users from continuing to use them. Yonhap says CrowdStrike assessed the attacker used ARTEX together with LLMs. (Yonhap News Agency)",
-          "source": "Yonhap News Agency",
-          "url": "https://www.yna.co.kr/view/AKR20261010022500017",
-          "date": "2026-10-10",
-          "tags": [
-            "korea",
-            "artex",
-            "cyber",
-            "open-source",
-            "ai-agents"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-14_scan_0210_dublin",
+      "at": "2026-10-14T01:10:50.455Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:10 London, Wed 14 Oct (site-only; covers 00:05 to now, about 2h). Research (promoted to Skynet): Anthropic's own report, 'AI models may be capable of self-replicating without access to a datacenter', a Frontier Red Team post saying small AI models may be months away from being able to self-replicate on IoT devices; the claim is hedged and limited to small models. Checks: the live titles of the WIRED, Independent, Hinton, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 00:05. Asia and Australia (Wednesday morning), US late evening: no new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. All hold: T-800 33, T-1000 5, Skynet 53 (a hedged research warning, not a policy, capability change or new incident).",
+      "patchId": "patch_2026-10-14_scan_0210_dublin"
+    },
     {
       "id": "patch_2026-10-14_scan_0005_dublin",
       "at": "2026-10-13T23:05:43.898Z",
@@ -2586,14 +2595,6 @@
       "type": "patch",
       "summary": "Scan ~10:09 London, Sun 4 Oct (site-only; covers 08:11 to now). AI czar: still REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found (whitehouse.gov/news, presidential actions and the trumpstruth.org archive rechecked); the finance.biggo.com executive-order claim stays out. New: Seoul Economic Daily, 'Same IP Used in Hacks on Multiple Korean Financial Firms' — attacker IP found in breaches at seven firms including Welcome Savings Bank; attackers \"are believed to have deployed artificial intelligence tools\"; advisories sent to about 500 financial companies; no financial losses reported so far. Welcome Savings Bank (summary detail): The Herald Business, 'Welcome Savings Bank estimates data breach exposed 2,200 corporate customer records' — \"Welcome Savings Bank discovered the cyberattack Saturday during a routine internal security check and reported the incident to regulators\"; data includes \"company names, contact persons' names, email addresses and phone numbers\". That article does not say whether AI was involved. Korea, summary only: Seoul Economic Daily, 'KEPCO Says Data of 24,000 Employees Exposed Online' (no AI link stated); Korean-language reports say two online investment-linked finance (온투업) firms were also exposed (my translation) and the Korea Federation of Savings Banks network saw a hacking attempt with no leak. Seen but not added: Washington Examiner, 'AI companies hold off on embracing Trump's 'super intelligence' rebrand'; Benzinga, 'Bernie Sanders Warns AI Could Become Smarter Than Humans'; NDTV on the WSJ 'overregulation' report (summary-only); Altman 'religious force' re-coverage; GovTech, 'What the Recent Frontier AI Incidents Mean for Security Leaders'. North Korea: re-coverage only, no new outside AI assessment. Bill text: none new. Robotics/T-1000: nothing new. Still summary-only: WSJ 'overregulation', WSJ AI sleuths, Altman/Anthropic scholars, UnHerd, Cyprus Mail EU regulator, mutual finance blocked attempts, court network attempts and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (breach scope widens; AI use still 'believed', not confirmed at all firms).",
       "patchId": "patch_2026-10-04_scan_1015_dublin"
-    },
-    {
-      "id": "patch_2026-10-04_scan_0815_dublin",
-      "at": "2026-10-04T07:10:54.057Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~08:11 London, Sun 4 Oct (site-only; covers 06:09 to now). AI czar: still REPORTED, NOT OFFICIAL — no Truth Social post or White House statement or release naming Jay Clayton found; the finance.biggo.com executive-order claim remains unconfirmed by whitehouse.gov and stays out. Also reported, not official: 'White House AI task force will prevent 'overregulation': WSJ' (Arab News PK). New: Seoul Economic Daily, 'Korea Orders Financial Firms to Block Outside Access After Hacks' — outcome of the FSC's emergency meeting: industry-wide security review, outside access blocked as a general rule, threat information shared, and a shift to AI-based defenses. Korea, summary only: Seoul Economic Daily, 'Regulator Warns Banks to Upgrade Security as Hacking Spreads' — Lee Eok-won: \"The possibility of attacks using AI cannot be ruled out,\" and firms will be held \"strictly accountable under the relevant laws if similar breaches occur\"; Seoul Economic Daily, 'Welcome Savings Bank Reports Data Breach Affecting Corporate Clients'; Korea JoongAng Daily, 'AI hackers target Korea's banks, trigger industrywide security review'; Reuters, 'South Korean president orders probe into data leaks across financial industry' (Lee probe already on). Seen but not added: WSJ 'The Sleuths Who Expose When AI Goes Rogue'; Times of India on Altman and Anthropic's religious scholars (summary-only); Robinson re-coverage; UK/Europe Sunday: UnHerd 'Rejoining the EU would throttle Britain's AI industry', Cyprus Mail 'EU financial regulator targets AI and tokenisation in new supervision drive'. North Korea: re-coverage only, no new outside AI assessment. Bill text: none new. Robotics/T-1000: nothing new. Still summary-only: mutual finance blocked attempts, court network attempts, opposition probe demand, NK Guam piece, VnExpress humanoid police, SBS/Aju mutual finance, Altman on Anthropic consciousness and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (regulatory response, no change in AI capability or powers).",
-      "patchId": "patch_2026-10-04_scan_0815_dublin"
     }
   ],
   "pendingPosts": [
