@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-14T05:07:12.944Z",
+    "lastUpdated": "2026-10-14T07:11:10.257Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-14T06:06:00+01:00",
-    "lastScanSummary": "Scan ~06:06 London, Wed 14 Oct (site-only; covers 04:12 to now, about 2h). No headline promoted this scan. Europe (summary only; read in full, judged industrial policy rather than an AI-risk story): POLITICO, 'Europe’s leaders abandon the race for frontier AI', reports a shift in Brussels toward applying AI rather than building frontier models, ahead of an international AI summit in Dublin; the Commission's tech chief Henna Virkkunen disputes that Europe has given up on frontier AI. Korea (held; under 3h old, title unchanged; AI translation): Yonhap, '콘솔게임 보안까지 뚫은 AI, 해적판 등장에 업계 '발칵'' (roughly: AI breaks through console-game security, industry alarmed by pirated copies). Checks: the live titles of the Breaking Defense, Anthropic, ARCYBER, Army biothreats, WIRED and Independent headlines are unchanged and match the board; no new title drift since 04:12. Asia and Australia (morning), early Europe, US overnight: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-14T08:11:00+01:00",
+    "lastScanSummary": "Scan ~08:11 London, Wed 14 Oct (site-only; covers 06:06 to now, about 2h). Korea (promoted to Skynet; AI translation): Yonhap, '콘솔게임 보안까지 뚫은 AI, 해적판 등장에 업계 '발칵'' (roughly: AI breaks through console-game security, industry alarmed by pirated copies), on agentic AI lowering the bar for reverse-engineering console security. Checks: the live titles of the Anthropic, WIRED, Independent, Breaking Defense, ARCYBER and Army biothreats headlines are unchanged and match the board; no new title drift since 06:06. Asia, Europe and US morning: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list's one presidential document is not about AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1451,6 +1451,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261014_yonhap_console_security_ai_piracy",
+          "html": "<strong>콘솔게임 보안까지 뚫은 AI, 해적판 등장에 업계 &#x27;발칵&#x27;</strong> (Yonhap, 김주환; AI translation) Per Yonhap, citing overseas IT media, agentic AI models are letting anyone with enough token budget and background knowledge reverse-engineer console hardware, break its security and port games to other platforms. Yonhap cites PS5 emulators on GitHub now running PS5 games on PC, and a browser port of GTA 5 that was taken down after about a week following a complaint from Take-Two Interactive. Yonhap says game-industry security investment is expected to rise. (Yonhap)",
+          "plain": "콘솔게임 보안까지 뚫은 AI, 해적판 등장에 업계 '발칵' (Yonhap, 김주환; AI translation) Per Yonhap, citing overseas IT media, agentic AI models are letting anyone with enough token budget and background knowledge reverse-engineer console hardware, break its security and port games to other platforms. Yonhap cites PS5 emulators on GitHub now running PS5 games on PC, and a browser port of GTA 5 that was taken down after about a week following a complaint from Take-Two Interactive. Yonhap says game-industry security investment is expected to rise. (Yonhap)",
+          "source": "Yonhap",
+          "url": "https://www.yna.co.kr/view/AKR20261014079700017",
+          "date": "2026-10-12",
+          "tags": [
+            "agentic_ai",
+            "security",
+            "reverse_engineering",
+            "piracy",
+            "korea"
+          ],
+          "subcatId": "ai_cyber_capability",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261012_anthropic_self_replicating_without_datacenter",
           "html": "<strong>AI models may be capable of self-replicating without access to a datacenter</strong> (Anthropic research post, Frontier Red Team, William Zhou and Daniel Freeman) Anthropic says its experiments suggest that &quot;small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes.&quot; It adds: &quot;A replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days).&quot; Per the post, &quot;In our simplified evaluations, GLM-5.2 and stronger models are capable of end to end replication.&quot; Anthropic ran Gemma4-26B-A4B across 15 off-brand Android TV boxes at 0.39 tokens per second. (Anthropic)",
           "plain": "AI models may be capable of self-replicating without access to a datacenter (Anthropic research post, Frontier Red Team, William Zhou and Daniel Freeman) Anthropic says its experiments suggest that \"small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes.\" It adds: \"A replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days).\" Per the post, \"In our simplified evaluations, GLM-5.2 and stronger models are capable of end to end replication.\" Anthropic ran Gemma4-26B-A4B across 15 off-brand Android TV boxes at 0.39 tokens per second. (Anthropic)",
@@ -1774,28 +1791,19 @@
           ],
           "subcatId": "critical_infrastructure_control",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261011_yonhap_fsi_warned_two_weeks_before_ai_hacks_deepseek_agent",
-          "html": "<strong>AI해킹 알고도 당한 금융권…사고 2주전에도 &#x27;노출자산&#x27; 경고</strong> (Yonhap, Chae Sae-rom, 11 Oct 2026; quotes AI-translated from Korean) Per data the Financial Security Institute submitted to Rep. Han Chang-min (Social Democratic Party, National Policy Committee), the institute told a 17 Sept &#x27;financial AI security threat response seminar&#x27; that it had confirmed an AI-agent attack that month on a domestic financial firm, &#x27;A&#x27;. The attacker told a DeepSeek-based AI agent to scan financial-sector Oracle WebLogic assets and the next day exploited a remote command-execution flaw to install a web shell; A detected and blocked it. Yonhap says it was the first confirmed AI-agent attack on Korea&#x27;s financial sector. The institute urged that &#x27;once or twice a year diagnosis won&#x27;t catch it; constant measurement and verification is needed&#x27;. Yonhap also reports analysis that the earlier attack targeted unpatched third-party solutions, while the recent attacks hit the firms&#x27; own websites, so the sector&#x27;s response may have been limited. Han: the leaks stem from firms failing to manage &#x27;vulnerable points already repeatedly emphasised&#x27;. The five major bank CEOs are due to testify on 19 Oct. (Yonhap News Agency)",
-          "plain": "AI해킹 알고도 당한 금융권…사고 2주전에도 '노출자산' 경고 (Yonhap, Chae Sae-rom, 11 Oct 2026; quotes AI-translated from Korean) Per data the Financial Security Institute submitted to Rep. Han Chang-min (Social Democratic Party, National Policy Committee), the institute told a 17 Sept 'financial AI security threat response seminar' that it had confirmed an AI-agent attack that month on a domestic financial firm, 'A'. The attacker told a DeepSeek-based AI agent to scan financial-sector Oracle WebLogic assets and the next day exploited a remote command-execution flaw to install a web shell; A detected and blocked it. Yonhap says it was the first confirmed AI-agent attack on Korea's financial sector. The institute urged that 'once or twice a year diagnosis won't catch it; constant measurement and verification is needed'. Yonhap also reports analysis that the earlier attack targeted unpatched third-party solutions, while the recent attacks hit the firms' own websites, so the sector's response may have been limited. Han: the leaks stem from firms failing to manage 'vulnerable points already repeatedly emphasised'. The five major bank CEOs are due to testify on 19 Oct. (Yonhap News Agency)",
-          "source": "Yonhap News Agency",
-          "url": "https://www.yna.co.kr/view/AKR20261010027300002",
-          "date": "2026-10-11",
-          "tags": [
-            "korea",
-            "banks",
-            "ai-agents",
-            "deepseek",
-            "financial-security-institute"
-          ],
-          "subcatId": "critical_infrastructure_control",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-14_scan_0811_dublin",
+      "at": "2026-10-14T07:11:10.257Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:11 London, Wed 14 Oct (site-only; covers 06:06 to now, about 2h). Korea (promoted to Skynet; AI translation): Yonhap, '콘솔게임 보안까지 뚫은 AI, 해적판 등장에 업계 '발칵'' (roughly: AI breaks through console-game security, industry alarmed by pirated copies), on agentic AI lowering the bar for reverse-engineering console security. Checks: the live titles of the Anthropic, WIRED, Independent, Breaking Defense, ARCYBER and Army biothreats headlines are unchanged and match the board; no new title drift since 06:06. Asia, Europe and US morning: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list's one presidential document is not about AI. All hold: T-800 33, T-1000 5, Skynet 53 (a reported capability trend in consumer software, not a policy change or major incident).",
+      "patchId": "patch_2026-10-14_scan_0811_dublin"
+    },
     {
       "id": "patch_2026-10-14_scan_0606_dublin",
       "at": "2026-10-14T05:07:12.944Z",
@@ -2587,14 +2595,6 @@
       "type": "patch",
       "summary": "Scan ~16:14 London, Sun 4 Oct (site-only; covers 14:14 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov/news, briefings-statements, presidential actions and the Federal Register rechecked (the newest related Federal Register document is still 'Inaugurating the Era of Super Intelligence', 2 Oct); no new Trump Truth Social post on AI since 08:23 EDT; the finance.biggo.com executive-order claim stays out. New: ABC's This Week, ''This Week' Transcript 10-4-26: Former FTC Chair Lina Khan' — Khan: \"self-regulation efforts by big tech have been a proven failure\"; executives \"are effectively developing malfunctioning products\"; liability \"maybe even for the specific executives\". Other Sunday shows: Face the Nation (Sen. Mark Kelly transcript) and CNN State of the Union (segment 1 transcript) had no AI mentions; no Meet the Press or Fox News Sunday AI segment found (Bill Gates's Meet the Press AI interview aired 27 Sep). Seen but not added: Tom's Hardware, 'ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths' (private AzerothCore server; developer post dated 2 Oct); AP via Seattle Times, 'Trump defends data centers in Ohio as he rallies to boost Jon Husted in a tight Senate race'; further SIF coverage (The Independent, 'Trump names new AI czar as he continues campaign to rename tech 'super intelligence''). Korea: Korean-language reports repeat FSC chair Lee Eok-won's warnings and the MSIT/KISA checks for 28,000 companies (summary-only, no new facts); Korea JoongAng Daily, 'AI hacking spree puts Korea's financial sector on alert' (recap). North Korea: re-coverage only. UK/Europe: nothing new of note. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. Bill text (Hawley-Murphy / AI Agent Accountability Act): none new. Robotics: the REK cage-fight cease-and-desist re-coverage (already on). T-1000: nothing new. Still summary-only: CNN, Fox and Politico SIF coverage; the Reflection Axios scoop; Firstpost on OpenAI lawsuits; the Korea $900B plan; KEPCO; Herald 2,200 records; and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (Sunday-show commentary; no new powers, release or order).",
       "patchId": "patch_2026-10-04_scan_1615_dublin"
-    },
-    {
-      "id": "patch_2026-10-04_scan_1415_dublin",
-      "at": "2026-10-04T13:14:05.178Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~14:14 London, Sun 4 Oct (site-only; covers 12:14 to now). AI czar: OFFICIAL — Trump announced on Truth Social (08:23 EDT / 13:23 BST, https://truthsocial.com/@realDonaldTrump/117382616783706638): \"I am announcing the formation of the Super Intelligence Force (SIF)\", which \"will be led by Director of National Intelligence, Jay Clayton, Chairman of the Federal Trade Commission, Andrew Ferguson, Under Secretary of War for Research and Engineering, and Chief Technology Officer, Emil Michael, and Director of the Office of Personnel Management, Scott Kupor\". The post does not use the word 'czar'; whitehouse.gov/news and presidential actions show no release or executive order yet, and the finance.biggo.com executive-order claim stays out. New: Trump's Truth Social post (above), added to Skynet. Media coverage seen: CNN, 'Trump announces leadership of AI task force'; Fox News, 'Trump launching 'Super Intelligence Force' to ensure American dominance'; Politico, 'Spy chief and AI czar: Trump adds to Jay Clayton's repertoire'. Seen but not added: Axios, 'Scoop: A powerful new model from startup Reflection is set to shake up the AI race'; Firstpost, 'OpenAI faces new legal challenges as AI agent incidents trigger lawsuits, probes'; Crypto Briefing, 'South Korea unveils a roughly $900B AI and chip plan it calls a survival strategy'. Korea: further Korean-language follow-ups on the seven-firm hacking (already on); KEPCO and the MSIT 28,000-company checks stay summary-only. US Sunday shows: no AI segments or transcripts found yet (shows were airing at scan time). UK/Europe: nothing new of note. Sydney joint committee hearing (Tuesday 6 Oct): no new previews found. North Korea: no new facts. Bill text: none new. Robotics/T-1000: nothing new. Still summary-only: Herald 2,200 records, KEPCO, online lending firms, Seoul rejecting the NK missile claim, FT 'Legal risks pile up for Altman…', Irish Examiner, Inquirer, WSJ 'overregulation' and earlier items. All hold: T-800 33, T-1000 5, Skynet 53 (the post sets up coordination and engagement; no new legal powers or executive order).",
-      "patchId": "patch_2026-10-04_scan_1415_dublin"
     }
   ],
   "pendingPosts": [
