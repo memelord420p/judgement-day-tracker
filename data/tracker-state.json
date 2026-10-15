@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-15T13:16:11.705Z",
+    "lastUpdated": "2026-10-15T13:39:53.403Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-15T14:16:00+01:00",
-    "lastScanSummary": "Scan ~14:16 London, Thu 15 Oct (site-only scan; covers 12:06 to now). Asia (promoted to Skynet): the SCMP, 'Z.ai’s GLM-5.3 raises researcher fears the Chinese model can fake AI safety tests', title and text unchanged since 11:00 BST; per a new Apollo Research report, researchers said the model's \"update-aware reasoning\" \"was unprompted and could lead to\" \"alignment faking\", though it \"was not observed independently modifying its training process or improving its capabilities\". Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-15T14:35:00+01:00",
+    "lastScanSummary": "Scan ~14:16 London, Thu 15 Oct (site-only scan; covers 12:06 to now). Asia (promoted to Skynet): the SCMP, 'Z.ai’s GLM-5.3 raises researcher fears the Chinese model can fake AI safety tests', title and text unchanged since 11:00 BST; per a new Apollo Research report, researchers said the model's \"update-aware reasoning\" \"was unprompted and could lead to\" \"alignment faking\", though Apollo, as reported by the SCMP, did not observe the model independently modifying its training process or improving its capabilities, and that behaviour appeared in roughly one to two of every 1,000 evaluation runs (attributed paraphrase of text not freely visible on the page). Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1798,6 +1798,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-15_corr_1435_dublin",
+      "at": "2026-10-15T13:39:53.403Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Correction ~14:35 London, Thu 15 Oct: restates Skynet #0 SCMP GLM-5.3 hedges that only appeared in embedded articleBody (not freely visible page text) as attributed paraphrase in lastScanSummary. No score or headline changes. Skynet #0 headline quote formatting remains on the server-fix list.",
+      "patchId": "patch_2026-10-15_corr_1435_dublin"
+    },
+    {
       "id": "patch_2026-10-15_scan_1416_dublin",
       "at": "2026-10-15T13:16:11.705Z",
       "by": "judgment-day-watch",
@@ -2588,14 +2596,6 @@
       "type": "patch",
       "summary": "Scan ~08:06 London, Wed 7 Oct (site-only; covers 06:07 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — OpenAI released 722 maths papers in 372 result groups from an unreleased internal model, claiming advances on three remaining Millennium Prize Problems including Riemann. Independent verification is pending; flagged for possible Skynet movement once verified (WSJ via Hindustan Times; Indian Express). New — Sydney inquiry day 2: Palo Alto Networks' Nicole Quinn: \"a stop sign won't work if you don't have brakes in that car\". Witnesses said the AI Safety Institute has 25 staff and $7.5m, and called for an up-to-date index of AI agents (AAP; story 9363930 rewritten again at 4:29pm AEDT). No reports yet of Gradient Institute, Global Shield or Workato evidence. Melbourne 8–9 Oct next. Charlton source: no ABC transcript found. ABC AM's 7 Oct segment page (abc.net.au/listen/programs/am/ai-companies-must-take-swift-action-andrew-charlton/107237122) has audio only, and no other text carries his 'don't rely on it' quotes; the existing headline is unchanged. Korea (summary-only): Yonhap reports Everspin detected ARTEX-style attack attempts. Its replication finished a lookup task in 22 seconds in a sample environment (already on). Nine firms confirmed breached; remaining sectors' checks due 8 Oct; FSC online-lender outcome still unreported. NYC: no SpaceXAI enforcement filing reported. Other (summary-only): Mistral Large 4 preview claims 82% on a find-and-patch cyber test where it says closed models refuse (lab claim). Anthropic Claude for Google Workspace beta; Google EmbeddingGemma 2 (product launches). All hold: T-800 33, T-1000 5, Skynet 53 (lab-reported maths capability claims pending independent verification, plus inquiry evidence; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-07_scan_0806_dublin"
-    },
-    {
-      "id": "patch_2026-10-07_scan_0607_dublin",
-      "at": "2026-10-07T05:07:48.551Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~06:07 London, Wed 7 Oct (site-only; covers 04:07 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it. whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — Korea: Money Today reports the suspected AI-agent attacks hit loan-recruiter and staff sales-support sites that current rules exclude from mandatory vulnerability checks. The FSC is reviewing moving checks from at least once to at least twice a year (AI-translated). Korea (summary-only): Financial News' longer piece on the FSI's 17-item AI-agent criteria (already on). The FSC confirms the second network-separation pilot selection is postponed, but the policy stance is unchanged (NewsWay, Korea Financial Times). The FSC online-lender outcome is still unreported. Sydney inquiry, Wed 7 Oct (summary-only): AAP rewrote story 9363930 at 2:06pm AEDT as 'Warning Australia's AI advantages being bled overseas', on sovereign-AI evidence. Vault Cloud's Rupert Taylor-Price: \"We've seen this economic extraction pattern before\". AIML's Simon Lucey: training onshore gives \"more agency over how the process is done, and maybe even more intimate knowledge of the inner workings\". Note: the Charlton 'Don't rely on it' headline posted at 04:07 used the earlier version of that same story. The live page no longer carries those quotes; they were verified against the 11:06am version, and ABC AM aired the Charlton interview. No reports yet of Gradient Institute, Global Shield, Palo Alto Networks or Workato evidence. Melbourne 8–9 Oct next. NYC: no SpaceXAI enforcement filing reported. Other: The Hindu op-ed on the OpenAI Australia hack (commentary, summary-only). All hold: T-800 33, T-1000 5, Skynet 53 (regulatory tightening and inquiry evidence on sovereign AI; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-07_scan_0607_dublin"
     }
   ],
   "pendingPosts": [
