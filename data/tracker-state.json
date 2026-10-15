@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-15T21:08:55.975Z",
+    "lastUpdated": "2026-10-15T23:12:06.418Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-15T22:07:00+01:00",
-    "lastScanSummary": "Scan ~22:07 London, Thu 15 Oct (site-only scan; covers 20:13 to now). US (promoted to Skynet): The Verge, 'Friends don’t let friends feed their data to AI agents', published 17:21 BST; Signal Foundation president Meredith Whittaker on AI agents such as Meta's Muse: \"Meta says Muse only remembers what you choose to share. But the idea that people are making an informed choice in this case is laughable\"; Meta says Muse is opt-in. Also settled: CNA, 'US Treasury pushes global partners to rename AI as 'super intelligence''; Treasury Undersecretary for International Affairs Erin Browne said Washington was negotiating with other IMF shareholders over the term (summary only). Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-16T00:12:00+01:00",
+    "lastScanSummary": "Scan ~00:12 London, Fri 16 Oct (site-only scan; covers 22:07 Thu to now). US (promoted to Skynet): CNA, 'Anthropic grants outside evaluator METR employee-level access in AI safety push', last updated 20:51 BST Thu; Anthropic gave the nonprofit METR \"employee-level access\" and said it cannot veto METR's findings but can require narrowly defined redactions; it is in talks with others including Hugging Face. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1451,6 +1451,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261016_cna_anthropic_metr_evaluator_access",
+          "html": "<strong>Anthropic grants outside evaluator METR employee-level access in AI safety push</strong> Per CNA, Anthropic said six employees of the nonprofit METR (Model Evaluation and Threat Research) have company hardware, office space and access to internal systems roughly equivalent to its risk assessment teams; customer data, legally privileged information and model architecture remain off limits. Anthropic said it cannot veto METR&#x27;s findings on risks, incidents and practices, but can require narrowly defined redactions. METR: &quot;In line with our transparency policies, our report will openly describe the scope, access, and other limitations of our work&quot;. (CNA)",
+          "plain": "Anthropic grants outside evaluator METR employee-level access in AI safety push Per CNA, Anthropic said six employees of the nonprofit METR (Model Evaluation and Threat Research) have company hardware, office space and access to internal systems roughly equivalent to its risk assessment teams; customer data, legally privileged information and model architecture remain off limits. Anthropic said it cannot veto METR's findings on risks, incidents and practices, but can require narrowly defined redactions. METR: \"In line with our transparency policies, our report will openly describe the scope, access, and other limitations of our work\". (CNA)",
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/business/anthropic-grants-outside-evaluator-metr-employee-level-access-in-ai-safety-push-6463306",
+          "date": "2026-10-16",
+          "tags": [
+            "anthropic",
+            "metr",
+            "ai_safety",
+            "evaluation",
+            "oversight"
+          ],
+          "subcatId": "ai_safety_oversight",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261015_verge_muse_ai_agents_friends_data",
           "html": "<strong>Friends don’t let friends feed their data to AI agents</strong> Per The Verge, AI personal assistants such as Meta’s Muse ask users for access to bank accounts, passwords, contacts and chat logs, sweeping in data about friends and family who never consented. Signal Foundation president Meredith Whittaker: &quot;These systems are advertised as autonomous helpers, genies, or servants who do what you need before you ask, seamlessly&quot;. EFF director of cybersecurity Eva Galperin: &quot;The most important takeaway is that people don’t understand what kind of data they’re handing over&quot;. Meta says Muse is opt-in and offers privacy settings. (The Verge)",
           "plain": "Friends don’t let friends feed their data to AI agents Per The Verge, AI personal assistants such as Meta’s Muse ask users for access to bank accounts, passwords, contacts and chat logs, sweeping in data about friends and family who never consented. Signal Foundation president Meredith Whittaker: \"These systems are advertised as autonomous helpers, genies, or servants who do what you need before you ask, seamlessly\". EFF director of cybersecurity Eva Galperin: \"The most important takeaway is that people don’t understand what kind of data they’re handing over\". Meta says Muse is opt-in and offers privacy settings. (The Verge)",
@@ -1777,28 +1794,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261013_yonhap_police_fbi_cooperation_financial_hacking_probe",
-          "html": "<strong>경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적</strong> (Yonhap; AI translation of the title: &#x27;Police cooperate with US FBI in financial-sector hacking probe… tracking identity and activity&#x27;) Per Yonhap, Korean police are cooperating with the FBI to obtain account information and access records held by US-based security firms and an AI company (인공지능(AI) 업체의 계정 정보·접속기록) for their investigation into hacking attacks on Korea&#x27;s financial sector. Per Yonhap, CrowdStrike had earlier pointed to a possible suspect (가능성을 제시했다) based partly on information entered into an AI coding tool (AI 코딩 도구), and police are considering that the person identified may not be the one who actually carried out the hacking (실제 해킹을 실행한 인물과 다를 가능성). A police official said only that details of the cooperation could not be confirmed. No one has been charged. (Yonhap)",
-          "plain": "경찰, 금융권 해킹수사 美 FBI와 공조…공격자 신원·활동 추적 (Yonhap; AI translation of the title: 'Police cooperate with US FBI in financial-sector hacking probe… tracking identity and activity') Per Yonhap, Korean police are cooperating with the FBI to obtain account information and access records held by US-based security firms and an AI company (인공지능(AI) 업체의 계정 정보·접속기록) for their investigation into hacking attacks on Korea's financial sector. Per Yonhap, CrowdStrike had earlier pointed to a possible suspect (가능성을 제시했다) based partly on information entered into an AI coding tool (AI 코딩 도구), and police are considering that the person identified may not be the one who actually carried out the hacking (실제 해킹을 실행한 인물과 다를 가능성). A police official said only that details of the cooperation could not be confirmed. No one has been charged. (Yonhap)",
-          "source": "Yonhap",
-          "url": "https://www.yna.co.kr/view/AKR20261013093900004",
-          "date": "2026-10-12",
-          "tags": [
-            "korea",
-            "fbi",
-            "cyber",
-            "finance",
-            "ai_coding_tool"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-16_scan_0012_dublin",
+      "at": "2026-10-15T23:12:06.418Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:12 London, Fri 16 Oct (site-only scan; covers 22:07 Thu to now). US (promoted to Skynet): CNA, 'Anthropic grants outside evaluator METR employee-level access in AI safety push', last updated 20:51 BST Thu; Anthropic gave the nonprofit METR \"employee-level access\" and said it cannot veto METR's findings but can require narrowly defined redactions; it is in talks with others including Hugging Face. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (an oversight arrangement, not a new incident or capability change).",
+      "patchId": "patch_2026-10-16_scan_0012_dublin"
+    },
     {
       "id": "patch_2026-10-15_scan_2207_dublin",
       "at": "2026-10-15T21:08:55.975Z",
@@ -2590,14 +2598,6 @@
       "type": "patch",
       "summary": "Scan ~20:13 London, Wed 7 Oct (site-only; covers 18:18 to now). Nothing new qualified for a headline. Official SIF check: whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); latest AI item still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 2:29 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent refereeing, confirmation or refutation of any headline result reported. Explainers (Stanford Tech Review, techscurrent) restate that Lean checks 162 of 722 main results and doesn't confirm that the formal statements match the papers. Skynet holds at 53. Korea: no FSC package yet. The FSC's 6 Oct explanatory note says shorter assessment cycles, a wider inspection scope and stronger enforcement will be announced 'as soon as possible' (AI-translated paraphrase). Per Newspim, compliance fines need a law change. NYC: still no SpaceXAI enforcement filing reported. Seen, not added: CNN's 18 Sep report on an AI-assisted false intelligence report that nearly led to a US intercept of a Chinese ship, recirculating today; it is old news, outside this window. SAFA industry standards body (26 Sep report, aggregator only). All hold: T-800 33, T-1000 5, Skynet 53 (maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-07_scan_2013_dublin"
-    },
-    {
-      "id": "patch_2026-10-07_scan_1818_dublin",
-      "at": "2026-10-07T17:19:00.279Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~18:18 London, Wed 7 Oct (site-only; covers 16:37 to now). Official SIF check: whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); the latest AI item there is 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (6 Oct onward): no AI or SIF document. Truth Social 7 Oct (via trumpstruth.org archive): nothing on AI; SIF remains the 4 Oct post (already on). biggo stays out. New — T-800: WIRED reports the Pentagon's Tradewinds marketplace fast-tracks AI buys from pitch videos of five minutes or less. This year it is seeking AI-enabled agents for joint targeting, including kill chain execution. OpenAI, Anthropic and Google are listed as participants. OpenAI maths (summary-only): New Scientist's Jacob Aron (opinion) notes that AGMAI has distanced itself from the release and that formalisation is incomplete. Buzzard: \"The main obstruction is simply that formalisation takes time.\" No independent confirmation or refutation of a headline result, so Skynet holds at 53. Korea (summary-only): still no published FSC package. Per MoneyToday, an FSC official says it is pursuing a shorter vulnerability-assessment cycle, a wider inspection scope and stronger enforcement measures (AI-translated paraphrase). NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (kill-chain procurement and maths-claim scrutiny; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-07_scan_1818_dublin"
     }
   ],
   "pendingPosts": [
