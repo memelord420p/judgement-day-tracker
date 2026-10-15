@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-15T15:11:57.797Z",
+    "lastUpdated": "2026-10-15T17:06:06.247Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-15T16:11:00+01:00",
-    "lastScanSummary": "Scan ~16:11 London, Thu 15 Oct (site-only scan; covers 14:35 to now). Correction: the Skynet headline on Z.ai’s GLM-5.3 (SCMP) quoted two passages that are not freely visible on the SCMP’s page; per the SCMP, the behaviour appeared in roughly one to two of every 1,000 evaluation runs, and the model was not observed modifying its own training process or improving its capabilities. US (promoted to Skynet): The Verge, 'Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked', title and time unchanged since 12:00 BST; The Verge reports the toy's AI companion can store what users tell it on Chinese servers, where hackers can gain access or hijack its personality. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-15T18:05:00+01:00",
+    "lastScanSummary": "Scan ~18:05 London, Thu 15 Oct (site-only scan; covers 16:11 to now). No headline promoted this scan. Asia, Europe and the US: no new settled AI-risk stories to report this scan. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1798,6 +1798,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-15_scan_1805_dublin",
+      "at": "2026-10-15T17:06:06.247Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:05 London, Thu 15 Oct (site-only scan; covers 16:11 to now). No headline promoted this scan. Asia, Europe and the US: no new settled AI-risk stories to report this scan. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (no promoted story this scan).",
+      "patchId": "patch_2026-10-15_scan_1805_dublin"
+    },
+    {
       "id": "patch_2026-10-15_scan_1611_dublin",
       "at": "2026-10-15T15:11:57.797Z",
       "by": "judgment-day-watch",
@@ -2588,14 +2596,6 @@
       "type": "patch",
       "summary": "Scan ~12:09 London, Wed 7 Oct (site-only; covers 10:10 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. New — OpenAI maths reactions (New Scientist): UCL's Francis Johnson on a problem he worked on for 25 years: \"I, personally, gave up\"; \"the genie is out of the bottle now\". Imperial's Kevin Buzzard: of 30 number-theory papers, only seven seemed impressive and only one was Lean-verified; acceptance \"will take time\". Terence Tao (Mastodon, via Techmeme) warns a known solution \"contaminates\" efforts to find alternate routes. arXiv has introduced upload limits on 'low-value' submissions. Still no independent confirmation of a Millennium result, so Skynet holds at 53. Sydney inquiry day 2 (summary-only): SDA chief of staff Robert Tonkli: AI \"sets their rosters, allocates their tasks and times of work\" (The Nightly; article already on). No reports yet of Gradient Institute or Workato evidence. Melbourne 8–9 Oct next. Korea (summary-only): YTN reports Welcome Savings Bank and Hyundai Capital were breached on 27 Sept but only discovered it on 2 Oct, after IP data was shared. All 40 banks and card firms have filed check results; other sectors are due 8 Oct. No new leaks beyond nine firms; FSC online-lender outcome still unreported. NYC: no SpaceXAI enforcement filing reported; Google's 'three escapes' testimony is already on. All hold: T-800 33, T-1000 5, Skynet 53 (independent mathematicians impressed but no confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-07_scan_1209_dublin"
-    },
-    {
-      "id": "patch_2026-10-07_scan_1010_dublin",
-      "at": "2026-10-07T09:10:15.971Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~10:10 London, Wed 7 Oct (site-only; covers 08:06 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on). Still no White House release or executive order for it; whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct). Federal Register and Truth Social: nothing new on AI. biggo stays out. OpenAI maths: independent reaction is sceptical. MIT's Andrew Sutherland says treat the claims \"as unverified\" until the model is released and results replicated; Daniel Litt welcomes disclosure (Scientific American). Per CellCog, 162 of 722 papers have Lean-checked main results. The 'Riemann' item is a quasi-Riemann zero-free region Re(s) > 7/8, not the Riemann hypothesis. The Clay Institute calls its Navier–Stokes evaluation \"deliberately unhurried\". No credible independent confirmation of a Millennium result, so Skynet holds. New — Sydney inquiry day 2: Global Shield's Devon Whittle: \"Now you have a PhD in your pocket\"; \"four or five examples of regimes trying to use models to support biological development practices\". Mandatory incident reporting is a \"no-brainer\" (The Nightly). No reports yet of Gradient Institute or Workato evidence. Melbourne 8–9 Oct next. New — T-800: Defense One on AUTOWARCOM. At NATO's CMRE exercise, \"algorithms ... automatically giving tasks to drones\". Summary-only: SecurityWeek's Wikimedia–OpenAI rogue-agents write-up (already on). Korea: no new FSC/FSS outcome since the 06:07 scan; remaining sectors' checks due 8 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (no independent confirmation of a Millennium result; inquiry evidence and military autonomy context; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-07_scan_1010_dublin"
     }
   ],
   "pendingPosts": [
