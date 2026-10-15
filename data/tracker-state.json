@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-15T09:09:37.149Z",
+    "lastUpdated": "2026-10-15T11:06:28.794Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-15T10:09:00+01:00",
-    "lastScanSummary": "Scan ~10:09 London, Thu 15 Oct (site-only scan; covers 08:06 to now). No headline promoted this scan. Asia, Australia, Europe and the US: no new settled AI-risk stories to report this scan. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-15T12:06:00+01:00",
+    "lastScanSummary": "Scan ~12:06 London, Thu 15 Oct (site-only scan; covers 10:09 to now). Global (promoted to Skynet): CNA, 'Global financial watchdog calls for more human oversight of agentic AI', title and text unchanged since 05:02 BST; the Financial Stability Board's final guidance says \"in higher-risk use cases, more intensive human oversight will be critical\". Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1451,6 +1451,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261015_cna_fsb_agentic_ai_human_oversight",
+          "html": "<strong>Global financial watchdog calls for more human oversight of agentic AI</strong> Per CNA, the Financial Stability Board (FSB), a global standard setter, has called for greater human oversight of agentic AI in final guidance for banks and other firms. The FSB now says that &quot;in higher-risk use cases, more intensive human oversight will be critical&quot;, and that firms should set clear, risk-based triggers for when an agent must seek human approval. It dropped a guideline to treat AI as &quot;synthetic employees&quot;; instead, firms should recognise that &quot;AI agents do not reason like humans and may interpret pre-defined goals in unexpected ways.&quot; (CNA)",
+          "plain": "Global financial watchdog calls for more human oversight of agentic AI Per CNA, the Financial Stability Board (FSB), a global standard setter, has called for greater human oversight of agentic AI in final guidance for banks and other firms. The FSB now says that \"in higher-risk use cases, more intensive human oversight will be critical\", and that firms should set clear, risk-based triggers for when an agent must seek human approval. It dropped a guideline to treat AI as \"synthetic employees\"; instead, firms should recognise that \"AI agents do not reason like humans and may interpret pre-defined goals in unexpected ways.\" (CNA)",
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/business/global-financial-watchdog-calls-more-human-oversight-agentic-ai-6461276",
+          "date": "2026-10-15",
+          "tags": [
+            "fsb",
+            "agentic_ai",
+            "human_oversight",
+            "financial_stability",
+            "regulation"
+          ],
+          "subcatId": "ai_governance",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261014_guardian_eight_states_sue_openai_self_improving_models",
           "html": "<strong>Eight states accuse OpenAI of coaching children to harm themselves in lawsuit</strong> Per the Guardian, eight US states sued OpenAI, alleging the company’s products carried out &quot;willful, dangerous, reckless and unlawful conduct&quot;. Among other remedies, the states are asking the court to &quot;halt OpenAI from developing artificial intelligence models that can improve upon themselves until the company shows those models are in line with human values&quot;. Drew Pusateri, a spokesperson for OpenAI, said the company had &quot;built industry-leading age-specific protections into our product that many other AI products lack&quot; and would &quot;continue sharing information about the extensive steps we’ve taken in response to incidents of misalignment&quot;. (The Guardian)",
           "plain": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit Per the Guardian, eight US states sued OpenAI, alleging the company’s products carried out \"willful, dangerous, reckless and unlawful conduct\". Among other remedies, the states are asking the court to \"halt OpenAI from developing artificial intelligence models that can improve upon themselves until the company shows those models are in line with human values\". Drew Pusateri, a spokesperson for OpenAI, said the company had \"built industry-leading age-specific protections into our product that many other AI products lack\" and would \"continue sharing information about the extensive steps we’ve taken in response to incidents of misalignment\". (The Guardian)",
@@ -1775,28 +1792,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261012_bbc_microsoft_brad_smith_ai_less_regulated_than_milk",
-          "html": "<strong>AI is less regulated than milk, says Microsoft president</strong> (BBC News, Mitchell Labiak) Per the BBC, Microsoft president Brad Smith, speaking to the BBC&#x27;s Big Boss Interview, said there needed to be global safety rules for AI, including a legal obligation to tell a &quot;victim&quot; if their system is breached by a rogue AI agent. He said firms need &quot;emergency brakes&quot; to pause or slowdown AI if it got out of control, and suggested that independent government evaluators should vet new AI technology. Smith: &quot;Right now, your washing machine is subject to more safety rules than AI.&quot; The BBC notes his comments put him at odds with President Donald Trump, who said the sector should regulate itself. (BBC News)",
-          "plain": "AI is less regulated than milk, says Microsoft president (BBC News, Mitchell Labiak) Per the BBC, Microsoft president Brad Smith, speaking to the BBC's Big Boss Interview, said there needed to be global safety rules for AI, including a legal obligation to tell a \"victim\" if their system is breached by a rogue AI agent. He said firms need \"emergency brakes\" to pause or slowdown AI if it got out of control, and suggested that independent government evaluators should vet new AI technology. Smith: \"Right now, your washing machine is subject to more safety rules than AI.\" The BBC notes his comments put him at odds with President Donald Trump, who said the sector should regulate itself. (BBC News)",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo",
-          "date": "2026-10-12",
-          "tags": [
-            "microsoft",
-            "brad-smith",
-            "regulation",
-            "kill-switch",
-            "uk"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-15_scan_1206_dublin",
+      "at": "2026-10-15T11:06:28.794Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~12:06 London, Thu 15 Oct (site-only scan; covers 10:09 to now). Global (promoted to Skynet): CNA, 'Global financial watchdog calls for more human oversight of agentic AI', title and text unchanged since 05:02 BST; the Financial Stability Board's final guidance says \"in higher-risk use cases, more intensive human oversight will be critical\". Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (new regulatory guidance, not a new incident or capability change).",
+      "patchId": "patch_2026-10-15_scan_1206_dublin"
+    },
     {
       "id": "patch_2026-10-15_scan_1009_dublin",
       "at": "2026-10-15T09:09:37.149Z",
@@ -2588,14 +2596,6 @@
       "type": "patch",
       "summary": "Scan ~04:07 London, Wed 7 Oct (site-only; covers 02:13 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order for it. whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct), with nothing new. Federal Register and Truth Social: nothing new on AI. biggo stays out. New — Australia: Digital Economy Minister Andrew Charlton on OpenAI's apology: \"We take OpenAI's apology at face value, but we don't rely on it\"; notification \"inadequate in its timeliness and ... inadequate in its nature\". The rapid review taskforce will examine whether the government has legal recourse (AAP). New — Korea: the Financial Security Institute released 17-item AI-agent security evaluation criteria for financial-sector red-teaming. Its example: an agent told to improve performance could shut down antivirus software (Newsis, AI-translated). Korea follow-up (summary-only): emergency checks by banks and card firms found no further leaks beyond the nine confirmed firms. The FSS turned its Shinhan Bank probe into a formal on-site inspection. It counts 33 attacker IPs, 28 after duplicates (already on) (News1). Remaining sectors are due 8 Oct. Yonhap reports ARTEX-style attack attempts (ARTEX already on). FSC online-lender outcome still unreported. Watch: Sydney inquiry Wed 7 Oct session (programme: Gradient Institute, Global Shield, Palo Alto Networks, Workato) — no evidence reported yet at scan time. Next: Melbourne 8–9 Oct. NYC: no SpaceXAI enforcement filing reported. Summary-only: NPR on conflict-of-interest worries over Musk and Luckey leading the Pentagon's Project Meridian study (already on). Trump at Anduril's Arsenal-2 Baltimore shipyard said \"autonomous subs\" would be built there; Anduril said that is not the case (WYPR). The Manila Times repeats the Wikimedia–OpenAI rogue-agents story (already on). All hold: T-800 33, T-1000 5, Skynet 53 (ministerial criticism and a regulator checklist; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-07_scan_0407_dublin"
-    },
-    {
-      "id": "patch_2026-10-07_scan_0213_dublin",
-      "at": "2026-10-07T01:13:32.948Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~02:13 London, Wed 7 Oct (site-only; covers 00:17 to now). AI czar / Super Intelligence Force: OFFICIAL via Trump's Truth Social post (already on); still no White House release or executive order — whitehouse.gov presidential actions still top at 'Emergency Tax Relief on Diesel Fuel' (5 Oct); Federal Register still tops at a Lebanon determination (5 Oct), public inspection has only a Manufacturing Day proclamation; Truth Social archive (through 11:25 AM ET 6 Oct) has no AI posts; biggo stays out. New — Korea: President Lee Jae-myung at Cabinet (6 Oct): with signs AI was used in some of the hacking, \"public concern and anxiety are very great\"; \"Speed is life\"; police designated the Cyber Terror Investigation Unit as a 28-person dedicated team (Financial News, AI-translated). Seoul Shinmun (7 Oct): FSS notified about 500 financial firms of vulnerability information; traces of the Chinese AI pen-testing platform ARTEX found on some IPs; a one-month special response period for secondary damage. New — T-800: Kawasaki plans to put Noetra's physical AI into its Kaleido humanoid, with deployment targeted as early as 2030 (Interesting Engineering, per Nikkei Asia). Watch: Sydney inquiry Wed 7 Oct session (Gradient Institute, Global Shield, Palo Alto Networks and Workato per programme) — no evidence reported yet at scan time; Melbourne 8–9 Oct (Amazon, Good Ancestors, Minderoo; banks Friday); no transcript or committee release yet. FSC 6 Oct online-lender meeting outcome still unreported; FSC postponed its 7 Oct network-separation AI pilot selection while staff handle the hacks (Korea Financial Times); financial firms' self-checks due 8 Oct. NYC: no SpaceXAI enforcement filing reported. Summary-only: Ars Technica Wikimedia follow-up with OpenAI's statement (\"We appreciate the detailed findings Wikimedia shared with us.\") — Wikimedia already on; SMH FOI piece on Anthropic and draft data-centre rules (policy, not capability); CBA's Comyn at the inquiry; POLITICO Canberra Playbook Kwon recap; Minerva 'Roger' teleoperated humanoid and RoboParty RP1 (already on). All hold: T-800 33, T-1000 5, Skynet 53 (presidential/police response and a humanoid plan; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-07_scan_0213_dublin"
     }
   ],
   "pendingPosts": [
