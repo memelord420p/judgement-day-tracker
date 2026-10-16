@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-16T01:08:59.817Z",
+    "lastUpdated": "2026-10-16T03:07:11.695Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-16T02:08:00+01:00",
-    "lastScanSummary": "Scan ~02:08 London, Fri 16 Oct (site-only scan; covers 00:12 to now). US (promoted to Skynet): Defense One, 'Meet the agency using AI to screen grant applicants for links to potential adversaries', unchanged across three saves since 22:05 Thu; Transportation senior advisor for AI Neil Chaudhry said the agency built \"some really robust AI tools\" to check research grant recipients for links to adversaries, saying the checks are \"not based on the color of their skin and their nationality or something\". Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Congressional Bills S. 240, S. 283, and S. 2403 Signed into Law', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-16T04:07:00+01:00",
+    "lastScanSummary": "Scan ~04:07 London, Fri 16 Oct (site-only scan; covers 02:08 to now). Singapore (promoted to Skynet): CNA, 'AI accelerating cyber threats, making regional cooperation crucial: Australian minister', unchanged across three saves since 02:07; Australia's Assistant Minister for Foreign Affairs and Trade Matt Thistlethwaite said AI-based systems are speeding up attackers' ability to crack into systems, and that cooperation means \"We're talking about training the tech to defeat the tech\". Board: the Yonhap TVING item (13 Oct) rolled off the 20-item Skynet board with this addition. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Congressional Bills S. 240, S. 283, and S. 2403 Signed into Law', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1451,6 +1451,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261016_cna_australia_thistlethwaite_ai_cyber_threats",
+          "html": "<strong>AI accelerating cyber threats, making regional cooperation crucial: Australian minister</strong> Per CNA, Australia&#x27;s Assistant Minister for Foreign Affairs and Trade Matt Thistlethwaite, speaking at Singapore International Cyber Week, said cyberattacks that previously required weeks of coding can now be carried out in seconds or minutes using AI, raising concerns about critical infrastructure including power supplies, hospitals and transport systems. Thistlethwaite: &quot;What artificial intelligence has done has sped up the threat and the scale of it&quot;. And: &quot;Now we&#x27;re talking about artificial intelligence-based systems that are speeding up the threat actors&#x27; ability to crack into systems and to threaten networks,&quot; he said, adding that governments must use the same technology to counter the threats. (CNA)",
+          "plain": "AI accelerating cyber threats, making regional cooperation crucial: Australian minister Per CNA, Australia's Assistant Minister for Foreign Affairs and Trade Matt Thistlethwaite, speaking at Singapore International Cyber Week, said cyberattacks that previously required weeks of coding can now be carried out in seconds or minutes using AI, raising concerns about critical infrastructure including power supplies, hospitals and transport systems. Thistlethwaite: \"What artificial intelligence has done has sped up the threat and the scale of it\". And: \"Now we're talking about artificial intelligence-based systems that are speeding up the threat actors' ability to crack into systems and to threaten networks,\" he said, adding that governments must use the same technology to counter the threats. (CNA)",
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/singapore/artificial-intelligence-cyber-threats-regional-cooperation-australia-thistlethwaite-6461546",
+          "date": "2026-10-16",
+          "tags": [
+            "australia",
+            "cyber",
+            "ai_risk",
+            "critical_infrastructure",
+            "singapore_international_cyber_week"
+          ],
+          "subcatId": "ai_cyber_capability",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261016_d1_dot_ai_grant_applicant_screening",
           "html": "<strong>Meet the agency using AI to screen grant applicants for links to potential adversaries</strong> Per Defense One, the Department of Transportation has been using artificial intelligence to determine whether grant recipients have ties to adversarial nations. Neil Chaudhry, senior advisor for AI at Transportation, said the agency worked with partners to create &quot;some really robust AI tools&quot; to analyze research grant recipients, including checks for links to Chinese Communist Party leadership or Russian oligarchs. Chaudhry: &quot;What we don&#x27;t want to do is go on a fishing expedition,&quot; adding it is &quot;not based on the color of their skin and their nationality or something&quot;. The capability is not in Transportation&#x27;s latest AI use-case inventory. (Defense One)",
           "plain": "Meet the agency using AI to screen grant applicants for links to potential adversaries Per Defense One, the Department of Transportation has been using artificial intelligence to determine whether grant recipients have ties to adversarial nations. Neil Chaudhry, senior advisor for AI at Transportation, said the agency worked with partners to create \"some really robust AI tools\" to analyze research grant recipients, including checks for links to Chinese Communist Party leadership or Russian oligarchs. Chaudhry: \"What we don't want to do is go on a fishing expedition,\" adding it is \"not based on the color of their skin and their nationality or something\". The capability is not in Transportation's latest AI use-case inventory. (Defense One)",
@@ -1776,28 +1793,19 @@
           ],
           "subcatId": "artificial_general_intelligence",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261013_yonhap_tving_ceo_suspected_ai_based_hacking_pipc",
-          "html": "<strong>티빙 대표 &quot;AI 기반 해킹 추정&quot;…개인정보위 &quot;연내 처분 마무리&quot;</strong> (Yonhap; AI translation of the title: &#x27;Tving CEO: suspected AI-based hacking… PIPC: aim to finish sanctions this year&#x27;) Per Yonhap, the CEO of Korean streaming service Tving told a National Assembly audit on 13 Oct that the company suspects (추정) its large personal-data leak, put at 39.54 million records (3천954만건), was caused by AI-based hacking (인공지능(AI) 기반 해킹에 따른 사고로 추정). Per Yonhap, how the system was first breached has not yet been established and police are investigating (경찰이 수사 중). Korea&#x27;s privacy regulator said it is trying to finish its sanctions this year (연내에 처분을 마무리하려고 노력하고 있다). The AI-hacking cause is the company&#x27;s suspicion, not an established finding. (Yonhap)",
-          "plain": "티빙 대표 \"AI 기반 해킹 추정\"…개인정보위 \"연내 처분 마무리\" (Yonhap; AI translation of the title: 'Tving CEO: suspected AI-based hacking… PIPC: aim to finish sanctions this year') Per Yonhap, the CEO of Korean streaming service Tving told a National Assembly audit on 13 Oct that the company suspects (추정) its large personal-data leak, put at 39.54 million records (3천954만건), was caused by AI-based hacking (인공지능(AI) 기반 해킹에 따른 사고로 추정). Per Yonhap, how the system was first breached has not yet been established and police are investigating (경찰이 수사 중). Korea's privacy regulator said it is trying to finish its sanctions this year (연내에 처분을 마무리하려고 노력하고 있다). The AI-hacking cause is the company's suspicion, not an established finding. (Yonhap)",
-          "source": "Yonhap",
-          "url": "https://www.yna.co.kr/view/AKR20261013173300530",
-          "date": "2026-10-12",
-          "tags": [
-            "korea",
-            "tving",
-            "data_breach",
-            "ai_hacking",
-            "pipc"
-          ],
-          "subcatId": "artificial_general_intelligence",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-16_scan_0407_dublin",
+      "at": "2026-10-16T03:07:11.695Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:07 London, Fri 16 Oct (site-only scan; covers 02:08 to now). Singapore (promoted to Skynet): CNA, 'AI accelerating cyber threats, making regional cooperation crucial: Australian minister', unchanged across three saves since 02:07; Australia's Assistant Minister for Foreign Affairs and Trade Matt Thistlethwaite said AI-based systems are speeding up attackers' ability to crack into systems, and that cooperation means \"We're talking about training the tech to defeat the tech\". Board: the Yonhap TVING item (13 Oct) rolled off the 20-item Skynet board with this addition. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Congressional Bills S. 240, S. 283, and S. 2403 Signed into Law', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (an official's warning, not a new incident or capability change).",
+      "patchId": "patch_2026-10-16_scan_0407_dublin"
+    },
     {
       "id": "patch_2026-10-16_scan_0208_dublin",
       "at": "2026-10-16T01:08:59.817Z",
@@ -2589,14 +2597,6 @@
       "type": "patch",
       "summary": "Scan ~00:12 London, Thu 8 Oct (site-only; covers 22:07 to now). Backfill — T-800: Bloomberg's report on the Pentagon's internal probe of the 28 Feb Minab school strike (at least 123 children killed). Officials cite \"a cascade of preventable failures,\" including \"an overreliance on artificial intelligence technology\"; some CENTCOM staff relied too much on the AI in Palantir's Maven Smart System. Palantir denies responsibility. Bloomberg's own page is bot-blocked, so this uses the LA Times republication (21 Sep; Bloomberg byline) with its own title. Three-week-old, already-public report based on unnamed officials, so no score change. Official SIF check: whitehouse.gov latest are two 7 Oct proclamations (Columbus Day; National Energy Dominance Month), neither on AI. The latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct onward): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 6:02 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. Korea: the National Assembly's audit of the FSC (Chairman Lee Eog-weon) runs 8 Oct KST and hadn't started at scan time. AI-driven hacking is expected to be the top issue; bank CEOs are not testifying today (fnnews/News1, AI-translated paraphrase). Australia: the joint AI committee sits in East Melbourne 8–9 Oct (Amazon, Good Ancestors, Minderoo, Telstra; then the big banks); no new evidence yet. OpenAI: GPT-6 with Intelligent UI rolling out to all ChatGPT tiers (OpenAI, 7 Oct). It is a product rollout, so summary-only; GPT-6 Astra safety items are already on. Maths: no independent confirmation or refutation. NYC: still no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (Minab/Maven report is a three-week-old backfill already public; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-08_scan_0012_dublin"
-    },
-    {
-      "id": "patch_2026-10-07_scan_2207_dublin",
-      "at": "2026-10-07T21:07:49.799Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~22:07 London, Wed 7 Oct (site-only; covers 20:13 to now). Backfill — Skynet: CNN's 18 Sep exclusive, checked against the original CNN page. An AI chatbot-assisted intelligence report \"inaccurately identified\" a Chinese ship's cargo as nuclear-weapons-program components, and US planes were in the air before the error was caught. One source said it \"almost started a war.\" It is a three-week-old near-miss that was already public, so no score change; Skynet holds at 53. Official SIF check: whitehouse.gov added two 7 Oct proclamations (Columbus Day; National Energy Dominance Month), neither on AI. The latest AI item is still 'Inaugurating The Era Of Super Intelligence' (29 Sep). Federal Register (7 Oct): no AI or SIF document. Truth Social (via trumpstruth.org archive, latest 2:29 PM EDT 7 Oct): nothing on AI. SIF remains the 4 Oct post (already on). biggo stays out. OpenAI maths: no independent refereeing, confirmation or refutation reported. Skynet holds. Korea: no FSC package yet. The National Assembly's audit of the FSC is on 8 Oct, and the AI-driven hacking is expected to dominate (News1, AI-translated paraphrase). Other sectors finish emergency checks 8 Oct. NYC: still no SpaceXAI enforcement filing reported. Wikimedia rogue-agent coverage (Dark Reading, 7 Oct) is already on. All hold: T-800 33, T-1000 5, Skynet 53 (CNN near-miss is a three-week-old backfill already public; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-07_scan_2207_dublin"
     }
   ],
   "pendingPosts": [
