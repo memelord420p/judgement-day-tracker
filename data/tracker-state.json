@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-17T09:12:51.745Z",
+    "lastUpdated": "2026-10-17T09:56:23.900Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-17T10:12:00+01:00",
-    "lastScanSummary": "Scan ~10:12 London, Sat 17 Oct (site-only scan; covers 08:10 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-17T10:56:00+01:00",
+    "lastScanSummary": "Scan ~10:56 London, Sat 17 Oct (site-only scan; covers 10:12 to now). UK (promoted to Skynet): BBC, 'The AI photo shortcut experts say parents should avoid', title, modified time and text unchanged across saves at 08:09, 10:12 and 10:55; experts urge parents to check how AI tools store, reuse or train on uploaded photos of children. A data-privacy warning, not a capability change, so the Skynet score holds. Board: the 12 Oct Anthropic research item on self-replication rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1450,6 +1450,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261017_bbc_parents_child_photos_ai_tools_privacy",
+          "html": "<strong>The AI photo shortcut experts say parents should avoid</strong> Per the BBC, experts are urging parents to think carefully before uploading photographs of their children to AI tools, as some parents use AI to remove watermarks from school photos. George Martin, security and data protection adviser at South West Grid for Learning: &quot;Parents have limited visibility over what happens to the images once they&#x27;re uploaded&quot;. Dr Simon Thorne, a senior computer science lecturer at Cardiff School of Technologies: &quot;The dataset could get leaked online potentially and your material can be used to train future generations of the model.&quot; The advice includes checking whether uploads are used to train AI models, reviewing privacy settings and removing metadata where possible. (BBC)",
+          "plain": "The AI photo shortcut experts say parents should avoid Per the BBC, experts are urging parents to think carefully before uploading photographs of their children to AI tools, as some parents use AI to remove watermarks from school photos. George Martin, security and data protection adviser at South West Grid for Learning: \"Parents have limited visibility over what happens to the images once they're uploaded\". Dr Simon Thorne, a senior computer science lecturer at Cardiff School of Technologies: \"The dataset could get leaked online potentially and your material can be used to train future generations of the model.\" The advice includes checking whether uploads are used to train AI models, reviewing privacy settings and removing metadata where possible. (BBC)",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/crpdgz2nqe59o",
+          "date": "2026-10-17",
+          "tags": [
+            "privacy",
+            "children",
+            "training_data",
+            "ai_tools",
+            "uk"
+          ],
+          "subcatId": "ai_surveillance",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261016_cna_g7_ai_cyber_tabletop_exercises",
           "html": "<strong>G7 to launch exercises to guard against AI cyber attacks</strong> Per CNA, Japanese Finance Minister Satsuki Katayama said G7 finance leaders agreed to hold tabletop exercises to guard against AI cyber attacks, after a meeting of G7 finance ministers and central bank governors on the sidelines of the IMF&#x27;s annual gathering in Bangkok. Katayama: &quot;The G7 finance deputies had been discussing the idea of doing tabletop exercises on frontier AI, which was signed off at the ministerial level&quot;. A Japanese finance ministry official said the simulations will test how G7 finance authorities can respond to AI-driven cyber attacks, and could include private financial institutions depending on the nature of the simulations. (CNA)",
           "plain": "G7 to launch exercises to guard against AI cyber attacks Per CNA, Japanese Finance Minister Satsuki Katayama said G7 finance leaders agreed to hold tabletop exercises to guard against AI cyber attacks, after a meeting of G7 finance ministers and central bank governors on the sidelines of the IMF's annual gathering in Bangkok. Katayama: \"The G7 finance deputies had been discussing the idea of doing tabletop exercises on frontier AI, which was signed off at the ministerial level\". A Japanese finance ministry official said the simulations will test how G7 finance authorities can respond to AI-driven cyber attacks, and could include private financial institutions depending on the nature of the simulations. (CNA)",
@@ -1771,29 +1788,19 @@
           ],
           "subcatId": "ai_cyber_capability",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261012_anthropic_self_replicating_without_datacenter",
-          "html": "<strong>AI models may be capable of self-replicating without access to a datacenter</strong> (Anthropic research post, Frontier Red Team, William Zhou and Daniel Freeman) Anthropic says its experiments suggest that &quot;small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes.&quot; It adds: &quot;A replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days).&quot; Per the post, &quot;In our simplified evaluations, GLM-5.2 and stronger models are capable of end to end replication.&quot; Anthropic ran Gemma4-26B-A4B across 15 off-brand Android TV boxes at 0.39 tokens per second. (Anthropic)",
-          "plain": "AI models may be capable of self-replicating without access to a datacenter (Anthropic research post, Frontier Red Team, William Zhou and Daniel Freeman) Anthropic says its experiments suggest that \"small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes.\" It adds: \"A replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days).\" Per the post, \"In our simplified evaluations, GLM-5.2 and stronger models are capable of end to end replication.\" Anthropic ran Gemma4-26B-A4B across 15 off-brand Android TV boxes at 0.39 tokens per second. (Anthropic)",
-          "source": "Anthropic",
-          "url": "https://www.anthropic.com/research/self-replicating-ai",
-          "date": "2026-10-12",
-          "tags": [
-            "anthropic",
-            "self_replication",
-            "ara",
-            "iot",
-            "ai_worm",
-            "frontier_red_team"
-          ],
-          "subcatId": "autonomous_replication",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-17_scan_1056_dublin",
+      "at": "2026-10-17T09:56:23.900Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~10:56 London, Sat 17 Oct (site-only scan; covers 10:12 to now). UK (promoted to Skynet): BBC, 'The AI photo shortcut experts say parents should avoid', title, modified time and text unchanged across saves at 08:09, 10:12 and 10:55; experts urge parents to check how AI tools store, reuse or train on uploaded photos of children. A data-privacy warning, not a capability change, so the Skynet score holds. Board: the 12 Oct Anthropic research item on self-replication rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a data-privacy warning, not a capability change).",
+      "patchId": "patch_2026-10-17_scan_1056_dublin"
+    },
     {
       "id": "patch_2026-10-17_scan_1012_dublin",
       "at": "2026-10-17T09:12:51.745Z",
@@ -2585,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~12:17 London, Fri 9 Oct (site-only; covers 10:14 to now, about 2h). New — Skynet: DefenseScoop (7 Oct) reports a memo from Deputy Defense Secretary Steve Feinberg starting a small pilot of the Air Force's AI-aided ACME classification tools. If the pilot is successful, the memo says, the system will eventually be 'the single, digital authoritative reference' for all DOD original classification decisions. CNAS's Josh Wallin asks how human oversight will be kept in place. It is a pilot, not a deployment; the Pentagon did not say which models it uses. Melbourne 9 Oct: AAP's hearing story ('Australia's AI business opportunity lies with expansion', last modified 09:10 BST) is unchanged since 10:14, but it is about sovereign AI capability, data centres and the Firmus IPO, not AI risk or regulation, so it stays in the summary. In it, Andrew Hastie told ABC's Afternoon Briefing that 'we must have a sovereign AI capability here in Australia'. Sadler (Good Ancestors, 8 Oct): still unread. ParlInfo's transcript page and its PDF and XML download links return a 403 WAF challenge to curl, and WebFetch times out; the Good Ancestors site has no write-up and no news coverage quoting the evidence was found. US morning: no Pentagon or industry response to S. 5601 or Anthropic's usage policy found from a primary or reputable source. WIRED's Tradewinds procurement story is already on the board. Trump AI-post follow-ups: none. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations); AI.gov is unchanged; si.gov still returns 403; no new Truth Social posts since 12:02am EDT. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection is unchanged (the diesel EO and the Fermi America notice); Truth Social checked via the trumpstruth.org archive. biggo stays out. Korea (Hangul Day holiday): no new Yonhap finance stories since 10:14. OpenAI maths: the repo history's latest entry is still 7 Oct; no independent confirmation of a headline result. NYC: no SpaceXAI enforcement filing reported; the SpaceXSI rename is already covered. All hold: T-800 33, T-1000 5, Skynet 53 (the new Skynet item is a small classification pilot that has not yet started, the Melbourne evidence is about sovereign capacity, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-09_scan_1217_dublin"
-    },
-    {
-      "id": "patch_2026-10-09_scan_1014_dublin",
-      "at": "2026-10-09T09:14:34.231Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~10:14 London, Fri 9 Oct (site-only; covers 08:07 to now, about 2h). Summary-only: no new headline passed the checks. Melbourne 9 Oct (banks and fintech): AAP's hearing story was retitled again since the 08:07 scan, now 'Australia's AI business opportunity lies with expansion', so it is still being rewritten and held back. The AFR (James Eyers, 5.15pm AEDT) reports Westpac chief AI officer Dan Jermyn told the inquiry that 'long-term sovereign AI capacity' should be 'at the centre of Australia's AI strategy'. This is sovereign-capacity evidence, not AI risk; the article is paywalled, so only that excerpt was available. The Good Ancestors (Sadler) section of the 8 Oct proof transcript is still unread: ParlInfo returns an Azure WAF JavaScript challenge (403) to curl, and its search returns no results. S. 5601 (Banks–Gillibrand) and Anthropic's 2026 Usage Policy: no Pentagon or industry response found from a primary or reputable source. Trump AI-post follow-ups: no press-secretary statement or new order. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. No new Truth Social posts since 12:02am EDT. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. Korea (Hangul Day holiday): no new Yonhap finance-hacking stories; the FSC ruling is still pending. OpenAI maths: the repo history's latest entry is still 7 Oct; no independent confirmation of a headline result. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (no new headline this scan, the Melbourne evidence reported so far is about sovereign capacity, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-09_scan_1014_dublin"
     }
   ],
   "pendingPosts": [
