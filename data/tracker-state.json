@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-17T19:11:12.961Z",
+    "lastUpdated": "2026-10-17T21:05:05.477Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-17T20:11:00+01:00",
-    "lastScanSummary": "Scan ~20:11 London, Sat 17 Oct (site-only scan; covers 18:08 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-17T22:04:00+01:00",
+    "lastScanSummary": "Scan ~22:04 London, Sat 17 Oct (site-only scan; covers 20:11 to now). UK (promoted to T-800): BBC, 'Protesters call for London robotaxi trials to stop' (page title: 'Protesters outside Wayve offices call for London robotaxi trials to stop'), title, modified time and text unchanged across saves at 20:10 and 22:04; about 15 people protested outside Wayve's London offices over the safety, congestion and jobs impact of its supervised driverless taxi trials; Wayve said it is taking a phased approach, and TfL said any automated passenger service needs its consent. A protest and policy debate, not a capability change, so the T-800 score holds. Board: the 5 Oct item on the Pentagon's Swarm Forge autonomous drone initiative rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261017_bbc_london_robotaxi_trial_protest_wayve",
+          "html": "<strong>Protesters call for London robotaxi trials to stop</strong> Per the BBC, about 15 people protested outside the King&#x27;s Cross offices of autonomous vehicle company Wayve, which is trialling driverless taxis in London with human safety operators on board, calling for the trials to stop over safety, congestion and jobs. Private hire driver Abdurzak Hadi said he was &quot;worried that I&#x27;ll be forced to compete with a machine that can work 24 hours&quot;. GMB representative James Rossi: &quot;What we want is assurances.&quot; Wayve said it was taking a &quot;deliberately phased approach&quot; with Uber and working with Transport for London; a TfL spokesperson said: &quot;Safety is our top priority and any automated passenger service in London can only operate with TfL&#x27;s consent.&quot; (BBC)",
+          "plain": "Protesters call for London robotaxi trials to stop Per the BBC, about 15 people protested outside the King's Cross offices of autonomous vehicle company Wayve, which is trialling driverless taxis in London with human safety operators on board, calling for the trials to stop over safety, congestion and jobs. Private hire driver Abdurzak Hadi said he was \"worried that I'll be forced to compete with a machine that can work 24 hours\". GMB representative James Rossi: \"What we want is assurances.\" Wayve said it was taking a \"deliberately phased approach\" with Uber and working with Transport for London; a TfL spokesperson said: \"Safety is our top priority and any automated passenger service in London can only operate with TfL's consent.\" (BBC)",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmx23n3k35kdo",
+          "date": "2026-10-17",
+          "tags": [
+            "robotaxi",
+            "autonomous_vehicles",
+            "london",
+            "jobs",
+            "protest"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261017_cna_north_korea_ai_assisted_torpedo_claim",
           "html": "<strong>North Korea says tested AI-assisted torpedo system</strong> Per CNA, North Korean state media said the country tested its &quot;super-speed&quot; Zam-2.0 torpedo system on Thursday, and that &quot;AI technology was applied to the target detection and the guidance function of the new-type super-speed precisely guided torpedo&quot;; it added the system had completed &quot;more than 180 rounds of different tests over the past five years&quot;. This is North Korea&#x27;s own claim, not an independently verified capability. Yang Moo-jin, former president of the University of North Korean Studies in Seoul, said quieting a high-speed torpedo is a major technical challenge and &quot;North Korea does not yet appear to have reached that level&quot;. (CNA)",
           "plain": "North Korea says tested AI-assisted torpedo system Per CNA, North Korean state media said the country tested its \"super-speed\" Zam-2.0 torpedo system on Thursday, and that \"AI technology was applied to the target detection and the guidance function of the new-type super-speed precisely guided torpedo\"; it added the system had completed \"more than 180 rounds of different tests over the past five years\". This is North Korea's own claim, not an independently verified capability. Yang Moo-jin, former president of the University of North Korean Studies in Seoul, said quieting a high-speed torpedo is a major technical challenge and \"North Korea does not yet appear to have reached that level\". (CNA)",
@@ -685,23 +702,6 @@
             "autonomous-weapons",
             "deep-strike",
             "harmattan-ai"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261005_dvids_swarm_forge_si_battle_manager_on_the_loop",
-          "html": "<strong>Department of War Advances AI Strategy with &#x27;Swarm Forge&#x27; Autonomous Drone Initiative</strong> (DVIDS / Department of War CDAO, 5 Oct 2026) Official release: Swarm Forge, the first of seven AI Strategy &#x27;Pace-Setting Projects&#x27;, runs a &quot;90-day zero-to-deployment pipeline&quot; for drone swarms with Special Operations Forces. In the June field Crucible, air and ground systems were &quot;orchestrated by an advanced SI battle manager while human operators remained &quot;on-the-loop&quot;.&quot; More than 130 companies have been narrowed to about 25. Finalised swarm packages are to be validated for transition to operational units after a fourth Crucible in late January 2027. Late add: the release is from 5 Oct and wasn&#x27;t on the board. (DVIDS (Department of War))",
-          "plain": "Department of War Advances AI Strategy with 'Swarm Forge' Autonomous Drone Initiative (DVIDS / Department of War CDAO, 5 Oct 2026) Official release: Swarm Forge, the first of seven AI Strategy 'Pace-Setting Projects', runs a \"90-day zero-to-deployment pipeline\" for drone swarms with Special Operations Forces. In the June field Crucible, air and ground systems were \"orchestrated by an advanced SI battle manager while human operators remained \"on-the-loop\".\" More than 130 companies have been narrowed to about 25. Finalised swarm packages are to be validated for transition to operational units after a fourth Crucible in late January 2027. Late add: the release is from 5 Oct and wasn't on the board. (DVIDS (Department of War))",
-          "source": "DVIDS (Department of War)",
-          "url": "https://www.dvidshub.net/news/576347/department-war-advances-ai-strategy-with-swarm-forge-autonomous-drone-initiative",
-          "date": "2026-10-05",
-          "tags": [
-            "pentagon",
-            "drone-swarms",
-            "autonomy",
-            "cdao",
-            "socom"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1794,6 +1794,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-17_scan_2204_dublin",
+      "at": "2026-10-17T21:05:05.477Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:04 London, Sat 17 Oct (site-only scan; covers 20:11 to now). UK (promoted to T-800): BBC, 'Protesters call for London robotaxi trials to stop' (page title: 'Protesters outside Wayve offices call for London robotaxi trials to stop'), title, modified time and text unchanged across saves at 20:10 and 22:04; about 15 people protested outside Wayve's London offices over the safety, congestion and jobs impact of its supervised driverless taxi trials; Wayve said it is taking a phased approach, and TfL said any automated passenger service needs its consent. A protest and policy debate, not a capability change, so the T-800 score holds. Board: the 5 Oct item on the Pentagon's Swarm Forge autonomous drone initiative rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a protest and policy debate, not a capability change).",
+      "patchId": "patch_2026-10-17_scan_2204_dublin"
+    },
+    {
       "id": "patch_2026-10-17_scan_2011_dublin",
       "at": "2026-10-17T19:11:12.961Z",
       "by": "judgment-day-watch",
@@ -2584,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~02:08 London, Sat 10 Oct (site-only; covers 00:07 to now, about 2h). Summary-only: no new headline. Korea (Saturday morning KST): no new FSC, FSS, police, 19 Oct bank-CEO hearing or breach-admission AI story in Yonhap's finance or society lists; the newest items found (FSC chair's 8 Oct audit remarks on easing network-separation rules for security AI; police tracking of the attacker) predate this scan and add nothing beyond what is already covered. Australia (Saturday): no new AI inquiry, Charlton, Services Australia or OpenAI-hack item or weekend feature found in the SMH, The Age, the ABC or the Guardian; AAP's 9 Oct Melbourne story is unchanged. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: no new Truth Social posts since the last scan; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-10_scan_0208_dublin"
-    },
-    {
-      "id": "patch_2026-10-10_scan_0007_dublin",
-      "at": "2026-10-09T23:07:53.482Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~00:07 London, Sat 10 Oct (site-only; covers 22:10 Fri to now, about 2h). Summary-only: no new headline. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. NPR (9 Oct) adds that Tomek Korbak wrote on X that he was 'told verbally I was fired because of the way I communicated with METR', with no details given; OpenAI told NPR the three violated policies more than once and that the mishandling went beyond their work with an outside evaluation group. Both accounts are unverified; the story is already on the board twice. Australia (Saturday): no new AI inquiry hearing, Charlton, Services Australia or OpenAI-hack item beyond what is already covered; AAP's 9 Oct Melbourne story is unchanged. Korea (Saturday): no FSC, FSS, police or 19 Oct bank-CEO hearing AI story in Yonhap's finance or society lists. US defence: no new Pentagon, CDAO, autonomous-weapons or NDAA item; Project Agincourt, FASCOM and the Senate-only RASCOM provision are already covered. White House: the only new Truth Social post is Katie Zacharia's thank-you as press secretary, not AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-10_scan_0007_dublin"
     }
   ],
   "pendingPosts": [
