@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-17T03:13:11.554Z",
+    "lastUpdated": "2026-10-17T05:14:55.893Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-17T04:13:00+01:00",
-    "lastScanSummary": "Scan ~04:13 London, Sat 17 Oct (site-only scan; covers 02:06 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists six documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-17T06:14:00+01:00",
+    "lastScanSummary": "Scan ~06:14 London, Sat 17 Oct (site-only scan; covers 04:13 to now). North Korea (promoted to T-800): CNA, 'North Korea says tested AI-assisted torpedo system', title, modified time and text unchanged across saves at 04:13 and 06:14; per CNA, North Korean state media said AI was applied to the target detection and guidance of its Zam-2.0 torpedo. This is the North's own claim, not a verified capability, so the T-800 score holds. Board: the 21 Sep item on the US strike on a school in Minab, Iran, rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists six documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261017_cna_north_korea_ai_assisted_torpedo_claim",
+          "html": "<strong>North Korea says tested AI-assisted torpedo system</strong> Per CNA, North Korean state media said the country tested its &quot;super-speed&quot; Zam-2.0 torpedo system on Thursday, and that &quot;AI technology was applied to the target detection and the guidance function of the new-type super-speed precisely guided torpedo&quot;; it added the system had completed &quot;more than 180 rounds of different tests over the past five years&quot;. This is North Korea&#x27;s own claim, not an independently verified capability. Yang Moo-jin, former president of the University of North Korean Studies in Seoul, said quieting a high-speed torpedo is a major technical challenge and &quot;North Korea does not yet appear to have reached that level&quot;. (CNA)",
+          "plain": "North Korea says tested AI-assisted torpedo system Per CNA, North Korean state media said the country tested its \"super-speed\" Zam-2.0 torpedo system on Thursday, and that \"AI technology was applied to the target detection and the guidance function of the new-type super-speed precisely guided torpedo\"; it added the system had completed \"more than 180 rounds of different tests over the past five years\". This is North Korea's own claim, not an independently verified capability. Yang Moo-jin, former president of the University of North Korean Studies in Seoul, said quieting a high-speed torpedo is a major technical challenge and \"North Korea does not yet appear to have reached that level\". (CNA)",
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/east-asia/north-korea-ai-torpedo-system-6467791",
+          "date": "2026-10-17",
+          "tags": [
+            "north_korea",
+            "ai_weapons",
+            "torpedo",
+            "state_media_claim",
+            "naval"
+          ],
+          "subcatId": "military_autonomy",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261016_defenseone_powerus_jet_shahed_autonomous_interceptors",
           "html": "<strong>Fast-flying Shahed drones spur new class of interceptors</strong> Per Defense One, US dronemaker Powerus is seeking jet- or rocket-powered interceptors fast enough to defeat the jet-powered Shahed drones increasingly seen in Ukraine. Cofounder and president Brett Velicovich said flying an interceptor at 600 to 700 kilometres per hour means &quot;That&#x27;s going to require a lot more automation&quot;. The company unveiled a fully autonomous interceptor at the Association of the U.S. Army’s annual conference; Velicovich said it &quot;…takes that final terminal phase of a manual operator out of the loop, and it is fully automated…&quot;, and the company aims to produce 5,000 interceptors per month by November. (Defense One)",
           "plain": "Fast-flying Shahed drones spur new class of interceptors Per Defense One, US dronemaker Powerus is seeking jet- or rocket-powered interceptors fast enough to defeat the jet-powered Shahed drones increasingly seen in Ukraine. Cofounder and president Brett Velicovich said flying an interceptor at 600 to 700 kilometres per hour means \"That's going to require a lot more automation\". The company unveiled a fully autonomous interceptor at the Association of the U.S. Army’s annual conference; Velicovich said it \"…takes that final terminal phase of a manual operator out of the loop, and it is fully automated…\", and the company aims to produce 5,000 interceptors per month by November. (Defense One)",
@@ -685,25 +702,6 @@
             "autonomy",
             "cdao",
             "socom"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20260921_bloomberg_lat_minab_school_kill_chain_ai_overreliance",
-          "html": "<strong>Inside the U.S. &#x27;kill chain&#x27; that destroyed an Iranian school</strong> (Bloomberg via Los Angeles Times, 21 Sep 2026; backfill, added 8 Oct) Per Bloomberg, officials involved in an internal Pentagon probe of the 28 Feb Tomahawk strike on a school in Minab, Iran, which killed at least 123 children, describe &quot;a cascade of preventable failures.&quot; Compressed targeting timelines, &quot;combined with gaps in underlying information about the site, cuts in civilian protection personnel and an overreliance on artificial intelligence technology — set the stage for the deadly error.&quot; &quot;Inside Centcom, which conducted the U.S. attack, some personnel relied too much on the artificial intelligence embedded in Maven Smart System, the officials said.&quot; Palantir says it &quot;is not responsible for the underlying data nor identifying intelligence deficiencies&quot; and that there&#x27;s no evidence its software was at fault. (Los Angeles Times (Bloomberg))",
-          "plain": "Inside the U.S. 'kill chain' that destroyed an Iranian school (Bloomberg via Los Angeles Times, 21 Sep 2026; backfill, added 8 Oct) Per Bloomberg, officials involved in an internal Pentagon probe of the 28 Feb Tomahawk strike on a school in Minab, Iran, which killed at least 123 children, describe \"a cascade of preventable failures.\" Compressed targeting timelines, \"combined with gaps in underlying information about the site, cuts in civilian protection personnel and an overreliance on artificial intelligence technology — set the stage for the deadly error.\" \"Inside Centcom, which conducted the U.S. attack, some personnel relied too much on the artificial intelligence embedded in Maven Smart System, the officials said.\" Palantir says it \"is not responsible for the underlying data nor identifying intelligence deficiencies\" and that there's no evidence its software was at fault. (Los Angeles Times (Bloomberg))",
-          "source": "Los Angeles Times (Bloomberg)",
-          "url": "https://www.latimes.com/world-nation/story/2026-09-21/inside-u-s-kill-chain-that-destroyed-iranian-school",
-          "date": "2026-09-21",
-          "tags": [
-            "military",
-            "pentagon",
-            "maven",
-            "palantir",
-            "targeting",
-            "civilian-harm",
-            "backfill"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1797,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-17_scan_0614_dublin",
+      "at": "2026-10-17T05:14:55.893Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:14 London, Sat 17 Oct (site-only scan; covers 04:13 to now). North Korea (promoted to T-800): CNA, 'North Korea says tested AI-assisted torpedo system', title, modified time and text unchanged across saves at 04:13 and 06:14; per CNA, North Korean state media said AI was applied to the target detection and guidance of its Zam-2.0 torpedo. This is the North's own claim, not a verified capability, so the T-800 score holds. Board: the 21 Sep item on the US strike on a school in Minab, Iran, rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists six documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a state-media weapons claim, not a verified capability change).",
+      "patchId": "patch_2026-10-17_scan_0614_dublin"
+    },
+    {
       "id": "patch_2026-10-17_scan_0413_dublin",
       "at": "2026-10-17T03:13:11.554Z",
       "by": "judgment-day-watch",
@@ -2587,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~06:09 London, Fri 9 Oct (site-only; covers 04:07 to now, about 2h). New — Skynet, Korea: Yonhap's police-team story, held back last scan, re-fetched with its title unchanged. Police have expanded the financial-hacking team from 28 to 43, are pursuing international cooperation including blocking attack servers, and promise no investigation gap before any transfer to the Serious Crimes Investigation Agency. Quotes are AI-translated. Skynet, US: per DefenseScoop, a bipartisan Senate bill from Banks and Gillibrand would make big Pentagon AI contractors report 'unprompted autonomous actions' and safeguard evasions. Proposed, not law. Skynet, Australia: the proof transcript of the Melbourne 8 Oct hearing is now published. ATSE's Peter Derbyshire told the committee: 'International frontier models have shown they can hack government systems despite developers putting safeguards in place.' T-800: Anthropic's 2026 Usage Policy update clarifies that its weapons ban covers 'arming drones and other autonomous vehicles', and adds stop/safe-state requirements when Claude drives hardware that takes autonomous physical actions. Melbourne 9 Oct (banks and fintech, summary-only): AAP's hearing story is still being rewritten (re-titled 'Data centre stoushes a sad state of affairs, MPs told', last modified 04:30 BST), so it is held back. APH now lists further hearings in Canberra on 14 and 16 Oct. Korea: the FSC's legal ruling on whether the breached systems count as electronic-finance infrastructure (which decides any transfer to the Serious Crimes Investigation Agency) is still pending. The five bank CEOs are still due at the 19 Oct FSS audit. No new breach admission found. 9 Oct is the Hangul Day holiday in Korea. Trump AI-post follow-ups: no press-secretary statement or new order. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. The new Truth Social post (12:02am EDT, Michigan Senate debate) is not about AI. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct; no independent confirmation of a headline result. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the Senate bill is only proposed, the Anthropic change is a usage policy, the Korea and Australia items are an investigation update and testimony, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-09_scan_0609_dublin"
-    },
-    {
-      "id": "patch_2026-10-09_scan_0407_dublin",
-      "at": "2026-10-09T03:07:20.269Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~04:07 London, Fri 9 Oct (site-only; covers 01:31 to now, about 2.5h). New — Skynet, Korea: two Yonhap stories held back last scan, re-fetched with their titles unchanged. (1) FSS data obtained by Rep. Song Eon-seok: the attacker was identified in only 2 of 18 suspected overseas-origin hacks on financial firms since 2024, and the FSS says IP country data alone makes identifying attackers practically impossible (07:53 KST). (2) A Yonhap explainer on AI-driven hacking, drawing on CrowdStrike, Google and Anthropic reports (06:33 KST). Quotes are AI-translated. Skynet, Australia: the proof transcript of the Sydney 7 Oct hearing is now published. Adelaide University's Simon Lucey told MPs: 'we really don't even understand how AI fundamentally works'. T-800: per The Defense Post, GA-ASI and the US Navy tested MQ-20 Avenger software that interprets a commander's intent and adjusts the plan in real time. It was a company-reported test against simulated threats. Korea, summary-only: Yonhap (11:43 KST) says police have expanded the financial-hacking investigation team from 28 to 43 officers and are pursuing international cooperation, including blocking attack servers. This is fresh, so held back one scan. The FSC's legal ruling on whether the case can go to the Serious Crimes Investigation Agency is still pending. No new breach admission found. Melbourne: the 8 Oct transcript is still listed as not yet available. Today's 9 Oct hearing (banks and fintech witnesses) is in session; no reported evidence yet. Trump AI-post follow-ups: no press-secretary statement or new order found. whitehouse.gov presidential actions are unchanged (latest 7 Oct proclamations). AI.gov's title is unchanged and si.gov still returns 403. Four new Truth Social posts (8:51–9:09pm EDT: UN and Democrats) are not about AI. Official SIF check (run before this summary): the Federal Register (8 Oct onward) has only the Sea Grant notice; public inspection still lists only the diesel EO and the Fermi America notice; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: still no independent confirmation of a headline result (719 manuscripts after the three withdrawals). NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new Korea and Australia items are attribution data and testimony, the MQ-20 test was against simulated threats, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-09_scan_0407_dublin"
     }
   ],
   "pendingPosts": [
