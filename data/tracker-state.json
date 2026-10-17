@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-17T15:08:58.931Z",
+    "lastUpdated": "2026-10-17T16:02:19.837Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-17T16:08:00+01:00",
-    "lastScanSummary": "Scan ~16:08 London, Sat 17 Oct (site-only scan; covers 14:10 to now). Asia (promoted to Skynet): CNA, 'AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers', title, modified time and text unchanged across saves at 14:09 and 16:08; Anthropic co-founder Jack Clark warned policymakers that faster AI progress brings potentially great peril, urged the strictest human oversight of AI in biological research, and said the window for safeguards is a small number of years. A speech warning, not a capability change, so the Skynet score holds. Board: the 14 Oct item on an EU cyber unit and high-risk AI hacks rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-17T17:02:00+01:00",
+    "lastScanSummary": "Scan ~17:02 London, Sat 17 Oct (site-only scan; covers 16:08 to now). US (promoted to Skynet): The Verge, 'Websites are closing their doors to AI agents', title, modified time and text unchanged across saves at 14:09, 16:08 and 17:01; websites and banks are blocking AI agents, and an AI safety evaluator says anti-bot defences built against scams and hacks also catch agents. A web-access and security story, not a capability change, so the Skynet score holds. Board: the 14 Oct item on Bank of England and IMF warnings about cyber threats to trust in the financial system rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1450,6 +1450,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261017_verge_websites_block_ai_agents",
+          "html": "<strong>Websites are closing their doors to AI agents</strong> Per The Verge, users of several companies&#x27; AI agents have reported blocks preventing their agents from performing tasks across top websites, and JPMorgan Chase and Charles Schwab have confirmed they are blocking AI agents from accessing accounts due to security concerns. Chris Canal, CEO of the AI safety evaluator EquiStamp, said anti-bot defences set up against scams and hacks also catch agents: &quot;These AI agents trigger those same safeguards.&quot; Meta said: &quot;Turning away a personal agent means turning away the customer behind it&quot;. (The Verge)",
+          "plain": "Websites are closing their doors to AI agents Per The Verge, users of several companies' AI agents have reported blocks preventing their agents from performing tasks across top websites, and JPMorgan Chase and Charles Schwab have confirmed they are blocking AI agents from accessing accounts due to security concerns. Chris Canal, CEO of the AI safety evaluator EquiStamp, said anti-bot defences set up against scams and hacks also catch agents: \"These AI agents trigger those same safeguards.\" Meta said: \"Turning away a personal agent means turning away the customer behind it\". (The Verge)",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "date": "2026-10-17",
+          "tags": [
+            "ai_agents",
+            "web_access",
+            "anti_bot",
+            "security",
+            "banks"
+          ],
+          "subcatId": "ai_autonomy",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261017_cna_jack_clark_ai_peril_shrinking_window_safeguards",
           "html": "<strong>AI rapidly improving, could vastly boost US GDP, Anthropic&#x27;s Clark tells policymakers</strong> Per CNA, Anthropic co-founder Jack Clark told IMF and World Bank meetings in Bangkok that faster AI progress &quot;…will bring with it great wealth and potentially great peril&quot; and that international cooperation was needed to erect &quot;unusual and serious rules&quot;. He said: &quot;Being able to use AI for science opens us up to the misuses of science as well, biological and cyber weapons and things we cannot yet imagine, and we have many choices to make&quot;. On biological research, Clark said it is an area &quot;where we want the strictest human oversight and transparency to maintain safety.&quot; He said AI was still under human control, but the window to impose safeguards was now &quot;a small number of years.&quot; (CNA)",
           "plain": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers Per CNA, Anthropic co-founder Jack Clark told IMF and World Bank meetings in Bangkok that faster AI progress \"…will bring with it great wealth and potentially great peril\" and that international cooperation was needed to erect \"unusual and serious rules\". He said: \"Being able to use AI for science opens us up to the misuses of science as well, biological and cyber weapons and things we cannot yet imagine, and we have many choices to make\". On biological research, Clark said it is an area \"where we want the strictest human oversight and transparency to maintain safety.\" He said AI was still under human control, but the window to impose safeguards was now \"a small number of years.\" (CNA)",
@@ -1771,28 +1788,19 @@
           ],
           "subcatId": "ai_misuse",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261014_guardian_boe_imf_cyber_threat_trust",
-          "html": "<strong>Bank of England and IMF bosses warn of cyber threat to trust in financial system</strong> (The Guardian, Heather Stewart) Per the Guardian, the heads of the Bank of England and the IMF warned that rising cyber-attacks risk undermining trust in the financial system. Andrew Bailey pointed to headlines about self-replicating AI agents: &quot;If you try to say what’s at the heart of this debate about AI – for me, it’s about trust in technology and it’s about human control to achieve that trust in technology&quot;. Kristalina Georgieva warned that unless authorities get ahead of the curve, &quot;we may end up with lots of people with shoeboxes under their beds.&quot; Bailey: &quot;this technology is arming the offence but it can also arm the defence, and it must do.&quot; (The Guardian)",
-          "plain": "Bank of England and IMF bosses warn of cyber threat to trust in financial system (The Guardian, Heather Stewart) Per the Guardian, the heads of the Bank of England and the IMF warned that rising cyber-attacks risk undermining trust in the financial system. Andrew Bailey pointed to headlines about self-replicating AI agents: \"If you try to say what’s at the heart of this debate about AI – for me, it’s about trust in technology and it’s about human control to achieve that trust in technology\". Kristalina Georgieva warned that unless authorities get ahead of the curve, \"we may end up with lots of people with shoeboxes under their beds.\" Bailey: \"this technology is arming the offence but it can also arm the defence, and it must do.\" (The Guardian)",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/business/2026/oct/14/bank-of-england-imf-bosses-warning-cyber-threat-to-trust",
-          "date": "2026-10-12",
-          "tags": [
-            "bank_of_england",
-            "imf",
-            "cyber",
-            "financial_stability",
-            "ai_agents"
-          ],
-          "subcatId": "ai_cyber_capability",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-17_scan_1702_dublin",
+      "at": "2026-10-17T16:02:19.837Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~17:02 London, Sat 17 Oct (site-only scan; covers 16:08 to now). US (promoted to Skynet): The Verge, 'Websites are closing their doors to AI agents', title, modified time and text unchanged across saves at 14:09, 16:08 and 17:01; websites and banks are blocking AI agents, and an AI safety evaluator says anti-bot defences built against scams and hacks also catch agents. A web-access and security story, not a capability change, so the Skynet score holds. Board: the 14 Oct item on Bank of England and IMF warnings about cyber threats to trust in the financial system rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a web-access and security story, not a capability change).",
+      "patchId": "patch_2026-10-17_scan_1702_dublin"
+    },
     {
       "id": "patch_2026-10-17_scan_1608_dublin",
       "at": "2026-10-17T15:08:58.931Z",
@@ -2584,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~20:08 London, Fri 9 Oct (site-only; covers 18:17 to now, about 2h). New — Skynet: three fired OpenAI safety researchers (Balesni, Korbak, Wang) say they were dismissed over safety work; Korbak says he raised concerns that OpenAI was 'losing the ability to monitor what AI agents think'. OpenAI denies it, citing 'a significant breach of trust' over handling sensitive information, but says it agrees that preserving monitorability needs an industry-wide commitment (Al Jazeera; CBS News). These are the researchers' claims and OpenAI's response; neither has been independently verified. US evening: no new Pentagon or CDAO item. The National Law Review (9 Oct) notes that Section 917 of the Senate Armed Services Committee's FY27 NDAA would authorize a U.S. Robotic and Autonomous Systems Command (RASCOM); it is a Senate-only provision and may not survive the final bill. POLITICO's 9 Oct piece on Democrats' AI agenda could not be read (blocked). No new reaction to Cantwell's framework, S. 5601 or Anthropic's policy or OSS Scanner from a primary or reputable source. Trump AI-post follow-ups: none. A new Truth Social post (2:46pm EDT) is about Russian diesel supplies, not AI. whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Korea (early Saturday KST): no new Yonhap finance or society AI, hacking or robotics stories yet. Melbourne inquiry: AAP's 9 Oct story is unchanged. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is a disputed personnel story, not a new incident or capability, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-09_scan_2008_dublin"
-    },
-    {
-      "id": "patch_2026-10-09_scan_1817_dublin",
-      "at": "2026-10-09T17:17:41.100Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~18:17 London, Fri 9 Oct (site-only; covers 16:38 to now, about 1.5h). New — Skynet (reaction to Cantwell's framework): the Seattle Times reports her proposed principles leave penalties and the audit regime unresolved; Senate Minority Leader Chuck Schumer backed them and Microsoft's Brad Smith said they advance the public discussion. Cantwell suggested Congress could enact short-term guardrails in the remaining weeks: 'Congress can move fast when it wants to, and it feels like it’s under threat.' They are proposed principles, not a bill. OSS Scanner reaction: Help Net Security (9 Oct) quotes OpenSSL's Anton Arapov saying Anthropic's reports, raw model output included, 'were as good and sometimes better than what we get from people'. Per Help Net, penetration testers assessed 97 high and critical findings from an early version, and Anthropic said 85 met its disclosure criteria and one was invalid. US afternoon: no other new Pentagon, CDAO or autonomous-weapons item found. No reaction to S. 5601 (Banks–Gillibrand) or to Anthropic's Usage Policy from a primary or reputable source. Trump AI-post follow-ups: none. whitehouse.gov added a 7 Oct presidential memorandum on Lisa Cook, not AI; AI.gov unchanged; si.gov still 403; no new Truth Social posts since 9:42am EDT. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. Melbourne inquiry: AAP's 9 Oct story is unchanged and still about sovereign capability. Korea (Hangul Day holiday): no new Yonhap finance AI stories. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is reaction to a senator's proposed principles, not new law or new AI capability, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-09_scan_1817_dublin"
     }
   ],
   "pendingPosts": [
