@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-18T01:13:06.413Z",
+    "lastUpdated": "2026-10-18T03:08:33.508Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-18T02:13:00+01:00",
-    "lastScanSummary": "Scan ~02:13 London, Sun 18 Oct (site-only scan; covers 00:04 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-18T04:08:00+01:00",
+    "lastScanSummary": "Scan ~04:08 London, Sun 18 Oct (site-only scan; covers 02:13 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1794,6 +1794,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-18_scan_0408_dublin",
+      "at": "2026-10-18T03:08:33.508Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:08 London, Sun 18 Oct (site-only scan; covers 02:13 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
+      "patchId": "patch_2026-10-18_scan_0408_dublin"
+    },
+    {
       "id": "patch_2026-10-18_scan_0213_dublin",
       "at": "2026-10-18T01:13:06.413Z",
       "by": "judgment-day-watch",
@@ -2584,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~08:10 London, Sat 10 Oct (site-only; covers 06:06 to now, about 2h). Summary-only: no new headline. ARTEX follow-ups: the AFP and Reuters originals (9 Oct) confirm the developer's GitHub statement already on the board; Reuters says ARTEX's GitHub page has been taken down. AFP adds that the South Korean government said this week it was 'highly likely' ARTEX was used in breaches at more than seven financial institutions, and that the FSC says more than 68,000 people have been affected; Poe Zhao (Hello China Tech) told AFP the move 'cannot remove copies already downloaded'. Newsis quotes the developer saying the attacks are unrelated to the tool's developer (AI-translated). Not added as a second ARTEX headline. Korea investigations: no new official FSC, FSS, police, KISA or MSIT statement on the bank or church attacks since the last scan; the churches' statements (Yoido Full Gospel, Sarang) date from 6–7 Oct. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. Australia: nothing new. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: about a dozen overnight Truth Social posts (around 2am EDT) show no text in the archive and no AI mention; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-10_scan_0810_dublin"
-    },
-    {
-      "id": "patch_2026-10-10_scan_0606_dublin",
-      "at": "2026-10-10T05:06:08.562Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~06:06 London, Sat 10 Oct (site-only; covers 04:07 to now, about 2h). New — Skynet (deferred Yonhap story, title unchanged, now read in full): per Yonhap, citing AFP and Reuters, the developer of ARTEX ('Autumn-27'), the Chinese AI penetration-testing tool CrowdStrike says was used in the Korean bank attacks, wrote on GitHub on 8 Oct that because of misuse ARTEX will no longer be updated and will go closed-source (AI-translated). The developer did not directly mention the Korean hacks and disclaimed responsibility for unlawful use; a Chinese IT expert told AFP already-downloaded copies cannot be pulled back. Korea investigations: no new official statement on the bank or church attacks; Reuters' 10 Oct roundup says authorities are still investigating whether and how AI was used. No new FSC, FSS, police or 19 Oct bank-CEO hearing item. OpenAI firings: no lawsuit, whistleblower filing or lawmaker reaction found from a reputable source. Australia: nothing new. US defence: no new Pentagon, CDAO or autonomous-weapons item. White House: one new Truth Social post (about the Nobel Peace Prize winner), not AI; whitehouse.gov presidential actions unchanged; AI.gov unchanged; si.gov still 403. Official SIF check (run before this summary): the Federal Register (8 Oct onward) still has only the Sea Grant notice; public inspection lists only the two 7 Oct proclamations as presidential documents and nothing AI-related; Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still 7 Oct. NYC: no SpaceXAI enforcement filing reported. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is a developer withdrawing an open-source tool, not a new capability or incident, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-10_scan_0606_dublin"
     }
   ],
   "pendingPosts": [
