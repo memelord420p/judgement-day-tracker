@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-18T09:10:16.420Z",
+    "lastUpdated": "2026-10-18T11:07:30.697Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-18T10:10:00+01:00",
-    "lastScanSummary": "Scan ~10:10 London, Sun 18 Oct (site-only scan; covers 08:14 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-18T12:07:00+01:00",
+    "lastScanSummary": "Scan ~12:07 London, Sun 18 Oct (site-only scan; covers 10:10 to now). US (promoted to T-800): DefenseScoop, 'US Navy deploys unmanned maritime drone to support carrier strike group in historic first', title, modified time and article text unchanged across saves at 10:09 and 12:06; acting Navy Secretary Hung Cao said the Theodore Roosevelt carrier strike group deployed on 8 Oct with a medium-sized unmanned surface vessel, the first time such a drone has deployed with a carrier strike group for a real-world operation; the Navy did not name the vessel model. A deployment milestone, not a step change in autonomy, so the T-800 score holds. Board: the 8 Oct item on the Harmattan Irifi autonomous long-range strike drone rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261016_defensescoop_navy_usv_carrier_strike_group_first",
+          "html": "<strong>US Navy deploys unmanned maritime drone to support carrier strike group in historic first</strong> Per DefenseScoop, acting Navy Secretary Hung Cao said the US military is deploying a sizeable autonomous maritime drone with a carrier strike group to support a real-world conflict operation for the first time: &quot;The Teddy Roosevelt Carrier Strike Group just deployed on October 8 with a medium-sized unmanned surface vessel.&quot; He called it a first and said &quot;this is a force multiplier&quot;. &quot;Imagine having more guns out there.&quot; The Navy did not specify the vessel&#x27;s model. The deployment is part of the Navy&#x27;s push for a hybrid &quot;Golden Fleet&quot; fusing AI and robotic platforms with manned ships. (DefenseScoop)",
+          "plain": "US Navy deploys unmanned maritime drone to support carrier strike group in historic first Per DefenseScoop, acting Navy Secretary Hung Cao said the US military is deploying a sizeable autonomous maritime drone with a carrier strike group to support a real-world conflict operation for the first time: \"The Teddy Roosevelt Carrier Strike Group just deployed on October 8 with a medium-sized unmanned surface vessel.\" He called it a first and said \"this is a force multiplier\". \"Imagine having more guns out there.\" The Navy did not specify the vessel's model. The deployment is part of the Navy's push for a hybrid \"Golden Fleet\" fusing AI and robotic platforms with manned ships. (DefenseScoop)",
+          "source": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/10/16/us-navy-deploys-unmanned-maritime-drone-to-support-carrier-strike-group-in-historic-first/",
+          "date": "2026-10-18",
+          "tags": [
+            "us_navy",
+            "unmanned_surface_vessel",
+            "carrier_strike_group",
+            "maritime_drones",
+            "golden_fleet"
+          ],
+          "subcatId": "military_autonomy",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261017_bbc_london_robotaxi_trial_protest_wayve",
           "html": "<strong>Protesters call for London robotaxi trials to stop</strong> Per the BBC, about 15 people protested outside the King&#x27;s Cross offices of autonomous vehicle company Wayve, which is trialling driverless taxis in London with human safety operators on board, calling for the trials to stop over safety, congestion and jobs. Private hire driver Abdurzak Hadi said he was &quot;worried that I&#x27;ll be forced to compete with a machine that can work 24 hours&quot;. GMB representative James Rossi: &quot;What we want is assurances.&quot; Wayve said it was taking a &quot;deliberately phased approach&quot; with Uber and working with Transport for London; a TfL spokesperson said: &quot;Safety is our top priority and any automated passenger service in London can only operate with TfL&#x27;s consent.&quot; (BBC)",
           "plain": "Protesters call for London robotaxi trials to stop Per the BBC, about 15 people protested outside the King's Cross offices of autonomous vehicle company Wayve, which is trialling driverless taxis in London with human safety operators on board, calling for the trials to stop over safety, congestion and jobs. Private hire driver Abdurzak Hadi said he was \"worried that I'll be forced to compete with a machine that can work 24 hours\". GMB representative James Rossi: \"What we want is assurances.\" Wayve said it was taking a \"deliberately phased approach\" with Uber and working with Transport for London; a TfL spokesperson said: \"Safety is our top priority and any automated passenger service in London can only operate with TfL's consent.\" (BBC)",
@@ -686,22 +703,6 @@
             "shield-ai",
             "innovaero",
             "hivemind"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261008_dei_harmattan_irifi_autonomous_deep_strike_2000km",
-          "html": "<strong>Harmattan AI unveils IRIFI autonomous strike system designed to hit human-approved targets at ranges of up to 2,000 km</strong> (Defence Industry Europe, 8 Oct 2026) French firm Harmattan AI has unveiled IRIFI, an autonomous deep-strike system with a range of up to 2,000 km. Per the report: &quot;The system is intended to complete an authorised mission without human control after launch, within limits set by its commander.&quot; Commanders approve targets and set parameters before launch. The company says a single commander could direct dozens of autonomous strikes with an AI system processing satellite imagery, and that the design is meant for coordinated saturation strikes. CEO Mouad M’Ghari: &quot;AI-powered autonomy now makes it possible to combine the best of both worlds, and that is exactly what we did with IRIFI.&quot; Company claims; no deployment or customer reported. (Defence Industry Europe)",
-          "plain": "Harmattan AI unveils IRIFI autonomous strike system designed to hit human-approved targets at ranges of up to 2,000 km (Defence Industry Europe, 8 Oct 2026) French firm Harmattan AI has unveiled IRIFI, an autonomous deep-strike system with a range of up to 2,000 km. Per the report: \"The system is intended to complete an authorised mission without human control after launch, within limits set by its commander.\" Commanders approve targets and set parameters before launch. The company says a single commander could direct dozens of autonomous strikes with an AI system processing satellite imagery, and that the design is meant for coordinated saturation strikes. CEO Mouad M’Ghari: \"AI-powered autonomy now makes it possible to combine the best of both worlds, and that is exactly what we did with IRIFI.\" Company claims; no deployment or customer reported. (Defence Industry Europe)",
-          "source": "Defence Industry Europe",
-          "url": "https://defence-industry.eu/harmattan-ai-unveils-irifi-autonomous-strike-system-designed-to-hit-human-approved-targets-at-ranges-of-up-to-2000-km/",
-          "date": "2026-10-08",
-          "tags": [
-            "france",
-            "autonomous-weapons",
-            "deep-strike",
-            "harmattan-ai"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1794,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-18_scan_1207_dublin",
+      "at": "2026-10-18T11:07:30.697Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~12:07 London, Sun 18 Oct (site-only scan; covers 10:10 to now). US (promoted to T-800): DefenseScoop, 'US Navy deploys unmanned maritime drone to support carrier strike group in historic first', title, modified time and article text unchanged across saves at 10:09 and 12:06; acting Navy Secretary Hung Cao said the Theodore Roosevelt carrier strike group deployed on 8 Oct with a medium-sized unmanned surface vessel, the first time such a drone has deployed with a carrier strike group for a real-world operation; the Navy did not name the vessel model. A deployment milestone, not a step change in autonomy, so the T-800 score holds. Board: the 8 Oct item on the Harmattan Irifi autonomous long-range strike drone rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a deployment milestone, not a step change in autonomy).",
+      "patchId": "patch_2026-10-18_scan_1207_dublin"
+    },
+    {
       "id": "patch_2026-10-18_scan_1010_dublin",
       "at": "2026-10-18T09:10:16.420Z",
       "by": "judgment-day-watch",
@@ -2584,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~14:05 London, Sat 10 Oct (site-only; covers 12:08 to now, about 2h). Summary-only: no new headline. Defence and policy: the DefenseScoop and Breaking Defense front pages carry no new AI or autonomous-weapons story beyond items already on the board; DefenseScoop's 8 Oct story on the bipartisan Senate frontier-AI oversight bill is already covered. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings and Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: new Truth Social posts (8:04 to 8:54 AM EDT) include 'Prosecutorial Misconduct!', a Mike Ditka tribute and a Fox Business link; none mentions AI. AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged since 10:08 (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-10_scan_1405_dublin"
-    },
-    {
-      "id": "patch_2026-10-10_scan_1208_dublin",
-      "at": "2026-10-10T11:08:19.332Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~12:08 London, Sat 10 Oct (site-only; covers 10:08 to now, about 2h). Summary-only: no new headline. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings, defence and policy, Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged since 10:08 (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-10_scan_1208_dublin"
     }
   ],
   "pendingPosts": [
