@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-18T13:07:33.513Z",
+    "lastUpdated": "2026-10-18T15:14:37.662Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-18T14:07:00+01:00",
-    "lastScanSummary": "Scan ~14:07 London, Sun 18 Oct (site-only scan; covers 12:07 to now). US (promoted to Skynet): DefenseScoop, 'Military service members to square off against AI in ‘Mindgame’ tournament', title, modified time and article text unchanged across saves at 10:09, 12:06 and 14:06; a Marine Corps message says selected service members will face an autonomous AI adversary built for strategic reasoning in digital wargames involving drone swarms and carrier strike groups, described as a pathway to integrating the technology into military wargaming. A training and wargaming step, not a capability change, so the Skynet score holds. Board: the 15 Oct item on Nvidia's £250m for UK AI safety research rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-18T16:14:00+01:00",
+    "lastScanSummary": "Scan ~16:14 London, Sun 18 Oct (site-only scan; covers 14:07 to now). US (promoted to T-800): The Verge, 'Cities want to put the boot on robotaxis', title, modified time and article text unchanged across saves at 14:07 and 16:13; with federal autonomous-vehicle legislation stalled, US cities and states are writing their own robotaxi rules, from a proposed Minneapolis human-monitor requirement to draft California emergency override and shut-off protocols. A regulatory pushback story, not a capability change, so the T-800 score holds. Board: the 6 Oct item on Shield AI and Innovaero's autonomous loitering munitions collaboration rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261018_verge_cities_states_rein_in_robotaxis",
+          "html": "<strong>Cities want to put the boot on robotaxis</strong> Per the Verge, with federal autonomous-vehicle legislation stalled in Congress, US cities and states are passing their own rules to rein in robotaxis. &quot;Minneapolis is considering an ordinance to require human monitors inside autonomous vehicles, which would effectively ban driverless operations.&quot; The San Diego City Council passed a resolution seeking to block Waymo from the airport, and draft California emergency protocols would require AV companies to give local police and fire departments &quot;physical override access or emergency remote shut-off mechanisms&quot;. Some red states, including Kentucky, Oklahoma, South Dakota and Iowa, are also considering tighter rules. The piece concludes: &quot;AV companies would be well advised to get used to the patchwork — it’s not going anywhere.&quot; (The Verge)",
+          "plain": "Cities want to put the boot on robotaxis Per the Verge, with federal autonomous-vehicle legislation stalled in Congress, US cities and states are passing their own rules to rein in robotaxis. \"Minneapolis is considering an ordinance to require human monitors inside autonomous vehicles, which would effectively ban driverless operations.\" The San Diego City Council passed a resolution seeking to block Waymo from the airport, and draft California emergency protocols would require AV companies to give local police and fire departments \"physical override access or emergency remote shut-off mechanisms\". Some red states, including Kentucky, Oklahoma, South Dakota and Iowa, are also considering tighter rules. The piece concludes: \"AV companies would be well advised to get used to the patchwork — it’s not going anywhere.\" (The Verge)",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+          "date": "2026-10-18",
+          "tags": [
+            "robotaxi",
+            "autonomous_vehicles",
+            "local_regulation",
+            "waymo",
+            "us_states"
+          ],
+          "subcatId": "onboard_ai_decision_making",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261016_defensescoop_navy_usv_carrier_strike_group_first",
           "html": "<strong>US Navy deploys unmanned maritime drone to support carrier strike group in historic first</strong> Per DefenseScoop, acting Navy Secretary Hung Cao said the US military is deploying a sizeable autonomous maritime drone with a carrier strike group to support a real-world conflict operation for the first time: &quot;The Teddy Roosevelt Carrier Strike Group just deployed on October 8 with a medium-sized unmanned surface vessel.&quot; He called it a first and said &quot;this is a force multiplier&quot;. &quot;Imagine having more guns out there.&quot; The Navy did not specify the vessel&#x27;s model. The deployment is part of the Navy&#x27;s push for a hybrid &quot;Golden Fleet&quot; fusing AI and robotic platforms with manned ships. (DefenseScoop)",
           "plain": "US Navy deploys unmanned maritime drone to support carrier strike group in historic first Per DefenseScoop, acting Navy Secretary Hung Cao said the US military is deploying a sizeable autonomous maritime drone with a carrier strike group to support a real-world conflict operation for the first time: \"The Teddy Roosevelt Carrier Strike Group just deployed on October 8 with a medium-sized unmanned surface vessel.\" He called it a first and said \"this is a force multiplier\". \"Imagine having more guns out there.\" The Navy did not specify the vessel's model. The deployment is part of the Navy's push for a hybrid \"Golden Fleet\" fusing AI and robotic platforms with manned ships. (DefenseScoop)",
@@ -686,23 +703,6 @@
             "air-defence",
             "interceptor-drones",
             "intelic"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261006_shieldai_innovaero_hivemind_owl_loitering_munitions_adf",
-          "html": "<strong>Shield AI and Innovaero collaborate on sovereign, autonomous loitering munitions for Australia</strong> (Shield AI press release, 6 Oct 2026) Under an MoU, Shield AI will put its Hivemind mission-autonomy software on Australian firm Innovaero&#x27;s One-Way Loitering (OWL) munitions for the ADF. Per the release: &quot;OWL munitions are designed to efficiently identify, track and strike targets.&quot; and &quot;Hivemind will enable faster mission planning and increased lethality in OWL’s attacks.&quot; Hivemind is already integrated on the OWL-B ahead of flight testing, and &quot;Multi-agent coordinated strike missions are being simulated in dynamic conditions with commands issued through the Android Team Awareness Kit (ATAK) tactical interface.&quot; Company claims; an MoU, with flight testing still to come. (Shield AI)",
-          "plain": "Shield AI and Innovaero collaborate on sovereign, autonomous loitering munitions for Australia (Shield AI press release, 6 Oct 2026) Under an MoU, Shield AI will put its Hivemind mission-autonomy software on Australian firm Innovaero's One-Way Loitering (OWL) munitions for the ADF. Per the release: \"OWL munitions are designed to efficiently identify, track and strike targets.\" and \"Hivemind will enable faster mission planning and increased lethality in OWL’s attacks.\" Hivemind is already integrated on the OWL-B ahead of flight testing, and \"Multi-agent coordinated strike missions are being simulated in dynamic conditions with commands issued through the Android Team Awareness Kit (ATAK) tactical interface.\" Company claims; an MoU, with flight testing still to come. (Shield AI)",
-          "source": "Shield AI",
-          "url": "https://shield.ai/shield-ai-and-innovaero-collaborate-on-sovereign-autonomous-loitering-munitions-for-australia/",
-          "date": "2026-10-06",
-          "tags": [
-            "australia",
-            "loitering-munitions",
-            "shield-ai",
-            "innovaero",
-            "hivemind"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1795,6 +1795,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-18_scan_1614_dublin",
+      "at": "2026-10-18T15:14:37.662Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~16:14 London, Sun 18 Oct (site-only scan; covers 14:07 to now). US (promoted to T-800): The Verge, 'Cities want to put the boot on robotaxis', title, modified time and article text unchanged across saves at 14:07 and 16:13; with federal autonomous-vehicle legislation stalled, US cities and states are writing their own robotaxi rules, from a proposed Minneapolis human-monitor requirement to draft California emergency override and shut-off protocols. A regulatory pushback story, not a capability change, so the T-800 score holds. Board: the 6 Oct item on Shield AI and Innovaero's autonomous loitering munitions collaboration rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a regulatory pushback story, not a capability change).",
+      "patchId": "patch_2026-10-18_scan_1614_dublin"
+    },
+    {
       "id": "patch_2026-10-18_scan_1407_dublin",
       "at": "2026-10-18T13:07:33.513Z",
       "by": "judgment-day-watch",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~18:08 London, Sat 10 Oct (site-only; covers 16:11 to now, about 2h). Summary-only: no new headline. Defence and policy: Defense One's RSS feed still has no item newer than 9 Oct ('The Pentagon awarded $350M to a firm tied to a senior DOD official'); the DefenseScoop and Breaking Defense front pages carry no new story since the last scan. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings and Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-10_scan_1808_dublin"
-    },
-    {
-      "id": "patch_2026-10-10_scan_1611_dublin",
-      "at": "2026-10-10T15:11:40.251Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~16:11 London, Sat 10 Oct (site-only; covers 14:05 to now, about 2h). Summary-only: no new headline. Defence and policy: Defense One's RSS feed has no item newer than 9 Oct ('The Pentagon awarded $350M to a firm tied to a senior DOD official'); its AI-related items (Shield AI's unmanned fighter jet, the White House AI czar) are already on the board. The DefenseScoop and Breaking Defense front pages carry no new story since the last scan. Korea: Yonhap's finance, society and tech lists carry no new item on ARTEX or the bank and church attacks since the last scan. OpenAI firings and Australia: no new item found that could be read and saved from a reputable source; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. White House: one new Truth Social post (archive time October 10, 2026, 10:42 AM) links a Dallas News story quoting Robert Jeffress; it does not mention AI. AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-10_scan_1611_dublin"
     }
   ],
   "pendingPosts": [
