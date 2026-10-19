@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-19T09:05:51.334Z",
+    "lastUpdated": "2026-10-19T11:12:07.257Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-19T10:05:00+01:00",
-    "lastScanSummary": "Scan ~10:05 London, Mon 19 Oct (site-only scan; covers 08:07 to now). Australia (promoted to T-800): CNA, 'Australia's new 'Ghost Shark' submarines to carry aerial drones, sea mines', title, modified time and article text unchanged across saves at 08:06 and 10:03; Australia's defence ministry says its Anduril-built Ghost Shark autonomous submarine will carry sea mines, special-forces equipment and Altius aerial drones that can form swarms for reconnaissance and strike. A real step in armed undersea autonomy, but an incremental fielding of a known programme, so the T-800 score holds. Board: the 8 Oct item on a Dutch firm using AI to help drone systems 'talk' on Ukraine's battlefield rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-19T12:11:00+01:00",
+    "lastScanSummary": "Scan ~12:11 London, Mon 19 Oct (site-only scan; covers 10:05 to now). US (promoted to T-800): TWZ, 'F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time', modified time and article text unchanged across saves at 08:06, 10:03 and 12:07; per Air Force and Anduril releases, an F-22 pilot issued in-flight tactical directives to a YFQ-44A Fury drone whose onboard autonomy software executed them in real time, the first such crewed-uncrewed control test for the Raptor. A concrete teaming milestone in a programme already on the board's trajectory, so the T-800 score holds. Board: the 7 Oct item on the CSG, Mossberg and Palladyne AI SwarmShot counter-drone system rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,24 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261016_twz_f22_pilot_commands_yfq44a_fury_cca_from_cockpit",
+          "html": "<strong>F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time</strong> Per TWZ, a pilot flying an F-22 Raptor has issued commands to a YFQ-44A Fury Collaborative Combat Aircraft drone in a first-of-its-kind test announced by the Air Force and Anduril. Per the Air Force release, the F-22 pilot acted as an airborne &#x27;quarterback&#x27;, issuing high-level tactical directives to a single YFQ-44A: &quot;The aircraft’s onboard autonomy software interpreted and executed those directives in real time, conducting dynamic flight maneuvers and simulated combat tasks.&quot; Anduril said the Raptor pilot sent an updated mission plan to Fury using a tactical data link. The Air Force aims to field at least 500 Increment 1 CCAs by 2032; an Anduril vice president said the work must &quot;build trust between operators and their semi-autonomous wingmen&quot;. (TWZ)",
+          "plain": "F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time Per TWZ, a pilot flying an F-22 Raptor has issued commands to a YFQ-44A Fury Collaborative Combat Aircraft drone in a first-of-its-kind test announced by the Air Force and Anduril. Per the Air Force release, the F-22 pilot acted as an airborne 'quarterback', issuing high-level tactical directives to a single YFQ-44A: \"The aircraft’s onboard autonomy software interpreted and executed those directives in real time, conducting dynamic flight maneuvers and simulated combat tasks.\" Anduril said the Raptor pilot sent an updated mission plan to Fury using a tactical data link. The Air Force aims to field at least 500 Increment 1 CCAs by 2032; an Anduril vice president said the work must \"build trust between operators and their semi-autonomous wingmen\". (TWZ)",
+          "source": "TWZ",
+          "url": "https://www.twz.com/air/f-22-pilot-controls-fq-44-fighter-drone-from-the-cockpit-for-the-first-time",
+          "date": "2026-10-19",
+          "tags": [
+            "cca",
+            "yfq_44a",
+            "f_22",
+            "crewed_uncrewed_teaming",
+            "anduril",
+            "usaf"
+          ],
+          "subcatId": "military_autonomy",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261019_cna_australia_ghost_shark_autonomous_sub_drone_swarms_sea_mines",
           "html": "<strong>Australia&#x27;s new &#x27;Ghost Shark&#x27; submarines to carry aerial drones, sea mines</strong> A report carried by CNA says Australia is equipping its Ghost Shark autonomous submarine with &quot;swarms&quot; of aerial drones and sea mines, its defence ministry said on Monday. Anduril jointly developed the extra-large submarine drone with Australia&#x27;s defence scientists and is building a Ghost Shark fleet for Canberra under an A$1.8 billion contract. Defence Industry Minister Pat Conroy said that after secret trials, three payloads had been approved to &quot;do things we don&#x27;t want humans to do&quot;: up to 12 sea mines, equipment for special forces, and Anduril&#x27;s Altius aerial drone, which can be launched at sea to form swarms for reconnaissance and strike. &quot;Not only could there be Ghost Sharks in those shipping containers, but those Ghost Sharks now have teeth,&quot; he said. Officials said the Ghost Shark would work in tandem with the crewed submarine fleet. (CNA)",
           "plain": "Australia's new 'Ghost Shark' submarines to carry aerial drones, sea mines A report carried by CNA says Australia is equipping its Ghost Shark autonomous submarine with \"swarms\" of aerial drones and sea mines, its defence ministry said on Monday. Anduril jointly developed the extra-large submarine drone with Australia's defence scientists and is building a Ghost Shark fleet for Canberra under an A$1.8 billion contract. Defence Industry Minister Pat Conroy said that after secret trials, three payloads had been approved to \"do things we don't want humans to do\": up to 12 sea mines, equipment for special forces, and Anduril's Altius aerial drone, which can be launched at sea to form swarms for reconnaissance and strike. \"Not only could there be Ghost Sharks in those shipping containers, but those Ghost Sharks now have teeth,\" he said. Officials said the Ghost Shark would work in tandem with the crewed submarine fleet. (CNA)",
@@ -688,23 +706,6 @@
             "x-bat",
             "us-navy",
             "autonomous-jet"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261007_csg_federal_mossberg_palladyne_swarmshot_autonomous_interceptor_swarm",
-          "html": "<strong>CSG joins development of autonomous SwarmShot counter-UAS system</strong> (CSG release, Business Wire 7 Oct 2026) Federal Ammunition (CSG), Mossberg and Palladyne AI are jointly developing SwarmShot: drones fitted with a Mossberg airborne weapon module and Federal counter-drone shotshell ammunition, acting as reusable interceptors in a coordinated swarm. It starts as an add-on for Palladyne&#x27;s Gremlin-X quadcopter mini-bomber. Per the release: &quot;IntelliSwarm is designed to receive validated threat tracks from existing sensors or command systems to autonomously allocate targets among available interceptors, calculate intercept paths, maneuver each aircraft into an effective engagement position and redirect the swarm as targets move or new threats appear.&quot; Mossberg&#x27;s Doug Bell: &quot;This is not simply an existing shotgun mounted to a drone.&quot; On Palladyne&#x27;s earlier Army swarm exercises, the release says &quot;The aircraft operated collaboratively at the edge while soldiers retained authority over weapons employment.&quot; These are company plans; no schedules or customers were disclosed. (CSG)",
-          "plain": "CSG joins development of autonomous SwarmShot counter-UAS system (CSG release, Business Wire 7 Oct 2026) Federal Ammunition (CSG), Mossberg and Palladyne AI are jointly developing SwarmShot: drones fitted with a Mossberg airborne weapon module and Federal counter-drone shotshell ammunition, acting as reusable interceptors in a coordinated swarm. It starts as an add-on for Palladyne's Gremlin-X quadcopter mini-bomber. Per the release: \"IntelliSwarm is designed to receive validated threat tracks from existing sensors or command systems to autonomously allocate targets among available interceptors, calculate intercept paths, maneuver each aircraft into an effective engagement position and redirect the swarm as targets move or new threats appear.\" Mossberg's Doug Bell: \"This is not simply an existing shotgun mounted to a drone.\" On Palladyne's earlier Army swarm exercises, the release says \"The aircraft operated collaboratively at the edge while soldiers retained authority over weapons employment.\" These are company plans; no schedules or customers were disclosed. (CSG)",
-          "source": "CSG",
-          "url": "https://csg.com/en/news/csg-joins-development-of-autonomous-swarmshot-counter-uas-system",
-          "date": "2026-10-07",
-          "tags": [
-            "counter-uas",
-            "swarm",
-            "palladyne-ai",
-            "mossberg",
-            "federal-ammunition"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1797,6 +1798,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-19_scan_1211_dublin",
+      "at": "2026-10-19T11:12:07.257Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~12:11 London, Mon 19 Oct (site-only scan; covers 10:05 to now). US (promoted to T-800): TWZ, 'F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time', modified time and article text unchanged across saves at 08:06, 10:03 and 12:07; per Air Force and Anduril releases, an F-22 pilot issued in-flight tactical directives to a YFQ-44A Fury drone whose onboard autonomy software executed them in real time, the first such crewed-uncrewed control test for the Raptor. A concrete teaming milestone in a programme already on the board's trajectory, so the T-800 score holds. Board: the 7 Oct item on the CSG, Mossberg and Palladyne AI SwarmShot counter-drone system rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a test milestone in an existing programme, not a step change).",
+      "patchId": "patch_2026-10-19_scan_1211_dublin"
+    },
+    {
       "id": "patch_2026-10-19_scan_1005_dublin",
       "at": "2026-10-19T09:05:51.334Z",
       "by": "judgment-day-watch",
@@ -2587,14 +2596,6 @@
       "type": "patch",
       "summary": "Scan ~14:10 London, Sun 11 Oct (site-only; covers 12:09 to now, about 2h). New — Skynet: per The Verge, Microsoft CEO Satya Nadella wrote on X that 'We must assume a model is compromised and contain it from the start', likening it to an emergency brake, and called for timely incident disclosure, independent audits, verifiable data and containment. These are his recommendations, not a policy or product change. Korea: a fresh Yonhap story headlined '서울대도 6년간 28차례 해킹 피해…개인정보 1천여건 유출' (title only so far; AI-translated: Seoul National University also hit by 28 hacks in six years, about 1,000 personal records leaked) is deferred one scan under the Yonhap rule. No new ARTEX or bank-attack item. Anthropic report and Philadelphia fake tip: no new agency, lawmaker or expert reaction found that could be read and saved. US Sunday policy: no new White House or lawmaker AI statement found that could be read and saved. Lancet Commission: no independent expert reaction found. Australia (Sunday): the ABC technology page carries no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (the new item is an executive's recommendations, not a policy or capability change, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
       "patchId": "patch_2026-10-11_scan_1410_dublin"
-    },
-    {
-      "id": "patch_2026-10-11_scan_1209_dublin",
-      "at": "2026-10-11T11:10:01.786Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~12:09 London, Sun 11 Oct (site-only; covers 10:12 to now, about 2h). Summary-only: no new headline. Anthropic unintended-actions report and Philadelphia fake tip: no new agency, lawmaker or expert reaction found that could be read and saved since the last scan; the BBC technology feed's newest AI item is still the 10 Oct fake-tip story already on the board. Korea: Yonhap's lists carry no new ARTEX, bank-attack or official-statement item since the last scan. Lancet Commission: no independent expert reaction found that could be read and saved. Australia (Sunday): the ABC technology page carries no new AI-risk or OpenAI-hack story; AAP's Melbourne story still carries the title 'Australia's AI business opportunity lies with expansion'. OpenAI firings: nothing new that could be read and saved. Defence: Defense One's RSS feed still has no item newer than 9 Oct. White House: no new Truth Social posts since the last scan; AI.gov unchanged; si.gov still returns 403. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged (Sea Grant notice, an Agriculture Department rule and a CFTC proposed rule, none an AI policy action); public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. Truth Social checked via the trumpstruth.org archive. biggo stays out. OpenAI maths: the repo history's latest entry is still October 7, 2026. All hold: T-800 33, T-1000 5, Skynet 53 (there is no new headline this scan, and the White House has issued no new order; maths claims still unverified independently; no independent confirmation of a Millennium result; no powers granted to AI; no new major incident).",
-      "patchId": "patch_2026-10-11_scan_1209_dublin"
     }
   ],
   "pendingPosts": [
