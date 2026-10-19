@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-19T17:09:31.507Z",
+    "lastUpdated": "2026-10-19T19:10:32.251Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-19T18:09:00+01:00",
-    "lastScanSummary": "Scan ~18:09 London, Mon 19 Oct (site-only scan; covers 16:21 to now). US (promoted to Skynet): The Verge, 'A hacker broke into John Deere and SharkNinja with an army of AI agents', modified time and article text byte-identical across saves at 16:21 and 18:07; per findings from the AI security firm Norforge, a hacker used AI agents that mostly operated on their own, run through the open-source Cairn platform, to break into more than 100 websites, and Norforge flagged more than 20 exposed Cairn instances as likely malicious. A real-world case of largely autonomous agent misuse, but a security-firm finding rather than a capability step, so the Skynet score holds. Board: the 15 Oct item on researcher fears that Z.ai's GLM-5.3 model can fake AI safety tests rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'First Lady Melania Trump Champions New U.S. Women’s Health Initiative', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the current public inspection list carries no presidential documents and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-19T20:10:00+01:00",
+    "lastScanSummary": "Scan ~20:10 London, Mon 19 Oct (site-only scan; covers 18:09 to now). US (promoted to T-800): Defense News, 'US Army competition explores military uses for humanoid robots', modified time and article text byte-identical across saves at 18:09 and 20:07; the Army named five winners of its xTechHumanoid competition, which tested commercial humanoid robots on small-unit combat-mission tasks, while a participating researcher said the requirements exceeded current technology. An evaluation of immature technology, not a fielded capability, so the T-800 score holds. Board: the 8 Oct item on Shield AI expecting to fly its X-BAT unmanned fighter jet within months rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Delivers Historic Wins for Kansas Workers, Families, Farmers, and Rural Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the current public inspection list carries no presidential documents and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261019_defensenews_army_xtechhumanoid_competition_winners",
+          "html": "<strong>US Army competition explores military uses for humanoid robots</strong> Per Defense News, the U.S. Army&#x27;s technology accelerator has named five winners of its xTechHumanoid competition, which assessed how emerging commercial humanoid robots could contribute to future military operations: ACES Group, IHMC Robotics, Hydroplane Limited, Ras Labs and Velocity Explorations. &quot;Humanoid robots are part of a broader autonomy push to increase the depth and breadth of robotic platforms and components industry can provide for a range of missions,&quot; said Army chief technology officer Alex Miller. The robots were tested on collective tasks &quot;in the context of a military small unit mission conducted in a combat situation.&quot; A senior IHMC Robotics researcher said the Army&#x27;s individual requirements exceeded what current technology can achieve, and that robots should not be making life-or-death decisions. (Defense News)",
+          "plain": "US Army competition explores military uses for humanoid robots Per Defense News, the U.S. Army's technology accelerator has named five winners of its xTechHumanoid competition, which assessed how emerging commercial humanoid robots could contribute to future military operations: ACES Group, IHMC Robotics, Hydroplane Limited, Ras Labs and Velocity Explorations. \"Humanoid robots are part of a broader autonomy push to increase the depth and breadth of robotic platforms and components industry can provide for a range of missions,\" said Army chief technology officer Alex Miller. The robots were tested on collective tasks \"in the context of a military small unit mission conducted in a combat situation.\" A senior IHMC Robotics researcher said the Army's individual requirements exceeded what current technology can achieve, and that robots should not be making life-or-death decisions. (Defense News)",
+          "source": "Defense News",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/10/16/us-army-competition-explores-military-uses-for-humanoid-robots/",
+          "date": "2026-10-19",
+          "tags": [
+            "humanoid_robots",
+            "us_army",
+            "xtech",
+            "military_autonomy",
+            "ihmc"
+          ],
+          "subcatId": "humanoid_locomotion",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261016_twz_f22_pilot_commands_yfq44a_fury_cca_from_cockpit",
           "html": "<strong>F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time</strong> Per TWZ, a pilot flying an F-22 Raptor has issued commands to a YFQ-44A Fury Collaborative Combat Aircraft drone in a first-of-its-kind test announced by the Air Force and Anduril. Per the Air Force release, the F-22 pilot acted as an airborne &#x27;quarterback&#x27;, issuing high-level tactical directives to a single YFQ-44A: &quot;The aircraft’s onboard autonomy software interpreted and executed those directives in real time, conducting dynamic flight maneuvers and simulated combat tasks.&quot; Anduril said the Raptor pilot sent an updated mission plan to Fury using a tactical data link. The Air Force aims to field at least 500 Increment 1 CCAs by 2032; an Anduril vice president said the work must &quot;build trust between operators and their semi-autonomous wingmen&quot;. (TWZ)",
           "plain": "F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time Per TWZ, a pilot flying an F-22 Raptor has issued commands to a YFQ-44A Fury Collaborative Combat Aircraft drone in a first-of-its-kind test announced by the Air Force and Anduril. Per the Air Force release, the F-22 pilot acted as an airborne 'quarterback', issuing high-level tactical directives to a single YFQ-44A: \"The aircraft’s onboard autonomy software interpreted and executed those directives in real time, conducting dynamic flight maneuvers and simulated combat tasks.\" Anduril said the Raptor pilot sent an updated mission plan to Fury using a tactical data link. The Air Force aims to field at least 500 Increment 1 CCAs by 2032; an Anduril vice president said the work must \"build trust between operators and their semi-autonomous wingmen\". (TWZ)",
@@ -690,22 +707,6 @@
             "us-navy",
             "autonomy",
             "tacace"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261008_defenseone_shield_ai_xbat_navy_150m_flight_tests_year_end",
-          "html": "<strong>Shield AI expects to fly its unmanned fighter jet within months</strong> (Defense One, 8 Oct 2026, 4:15pm ET) &quot;Shield AI expects to start flying its X-BAT prototype unmanned fighter jet by year’s end—and is getting $150 million from the Navy to keep developing it, officials said.&quot; Armor Harris, Shield AI&#x27;s SVP of aircraft: &quot;We&#x27;ve been building two prototype vehicles—they&#x27;re full scale. The first one will be done in the next couple of weeks here.&quot; Per Defense One, the money is a milestone-based modification to an other transaction agreement, Shield AI will match it, and total planned development spending reaches $400 million, &quot;all leading up to fielding an early operational capability in about 2029.&quot; Company and Navy plans; the jet has not flown yet. (Defense One)",
-          "plain": "Shield AI expects to fly its unmanned fighter jet within months (Defense One, 8 Oct 2026, 4:15pm ET) \"Shield AI expects to start flying its X-BAT prototype unmanned fighter jet by year’s end—and is getting $150 million from the Navy to keep developing it, officials said.\" Armor Harris, Shield AI's SVP of aircraft: \"We've been building two prototype vehicles—they're full scale. The first one will be done in the next couple of weeks here.\" Per Defense One, the money is a milestone-based modification to an other transaction agreement, Shield AI will match it, and total planned development spending reaches $400 million, \"all leading up to fielding an early operational capability in about 2029.\" Company and Navy plans; the jet has not flown yet. (Defense One)",
-          "source": "Defense One",
-          "url": "https://www.defenseone.com/business/2026/10/shield-ai-expects-fly-its-unmanned-fighter-jet-within-months/416510/",
-          "date": "2026-10-08",
-          "tags": [
-            "shield-ai",
-            "x-bat",
-            "us-navy",
-            "autonomous-jet"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1799,6 +1800,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-19_scan_2010_dublin",
+      "at": "2026-10-19T19:10:32.251Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~20:10 London, Mon 19 Oct (site-only scan; covers 18:09 to now). US (promoted to T-800): Defense News, 'US Army competition explores military uses for humanoid robots', modified time and article text byte-identical across saves at 18:09 and 20:07; the Army named five winners of its xTechHumanoid competition, which tested commercial humanoid robots on small-unit combat-mission tasks, while a participating researcher said the requirements exceeded current technology. An evaluation of immature technology, not a fielded capability, so the T-800 score holds. Board: the 8 Oct item on Shield AI expecting to fly its X-BAT unmanned fighter jet within months rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Delivers Historic Wins for Kansas Workers, Families, Farmers, and Rural Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the current public inspection list carries no presidential documents and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (an evaluation of immature technology, not a fielded capability).",
+      "patchId": "patch_2026-10-19_scan_2010_dublin"
+    },
+    {
       "id": "patch_2026-10-19_scan_1809_dublin",
       "at": "2026-10-19T17:09:31.507Z",
       "by": "judgment-day-watch",
@@ -2589,14 +2598,6 @@
       "type": "patch",
       "summary": "Scan ~22:10 London, Sun 11 Oct (site-only; covers 20:11 to now, about 2h). Korea (Monday morning): Yonhap's pages carry no new ARTEX, bank-attack or AI-risk item. Two AI-adjacent Yonhap stories, kept to the summary as they are not AI-risk stories (both AI-translated from the saved articles): per Yonhap, People Power Party lawmaker Seo Beom-soo, citing Korea Student Aid Foundation data, said 8,324 students had used the 'AI On-ieum' scheme, which supports vulnerable high-school students to use paid AI services, as of end-September, against an announced target of 120,000. Per Yonhap, the Federation of Korean Industries said energy made up 31.1% of new-industry business purposes added to their articles this year by the top 1,000 listed firms by assets, followed by manufacturing and mobility (19.8%), AI (12.3%) and ICT and digital (12.3%), with robots at 11.3% among sub-sectors. This patch corrects the Korean glosses in the 22:08 summary. Australia (Monday morning): the ABC science-and-technology topic page, refetched with no-cache headers, is unchanged, with no AI-risk story; ABC's Just In feed carries no AI story. Anthropic report, Nadella, Lancet Commission, OpenAI firings: no new reaction found that could be read and saved. Defence: Defense One and BBC technology feeds have no new items. White House: whitehouse.gov news page unchanged from the 20:11 saved copy; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. All hold: T-800 33, T-1000 5, Skynet 53 (no new headline; no new policy action, capability change or major incident).",
       "patchId": "patch_2026-10-11_scan_2210_dublin"
-    },
-    {
-      "id": "patch_2026-10-11_scan_2208_dublin",
-      "at": "2026-10-11T21:08:11.360Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~22:08 London, Sun 11 Oct (site-only; covers 20:11 to now, about 2h). Korea (Monday morning): Yonhap's pages carry no new ARTEX, bank-attack or AI-risk item. New AI-adjacent titles, kept to the summary as they are not AI-risk stories: '서범수 \"취약층 학생 12만명에 AI 지원한다더니…접속자 저조\"' (AI-translated: lawmaker Seo Beom-soo says an AI support scheme for 120,000 vulnerable students has low uptake) and '경제인협회 \"1천대 상장사, 에너지·로봇·AI 신사업 검토\"' (AI-translated: business federation says top 1,000 listed firms are considering energy, robot and AI new businesses). Australia (Monday morning): the ABC science-and-technology topic page, refetched with no-cache headers, is unchanged, with no AI-risk story; ABC's Just In feed carries no AI story. Anthropic report, Nadella, Lancet Commission, OpenAI firings: no new reaction found that could be read and saved. The Verge's one new item is 'A college in Illinois tried to cancel its Flock contact and it refused' (title only, not read; not added). Defence: Defense One and BBC technology feeds have no new items. White House: whitehouse.gov news page unchanged from the 20:11 saved copy; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. All hold: T-800 33, T-1000 5, Skynet 53 (no new headline; no new policy action, capability change or major incident).",
-      "patchId": "patch_2026-10-11_scan_2208_dublin"
     }
   ],
   "pendingPosts": [
