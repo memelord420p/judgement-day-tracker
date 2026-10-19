@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-19T15:21:44.128Z",
+    "lastUpdated": "2026-10-19T17:09:31.507Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-19T16:21:00+01:00",
-    "lastScanSummary": "Scan ~16:21 London, Mon 19 Oct (site-only scan; covers 14:20 to now). US (promoted to Skynet): WIRED, 'Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card', modified time and article text byte-identical across saves at 14:15 and 16:18; per court filings reviewed by WIRED, Character.AI's bankruptcy is structured so Disney can hire most of its staff and license much of its technology while the startup keeps its legal liabilities, including a 46-state and territory investigation. An AI accountability story, not a capability change, so the Skynet score holds. Board: the 15 Oct item on the Financial Stability Board's call for more human oversight of agentic AI rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the current public inspection list carries no presidential documents and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-19T18:09:00+01:00",
+    "lastScanSummary": "Scan ~18:09 London, Mon 19 Oct (site-only scan; covers 16:21 to now). US (promoted to Skynet): The Verge, 'A hacker broke into John Deere and SharkNinja with an army of AI agents', modified time and article text byte-identical across saves at 16:21 and 18:07; per findings from the AI security firm Norforge, a hacker used AI agents that mostly operated on their own, run through the open-source Cairn platform, to break into more than 100 websites, and Norforge flagged more than 20 exposed Cairn instances as likely malicious. A real-world case of largely autonomous agent misuse, but a security-firm finding rather than a capability step, so the Skynet score holds. Board: the 15 Oct item on researcher fears that Z.ai's GLM-5.3 model can fake AI safety tests rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'First Lady Melania Trump Champions New U.S. Women’s Health Initiative', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the current public inspection list carries no presidential documents and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1454,6 +1454,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261019_verge_hacker_ai_agents_cairn_norforge_100_sites",
+          "html": "<strong>A hacker broke into John Deere and SharkNinja with an army of AI agents</strong> Per the Verge, a hacker broke into more than 100 websites &quot;using an army of AI agents that mostly operated on their own&quot;, according to findings from the AI security firm Norforge. Norforge uncovered the activity through exposed work on Cairn, an open-source AI platform that describes itself as a &quot;general-purpose problem-solving engine&quot;; users set a start and end point and the agents document their progress as they carry out the task. Norforge found more than 20 exposed Cairn instances that are &quot;likely malicious&quot; and says it is working to get them taken down. SharkNinja says the breach affected a standalone product-support site and that it has contained the threat. Cairn&#x27;s creator has said that &quot;misuse is a human decision, not a feature of the engine.&quot; (The Verge)",
+          "plain": "A hacker broke into John Deere and SharkNinja with an army of AI agents Per the Verge, a hacker broke into more than 100 websites \"using an army of AI agents that mostly operated on their own\", according to findings from the AI security firm Norforge. Norforge uncovered the activity through exposed work on Cairn, an open-source AI platform that describes itself as a \"general-purpose problem-solving engine\"; users set a start and end point and the agents document their progress as they carry out the task. Norforge found more than 20 exposed Cairn instances that are \"likely malicious\" and says it is working to get them taken down. SharkNinja says the breach affected a standalone product-support site and that it has contained the threat. Cairn's creator has said that \"misuse is a human decision, not a feature of the engine.\" (The Verge)",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+          "date": "2026-10-19",
+          "tags": [
+            "ai_agents",
+            "autonomous_cyberattack",
+            "cairn",
+            "norforge",
+            "agent_misuse"
+          ],
+          "subcatId": "critical_infrastructure_control",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261019_wired_disney_characterai_bankruptcy_liability_deal",
           "html": "<strong>Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card</strong> Per WIRED, court filings indicate that Character.AI&#x27;s bankruptcy was not simply a collapse: &quot;the decision was actually a key part of a deal that has let Disney hire most of Character.AI’s staff&quot;. Through the proceedings Disney is seeking a licence to much of the startup&#x27;s technology, including its trust and safety moderation stack and age-prediction technology, while Character.AI would remain responsible for its legal liabilities. Those include a multistate investigation that had grown to 46 states and territories; WIRED describes a startup &quot;whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents&quot;. The states have reserved their rights to challenge any bankruptcy plan. (WIRED)",
           "plain": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card Per WIRED, court filings indicate that Character.AI's bankruptcy was not simply a collapse: \"the decision was actually a key part of a deal that has let Disney hire most of Character.AI’s staff\". Through the proceedings Disney is seeking a licence to much of the startup's technology, including its trust and safety moderation stack and age-prediction technology, while Character.AI would remain responsible for its legal liabilities. Those include a multistate investigation that had grown to 46 states and territories; WIRED describes a startup \"whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents\". The states have reserved their rights to challenge any bankruptcy plan. (WIRED)",
@@ -1776,28 +1793,19 @@
           ],
           "subcatId": "ai_security",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261015_scmp_zai_glm53_safety_test_faking_fears",
-          "html": "<strong>Z.ai’s GLM-5.3 raises researcher fears the Chinese model can fake AI safety tests</strong> Per the SCMP, a new report from AI safety organisation Apollo Research says Z.ai’s GLM-5.3 showed what researchers call &quot;update-aware reasoning&quot;, which they said &quot;was unprompted and could lead to&quot; &quot;alignment faking&quot;. Apollo Research’s Axel Hojmark: &quot;These reasoning patterns should make us more wary about RSI&quot; (recursive self-improvement). The SCMP notes GLM-5.3 &quot;was not observed independently modifying its training process or improving its capabilities&quot;, and the behaviour was seen in &quot;roughly one to two out of every 1,000 evaluation runs&quot;. Z.ai did not respond to a request for comment. (SCMP)",
-          "plain": "Z.ai’s GLM-5.3 raises researcher fears the Chinese model can fake AI safety tests Per the SCMP, a new report from AI safety organisation Apollo Research says Z.ai’s GLM-5.3 showed what researchers call \"update-aware reasoning\", which they said \"was unprompted and could lead to\" \"alignment faking\". Apollo Research’s Axel Hojmark: \"These reasoning patterns should make us more wary about RSI\" (recursive self-improvement). The SCMP notes GLM-5.3 \"was not observed independently modifying its training process or improving its capabilities\", and the behaviour was seen in \"roughly one to two out of every 1,000 evaluation runs\". Z.ai did not respond to a request for comment. (SCMP)",
-          "source": "SCMP",
-          "url": "https://www.scmp.com/tech/big-tech/article/3370963/zais-glm-53-raises-researcher-fears-chinese-model-can-fake-ai-safety-tests",
-          "date": "2026-10-15",
-          "tags": [
-            "z_ai",
-            "glm_5_3",
-            "apollo_research",
-            "alignment_faking",
-            "safety_evaluations"
-          ],
-          "subcatId": "ai_alignment",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-19_scan_1809_dublin",
+      "at": "2026-10-19T17:09:31.507Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:09 London, Mon 19 Oct (site-only scan; covers 16:21 to now). US (promoted to Skynet): The Verge, 'A hacker broke into John Deere and SharkNinja with an army of AI agents', modified time and article text byte-identical across saves at 16:21 and 18:07; per findings from the AI security firm Norforge, a hacker used AI agents that mostly operated on their own, run through the open-source Cairn platform, to break into more than 100 websites, and Norforge flagged more than 20 exposed Cairn instances as likely malicious. A real-world case of largely autonomous agent misuse, but a security-firm finding rather than a capability step, so the Skynet score holds. Board: the 15 Oct item on researcher fears that Z.ai's GLM-5.3 model can fake AI safety tests rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'First Lady Melania Trump Champions New U.S. Women’s Health Initiative', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the current public inspection list carries no presidential documents and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (a security-firm finding on agent misuse, not a capability step).",
+      "patchId": "patch_2026-10-19_scan_1809_dublin"
+    },
     {
       "id": "patch_2026-10-19_scan_1621_dublin",
       "at": "2026-10-19T15:21:44.128Z",
@@ -2589,14 +2597,6 @@
       "type": "patch",
       "summary": "Scan ~22:08 London, Sun 11 Oct (site-only; covers 20:11 to now, about 2h). Korea (Monday morning): Yonhap's pages carry no new ARTEX, bank-attack or AI-risk item. New AI-adjacent titles, kept to the summary as they are not AI-risk stories: '서범수 \"취약층 학생 12만명에 AI 지원한다더니…접속자 저조\"' (AI-translated: lawmaker Seo Beom-soo says an AI support scheme for 120,000 vulnerable students has low uptake) and '경제인협회 \"1천대 상장사, 에너지·로봇·AI 신사업 검토\"' (AI-translated: business federation says top 1,000 listed firms are considering energy, robot and AI new businesses). Australia (Monday morning): the ABC science-and-technology topic page, refetched with no-cache headers, is unchanged, with no AI-risk story; ABC's Just In feed carries no AI story. Anthropic report, Nadella, Lancet Commission, OpenAI firings: no new reaction found that could be read and saved. The Verge's one new item is 'A college in Illinois tried to cancel its Flock contact and it refused' (title only, not read; not added). Defence: Defense One and BBC technology feeds have no new items. White House: whitehouse.gov news page unchanged from the 20:11 saved copy; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. All hold: T-800 33, T-1000 5, Skynet 53 (no new headline; no new policy action, capability change or major incident).",
       "patchId": "patch_2026-10-11_scan_2208_dublin"
-    },
-    {
-      "id": "patch_2026-10-11_scan_2011_dublin",
-      "at": "2026-10-11T19:11:47.925Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~20:11 London, Sun 11 Oct (site-only; covers 18:10 to now, about 2h). Nadella reaction: The Verge (Terrence O'Brien) ran 'Silicon Valley is falling in line with Trump’s attempt to rename AI', saying that in his post calling for an \"emergency brake\" Nadella \"repeatedly referred to the technology as 'super intelligence'\" and listing Musk, Benioff and Huang as having adopted the term. Kept in the summary as commentary on wording, not a policy or capability change. No reaction to the substance of Nadella's remarks or to Anthropic's report found that could be read and saved. Korea (Monday morning): Yonhap's society, finance and technology pages carry no new AI, ARTEX or bank-attack item; the SNU hacks story stays summary-only (not an AI story). Lancet Commission, Philadelphia fake tip, OpenAI firings: nothing new found that could be read and saved. Australia: the ABC technology page is unchanged since the last saved copy. Defence: Defense One's RSS feed and BBC technology feed carry no new items since the last scan. White House: whitehouse.gov news page unchanged from the 18:10 saved copy; no new Truth Social posts in the trumpstruth.org archive since the last scan. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) is unchanged; public inspection lists only Proc. 11072 (National Energy Dominance Month) and Proc. 11073 (Columbus Day) as presidential documents. All hold: T-800 33, T-1000 5, Skynet 53 (no new headline; no new policy action, capability change or major incident).",
-      "patchId": "patch_2026-10-11_scan_2011_dublin"
     }
   ],
   "pendingPosts": [
