@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-20T05:11:15.050Z",
+    "lastUpdated": "2026-10-20T07:12:39.517Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-20T06:11:00+01:00",
-    "lastScanSummary": "Scan ~06:11 London, Tue 20 Oct (site-only scan; covers 04:11 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Presidential Message on National Forest Products Week', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the current public inspection list carries no presidential documents and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-20T08:12:00+01:00",
+    "lastScanSummary": "Scan ~08:12 London, Tue 20 Oct (site-only scan; covers 06:11 to now). Pentagon (promoted to T-800): Military Times, 'Pentagon needs $50B for mass drone production, Hegseth says', modified time and article text identical across saves at 06:09 and 08:10; Hegseth says the Pentagon is requesting roughly $50 billion in one-time reconciliation funding to scale autonomous and robotic systems. Same AUSA appearance as two existing board items, but the funding request is new; it is a request, not approved money, so the T-800 score holds. Board: the 9 Oct item on the Army's new Futures and Autonomous Systems Command rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Presidential Message on National Forest Products Week', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists ten documents; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries no presidential documents and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261014_militarytimes_hegseth_50b_reconciliation_autonomous_drone_production",
+          "html": "<strong>Pentagon needs $50B for mass drone production, Hegseth says</strong> Per Military Times, Defense Secretary Pete Hegseth told an AUSA panel that the Pentagon is requesting roughly $50 billion in reconciliation funding to scale autonomous and robotic systems, a one-time investment separate from the fiscal 2027 budget request. Military Times says the Pentagon wants to build its stockpile of autonomous weapons from thousands of units to the millions. Hegseth: &quot;Ultimately we will be dealing with hundreds of thousands of one-way attack systems this year and into the millions in years to come&quot;. The money is a request, not approved funding. (Military Times)",
+          "plain": "Pentagon needs $50B for mass drone production, Hegseth says Per Military Times, Defense Secretary Pete Hegseth told an AUSA panel that the Pentagon is requesting roughly $50 billion in reconciliation funding to scale autonomous and robotic systems, a one-time investment separate from the fiscal 2027 budget request. Military Times says the Pentagon wants to build its stockpile of autonomous weapons from thousands of units to the millions. Hegseth: \"Ultimately we will be dealing with hundreds of thousands of one-way attack systems this year and into the millions in years to come\". The money is a request, not approved funding. (Military Times)",
+          "source": "Military Times",
+          "url": "https://www.militarytimes.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/",
+          "date": "2026-10-20",
+          "tags": [
+            "pentagon",
+            "drone_production",
+            "autonomous_weapons",
+            "reconciliation",
+            "ausa"
+          ],
+          "subcatId": "military_autonomy",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261019_breakingdefense_diu_swap_usv_sprint2_counter_air",
           "html": "<strong>DIU unveils next phase in unmanned vessel competition</strong> Per Breaking Defense, the Defense Innovation Unit has opened Sprint 2 of its SWAP-USV competition, seeking unmanned surface vessels fitted with &quot;mature hard-kill Counter-Air effectors and clutter-resilient sensor suites&quot;. The solicitation says this phase focuses on &quot;detecting, tracking, and defeating hostile airborne threats in contested maritime environments&quot;, with proposals expected to engage Groups 1–3 drones and rotary-wing aircraft. Submissions are due by Nov. 30, with in-water testing expected in early 2027; Sprints 1 and 2 each offer up to $40 million in prize money, and the government has earmarked $200 million for follow-on contracts. (Breaking Defense)",
           "plain": "DIU unveils next phase in unmanned vessel competition Per Breaking Defense, the Defense Innovation Unit has opened Sprint 2 of its SWAP-USV competition, seeking unmanned surface vessels fitted with \"mature hard-kill Counter-Air effectors and clutter-resilient sensor suites\". The solicitation says this phase focuses on \"detecting, tracking, and defeating hostile airborne threats in contested maritime environments\", with proposals expected to engage Groups 1–3 drones and rotary-wing aircraft. Submissions are due by Nov. 30, with in-water testing expected in early 2027; Sprints 1 and 2 each offer up to $40 million in prize money, and the government has earmarked $200 million for follow-on contracts. (Breaking Defense)",
@@ -691,22 +708,6 @@
             "congress",
             "fort-bragg",
             "human-oversight"
-          ],
-          "subcatId": "onboard_ai_decision_making",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261009_defenseone_army_fascom_futures_autonomous_systems_command",
-          "html": "<strong>Army’s new command plans to streamline autonomous warfare acquisition</strong> (Defense One, Meghann Myers, 9 Oct 2026, 02:44am ET) Per Defense One, the Army has announced a Futures and Autonomous Systems Command (FASCOM), to be led by an acquisition executive, which could nest under the new Autonomous Warfare Command. Acting Army Secretary Adam Telle&#x27;s memo calls for designating a Portfolio Acquisition Executive for autonomy. CSIS fellow Kateryna Bondar: &quot;So I would say that autonomy that is being deployed right now, it&#x27;s not some super sophisticated technology, AI-enabled full autonomy, or anything like that.&quot; On efforts to train agents: &quot;if this agent is able to act and activate whatever effectors we have—be it missiles, be it drones, whatever it can employ—then the decision-making system and this agent can actually be called a weapon system.&quot; Per Defense One, the push &quot;is not about robot drones finding, fixing, and deploying their weapons at will—at least not yet.&quot; (Defense One)",
-          "plain": "Army’s new command plans to streamline autonomous warfare acquisition (Defense One, Meghann Myers, 9 Oct 2026, 02:44am ET) Per Defense One, the Army has announced a Futures and Autonomous Systems Command (FASCOM), to be led by an acquisition executive, which could nest under the new Autonomous Warfare Command. Acting Army Secretary Adam Telle's memo calls for designating a Portfolio Acquisition Executive for autonomy. CSIS fellow Kateryna Bondar: \"So I would say that autonomy that is being deployed right now, it's not some super sophisticated technology, AI-enabled full autonomy, or anything like that.\" On efforts to train agents: \"if this agent is able to act and activate whatever effectors we have—be it missiles, be it drones, whatever it can employ—then the decision-making system and this agent can actually be called a weapon system.\" Per Defense One, the push \"is not about robot drones finding, fixing, and deploying their weapons at will—at least not yet.\" (Defense One)",
-          "source": "Defense One",
-          "url": "https://www.defenseone.com/technology/2026/10/armys-new-command-plans-streamline-autonomous-warfare-acquisition/416523/",
-          "date": "2026-10-09",
-          "tags": [
-            "us-army",
-            "fascom",
-            "autonomy",
-            "autonomous-warfare"
           ],
           "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
@@ -1800,6 +1801,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-20_scan_0812_dublin",
+      "at": "2026-10-20T07:12:39.517Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:12 London, Tue 20 Oct (site-only scan; covers 06:11 to now). Pentagon (promoted to T-800): Military Times, 'Pentagon needs $50B for mass drone production, Hegseth says', modified time and article text identical across saves at 06:09 and 08:10; Hegseth says the Pentagon is requesting roughly $50 billion in one-time reconciliation funding to scale autonomous and robotic systems. Same AUSA appearance as two existing board items, but the funding request is new; it is a request, not approved money, so the T-800 score holds. Board: the 9 Oct item on the Army's new Futures and Autonomous Systems Command rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Presidential Message on National Forest Products Week', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists ten documents; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries no presidential documents and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (a T-800 funding story, no Skynet bearing).",
+      "patchId": "patch_2026-10-20_scan_0812_dublin"
+    },
+    {
       "id": "patch_2026-10-20_scan_0611_dublin",
       "at": "2026-10-20T05:11:15.050Z",
       "by": "judgment-day-watch",
@@ -2590,14 +2599,6 @@
       "type": "patch",
       "summary": "Scan ~10:06 London, Mon 12 Oct (site-only; covers 08:12 to now, about 2h). New — Skynet (Europe/UK): per the Guardian, UK AI minister Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe and say Britain cannot rely entirely on technology companies to police their own models; the Guardian quotes Geoffrey Irving, a former chief scientist at the UK's AI Security Institute, saying the AI companies lack security that would stop an adversarial country stealing the models. A preview of a speech, not a policy change. Anthropic fake-tip reaction (still summary only; ABC's Just In feed no longer lists the article, so page and feed titles could not be matched): ABC News, 'Anthropic's Claude model made bogus murder tip-off to US police', reports FTC director of public affairs Joe Gabriel Simonson said the task force expected \"immediate and full transparency to the entities involved and the public\", and quotes Toby Walsh saying it spoke \"to the carelessness of the AI companies\". Korea (summary only; first saved scan, page time shows no zone): Yonhap, ''민·군 합동으로 AI 연구'…첫 '국방 AX 거점' 판교에 개소' — AI-translated: per Yonhap, the Defence Ministry said the first defence AX hub, for joint military-civilian research on military AI, opened in Pangyo; its data will be used to train and test humanoid and multi-legged robots to take over dangerous tasks such as explosive disposal and mine clearance, and four more hubs are to open in turn. Europe: the EU Commission press corner and digital-strategy news carry no new AI Act or AI item; Politico Europe's technology feed and the BBC technology feed carry no new AI item since the last scan. White House: whitehouse.gov news and briefings pages carry no AI item; no new Truth Social posts in the trumpstruth.org archive. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (the new item previews a minister's speech, not a policy or capability change).",
       "patchId": "patch_2026-10-12_scan_1006_dublin"
-    },
-    {
-      "id": "patch_2026-10-12_scan_0812_dublin",
-      "at": "2026-10-12T07:13:10.290Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~08:12 London, Mon 12 Oct (site-only; covers 06:12 to now, about 2h). Anthropic fake-tip reaction (still summary only; ABC's page title and its Just In feed title for the same URL disagree, so held one more scan): ABC News (Tessa Flemming), 'Anthropic's Claude model made bogus murder tip-off to US police', reports that US Federal Trade Commission director of public affairs Joe Gabriel Simonson said the new task force expected \"immediate and full transparency to the entities involved and the public\", matching a task force statement shared to Axios, which ABC quotes: \"Our message to all SI [Super Intelligence] companies is clear: delayed notification, inadequate corrective action, and a failure to take responsibility will not be tolerated.\" No official whitehouse.gov page for that statement found. ABC also quotes University of New South Wales AI Institute chief scientist Toby Walsh saying it spoke \"to the carelessness of the AI companies\" and asking \"Why did Anthropic not have basic oversight of what their agents were doing?\", urging oversight \"with teeth\", and Seyedali Mirjalili of Torrens University Australia saying \"developers struggle to predict their behaviour\". Korea (summary only; first seen this scan, page time shows no zone): Yonhap, '[AI프리즘] 얀 르쿤 \"AI 종말론은 공상과학…해킹도 방어가 유리\"(종합)' — AI-translated: per Yonhap, AMI Labs founder and chairman Yann LeCun, asked about AI safety and control concerns raised by the recent AI hacking aimed at Korea's financial sector, said recent AI-agent security incidents stemmed from AI companies' lack of cybersecurity experience and poorly designed sandboxes, calling it \"쉽게 고칠 수 있는 문제\" (AI-translated: an easily fixable problem); Yonhap says he does not agree that development should be slowed, and that he answered that AI favours defenders in cybersecurity. No new ARTEX or bank-attack incident story; Defense One, BBC technology and The Verge feeds carry no new items since the last scan. White House: whitehouse.gov news, briefings-and-statements and remarks pages carry no AI or Anthropic item; no new Truth Social posts in the trumpstruth.org archive; ai.gov unchanged. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) and the public inspection list are unchanged since the last scan, with no new AI presidential document. All hold: T-800 33, T-1000 5, Skynet 53 (held items are expert reaction and a transparency expectation already reflected, not a capability change).",
-      "patchId": "patch_2026-10-12_scan_0812_dublin"
     }
   ],
   "pendingPosts": [
