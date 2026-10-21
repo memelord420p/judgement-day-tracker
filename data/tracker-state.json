@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-21T21:11:55.243Z",
+    "lastUpdated": "2026-10-21T23:04:37.818Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-21T22:11:00+01:00",
-    "lastScanSummary": "Scan ~22:11 London, Wed 21 Oct (site-only scan; covers 20:09 to now). Military AI (promoted to Skynet): BBC, 'Google staff resign in backlash over its AI contracts with military', article text identical across saves at 20:09 and 22:10 and settled since 19:41; several Google DeepMind staff have resigned or are leaving over Google's military AI contracts, including its Pentagon deal allowing classified military use, citing doubts about human oversight. A workforce backlash over military AI deployment, not a capability change, so the Skynet score holds. Board: the 15 Oct item on Meta's Muse AI agents and friends' data rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; the archive of the President's social-media posts could not be checked this scan (access refused). Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 99 documents, with one presidential document, an executive order on women's health (EO 14437), and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-22T00:04:00+01:00",
+    "lastScanSummary": "Scan ~00:04 London, Thu 22 Oct (site-only scan; covers 22:11 to now). Military AI oversight (promoted to Skynet): Defense News, 'Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds', article text identical across saves at 20:09 and 00:02 and settled since 20:14 after a 17:14 modification; the GAO found the Pentagon's responsible-AI office had filled three of 10 authorized positions and 29 of 64 strategy efforts were incomplete, while its working council went months without meeting. Governance lagging the push to accelerate military AI, but an oversight report rather than a capability change, so the Skynet score holds. Board: the 16 Oct item on Anthropic giving METR evaluator access rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 99 documents, with one presidential document, an executive order on women's health (EO 14437), and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1457,6 +1457,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261021_defensenews_gao_pentagon_responsible_ai_office_understaffed",
+          "html": "<strong>Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds</strong> Per Defense News, the Government Accountability Office found that the Pentagon office tapped to oversee the military’s responsible use of AI had filled just three of its 10 authorized positions as of February 2026, and that 29 of 64 efforts in the department’s Responsible AI Strategy and Implementation Pathway remained incomplete as of April 2026. Its Responsible AI Working Council did not meet from late 2024 until August 2025 and still lacks a formal charter; without one, GAO warns, &quot;the council is at risk of lapsing again&quot;. The department agreed with both recommendations. Sen. Jack Reed: &quot;Congress must do its job and provide balanced oversight, standards, and rules of the road&quot;. (Defense News)",
+          "plain": "Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds Per Defense News, the Government Accountability Office found that the Pentagon office tapped to oversee the military’s responsible use of AI had filled just three of its 10 authorized positions as of February 2026, and that 29 of 64 efforts in the department’s Responsible AI Strategy and Implementation Pathway remained incomplete as of April 2026. Its Responsible AI Working Council did not meet from late 2024 until August 2025 and still lacks a formal charter; without one, GAO warns, \"the council is at risk of lapsing again\". The department agreed with both recommendations. Sen. Jack Reed: \"Congress must do its job and provide balanced oversight, standards, and rules of the road\". (Defense News)",
+          "source": "Defense News",
+          "url": "https://www.defensenews.com/news/pentagon-congress/2026/10/21/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/",
+          "date": "2026-10-22",
+          "tags": [
+            "pentagon",
+            "responsible_ai",
+            "gao",
+            "military_ai_oversight",
+            "cdao"
+          ],
+          "subcatId": "military_ai",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261021_bbc_google_deepmind_staff_resign_military_ai_contracts",
           "html": "<strong>Google staff resign in backlash over its AI contracts with military</strong> Per the BBC, several tech workers have resigned from Google DeepMind, or are in the process of leaving, over concerns about the company&#x27;s military contracts. Research engineer Sofia Liguori: &quot;Realising my company is pushing more and more for AI systems in military operations makes me feel ashamed to work at Google,&quot; she said, speaking in a personal capacity. AI researcher Andreas Kirsch, who also resigned this month: &quot;Google seems to have no right to control or veto how the Pentagon uses its AI and also seems to have limited visibility into how it&#x27;s being deployed&quot;. Google&#x27;s Pentagon contract, signed earlier this year, allows its AI to be used for classified military work. A Google spokesperson said it follows a consistent process for reviewing these contracts, including compliance with its acceptable use policies and AI principles. (BBC)",
           "plain": "Google staff resign in backlash over its AI contracts with military Per the BBC, several tech workers have resigned from Google DeepMind, or are in the process of leaving, over concerns about the company's military contracts. Research engineer Sofia Liguori: \"Realising my company is pushing more and more for AI systems in military operations makes me feel ashamed to work at Google,\" she said, speaking in a personal capacity. AI researcher Andreas Kirsch, who also resigned this month: \"Google seems to have no right to control or veto how the Pentagon uses its AI and also seems to have limited visibility into how it's being deployed\". Google's Pentagon contract, signed earlier this year, allows its AI to be used for classified military work. A Google spokesperson said it follows a consistent process for reviewing these contracts, including compliance with its acceptable use policies and AI principles. (BBC)",
@@ -1778,28 +1795,19 @@
           ],
           "subcatId": "ai_surveillance",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261016_cna_anthropic_metr_evaluator_access",
-          "html": "<strong>Anthropic grants outside evaluator METR employee-level access in AI safety push</strong> Per CNA, Anthropic said six employees of the nonprofit METR (Model Evaluation and Threat Research) have company hardware, office space and access to internal systems roughly equivalent to its risk assessment teams; customer data, legally privileged information and model architecture remain off limits. Anthropic said it cannot veto METR&#x27;s findings on risks, incidents and practices, but can require narrowly defined redactions. METR: &quot;In line with our transparency policies, our report will openly describe the scope, access, and other limitations of our work&quot;. (CNA)",
-          "plain": "Anthropic grants outside evaluator METR employee-level access in AI safety push Per CNA, Anthropic said six employees of the nonprofit METR (Model Evaluation and Threat Research) have company hardware, office space and access to internal systems roughly equivalent to its risk assessment teams; customer data, legally privileged information and model architecture remain off limits. Anthropic said it cannot veto METR's findings on risks, incidents and practices, but can require narrowly defined redactions. METR: \"In line with our transparency policies, our report will openly describe the scope, access, and other limitations of our work\". (CNA)",
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/business/anthropic-grants-outside-evaluator-metr-employee-level-access-in-ai-safety-push-6463306",
-          "date": "2026-10-16",
-          "tags": [
-            "anthropic",
-            "metr",
-            "ai_safety",
-            "evaluation",
-            "oversight"
-          ],
-          "subcatId": "ai_safety_oversight",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-22_scan_0004_dublin",
+      "at": "2026-10-21T23:04:37.818Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:04 London, Thu 22 Oct (site-only scan; covers 22:11 to now). Military AI oversight (promoted to Skynet): Defense News, 'Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds', article text identical across saves at 20:09 and 00:02 and settled since 20:14 after a 17:14 modification; the GAO found the Pentagon's responsible-AI office had filled three of 10 authorized positions and 29 of 64 strategy efforts were incomplete, while its working council went months without meeting. Governance lagging the push to accelerate military AI, but an oversight report rather than a capability change, so the Skynet score holds. Board: the 16 Oct item on Anthropic giving METR evaluator access rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 99 documents, with one presidential document, an executive order on women's health (EO 14437), and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (an oversight report on military AI governance, not a capability change).",
+      "patchId": "patch_2026-10-22_scan_0004_dublin"
+    },
     {
       "id": "patch_2026-10-21_scan_2211_dublin",
       "at": "2026-10-21T21:11:55.243Z",
@@ -2591,14 +2599,6 @@
       "type": "patch",
       "summary": "Scan ~02:10 London, Wed 14 Oct (site-only; covers 00:05 to now, about 2h). Research (promoted to Skynet): Anthropic's own report, 'AI models may be capable of self-replicating without access to a datacenter', a Frontier Red Team post saying small AI models may be months away from being able to self-replicate on IoT devices; the claim is hedged and limited to small models. Checks: the live titles of the WIRED, Independent, Hinton, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 00:05. Asia and Australia (Wednesday morning), US late evening: no new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. All hold: T-800 33, T-1000 5, Skynet 53 (a hedged research warning, not a policy, capability change or new incident).",
       "patchId": "patch_2026-10-14_scan_0210_dublin"
-    },
-    {
-      "id": "patch_2026-10-14_scan_0005_dublin",
-      "at": "2026-10-13T23:05:43.898Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~00:05 London, Wed 14 Oct (site-only; covers 22:10 Tue to now, about 2h). Correction to the 22:10 summary: the DefenseScoop item 'Three-star will head Army’s new autonomy command, which will initially focus on corps-level systems' was named from its title only; that line is withdrawn and replaced by the sourced line below. UK (promoted to Skynet): WIRED, 'OpenAI and Anthropic Tell British Lawmakers: Regulate Us', which adds the regulation split and the AI Security Institute's voluntary-access position to the Independent's account of the same session. Research (summary only; under 3h old): the Guardian, 'AI in your oven? Anthropic warns models ‘months away’ from self-replication on smart devices'. Anthropic's own report, 'AI models may be capable of self-replicating without access to a datacenter', says small AI models may be months away from being capable enough to self-replicate on IoT devices such as smart ovens and off-brand Android TV boxes; the report's wording is more hedged than the headline and is limited to small models. US (summary only, per the task; the DefenseScoop piece is under 3h old): Breaking Defense, 'LaNeve ‘redesignates’ Army’s Futures and Concepts Command as new FASCOM autonomy command', and DefenseScoop, 'Three-star will head Army’s new autonomy command, which will initially focus on corps-level systems', report the Army's new Futures and Autonomous Systems Command (FASCOM); the service did not disclose who that leader will be. Checks: the live titles of the Independent, Hinton, MI5, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 22:10. Asia and US evening: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. All hold: T-800 33, T-1000 5, Skynet 53 (testimony and research warnings, not a policy, capability change or new incident).",
-      "patchId": "patch_2026-10-14_scan_0005_dublin"
     }
   ],
   "pendingPosts": [
