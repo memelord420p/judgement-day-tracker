@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-22T01:13:24.566Z",
+    "lastUpdated": "2026-10-22T03:07:52.486Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-22T02:13:00+01:00",
-    "lastScanSummary": "Scan ~02:13 London, Thu 22 Oct (site-only scan; covers 00:04 to now). Autonomous undersea drones (promoted to T-800): TWZ, 'Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time', article text identical across saves at 00:02 and 02:11 and settled since 21:10; manufacturer footage shows Ghost Shark raising a 12-tube launcher and firing an aerial drone, with two such launchers implying about two dozen drones per sortie, plus two masts not seen before. Dedupe against the 19 Oct CNA Ghost Shark item: that covered the announced payload concepts; this adds the first footage of a drone launch, the per-sortie drone count and the masts. A demonstration of an announced capability, not a new autonomy step, so the T-800 score holds. Board: the 12 Oct item on the Army's AI biodefense strategy rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 99 documents, with one presidential document, an executive order on women's health (EO 14437), and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-22T04:07:00+01:00",
+    "lastScanSummary": "Scan ~04:07 London, Thu 22 Oct (site-only scan; covers 02:13 to now). Cyber (promoted to Skynet): CNA, 'Websites go dark worldwide as AI exposes critical security flaws', article text identical across saves at 00:02 and 04:06 and settled since 03:14 after a 00:14 revision that changed only a photo caption; organisations worldwide took websites offline over two critical PHP flaws that security firms found using AI models, which OpenAI says marks a new phase in AI finding bugs with internet-scale impact. AI-driven discovery of a real, widely disruptive flaw, but found by defenders and disclosed responsibly, so the Skynet score holds. Board: the 16 Oct item on AI screening of federal grant applicants rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 99 documents, with one presidential document, an executive order on women's health (EO 14437), and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1458,6 +1458,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261021_cna_php_flaws_found_by_ai_websites_go_dark",
+          "html": "<strong>Websites go dark worldwide as AI exposes critical security flaws</strong> Per CNA, government agencies and companies around the world shut down websites after two critical flaws came to light in PHP, which security firm Wiz estimates runs about 70 per cent of the world&#x27;s websites; Wiz said they rank &quot;among the most severe vulnerabilities discovered in PHP, and arguably in software history&quot;. Security firm Calif found the flaws in August using OpenAI&#x27;s GPT-5.6 Sol model, as part of an OpenAI-funded audit, and Wiz said it found them independently with help from AI models. OpenAI said on X the discovery &quot;marks a new phase, where AI can find security bugs with internet-scale impact&quot;. Details leaked a day before the planned fix, prompting the rush to take sites offline. (CNA)",
+          "plain": "Websites go dark worldwide as AI exposes critical security flaws Per CNA, government agencies and companies around the world shut down websites after two critical flaws came to light in PHP, which security firm Wiz estimates runs about 70 per cent of the world's websites; Wiz said they rank \"among the most severe vulnerabilities discovered in PHP, and arguably in software history\". Security firm Calif found the flaws in August using OpenAI's GPT-5.6 Sol model, as part of an OpenAI-funded audit, and Wiz said it found them independently with help from AI models. OpenAI said on X the discovery \"marks a new phase, where AI can find security bugs with internet-scale impact\". Details leaked a day before the planned fix, prompting the rush to take sites offline. (CNA)",
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/websites-go-dark-worldwide-ai-exposes-critical-security-flaws-6478206",
+          "date": "2026-10-22",
+          "tags": [
+            "php",
+            "ai_vulnerability_discovery",
+            "openai",
+            "wiz",
+            "critical_infrastructure"
+          ],
+          "subcatId": "ai_cyber",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261021_defensenews_gao_pentagon_responsible_ai_office_understaffed",
           "html": "<strong>Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds</strong> Per Defense News, the Government Accountability Office found that the Pentagon office tapped to oversee the military’s responsible use of AI had filled just three of its 10 authorized positions as of February 2026, and that 29 of 64 efforts in the department’s Responsible AI Strategy and Implementation Pathway remained incomplete as of April 2026. Its Responsible AI Working Council did not meet from late 2024 until August 2025 and still lacks a formal charter; without one, GAO warns, &quot;the council is at risk of lapsing again&quot;. The department agreed with both recommendations. Sen. Jack Reed: &quot;Congress must do its job and provide balanced oversight, standards, and rules of the road&quot;. (Defense News)",
           "plain": "Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds Per Defense News, the Government Accountability Office found that the Pentagon office tapped to oversee the military’s responsible use of AI had filled just three of its 10 authorized positions as of February 2026, and that 29 of 64 efforts in the department’s Responsible AI Strategy and Implementation Pathway remained incomplete as of April 2026. Its Responsible AI Working Council did not meet from late 2024 until August 2025 and still lacks a formal charter; without one, GAO warns, \"the council is at risk of lapsing again\". The department agreed with both recommendations. Sen. Jack Reed: \"Congress must do its job and provide balanced oversight, standards, and rules of the road\". (Defense News)",
@@ -1780,27 +1797,19 @@
           ],
           "subcatId": "ai_cyber_capability",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261016_d1_dot_ai_grant_applicant_screening",
-          "html": "<strong>Meet the agency using AI to screen grant applicants for links to potential adversaries</strong> Per Defense One, the Department of Transportation has been using artificial intelligence to determine whether grant recipients have ties to adversarial nations. Neil Chaudhry, senior advisor for AI at Transportation, said the agency worked with partners to create &quot;some really robust AI tools&quot; to analyze research grant recipients, including checks for links to Chinese Communist Party leadership or Russian oligarchs. Chaudhry: &quot;What we don&#x27;t want to do is go on a fishing expedition,&quot; adding it is &quot;not based on the color of their skin and their nationality or something&quot;. The capability is not in Transportation&#x27;s latest AI use-case inventory. (Defense One)",
-          "plain": "Meet the agency using AI to screen grant applicants for links to potential adversaries Per Defense One, the Department of Transportation has been using artificial intelligence to determine whether grant recipients have ties to adversarial nations. Neil Chaudhry, senior advisor for AI at Transportation, said the agency worked with partners to create \"some really robust AI tools\" to analyze research grant recipients, including checks for links to Chinese Communist Party leadership or Russian oligarchs. Chaudhry: \"What we don't want to do is go on a fishing expedition,\" adding it is \"not based on the color of their skin and their nationality or something\". The capability is not in Transportation's latest AI use-case inventory. (Defense One)",
-          "source": "Defense One",
-          "url": "https://www.defenseone.com/threats/2026/10/ai-grant-recipients-adversaries/416622/",
-          "date": "2026-10-16",
-          "tags": [
-            "government_ai",
-            "screening",
-            "research_security",
-            "department_of_transportation"
-          ],
-          "subcatId": "ai_surveillance",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-22_scan_0407_dublin",
+      "at": "2026-10-22T03:07:52.486Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:07 London, Thu 22 Oct (site-only scan; covers 02:13 to now). Cyber (promoted to Skynet): CNA, 'Websites go dark worldwide as AI exposes critical security flaws', article text identical across saves at 00:02 and 04:06 and settled since 03:14 after a 00:14 revision that changed only a photo caption; organisations worldwide took websites offline over two critical PHP flaws that security firms found using AI models, which OpenAI says marks a new phase in AI finding bugs with internet-scale impact. AI-driven discovery of a real, widely disruptive flaw, but found by defenders and disclosed responsibly, so the Skynet score holds. Board: the 16 Oct item on AI screening of federal grant applicants rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 99 documents, with one presidential document, an executive order on women's health (EO 14437), and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (AI-found flaws disclosed by defenders, not an AI attack).",
+      "patchId": "patch_2026-10-22_scan_0407_dublin"
+    },
     {
       "id": "patch_2026-10-22_scan_0213_dublin",
       "at": "2026-10-22T01:13:24.566Z",
@@ -2592,14 +2601,6 @@
       "type": "patch",
       "summary": "Scan ~06:06 London, Wed 14 Oct (site-only; covers 04:12 to now, about 2h). No headline promoted this scan. Europe (summary only; read in full, judged industrial policy rather than an AI-risk story): POLITICO, 'Europe’s leaders abandon the race for frontier AI', reports a shift in Brussels toward applying AI rather than building frontier models, ahead of an international AI summit in Dublin; the Commission's tech chief Henna Virkkunen disputes that Europe has given up on frontier AI. Korea (held; under 3h old, title unchanged; AI translation): Yonhap, '콘솔게임 보안까지 뚫은 AI, 해적판 등장에 업계 '발칵'' (roughly: AI breaks through console-game security, industry alarmed by pirated copies). Checks: the live titles of the Breaking Defense, Anthropic, ARCYBER, Army biothreats, WIRED and Independent headlines are unchanged and match the board; no new title drift since 04:12. Asia and Australia (morning), early Europe, US overnight: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. All hold: T-800 33, T-1000 5, Skynet 53 (no new incident, deployment or capability change read in full).",
       "patchId": "patch_2026-10-14_scan_0606_dublin"
-    },
-    {
-      "id": "patch_2026-10-14_scan_0412_dublin",
-      "at": "2026-10-14T03:12:17.643Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~04:12 London, Wed 14 Oct (site-only; covers 02:10 to now, about 2h). US (promoted to T-800): Breaking Defense, 'Army to take a (cautious) step toward employing AI agents to defend networks: Official', now fetched in full; it adds the Army's planned Friday Project Griffin awards for autonomous network response, which go beyond the ARCYBER sandbox headline. Korea (summary only; under 3h old; AI translation): Yonhap, '콘솔게임 보안까지 뚫은 AI, 해적판 등장에 업계 '발칵'' (roughly: AI breaks through console-game security, industry alarmed by pirated copies), which reports that agentic AI models are making console emulation and porting much easier. Checks: the live titles of the Anthropic, WIRED, Independent, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 02:10. Asia and Australia (morning), US overnight, early Europe: no other new AI-risk story read in full. White House: the whitehouse.gov news page's one new item is a presidential message on the Navy's birthday, not about AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. All hold: T-800 33, T-1000 5, Skynet 53 (planned contract awards, not a deployment, capability change or new incident).",
-      "patchId": "patch_2026-10-14_scan_0412_dublin"
     }
   ],
   "pendingPosts": [
