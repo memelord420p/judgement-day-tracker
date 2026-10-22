@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-21T23:04:37.818Z",
+    "lastUpdated": "2026-10-22T01:13:24.566Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-22T00:04:00+01:00",
-    "lastScanSummary": "Scan ~00:04 London, Thu 22 Oct (site-only scan; covers 22:11 to now). Military AI oversight (promoted to Skynet): Defense News, 'Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds', article text identical across saves at 20:09 and 00:02 and settled since 20:14 after a 17:14 modification; the GAO found the Pentagon's responsible-AI office had filled three of 10 authorized positions and 29 of 64 strategy efforts were incomplete, while its working council went months without meeting. Governance lagging the push to accelerate military AI, but an oversight report rather than a capability change, so the Skynet score holds. Board: the 16 Oct item on Anthropic giving METR evaluator access rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 99 documents, with one presidential document, an executive order on women's health (EO 14437), and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-22T02:13:00+01:00",
+    "lastScanSummary": "Scan ~02:13 London, Thu 22 Oct (site-only scan; covers 00:04 to now). Autonomous undersea drones (promoted to T-800): TWZ, 'Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time', article text identical across saves at 00:02 and 02:11 and settled since 21:10; manufacturer footage shows Ghost Shark raising a 12-tube launcher and firing an aerial drone, with two such launchers implying about two dozen drones per sortie, plus two masts not seen before. Dedupe against the 19 Oct CNA Ghost Shark item: that covered the announced payload concepts; this adds the first footage of a drone launch, the per-sortie drone count and the masts. A demonstration of an announced capability, not a new autonomy step, so the T-800 score holds. Board: the 12 Oct item on the Army's AI biodefense strategy rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 99 documents, with one presidential document, an executive order on women's health (EO 14437), and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261021_twz_ghost_shark_xlauv_footage_launching_aerial_drones",
+          "html": "<strong>Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time</strong> Per TWZ, new footage of Australia’s Ghost Shark extra-large autonomous underwater vehicle &quot;provides the first look at how the vehicle launches aerial drones&quot;. Published by manufacturer Anduril, the video shows the surfaced drone sub raising a launcher of 12 angled tubes and an ALTIUS-type drone being launched from one of them. With a second launcher in the other bay, TWZ says Ghost Shark can deploy a substantial number of aerial drones (&quot;two dozen in this case&quot;) in a single sortie. The footage also reveals a pair of deployable masts not previously seen on the platform. (TWZ)",
+          "plain": "Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time Per TWZ, new footage of Australia’s Ghost Shark extra-large autonomous underwater vehicle \"provides the first look at how the vehicle launches aerial drones\". Published by manufacturer Anduril, the video shows the surfaced drone sub raising a launcher of 12 angled tubes and an ALTIUS-type drone being launched from one of them. With a second launcher in the other bay, TWZ says Ghost Shark can deploy a substantial number of aerial drones (\"two dozen in this case\") in a single sortie. The footage also reveals a pair of deployable masts not previously seen on the platform. (TWZ)",
+          "source": "TWZ",
+          "url": "https://www.twz.com/sea/ghost-shark-uncrewed-submarine-shown-launching-aerial-drones-for-the-first-time",
+          "date": "2026-10-22",
+          "tags": [
+            "ghost_shark",
+            "anduril",
+            "xl_auv",
+            "drone_launch",
+            "australia"
+          ],
+          "subcatId": "drones",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261019_ieeespectrum_agility_digit5_humanoid_worker_at_scale",
           "html": "<strong>The Robot I Didn’t Expect to Build</strong> Per IEEE Spectrum, Agility Robotics co-founder Jonathan Hurst writes that the company has launched Digit 5, designed to be the &quot;first humanoid robot that can safely and economically do useful work at scale&quot;, with the aim of bringing tens of thousands of humanoid workers into the real world. Digit is designed to work 20 hours a day, and as a person approaches it is programmed to stop, set down its payload, sit on the floor and cut power to its motors. Hurst: &quot;In some ways, Digit 5 feels more like a forklift than the graceful humanoid I set out to build.&quot; (IEEE Spectrum)",
           "plain": "The Robot I Didn’t Expect to Build Per IEEE Spectrum, Agility Robotics co-founder Jonathan Hurst writes that the company has launched Digit 5, designed to be the \"first humanoid robot that can safely and economically do useful work at scale\", with the aim of bringing tens of thousands of humanoid workers into the real world. Digit is designed to work 20 hours a day, and as a person approaches it is programmed to stop, set down its payload, sit on the floor and cut power to its motors. Hurst: \"In some ways, Digit 5 feels more like a forklift than the graceful humanoid I set out to build.\" (IEEE Spectrum)",
@@ -693,22 +710,6 @@
             "arcyber",
             "ai_agents",
             "cyber"
-          ],
-          "subcatId": "autonomous_weapons",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261012_defensescoop_army_ai_biological_threats_biodefense_strategy",
-          "html": "<strong>Army turning to AI in its fight against biological threats</strong> (DefenseScoop, Brandi Vincent) Per DefenseScoop, the Army is moving to combine environmental, clinical, logistics, chemical, biological and intelligence data with artificial intelligence to identify emerging disease outbreaks, under its 2026 Army Biodefense Strategy. &quot;We are looking very heavily toward how we leverage AI to help us integrate and sort through that data,&quot; Dr. Alison Tamasi told DefenseScoop. The strategy&#x27;s foreword, by former Army Secretary Dan Driscoll, warns: &quot;advanced biotechnology and artificial intelligence are dramatically lowering the barrier to engineering biological weapons.&quot; (DefenseScoop)",
-          "plain": "Army turning to AI in its fight against biological threats (DefenseScoop, Brandi Vincent) Per DefenseScoop, the Army is moving to combine environmental, clinical, logistics, chemical, biological and intelligence data with artificial intelligence to identify emerging disease outbreaks, under its 2026 Army Biodefense Strategy. \"We are looking very heavily toward how we leverage AI to help us integrate and sort through that data,\" Dr. Alison Tamasi told DefenseScoop. The strategy's foreword, by former Army Secretary Dan Driscoll, warns: \"advanced biotechnology and artificial intelligence are dramatically lowering the barrier to engineering biological weapons.\" (DefenseScoop)",
-          "source": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/10/12/army-turning-to-ai-in-its-fight-against-biological-threats/",
-          "date": "2026-10-12",
-          "tags": [
-            "us",
-            "army",
-            "biodefense",
-            "bioweapons"
           ],
           "subcatId": "autonomous_weapons",
           "fighterId": "t800"
@@ -1801,6 +1802,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-22_scan_0213_dublin",
+      "at": "2026-10-22T01:13:24.566Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:13 London, Thu 22 Oct (site-only scan; covers 00:04 to now). Autonomous undersea drones (promoted to T-800): TWZ, 'Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time', article text identical across saves at 00:02 and 02:11 and settled since 21:10; manufacturer footage shows Ghost Shark raising a 12-tube launcher and firing an aerial drone, with two such launchers implying about two dozen drones per sortie, plus two masts not seen before. Dedupe against the 19 Oct CNA Ghost Shark item: that covered the announced payload concepts; this adds the first footage of a drone launch, the per-sortie drone count and the masts. A demonstration of an announced capability, not a new autonomy step, so the T-800 score holds. Board: the 12 Oct item on the Army's AI biodefense strategy rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 99 documents, with one presidential document, an executive order on women's health (EO 14437), and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (a T-800 drone story, no Skynet bearing).",
+      "patchId": "patch_2026-10-22_scan_0213_dublin"
+    },
+    {
       "id": "patch_2026-10-22_scan_0004_dublin",
       "at": "2026-10-21T23:04:37.818Z",
       "by": "judgment-day-watch",
@@ -2591,14 +2600,6 @@
       "type": "patch",
       "summary": "Scan ~04:12 London, Wed 14 Oct (site-only; covers 02:10 to now, about 2h). US (promoted to T-800): Breaking Defense, 'Army to take a (cautious) step toward employing AI agents to defend networks: Official', now fetched in full; it adds the Army's planned Friday Project Griffin awards for autonomous network response, which go beyond the ARCYBER sandbox headline. Korea (summary only; under 3h old; AI translation): Yonhap, '콘솔게임 보안까지 뚫은 AI, 해적판 등장에 업계 '발칵'' (roughly: AI breaks through console-game security, industry alarmed by pirated copies), which reports that agentic AI models are making console emulation and porting much easier. Checks: the live titles of the Anthropic, WIRED, Independent, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 02:10. Asia and Australia (morning), US overnight, early Europe: no other new AI-risk story read in full. White House: the whitehouse.gov news page's one new item is a presidential message on the Navy's birthday, not about AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. All hold: T-800 33, T-1000 5, Skynet 53 (planned contract awards, not a deployment, capability change or new incident).",
       "patchId": "patch_2026-10-14_scan_0412_dublin"
-    },
-    {
-      "id": "patch_2026-10-14_scan_0210_dublin",
-      "at": "2026-10-14T01:10:50.455Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~02:10 London, Wed 14 Oct (site-only; covers 00:05 to now, about 2h). Research (promoted to Skynet): Anthropic's own report, 'AI models may be capable of self-replicating without access to a datacenter', a Frontier Red Team post saying small AI models may be months away from being able to self-replicate on IoT devices; the claim is hedged and limited to small models. Checks: the live titles of the WIRED, Independent, Hinton, ARCYBER, Army biothreats and Pangyo headlines are unchanged and match the board; no new title drift since 00:05. Asia and Australia (Wednesday morning), US late evening: no new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists no AI documents, and the public inspection list's one presidential document is not about AI. All hold: T-800 33, T-1000 5, Skynet 53 (a hedged research warning, not a policy, capability change or new incident).",
-      "patchId": "patch_2026-10-14_scan_0210_dublin"
     }
   ],
   "pendingPosts": [
