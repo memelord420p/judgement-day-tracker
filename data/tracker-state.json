@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-22T13:07:38.283Z",
+    "lastUpdated": "2026-10-22T15:04:40.626Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-22T14:07:00+01:00",
-    "lastScanSummary": "Scan ~14:07 London, Thu 22 Oct (site-only scan; covers 12:13 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 80 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-22T16:04:00+01:00",
+    "lastScanSummary": "Scan ~16:04 London, Thu 22 Oct (site-only scan; covers 14:07 to now). Robot security (promoted to T-800): The Verge, 'Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots', article text identical across saves at 14:06 and 16:03 and settled since 15:00 with no revision; the maker of an AI robot charm says it is fixing flaws that exposed owners' conversations and let the robots' responses be changed remotely, while The Verge reports owners' photos and audio were still exposed. A real consumer-robot security failure affecting owners' data, but a small device with no physical harm reported, so the T-800 score holds. Board: the 13 Oct item on the Army's cautious step toward AI agents on its networks rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 80 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261022_verge_eiliko_ai_robot_toy_security_firm",
+          "html": "<strong>Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots</strong> Per The Verge, Energize Lab, maker of the Eiliko AI robot charm, says it will hire an independent security firm after The Verge and a security researcher found owners&#x27; conversation transcripts could be read and the robots&#x27; responses modified remotely. The company says it has &quot;closed all external access to our backend systems&quot; and will delete stored conversation records and profiles, but The Verge reports that as of the company&#x27;s email it was &quot;still storing audio recordings and photos of its customers at unsecured public web addresses&quot;, and the researcher says he still has access to the robots. (The Verge)",
+          "plain": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots Per The Verge, Energize Lab, maker of the Eiliko AI robot charm, says it will hire an independent security firm after The Verge and a security researcher found owners' conversation transcripts could be read and the robots' responses modified remotely. The company says it has \"closed all external access to our backend systems\" and will delete stored conversation records and profiles, but The Verge reports that as of the company's email it was \"still storing audio recordings and photos of its customers at unsecured public web addresses\", and the researcher says he still has access to the robots. (The Verge)",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+          "date": "2026-10-22",
+          "tags": [
+            "consumer_robots",
+            "ai_toys",
+            "security",
+            "privacy",
+            "energize_lab"
+          ],
+          "subcatId": "robot_security",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261021_twz_army_watercraft_autonomy_retrofit_pacific",
           "html": "<strong>How The U.S. Army’s ‘Navy’ Aims To Go More Autonomous With Its Vessels In The Pacific</strong> Per TWZ, the U.S. Army wants to add autonomous capabilities to its fleets of landing ships and other watercraft in the Pacific, and is aiming to acquire up to 100 purpose-built uncrewed surface vessels. Maj. Gen. Frederick Crist, head of 8th Theater Sustainment Command, said at AUSA that a retrofit experiment in August added an autonomous navigation kit to a commercial vessel: &quot;You could increase the fleet of autonomous vessels by tapping into the existing manned fleet&quot;. He described retrofitting kits for navigation, then propulsion and engine room activities, to &quot;eventually get to a fully autonomous system&quot;. (TWZ)",
           "plain": "How The U.S. Army’s ‘Navy’ Aims To Go More Autonomous With Its Vessels In The Pacific Per TWZ, the U.S. Army wants to add autonomous capabilities to its fleets of landing ships and other watercraft in the Pacific, and is aiming to acquire up to 100 purpose-built uncrewed surface vessels. Maj. Gen. Frederick Crist, head of 8th Theater Sustainment Command, said at AUSA that a retrofit experiment in August added an autonomous navigation kit to a commercial vessel: \"You could increase the fleet of autonomous vessels by tapping into the existing manned fleet\". He described retrofitting kits for navigation, then propulsion and engine room activities, to \"eventually get to a fully autonomous system\". (TWZ)",
@@ -695,23 +712,6 @@
             "human_on_the_loop"
           ],
           "subcatId": "autonomous_weapons",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261013_breakingdefense_army_cautious_step_ai_agents_networks",
-          "html": "<strong>Army to take a (cautious) step toward employing AI agents to defend networks: Official</strong> (Breaking Defense, Mark Pomerleau) Beyond the ARCYBER sandbox work: per Breaking Defense, the Army plans Friday awards to two companies under Project Griffin, its network AI effort, which drew 108 submissions narrowed to 10 finalists. Principal cyber advisor Brandon Pugh called the award &quot;our take action element&quot;, aimed at &quot;having an autonomous response within prescribed parameters of a human operator, or even in conjunction with that&quot;. Officials said agents won’t begin work on government networks immediately. ARCYBER&#x27;s Lt. Gen. Christopher Eubank: &quot;Are we as humans ready to let the agent actually take action?&quot; (Breaking Defense)",
-          "plain": "Army to take a (cautious) step toward employing AI agents to defend networks: Official (Breaking Defense, Mark Pomerleau) Beyond the ARCYBER sandbox work: per Breaking Defense, the Army plans Friday awards to two companies under Project Griffin, its network AI effort, which drew 108 submissions narrowed to 10 finalists. Principal cyber advisor Brandon Pugh called the award \"our take action element\", aimed at \"having an autonomous response within prescribed parameters of a human operator, or even in conjunction with that\". Officials said agents won’t begin work on government networks immediately. ARCYBER's Lt. Gen. Christopher Eubank: \"Are we as humans ready to let the agent actually take action?\" (Breaking Defense)",
-          "source": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/10/army-to-take-a-cautious-step-toward-employing-ai-agents-to-defend-networks-official/",
-          "date": "2026-10-12",
-          "tags": [
-            "us_army",
-            "ai_agents",
-            "cyber_defense",
-            "project_griffin",
-            "autonomy"
-          ],
-          "subcatId": "autonomous_cyber",
           "fighterId": "t800"
         }
       ],
@@ -1803,6 +1803,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-22_scan_1604_dublin",
+      "at": "2026-10-22T15:04:40.626Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~16:04 London, Thu 22 Oct (site-only scan; covers 14:07 to now). Robot security (promoted to T-800): The Verge, 'Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots', article text identical across saves at 14:06 and 16:03 and settled since 15:00 with no revision; the maker of an AI robot charm says it is fixing flaws that exposed owners' conversations and let the robots' responses be changed remotely, while The Verge reports owners' photos and audio were still exposed. A real consumer-robot security failure affecting owners' data, but a small device with no physical harm reported, so the T-800 score holds. Board: the 13 Oct item on the Army's cautious step toward AI agents on its networks rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 80 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (robot toy data exposure, no physical harm reported).",
+      "patchId": "patch_2026-10-22_scan_1604_dublin"
+    },
+    {
       "id": "patch_2026-10-22_scan_1407_dublin",
       "at": "2026-10-22T13:07:38.283Z",
       "by": "judgment-day-watch",
@@ -2593,14 +2601,6 @@
       "type": "patch",
       "summary": "Scan ~18:06 London, Wed 14 Oct (site-only; covers 16:06 to now, about 2h). No headline promoted this scan. UK and US (held; under 3h since their latest updates, titles unchanged): the Guardian, 'Bank of England and IMF bosses warn of cyber threat to trust in financial system' (updated 15:40 BST); 'Nvidia, worth $5.5tn, donates $250m to UK for AI safety research' (15:24 BST); and 'Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism' (updated again 16:38 BST). UK (summary only; under 3h old): the Guardian, 'Could AI ‘change the stakes’ in the development of bioweapons?', an explainer following MI5 chief Ken McCallum's warning, on how AI chatbots could help unskilled actors skill up and a more distant risk of AI-designed pathogens and toxins. US (summary only; under 3h old): Breaking Defense, 'Hegseth uses AUSA spotlight to highlight autonomy, ‘generational’ defense investment', on plans to stand up the Autonomous Warfare Command. Europe (read in full; a procurement dispute, not an AI-risk story): POLITICO, 'Palantir settles dispute with Sadiq Khan'; the Met contract procurement is to be re-run. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: the live titles of the POLITICO, Defense One, Breaking Defense, ARCYBER and Anthropic headlines are unchanged and match the board. Asia (excluding Yonhap): no new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (no new incident, deployment or capability change read in full).",
       "patchId": "patch_2026-10-14_scan_1806_dublin"
-    },
-    {
-      "id": "patch_2026-10-14_scan_1606_dublin",
-      "at": "2026-10-14T15:06:46.233Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~16:06 London, Wed 14 Oct (site-only; covers 14:08 to now, about 2h). No headline promoted this scan. UK and US (held; all three Guardian pieces were updated again between 15:21 and 15:40 BST, so their settle clocks restart; titles unchanged): 'Bank of England and IMF bosses warn of cyber threat to trust in financial system'; 'Nvidia, worth $5.5tn, donates $250m to UK for AI safety research'; and 'Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism', which says it reviewed more than 80 law enforcement documents and memos. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: the live titles of the POLITICO, Defense One, Breaking Defense, ARCYBER and Anthropic headlines are unchanged and match the board. Asia, Europe and US: no other new AI-risk story read in full. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check (run before this summary): the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (no new incident, deployment or capability change read in full).",
-      "patchId": "patch_2026-10-14_scan_1606_dublin"
     }
   ],
   "pendingPosts": [
