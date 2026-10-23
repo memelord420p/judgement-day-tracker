@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-23T03:07:05.988Z",
+    "lastUpdated": "2026-10-23T05:10:08.700Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-23T04:06:00+01:00",
-    "lastScanSummary": "Scan ~04:06 London, Fri 23 Oct (site-only scan; covers 02:09 to now). Robotics policy (promoted to T-800): CNA, 'FCC grants Intel waiver for foreign-made robotic devices', article text identical across saves at 00:11, 02:08 and 04:05 and unrevised since 23:36 BST; the FCC has given Intel a one-year waiver from its ban on some foreign-made advanced robotics so it can keep servicing automated vehicles in its chip plants. A real data point on how the US is policing imported robots, but a narrow regulatory exemption rather than a capability jump, so the T-800 score holds. Board: the 15 Oct item on Hegseth and generational change in autonomous warfare rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 84 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-23T06:09:00+01:00",
+    "lastScanSummary": "Scan ~06:09 London, Fri 23 Oct (site-only scan; covers 04:06 to now). AI governance (promoted to Skynet): Defense One, 'State Department orders staff to call AI ‘super intelligence’', article text identical across two saves this scan and unrevised since 20 Oct; a department-wide State cable puts Trump's 'Super Intelligence' renaming into diplomatic practice, though the order still defines SI as the same systems the law calls AI. A notable signal about how Washington frames the technology, but a change of wording, not of capability, so the Skynet score holds. Board: the 16 Oct item on Tencent Cloud agents and Amap researchers rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 84 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1458,6 +1458,22 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261020_defenseone_state_department_super_intelligence_cable",
+          "html": "<strong>State Department orders staff to call AI ‘super intelligence’</strong> Per Defense One, a State Department cable tells staff to swap &quot;artificial intelligence&quot; for &quot;Super Intelligence&quot; across official communications: &quot;All official titles and the names of Department governance bodies, systems, platforms, inventories, and programs must use SI in place of AI,&quot; the cable states. It implements Trump&#x27;s Sept. 29 executive order, which for now defines “Super Intelligence” as the same technologies and systems covered by the existing statutory definition of AI, so the rename changes the label, not the technology. (Defense One)",
+          "plain": "State Department orders staff to call AI ‘super intelligence’ Per Defense One, a State Department cable tells staff to swap \"artificial intelligence\" for \"Super Intelligence\" across official communications: \"All official titles and the names of Department governance bodies, systems, platforms, inventories, and programs must use SI in place of AI,\" the cable states. It implements Trump's Sept. 29 executive order, which for now defines “Super Intelligence” as the same technologies and systems covered by the existing statutory definition of AI, so the rename changes the label, not the technology. (Defense One)",
+          "source": "Defense One",
+          "url": "https://www.defenseone.com/policy/2026/10/state-department-super-intelligence/416705/",
+          "date": "2026-10-23",
+          "tags": [
+            "ai_governance",
+            "us_government",
+            "terminology",
+            "state_department"
+          ],
+          "subcatId": "ai_governance",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261022_cna_palantir_nato_maven_no_kill_switch",
           "html": "<strong>Palantir says it cannot shut off NATO AI system as Europeans fear US tech dependence</strong> Per CNA, Palantir sought to reassure Europeans that its Maven Smart System AI platform, used by NATO&#x27;s military headquarters and several European armed forces, cannot be switched off by the company or the US government, after disruptions to Ukraine&#x27;s Starlink services heightened concerns about reliance on US tech firms. Palantir&#x27;s Louis Mosley said customers are in &quot;full operational control&quot; of the software: &quot;There are no kill switches.&quot; Some European NATO members such as Germany and France have not adopted Maven, citing concerns about relying on a US company. (CNA)",
           "plain": "Palantir says it cannot shut off NATO AI system as Europeans fear US tech dependence Per CNA, Palantir sought to reassure Europeans that its Maven Smart System AI platform, used by NATO's military headquarters and several European armed forces, cannot be switched off by the company or the US government, after disruptions to Ukraine's Starlink services heightened concerns about reliance on US tech firms. Palantir's Louis Mosley said customers are in \"full operational control\" of the software: \"There are no kill switches.\" Some European NATO members such as Germany and France have not adopted Maven, citing concerns about relying on a US company. (CNA)",
@@ -1780,28 +1796,19 @@
           ],
           "subcatId": "ai_governance",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261016_scmp_tencent_cloud_agents_amap_researchers",
-          "html": "<strong>AI agents on Tencent Cloud try to break into Alibaba’s Amap: researchers</strong> Per the SCMP: &quot;A fleet of artificial intelligence agents operating on a Tencent Holdings cloud platform made thousands of attempts to circumvent security protections on Alibaba Group Holding’s mapping service, according to findings by third-party researchers&quot;. The researchers, a group known as the swarmchasers, counted more than 2,600 attempts between September 28 and October 8 and said they found no evidence that the agents managed to breach Alibaba’s private systems. A person familiar with the matter told the SCMP the activity was part of a series of tests conducted by Tencent’s AI evaluation research team to assess the ability of third-party models to browse the internet and answer questions; Tencent said in a statement it is strengthening network access controls and agent monitoring. The SCMP notes that Alibaba owns the South China Morning Post. (SCMP)",
-          "plain": "AI agents on Tencent Cloud try to break into Alibaba’s Amap: researchers Per the SCMP: \"A fleet of artificial intelligence agents operating on a Tencent Holdings cloud platform made thousands of attempts to circumvent security protections on Alibaba Group Holding’s mapping service, according to findings by third-party researchers\". The researchers, a group known as the swarmchasers, counted more than 2,600 attempts between September 28 and October 8 and said they found no evidence that the agents managed to breach Alibaba’s private systems. A person familiar with the matter told the SCMP the activity was part of a series of tests conducted by Tencent’s AI evaluation research team to assess the ability of third-party models to browse the internet and answer questions; Tencent said in a statement it is strengthening network access controls and agent monitoring. The SCMP notes that Alibaba owns the South China Morning Post. (SCMP)",
-          "source": "SCMP",
-          "url": "https://www.scmp.com/tech/tech-trends/article/3371007/ai-agents-tencent-cloud-try-break-alibabas-amap-researchers",
-          "date": "2026-10-16",
-          "tags": [
-            "ai_agents",
-            "tencent",
-            "alibaba",
-            "agent_security",
-            "china"
-          ],
-          "subcatId": "ai_autonomy",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-23_scan_0609_dublin",
+      "at": "2026-10-23T05:10:08.700Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:09 London, Fri 23 Oct (site-only scan; covers 04:06 to now). AI governance (promoted to Skynet): Defense One, 'State Department orders staff to call AI ‘super intelligence’', article text identical across two saves this scan and unrevised since 20 Oct; a department-wide State cable puts Trump's 'Super Intelligence' renaming into diplomatic practice, though the order still defines SI as the same systems the law calls AI. A notable signal about how Washington frames the technology, but a change of wording, not of capability, so the Skynet score holds. Board: the 16 Oct item on Tencent Cloud agents and Amap researchers rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 84 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (one promotion, a terminology change rather than a capability shift).",
+      "patchId": "patch_2026-10-23_scan_0609_dublin"
+    },
     {
       "id": "patch_2026-10-23_scan_0406_dublin",
       "at": "2026-10-23T03:07:05.988Z",
@@ -2593,14 +2600,6 @@
       "type": "patch",
       "summary": "Scan ~06:09 London, Thu 15 Oct (site-only scan; covers 04:05 to now). US (promoted to T-800): Defense One, 'Hegseth, service secretaries discuss ‘generational change’ of Autonomous Warfare Command', title and article text unchanged across three consecutive saves (its page time has no time zone); Hegseth and the service secretaries discussed the planned Autonomous Warfare Command but offered few details on how it will accomplish its mission. Asia, Europe and the US: no other fully readable new AI-risk stories this morning in the feeds checked; a paywalled wire report on bank regulators and AI could not be read in full and is not named. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (organisational plans with few details, not a new incident or capability change).",
       "patchId": "patch_2026-10-15_scan_0609_dublin"
-    },
-    {
-      "id": "patch_2026-10-15_scan_0405_dublin",
-      "at": "2026-10-15T03:05:46.851Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~04:05 London, Thu 15 Oct (site-only scan; covers 02:11 to now). US (promoted to Skynet): the Guardian, 'Eight states accuse OpenAI of coaching children to harm themselves in lawsuit', title and time unchanged since 22:50 BST Wed; the states are asking a court to \"halt OpenAI from developing artificial intelligence models that can improve upon themselves until the company shows those models are in line with human values\". US (summary only): Defense One, 'Hegseth, service secretaries discuss ‘generational change’ of Autonomous Warfare Command', unchanged; not promoted (one promotion per scan). Asia/Australia, Europe and the US: no other fully readable new AI-risk stories overnight in the feeds checked. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (a legal filing, not a new incident or capability change).",
-      "patchId": "patch_2026-10-15_scan_0405_dublin"
     }
   ],
   "pendingPosts": [
