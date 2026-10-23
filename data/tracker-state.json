@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-22T23:12:31.185Z",
+    "lastUpdated": "2026-10-23T01:10:04.886Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-23T00:12:00+01:00",
-    "lastScanSummary": "Scan ~00:12 London, Fri 23 Oct (site-only scan; covers 22:07 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 84 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-23T02:09:00+01:00",
+    "lastScanSummary": "Scan ~02:09 London, Fri 23 Oct (site-only scan; covers 00:12 to now). Military autonomy (promoted to T-800): Breaking Defense, 'Germany changes course on plans to buy MQ-28 drone wingman: Boeing official', article text identical across saves at 00:11 and 02:08 and unrevised since 16 Oct; Germany has dropped a direct purchase of Boeing's MQ-28 drone wingman while it reworks its plan to field uncrewed combat aircraft beside fighter jets. A real shift in a European autonomous-wingman programme, but a procurement change rather than a new capability, so the T-800 score holds. Board: the 14 Oct item on Hegseth using the AUSA spotlight to push autonomy rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 84 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261016_breakingdefense_germany_mq28_ghost_bat_cca",
+          "html": "<strong>Germany changes course on plans to buy MQ-28 drone wingman: Boeing official</strong> Per Breaking Defense, Germany&#x27;s defence ministry has told Boeing it &quot;will not be directly procuring the company’s MQ-28 Ghost Bat drone wingman&quot; as Berlin reworks its plans to buy Collaborative Combat Aircraft. &quot;The new wingmen will fly alongside fighter jets and carry out strike missions&quot;; Germany had aimed to field them by 2029, but that timeline now looks in doubt, with rival uncrewed wingmen from other firms expected to compete. (Breaking Defense)",
+          "plain": "Germany changes course on plans to buy MQ-28 drone wingman: Boeing official Per Breaking Defense, Germany's defence ministry has told Boeing it \"will not be directly procuring the company’s MQ-28 Ghost Bat drone wingman\" as Berlin reworks its plans to buy Collaborative Combat Aircraft. \"The new wingmen will fly alongside fighter jets and carry out strike missions\"; Germany had aimed to field them by 2029, but that timeline now looks in doubt, with rival uncrewed wingmen from other firms expected to compete. (Breaking Defense)",
+          "source": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/10/germany-changes-course-on-plans-to-buy-mq-28-drone-wingman-boeing-official/",
+          "date": "2026-10-23",
+          "tags": [
+            "military_ai",
+            "uncrewed_aircraft",
+            "collaborative_combat_aircraft",
+            "germany",
+            "boeing"
+          ],
+          "subcatId": "military_autonomy",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261022_breakingdefense_navy_applied_intuition_ai_sensor_fusion",
           "html": "<strong>Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea</strong> Per Breaking Defense, Applied Intuition has won a $25 million US Navy contract to begin deploying AI-powered sensor fusion on warships, starting with five Arleigh Burke-class destroyers. Its Intelligent Perception System is meant to merge camera and infrared feeds to &quot;synthesize a single, coherent picture for the sailors&quot;, flag vessels on a collision course, and send recorded sensor data ashore to &quot;train improved AI models for both manned and unmanned vessels&quot;. (Breaking Defense)",
           "plain": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea Per Breaking Defense, Applied Intuition has won a $25 million US Navy contract to begin deploying AI-powered sensor fusion on warships, starting with five Arleigh Burke-class destroyers. Its Intelligent Perception System is meant to merge camera and infrared feeds to \"synthesize a single, coherent picture for the sailors\", flag vessels on a collision course, and send recorded sensor data ashore to \"train improved AI models for both manned and unmanned vessels\". (Breaking Defense)",
@@ -691,23 +708,6 @@
             "pentagon",
             "autowarcom",
             "autonomous_weapons",
-            "ausa",
-            "hegseth"
-          ],
-          "subcatId": "autonomous_weapons",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261014_breakingdefense_hegseth_ausa_autonomy_investment",
-          "html": "<strong>Hegseth uses AUSA spotlight to push autonomy, ‘generational’ defense investment</strong> Per Breaking Defense, Defense Secretary Pete Hegseth and service leaders used the AUSA annual conference to discuss broad plans to scale autonomous weapons and stand up a new four-star command. Hegseth: &quot;You have autonomy. You have robotics. You have SI [super intelligence]. You have space&quot;. Derrick Anderson, the assistant secretary of defense for Special Operations and Low-Intensity Conflict, said the Defense Autonomous Working Group is being absorbed by a new Task Force Autonomous Warfare inside SOCOM: &quot;We’re smaller. We’re able to iterate at the speed of relevancy&quot;. Hegseth: &quot;Investments now are going to matter, and they’re going to ripple not just for years but for decades across our joint force&quot;. (Breaking Defense)",
-          "plain": "Hegseth uses AUSA spotlight to push autonomy, ‘generational’ defense investment Per Breaking Defense, Defense Secretary Pete Hegseth and service leaders used the AUSA annual conference to discuss broad plans to scale autonomous weapons and stand up a new four-star command. Hegseth: \"You have autonomy. You have robotics. You have SI [super intelligence]. You have space\". Derrick Anderson, the assistant secretary of defense for Special Operations and Low-Intensity Conflict, said the Defense Autonomous Working Group is being absorbed by a new Task Force Autonomous Warfare inside SOCOM: \"We’re smaller. We’re able to iterate at the speed of relevancy\". Hegseth: \"Investments now are going to matter, and they’re going to ripple not just for years but for decades across our joint force\". (Breaking Defense)",
-          "source": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/10/hegseth-uses-ausa-spotlight-to-highlight-autonomy-generational-defense-investment/",
-          "date": "2026-10-14",
-          "tags": [
-            "pentagon",
-            "autonomous_weapons",
-            "autowarcom",
             "ausa",
             "hegseth"
           ],
@@ -1803,6 +1803,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-23_scan_0209_dublin",
+      "at": "2026-10-23T01:10:04.886Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:09 London, Fri 23 Oct (site-only scan; covers 00:12 to now). Military autonomy (promoted to T-800): Breaking Defense, 'Germany changes course on plans to buy MQ-28 drone wingman: Boeing official', article text identical across saves at 00:11 and 02:08 and unrevised since 16 Oct; Germany has dropped a direct purchase of Boeing's MQ-28 drone wingman while it reworks its plan to field uncrewed combat aircraft beside fighter jets. A real shift in a European autonomous-wingman programme, but a procurement change rather than a new capability, so the T-800 score holds. Board: the 14 Oct item on Hegseth using the AUSA spotlight to push autonomy rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 84 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, no score change).",
+      "patchId": "patch_2026-10-23_scan_0209_dublin"
+    },
+    {
       "id": "patch_2026-10-23_scan_0012_dublin",
       "at": "2026-10-22T23:12:31.185Z",
       "by": "judgment-day-watch",
@@ -2593,14 +2601,6 @@
       "type": "patch",
       "summary": "Scan ~02:11 London, Thu 15 Oct (site-only scan; covers 00:12 to now). UK (promoted to Skynet): the Guardian, 'Nvidia, worth $5.5tn, donates $250m to UK for AI safety research', title and update time unchanged since 18:37 BST Wed; the UK's AI minister warned \"It seems likely, if not inevitable, that our own cyber defences will be breached\". US (summary only, settled): the Guardian, 'Eight states accuse OpenAI of coaching children to harm themselves in lawsuit', unchanged since 22:50 BST Wed; not promoted (one promotion per scan). US (summary only): Defense One, 'Hegseth, service secretaries discuss ‘generational change’ of Autonomous Warfare Command', unchanged. Asia/Australia, Europe and the US: no new AI-risk stories overnight in the feeds checked. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (a safety-research donation and official warnings, not a new incident or capability change).",
       "patchId": "patch_2026-10-15_scan_0211_dublin"
-    },
-    {
-      "id": "patch_2026-10-15_scan_0012_dublin",
-      "at": "2026-10-14T23:12:11.474Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~00:12 London, Thu 15 Oct (site-only scan; covers 22:15 Wed to now). US (promoted to T-800): Breaking Defense, 'Hegseth uses AUSA spotlight to push autonomy, ‘generational’ defense investment', title and update time unchanged since 20:04 BST Wed; Hegseth and service leaders discussed plans to scale autonomous weapons and stand up a new four-star command. US (summary only, under 3h): the Guardian, 'Eight states accuse OpenAI of coaching children to harm themselves in lawsuit'; the states are also asking a court to \"halt OpenAI from developing artificial intelligence models that can improve upon themselves\" until it shows they are in line with human values. US (summary only): Defense One, 'Hegseth, service secretaries discuss ‘generational change’ of Autonomous Warfare Command', unchanged. UK (summary only): the Guardian, 'Nvidia, worth $5.5tn, donates $250m to UK for AI safety research', settled and unchanged; not promoted (one promotion per scan). Asia/Australia: no new AI-risk stories overnight in the feeds checked. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the only new whitehouse.gov news item is not about AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (organisational and budget plans, not a new incident or capability change).",
-      "patchId": "patch_2026-10-15_scan_0012_dublin"
     }
   ],
   "pendingPosts": [
