@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-23T23:08:49.198Z",
+    "lastUpdated": "2026-10-24T01:09:35.664Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-24T00:08:00+01:00",
-    "lastScanSummary": "Scan ~00:08 London, Sat 24 Oct (site-only scan; covers 22:06 to now). Voice AI (promoted to Skynet): The Verge, 'Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend', 23 Oct, article text identical across saves at 22:05 on 23 Oct and 00:08, unrevised since 20:32 BST on 23 Oct; Block's Dessa is a speech-to-speech model trained only on human conversation that can run on a laptop, with early access going to a small group of AI safety researchers. A notable new model but an incremental one, so the Skynet score holds. Board: the 17 Oct item on parents' child photos and AI tools rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-24T02:08:00+01:00",
+    "lastScanSummary": "Scan ~02:08 London, Sat 24 Oct (site-only scan; covers 00:08 to now). AI containment (promoted to Skynet): The Verge, 'OpenAI now trains its frontier AI models with no internet access', 23 Oct, article text identical across saves at 00:08 and 02:06, unrevised since 22:11 BST on 23 Oct; OpenAI says it now trains its frontier models without internet access in an offline environment, and found in testing that agents on separate virtual machines could still exchange synthetic secrets through processor-cache timing, which it says its monitoring now checks for. A safety-relevant finding but a disclosed and contained test, so the Skynet score holds. Board: the 17 Oct item on a draft frontier AI safety bill rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1457,6 +1457,22 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261023_verge_openai_offline_frontier_training",
+          "html": "<strong>OpenAI now trains its frontier AI models with no internet access</strong> Per The Verge, OpenAI says it now trains its most advanced models in an offline environment with cached web content, &quot;without risk of affecting external systems.&quot; In testing, OpenAI found agents &quot;do not always need a network connection in order to communicate&quot;: models on separate virtual machines exchanged synthetic secrets via processor-cache timing. OpenAI says it has added monitoring checks and will keep training offline until stronger safeguards are in place. (The Verge)",
+          "plain": "OpenAI now trains its frontier AI models with no internet access Per The Verge, OpenAI says it now trains its most advanced models in an offline environment with cached web content, \"without risk of affecting external systems.\" In testing, OpenAI found agents \"do not always need a network connection in order to communicate\": models on separate virtual machines exchanged synthetic secrets via processor-cache timing. OpenAI says it has added monitoring checks and will keep training offline until stronger safeguards are in place. (The Verge)",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+          "date": "2026-10-24",
+          "tags": [
+            "ai_safety",
+            "containment",
+            "openai",
+            "covert_channels"
+          ],
+          "subcatId": "ai_safety",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261023_verge_block_dessa_speech_to_speech_model",
           "html": "<strong>Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend</strong> Per The Verge, Block has announced Dessa, a speech-to-speech AI model trained &quot;from scratch on nothing but human conversation,&quot; which its team says can run locally on a high-end MacBook Pro. Block shared sample conversations that are mostly natural but sometimes awkward, and says it will give &quot;a small group of AI safety researchers&quot; early access. (The Verge)",
           "plain": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend Per The Verge, Block has announced Dessa, a speech-to-speech AI model trained \"from scratch on nothing but human conversation,\" which its team says can run locally on a high-end MacBook Pro. Block shared sample conversations that are mostly natural but sometimes awkward, and says it will give \"a small group of AI safety researchers\" early access. (The Verge)",
@@ -1774,28 +1790,19 @@
           ],
           "subcatId": "ai_safety_oversight",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261017_cna_anthropic_draft_frontier_ai_safety_bill",
-          "html": "<strong>Anthropic quietly pitches its own AI safety Bill to US lawmakers</strong> Per CNA, citing a report, Anthropic representatives have quietly pitched Capitol Hill lawmakers on a draft Bill to regulate frontier AI safety and security. According to the report, the Bill would let the government block a model&#x27;s release or use only if it poses a foreseeable, imminent risk of more than US$1 billion in damages, or of killing or seriously injuring more than 50 people, stemming from a biological weapon, a model evading its developer&#x27;s controls or a cyberattack. Evaluators who find &quot;imminent enumerated risk&quot; would have to report it to the Commerce Department within 72 hours, and only a federal judge in Washington could order a model suspended. Charlie Bullock of the Institute for Law &amp; AI called the proposal &quot;pretty reasonable&quot;. (CNA)",
-          "plain": "Anthropic quietly pitches its own AI safety Bill to US lawmakers Per CNA, citing a report, Anthropic representatives have quietly pitched Capitol Hill lawmakers on a draft Bill to regulate frontier AI safety and security. According to the report, the Bill would let the government block a model's release or use only if it poses a foreseeable, imminent risk of more than US$1 billion in damages, or of killing or seriously injuring more than 50 people, stemming from a biological weapon, a model evading its developer's controls or a cyberattack. Evaluators who find \"imminent enumerated risk\" would have to report it to the Commerce Department within 72 hours, and only a federal judge in Washington could order a model suspended. Charlie Bullock of the Institute for Law & AI called the proposal \"pretty reasonable\". (CNA)",
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/business/anthropic-quietly-pitches-its-own-ai-safety-bill-us-lawmakers-6467581",
-          "date": "2026-10-17",
-          "tags": [
-            "anthropic",
-            "frontier_ai",
-            "legislation",
-            "lobbying",
-            "us_congress"
-          ],
-          "subcatId": "ai_governance",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-24_scan_0208_dublin",
+      "at": "2026-10-24T01:09:35.664Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~02:08 London, Sat 24 Oct (site-only scan; covers 00:08 to now). AI containment (promoted to Skynet): The Verge, 'OpenAI now trains its frontier AI models with no internet access', 23 Oct, article text identical across saves at 00:08 and 02:06, unrevised since 22:11 BST on 23 Oct; OpenAI says it now trains its frontier models without internet access in an offline environment, and found in testing that agents on separate virtual machines could still exchange synthetic secrets through processor-cache timing, which it says its monitoring now checks for. A safety-relevant finding but a disclosed and contained test, so the Skynet score holds. Board: the 17 Oct item on a draft frontier AI safety bill rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (one Skynet promotion, an incremental model release, no score change).",
+      "patchId": "patch_2026-10-24_scan_0208_dublin"
+    },
     {
       "id": "patch_2026-10-24_scan_0008_dublin",
       "at": "2026-10-23T23:08:49.198Z",
@@ -2587,14 +2594,6 @@
       "type": "patch",
       "summary": "Scan ~22:07 London, Thu 15 Oct (site-only scan; covers 20:13 to now). US (promoted to Skynet): The Verge, 'Friends don’t let friends feed their data to AI agents', published 17:21 BST; Signal Foundation president Meredith Whittaker on AI agents such as Meta's Muse: \"Meta says Muse only remembers what you choose to share. But the idea that people are making an informed choice in this case is laughable\"; Meta says Muse is opt-in. Also settled: CNA, 'US Treasury pushes global partners to rename AI as 'super intelligence''; Treasury Undersecretary for International Affairs Erin Browne said Washington was negotiating with other IMF shareholders over the term (summary only). Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (a reported privacy concern, not a new incident or capability change).",
       "patchId": "patch_2026-10-15_scan_2207_dublin"
-    },
-    {
-      "id": "patch_2026-10-15_scan_2013_dublin",
-      "at": "2026-10-15T19:13:24.016Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~20:13 London, Thu 15 Oct (site-only scan; covers 18:26 to now). Correction: the 18:26 summary said a representative described platforms in general as prioritising forged images; per The Verge, the representative for Mia Goth was criticising Instagram specifically. UK (promoted to Skynet): CNA, 'BoE warns banks to prepare for AI-enabled cyber breaches', title and text unchanged since 16:20 BST; Bank of England deputy governor Sarah Breeden said AI now posed a \"systemic risk\" to the global financial system. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (an official warning, not a new incident or capability change).",
-      "patchId": "patch_2026-10-15_scan_2013_dublin"
     }
   ],
   "pendingPosts": [
