@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-24T11:10:43.378Z",
+    "lastUpdated": "2026-10-24T13:10:44.358Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-24T12:10:00+01:00",
-    "lastScanSummary": "Scan ~12:10 London, Sat 24 Oct (site-only scan; covers 10:10 to now). No promotion this scan: homepage sweeps stayed quiet; Verge Meta AI-analytics acquisition and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar; a Breaking Defense drones-and-fences item is from August and fails the age gate. Federal Register AI search still lists seventeen documents (including the Coast Guard Super Intelligence CRADA and DeepSeek removal notice). All headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists seventeen documents, up two from the prior scan, including two dated 26 Oct — a Coast Guard notice of intent to enter a Cooperative Research and Development Agreement on Super Intelligence situational-awareness tools for search-and-rescue sensor feeds, and a Treasury proposed rule on Outbound Investment Security Program Regulations — plus the earlier 23 Oct Civil Rights Commission, Treasury stablecoin and Agriculture SNAP-card entries; AI-policy items include the 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements', and the new Coast Guard Super Intelligence CRADA notice; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and now includes a Super Intelligence CRADA title. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-24T14:09:00+01:00",
+    "lastScanSummary": "Scan ~14:09 London, Sat 24 Oct (site-only scan; covers 12:10 to now). Post-AI encryption (promoted to Skynet): Defense One, 'Add ‘post-AI’ encryption to your to-do list', 21 Oct, article text settled over three hours with matching title across saves; OpenAI’s new math results skipped cryptography, but experts warn AI progress may still force a faster move to \"crypto agility\" and post-quantum protections. The piece is expert warning rather than a demonstrated break, so the Skynet score holds. Board: the 14 Oct Verge item on Character.AI, user data and state attorneys general rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: the BBC Kent AI data-centre planning approval remains below the board's bar; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1457,6 +1457,22 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261024_defenseone_post_ai_encryption_todo_list",
+          "html": "<strong>Add ‘post-AI’ encryption to your to-do list</strong> Per Defense One, OpenAI’s latest theoretical-math release solved hundreds of hard problems while leaving cryptography a &quot;conspicuous exception&quot;, and experts including Scott Aaronson and Bruce Schneier say planners should accelerate &quot;crypto agility&quot; and post-quantum defenses against a possible AI break of classical encryption. (Defense One)",
+          "plain": "Add ‘post-AI’ encryption to your to-do list Per Defense One, OpenAI’s latest theoretical-math release solved hundreds of hard problems while leaving cryptography a \"conspicuous exception\", and experts including Scott Aaronson and Bruce Schneier say planners should accelerate \"crypto agility\" and post-quantum defenses against a possible AI break of classical encryption. (Defense One)",
+          "source": "Defense One",
+          "url": "https://www.defenseone.com/technology/2026/10/add-post-ai-encryption-your-do-list/416722/",
+          "date": "2026-10-24",
+          "tags": [
+            "ai_security",
+            "cryptography",
+            "openai",
+            "post_quantum"
+          ],
+          "subcatId": "ai_security",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261024_scmp_china_ai_compute_double_us_chips",
           "html": "<strong>China’s AI compute surge heavily reliant on US chips, offshore cloud access: report</strong> Per the SCMP, a Washington Institute for Progress report says China’s AI compute &quot;will double next year&quot;, from about 4.6 million to 8.8 million H100-equivalents in 2027, though US-designed chips would still make up about 65 per cent of that capacity. Despite a US &quot;16-fold advantage in AI training compute over China&quot;, leading Chinese models lag by only 6.5 months, which IFP links in part to distillation; it urged tighter controls on overseas cloud access, smuggling and legal exports. (SCMP)",
           "plain": "China’s AI compute surge heavily reliant on US chips, offshore cloud access: report Per the SCMP, a Washington Institute for Progress report says China’s AI compute \"will double next year\", from about 4.6 million to 8.8 million H100-equivalents in 2027, though US-designed chips would still make up about 65 per cent of that capacity. Despite a US \"16-fold advantage in AI training compute over China\", leading Chinese models lag by only 6.5 months, which IFP links in part to distillation; it urged tighter controls on overseas cloud access, smuggling and legal exports. (SCMP)",
@@ -1772,28 +1788,19 @@
           ],
           "subcatId": "ai_autonomy",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261014_verge_characterai_bankruptcy_user_data_state_ags",
-          "html": "<strong>Now that Character.AI is going bankrupt, what happens to all of its users’ data?</strong> Per the Verge, New York Attorney General Letitia James is among 40 bipartisan state attorneys general who filed a notice of interest in Character.AI&#x27;s Chapter 11 bankruptcy case &quot;to put all parties on notice of the regulatory issues that will need to be addressed in any sale or transfer of the Debtor’s business or assets.&quot; The AGs warn of the &quot;highly sensitive nature of the conversations many users have with Character.AI chatbot characters&quot; and are urging the judge to require any buyer of its assets to adopt safeguards, including age-assurance systems and letting users delete their data. James said &quot;This company collected some of the most private thoughts children have ever shared, and now those conversations could be sold off to the highest bidder&quot;. Character.AI CEO Colin Adams said the filing &quot;is not an accurate portrayal of the safety of our platform.&quot; (The Verge)",
-          "plain": "Now that Character.AI is going bankrupt, what happens to all of its users’ data? Per the Verge, New York Attorney General Letitia James is among 40 bipartisan state attorneys general who filed a notice of interest in Character.AI's Chapter 11 bankruptcy case \"to put all parties on notice of the regulatory issues that will need to be addressed in any sale or transfer of the Debtor’s business or assets.\" The AGs warn of the \"highly sensitive nature of the conversations many users have with Character.AI chatbot characters\" and are urging the judge to require any buyer of its assets to adopt safeguards, including age-assurance systems and letting users delete their data. James said \"This company collected some of the most private thoughts children have ever shared, and now those conversations could be sold off to the highest bidder\". Character.AI CEO Colin Adams said the filing \"is not an accurate portrayal of the safety of our platform.\" (The Verge)",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
-          "date": "2026-10-18",
-          "tags": [
-            "character_ai",
-            "chatbots",
-            "user_data",
-            "bankruptcy",
-            "state_ags"
-          ],
-          "subcatId": "ai_governance",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-24_scan_1409_dublin",
+      "at": "2026-10-24T13:10:44.358Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~14:09 London, Sat 24 Oct (site-only scan; covers 12:10 to now). Post-AI encryption (promoted to Skynet): Defense One, 'Add ‘post-AI’ encryption to your to-do list', 21 Oct, article text settled over three hours with matching title across saves; OpenAI’s new math results skipped cryptography, but experts warn AI progress may still force a faster move to \"crypto agility\" and post-quantum protections. The piece is expert warning rather than a demonstrated break, so the Skynet score holds. Board: the 14 Oct Verge item on Character.AI, user data and state attorneys general rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: the BBC Kent AI data-centre planning approval remains below the board's bar; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one Skynet promotion, a Defense One post-AI encryption warning, no score change).",
+      "patchId": "patch_2026-10-24_scan_1409_dublin"
+    },
     {
       "id": "patch_2026-10-24_scan_1210_dublin",
       "at": "2026-10-24T11:10:43.378Z",
@@ -2585,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~10:12 London, Fri 16 Oct (site-only scan; covers 08:06 to now). EU (promoted to Skynet): POLITICO, 'The EU is facing Big Tech pressure to revamp its AI law', title and text unchanged since 08:06 and last updated 03:09 BST; Microsoft President Brad Smith and Google DeepMind co-founder Demis Hassabis questioned whether the AI Act still fits, while EU Justice Commissioner Michael McGrath said \"We are satisfied for now; we have an appropriate system of regulation in place\". Board: the 13 Oct Geoffrey Hinton item rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Congressional Bills S. 240, S. 283, and S. 2403 Signed into Law', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists six documents, none about AI policy (the newest a Cboe Exchange filing); the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (a regulatory debate, not a new incident or capability change).",
       "patchId": "patch_2026-10-16_scan_1012_dublin"
-    },
-    {
-      "id": "patch_2026-10-16_scan_0806_dublin",
-      "at": "2026-10-16T07:06:57.710Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~08:06 London, Fri 16 Oct (site-only scan; covers 06:09 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off the board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Congressional Bills S. 240, S. 283, and S. 2403 Signed into Law', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) now lists six documents, the new one a Cboe Exchange filing, none about AI policy; the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-16_scan_0806_dublin"
     }
   ],
   "pendingPosts": [
