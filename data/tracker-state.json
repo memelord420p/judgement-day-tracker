@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-24T03:13:44.247Z",
+    "lastUpdated": "2026-10-24T05:11:06.916Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-24T04:13:00+01:00",
-    "lastScanSummary": "Scan ~04:13 London, Sat 24 Oct (site-only scan; covers 02:08 to now). AI biosecurity (promoted to Skynet): the BBC, 'UK to invest £100m in 'world first' AI Biosecurity Lab', 24 Oct, article text identical across saves at 04:11 and 04:13, unrevised since 01:05 BST; the Budget commits £100m to a new AI Biosecurity Lab, with OpenAI and Anthropic providing £200m in model credits, plus further funding for the AI Security Institute and a National Cyber Shield. A new national safety institute is notable, but it is a funding announcement rather than a demonstrated capability shift, so the Skynet score holds. Board: the 17 Oct item on Jack Clark and the shrinking window for safeguards rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-24T06:10:00+01:00",
+    "lastScanSummary": "Scan ~06:10 London, Sat 24 Oct (site-only scan; covers 04:13 to now). China compute (promoted to Skynet): the SCMP, 'China’s AI compute surge heavily reliant on US chips, offshore cloud access: report', 24 Oct, article text identical across saves at 04:11 and 06:09, unrevised since 02:00 BST; an Institute for Progress report says China’s available AI compute is set to roughly double by 2027 while remaining heavily reliant on US-designed chips, and that Chinese models lag US peers by only 6.5 months despite a large US compute lead. A notable capability-gap finding from a think-tank report, but not a demonstrated new model or incident, so the Skynet score holds. Board: the 17 Oct item on websites blocking AI agents rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1457,6 +1457,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261024_scmp_china_ai_compute_double_us_chips",
+          "html": "<strong>China’s AI compute surge heavily reliant on US chips, offshore cloud access: report</strong> Per the SCMP, a Washington Institute for Progress report says China’s AI compute &quot;will double next year&quot;, from about 4.6 million to 8.8 million H100-equivalents in 2027, though US-designed chips would still make up about 65 per cent of that capacity. Despite a US &quot;16-fold advantage in AI training compute over China&quot;, leading Chinese models lag by only 6.5 months, which IFP links in part to distillation; it urged tighter controls on overseas cloud access, smuggling and legal exports. (SCMP)",
+          "plain": "China’s AI compute surge heavily reliant on US chips, offshore cloud access: report Per the SCMP, a Washington Institute for Progress report says China’s AI compute \"will double next year\", from about 4.6 million to 8.8 million H100-equivalents in 2027, though US-designed chips would still make up about 65 per cent of that capacity. Despite a US \"16-fold advantage in AI training compute over China\", leading Chinese models lag by only 6.5 months, which IFP links in part to distillation; it urged tighter controls on overseas cloud access, smuggling and legal exports. (SCMP)",
+          "source": "SCMP",
+          "url": "https://www.scmp.com/tech/tech-war/article/3371929/chinas-ai-compute-surge-heavily-reliant-us-chips-offshore-cloud-access-report",
+          "date": "2026-10-24",
+          "tags": [
+            "china_ai",
+            "compute",
+            "export_controls",
+            "chips",
+            "ifp"
+          ],
+          "subcatId": "ai_capabilities",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261024_bbc_uk_ai_biosecurity_lab",
           "html": "<strong>UK to invest £100m in &#x27;world first&#x27; AI Biosecurity Lab</strong> Per the BBC, the UK Budget will put £100m into a new AI Biosecurity Lab that ministers call a &quot;major new global institution&quot; bringing together &quot;world-leading scientific expertise&quot;, with OpenAI and Anthropic providing £200m in model credits. The package also adds £120m for the AI Security Institute and funds a National Cyber Shield that would use agentic AI on critical infrastructure. (BBC)",
           "plain": "UK to invest £100m in 'world first' AI Biosecurity Lab Per the BBC, the UK Budget will put £100m into a new AI Biosecurity Lab that ministers call a \"major new global institution\" bringing together \"world-leading scientific expertise\", with OpenAI and Anthropic providing £200m in model credits. The package also adds £120m for the AI Security Institute and funds a National Cyber Shield that would use agentic AI on critical infrastructure. (BBC)",
@@ -1772,28 +1789,19 @@
           ],
           "subcatId": "ai_governance",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261017_verge_websites_block_ai_agents",
-          "html": "<strong>Websites are closing their doors to AI agents</strong> Per The Verge, users of several companies&#x27; AI agents have reported blocks preventing their agents from performing tasks across top websites, and JPMorgan Chase and Charles Schwab have confirmed they are blocking AI agents from accessing accounts due to security concerns. Chris Canal, CEO of the AI safety evaluator EquiStamp, said anti-bot defences set up against scams and hacks also catch agents: &quot;These AI agents trigger those same safeguards.&quot; Meta said: &quot;Turning away a personal agent means turning away the customer behind it&quot;. (The Verge)",
-          "plain": "Websites are closing their doors to AI agents Per The Verge, users of several companies' AI agents have reported blocks preventing their agents from performing tasks across top websites, and JPMorgan Chase and Charles Schwab have confirmed they are blocking AI agents from accessing accounts due to security concerns. Chris Canal, CEO of the AI safety evaluator EquiStamp, said anti-bot defences set up against scams and hacks also catch agents: \"These AI agents trigger those same safeguards.\" Meta said: \"Turning away a personal agent means turning away the customer behind it\". (The Verge)",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-          "date": "2026-10-17",
-          "tags": [
-            "ai_agents",
-            "web_access",
-            "anti_bot",
-            "security",
-            "banks"
-          ],
-          "subcatId": "ai_autonomy",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-24_scan_0610_dublin",
+      "at": "2026-10-24T05:11:06.916Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~06:10 London, Sat 24 Oct (site-only scan; covers 04:13 to now). China compute (promoted to Skynet): the SCMP, 'China’s AI compute surge heavily reliant on US chips, offshore cloud access: report', 24 Oct, article text identical across saves at 04:11 and 06:09, unrevised since 02:00 BST; an Institute for Progress report says China’s available AI compute is set to roughly double by 2027 while remaining heavily reliant on US-designed chips, and that Chinese models lag US peers by only 6.5 months despite a large US compute lead. A notable capability-gap finding from a think-tank report, but not a demonstrated new model or incident, so the Skynet score holds. Board: the 17 Oct item on websites blocking AI agents rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (one Skynet promotion, a China AI compute report, no score change).",
+      "patchId": "patch_2026-10-24_scan_0610_dublin"
+    },
     {
       "id": "patch_2026-10-24_scan_0413_dublin",
       "at": "2026-10-24T03:13:44.247Z",
@@ -2585,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~02:08 London, Fri 16 Oct (site-only scan; covers 00:12 to now). US (promoted to Skynet): Defense One, 'Meet the agency using AI to screen grant applicants for links to potential adversaries', unchanged across three saves since 22:05 Thu; Transportation senior advisor for AI Neil Chaudhry said the agency built \"some really robust AI tools\" to check research grant recipients for links to adversaries, saying the checks are \"not based on the color of their skin and their nationality or something\". Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Congressional Bills S. 240, S. 283, and S. 2403 Signed into Law', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (a government screening use of AI, not a new incident or capability change).",
       "patchId": "patch_2026-10-16_scan_0208_dublin"
-    },
-    {
-      "id": "patch_2026-10-16_scan_0012_dublin",
-      "at": "2026-10-15T23:12:06.418Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~00:12 London, Fri 16 Oct (site-only scan; covers 22:07 Thu to now). US (promoted to Skynet): CNA, 'Anthropic grants outside evaluator METR employee-level access in AI safety push', last updated 20:51 BST Thu; Anthropic gave the nonprofit METR \"employee-level access\" and said it cannot veto METR's findings but can require narrowly defined redactions; it is in talks with others including Hugging Face. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (an oversight arrangement, not a new incident or capability change).",
-      "patchId": "patch_2026-10-16_scan_0012_dublin"
     }
   ],
   "pendingPosts": [
