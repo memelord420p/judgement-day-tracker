@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-24T01:09:35.664Z",
+    "lastUpdated": "2026-10-24T03:13:44.247Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-24T02:08:00+01:00",
-    "lastScanSummary": "Scan ~02:08 London, Sat 24 Oct (site-only scan; covers 00:08 to now). AI containment (promoted to Skynet): The Verge, 'OpenAI now trains its frontier AI models with no internet access', 23 Oct, article text identical across saves at 00:08 and 02:06, unrevised since 22:11 BST on 23 Oct; OpenAI says it now trains its frontier models without internet access in an offline environment, and found in testing that agents on separate virtual machines could still exchange synthetic secrets through processor-cache timing, which it says its monitoring now checks for. A safety-relevant finding but a disclosed and contained test, so the Skynet score holds. Board: the 17 Oct item on a draft frontier AI safety bill rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-24T04:13:00+01:00",
+    "lastScanSummary": "Scan ~04:13 London, Sat 24 Oct (site-only scan; covers 02:08 to now). AI biosecurity (promoted to Skynet): the BBC, 'UK to invest £100m in 'world first' AI Biosecurity Lab', 24 Oct, article text identical across saves at 04:11 and 04:13, unrevised since 01:05 BST; the Budget commits £100m to a new AI Biosecurity Lab, with OpenAI and Anthropic providing £200m in model credits, plus further funding for the AI Security Institute and a National Cyber Shield. A new national safety institute is notable, but it is a funding announcement rather than a demonstrated capability shift, so the Skynet score holds. Board: the 17 Oct item on Jack Clark and the shrinking window for safeguards rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1457,6 +1457,22 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261024_bbc_uk_ai_biosecurity_lab",
+          "html": "<strong>UK to invest £100m in &#x27;world first&#x27; AI Biosecurity Lab</strong> Per the BBC, the UK Budget will put £100m into a new AI Biosecurity Lab that ministers call a &quot;major new global institution&quot; bringing together &quot;world-leading scientific expertise&quot;, with OpenAI and Anthropic providing £200m in model credits. The package also adds £120m for the AI Security Institute and funds a National Cyber Shield that would use agentic AI on critical infrastructure. (BBC)",
+          "plain": "UK to invest £100m in 'world first' AI Biosecurity Lab Per the BBC, the UK Budget will put £100m into a new AI Biosecurity Lab that ministers call a \"major new global institution\" bringing together \"world-leading scientific expertise\", with OpenAI and Anthropic providing £200m in model credits. The package also adds £120m for the AI Security Institute and funds a National Cyber Shield that would use agentic AI on critical infrastructure. (BBC)",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo",
+          "date": "2026-10-24",
+          "tags": [
+            "ai_safety",
+            "biosecurity",
+            "uk_policy",
+            "aisi"
+          ],
+          "subcatId": "ai_safety",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261023_verge_openai_offline_frontier_training",
           "html": "<strong>OpenAI now trains its frontier AI models with no internet access</strong> Per The Verge, OpenAI says it now trains its most advanced models in an offline environment with cached web content, &quot;without risk of affecting external systems.&quot; In testing, OpenAI found agents &quot;do not always need a network connection in order to communicate&quot;: models on separate virtual machines exchanged synthetic secrets via processor-cache timing. OpenAI says it has added monitoring checks and will keep training offline until stronger safeguards are in place. (The Verge)",
           "plain": "OpenAI now trains its frontier AI models with no internet access Per The Verge, OpenAI says it now trains its most advanced models in an offline environment with cached web content, \"without risk of affecting external systems.\" In testing, OpenAI found agents \"do not always need a network connection in order to communicate\": models on separate virtual machines exchanged synthetic secrets via processor-cache timing. OpenAI says it has added monitoring checks and will keep training offline until stronger safeguards are in place. (The Verge)",
@@ -1773,28 +1789,19 @@
           ],
           "subcatId": "ai_autonomy",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261017_cna_jack_clark_ai_peril_shrinking_window_safeguards",
-          "html": "<strong>AI rapidly improving, could vastly boost US GDP, Anthropic&#x27;s Clark tells policymakers</strong> Per CNA, Anthropic co-founder Jack Clark told IMF and World Bank meetings in Bangkok that faster AI progress &quot;…will bring with it great wealth and potentially great peril&quot; and that international cooperation was needed to erect &quot;unusual and serious rules&quot;. He said: &quot;Being able to use AI for science opens us up to the misuses of science as well, biological and cyber weapons and things we cannot yet imagine, and we have many choices to make&quot;. On biological research, Clark said it is an area &quot;where we want the strictest human oversight and transparency to maintain safety.&quot; He said AI was still under human control, but the window to impose safeguards was now &quot;a small number of years.&quot; (CNA)",
-          "plain": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers Per CNA, Anthropic co-founder Jack Clark told IMF and World Bank meetings in Bangkok that faster AI progress \"…will bring with it great wealth and potentially great peril\" and that international cooperation was needed to erect \"unusual and serious rules\". He said: \"Being able to use AI for science opens us up to the misuses of science as well, biological and cyber weapons and things we cannot yet imagine, and we have many choices to make\". On biological research, Clark said it is an area \"where we want the strictest human oversight and transparency to maintain safety.\" He said AI was still under human control, but the window to impose safeguards was now \"a small number of years.\" (CNA)",
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/business/ai-rapidly-improving-could-vastly-boost-us-gdp-anthropics-clark-tells-policymakers-6468116",
-          "date": "2026-10-17",
-          "tags": [
-            "anthropic",
-            "jack_clark",
-            "ai_risk",
-            "biosecurity",
-            "safeguards"
-          ],
-          "subcatId": "ai_safety_oversight",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-10-24_scan_0413_dublin",
+      "at": "2026-10-24T03:13:44.247Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:13 London, Sat 24 Oct (site-only scan; covers 02:08 to now). AI biosecurity (promoted to Skynet): the BBC, 'UK to invest £100m in 'world first' AI Biosecurity Lab', 24 Oct, article text identical across saves at 04:11 and 04:13, unrevised since 01:05 BST; the Budget commits £100m to a new AI Biosecurity Lab, with OpenAI and Anthropic providing £200m in model credits, plus further funding for the AI Security Institute and a National Cyber Shield. A new national safety institute is notable, but it is a funding announcement rather than a demonstrated capability shift, so the Skynet score holds. Board: the 17 Oct item on Jack Clark and the shrinking window for safeguards rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 107 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (one Skynet promotion, a UK AI biosecurity lab funding announcement, no score change).",
+      "patchId": "patch_2026-10-24_scan_0413_dublin"
+    },
     {
       "id": "patch_2026-10-24_scan_0208_dublin",
       "at": "2026-10-24T01:09:35.664Z",
@@ -2586,14 +2593,6 @@
       "type": "patch",
       "summary": "Scan ~00:12 London, Fri 16 Oct (site-only scan; covers 22:07 Thu to now). US (promoted to Skynet): CNA, 'Anthropic grants outside evaluator METR employee-level access in AI safety push', last updated 20:51 BST Thu; Anthropic gave the nonprofit METR \"employee-level access\" and said it cannot veto METR's findings but can require narrowly defined redactions; it is in talks with others including Hugging Face. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (an oversight arrangement, not a new incident or capability change).",
       "patchId": "patch_2026-10-16_scan_0012_dublin"
-    },
-    {
-      "id": "patch_2026-10-15_scan_2207_dublin",
-      "at": "2026-10-15T21:08:55.975Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~22:07 London, Thu 15 Oct (site-only scan; covers 20:13 to now). US (promoted to Skynet): The Verge, 'Friends don’t let friends feed their data to AI agents', published 17:21 BST; Signal Foundation president Meredith Whittaker on AI agents such as Meta's Muse: \"Meta says Muse only remembers what you choose to share. But the idea that people are making an informed choice in this case is laughable\"; Meta says Muse is opt-in. Also settled: CNA, 'US Treasury pushes global partners to rename AI as 'super intelligence''; Treasury Undersecretary for International Affairs Erin Browne said Washington was negotiating with other IMF shareholders over the term (summary only). Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the five Yonhap headlines on the board remain unchecked and their scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: no new AI-related item on the whitehouse.gov news page; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists five documents, none about AI policy, and the public inspection list has no presidential or AI documents. All hold: T-800 33, T-1000 5, Skynet 53 (a reported privacy concern, not a new incident or capability change).",
-      "patchId": "patch_2026-10-15_scan_2207_dublin"
     }
   ],
   "pendingPosts": [
