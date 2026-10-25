@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-25T20:13:56.833Z",
+    "lastUpdated": "2026-10-25T22:06:17.949Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-25T20:12:00+00:00",
-    "lastScanSummary": "Scan ~20:12 London, Sun 25 Oct (site-only scan; covers 18:07 Sun 25 Oct to now; UK clocks GMT). FQ-42 CCA production ramp (promoted to T-800): TWZ, 'General Atomics FQ-42 CCA Drone Production Ramp Up To Be Boosted By Boeing Subsidiary', 23 Oct, article text settled over three hours with matching title across saves; General Atomics is bringing in Spirit Defense (Boeing) to help build FQ-42A Vengeance CCA drones against an Air Force target of \"at least 500 CCAs in inventory by 2032\". This is an industrial-capacity partnership story rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. Board: the mid-October Navy USV carrier-strike-group headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Breaking Defense Qatari Barzan Milipol drones (23 Oct) cleared settle/full-text/age gates but was left under the one-promotion cap behind the FQ-42 CCA production story; Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-25T22:06:00+00:00",
+    "lastScanSummary": "Scan ~22:06 London, Sun 25 Oct (site-only scan; covers 20:12 Sun 25 Oct to now; UK clocks GMT). Qatari Barzan Milipol drones (promoted to T-800): Breaking Defense, 'Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026', 23 Oct, article text settled over three hours with matching title across saves; Barzan Holdings unveiled first-person-view (FPV) drones, VTOL UAVs, unmanned surface vessels and EW platforms at Milipol 2026 under the \"Made in Qatar\" initiative, and announced a Ukraine joint venture for layered air defence. This is an exhibition unveil and industrial-capacity story rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. Board: the mid-October Verge cities/states robotaxi headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar; TWZ Merops interceptor and LUCAS kamikaze pieces and BD battlefield-drone-swarms autonomy item were rechecked on homes but are older than the T-800 roll-off date so fail the age gate versus the board floor. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261023_bd_qatari_barzan_milipol_drones_usv",
+          "html": "<strong>Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026</strong> Per Breaking Defense, state-owned Barzan Holdings unveiled more than a dozen platforms at Milipol 2026 in Doha, including first-person-view (FPV) drones, VTOL uncrewed aerial vehicles, unmanned surface vessels and electronic warfare systems under Qatar&#x27;s &quot;Made in Qatar&quot; defense push, plus a Ukraine joint venture for layered air defence. (Breaking Defense)",
+          "plain": "Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026 Per Breaking Defense, state-owned Barzan Holdings unveiled more than a dozen platforms at Milipol 2026 in Doha, including first-person-view (FPV) drones, VTOL uncrewed aerial vehicles, unmanned surface vessels and electronic warfare systems under Qatar's \"Made in Qatar\" defense push, plus a Ukraine joint venture for layered air defence. (Breaking Defense)",
+          "source": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/10/qatari-barzan-unveils-aerial-drones-unmanned-surface-vessels-at-milipol-2026/",
+          "date": "2026-10-25",
+          "tags": [
+            "drones",
+            "usv",
+            "qatar",
+            "barzan",
+            "milipol"
+          ],
+          "subcatId": "drones",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261023_twz_ga_fq42_cca_spirit_defense_boeing",
           "html": "<strong>General Atomics FQ-42 CCA Drone Production Ramp Up To Be Boosted By Boeing Subsidiary</strong> Per TWZ, General Atomics has tapped Spirit Defense, a Boeing subsidiary, to help produce FQ-42A Vengeance Collaborative Combat Aircraft drones, following the U.S. Air Force goal of &quot;…at least 500 CCAs in inventory by 2032&quot; and underscoring that industrial partnerships are needed for CCA volume and schedule. (TWZ)",
           "plain": "General Atomics FQ-42 CCA Drone Production Ramp Up To Be Boosted By Boeing Subsidiary Per TWZ, General Atomics has tapped Spirit Defense, a Boeing subsidiary, to help produce FQ-42A Vengeance Collaborative Combat Aircraft drones, following the U.S. Air Force goal of \"…at least 500 CCAs in inventory by 2032\" and underscoring that industrial partnerships are needed for CCA volume and schedule. (TWZ)",
@@ -694,23 +711,6 @@
             "aukus"
           ],
           "subcatId": "military_autonomy",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261018_verge_cities_states_rein_in_robotaxis",
-          "html": "<strong>Cities want to put the boot on robotaxis</strong> Per the Verge, with federal autonomous-vehicle legislation stalled in Congress, US cities and states are passing their own rules to rein in robotaxis. &quot;Minneapolis is considering an ordinance to require human monitors inside autonomous vehicles, which would effectively ban driverless operations.&quot; The San Diego City Council passed a resolution seeking to block Waymo from the airport, and draft California emergency protocols would require AV companies to give local police and fire departments &quot;physical override access or emergency remote shut-off mechanisms&quot;. Some red states, including Kentucky, Oklahoma, South Dakota and Iowa, are also considering tighter rules. The piece concludes: &quot;AV companies would be well advised to get used to the patchwork — it’s not going anywhere.&quot; (The Verge)",
-          "plain": "Cities want to put the boot on robotaxis Per the Verge, with federal autonomous-vehicle legislation stalled in Congress, US cities and states are passing their own rules to rein in robotaxis. \"Minneapolis is considering an ordinance to require human monitors inside autonomous vehicles, which would effectively ban driverless operations.\" The San Diego City Council passed a resolution seeking to block Waymo from the airport, and draft California emergency protocols would require AV companies to give local police and fire departments \"physical override access or emergency remote shut-off mechanisms\". Some red states, including Kentucky, Oklahoma, South Dakota and Iowa, are also considering tighter rules. The piece concludes: \"AV companies would be well advised to get used to the patchwork — it’s not going anywhere.\" (The Verge)",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-          "date": "2026-10-18",
-          "tags": [
-            "robotaxi",
-            "autonomous_vehicles",
-            "local_regulation",
-            "waymo",
-            "us_states"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1794,6 +1794,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-25_scan_2206_dublin",
+      "at": "2026-10-25T22:06:17.949Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:06 London, Sun 25 Oct (site-only scan; covers 20:12 Sun 25 Oct to now; UK clocks GMT). Qatari Barzan Milipol drones (promoted to T-800): Breaking Defense, 'Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026', 23 Oct, article text settled over three hours with matching title across saves; Barzan Holdings unveiled first-person-view (FPV) drones, VTOL UAVs, unmanned surface vessels and EW platforms at Milipol 2026 under the \"Made in Qatar\" initiative, and announced a Ukraine joint venture for layered air defence. This is an exhibition unveil and industrial-capacity story rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. Board: the mid-October Verge cities/states robotaxi headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar; TWZ Merops interceptor and LUCAS kamikaze pieces and BD battlefield-drone-swarms autonomy item were rechecked on homes but are older than the T-800 roll-off date so fail the age gate versus the board floor. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, Breaking Defense Qatari Barzan Milipol drones unveil, no score change).",
+      "patchId": "patch_2026-10-25_scan_2206_dublin"
+    },
+    {
       "id": "patch_2026-10-25_scan_2012_dublin",
       "at": "2026-10-25T20:13:56.833Z",
       "by": "judgment-day-watch",
@@ -2584,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~18:08 London, Sat 17 Oct (site-only scan; covers 17:02 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
       "patchId": "patch_2026-10-17_scan_1808_dublin"
-    },
-    {
-      "id": "patch_2026-10-17_scan_1702_dublin",
-      "at": "2026-10-17T16:02:19.837Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~17:02 London, Sat 17 Oct (site-only scan; covers 16:08 to now). US (promoted to Skynet): The Verge, 'Websites are closing their doors to AI agents', title, modified time and text unchanged across saves at 14:09, 16:08 and 17:01; websites and banks are blocking AI agents, and an AI safety evaluator says anti-bot defences built against scams and hacks also catch agents. A web-access and security story, not a capability change, so the Skynet score holds. Board: the 14 Oct item on Bank of England and IMF warnings about cyber threats to trust in the financial system rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a web-access and security story, not a capability change).",
-      "patchId": "patch_2026-10-17_scan_1702_dublin"
     }
   ],
   "pendingPosts": [
