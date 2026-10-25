@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-25T16:16:40.416Z",
+    "lastUpdated": "2026-10-25T18:07:41.885Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-25T16:16:00+00:00",
-    "lastScanSummary": "Scan ~16:16 London, Sun 25 Oct (site-only scan; covers 14:12 Sun 25 Oct to now; UK clocks GMT). Google AI search vs publishers (promoted to Skynet): The Verge, 'Google’s AI search changes upended online publishing', 25 Oct, column text settled over three hours with matching title across saves; Google’s AI search features and AI Overviews have disrupted the reciprocal traffic relationship with publishers, and reporting finds \"Traffic to online publishers tanked\". This is an impact/adaptation story about existing AI search products rather than a new model capability leap, so the Skynet score holds. Board: the mid-October USMC MindGame AI-adversary wargames headline rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Fresh China/US autonomy leads spotted this sweep (including a TWZ Chinese submarine drone mothership piece dated 18 Oct) were not promoted over the priority Google column. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-25T18:07:00+00:00",
+    "lastScanSummary": "Scan ~18:07 London, Sun 25 Oct (site-only scan; covers 16:16 Sun 25 Oct to now; UK clocks GMT). Chinese submarine drone mothership (promoted to T-800): TWZ, 'Second Chinese Submarine Drone Mothership Emerges', 18 Oct, article text long-settled with matching title across saves; a second hull in the uncrewed underwater vehicle (UUV) mothership family has been imaged in Guangzhou after the Shanghai build, and the reporting says China appears to have \"not just one, but two of these vessels nearly complete\". This is an incremental fleet-construction observation rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. Board: the 17 Oct BBC London robotaxi trial/protest item rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Other China/US autonomy leads from this sweep (Defense One Army robotics-technician adaptation dated 16 Oct; Defense One AI grant-screening dated 15 Oct) fail the age gate against the board headline they would replace; Breaking Defense Qatari Barzan Milipol drones (23 Oct) and TWZ FQ-42 CCA production (23 Oct) were left for a later scan under the one-promotion cap. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261018_twz_second_chinese_submarine_drone_mothership",
+          "html": "<strong>Second Chinese Submarine Drone Mothership Emerges</strong> Per TWZ, imagery now shows a second Chinese submarine drone mothership of the same family as the Hudong-Zhonghua Changxing Island build, this one seen in Guangzhou with a near-identical uncrewed underwater vehicle (UUV) mothership layout (stern garage/well deck and lift pylons); the piece concludes China appears to have &quot;not just one, but two of these vessels nearly complete&quot;. (TWZ)",
+          "plain": "Second Chinese Submarine Drone Mothership Emerges Per TWZ, imagery now shows a second Chinese submarine drone mothership of the same family as the Hudong-Zhonghua Changxing Island build, this one seen in Guangzhou with a near-identical uncrewed underwater vehicle (UUV) mothership layout (stern garage/well deck and lift pylons); the piece concludes China appears to have \"not just one, but two of these vessels nearly complete\". (TWZ)",
+          "source": "TWZ",
+          "url": "https://www.twz.com/sea/second-chinese-submarine-drone-mothership-emerges",
+          "date": "2026-10-25",
+          "tags": [
+            "china",
+            "uuv",
+            "mothership",
+            "naval_drones",
+            "uncrewed"
+          ],
+          "subcatId": "drones",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261025_defenseone_autowarcom_funding_force_structure",
           "html": "<strong>Funding, force-structure issues could hinder Hegseth’s new autonomous command</strong> Per Defense One, Defense Secretary Pete Hegseth’s planned U.S. Autonomous Warfare Command depends on an unusual funding bill whose passage is far from assured, and the Pentagon has little of the force structure earlier functional combatant commands could draw on; critics say leaders &quot;They have no idea&quot; how to build it, while supporters frame AUTOWARCOM as an iterating acquisitions-heavy command. (Defense One)",
           "plain": "Funding, force-structure issues could hinder Hegseth’s new autonomous command Per Defense One, Defense Secretary Pete Hegseth’s planned U.S. Autonomous Warfare Command depends on an unusual funding bill whose passage is far from assured, and the Pentagon has little of the force structure earlier functional combatant commands could draw on; critics say leaders \"They have no idea\" how to build it, while supporters frame AUTOWARCOM as an iterating acquisitions-heavy command. (Defense One)",
@@ -694,23 +711,6 @@
             "golden_fleet"
           ],
           "subcatId": "military_autonomy",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261017_bbc_london_robotaxi_trial_protest_wayve",
-          "html": "<strong>Protesters call for London robotaxi trials to stop</strong> Per the BBC, about 15 people protested outside the King&#x27;s Cross offices of autonomous vehicle company Wayve, which is trialling driverless taxis in London with human safety operators on board, calling for the trials to stop over safety, congestion and jobs. Private hire driver Abdurzak Hadi said he was &quot;worried that I&#x27;ll be forced to compete with a machine that can work 24 hours&quot;. GMB representative James Rossi: &quot;What we want is assurances.&quot; Wayve said it was taking a &quot;deliberately phased approach&quot; with Uber and working with Transport for London; a TfL spokesperson said: &quot;Safety is our top priority and any automated passenger service in London can only operate with TfL&#x27;s consent.&quot; (BBC)",
-          "plain": "Protesters call for London robotaxi trials to stop Per the BBC, about 15 people protested outside the King's Cross offices of autonomous vehicle company Wayve, which is trialling driverless taxis in London with human safety operators on board, calling for the trials to stop over safety, congestion and jobs. Private hire driver Abdurzak Hadi said he was \"worried that I'll be forced to compete with a machine that can work 24 hours\". GMB representative James Rossi: \"What we want is assurances.\" Wayve said it was taking a \"deliberately phased approach\" with Uber and working with Transport for London; a TfL spokesperson said: \"Safety is our top priority and any automated passenger service in London can only operate with TfL's consent.\" (BBC)",
-          "source": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmx23n3k35kdo",
-          "date": "2026-10-17",
-          "tags": [
-            "robotaxi",
-            "autonomous_vehicles",
-            "london",
-            "jobs",
-            "protest"
-          ],
-          "subcatId": "onboard_ai_decision_making",
           "fighterId": "t800"
         }
       ],
@@ -1794,6 +1794,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-25_scan_1807_dublin",
+      "at": "2026-10-25T18:07:41.885Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:07 London, Sun 25 Oct (site-only scan; covers 16:16 Sun 25 Oct to now; UK clocks GMT). Chinese submarine drone mothership (promoted to T-800): TWZ, 'Second Chinese Submarine Drone Mothership Emerges', 18 Oct, article text long-settled with matching title across saves; a second hull in the uncrewed underwater vehicle (UUV) mothership family has been imaged in Guangzhou after the Shanghai build, and the reporting says China appears to have \"not just one, but two of these vessels nearly complete\". This is an incremental fleet-construction observation rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. Board: the 17 Oct BBC London robotaxi trial/protest item rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Other China/US autonomy leads from this sweep (Defense One Army robotics-technician adaptation dated 16 Oct; Defense One AI grant-screening dated 15 Oct) fail the age gate against the board headline they would replace; Breaking Defense Qatari Barzan Milipol drones (23 Oct) and TWZ FQ-42 CCA production (23 Oct) were left for a later scan under the one-promotion cap. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, a TWZ Chinese submarine drone mothership sighting, no score change).",
+      "patchId": "patch_2026-10-25_scan_1807_dublin"
+    },
+    {
       "id": "patch_2026-10-25_scan_1616_dublin",
       "at": "2026-10-25T16:16:40.416Z",
       "by": "judgment-day-watch",
@@ -2584,14 +2592,6 @@
       "type": "patch",
       "summary": "Scan ~16:08 London, Sat 17 Oct (site-only scan; covers 14:10 to now). Asia (promoted to Skynet): CNA, 'AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers', title, modified time and text unchanged across saves at 14:09 and 16:08; Anthropic co-founder Jack Clark warned policymakers that faster AI progress brings potentially great peril, urged the strictest human oversight of AI in biological research, and said the window for safeguards is a small number of years. A speech warning, not a capability change, so the Skynet score holds. Board: the 14 Oct item on an EU cyber unit and high-risk AI hacks rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a speech warning, not a capability change).",
       "patchId": "patch_2026-10-17_scan_1608_dublin"
-    },
-    {
-      "id": "patch_2026-10-17_scan_1410_dublin",
-      "at": "2026-10-17T13:10:36.463Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~14:10 London, Sat 17 Oct (site-only scan; covers 12:08 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-17_scan_1410_dublin"
     }
   ],
   "pendingPosts": [
