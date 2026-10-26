@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-26T16:22:39.399Z",
+    "lastUpdated": "2026-10-26T18:15:12.124Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-26T16:20:00+00:00",
-    "lastScanSummary": "Scan ~16:20 London, Mon 26 Oct (site-only scan; covers 14:16 Mon 26 Oct to now; UK clocks GMT). No promotion this scan. Military Times 'Marine Corps Osprey squadrons get AI tool to boost readiness rates' is under the three-hour settle window (~2.1h at scan) with a matching seeded prior save and a full-text extract that clears the full-text gate — held for the next wake. The Guardian item 'Meta plans $95bn stock offering to help cover AI expansion' is under the three-hour settle window after a 16:00 GMT dateModified. SCMP opinion 'Europe can still shape the rules of AI' clears settle and age but is an opinion/governance column below the Skynet capability bar. Held leads: SCMP South Korea AI-chip surplus remains a macro trade-surplus economics piece below the Skynet capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; TWZ FQ-42 CCA production ramp is already on the board (prior item); older TWZ LUCAS / Merops / FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the T-800 floor. Board tops unchanged (T-800 Breaking Defense Ateş Serbest unmanned demo; Skynet SCMP Chinese video-AI study). All headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'First Lady Melania Trump Announces Halloween at the White House 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 85 documents (was 82 at the 14:16 scan). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-26T18:14:00+00:00",
+    "lastScanSummary": "Scan ~18:14 London, Mon 26 Oct (site-only scan; covers 16:20 Mon 26 Oct to now; UK clocks GMT). Marine Corps Osprey AI readiness tool (promoted to T-800): Military Times, 'Marine Corps Osprey squadrons get AI tool to boost readiness rates', 26 Oct, article text settled over three hours with matching title across consecutive raw saves; Virtualitics’s Iris AI-agent tool is being fielded to MV-22 Osprey squadrons to flag readiness gaps after earlier Air Force B-52 use. A sustainment/readiness AI deployment rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. Board: the mid-October Military Times Hegseth $50B mass-drone-production headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'From Coast to Coast, President Trump Is Putting American Industry Back on the Map', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: The Guardian 'Meta plans $95bn stock offering to help cover AI expansion' remains under the three-hour settle window after a 16:41 GMT dateModified; SCMP Europe AI-rules opinion and South Korea AI-chip surplus remain below the Skynet capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; TWZ FQ-42 is already on the board; older TWZ LUCAS / Merops / FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the prior T-800 floor. Breaking Defense SOUTHCOM unmanned-river exclusive and SCMP China AI-data/state-owned-giant items were noted on the gap-hunt pass and are held for settle/full-text gating next wake. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 85 documents (unchanged from the 16:20 scan). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,25 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261026_militarytimes_marine_osprey_ai_iris_readiness",
+          "html": "<strong>Marine Corps Osprey squadrons get AI tool to boost readiness rates</strong> Per Military Times, Virtualitics’s Iris tool — a group of AI agents coordinating with frontier models — is being fielded to Marine Corps MV-22 Osprey squadrons to pinpoint readiness gaps and recommend fixes, after earlier Air Force B-52 use. A sustainment/readiness AI deployment rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. (Military Times)",
+          "plain": "Marine Corps Osprey squadrons get AI tool to boost readiness rates Per Military Times, Virtualitics’s Iris tool — a group of AI agents coordinating with frontier models — is being fielded to Marine Corps MV-22 Osprey squadrons to pinpoint readiness gaps and recommend fixes, after earlier Air Force B-52 use. A sustainment/readiness AI deployment rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. (Military Times)",
+          "source": "Military Times",
+          "url": "https://www.marinecorpstimes.com/news/your-marine-corps/2026/10/26/marine-corps-osprey-squadrons-get-ai-tool-to-boost-readiness-rates/",
+          "date": "2026-10-26",
+          "tags": [
+            "osprey",
+            "mv22",
+            "readiness",
+            "virtualitics",
+            "iris",
+            "marine_corps",
+            "sustainment_ai"
+          ],
+          "subcatId": "military_autonomy",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261026_breakingdefense_turkish_ates_serbest_unmanned_demo",
           "html": "<strong>Unmanned systems take center stage at Turkish Ateş Serbest military demonstration</strong> Per Breaking Defense, Turkey’s Ateş Serbest live-fire exercise (translated as &quot;Free Fire&quot;) put unmanned systems at the forefront, including the first public showing of Turkish Aerospace Industries’ Ayaz, a turbojet-powered one-way attack UAV, and Super Simsek flying with a warhead — a demo/export showcase rather than a newly demonstrated autonomous engagement leap abroad. (Breaking Defense)",
           "plain": "Unmanned systems take center stage at Turkish Ateş Serbest military demonstration Per Breaking Defense, Turkey’s Ateş Serbest live-fire exercise (translated as \"Free Fire\") put unmanned systems at the forefront, including the first public showing of Turkish Aerospace Industries’ Ayaz, a turbojet-powered one-way attack UAV, and Super Simsek flying with a warhead — a demo/export showcase rather than a newly demonstrated autonomous engagement leap abroad. (Breaking Defense)",
@@ -689,23 +708,6 @@
             "drone_production",
             "ausa",
             "drone_dominance"
-          ],
-          "subcatId": "military_autonomy",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261014_militarytimes_hegseth_50b_reconciliation_autonomous_drone_production",
-          "html": "<strong>Pentagon needs $50B for mass drone production, Hegseth says</strong> Per Military Times, Defense Secretary Pete Hegseth told an AUSA panel that the Pentagon is requesting roughly $50 billion in reconciliation funding to scale autonomous and robotic systems, a one-time investment separate from the fiscal 2027 budget request. Military Times says the Pentagon wants to build its stockpile of autonomous weapons from thousands of units to the millions. Hegseth: &quot;Ultimately we will be dealing with hundreds of thousands of one-way attack systems this year and into the millions in years to come&quot;. The money is a request, not approved funding. (Military Times)",
-          "plain": "Pentagon needs $50B for mass drone production, Hegseth says Per Military Times, Defense Secretary Pete Hegseth told an AUSA panel that the Pentagon is requesting roughly $50 billion in reconciliation funding to scale autonomous and robotic systems, a one-time investment separate from the fiscal 2027 budget request. Military Times says the Pentagon wants to build its stockpile of autonomous weapons from thousands of units to the millions. Hegseth: \"Ultimately we will be dealing with hundreds of thousands of one-way attack systems this year and into the millions in years to come\". The money is a request, not approved funding. (Military Times)",
-          "source": "Military Times",
-          "url": "https://www.militarytimes.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/",
-          "date": "2026-10-20",
-          "tags": [
-            "pentagon",
-            "drone_production",
-            "autonomous_weapons",
-            "reconciliation",
-            "ausa"
           ],
           "subcatId": "military_autonomy",
           "fighterId": "t800"
@@ -1791,6 +1793,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-26_scan_1814_dublin",
+      "at": "2026-10-26T18:15:12.124Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~18:14 London, Mon 26 Oct (site-only scan; covers 16:20 Mon 26 Oct to now; UK clocks GMT). Marine Corps Osprey AI readiness tool (promoted to T-800): Military Times, 'Marine Corps Osprey squadrons get AI tool to boost readiness rates', 26 Oct, article text settled over three hours with matching title across consecutive raw saves; Virtualitics’s Iris AI-agent tool is being fielded to MV-22 Osprey squadrons to flag readiness gaps after earlier Air Force B-52 use. A sustainment/readiness AI deployment rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. Board: the mid-October Military Times Hegseth $50B mass-drone-production headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'From Coast to Coast, President Trump Is Putting American Industry Back on the Map', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: The Guardian 'Meta plans $95bn stock offering to help cover AI expansion' remains under the three-hour settle window after a 16:41 GMT dateModified; SCMP Europe AI-rules opinion and South Korea AI-chip surplus remain below the Skynet capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; TWZ FQ-42 is already on the board; older TWZ LUCAS / Merops / FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the prior T-800 floor. Breaking Defense SOUTHCOM unmanned-river exclusive and SCMP China AI-data/state-owned-giant items were noted on the gap-hunt pass and are held for settle/full-text gating next wake. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 85 documents (unchanged from the 16:20 scan). T-800 holds at 33; T-1000 holds at 5; Skynet holds at 53.",
+      "patchId": "patch_2026-10-26_scan_1814_dublin"
+    },
+    {
       "id": "patch_2026-10-26_scan_1620_dublin",
       "at": "2026-10-26T16:22:39.399Z",
       "by": "judgment-day-watch",
@@ -2581,14 +2591,6 @@
       "type": "patch",
       "summary": "Scan ~14:07 London, Sun 18 Oct (site-only scan; covers 12:07 to now). US (promoted to Skynet): DefenseScoop, 'Military service members to square off against AI in ‘Mindgame’ tournament', title, modified time and article text unchanged across saves at 10:09, 12:06 and 14:06; a Marine Corps message says selected service members will face an autonomous AI adversary built for strategic reasoning in digital wargames involving drone swarms and carrier strike groups, described as a pathway to integrating the technology into military wargaming. A training and wargaming step, not a capability change, so the Skynet score holds. Board: the 15 Oct item on Nvidia's £250m for UK AI safety research rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a training and wargaming step, not a capability change).",
       "patchId": "patch_2026-10-18_scan_1407_dublin"
-    },
-    {
-      "id": "patch_2026-10-18_scan_1207_dublin",
-      "at": "2026-10-18T11:07:30.697Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~12:07 London, Sun 18 Oct (site-only scan; covers 10:10 to now). US (promoted to T-800): DefenseScoop, 'US Navy deploys unmanned maritime drone to support carrier strike group in historic first', title, modified time and article text unchanged across saves at 10:09 and 12:06; acting Navy Secretary Hung Cao said the Theodore Roosevelt carrier strike group deployed on 8 Oct with a medium-sized unmanned surface vessel, the first time such a drone has deployed with a carrier strike group for a real-world operation; the Navy did not name the vessel model. A deployment milestone, not a step change in autonomy, so the T-800 score holds. Board: the 8 Oct item on the Harmattan Irifi autonomous long-range strike drone rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a deployment milestone, not a step change in autonomy).",
-      "patchId": "patch_2026-10-18_scan_1207_dublin"
     }
   ],
   "pendingPosts": [
