@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-26T20:10:55.068Z",
+    "lastUpdated": "2026-10-26T22:15:51.011Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-26T20:10:00+00:00",
-    "lastScanSummary": "Scan ~20:10 London, Mon 26 Oct (site-only scan; covers 18:14 Mon 26 Oct to now; UK clocks GMT). No promotion this scan. Priority recheck Guardian 'Meta plans $95bn stock offering to help cover AI expansion' now clears the three-hour settle window (including after the 16:41 GMT dateModified) with matching title across consecutive raw saves and a full-text extract that clears the full-text gate, but it remains a finance/capex fundraising piece below the Skynet capability bar and was not promoted. Breaking Defense 'EXCLUSIVE: SOUTHCOM chief seeks unmanned river solution as he embraces autonomy' clears publish-time settle and full-text but remains under the three-hour settle window on its 17:37 GMT dateModified (~2.5h at scan) — held for the next wake. Held leads: SCMP 'China’s AI race needs data fuel. Can a new state-owned giant deliver?' clears settle on publish time but the saved extract is still too thin for the full-text gate; SCMP Europe AI-rules opinion and South Korea AI-chip surplus remain below the Skynet capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; TWZ FQ-42 is already on the board; older TWZ LUCAS / Merops / FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the current T-800 floor (Vector/Nammo and IEEE Agility Digit5 remain the 2026-10-20 floor items after the Hegseth $50B roll-off). Board tops unchanged (T-800 Military Times Osprey AI readiness; Skynet SCMP Chinese video-AI study). All headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Puts Mississippi First with Historic Tax Cuts, Surging Investment, and Stronger Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 85 documents (unchanged from the 18:14 scan). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-26T22:14:00+00:00",
+    "lastScanSummary": "Scan ~22:14 London, Mon 26 Oct (site-only scan; covers 20:10 Mon 26 Oct to now; UK clocks GMT). SOUTHCOM unmanned-river / autonomy exclusive (promoted to T-800): Breaking Defense, 'EXCLUSIVE: SOUTHCOM chief seeks unmanned river solution as he embraces autonomy', 26 Oct, article text settled over three hours (including after the 17:37 GMT dateModified) with matching title across consecutive raw saves; Gen. Donovan is seeking a river reconnaissance mix of unmanned surface/air/subsurface platforms after standing up SAWC and deploying Saronic Corsair USVs to Guantanamo and Panama Canal security missions — “not just for testing anymore.” An operational autonomy demand-and-deployment signal rather than a newly demonstrated autonomous engagement leap abroad, so the T-800 score holds. Board: the mid-October Defense News Vector/Nammo mass-armed-drone headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Puts Mississippi First with Historic Tax Cuts, Surging Investment, and Stronger Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Guardian Meta $95bn stock offering remains settle+full-text clear but is still a finance/capex fundraising piece below the Skynet capability bar; SCMP China AI-data/state-owned-giant remains settled but the saved extract is still too thin for the full-text gate; SCMP Europe AI-rules opinion and South Korea AI-chip surplus remain below the Skynet capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; TWZ FQ-42 is already on the board; older TWZ LUCAS / Merops / FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the prior T-800 floor. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 86 documents (was 85 at the 20:10 scan). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,26 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261026_breakingdefense_southcom_unmanned_river_sawc_corsair",
+          "html": "<strong>EXCLUSIVE: SOUTHCOM chief seeks unmanned river solution as he embraces autonomy</strong> Per Breaking Defense, SOUTHCOM Gen. Francis Donovan is seeking a tailor-made river reconnaissance mix of unmanned surface, air and subsurface autonomous platforms, after standing up the SOUTHCOM Autonomous Warfare Command (SAWC) and deploying Saronic Corsair USVs to Guantanamo and Panama Canal security missions — “not just for testing anymore.” An operational autonomy demand-and-deployment signal rather than a newly demonstrated autonomous engagement leap abroad, so the T-800 score holds. (Breaking Defense)",
+          "plain": "EXCLUSIVE: SOUTHCOM chief seeks unmanned river solution as he embraces autonomy Per Breaking Defense, SOUTHCOM Gen. Francis Donovan is seeking a tailor-made river reconnaissance mix of unmanned surface, air and subsurface autonomous platforms, after standing up the SOUTHCOM Autonomous Warfare Command (SAWC) and deploying Saronic Corsair USVs to Guantanamo and Panama Canal security missions — “not just for testing anymore.” An operational autonomy demand-and-deployment signal rather than a newly demonstrated autonomous engagement leap abroad, so the T-800 score holds. (Breaking Defense)",
+          "source": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/10/exclusive-southcom-chief-seeks-unmanned-river-solution-as-he-embraces-autonomy/",
+          "date": "2026-10-26",
+          "tags": [
+            "southcom",
+            "sawc",
+            "unmanned",
+            "riverine",
+            "corsair",
+            "saronic",
+            "autonomy",
+            "panama_canal"
+          ],
+          "subcatId": "military_autonomy",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261026_militarytimes_marine_osprey_ai_iris_readiness",
           "html": "<strong>Marine Corps Osprey squadrons get AI tool to boost readiness rates</strong> Per Military Times, Virtualitics’s Iris tool — a group of AI agents coordinating with frontier models — is being fielded to Marine Corps MV-22 Osprey squadrons to pinpoint readiness gaps and recommend fixes, after earlier Air Force B-52 use. A sustainment/readiness AI deployment rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. (Military Times)",
           "plain": "Marine Corps Osprey squadrons get AI tool to boost readiness rates Per Military Times, Virtualitics’s Iris tool — a group of AI agents coordinating with frontier models — is being fielded to Marine Corps MV-22 Osprey squadrons to pinpoint readiness gaps and recommend fixes, after earlier Air Force B-52 use. A sustainment/readiness AI deployment rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. (Military Times)",
@@ -693,23 +713,6 @@
             "robot_safety"
           ],
           "subcatId": "humanoids",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261012_defensenews_vector_nammo_armed_small_drones_munitions",
-          "html": "<strong>Vector, Nammo expand push to mass-produce armed drones</strong> Per Defense News, drone maker Vector and Nammo Defense Systems announced at AUSA that they have expanded their partnership to integrate munitions into small drones for U.S. military use, with systems to be produced at scale. Vector CEO Andy Yakulis: &quot;The battlefield is demanding unmanned systems that can do more than simply carry a payload&quot;. Vector supplies a High Voltage Electronic Safe Arm Device that serves as the electronic interface between the drone and its munition, has a drone on the Defense Department’s Blue List, and placed in the top five in the latest round of the Drone Dominance program. (Defense News)",
-          "plain": "Vector, Nammo expand push to mass-produce armed drones Per Defense News, drone maker Vector and Nammo Defense Systems announced at AUSA that they have expanded their partnership to integrate munitions into small drones for U.S. military use, with systems to be produced at scale. Vector CEO Andy Yakulis: \"The battlefield is demanding unmanned systems that can do more than simply carry a payload\". Vector supplies a High Voltage Electronic Safe Arm Device that serves as the electronic interface between the drone and its munition, has a drone on the Defense Department’s Blue List, and placed in the top five in the latest round of the Drone Dominance program. (Defense News)",
-          "source": "Defense News",
-          "url": "https://www.defensenews.com/industry/techwatch/2026/10/12/vector-nammo-expand-push-to-mass-produce-armed-drones/",
-          "date": "2026-10-20",
-          "tags": [
-            "armed_drones",
-            "munitions",
-            "drone_production",
-            "ausa",
-            "drone_dominance"
-          ],
-          "subcatId": "military_autonomy",
           "fighterId": "t800"
         }
       ],
@@ -1793,6 +1796,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-26_scan_2214_dublin",
+      "at": "2026-10-26T22:15:51.011Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~22:14 London, Mon 26 Oct (site-only scan; covers 20:10 Mon 26 Oct to now; UK clocks GMT). SOUTHCOM unmanned-river / autonomy exclusive (promoted to T-800): Breaking Defense, 'EXCLUSIVE: SOUTHCOM chief seeks unmanned river solution as he embraces autonomy', 26 Oct, article text settled over three hours (including after the 17:37 GMT dateModified) with matching title across consecutive raw saves; Gen. Donovan is seeking a river reconnaissance mix of unmanned surface/air/subsurface platforms after standing up SAWC and deploying Saronic Corsair USVs to Guantanamo and Panama Canal security missions — “not just for testing anymore.” An operational autonomy demand-and-deployment signal rather than a newly demonstrated autonomous engagement leap abroad, so the T-800 score holds. Board: the mid-October Defense News Vector/Nammo mass-armed-drone headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Puts Mississippi First with Historic Tax Cuts, Surging Investment, and Stronger Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Guardian Meta $95bn stock offering remains settle+full-text clear but is still a finance/capex fundraising piece below the Skynet capability bar; SCMP China AI-data/state-owned-giant remains settled but the saved extract is still too thin for the full-text gate; SCMP Europe AI-rules opinion and South Korea AI-chip surplus remain below the Skynet capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; TWZ FQ-42 is already on the board; older TWZ LUCAS / Merops / FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the prior T-800 floor. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 86 documents (was 85 at the 20:10 scan). T-800 holds at 33; T-1000 holds at 5; Skynet holds at 53.",
+      "patchId": "patch_2026-10-26_scan_2214_dublin"
+    },
+    {
       "id": "patch_2026-10-26_scan_2010_dublin",
       "at": "2026-10-26T20:10:55.068Z",
       "by": "judgment-day-watch",
@@ -2583,14 +2594,6 @@
       "type": "patch",
       "summary": "Scan ~18:09 London, Sun 18 Oct (site-only scan; covers 16:14 to now). UK/US (promoted to Skynet): The Guardian, 'What are self-replicating ‘AI worms’, and why is Anthropic worried about them?', title, modified time and article text unchanged across saves at 16:13 and 18:07; an explainer on Anthropic's red-team research demonstration of a self-spreading AI program on smart TVs, with security experts split between concern and scepticism. It follows up the Anthropic self-replication research that left this board on 17 Oct, adding outside expert reaction. A research demo and explainer, not a capability change, so the Skynet score holds. Board: the 15 Oct item on eight states suing OpenAI over self-improving models rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a research demo and explainer, not a capability change).",
       "patchId": "patch_2026-10-18_scan_1809_dublin"
-    },
-    {
-      "id": "patch_2026-10-18_scan_1614_dublin",
-      "at": "2026-10-18T15:14:37.662Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~16:14 London, Sun 18 Oct (site-only scan; covers 14:07 to now). US (promoted to T-800): The Verge, 'Cities want to put the boot on robotaxis', title, modified time and article text unchanged across saves at 14:07 and 16:13; with federal autonomous-vehicle legislation stalled, US cities and states are writing their own robotaxi rules, from a proposed Minneapolis human-monitor requirement to draft California emergency override and shut-off protocols. A regulatory pushback story, not a capability change, so the T-800 score holds. Board: the 6 Oct item on Shield AI and Innovaero's autonomous loitering munitions collaboration rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a regulatory pushback story, not a capability change).",
-      "patchId": "patch_2026-10-18_scan_1614_dublin"
     }
   ],
   "pendingPosts": [
