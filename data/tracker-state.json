@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-26T10:17:11.546Z",
+    "lastUpdated": "2026-10-26T12:18:14.308Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-26T10:15:00+00:00",
-    "lastScanSummary": "Scan ~10:15 London, Mon 26 Oct (site-only scan; covers 08:14 Mon 26 Oct to now; UK clocks GMT). No promotion this scan. Priority recheck SCMP Chinese video-AI (HKU study ranking ByteDance Seedance ahead of US rivals on visual quality but behind on safeguards) now has matching title across consecutive raw saves and a full-text extract clearing the full-text gate thresholds, but published time is still under the three-hour settle window (~2.2h at scan), so it stays held for the next wake. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still fails the full-text gate on the saved extract; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; Verge r/opensource AI-ban item is settled on publish time but fails the full-text gate on the saved extract; the BBC Kent AI data-centre planning approval remains below the board's bar; Breaking Defense battlefield drone-swarms item remains sponsored; Breaking Defense Turkish Ateş Serbest unmanned-systems demonstration is under the three-hour settle window; SCMP South Korea AI-chip surplus piece is under the three-hour settle window; TWZ Ghost Shark payload-bay first look clears age/settle/full-text but is an incremental follow-on to the Ghost Shark aerial-drone board item already on T-800, so it was not promoted; older TWZ FQ-44 / MQ-72C / Nomad and BD Primordial AI-assistant pieces fail the age gate versus the T-800 floor. Board tops unchanged (T-800 Defense News USAF AI aerial refueling; Skynet Military Times Navy Super Intelligence rebrand). All headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) now lists seventeen documents (was sixteen at the 08:14 scan), including the Coast Guard Super Intelligence CRADA dated 26 Oct and the DeepSeek exclusion notice; the current public inspection list is live again and carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-26T12:18:00+00:00",
+    "lastScanSummary": "Scan ~12:18 London, Mon 26 Oct (site-only scan; covers 10:15 Mon 26 Oct to now; UK clocks GMT). Turkish Ateş Serbest unmanned demo (promoted to T-800): Breaking Defense, 'Unmanned systems take center stage at Turkish Ateş Serbest military demonstration', 26 Oct, article text settled over three hours with matching title across saves; the exercise (translated as \"Free Fire\") showcased unmanned systems including TAI’s Ayaz one-way attack UAV shown publicly for the first time and Super Simsek flying with a warhead. This is a live-fire demo/export showcase rather than a newly demonstrated autonomous engagement leap abroad, so the T-800 score holds. Board: the mid-October Breaking Defense DIU SWAP USV Sprint 2 counter-air headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: SCMP Chinese video-AI study now has matching titles and a full-text extract clearing full-text thresholds, but dateModified moved to 26 Oct 18:27 +08 (~10:27 GMT) so settle from the latest timestamp is still under three hours; SCMP South Korea AI-chip surplus clears settle and full-text but is a macro trade-surplus economics piece below the Skynet board’s capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; older TWZ FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the T-800 floor. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is unavailable this pass so the last-known public inspection count of 107 from the prior live fetch is carried forward. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261026_breakingdefense_turkish_ates_serbest_unmanned_demo",
+          "html": "<strong>Unmanned systems take center stage at Turkish Ateş Serbest military demonstration</strong> Per Breaking Defense, Turkey’s Ateş Serbest live-fire exercise (translated as &quot;Free Fire&quot;) put unmanned systems at the forefront, including the first public showing of Turkish Aerospace Industries’ Ayaz, a turbojet-powered one-way attack UAV, and Super Simsek flying with a warhead — a demo/export showcase rather than a newly demonstrated autonomous engagement leap abroad. (Breaking Defense)",
+          "plain": "Unmanned systems take center stage at Turkish Ateş Serbest military demonstration Per Breaking Defense, Turkey’s Ateş Serbest live-fire exercise (translated as \"Free Fire\") put unmanned systems at the forefront, including the first public showing of Turkish Aerospace Industries’ Ayaz, a turbojet-powered one-way attack UAV, and Super Simsek flying with a warhead — a demo/export showcase rather than a newly demonstrated autonomous engagement leap abroad. (Breaking Defense)",
+          "source": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/10/unmanned-systems-take-center-stage-at-turkish-ates-serbest-military-demonstration/",
+          "date": "2026-10-26",
+          "tags": [
+            "turkey",
+            "unmanned",
+            "ates_serbest",
+            "ayaz",
+            "one_way_attack_uav"
+          ],
+          "subcatId": "drones",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261023_defensenews_usaf_ai_aerial_refueling",
           "html": "<strong>US Air Force wants AI to assist aerial refueling</strong> Per Defense News, a US Air Force Small Business Innovation Research solicitation seeks AI that can analyze tanker-camera refueling footage and provide &quot;hot wash&quot; feedback to crews, focused on the KC-46 remote vision system — a training/assessment SBIR rather than a newly demonstrated combat autonomous engagement leap. (Defense News)",
           "plain": "US Air Force wants AI to assist aerial refueling Per Defense News, a US Air Force Small Business Innovation Research solicitation seeks AI that can analyze tanker-camera refueling footage and provide \"hot wash\" feedback to crews, focused on the KC-46 remote vision system — a training/assessment SBIR rather than a newly demonstrated combat autonomous engagement leap. (Defense News)",
@@ -689,23 +706,6 @@
             "autonomous_weapons",
             "reconciliation",
             "ausa"
-          ],
-          "subcatId": "military_autonomy",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261019_breakingdefense_diu_swap_usv_sprint2_counter_air",
-          "html": "<strong>DIU unveils next phase in unmanned vessel competition</strong> Per Breaking Defense, the Defense Innovation Unit has opened Sprint 2 of its SWAP-USV competition, seeking unmanned surface vessels fitted with &quot;mature hard-kill Counter-Air effectors and clutter-resilient sensor suites&quot;. The solicitation says this phase focuses on &quot;detecting, tracking, and defeating hostile airborne threats in contested maritime environments&quot;, with proposals expected to engage Groups 1–3 drones and rotary-wing aircraft. Submissions are due by Nov. 30, with in-water testing expected in early 2027; Sprints 1 and 2 each offer up to $40 million in prize money, and the government has earmarked $200 million for follow-on contracts. (Breaking Defense)",
-          "plain": "DIU unveils next phase in unmanned vessel competition Per Breaking Defense, the Defense Innovation Unit has opened Sprint 2 of its SWAP-USV competition, seeking unmanned surface vessels fitted with \"mature hard-kill Counter-Air effectors and clutter-resilient sensor suites\". The solicitation says this phase focuses on \"detecting, tracking, and defeating hostile airborne threats in contested maritime environments\", with proposals expected to engage Groups 1–3 drones and rotary-wing aircraft. Submissions are due by Nov. 30, with in-water testing expected in early 2027; Sprints 1 and 2 each offer up to $40 million in prize money, and the government has earmarked $200 million for follow-on contracts. (Breaking Defense)",
-          "source": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/10/diu-unveils-next-phase-in-unmanned-vessel-competition/",
-          "date": "2026-10-20",
-          "tags": [
-            "diu",
-            "unmanned_surface_vessel",
-            "counter_drone",
-            "us_navy",
-            "hard_kill"
           ],
           "subcatId": "military_autonomy",
           "fighterId": "t800"
@@ -1791,6 +1791,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-26_scan_1218_dublin",
+      "at": "2026-10-26T12:18:14.308Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~12:18 London, Mon 26 Oct (site-only scan; covers 10:15 Mon 26 Oct to now; UK clocks GMT). Turkish Ateş Serbest unmanned demo (promoted to T-800): Breaking Defense, 'Unmanned systems take center stage at Turkish Ateş Serbest military demonstration', 26 Oct, article text settled over three hours with matching title across saves; the exercise (translated as \"Free Fire\") showcased unmanned systems including TAI’s Ayaz one-way attack UAV shown publicly for the first time and Super Simsek flying with a warhead. This is a live-fire demo/export showcase rather than a newly demonstrated autonomous engagement leap abroad, so the T-800 score holds. Board: the mid-October Breaking Defense DIU SWAP USV Sprint 2 counter-air headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: SCMP Chinese video-AI study now has matching titles and a full-text extract clearing full-text thresholds, but dateModified moved to 26 Oct 18:27 +08 (~10:27 GMT) so settle from the latest timestamp is still under three hours; SCMP South Korea AI-chip surplus clears settle and full-text but is a macro trade-surplus economics piece below the Skynet board’s capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; older TWZ FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the T-800 floor. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is unavailable this pass so the last-known public inspection count of 107 from the prior live fetch is carried forward. T-800 holds at 33; T-1000 holds at 5; Skynet holds at 53.",
+      "patchId": "patch_2026-10-26_scan_1218_dublin"
+    },
+    {
       "id": "patch_2026-10-26_scan_1015_dublin",
       "at": "2026-10-26T10:17:11.546Z",
       "by": "judgment-day-watch",
@@ -2581,14 +2589,6 @@
       "type": "patch",
       "summary": "Scan ~08:14 London, Sun 18 Oct (site-only scan; covers 06:10 to now). US (promoted to Skynet): The Verge, 'Now that Character.AI is going bankrupt, what happens to all of its users’ data?', title, modified time and article text unchanged across saves at 06:10 and 08:12; 40 bipartisan state attorneys general filed a notice of interest in Character.AI's Chapter 11 case, seeking protections for sensitive user chat data in any sale of its assets, and Character.AI's CEO disputed their account of the platform's safety. A regulatory and data-governance action, not a capability change, so the Skynet score holds. Board: the 12 Oct explainer on AI and bioweapons risk rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a regulatory and data-governance action, not a capability change).",
       "patchId": "patch_2026-10-18_scan_0814_dublin"
-    },
-    {
-      "id": "patch_2026-10-18_scan_0610_dublin",
-      "at": "2026-10-18T05:10:28.201Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~06:10 London, Sun 18 Oct (site-only scan; covers 04:08 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-18_scan_0610_dublin"
     }
   ],
   "pendingPosts": [
