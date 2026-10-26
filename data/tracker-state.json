@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-26T02:10:44.788Z",
+    "lastUpdated": "2026-10-26T04:07:41.806Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-26T02:10:00+00:00",
-    "lastScanSummary": "Scan ~02:10 London, Mon 26 Oct (site-only scan; covers 00:11 Mon 26 Oct to now; UK clocks GMT). Unitree guardian robot (promoted to T-800): SCMP, 'China’s Unitree unveils ‘guardian’ robot that can disarm attackers, lift cars', 22 Oct, article text settled over three hours with matching title across saves; Unitree's H2-X \"guardian\" promo clip shows disarming an attacker and lifting a car as the firm seeks practical uses for athletic humanoids. This is a promotional capability demo rather than a newly demonstrated fielded autonomous engagement leap, so the T-800 score holds. Board: the mid-October TWZ F-22/YFQ-44A Fury CCA cockpit-control headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: SCMP China humanoids in Korea and Defense News USAF AI aerial-refueling cleared settle/full-text/age gates but were left under the one-promotion cap behind the Unitree guardian story; Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-26T04:07:00+00:00",
+    "lastScanSummary": "Scan ~04:07 London, Mon 26 Oct (site-only scan; covers 02:10 Mon 26 Oct to now; UK clocks GMT). China humanoids in Korea (promoted to T-800): SCMP, 'China’s humanoid robots hunt for work in South Korea as Seoul bets on physical AI', 23 Oct, article text settled over three hours with matching title across saves; Chinese makers are pushing beyond demos into South Korean factory trials and commercial deployments as Seoul bets on \"physical AI\". This is a commercial foothold/deployment story rather than a newly demonstrated combat autonomous engagement leap, so the T-800 score holds. Board: the mid-October Defense News Army xTech humanoid competition headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Defense News USAF AI aerial-refueling cleared settle/full-text/age gates but was left under the one-promotion cap behind the Korea humanoids story; Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261023_scmp_china_humanoids_korea_physical_ai",
+          "html": "<strong>China’s humanoid robots hunt for work in South Korea as Seoul bets on physical AI</strong> Per SCMP (via a Korea Times partnership), Chinese humanoid robot makers are accelerating a foothold in South Korea, moving beyond showroom displays to factory trials and commercial deployments as Seoul ramps investment in &quot;physical AI&quot; — a commercial/deployment story rather than a newly demonstrated combat autonomy leap. (SCMP)",
+          "plain": "China’s humanoid robots hunt for work in South Korea as Seoul bets on physical AI Per SCMP (via a Korea Times partnership), Chinese humanoid robot makers are accelerating a foothold in South Korea, moving beyond showroom displays to factory trials and commercial deployments as Seoul ramps investment in \"physical AI\" — a commercial/deployment story rather than a newly demonstrated combat autonomy leap. (SCMP)",
+          "source": "SCMP",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3371888/chinas-humanoid-robots-hunt-work-south-korea-seoul-bets-physical-ai",
+          "date": "2026-10-26",
+          "tags": [
+            "humanoid",
+            "china",
+            "korea",
+            "physical_ai",
+            "unitree"
+          ],
+          "subcatId": "humanoids",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261022_scmp_unitree_guardian_h2x_robot",
           "html": "<strong>China’s Unitree unveils ‘guardian’ robot that can disarm attackers, lift cars</strong> Per SCMP, Unitree released promo footage of its H2-X &quot;guardian&quot; robot confronting a knife-wielding intruder, lifting a car to free a trapped victim and pulling a pedestrian from an oncoming vehicle — a marketing demo underscoring Hangzhou-based Unitree&#x27;s push toward practical real-world uses for athletic humanoids rather than a fielded combat system. (SCMP)",
           "plain": "China’s Unitree unveils ‘guardian’ robot that can disarm attackers, lift cars Per SCMP, Unitree released promo footage of its H2-X \"guardian\" robot confronting a knife-wielding intruder, lifting a car to free a trapped victim and pulling a pedestrian from an oncoming vehicle — a marketing demo underscoring Hangzhou-based Unitree's push toward practical real-world uses for athletic humanoids rather than a fielded combat system. (SCMP)",
@@ -691,23 +708,6 @@
             "medevac"
           ],
           "subcatId": "military_autonomy",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261019_defensenews_army_xtechhumanoid_competition_winners",
-          "html": "<strong>US Army competition explores military uses for humanoid robots</strong> Per Defense News, the U.S. Army&#x27;s technology accelerator has named five winners of its xTechHumanoid competition, which assessed how emerging commercial humanoid robots could contribute to future military operations: ACES Group, IHMC Robotics, Hydroplane Limited, Ras Labs and Velocity Explorations. &quot;Humanoid robots are part of a broader autonomy push to increase the depth and breadth of robotic platforms and components industry can provide for a range of missions,&quot; said Army chief technology officer Alex Miller. The robots were tested on collective tasks &quot;in the context of a military small unit mission conducted in a combat situation.&quot; A senior IHMC Robotics researcher said the Army&#x27;s individual requirements exceeded what current technology can achieve, and that robots should not be making life-or-death decisions. (Defense News)",
-          "plain": "US Army competition explores military uses for humanoid robots Per Defense News, the U.S. Army's technology accelerator has named five winners of its xTechHumanoid competition, which assessed how emerging commercial humanoid robots could contribute to future military operations: ACES Group, IHMC Robotics, Hydroplane Limited, Ras Labs and Velocity Explorations. \"Humanoid robots are part of a broader autonomy push to increase the depth and breadth of robotic platforms and components industry can provide for a range of missions,\" said Army chief technology officer Alex Miller. The robots were tested on collective tasks \"in the context of a military small unit mission conducted in a combat situation.\" A senior IHMC Robotics researcher said the Army's individual requirements exceeded what current technology can achieve, and that robots should not be making life-or-death decisions. (Defense News)",
-          "source": "Defense News",
-          "url": "https://www.defensenews.com/industry/techwatch/2026/10/16/us-army-competition-explores-military-uses-for-humanoid-robots/",
-          "date": "2026-10-19",
-          "tags": [
-            "humanoid_robots",
-            "us_army",
-            "xtech",
-            "military_autonomy",
-            "ihmc"
-          ],
-          "subcatId": "humanoid_locomotion",
           "fighterId": "t800"
         }
       ],
@@ -1791,6 +1791,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-26_scan_0407_dublin",
+      "at": "2026-10-26T04:07:41.806Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~04:07 London, Mon 26 Oct (site-only scan; covers 02:10 Mon 26 Oct to now; UK clocks GMT). China humanoids in Korea (promoted to T-800): SCMP, 'China’s humanoid robots hunt for work in South Korea as Seoul bets on physical AI', 23 Oct, article text settled over three hours with matching title across saves; Chinese makers are pushing beyond demos into South Korean factory trials and commercial deployments as Seoul bets on \"physical AI\". This is a commercial foothold/deployment story rather than a newly demonstrated combat autonomous engagement leap, so the T-800 score holds. Board: the mid-October Defense News Army xTech humanoid competition headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Defense News USAF AI aerial-refueling cleared settle/full-text/age gates but was left under the one-promotion cap behind the Korea humanoids story; Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, SCMP China humanoids in Korea, no score change).",
+      "patchId": "patch_2026-10-26_scan_0407_dublin"
+    },
+    {
       "id": "patch_2026-10-26_scan_0210_dublin",
       "at": "2026-10-26T02:10:44.788Z",
       "by": "judgment-day-watch",
@@ -2581,14 +2589,6 @@
       "type": "patch",
       "summary": "Scan ~00:04 London, Sun 18 Oct (site-only scan; covers 22:04 Sat to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
       "patchId": "patch_2026-10-18_scan_0004_dublin"
-    },
-    {
-      "id": "patch_2026-10-17_scan_2204_dublin",
-      "at": "2026-10-17T21:05:05.477Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~22:04 London, Sat 17 Oct (site-only scan; covers 20:11 to now). UK (promoted to T-800): BBC, 'Protesters call for London robotaxi trials to stop' (page title: 'Protesters outside Wayve offices call for London robotaxi trials to stop'), title, modified time and text unchanged across saves at 20:10 and 22:04; about 15 people protested outside Wayve's London offices over the safety, congestion and jobs impact of its supervised driverless taxi trials; Wayve said it is taking a phased approach, and TfL said any automated passenger service needs its consent. A protest and policy debate, not a capability change, so the T-800 score holds. Board: the 5 Oct item on the Pentagon's Swarm Forge autonomous drone initiative rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is still 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (a protest and policy debate, not a capability change).",
-      "patchId": "patch_2026-10-17_scan_2204_dublin"
     }
   ],
   "pendingPosts": [
