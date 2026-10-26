@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-25T22:06:17.949Z",
+    "lastUpdated": "2026-10-26T00:11:37.558Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-25T22:06:00+00:00",
-    "lastScanSummary": "Scan ~22:06 London, Sun 25 Oct (site-only scan; covers 20:12 Sun 25 Oct to now; UK clocks GMT). Qatari Barzan Milipol drones (promoted to T-800): Breaking Defense, 'Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026', 23 Oct, article text settled over three hours with matching title across saves; Barzan Holdings unveiled first-person-view (FPV) drones, VTOL UAVs, unmanned surface vessels and EW platforms at Milipol 2026 under the \"Made in Qatar\" initiative, and announced a Ukraine joint venture for layered air defence. This is an exhibition unveil and industrial-capacity story rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. Board: the mid-October Verge cities/states robotaxi headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar; TWZ Merops interceptor and LUCAS kamikaze pieces and BD battlefield-drone-swarms autonomy item were rechecked on homes but are older than the T-800 roll-off date so fail the age gate versus the board floor. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-26T00:11:00+00:00",
+    "lastScanSummary": "Scan ~00:11 London, Mon 26 Oct (site-only scan; covers 22:06 Sun 25 Oct to now; UK clocks GMT). Unitree self-evolving humanoids (promoted to T-800): SCMP, 'Unitree developing AI system to let humanoid robots improve themselves', 22 Oct, article text settled over three hours with matching title across saves; founder Wang Xingxing unveiled \"Unitree Rehearsal\", a \"self-evolving\" loop for humanoids to write code, simulate and improve on-robot, shifting away from manual programming. This is a development unveil rather than a newly demonstrated combat or field autonomy leap, so the T-800 score holds. Board: the mid-October CNA Australia Ghost Shark headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar; SCMP Unitree guardian-robot and China-humanoids-in-Korea pieces and Defense News USAF AI aerial-refueling cleared age/settle screens but were left under the one-promotion cap behind Unitree Rehearsal; older BD battery/AGV and D1 Shahed/AI-grants and TWZ Nomad items fail the age gate versus the T-800 floor (19 Oct). Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,23 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261022_scmp_unitree_rehearsal_self_evolving_humanoids",
+          "html": "<strong>Unitree developing AI system to let humanoid robots improve themselves</strong> Per SCMP, Unitree Robotics founder Wang Xingxing unveiled &quot;Unitree Rehearsal&quot;, a &quot;self-evolving&quot; feedback loop meant to let humanoid robots search papers, write code, run simulations and improve real-world performance with less manual programming — a development programme rather than a fielded autonomous leap. (SCMP)",
+          "plain": "Unitree developing AI system to let humanoid robots improve themselves Per SCMP, Unitree Robotics founder Wang Xingxing unveiled \"Unitree Rehearsal\", a \"self-evolving\" feedback loop meant to let humanoid robots search papers, write code, run simulations and improve real-world performance with less manual programming — a development programme rather than a fielded autonomous leap. (SCMP)",
+          "source": "SCMP",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3371818/unitree-developing-ai-system-let-humanoid-robots-improve-themselves",
+          "date": "2026-10-26",
+          "tags": [
+            "unitree",
+            "humanoid",
+            "china",
+            "self_improving",
+            "rehearsal"
+          ],
+          "subcatId": "humanoids",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261023_bd_qatari_barzan_milipol_drones_usv",
           "html": "<strong>Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026</strong> Per Breaking Defense, state-owned Barzan Holdings unveiled more than a dozen platforms at Milipol 2026 in Doha, including first-person-view (FPV) drones, VTOL uncrewed aerial vehicles, unmanned surface vessels and electronic warfare systems under Qatar&#x27;s &quot;Made in Qatar&quot; defense push, plus a Ukraine joint venture for layered air defence. (Breaking Defense)",
           "plain": "Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026 Per Breaking Defense, state-owned Barzan Holdings unveiled more than a dozen platforms at Milipol 2026 in Doha, including first-person-view (FPV) drones, VTOL uncrewed aerial vehicles, unmanned surface vessels and electronic warfare systems under Qatar's \"Made in Qatar\" defense push, plus a Ukraine joint venture for layered air defence. (Breaking Defense)",
@@ -690,25 +707,6 @@
             "crewed_uncrewed_teaming",
             "anduril",
             "usaf"
-          ],
-          "subcatId": "military_autonomy",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261019_cna_australia_ghost_shark_autonomous_sub_drone_swarms_sea_mines",
-          "html": "<strong>Australia&#x27;s new &#x27;Ghost Shark&#x27; submarines to carry aerial drones, sea mines</strong> A report carried by CNA says Australia is equipping its Ghost Shark autonomous submarine with &quot;swarms&quot; of aerial drones and sea mines, its defence ministry said on Monday. Anduril jointly developed the extra-large submarine drone with Australia&#x27;s defence scientists and is building a Ghost Shark fleet for Canberra under an A$1.8 billion contract. Defence Industry Minister Pat Conroy said that after secret trials, three payloads had been approved to &quot;do things we don&#x27;t want humans to do&quot;: up to 12 sea mines, equipment for special forces, and Anduril&#x27;s Altius aerial drone, which can be launched at sea to form swarms for reconnaissance and strike. &quot;Not only could there be Ghost Sharks in those shipping containers, but those Ghost Sharks now have teeth,&quot; he said. Officials said the Ghost Shark would work in tandem with the crewed submarine fleet. (CNA)",
-          "plain": "Australia's new 'Ghost Shark' submarines to carry aerial drones, sea mines A report carried by CNA says Australia is equipping its Ghost Shark autonomous submarine with \"swarms\" of aerial drones and sea mines, its defence ministry said on Monday. Anduril jointly developed the extra-large submarine drone with Australia's defence scientists and is building a Ghost Shark fleet for Canberra under an A$1.8 billion contract. Defence Industry Minister Pat Conroy said that after secret trials, three payloads had been approved to \"do things we don't want humans to do\": up to 12 sea mines, equipment for special forces, and Anduril's Altius aerial drone, which can be launched at sea to form swarms for reconnaissance and strike. \"Not only could there be Ghost Sharks in those shipping containers, but those Ghost Sharks now have teeth,\" he said. Officials said the Ghost Shark would work in tandem with the crewed submarine fleet. (CNA)",
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/australia-ghost-shark-submarine-drone-6471046",
-          "date": "2026-10-19",
-          "tags": [
-            "ghost_shark",
-            "autonomous_submarine",
-            "drone_swarms",
-            "sea_mines",
-            "anduril",
-            "australia",
-            "aukus"
           ],
           "subcatId": "military_autonomy",
           "fighterId": "t800"
@@ -1794,6 +1792,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-26_scan_0011_dublin",
+      "at": "2026-10-26T00:11:37.558Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~00:11 London, Mon 26 Oct (site-only scan; covers 22:06 Sun 25 Oct to now; UK clocks GMT). Unitree self-evolving humanoids (promoted to T-800): SCMP, 'Unitree developing AI system to let humanoid robots improve themselves', 22 Oct, article text settled over three hours with matching title across saves; founder Wang Xingxing unveiled \"Unitree Rehearsal\", a \"self-evolving\" loop for humanoids to write code, simulate and improve on-robot, shifting away from manual programming. This is a development unveil rather than a newly demonstrated combat or field autonomy leap, so the T-800 score holds. Board: the mid-October CNA Australia Ghost Shark headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar; SCMP Unitree guardian-robot and China-humanoids-in-Korea pieces and Defense News USAF AI aerial-refueling cleared age/settle screens but were left under the one-promotion cap behind Unitree Rehearsal; older BD battery/AGV and D1 Shahed/AI-grants and TWZ Nomad items fail the age gate versus the T-800 floor (19 Oct). Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, SCMP Unitree self-evolving humanoid AI, no score change).",
+      "patchId": "patch_2026-10-26_scan_0011_dublin"
+    },
+    {
       "id": "patch_2026-10-25_scan_2206_dublin",
       "at": "2026-10-25T22:06:17.949Z",
       "by": "judgment-day-watch",
@@ -2584,14 +2590,6 @@
       "type": "patch",
       "summary": "Scan ~20:11 London, Sat 17 Oct (site-only scan; covers 18:08 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
       "patchId": "patch_2026-10-17_scan_2011_dublin"
-    },
-    {
-      "id": "patch_2026-10-17_scan_1808_dublin",
-      "at": "2026-10-17T17:08:20.067Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~18:08 London, Sat 17 Oct (site-only scan; covers 17:02 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-17_scan_1808_dublin"
     }
   ],
   "pendingPosts": [
