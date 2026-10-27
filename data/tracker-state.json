@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-27T06:13:12.016Z",
+    "lastUpdated": "2026-10-27T08:18:25.510Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-27T06:12:00+00:00",
-    "lastScanSummary": "Scan ~06:12 London, Tue 27 Oct (site-only scan; covers 04:18 Tue 27 Oct to now; UK clocks GMT). Huawei–DeepSeek Ascend chip-ecosystem catch-up (promoted to Skynet): SCMP, '‘Jensen’s nightmare’: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report', 22 Oct, article text settled well over three hours with matching title across consecutive raw saves and a full-text extract (JSON-LD articleBody) that clears the full-text gate; SemiAnalysis reports deepening “symbiosis” as DeepSeek ships Ascend-tailored software (including Ascend-compatible TileLang) alongside Ascend 950PR experimentation, narrowing Nvidia’s hardware/software lead in a scenario cast as Jensen Huang’s “nightmare is starting to come true”, toward a more “independent and controllable” domestic stack. A China chip-ecosystem / software-stack advance rather than a newly demonstrated autonomous engagement leap abroad, so the Skynet score holds. Board: the mid-October CNA OpenAI-agents / weakened-internal-monitoring headline rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Puts Mississippi First with Historic Tax Cuts, Surging Investment, and Stronger Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Guardian Anthropic stock-market listing now clears the three-hour settle window on its overnight dateModified but remains finance/valuation below the Skynet capability bar; Verge 'Anthropic is burning gas to feed the AI boom' clears settle but The Verge marks isAccessibleForFree:false so visible-quote rules keep it held, and it remains energy/IPO-adjacent below the Skynet bar; Verge Tesla Optimus in-production claim remains under visible-quote hold (isAccessibleForFree:false); Verge GPT-6.1 Terra computer-use clears settle but isAccessibleForFree:false with a thin JSON-LD articleBody that fails the full-text gate; Guardian Meta $95bn stock offering and SCMP Cambricon profit surge remain finance/capex below the Skynet bar; Breaking Defense Helsing Contra air-defense clears settle and is not sponsored but was not selected under the one-promote cap (this scan’s slot went to the Huawei/DeepSeek Skynet item); Breaking Defense battlefield drone-swarms remains sponsored; older TWZ / BD items remain incremental or fail the age gate versus the current T-800 floor (Ghost Shark XL-AUV). Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 86 documents (unchanged from the 04:18 scan). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
+    "lastScanAt": "2026-10-27T08:17:00+00:00",
+    "lastScanSummary": "Scan ~08:17 London, Tue 27 Oct (site-only scan; covers 06:12 Tue 27 Oct to now; UK clocks GMT). Helsing Contra AI air-defence / AD-1 and AD-2 interceptors (promoted to T-800): Breaking Defense, 'Helsing rolls out Contra air defense design, plus two new inteceptors', 26 Oct, article text settled well over three hours with matching title across consecutive raw saves and a full-text extract that clears the full-text gate; isSponsored is 0 and the piece is not Sponsored Content; Helsing bills Contra as an “AI-controlled autonomous air defence system” able to track and engage “hundreds or thousands of drone and missile threats at the same time”, with the jet-powered AD-1 Inferno “capable of aerial loitering, swarming, and repeated re-engagements” and solid-rocket AD-2 Ambush as container-launched add-ons. A product / design announcement with AI sensor–effector linking rather than a newly demonstrated combat engagement, so the T-800 score holds. Board: the late-October TWZ Ghost Shark XL-AUV / aerial-drone launch footage headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Puts Mississippi First with Historic Tax Cuts, Surging Investment, and Stronger Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Guardian Anthropic stock-market listing clears the three-hour settle window but remains finance/valuation below the Skynet capability bar; Verge 'Anthropic is burning gas to feed the AI boom' clears settle but The Verge marks isAccessibleForFree:false so visible-quote rules keep it held, and it remains energy/IPO-adjacent below the Skynet bar; Verge Tesla Optimus in-production claim remains under visible-quote hold (isAccessibleForFree:false); Verge GPT-6.1 Terra computer-use clears settle but isAccessibleForFree:false with a thin JSON-LD articleBody that fails the full-text gate; Guardian Meta $95bn stock offering and SCMP Cambricon profit surge remain finance/capex below the Skynet bar; Breaking Defense battlefield drone-swarms remains sponsored; older TWZ / BD items remain incremental or fail the age gate versus the pre-promote T-800 floor (Ghost Shark XL-AUV). Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) now lists eighteen documents (up from seventeen at the 06:12 scan), including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 86 documents (unchanged from the 06:12 scan). T-800 progress to 33%. T-1000 progress to 5%. Skynet progress to 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,27 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261027_breakingdefense_helsing_contra_ad1_ad2_interceptors",
+          "html": "<strong>Helsing rolls out Contra air defense design, plus two new inteceptors</strong> Per Breaking Defense, Germany’s Helsing unveiled Contra, billed as an “AI-controlled autonomous air defence system” that can track and engage “hundreds or thousands of drone and missile threats at the same time”, alongside two new container-launched interceptors: the jet-powered AD-1 Inferno, “capable of aerial loitering, swarming, and repeated re-engagements”, and the solid-rocket AD-2 Ambush. An air-defence product announcement with AI sensor–effector linking rather than a newly demonstrated combat engagement, so the T-800 score holds. (Breaking Defense)",
+          "plain": "Helsing rolls out Contra air defense design, plus two new inteceptors Per Breaking Defense, Germany’s Helsing unveiled Contra, billed as an “AI-controlled autonomous air defence system” that can track and engage “hundreds or thousands of drone and missile threats at the same time”, alongside two new container-launched interceptors: the jet-powered AD-1 Inferno, “capable of aerial loitering, swarming, and repeated re-engagements”, and the solid-rocket AD-2 Ambush. An air-defence product announcement with AI sensor–effector linking rather than a newly demonstrated combat engagement, so the T-800 score holds. (Breaking Defense)",
+          "source": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/10/helsing-rolls-out-contra-air-defense-design-plus-two-new-inteceptors/",
+          "date": "2026-10-27",
+          "tags": [
+            "helsing",
+            "contra",
+            "air_defense",
+            "interceptors",
+            "ad1",
+            "ad2",
+            "autonomous",
+            "europe",
+            "golden_dome"
+          ],
+          "subcatId": "military_autonomy",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261027_scmp_taiwan_autonomous_swarms_grey_zone_maritime",
           "html": "<strong>Taiwan looks to autonomous swarms to counter Beijing’s grey-zone pressure</strong> Per SCMP, Taiwan’s Ocean Affairs Council is funding an AI-powered system so different drone types can autonomously divide tasks and plan routes for coastguard “grey-zone” maritime surveillance; a National Cheng Kung University team finished a simultaneous flight simulation of two fleets comprising 20 drones and reported “multi-drone coordination”, wide-area coverage and persistent surveillance as “eyes in the sky”, with hardware-in-the-loop trials next. An early-stage “maritime domain awareness” / swarm-control research programme rather than a newly fielded autonomous combat system, so the T-800 score holds. (SCMP)",
           "plain": "Taiwan looks to autonomous swarms to counter Beijing’s grey-zone pressure Per SCMP, Taiwan’s Ocean Affairs Council is funding an AI-powered system so different drone types can autonomously divide tasks and plan routes for coastguard “grey-zone” maritime surveillance; a National Cheng Kung University team finished a simultaneous flight simulation of two fleets comprising 20 drones and reported “multi-drone coordination”, wide-area coverage and persistent surveillance as “eyes in the sky”, with hardware-in-the-loop trials next. An early-stage “maritime domain awareness” / swarm-control research programme rather than a newly fielded autonomous combat system, so the T-800 score holds. (SCMP)",
@@ -697,23 +718,6 @@
             "autonomy_retrofit",
             "pacific",
             "sea_machines"
-          ],
-          "subcatId": "drones",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261021_twz_ghost_shark_xlauv_footage_launching_aerial_drones",
-          "html": "<strong>Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time</strong> Per TWZ, new footage of Australia’s Ghost Shark extra-large autonomous underwater vehicle &quot;provides the first look at how the vehicle launches aerial drones&quot;. Published by manufacturer Anduril, the video shows the surfaced drone sub raising a launcher of 12 angled tubes and an ALTIUS-type drone being launched from one of them. With a second launcher in the other bay, TWZ says Ghost Shark can deploy a substantial number of aerial drones (&quot;two dozen in this case&quot;) in a single sortie. The footage also reveals a pair of deployable masts not previously seen on the platform. (TWZ)",
-          "plain": "Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time Per TWZ, new footage of Australia’s Ghost Shark extra-large autonomous underwater vehicle \"provides the first look at how the vehicle launches aerial drones\". Published by manufacturer Anduril, the video shows the surfaced drone sub raising a launcher of 12 angled tubes and an ALTIUS-type drone being launched from one of them. With a second launcher in the other bay, TWZ says Ghost Shark can deploy a substantial number of aerial drones (\"two dozen in this case\") in a single sortie. The footage also reveals a pair of deployable masts not previously seen on the platform. (TWZ)",
-          "source": "TWZ",
-          "url": "https://www.twz.com/sea/ghost-shark-uncrewed-submarine-shown-launching-aerial-drones-for-the-first-time",
-          "date": "2026-10-22",
-          "tags": [
-            "ghost_shark",
-            "anduril",
-            "xl_auv",
-            "drone_launch",
-            "australia"
           ],
           "subcatId": "drones",
           "fighterId": "t800"
@@ -1805,6 +1809,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-27_scan_0817_dublin",
+      "at": "2026-10-27T08:18:25.510Z",
+      "by": "judgment-day-watch",
+      "type": "patch",
+      "summary": "Scan ~08:17 London, Tue 27 Oct (site-only scan; covers 06:12 Tue 27 Oct to now; UK clocks GMT). Helsing Contra AI air-defence / AD-1 and AD-2 interceptors (promoted to T-800): Breaking Defense, 'Helsing rolls out Contra air defense design, plus two new inteceptors', 26 Oct, article text settled well over three hours with matching title across consecutive raw saves and a full-text extract that clears the full-text gate; isSponsored is 0 and the piece is not Sponsored Content; Helsing bills Contra as an “AI-controlled autonomous air defence system” able to track and engage “hundreds or thousands of drone and missile threats at the same time”, with the jet-powered AD-1 Inferno “capable of aerial loitering, swarming, and repeated re-engagements” and solid-rocket AD-2 Ambush as container-launched add-ons. A product / design announcement with AI sensor–effector linking rather than a newly demonstrated combat engagement, so the T-800 score holds. Board: the late-October TWZ Ghost Shark XL-AUV / aerial-drone launch footage headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Puts Mississippi First with Historic Tax Cuts, Surging Investment, and Stronger Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Guardian Anthropic stock-market listing clears the three-hour settle window but remains finance/valuation below the Skynet capability bar; Verge 'Anthropic is burning gas to feed the AI boom' clears settle but The Verge marks isAccessibleForFree:false so visible-quote rules keep it held, and it remains energy/IPO-adjacent below the Skynet bar; Verge Tesla Optimus in-production claim remains under visible-quote hold (isAccessibleForFree:false); Verge GPT-6.1 Terra computer-use clears settle but isAccessibleForFree:false with a thin JSON-LD articleBody that fails the full-text gate; Guardian Meta $95bn stock offering and SCMP Cambricon profit surge remain finance/capex below the Skynet bar; Breaking Defense battlefield drone-swarms remains sponsored; older TWZ / BD items remain incremental or fail the age gate versus the pre-promote T-800 floor (Ghost Shark XL-AUV). Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) now lists eighteen documents (up from seventeen at the 06:12 scan), including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 86 documents (unchanged from the 06:12 scan). T-800 holds at 33; T-1000 holds at 5; Skynet holds at 53.",
+      "patchId": "patch_2026-10-27_scan_0817_dublin"
+    },
+    {
       "id": "patch_2026-10-27_scan_0612_dublin",
       "at": "2026-10-27T06:13:12.016Z",
       "by": "judgment-day-watch",
@@ -2595,14 +2607,6 @@
       "type": "patch",
       "summary": "Scan ~04:13 London, Mon 19 Oct (site-only scan; covers 02:12 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
       "patchId": "patch_2026-10-19_scan_0413_dublin"
-    },
-    {
-      "id": "patch_2026-10-19_scan_0212_dublin",
-      "at": "2026-10-19T01:12:43.881Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~02:12 London, Mon 19 Oct (site-only scan; covers 00:06 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eight documents, none about AI policy; the public inspection list's presidential notices continue national emergencies and none concern AI. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-19_scan_0212_dublin"
     }
   ],
   "pendingPosts": [
