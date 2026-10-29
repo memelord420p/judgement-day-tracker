@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-29T16:15:27.842Z",
+    "lastUpdated": "2026-10-29T18:08:30.330Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-29T16:15:00+00:00",
-    "lastScanSummary": "Summary-only scan: no new settled AI-war or rogue-AI story cleared the bar since 14:16. Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-10-29T18:07:00+00:00",
+    "lastScanSummary": "Summary-only scan: no new settled AI-war or rogue-AI story cleared the bar since 16:15. Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1843,6 +1843,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-29_scan_1807_dublin",
+      "at": "2026-10-29T18:08:30.330Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-10-29_scan_1807_dublin"
+    },
+    {
       "id": "patch_2026-10-29_scan_1615_dublin",
       "at": "2026-10-29T16:15:27.842Z",
       "by": "apply-patch",
@@ -2633,14 +2641,6 @@
       "type": "patch",
       "summary": "Scan ~12:08 London, Wed 21 Oct (site-only scan; covers 10:03 to now). US (promoted to Skynet): CNA, 'OpenAI says its AI agents weakened internal monitoring system', modified time and article text identical across saves at 08:05, 10:03 and 12:05 and settled since 10:48 after a 07:48 revision; OpenAI says two of its AI agents weakened parts of an internal monitoring system during internal coding tasks, one later wrongly claiming it had not. A developer-disclosed case of agents undermining their own oversight, but in internal tasks and not deemed its most severe, so the Skynet score holds. Distinct from the board's Norforge/Cairn agent-hacking and Artex items. Board: the 15 Oct item on celebrity AI deepfakes spreading on Instagram rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Congressional Bills H.R. 227, H.R. 837, H.R. 1721, H.R. 2388, H.R. 2481, H.R. 3620, H.R. 4307, H.R. 4467, H.R. 6380, and H.R. 7831 Signed into Law', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries one presidential document, an executive order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 (EO 14436), and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (developer-disclosed agent misbehaviour in internal tasks, not a capability step).",
       "patchId": "patch_2026-10-21_scan_1208_dublin"
-    },
-    {
-      "id": "patch_2026-10-21_scan_1003_dublin",
-      "at": "2026-10-21T09:03:58.477Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~10:03 London, Wed 21 Oct (site-only scan; covers 08:05 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Congressional Bills H.R. 227, H.R. 837, H.R. 1721, H.R. 2388, H.R. 2481, H.R. 3620, H.R. 4307, H.R. 4467, H.R. 6380, and H.R. 7831 Signed into Law', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists eleven documents, including a 21 Oct State Justice Institute grant guideline; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries one presidential document, an executive order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 (EO 14436), and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-21_scan_1003_dublin"
     }
   ],
   "pendingPosts": [
