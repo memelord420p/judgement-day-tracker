@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-30T20:11:06.322Z",
+    "lastUpdated": "2026-10-30T22:06:51.307Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-30T20:10:00+00:00",
-    "lastScanSummary": "Scan ~20:10 London, Fri 30 Oct (site-only; covers 18:03 to now; UK clocks GMT). Promoted to Skynet: The Verge 'Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’' (published 15:14 GMT, settled over three hours, title matched across two raw saves, quotes from visible article text). Pope Leo urged UN member states to “take concrete steps toward banning lethal autonomous weapons” at next month's Geneva meeting and said decisions on the use of force “must always remain subject to effective, informed, and responsible human oversight.” Advocacy for a killer-robot ban rather than a new capability, so Skynet holds. Board: the 23 Oct Verge 'Retro gaming is being overrun with AI' headline rolled off the 20-item Skynet board. Held below bar: TWZ General Atomics NextGen hybrid-electric strike-recon flying wing (development concept), Defense News France turning tank gunners into FPV pilots (training), Breaking Defense PACOM multinational data-sharing network (networking, not AI autonomy). Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents; public inspection carries 105 documents. Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-10-30T22:06:00+00:00",
+    "lastScanSummary": "Scan ~22:06 London, Fri 30 Oct (site-only; covers 20:10 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 20:10. Unsettled leads for next scan: TWZ 'Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims' and TWZ 'Highlights From North Korea’s Drone-A-Palooza'. Held below bar: The Verge 'Google’s satellite AI server transmits its first response to Earth' (compute infrastructure), The Verge 'Rivian’s autonomy gamble faces its first real test' (consumer driver-assist). No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents; public inspection carries 108 documents. Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1846,6 +1846,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-30_scan_2206_dublin",
+      "at": "2026-10-30T22:06:51.307Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-10-30_scan_2206_dublin"
+    },
+    {
       "id": "patch_2026-10-30_scan_2010_dublin",
       "at": "2026-10-30T20:11:06.322Z",
       "by": "judgment-day-watch",
@@ -2636,14 +2644,6 @@
       "type": "patch",
       "summary": "Scan ~16:04 London, Thu 22 Oct (site-only scan; covers 14:07 to now). Robot security (promoted to T-800): The Verge, 'Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots', article text identical across saves at 14:06 and 16:03 and settled since 15:00 with no revision; the maker of an AI robot charm says it is fixing flaws that exposed owners' conversations and let the robots' responses be changed remotely, while The Verge reports owners' photos and audio were still exposed. A real consumer-robot security failure affecting owners' data, but a small device with no physical harm reported, so the T-800 score holds. Board: the 13 Oct item on the Army's cautious step toward AI agents on its networks rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 80 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (robot toy data exposure, no physical harm reported).",
       "patchId": "patch_2026-10-22_scan_1604_dublin"
-    },
-    {
-      "id": "patch_2026-10-22_scan_1407_dublin",
-      "at": "2026-10-22T13:07:38.283Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~14:07 London, Thu 22 Oct (site-only scan; covers 12:13 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Wins for South Carolina Workers, Families, and Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 80 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-22_scan_1407_dublin"
     }
   ],
   "pendingPosts": [
