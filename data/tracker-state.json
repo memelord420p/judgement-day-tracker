@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-31T04:13:07.986Z",
+    "lastUpdated": "2026-10-31T06:06:29.674Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-31T04:12:00+00:00",
-    "lastScanSummary": "Scan ~04:12 London, Sat 31 Oct (site-only; covers 02:06 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 02:06. Overnight feeds were quiet; the only new defense item, TWZ 'Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate', is air defense with no AI or autonomy angle. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents; public inspection carries 108 documents. Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-10-31T06:06:00+00:00",
+    "lastScanSummary": "Scan ~06:06 London, Sat 31 Oct (site-only; covers 04:12 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 04:12. All six feeds (Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register) carried no new items overnight. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents; public inspection carries 108 documents. Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1846,6 +1846,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-31_scan_0606_dublin",
+      "at": "2026-10-31T06:06:29.674Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-10-31_scan_0606_dublin"
+    },
+    {
       "id": "patch_2026-10-31_scan_0412_dublin",
       "at": "2026-10-31T04:13:07.986Z",
       "by": "apply-patch",
@@ -2636,14 +2644,6 @@
       "type": "patch",
       "summary": "Scan ~00:12 London, Fri 23 Oct (site-only scan; covers 22:07 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 84 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
       "patchId": "patch_2026-10-23_scan_0012_dublin"
-    },
-    {
-      "id": "patch_2026-10-22_scan_2207_dublin",
-      "at": "2026-10-22T21:07:57.421Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~22:07 London, Thu 22 Oct (site-only scan; covers 20:07 to now). Military AI (promoted to T-800): Breaking Defense, 'Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea', article text identical across saves at 20:05 and 22:07 and settled since 19:43 with no revision; a staff-written report that the Navy is paying for AI sensor fusion on destroyers, using fleet data to train models for manned and unmanned ships. A real step in fielding military AI, but a modest contract for a decision aid with sailors still in charge, so the T-800 score holds. Board: the 13 Oct item on the Army converting its futures command into a Futures and Autonomy Command rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists twelve documents, including a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 84 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, no score change).",
-      "patchId": "patch_2026-10-22_scan_2207_dublin"
     }
   ],
   "pendingPosts": [
