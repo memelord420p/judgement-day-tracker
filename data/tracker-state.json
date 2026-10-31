@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-10-31T16:09:52.678Z",
+    "lastUpdated": "2026-10-31T18:03:33.178Z",
     "lastUpdatedLabel": "OCT 2026",
-    "lastScanAt": "2026-10-31T16:09:00+00:00",
-    "lastScanSummary": "Scan ~16:09 London, Sat 31 Oct (site-only; covers 14:10 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 14:10. Feeds checked: Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register; no new defense items since the last scan. New items were consumer tech only (a Register piece on Google's AI satellite and a Verge piece on Windows 11 shortcuts), not AI-war. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents (unchanged); public inspection carries 108 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-10-31T18:04:00+00:00",
+    "lastScanSummary": "Scan ~18:04 London, Sat 31 Oct (site-only; covers 16:09 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 16:09. Feeds checked: Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register; no new defense items since the last scan. New items were consumer tech only (Verge pieces on a DIY AI Tamagotchi and Pikmin Day), not AI-war. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents (unchanged); public inspection carries 108 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1846,6 +1846,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-10-31_scan_1804_dublin",
+      "at": "2026-10-31T18:03:33.178Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-10-31_scan_1804_dublin"
+    },
+    {
       "id": "patch_2026-10-31_scan_1609_dublin",
       "at": "2026-10-31T16:09:52.678Z",
       "by": "apply-patch",
@@ -2636,14 +2644,6 @@
       "type": "patch",
       "summary": "Scan ~12:06 London, Fri 23 Oct (site-only scan; covers 10:06 to now). Robot training data (promoted to T-800): BBC, 'The Indian workers filming their work to train AI', article text identical across saves at 10:06 and 12:05 and unrevised since publication at 09:04 BST; it shows paid workers in India recording everyday manual tasks on head cameras to supply the real-world footage that robotics companies and AI labs need for physical AI. A useful look at how robot capability is being built from human labour, but not a new capability in itself, so the T-800 score holds. Board: the 16 Oct item on how Army Special Ops trains its new robotics technicians rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three new 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 86 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, no score change).",
       "patchId": "patch_2026-10-23_scan_1206_dublin"
-    },
-    {
-      "id": "patch_2026-10-23_scan_1006_dublin",
-      "at": "2026-10-23T09:06:52.075Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~10:06 London, Fri 23 Oct (site-only scan; covers 08:11 to now). No promotion this scan: no new story met the board's bar; all headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'National Seafood Month, 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) lists fifteen documents, including three new 23 Oct entries (a Civil Rights Commission advisory-committee meeting notice, a Treasury stablecoin rule and an Agriculture Department proposed rule on SNAP card security), a 21 Oct State Justice Institute grant guideline and a 22 Oct Treasury notice on a Fraud.gov tip form; the only AI-policy item is a 20 Oct Homeland Security Department notice, 'Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements'; the current public inspection list carries 86 documents (notices, rules and proposed rules), none of them presidential documents, and no AI titles. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-23_scan_1006_dublin"
     }
   ],
   "pendingPosts": [
