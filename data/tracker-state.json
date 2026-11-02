@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-02T00:04:38.905Z",
+    "lastUpdated": "2026-11-02T02:06:31.548Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-02T00:04:00+00:00",
-    "lastScanSummary": "Scan ~00:04 London, Mon 2 Nov (site-only; covers 22:07 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 22:07. Feeds checked: Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register; one new Register item (Linus Torvalds on the Linux kernel's model for AI contributions) is still inside the 3-hour settle window and has no AI-war angle. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents (unchanged); public inspection carries 108 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-02T02:06:00+00:00",
+    "lastScanSummary": "Scan ~02:06 London, Mon 2 Nov (site-only; covers 00:04 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 00:04. Feeds checked: Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register; no new items since the last scan. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents (unchanged); public inspection carries 108 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1846,6 +1846,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-02_scan_0206_dublin",
+      "at": "2026-11-02T02:06:31.548Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-02_scan_0206_dublin"
+    },
+    {
       "id": "patch_2026-11-02_scan_0004_dublin",
       "at": "2026-11-02T00:04:38.905Z",
       "by": "apply-patch",
@@ -2636,14 +2644,6 @@
       "type": "patch",
       "summary": "Scan ~20:11 London, Sat 24 Oct (site-only scan; covers 18:08 to now). No promotion this scan: homepage sweeps stayed quiet aside from a new Verge item on Pennsylvania AI-generated ad labels that is under three hours old and fails the full-text gate, so it is held for a later scan; Verge Meta AI-analytics acquisition and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Federal Register AI search still lists seventeen documents (including the Coast Guard Super Intelligence CRADA and DeepSeek removal notice). All headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
       "patchId": "patch_2026-10-24_scan_2011_dublin"
-    },
-    {
-      "id": "patch_2026-10-24_scan_1808_dublin",
-      "at": "2026-10-24T17:08:24.496Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~18:08 London, Sat 24 Oct (site-only scan; covers 16:12 to now). No promotion this scan: homepage sweeps stayed quiet; Verge Meta AI-analytics acquisition and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar; a Breaking Defense battlefield drone-swarm autonomy item is sponsored and dated 9 Oct, so it fails the age gate against the T-800 board's oldest headline. Federal Register AI search still lists seventeen documents (including the Coast Guard Super Intelligence CRADA and DeepSeek removal notice). All headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-24_scan_1808_dublin"
     }
   ],
   "pendingPosts": [
