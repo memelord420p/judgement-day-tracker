@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-02T08:06:29.719Z",
+    "lastUpdated": "2026-11-02T10:05:04.804Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-02T08:05:00+00:00",
-    "lastScanSummary": "Scan ~08:05 London, Mon 2 Nov (site-only; covers 06:04 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 06:04. Feeds checked: Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register; new items (Register on a Google Pac-Man doodle retrospective and an office-blunder column) carry no AI-war angle, and the Register India AI data-access plan stays below the bar. Defense News on Australia's Ghost Shark drone payloads is under watch until it settles. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents (unchanged); public inspection carries 108 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-02T10:04:00+00:00",
+    "lastScanSummary": "Scan ~10:04 London, Mon 2 Nov (site-only; covers 08:05 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 08:05. Feeds checked: Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register; new items (Register on UK driverless-car policy questions and a partner piece on a steelmaker's swarm-intelligence model) carry no AI-war angle. Defense News on Australia's Ghost Shark drone payloads stays under watch until it settles. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents (unchanged); public inspection carries 108 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1846,6 +1846,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-02_scan_1004_dublin",
+      "at": "2026-11-02T10:05:04.804Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-02_scan_1004_dublin"
+    },
+    {
       "id": "patch_2026-11-02_scan_0805_dublin",
       "at": "2026-11-02T08:06:29.719Z",
       "by": "apply-patch",
@@ -2636,14 +2644,6 @@
       "type": "patch",
       "summary": "Scan ~02:04 London, Sun 25 Oct (site-only scan; covers 01:10 Sun 25 Oct to now; UK clocks now GMT). No promotion this scan: the Verge item 'Pennsylvania will require labels on AI-generated ads' remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; the Verge Blue Planet III authenticity piece is now settled over three hours with a matching prior save but remains too thin for the full-text gate; Verge Meta AI-analytics acquisition and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Federal Register AI search still lists seventeen documents (including the Coast Guard Super Intelligence CRADA and DeepSeek removal notice). All headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
       "patchId": "patch_2026-10-25_scan_0204_dublin"
-    },
-    {
-      "id": "patch_2026-10-25_scan_0110_dublin",
-      "at": "2026-10-25T00:10:17.022Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~01:10 London, Sun 25 Oct (site-only scan; covers 00:08 Sun 25 Oct to now). No promotion this scan: the Verge item 'Pennsylvania will require labels on AI-generated ads' remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; the Verge Blue Planet III authenticity piece is still under three hours old and too thin for the full-text gate; Verge Meta AI-analytics acquisition and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Federal Register AI search still lists seventeen documents (including the Coast Guard Super Intelligence CRADA and DeepSeek removal notice). All headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-25_scan_0110_dublin"
     }
   ],
   "pendingPosts": [
