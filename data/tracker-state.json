@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-03T12:08:36.755Z",
+    "lastUpdated": "2026-11-03T14:18:16.009Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-03T12:07:00+00:00",
-    "lastScanSummary": "Scan ~12:07 London, Tue 3 Nov (site-only; covers 10:04 to now; UK clocks GMT). No promotion this scan. Held below bar: a Register report on MIT CSAIL 'Weight-Space Programming', in which a frontier model directly edited a small open model's weights to boost benchmark scores (early-stage research, not yet a capability leap); and a Register report on Raspberry Pi price rises (consumer hardware). Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents (unchanged); public inspection carries 81 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-03T14:17:00+00:00",
+    "lastScanSummary": "Scan ~14:17 London, Tue 3 Nov (site-only; covers 12:07 to now; UK clocks GMT). No promotion this scan. Settled items reviewed were below bar: Verge consumer items (Bambu H3C 3D printer, Redmagic phone, Adobe Premiere music) and Register items on Broadcom/VMware, the UK climate watchdog and Raspberry Pi prices. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents (unchanged); public inspection carries 92 documents (daily list turned over from 81). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1853,6 +1853,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-03_scan_1417_dublin",
+      "at": "2026-11-03T14:18:16.009Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-03_scan_1417_dublin"
+    },
+    {
       "id": "patch_2026-11-03_scan_1207_dublin",
       "at": "2026-11-03T12:08:36.755Z",
       "by": "apply-patch",
@@ -2643,14 +2651,6 @@
       "type": "patch",
       "summary": "Scan ~06:15 London, Mon 26 Oct (site-only scan; covers 04:07 Mon 26 Oct to now; UK clocks GMT). USAF AI aerial refueling (promoted to T-800): Defense News, 'US Air Force wants AI to assist aerial refueling', 23 Oct, article text settled over three hours with matching title across saves; an Air Force SBIR seeks camera-based \"hot wash\" feedback for KC-46 tanker crews. This is a training/assessment solicitation rather than a newly demonstrated combat autonomous engagement leap, so the T-800 score holds. Board: the mid-October TWZ Ukraine heavy-hexacopter medical-evacuation headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still fails the full-text gate on the saved extract used for promotion gating; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate on that extract; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar; Military Times Navy 'super' rebrand (dropping the phrase artificial intelligence) and TWZ Army Pacific autonomous vessels were fetched as fresh leads but lack a prior matching save from an earlier scan under the settle discipline, so they were not promoted; TWZ LUCAS kamikaze plan fails the age gate versus the T-800 floor (19 Oct); BBC China Inner Mongolia data-centres piece is far older than the floor. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) now lists sixteen documents (down one overnight; the OCC Stablecoins/GENIUS implementing notice dropped out of the window), including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is unavailable overnight Eastern (returns ~08:45 ET) so the last-known public inspection count of 107 from the prior scan is carried forward, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, Defense News USAF AI aerial refueling, no score change).",
       "patchId": "patch_2026-10-26_scan_0615_dublin"
-    },
-    {
-      "id": "patch_2026-10-26_scan_0407_dublin",
-      "at": "2026-10-26T04:07:41.806Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~04:07 London, Mon 26 Oct (site-only scan; covers 02:10 Mon 26 Oct to now; UK clocks GMT). China humanoids in Korea (promoted to T-800): SCMP, 'China’s humanoid robots hunt for work in South Korea as Seoul bets on physical AI', 23 Oct, article text settled over three hours with matching title across saves; Chinese makers are pushing beyond demos into South Korean factory trials and commercial deployments as Seoul bets on \"physical AI\". This is a commercial foothold/deployment story rather than a newly demonstrated combat autonomous engagement leap, so the T-800 score holds. Board: the mid-October Defense News Army xTech humanoid competition headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Defense News USAF AI aerial-refueling cleared settle/full-text/age gates but was left under the one-promotion cap behind the Korea humanoids story; Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, SCMP China humanoids in Korea, no score change).",
-      "patchId": "patch_2026-10-26_scan_0407_dublin"
     }
   ],
   "pendingPosts": [
