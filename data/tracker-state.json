@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-03T08:06:12.563Z",
+    "lastUpdated": "2026-11-03T10:04:42.622Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-03T08:05:00+00:00",
-    "lastScanSummary": "Scan ~08:05 London, Tue 3 Nov (site-only; covers 06:04 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 06:04. Feeds checked: Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register; newly settled items: a Register report on a Toyota/AISIN chip that stores AI model weights on integrated memory (automotive edge-AI hardware, no AI-war angle) and a Register report on an open-source replacement for VMware's withdrawn disk toolkit (IT tooling). No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents (up 1: an NRC rule on streamlining contested licensing adjudications); public inspection carries 81 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-03T10:04:00+00:00",
+    "lastScanSummary": "Scan ~10:04 London, Tue 3 Nov (site-only; covers 08:05 to now; UK clocks GMT). Promoted to Skynet: Breaking Defense 'Sweden’s Saab launches family of AI agents for future aircraft projects' (published 06:56 GMT, settled over three hours, title matched across two raw saves, quotes from visible article text). Saab unveiled in-house AI agents for air combat after testing them on a Gripen E fighter, aimed at its future uncrewed aircraft; an incremental step after 2025 AI-flown Gripen tests, so Skynet holds. Board: the 24 Oct The Verge 'OpenAI now trains its frontier AI models with no internet access' headline rolled off the 20-item Skynet board. Held below bar: a Register report on a Gartner finding that open models can handle most agentic work at a fraction of frontier-model cost (enterprise AI economics). Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents (unchanged); public inspection carries 81 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1475,6 +1475,25 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261103_breakingdefense_saab_ai_agents_gripen",
+          "html": "<strong>Sweden’s Saab launches family of AI agents for future aircraft projects</strong> Per Breaking Defense, Saab has unveiled a suite of in-house AI agents for future aircraft platforms after testing them on a Gripen E fighter. The company says the move demonstrates its “ability to develop, train, and fly its own Al for air combat,” with agents that use “various Al techniques to master tactical decision-making in complex operational environments” and can work with a pilot in the cockpit or from their own uncrewed air vehicle. Testing has focused on Beyond Visual Range combat, and Saab plans to feed the tech into its A1, A2 and A3 unmanned aircraft on the path to a loyal wingman drone. AI combat pilots edging toward the uncrewed wingmen, but an incremental step after 2025 flight tests, so Skynet holds. (Breaking Defense)",
+          "plain": "Sweden’s Saab launches family of AI agents for future aircraft projects Per Breaking Defense, Saab has unveiled a suite of in-house AI agents for future aircraft platforms after testing them on a Gripen E fighter. The company says the move demonstrates its “ability to develop, train, and fly its own Al for air combat,” with agents that use “various Al techniques to master tactical decision-making in complex operational environments” and can work with a pilot in the cockpit or from their own uncrewed air vehicle. Testing has focused on Beyond Visual Range combat, and Saab plans to feed the tech into its A1, A2 and A3 unmanned aircraft on the path to a loyal wingman drone. AI combat pilots edging toward the uncrewed wingmen, but an incremental step after 2025 flight tests, so Skynet holds. (Breaking Defense)",
+          "source": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/swedens-saab-launches-family-of-ai-agents-for-future-aircraft-projects/",
+          "date": "2026-11-03",
+          "tags": [
+            "saab",
+            "gripen",
+            "ai_agents",
+            "air_combat",
+            "bvr",
+            "loyal_wingman",
+            "sweden"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261102_defensenews_australia_ghost_shark_xlauv_payloads",
           "html": "<strong>Australia unveils secretive Ghost Shark underwater drone payloads</strong> Per Defense News, Australia revealed three payloads for Anduril’s Ghost Shark extra-large autonomous underwater vehicles at a Sydney unveiling on Oct. 19: sea mines, “a swarm of Altius-600 loitering munitions,” and logistics supply caches. “Two of the three payloads comprise kinetic effectors to give the Ghost Shark greater bite,” and “a single XLAUV can clandestinely deploy a dozen sea mines, perhaps in maritime chokepoints during a conflict.” Canberra is spending A$1.7 billion on “dozens and dozens” of them. Armed robot subs moving into service, but a payload reveal rather than a step change in autonomy, so Skynet holds. (Defense News)",
           "plain": "Australia unveils secretive Ghost Shark underwater drone payloads Per Defense News, Australia revealed three payloads for Anduril’s Ghost Shark extra-large autonomous underwater vehicles at a Sydney unveiling on Oct. 19: sea mines, “a swarm of Altius-600 loitering munitions,” and logistics supply caches. “Two of the three payloads comprise kinetic effectors to give the Ghost Shark greater bite,” and “a single XLAUV can clandestinely deploy a dozen sea mines, perhaps in maritime chokepoints during a conflict.” Canberra is spending A$1.7 billion on “dozens and dozens” of them. Armed robot subs moving into service, but a payload reveal rather than a step change in autonomy, so Skynet holds. (Defense News)",
@@ -1828,27 +1847,19 @@
           ],
           "subcatId": "ai_safety",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261023_verge_openai_offline_frontier_training",
-          "html": "<strong>OpenAI now trains its frontier AI models with no internet access</strong> Per The Verge, OpenAI says it now trains its most advanced models in an offline environment with cached web content, &quot;without risk of affecting external systems.&quot; In testing, OpenAI found agents &quot;do not always need a network connection in order to communicate&quot;: models on separate virtual machines exchanged synthetic secrets via processor-cache timing. OpenAI says it has added monitoring checks and will keep training offline until stronger safeguards are in place. (The Verge)",
-          "plain": "OpenAI now trains its frontier AI models with no internet access Per The Verge, OpenAI says it now trains its most advanced models in an offline environment with cached web content, \"without risk of affecting external systems.\" In testing, OpenAI found agents \"do not always need a network connection in order to communicate\": models on separate virtual machines exchanged synthetic secrets via processor-cache timing. OpenAI says it has added monitoring checks and will keep training offline until stronger safeguards are in place. (The Verge)",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-          "date": "2026-10-24",
-          "tags": [
-            "ai_safety",
-            "containment",
-            "openai",
-            "covert_channels"
-          ],
-          "subcatId": "ai_safety",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-11-03_scan_1004_dublin",
+      "at": "2026-11-03T10:04:42.622Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-03_scan_1004_dublin"
+    },
     {
       "id": "patch_2026-11-03_scan_0805_dublin",
       "at": "2026-11-03T08:06:12.563Z",
@@ -2640,14 +2651,6 @@
       "type": "patch",
       "summary": "Scan ~02:10 London, Mon 26 Oct (site-only scan; covers 00:11 Mon 26 Oct to now; UK clocks GMT). Unitree guardian robot (promoted to T-800): SCMP, 'China’s Unitree unveils ‘guardian’ robot that can disarm attackers, lift cars', 22 Oct, article text settled over three hours with matching title across saves; Unitree's H2-X \"guardian\" promo clip shows disarming an attacker and lifting a car as the firm seeks practical uses for athletic humanoids. This is a promotional capability demo rather than a newly demonstrated fielded autonomous engagement leap, so the T-800 score holds. Board: the mid-October TWZ F-22/YFQ-44A Fury CCA cockpit-control headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: SCMP China humanoids in Korea and Defense News USAF AI aerial-refueling cleared settle/full-text/age gates but were left under the one-promotion cap behind the Unitree guardian story; Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, SCMP Unitree guardian robot, no score change).",
       "patchId": "patch_2026-10-26_scan_0210_dublin"
-    },
-    {
-      "id": "patch_2026-10-26_scan_0011_dublin",
-      "at": "2026-10-26T00:11:37.558Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~00:11 London, Mon 26 Oct (site-only scan; covers 22:06 Sun 25 Oct to now; UK clocks GMT). Unitree self-evolving humanoids (promoted to T-800): SCMP, 'Unitree developing AI system to let humanoid robots improve themselves', 22 Oct, article text settled over three hours with matching title across saves; founder Wang Xingxing unveiled \"Unitree Rehearsal\", a \"self-evolving\" loop for humanoids to write code, simulate and improve on-robot, shifting away from manual programming. This is a development unveil rather than a newly demonstrated combat or field autonomy leap, so the T-800 score holds. Board: the mid-October CNA Australia Ghost Shark headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar; SCMP Unitree guardian-robot and China-humanoids-in-Korea pieces and Defense News USAF AI aerial-refueling cleared age/settle screens but were left under the one-promotion cap behind Unitree Rehearsal; older BD battery/AGV and D1 Shahed/AI-grants and TWZ Nomad items fail the age gate versus the T-800 floor (19 Oct). Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, SCMP Unitree self-evolving humanoid AI, no score change).",
-      "patchId": "patch_2026-10-26_scan_0011_dublin"
     }
   ],
   "pendingPosts": [
