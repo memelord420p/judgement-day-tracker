@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-02T22:10:45.674Z",
+    "lastUpdated": "2026-11-03T00:07:58.566Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-02T22:09:00+00:00",
-    "lastScanSummary": "Scan ~22:09 London, Mon 2 Nov (site-only; covers 20:05 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 20:05. Feeds checked: Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register; newly settled items read in full (Russia fitting Kometa satellite-navigation modules with larger jam-resistant antenna arrays on Shahed drones and missiles; US Pacific Command adding cyber defenders under Cyber Defense Forces Pacific) are electronic-warfare hardware and network-defence staffing with no autonomous-targeting or rogue-AI escalation, and newer drone and AI items are too fresh to settle. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents (unchanged); public inspection carries 81 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-03T00:07:00+00:00",
+    "lastScanSummary": "Scan ~00:07 London, Tue 3 Nov (site-only; covers 22:09 to now; UK clocks GMT). Summary-only: no new settled AI-war or rogue-AI story cleared the bar since 22:09. Feeds checked: Breaking Defense, Defense One, Defense News, TWZ, The Verge, The Register; the newly settled item read in full (a National Advanced Mobility Consortium executive saying the Army needs a clearer demand signal for industry to scale unmanned ground vehicle production) is procurement and industrial-base commentary with no autonomous-targeting or rogue-AI escalation, and newer drone and AI items are too fresh to settle. No board roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 25 documents (unchanged); public inspection carries 81 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1850,6 +1850,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-03_scan_0007_dublin",
+      "at": "2026-11-03T00:07:58.566Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-03_scan_0007_dublin"
+    },
+    {
       "id": "patch_2026-11-02_scan_2209_dublin",
       "at": "2026-11-02T22:10:45.674Z",
       "by": "apply-patch",
@@ -2640,14 +2648,6 @@
       "type": "patch",
       "summary": "Scan ~16:16 London, Sun 25 Oct (site-only scan; covers 14:12 Sun 25 Oct to now; UK clocks GMT). Google AI search vs publishers (promoted to Skynet): The Verge, 'Google’s AI search changes upended online publishing', 25 Oct, column text settled over three hours with matching title across saves; Google’s AI search features and AI Overviews have disrupted the reciprocal traffic relationship with publishers, and reporting finds \"Traffic to online publishers tanked\". This is an impact/adaptation story about existing AI search products rather than a new model capability leap, so the Skynet score holds. Board: the mid-October USMC MindGame AI-adversary wargames headline rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge Pennsylvania AI-ads labels remains settled with a matching prior save but still has only four substantial paragraphs and fails the full-text gate; Verge Blue Planet III authenticity piece remains settled with a matching prior save but is still too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Fresh China/US autonomy leads spotted this sweep (including a TWZ Chinese submarine drone mothership piece dated 18 Oct) were not promoted over the priority Google column. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one Skynet promotion, a Verge Google AI-search publishing column, no score change).",
       "patchId": "patch_2026-10-25_scan_1616_dublin"
-    },
-    {
-      "id": "patch_2026-10-25_scan_1412_dublin",
-      "at": "2026-10-25T14:13:31.234Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~14:12 London, Sun 25 Oct (site-only scan; covers 12:14 Sun 25 Oct to now; UK clocks GMT). AUTOWARCOM funding hurdles (promoted to T-800): Defense One, 'Funding, force-structure issues could hinder Hegseth’s new autonomous command', 25 Oct, article text settled over three hours with matching title across saves; Hegseth’s planned U.S. Autonomous Warfare Command still lacks assured funding and relevant force structure, and experts warn leaders \"They have no idea\" how to build it. The piece is about institutional and budget barriers rather than a new autonomous capability fielded, so the T-800 score holds. Board: the 17 Oct CNA item on a North Korea AI-assisted torpedo claim rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'Fact Sheet: President Donald J. Trump Announces the America First Seafood Strategy and Seafood.gov', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: the Verge Google AI-search publishing column remains under the three-hour settle gate; Verge Pennsylvania AI-ads labels and Blue Planet III items remain too thin for the full-text gate; Verge Meta AI-analytics and bank AI-agents items remain quick posts that fail the full-text gate; the BBC Kent AI data-centre planning approval remains below the board's bar. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list carries 107 documents, with the Super Intelligence Situational Awareness CRADA among AI-titled items. All hold: T-800 33, T-1000 5, Skynet 53 (one T-800 promotion, a Defense One AUTOWARCOM funding/force-structure warning, no score change).",
-      "patchId": "patch_2026-10-25_scan_1412_dublin"
     }
   ],
   "pendingPosts": [
