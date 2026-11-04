@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-04T12:11:58.614Z",
+    "lastUpdated": "2026-11-04T14:14:44.067Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-04T12:12:00+00:00",
-    "lastScanSummary": "Scan ~12:12 London, Wed 4 Nov (site-only; covers 10:08 to now with cache-busted feeds; UK clocks GMT). No new settled AI-war or rogue-AI story cleared the bar; new feed items, Babcock's digital warship-support platform and The Register on Enlightenment 0.28 and French plasma-store cyberattack, have no AI-war angle. Board unchanged; no roll-off. Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents (unchanged); public inspection carries 92 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-04T14:15:00+00:00",
+    "lastScanSummary": "Scan ~14:15 London, Wed 4 Nov (site-only; covers 12:12 to now with cache-busted feeds; UK clocks GMT). Promoted to Skynet: Defense News 'France tasks Naval Group to develop large oceangoing underwater drone' (published 09:51 GMT, settled over three hours, title matched across two raw saves, quotes from visible article text). France ordered an uncrewed combat underwater vehicle demonstrator that must show autonomous decision-making, with sea trials from 2028; a demonstrator, not a fielded weapon, so Skynet holds. Board: the 24 Oct Defense One 'Add ‘post-AI’ encryption to your to-do list' headline rolled off the 20-item Skynet board. Held below bar: The War Zone on the USAF widening its lower-cost cruise missile effort to glide bombs, Saildrone's Norwegian manufacturing partner, Israel Weapons Industry's counter-drone deployment in Thailand, and Defense One on the Pentagon's quantum problem (no AI-war angle). Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents (unchanged); public inspection carries 107 documents (daily turnover from 92). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1475,6 +1475,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261104_dn_france_naval_group_ucuv",
+          "html": "<strong>France tasks Naval Group to develop large oceangoing underwater drone</strong> Per Defense News, France signed a contract with Naval Group for an operational demonstrator of an uncrewed combat underwater vehicle, with sea trials to start in 2028. The French Armed Forces ministry says it must show “autonomous decision-making capability” and will carry a “controlled autonomous decision-making system” to adapt to tactical situations, for missions up to “more offensive neutralization actions.” A demonstrator contract, not a fielded weapon, so Skynet holds. (Defense News)",
+          "plain": "France tasks Naval Group to develop large oceangoing underwater drone Per Defense News, France signed a contract with Naval Group for an operational demonstrator of an uncrewed combat underwater vehicle, with sea trials to start in 2028. The French Armed Forces ministry says it must show “autonomous decision-making capability” and will carry a “controlled autonomous decision-making system” to adapt to tactical situations, for missions up to “more offensive neutralization actions.” A demonstrator contract, not a fielded weapon, so Skynet holds. (Defense News)",
+          "source": "Defense News",
+          "url": "https://www.defensenews.com/global/europe/2026/11/04/france-tasks-naval-group-to-develop-large-oceangoing-underwater-drone/",
+          "date": "2026-11-04",
+          "tags": [
+            "ucuv",
+            "underwater_drones",
+            "autonomy",
+            "france",
+            "naval_group"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261103_d1_pentagon_ukraine_ground_robots",
           "html": "<strong>Pentagon is beginning to follow Ukraine into wider use of ground robots</strong> Per Defense One, the U.S. Defense Department committed more than $115 million to UGV projects in fiscal 2026, while Ukraine says it ordered more than 22,000 ground robots in the first seven months of this year. The Marines and the Army’s 75th Ranger Regiment are buying more than a dozen IBEX UGVs from Overland AI for logistics and counter-UAV missions, and the U.S. ecosystem “is shooting for more capable autonomous UGVs.” Overland AI’s CEO says “autonomous systems should be held to the same standard” as soldiers cut off from communications. Wider adoption and funding, but no new autonomous capability fielded, so Skynet holds. (Defense One)",
           "plain": "Pentagon is beginning to follow Ukraine into wider use of ground robots Per Defense One, the U.S. Defense Department committed more than $115 million to UGV projects in fiscal 2026, while Ukraine says it ordered more than 22,000 ground robots in the first seven months of this year. The Marines and the Army’s 75th Ranger Regiment are buying more than a dozen IBEX UGVs from Overland AI for logistics and counter-UAV missions, and the U.S. ecosystem “is shooting for more capable autonomous UGVs.” Overland AI’s CEO says “autonomous systems should be held to the same standard” as soldiers cut off from communications. Wider adoption and funding, but no new autonomous capability fielded, so Skynet holds. (Defense One)",
@@ -1835,27 +1852,19 @@
           ],
           "subcatId": "ai_society",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261024_defenseone_post_ai_encryption_todo_list",
-          "html": "<strong>Add ‘post-AI’ encryption to your to-do list</strong> Per Defense One, OpenAI’s latest theoretical-math release solved hundreds of hard problems while leaving cryptography a &quot;conspicuous exception&quot;, and experts including Scott Aaronson and Bruce Schneier say planners should accelerate &quot;crypto agility&quot; and post-quantum defenses against a possible AI break of classical encryption. (Defense One)",
-          "plain": "Add ‘post-AI’ encryption to your to-do list Per Defense One, OpenAI’s latest theoretical-math release solved hundreds of hard problems while leaving cryptography a \"conspicuous exception\", and experts including Scott Aaronson and Bruce Schneier say planners should accelerate \"crypto agility\" and post-quantum defenses against a possible AI break of classical encryption. (Defense One)",
-          "source": "Defense One",
-          "url": "https://www.defenseone.com/technology/2026/10/add-post-ai-encryption-your-do-list/416722/",
-          "date": "2026-10-24",
-          "tags": [
-            "ai_security",
-            "cryptography",
-            "openai",
-            "post_quantum"
-          ],
-          "subcatId": "ai_security",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-11-04_scan_1415_dublin",
+      "at": "2026-11-04T14:14:44.067Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-04_scan_1415_dublin"
+    },
     {
       "id": "patch_2026-11-04_scan_1212_dublin",
       "at": "2026-11-04T12:11:58.614Z",
@@ -2647,14 +2656,6 @@
       "type": "patch",
       "summary": "Scan ~06:12 London, Tue 27 Oct (site-only scan; covers 04:18 Tue 27 Oct to now; UK clocks GMT). Huawei–DeepSeek Ascend chip-ecosystem catch-up (promoted to Skynet): SCMP, '‘Jensen’s nightmare’: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report', 22 Oct, article text settled well over three hours with matching title across consecutive raw saves and a full-text extract (JSON-LD articleBody) that clears the full-text gate; SemiAnalysis reports deepening “symbiosis” as DeepSeek ships Ascend-tailored software (including Ascend-compatible TileLang) alongside Ascend 950PR experimentation, narrowing Nvidia’s hardware/software lead in a scenario cast as Jensen Huang’s “nightmare is starting to come true”, toward a more “independent and controllable” domestic stack. A China chip-ecosystem / software-stack advance rather than a newly demonstrated autonomous engagement leap abroad, so the Skynet score holds. Board: the mid-October CNA OpenAI-agents / weakened-internal-monitoring headline rolled off the 20-item Skynet board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Puts Mississippi First with Historic Tax Cuts, Surging Investment, and Stronger Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Guardian Anthropic stock-market listing now clears the three-hour settle window on its overnight dateModified but remains finance/valuation below the Skynet capability bar; Verge 'Anthropic is burning gas to feed the AI boom' clears settle but The Verge marks isAccessibleForFree:false so visible-quote rules keep it held, and it remains energy/IPO-adjacent below the Skynet bar; Verge Tesla Optimus in-production claim remains under visible-quote hold (isAccessibleForFree:false); Verge GPT-6.1 Terra computer-use clears settle but isAccessibleForFree:false with a thin JSON-LD articleBody that fails the full-text gate; Guardian Meta $95bn stock offering and SCMP Cambricon profit surge remain finance/capex below the Skynet bar; Breaking Defense Helsing Contra air-defense clears settle and is not sponsored but was not selected under the one-promote cap (this scan’s slot went to the Huawei/DeepSeek Skynet item); Breaking Defense battlefield drone-swarms remains sponsored; older TWZ / BD items remain incremental or fail the age gate versus the current T-800 floor (Ghost Shark XL-AUV). Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 86 documents (unchanged from the 04:18 scan). T-800 holds at 33; T-1000 holds at 5; Skynet holds at 53.",
       "patchId": "patch_2026-10-27_scan_0612_dublin"
-    },
-    {
-      "id": "patch_2026-10-27_scan_0418_dublin",
-      "at": "2026-10-27T04:19:13.999Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~04:18 London, Tue 27 Oct (site-only scan; covers 02:14 Tue 27 Oct to now; UK clocks GMT). Taiwan autonomous drone swarms / grey-zone maritime surveillance (promoted to T-800): SCMP, 'Taiwan looks to autonomous swarms to counter Beijing’s grey-zone pressure', 27 Oct, article text settled over three hours with matching title across consecutive raw saves and a full-text extract (JSON-LD articleBody) that clears the full-text gate; Taiwan’s Ocean Affairs Council is funding an AI-powered system for autonomous tasking and route-planning across VTOL drone fleets, with a National Cheng Kung University team completing a 20-drone dual-fleet simulation and citing “multi-drone coordination” plus “maritime domain awareness” for coastguard “grey-zone” harassment monitoring, with hardware-in-the-loop and maritime flight trials next. An early-stage research / simulation programme rather than a newly fielded autonomous combat system, so the T-800 score holds. Board: the mid-October Agility Digit5 / The Robot I Didn’t Expect to Build headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'President Trump Puts Mississippi First with Historic Tax Cuts, Surging Investment, and Stronger Communities', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: Verge 'Anthropic is burning gas to feed the AI boom' clears the three-hour settle window but The Verge marks isAccessibleForFree:false so visible-quote rules keep it held, and it remains energy/IPO-adjacent below the Skynet capability bar; Guardian Anthropic stock-market listing still fails the three-hour settle window on a fresh overnight dateModified (~2.7h at scan) and remains finance/valuation below the Skynet bar; Verge Tesla Optimus in-production claim clears publish-time settle with a substantial extract but isAccessibleForFree:false keeps it under visible-quote hold; Guardian Meta $95bn stock offering remains settle+full-text clear but finance/capex below the Skynet bar; SCMP Huawei/DeepSeek Nvidia-ecosystem chip catch-up ('Jensen’s nightmare') clears settle+dual-title+full-text and is a strong Skynet China-chip candidate held only because this scan’s one-promote slot went to the Taiwan T-800 swarm item; SCMP Cambricon profit surge is finance below the Skynet bar; Verge GPT-6.1 Terra computer-use is settle-clear but isAccessibleForFree:false with a thin JSON-LD articleBody that fails the full-text gate; Breaking Defense Helsing Contra air-defense is settle-clear and not sponsored but was not selected under the one-promote cap; Breaking Defense Heaviside Tyr loitering munition fails the age gate versus the pre-promote T-800 floor; Breaking Defense battlefield drone-swarms remains sponsored; D1 AI grant-adversary screening fails the age gate versus the Skynet floor; TWZ incremental/agegate items and older BD Primordial pieces remain below the T-800 floor or incremental to board items. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 86 documents (unchanged from the 02:14 scan). T-800 holds at 33; T-1000 holds at 5; Skynet holds at 53.",
-      "patchId": "patch_2026-10-27_scan_0418_dublin"
     }
   ],
   "pendingPosts": [
