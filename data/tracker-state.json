@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-04T00:07:07.100Z",
+    "lastUpdated": "2026-11-04T02:10:05.612Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-04T00:06:00+00:00",
-    "lastScanSummary": "Scan ~00:06 London, Wed 4 Nov (site-only; covers 22:10 to now; UK clocks GMT). No promotion this scan. Not yet settled: Defense One 'Pentagon is beginning to follow Ukraine into wider use of ground robots' (published 21:21 GMT, settles about 00:21), Breaking Defense on a Thales subsidiary's US Navy remote mine-hunting contract, and the Binance AI-tool heist reports; all left for the next scan. Held below bar: The Register on AI policy wonks calling 'sovereign agents' a threat to civilization (policy commentary, no deployment), Defense News on a US Air Force cruise-missile request for Ukraine, and Breaking Defense on AUSA 2026, French naval investment and the A-29 divestment (no autonomy angle). Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents (unchanged); public inspection carries 92 documents. No board roll-off. Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-04T02:09:00+00:00",
+    "lastScanSummary": "Scan ~02:09 London, Wed 4 Nov (site-only; covers 00:06 to now; UK clocks GMT). Promoted to Skynet: Defense One 'Pentagon is beginning to follow Ukraine into wider use of ground robots' (published 21:21 GMT, settled over three hours, title matched across two raw saves, quotes from visible article text). The Pentagon committed more than $115 million to ground-robot projects in fiscal 2026 and US buyers are chasing more capable autonomous UGVs, but nothing new fielded, so Skynet holds. Board: the 24 Oct SCMP 'China’s AI compute surge heavily reliant on US chips, offshore cloud access: report' headline rolled off the 20-item Skynet board. Held below bar: Breaking Defense on a Thales subsidiary's US Navy remote mine-hunting modules contract (contract award, no autonomy detail), Breaking Defense on SNC leaving the Navy trainer jet competition, and the Binance heist reports from The Verge and The Register (cybercrime, not rogue AI). Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents (unchanged); public inspection carries 92 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1475,6 +1475,24 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261103_d1_pentagon_ukraine_ground_robots",
+          "html": "<strong>Pentagon is beginning to follow Ukraine into wider use of ground robots</strong> Per Defense One, the U.S. Defense Department committed more than $115 million to UGV projects in fiscal 2026, while Ukraine says it ordered more than 22,000 ground robots in the first seven months of this year. The Marines and the Army’s 75th Ranger Regiment are buying more than a dozen IBEX UGVs from Overland AI for logistics and counter-UAV missions, and the U.S. ecosystem “is shooting for more capable autonomous UGVs.” Overland AI’s CEO says “autonomous systems should be held to the same standard” as soldiers cut off from communications. Wider adoption and funding, but no new autonomous capability fielded, so Skynet holds. (Defense One)",
+          "plain": "Pentagon is beginning to follow Ukraine into wider use of ground robots Per Defense One, the U.S. Defense Department committed more than $115 million to UGV projects in fiscal 2026, while Ukraine says it ordered more than 22,000 ground robots in the first seven months of this year. The Marines and the Army’s 75th Ranger Regiment are buying more than a dozen IBEX UGVs from Overland AI for logistics and counter-UAV missions, and the U.S. ecosystem “is shooting for more capable autonomous UGVs.” Overland AI’s CEO says “autonomous systems should be held to the same standard” as soldiers cut off from communications. Wider adoption and funding, but no new autonomous capability fielded, so Skynet holds. (Defense One)",
+          "source": "Defense One",
+          "url": "https://www.defenseone.com/defense-systems/2026/11/pentagon-ukraine-ground-robots/417011/",
+          "date": "2026-11-03",
+          "tags": [
+            "ugv",
+            "ground_robots",
+            "ukraine",
+            "overland_ai",
+            "pentagon",
+            "autonomy"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261103_twz_shield_ai_xbat_prototype",
           "html": "<strong>Prototype X-BAT VTOL ‘Fighter’ Drone Unveiled</strong> Per The War Zone, Shield AI has shown the first full-scale prototype of its X-BAT “jet-powered stealth ‘fighter’ drone”, designed to take off and land vertically from a tail-sitting position. X-BAT 001, the first of two full-scale prototypes, is moving from Frisco, Texas, to Shield AI's flight test facility in Newton, Kansas, and the U.S. Navy hopes to see the drone become an operational capability on a very aggressive timeline. Shield AI plans to use “its Hivemind software to give X-BATs a high degree of autonomy when carrying out any assigned task.” An autonomous combat jet moving toward flight test, but still a ground prototype, so Skynet holds. (The War Zone)",
           "plain": "Prototype X-BAT VTOL ‘Fighter’ Drone Unveiled Per The War Zone, Shield AI has shown the first full-scale prototype of its X-BAT “jet-powered stealth ‘fighter’ drone”, designed to take off and land vertically from a tail-sitting position. X-BAT 001, the first of two full-scale prototypes, is moving from Frisco, Texas, to Shield AI's flight test facility in Newton, Kansas, and the U.S. Navy hopes to see the drone become an operational capability on a very aggressive timeline. Shield AI plans to use “its Hivemind software to give X-BATs a high degree of autonomy when carrying out any assigned task.” An autonomous combat jet moving toward flight test, but still a ground prototype, so Skynet holds. (The War Zone)",
@@ -1833,28 +1851,19 @@
           ],
           "subcatId": "ai_security",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261024_scmp_china_ai_compute_double_us_chips",
-          "html": "<strong>China’s AI compute surge heavily reliant on US chips, offshore cloud access: report</strong> Per the SCMP, a Washington Institute for Progress report says China’s AI compute &quot;will double next year&quot;, from about 4.6 million to 8.8 million H100-equivalents in 2027, though US-designed chips would still make up about 65 per cent of that capacity. Despite a US &quot;16-fold advantage in AI training compute over China&quot;, leading Chinese models lag by only 6.5 months, which IFP links in part to distillation; it urged tighter controls on overseas cloud access, smuggling and legal exports. (SCMP)",
-          "plain": "China’s AI compute surge heavily reliant on US chips, offshore cloud access: report Per the SCMP, a Washington Institute for Progress report says China’s AI compute \"will double next year\", from about 4.6 million to 8.8 million H100-equivalents in 2027, though US-designed chips would still make up about 65 per cent of that capacity. Despite a US \"16-fold advantage in AI training compute over China\", leading Chinese models lag by only 6.5 months, which IFP links in part to distillation; it urged tighter controls on overseas cloud access, smuggling and legal exports. (SCMP)",
-          "source": "SCMP",
-          "url": "https://www.scmp.com/tech/tech-war/article/3371929/chinas-ai-compute-surge-heavily-reliant-us-chips-offshore-cloud-access-report",
-          "date": "2026-10-24",
-          "tags": [
-            "china_ai",
-            "compute",
-            "export_controls",
-            "chips",
-            "ifp"
-          ],
-          "subcatId": "ai_capabilities",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-11-04_scan_0209_dublin",
+      "at": "2026-11-04T02:10:05.612Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-04_scan_0209_dublin"
+    },
     {
       "id": "patch_2026-11-04_scan_0006_dublin",
       "at": "2026-11-04T00:07:07.100Z",
@@ -2646,14 +2655,6 @@
       "type": "patch",
       "summary": "Scan ~18:14 London, Mon 26 Oct (site-only scan; covers 16:20 Mon 26 Oct to now; UK clocks GMT). Marine Corps Osprey AI readiness tool (promoted to T-800): Military Times, 'Marine Corps Osprey squadrons get AI tool to boost readiness rates', 26 Oct, article text settled over three hours with matching title across consecutive raw saves; Virtualitics’s Iris AI-agent tool is being fielded to MV-22 Osprey squadrons to flag readiness gaps after earlier Air Force B-52 use. A sustainment/readiness AI deployment rather than a newly demonstrated autonomous engagement leap, so the T-800 score holds. Board: the mid-October Military Times Hegseth $50B mass-drone-production headline rolled off the 20-item T-800 board with this addition; no Yonhap item rolled off. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'From Coast to Coast, President Trump Is Putting American Industry Back on the Map', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Held leads: The Guardian 'Meta plans $95bn stock offering to help cover AI expansion' remains under the three-hour settle window after a 16:41 GMT dateModified; SCMP Europe AI-rules opinion and South Korea AI-chip surplus remain below the Skynet capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; TWZ FQ-42 is already on the board; older TWZ LUCAS / Merops / FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the prior T-800 floor. Breaking Defense SOUTHCOM unmanned-river exclusive and SCMP China AI-data/state-owned-giant items were noted on the gap-hunt pass and are held for settle/full-text gating next wake. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 85 documents (unchanged from the 16:20 scan). T-800 holds at 33; T-1000 holds at 5; Skynet holds at 53.",
       "patchId": "patch_2026-10-26_scan_1814_dublin"
-    },
-    {
-      "id": "patch_2026-10-26_scan_1620_dublin",
-      "at": "2026-10-26T16:22:39.399Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~16:20 London, Mon 26 Oct (site-only scan; covers 14:16 Mon 26 Oct to now; UK clocks GMT). No promotion this scan. Military Times 'Marine Corps Osprey squadrons get AI tool to boost readiness rates' is under the three-hour settle window (~2.1h at scan) with a matching seeded prior save and a full-text extract that clears the full-text gate — held for the next wake. The Guardian item 'Meta plans $95bn stock offering to help cover AI expansion' is under the three-hour settle window after a 16:00 GMT dateModified. SCMP opinion 'Europe can still shape the rules of AI' clears settle and age but is an opinion/governance column below the Skynet capability bar. Held leads: SCMP South Korea AI-chip surplus remains a macro trade-surplus economics piece below the Skynet capability bar; Verge Pennsylvania AI-ads labels and Blue Planet III remain settled with matching prior saves but still fail the full-text gate; Verge Meta/bank quick posts still fail the full-text gate; BBC Kent remains below the board’s bar; Breaking Defense battlefield drone-swarms remains sponsored; TWZ Ghost Shark payload-bay remains an incremental follow-on to the existing Ghost Shark T-800 item and was not promoted; TWZ FQ-42 CCA production ramp is already on the board (prior item); older TWZ LUCAS / Merops / FQ-44 / MQ-72C / Nomad and BD Primordial pieces fail the age gate versus the T-800 floor. Board tops unchanged (T-800 Breaking Defense Ateş Serbest unmanned demo; Skynet SCMP Chinese video-AI study). All headlines, scores and threat levels are unchanged, so nothing rolled off either board. Yonhap: monitoring is paused by Ops Watch; yna.co.kr was not fetched, the Yonhap headlines still on the board remain unchecked and scores are unchanged, and no new Yonhap item is named. Checks: live titles of the board's fetchable headlines were rechecked; differences are shorthand board titles or bot-challenge pages, not retitles. White House: the newest whitehouse.gov item is 'First Lady Melania Trump Announces Halloween at the White House 2026', and no whitehouse.gov news title concerns AI; Truth Social posts in the trumpstruth.org archive contain no AI content. Official SIF check: the Federal Register search for 'artificial intelligence' (8 Oct onward) still lists seventeen documents, including the Coast Guard Super Intelligence CRADA and the DeepSeek exclusion notice; the current public inspection list is live and carries 85 documents (was 82 at the 14:16 scan). All hold: T-800 33, T-1000 5, Skynet 53 (no promotion this scan).",
-      "patchId": "patch_2026-10-26_scan_1620_dublin"
     }
   ],
   "pendingPosts": [
