@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-06T18:15:48.046Z",
+    "lastUpdated": "2026-11-06T20:08:20.260Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-06T18:15:00+00:00",
-    "lastScanSummary": "Scan ~18:15 GMT, Fri 6 Nov (site-only; covers 16:16 to now). No promotion. Below bar: The Register on the US Justice Department's Super Intelligence Task Force now operating (published 15:15 GMT; settled 18:15 GMT) — a body to coordinate AI-related lawsuits, enforcement priorities and prosecution guidance and to protect the US lead in AI, with regulatory details due later this month; an administrative policy step, not an AI-war capability or rogue-AI incident. Also below bar: Defense News on Denmark and Lithuania buying Finland's Blocker naval mines (13:49:41; settled 16:49:41); Breaking Defense on Space Force laser-link satellites needing a new translator layer (14:15; settled 17:15) and on the Navy jet-trainer competition as a test of acquisition reform (15:08; settled 18:08) — procurement and space-networking stories with no AI-war angle. The Verge on texting Alexa for Shopping orders (14:00; settled 17:00) and its 2026 holiday gift guide (15:00; settled 18:00) are consumer coverage. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents; public inspection: 102 (both unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-06T20:08:00+00:00",
+    "lastScanSummary": "Scan ~20:08 GMT, Fri 6 Nov (site-only; covers 18:15 to now). No promotion. Below bar: Defense News on Russia's Rassvet satellite network being used over Ukraine (published 16:50:49 GMT; settled 19:50:49 GMT) — per Ukrainian intelligence it may let pilots re-route attack drones mid-flight instead of relying on pre-programmed paths; a remote-piloting comms upgrade with humans steering, not new weapon autonomy. Defense News on US European Command's vigilance campaign amid sabotage, GPS jamming and drone incursions (15:39:51; settled 18:39:51) — a force-protection awareness drive, not an AI or autonomy development. Also below bar: Breaking Defense on analysts weighing a cut to US aid to Israel (16:55; settled 19:55); Defense News on the Air Force eyeing WWII-era Pacific airfields (15:28:23; settled 18:28:23) — geopolitics and basing; The Verge's KPop Demon Hunters Blu-ray deal (15:27:09; settled 18:27:09) is consumer coverage. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents; public inspection: 102 (both unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1858,6 +1858,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-06_scan_2005_dublin",
+      "at": "2026-11-06T20:08:20.260Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-06_scan_2005_dublin"
+    },
+    {
       "id": "patch_2026-11-06_scan_1811_dublin",
       "at": "2026-11-06T18:15:48.046Z",
       "by": "apply-patch",
@@ -2648,14 +2656,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-29_scan_1211_dublin"
-    },
-    {
-      "id": "patch_2026-10-29_scan_1003_dublin",
-      "at": "2026-10-29T10:04:23.339Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-29_scan_1003_dublin"
     }
   ],
   "pendingPosts": [
