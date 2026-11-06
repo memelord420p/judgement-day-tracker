@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-06T16:16:08.680Z",
+    "lastUpdated": "2026-11-06T18:15:48.046Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-06T16:16:00+00:00",
-    "lastScanSummary": "Scan ~16:16 GMT, Fri 6 Nov (site-only; covers 14:25 to now). No promotion. Below bar: The Register on the Bank of England finding only a modest AI-driven rise in UK productivity (published 11:43 GMT; settled 14:43 GMT), on a Home Office cloud-hosting renewal that may net AWS more than £1B (12:47; settled 15:47), and on DigiCert's botched server migration exposing customer identity documents for more than a year (13:15; settled 16:15) — economics, procurement and an ordinary data-exposure incident, no AI-war or rogue-AI angle. The Verge's 3D printer review and Enough Phone Kickstarter (12:00; settled 15:00), iPhone Duo foldable comparison (12:30; settled 15:30) and Control Resonant level-design feature (13:00; settled 16:00) are consumer and games coverage. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents (unchanged); public inspection now 102 documents (was 99). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-06T18:15:00+00:00",
+    "lastScanSummary": "Scan ~18:15 GMT, Fri 6 Nov (site-only; covers 16:16 to now). No promotion. Below bar: The Register on the US Justice Department's Super Intelligence Task Force now operating (published 15:15 GMT; settled 18:15 GMT) — a body to coordinate AI-related lawsuits, enforcement priorities and prosecution guidance and to protect the US lead in AI, with regulatory details due later this month; an administrative policy step, not an AI-war capability or rogue-AI incident. Also below bar: Defense News on Denmark and Lithuania buying Finland's Blocker naval mines (13:49:41; settled 16:49:41); Breaking Defense on Space Force laser-link satellites needing a new translator layer (14:15; settled 17:15) and on the Navy jet-trainer competition as a test of acquisition reform (15:08; settled 18:08) — procurement and space-networking stories with no AI-war angle. The Verge on texting Alexa for Shopping orders (14:00; settled 17:00) and its 2026 holiday gift guide (15:00; settled 18:00) are consumer coverage. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents; public inspection: 102 (both unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1858,6 +1858,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-06_scan_1811_dublin",
+      "at": "2026-11-06T18:15:48.046Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-06_scan_1811_dublin"
+    },
+    {
       "id": "patch_2026-11-06_scan_1613_dublin",
       "at": "2026-11-06T16:16:08.680Z",
       "by": "apply-patch",
@@ -2648,14 +2656,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-29_scan_1003_dublin"
-    },
-    {
-      "id": "patch_2026-10-29_scan_0805_dublin",
-      "at": "2026-10-29T08:06:18.942Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-29_scan_0805_dublin"
     }
   ],
   "pendingPosts": [
