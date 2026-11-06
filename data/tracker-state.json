@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-06T20:08:20.260Z",
+    "lastUpdated": "2026-11-06T22:09:26.356Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-06T20:08:00+00:00",
-    "lastScanSummary": "Scan ~20:08 GMT, Fri 6 Nov (site-only; covers 18:15 to now). No promotion. Below bar: Defense News on Russia's Rassvet satellite network being used over Ukraine (published 16:50:49 GMT; settled 19:50:49 GMT) — per Ukrainian intelligence it may let pilots re-route attack drones mid-flight instead of relying on pre-programmed paths; a remote-piloting comms upgrade with humans steering, not new weapon autonomy. Defense News on US European Command's vigilance campaign amid sabotage, GPS jamming and drone incursions (15:39:51; settled 18:39:51) — a force-protection awareness drive, not an AI or autonomy development. Also below bar: Breaking Defense on analysts weighing a cut to US aid to Israel (16:55; settled 19:55); Defense News on the Air Force eyeing WWII-era Pacific airfields (15:28:23; settled 18:28:23) — geopolitics and basing; The Verge's KPop Demon Hunters Blu-ray deal (15:27:09; settled 18:27:09) is consumer coverage. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents; public inspection: 102 (both unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-06T22:09:00+00:00",
+    "lastScanSummary": "Scan ~22:09 GMT, Fri 6 Nov (site-only; covers 20:08 to now). No promotion. Below bar: Defense One on Rep. James Walkinshaw urging permanent, serious US–China dialogue on AI risk (published 18:00 GMT; settled 21:00 GMT) — one lawmaker's regulatory view after the midterms, not a policy enacted or an AI incident. TWZ on Russia releasing footage of a Mi-28NM attack helicopter firing a small, low-cost cruise missile (17:30:11; settled 20:30:11) — a new launch platform for an inexpensive standoff weapon, with no autonomy claim. Also below bar: Breaking Defense on Europe's next-generation fighter plans after the Franco-German-Spanish program's collapse (17:51:07; settled 20:51:07) and on Viasat winning a $450 million ceiling deal for a Golden Dome satellite relay operations center (18:41:12; settled 21:41:12) — procurement and space networking; The Verge on Meta's Muse AI building custom app-like spaces (18:10:10; settled 21:10:10) — consumer assistant feature. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents (unchanged); public inspection now 103 documents (was 102). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1858,6 +1858,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-06_scan_2207_dublin",
+      "at": "2026-11-06T22:09:26.356Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-06_scan_2207_dublin"
+    },
+    {
       "id": "patch_2026-11-06_scan_2005_dublin",
       "at": "2026-11-06T20:08:20.260Z",
       "by": "apply-patch",
@@ -2648,14 +2656,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-29_scan_1416_dublin"
-    },
-    {
-      "id": "patch_2026-10-29_scan_1211_dublin",
-      "at": "2026-10-29T12:11:40.318Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-29_scan_1211_dublin"
     }
   ],
   "pendingPosts": [
