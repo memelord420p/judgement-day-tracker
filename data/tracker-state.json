@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-06T22:09:26.356Z",
+    "lastUpdated": "2026-11-07T00:11:21.206Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-06T22:09:00+00:00",
-    "lastScanSummary": "Scan ~22:09 GMT, Fri 6 Nov (site-only; covers 20:08 to now). No promotion. Below bar: Defense One on Rep. James Walkinshaw urging permanent, serious US–China dialogue on AI risk (published 18:00 GMT; settled 21:00 GMT) — one lawmaker's regulatory view after the midterms, not a policy enacted or an AI incident. TWZ on Russia releasing footage of a Mi-28NM attack helicopter firing a small, low-cost cruise missile (17:30:11; settled 20:30:11) — a new launch platform for an inexpensive standoff weapon, with no autonomy claim. Also below bar: Breaking Defense on Europe's next-generation fighter plans after the Franco-German-Spanish program's collapse (17:51:07; settled 20:51:07) and on Viasat winning a $450 million ceiling deal for a Golden Dome satellite relay operations center (18:41:12; settled 21:41:12) — procurement and space networking; The Verge on Meta's Muse AI building custom app-like spaces (18:10:10; settled 21:10:10) — consumer assistant feature. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents (unchanged); public inspection now 103 documents (was 102). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-07T00:11:00+00:00",
+    "lastScanSummary": "Scan ~00:11 GMT, Sat 7 Nov (site-only; covers 22:09 Fri to now). No promotion. Below bar: Defense News on US and Colombian troops starting a joint exercise focused on jungle warfare and counter-IED skills (published 19:27:32 GMT Fri; settled 22:27:32) — conventional training, no AI or autonomy angle; Defense News on the Army renaming culinary specialists as tactical field feeding specialists (20:43:37; settled 23:43:37) — personnel retitling; Defense One on a State Department inspector general finding widespread errors in contract terminations (21:00; settled 00:00 Sat) — procurement oversight, no AI story. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents (unchanged); public inspection 103 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1858,6 +1858,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-07_scan_0009_dublin",
+      "at": "2026-11-07T00:11:21.206Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-07_scan_0009_dublin"
+    },
+    {
       "id": "patch_2026-11-06_scan_2207_dublin",
       "at": "2026-11-06T22:09:26.356Z",
       "by": "apply-patch",
@@ -2648,14 +2656,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-29_scan_1615_dublin"
-    },
-    {
-      "id": "patch_2026-10-29_scan_1416_dublin",
-      "at": "2026-10-29T14:16:58.078Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-29_scan_1416_dublin"
     }
   ],
   "pendingPosts": [
