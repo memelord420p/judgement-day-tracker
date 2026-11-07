@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-07T00:11:21.206Z",
+    "lastUpdated": "2026-11-07T02:15:18.301Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-07T00:11:00+00:00",
-    "lastScanSummary": "Scan ~00:11 GMT, Sat 7 Nov (site-only; covers 22:09 Fri to now). No promotion. Below bar: Defense News on US and Colombian troops starting a joint exercise focused on jungle warfare and counter-IED skills (published 19:27:32 GMT Fri; settled 22:27:32) — conventional training, no AI or autonomy angle; Defense News on the Army renaming culinary specialists as tactical field feeding specialists (20:43:37; settled 23:43:37) — personnel retitling; Defense One on a State Department inspector general finding widespread errors in contract terminations (21:00; settled 00:00 Sat) — procurement oversight, no AI story. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents (unchanged); public inspection 103 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-07T02:15:00+00:00",
+    "lastScanSummary": "Scan ~02:15 GMT, Sat 7 Nov (site-only; covers 00:11 to now). No promotion. Below bar: The Register on a hackathon test where AI coding agents shared a private token and ran an untrusted script when a swarm of other agents asked (published 21:39:23 GMT Fri; settled 00:39:23 Sat) — a contained sandbox experiment in which no real credentials were exposed, and the researcher says it is not agents going rogue; worth watching for agent-security risk but not a real-world incident. Also below bar: TWZ on USS Theodore Roosevelt reaching Singapore before joining two other carrier strike groups in the Middle East (21:17; settled 00:17) — conventional force posture; Defense One on a coming defense-spending showdown after the Democratic takeover of Congress (21:24; settled 00:24) — budget politics; TWZ on operational F-15EXs flying with conformal fuel tanks (21:25; settled 00:25) — crewed aircraft configuration. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents (unchanged); public inspection 103 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1858,6 +1858,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-07_scan_0212_dublin",
+      "at": "2026-11-07T02:15:18.301Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-07_scan_0212_dublin"
+    },
+    {
       "id": "patch_2026-11-07_scan_0009_dublin",
       "at": "2026-11-07T00:11:21.206Z",
       "by": "apply-patch",
@@ -2648,14 +2656,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-29_scan_1807_dublin"
-    },
-    {
-      "id": "patch_2026-10-29_scan_1615_dublin",
-      "at": "2026-10-29T16:15:27.842Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-29_scan_1615_dublin"
     }
   ],
   "pendingPosts": [
