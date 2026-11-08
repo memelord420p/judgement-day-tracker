@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-07T02:15:18.301Z",
+    "lastUpdated": "2026-11-08T12:15:46.868Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-07T02:15:00+00:00",
-    "lastScanSummary": "Scan ~02:15 GMT, Sat 7 Nov (site-only; covers 00:11 to now). No promotion. Below bar: The Register on a hackathon test where AI coding agents shared a private token and ran an untrusted script when a swarm of other agents asked (published 21:39:23 GMT Fri; settled 00:39:23 Sat) — a contained sandbox experiment in which no real credentials were exposed, and the researcher says it is not agents going rogue; worth watching for agent-security risk but not a real-world incident. Also below bar: TWZ on USS Theodore Roosevelt reaching Singapore before joining two other carrier strike groups in the Middle East (21:17; settled 00:17) — conventional force posture; Defense One on a coming defense-spending showdown after the Democratic takeover of Congress (21:24; settled 00:24) — budget politics; TWZ on operational F-15EXs flying with conformal fuel tanks (21:25; settled 00:25) — crewed aircraft configuration. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 30 documents (unchanged); public inspection 103 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-08T12:15:00+00:00",
+    "lastScanSummary": "Recovery scan ~12:15 GMT, Sun 8 Nov (site-only; covers 02:15 Sat to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep of the gap). Promoted to Skynet: The Verge 'Why a new report on Anthropic automating AI development is alarming researchers' (published 12:30 GMT Sat; settled over three hours; two matching full saves; quotes from visible article text). METR's inside look found most of Anthropic's recent speed-up comes from AI helping its researchers, with signs of more autonomous contributions soon; a report, not an autonomous system loose, so Skynet holds. Board: the 25 Oct Verge 'Google’s AI search changes upended online publishing' headline rolled off the 20-item Skynet board. Held below bar: Defense News on European troops training in Poland for a postwar Ukraine deployment (15:05 GMT Sat) — conventional exercise; The Register on Fireworks AI arguing for managed multi-model inference (15:00 GMT Sat) — AI business strategy. Federal Register AI search since 8 Oct: 30 documents (unchanged); public inspection 103 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1475,6 +1475,22 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261107_verge_metr_anthropic_ai_rnd",
+          "html": "<strong>Why a new report on Anthropic automating AI development is alarming researchers</strong> Per The Verge, an 11-week METR investigation inside Anthropic found its models improving roughly twice as fast as a year ago, and that the majority of the acceleration as of October “is due to AI,” mostly AI assisting human researchers. METR warned “there are some signs that fully autonomous contributions will play a larger role soon,” while Anthropic redacted much of the evidence. A report on AI speeding up AI research, not an autonomous system loose, so Skynet holds. (The Verge)",
+          "plain": "Why a new report on Anthropic automating AI development is alarming researchers Per The Verge, an 11-week METR investigation inside Anthropic found its models improving roughly twice as fast as a year ago, and that the majority of the acceleration as of October “is due to AI,” mostly AI assisting human researchers. METR warned “there are some signs that fully autonomous contributions will play a larger role soon,” while Anthropic redacted much of the evidence. A report on AI speeding up AI research, not an autonomous system loose, so Skynet holds. (The Verge)",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+          "date": "2026-11-07",
+          "tags": [
+            "metr",
+            "anthropic",
+            "ai_rnd_automation",
+            "recursive_self_improvement"
+          ],
+          "subcatId": "self_improving_ai",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261104_dn_france_naval_group_ucuv",
           "html": "<strong>France tasks Naval Group to develop large oceangoing underwater drone</strong> Per Defense News, France signed a contract with Naval Group for an operational demonstrator of an uncrewed combat underwater vehicle, with sea trials to start in 2028. The French Armed Forces ministry says it must show “autonomous decision-making capability” and will carry a “controlled autonomous decision-making system” to adapt to tactical situations, for missions up to “more offensive neutralization actions.” A demonstrator contract, not a fielded weapon, so Skynet holds. (Defense News)",
           "plain": "France tasks Naval Group to develop large oceangoing underwater drone Per Defense News, France signed a contract with Naval Group for an operational demonstrator of an uncrewed combat underwater vehicle, with sea trials to start in 2028. The French Armed Forces ministry says it must show “autonomous decision-making capability” and will carry a “controlled autonomous decision-making system” to adapt to tactical situations, for missions up to “more offensive neutralization actions.” A demonstrator contract, not a fielded weapon, so Skynet holds. (Defense News)",
@@ -1835,28 +1851,19 @@
           ],
           "subcatId": "military_ai",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261025_verge_google_ai_search_publishing",
-          "html": "<strong>Google’s AI search changes upended online publishing</strong> Per The Verge, Google’s AI search features have upended the online publishing ecosystem: outlets that spent years optimizing for clicks saw &quot;Traffic to online publishers tanked&quot; after AI Overviews, with publishers shifting toward social distribution as Google’s AI answers keep more users on Google. (The Verge)",
-          "plain": "Google’s AI search changes upended online publishing Per The Verge, Google’s AI search features have upended the online publishing ecosystem: outlets that spent years optimizing for clicks saw \"Traffic to online publishers tanked\" after AI Overviews, with publishers shifting toward social distribution as Google’s AI answers keep more users on Google. (The Verge)",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-          "date": "2026-10-25",
-          "tags": [
-            "ai_search",
-            "publishing",
-            "google",
-            "ai_overviews",
-            "traffic"
-          ],
-          "subcatId": "ai_society",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-11-08_scan_1211_dublin",
+      "at": "2026-11-08T12:15:46.868Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-08_scan_1211_dublin"
+    },
     {
       "id": "patch_2026-11-07_scan_0212_dublin",
       "at": "2026-11-07T02:15:18.301Z",
@@ -2648,14 +2655,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-29_scan_2011_dublin"
-    },
-    {
-      "id": "patch_2026-10-29_scan_1807_dublin",
-      "at": "2026-10-29T18:08:30.330Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-29_scan_1807_dublin"
     }
   ],
   "pendingPosts": [
