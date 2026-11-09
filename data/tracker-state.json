@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-09T18:09:42.607Z",
+    "lastUpdated": "2026-11-09T20:13:10.324Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-09T18:09:00+00:00",
-    "lastScanSummary": "Scan ~18:09 GMT, Mon 9 Nov (site-only; covers 16:14 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register on Outlook.com rejecting legitimate mail after Microsoft tightened sender-authentication checks (published 13:30 GMT; settled 16:30) — email configuration fault; The Register on Forrester saying fears of an imminent AI bubble burst are premature while advising buyers to plan for a correction (14:02; settled 17:02) — market analysis; The Register on Who Gives A Crap customer data exposed through a third-party supplier breach (14:30; settled 17:30) — conventional breach, no AI attacker reported; The Register on Microsoft shipping more than 470 CVE fixes for Azure Linux in one release (15:02; settled 18:02) — routine patching. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 109 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-09T20:13:00+00:00",
+    "lastScanSummary": "Scan ~20:13 GMT, Mon 9 Nov (site-only; covers 18:09 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: Defense News on Kongsberg Maritime pitching Arctic Hunter, a converted trawler with autonomy features to hunt Russian submarines unattended for about 60 days (published 17:01:04 GMT; settled 20:01:04) — a sensing-drone concept pitch, not a contract or fielded weapon; Defense News on drone maker Neros getting a $450 million Pentagon loan to expand domestic small-drone production (15:45:23; settled 18:45:23) — industrial-base funding, no autonomy advance reported; The Register on a counterfactual world-model technique for better robot predictions (17:00; settled 20:00) — early research preprint. Also below bar: Breaking Defense on industry opposing NDAA right-to-repair provisions (15:36:52), The Register on NASA repurposing a Mars rover test model as the PROMISE lunar rover (15:45) and on Windows Sticky Keys prompts (16:43:17), and The Verge on Uber adding parking reservations (17:00) — no AI-war or rogue-AI angle. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 109 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1857,6 +1857,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-09_scan_2013_dublin",
+      "at": "2026-11-09T20:13:10.324Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-09_scan_2013_dublin"
+    },
+    {
       "id": "patch_2026-11-09_scan_1809_dublin",
       "at": "2026-11-09T18:09:42.607Z",
       "by": "apply-patch",
@@ -2647,14 +2655,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-31_scan_0412_dublin"
-    },
-    {
-      "id": "patch_2026-10-31_scan_0206_dublin",
-      "at": "2026-10-31T02:05:44.159Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-31_scan_0206_dublin"
     }
   ],
   "pendingPosts": [
