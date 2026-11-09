@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-09T20:13:10.324Z",
+    "lastUpdated": "2026-11-09T22:10:46.248Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-09T20:13:00+00:00",
-    "lastScanSummary": "Scan ~20:13 GMT, Mon 9 Nov (site-only; covers 18:09 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: Defense News on Kongsberg Maritime pitching Arctic Hunter, a converted trawler with autonomy features to hunt Russian submarines unattended for about 60 days (published 17:01:04 GMT; settled 20:01:04) — a sensing-drone concept pitch, not a contract or fielded weapon; Defense News on drone maker Neros getting a $450 million Pentagon loan to expand domestic small-drone production (15:45:23; settled 18:45:23) — industrial-base funding, no autonomy advance reported; The Register on a counterfactual world-model technique for better robot predictions (17:00; settled 20:00) — early research preprint. Also below bar: Breaking Defense on industry opposing NDAA right-to-repair provisions (15:36:52), The Register on NASA repurposing a Mars rover test model as the PROMISE lunar rover (15:45) and on Windows Sticky Keys prompts (16:43:17), and The Verge on Uber adding parking reservations (17:00) — no AI-war or rogue-AI angle. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 109 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-09T22:10:00+00:00",
+    "lastScanSummary": "Scan ~22:10 GMT, Mon 9 Nov (site-only; covers 20:13 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). Promoted to Skynet: TWZ 'LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed' (published 17:29:46 GMT; settled over three hours; two matching full saves; quotes from visible article text). Machina won an 18-month Pentagon contract to prove robotic cells can build low-cost one-way attack drone airframes near the front, with its CEO saying AI agents generate airframe designs in software; a prove-out with test setbacks, so Skynet holds. Board: the 26 Oct headline on the Navy rebranding artificial intelligence rolled off the 20-item Skynet board. Held below bar: Breaking Defense on the Army fielding launched-effects drones to 11 of 12 divisions (17:21:48) — fielding of operator-launched systems with no autonomy claim reported; The Register on researchers hijacking automakers' Android apps to unlock cars remotely (17:31) — conventional security research; The Verge commentary on Nvidia's CEO and chip-export concerns (17:36:08) — opinion, no new facts; Defense News on Optics11 fiber-optic underwater sensing trials with navies (17:52:01) — sensing hardware, no AI angle. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 110 documents (was 109). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1475,6 +1475,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261109_twz_lucas_robotic_micro_factories",
+          "html": "<strong>LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed</strong> Per TWZ, the Pentagon awarded Machina an 18-month contract to prove it can build LUCAS one-way attack drone airframes at deployed locations with its RoboCraftsman robotic cells, each making an airframe in two to five days. Machina's CEO says “the agentic AI agents can explore and generate whole different versions of an airframe,” letting the system “easily generate 20, 30, 40, 50 different designs just in software.” A prove-out contract with test setbacks, not robots mass-producing weapons at the front yet, so Skynet holds. (TWZ)",
+          "plain": "LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed Per TWZ, the Pentagon awarded Machina an 18-month contract to prove it can build LUCAS one-way attack drone airframes at deployed locations with its RoboCraftsman robotic cells, each making an airframe in two to five days. Machina's CEO says “the agentic AI agents can explore and generate whole different versions of an airframe,” letting the system “easily generate 20, 30, 40, 50 different designs just in software.” A prove-out contract with test setbacks, not robots mass-producing weapons at the front yet, so Skynet holds. (TWZ)",
+          "source": "TWZ",
+          "url": "https://www.twz.com/news-features/lucas-drones-to-be-built-in-containerized-robotic-micro-factories-designed-to-be-forward-deployed",
+          "date": "2026-11-09",
+          "tags": [
+            "lucas",
+            "attack_drones",
+            "robotic_manufacturing",
+            "agentic_ai",
+            "machina"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261107_verge_metr_anthropic_ai_rnd",
           "html": "<strong>Why a new report on Anthropic automating AI development is alarming researchers</strong> Per The Verge, an 11-week METR investigation inside Anthropic found its models improving roughly twice as fast as a year ago, and that the majority of the acceleration as of October “is due to AI,” mostly AI assisting human researchers. METR warned “there are some signs that fully autonomous contributions will play a larger role soon,” while Anthropic redacted much of the evidence. A report on AI speeding up AI research, not an autonomous system loose, so Skynet holds. (The Verge)",
           "plain": "Why a new report on Anthropic automating AI development is alarming researchers Per The Verge, an 11-week METR investigation inside Anthropic found its models improving roughly twice as fast as a year ago, and that the majority of the acceleration as of October “is due to AI,” mostly AI assisting human researchers. METR warned “there are some signs that fully autonomous contributions will play a larger role soon,” while Anthropic redacted much of the evidence. A report on AI speeding up AI research, not an autonomous system loose, so Skynet holds. (The Verge)",
@@ -1834,28 +1851,19 @@
           ],
           "subcatId": "ai_capabilities",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261023_militarytimes_navy_super_intelligence_rebrand",
-          "html": "<strong>A ‘super’ rebrand: Navy mandates dropping ‘artificial intelligence’</strong> Per Military Times, a US Navy memo directed all echelons, commands, activities, and personnel to use &quot;Super Intelligence&quot; and &quot;SI&quot; in place of &quot;Artificial Intelligence&quot; and &quot;AI,&quot; following the White House terminology rebrand — a language/policy story rather than a newly demonstrated autonomous capability leap. (Military Times)",
-          "plain": "A ‘super’ rebrand: Navy mandates dropping ‘artificial intelligence’ Per Military Times, a US Navy memo directed all echelons, commands, activities, and personnel to use \"Super Intelligence\" and \"SI\" in place of \"Artificial Intelligence\" and \"AI,\" following the White House terminology rebrand — a language/policy story rather than a newly demonstrated autonomous capability leap. (Military Times)",
-          "source": "Military Times",
-          "url": "https://www.militarytimes.com/off-duty/military-culture/2026/10/23/a-super-rebrand-navy-mandates-dropping-artificial-intelligence/",
-          "date": "2026-10-26",
-          "tags": [
-            "navy",
-            "super_intelligence",
-            "ai_rebrand",
-            "policy",
-            "military_ai"
-          ],
-          "subcatId": "military_ai",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-11-09_scan_2210_dublin",
+      "at": "2026-11-09T22:10:46.248Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-09_scan_2210_dublin"
+    },
     {
       "id": "patch_2026-11-09_scan_2013_dublin",
       "at": "2026-11-09T20:13:10.324Z",
@@ -2647,14 +2655,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-31_scan_0606_dublin"
-    },
-    {
-      "id": "patch_2026-10-31_scan_0412_dublin",
-      "at": "2026-10-31T04:13:07.986Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-31_scan_0412_dublin"
     }
   ],
   "pendingPosts": [
