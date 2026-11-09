@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-09T14:10:08.324Z",
+    "lastUpdated": "2026-11-09T16:14:49.961Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-09T14:10:00+00:00",
-    "lastScanSummary": "Scan ~14:10 GMT, Mon 9 Nov (site-only; covers 12:08 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register on soaring memory prices, driven by demand for AI datacenter memory, pushing buyers toward refurbished hardware (published 09:30 GMT; settled 12:30) — hardware market economics; The Register on AI Slop FM, a Welsh internet radio station mixing AI-generated and human songs without labels so listeners can rate them blind (10:15; settled 13:15) — generative-music culture experiment; The Verge feature on private BitTorrent trackers and film piracy communities (11:00:05; settled 14:00:05) — no AI-war or rogue-AI angle. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 109 documents (was 103). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-09T16:14:00+00:00",
+    "lastScanSummary": "Scan ~16:14 GMT, Mon 9 Nov (site-only; covers 14:10 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register on a portal breach at the Technical University of Munich exposing registered users' passwords (published 11:44:20 GMT; settled 14:44:20) and on Iris Ohyama pulling its online store after a cloud breach put 7.7 million customer records at risk (12:47; settled 15:47) — conventional cybercrime with no AI attacker reported; The Register opinion on AI hype among tech leaders (11:59; settled 14:59) — commentary; The Verge on Instagram expanding AI age detection to place likely teens in restricted accounts (12:00; settled 15:00) — consumer safety feature; The Register's podcast on datacenters, Elon Musk and AI facing scrutiny after the Democratic sweep (12:14; settled 15:14) — political analysis, no enacted policy yet; Defense News on a Swiss referendum over easing arms export curbs (12:19:22; settled 15:19:22) — no AI angle. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 109 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1857,6 +1857,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-09_scan_1614_dublin",
+      "at": "2026-11-09T16:14:49.961Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-09_scan_1614_dublin"
+    },
+    {
       "id": "patch_2026-11-09_scan_1410_dublin",
       "at": "2026-11-09T14:10:08.324Z",
       "by": "apply-patch",
@@ -2647,14 +2655,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-31_scan_0004_dublin"
-    },
-    {
-      "id": "patch_2026-10-30_scan_2206_dublin",
-      "at": "2026-10-30T22:06:51.307Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-30_scan_2206_dublin"
     }
   ],
   "pendingPosts": [
