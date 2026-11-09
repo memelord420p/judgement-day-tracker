@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-09T12:08:09.093Z",
+    "lastUpdated": "2026-11-09T14:10:08.324Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-09T12:08:00+00:00",
-    "lastScanSummary": "Scan ~12:08 GMT, Mon 9 Nov (site-only; covers 10:14 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register's reader story about an accounting-software release in the Windows 95 era that broke customers' PCs and led to a $1 million CD-ROM write-off (published 07:36 GMT; settled 10:36) — a historical human software bug, no AI involved. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 103 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-09T14:10:00+00:00",
+    "lastScanSummary": "Scan ~14:10 GMT, Mon 9 Nov (site-only; covers 12:08 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register on soaring memory prices, driven by demand for AI datacenter memory, pushing buyers toward refurbished hardware (published 09:30 GMT; settled 12:30) — hardware market economics; The Register on AI Slop FM, a Welsh internet radio station mixing AI-generated and human songs without labels so listeners can rate them blind (10:15; settled 13:15) — generative-music culture experiment; The Verge feature on private BitTorrent trackers and film piracy communities (11:00:05; settled 14:00:05) — no AI-war or rogue-AI angle. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 109 documents (was 103). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1857,6 +1857,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-09_scan_1410_dublin",
+      "at": "2026-11-09T14:10:08.324Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-09_scan_1410_dublin"
+    },
+    {
       "id": "patch_2026-11-09_scan_1208_dublin",
       "at": "2026-11-09T12:08:09.093Z",
       "by": "apply-patch",
@@ -2647,14 +2655,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-30_scan_2206_dublin"
-    },
-    {
-      "id": "patch_2026-10-30_scan_2010_dublin",
-      "at": "2026-10-30T20:11:06.322Z",
-      "by": "judgment-day-watch",
-      "type": "patch",
-      "summary": "Scan ~20:10 London, Fri 30 Oct (site-only; covers 18:03 to now; UK clocks GMT). Promoted to Skynet: The Verge 'Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’' (published 15:14 GMT, settled over three hours, title matched across two raw saves, quotes from visible article text). Pope Leo urged UN member states to “take concrete steps toward banning lethal autonomous weapons” at next month's Geneva meeting and said decisions on the use of force “must always remain subject to effective, informed, and responsible human oversight.” Advocacy for a killer-robot ban rather than a new capability, so Skynet holds. Board: the 23 Oct Verge 'Retro gaming is being overrun with AI' headline rolled off the 20-item Skynet board. Held below bar: TWZ General Atomics NextGen hybrid-electric strike-recon flying wing (development concept), Defense News France turning tank gunners into FPV pilots (training), Breaking Defense PACOM multinational data-sharing network (networking, not AI autonomy). Yonhap paused. Federal Register 'artificial intelligence' search since 8 Oct lists 26 documents; public inspection carries 105 documents. Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
-      "patchId": "patch_2026-10-30_scan_2010_dublin"
     }
   ],
   "pendingPosts": [
