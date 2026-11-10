@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-10T10:10:33.475Z",
+    "lastUpdated": "2026-11-10T14:15:01.399Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-10T10:10:00+00:00",
-    "lastScanSummary": "Scan ~10:10 GMT, Tue 10 Nov (site-only; covers 08:12 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: Defense One on the White House nominating Palantir security chief Michael LoSapio to lead CISA, the federal civilian cyberdefense agency that works with critical infrastructure operators (published 03:26 GMT; settled 06:26) — a personnel nomination awaiting Senate action, no AI-war or rogue-AI development. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 110 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-10T14:15:00+00:00",
+    "lastScanSummary": "Scan ~14:15 GMT, Tue 10 Nov (site-only; covers 10:10 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). Promoted to Skynet: The Register 'Royal Navy stands up first autonomous boat squadron' (published 10:15 GMT; settled over three hours; two matching full saves; quotes from visible article text). The Royal Navy commissioned its first operational uncrewed boat squadron to run seaborne drones on front-line operations; the craft mix remote piloting and autonomy with no new decision-making autonomy described, so Skynet holds. Board: the 26 Oct headline on Chinese video-AI quality safeguards rolled off the 20-item Skynet board. Held below bar: The Register on Microsoft retiring free education email licences from 2028 (09:29) — licensing change, no AI angle; The Verge first ride on the Real Motors Project Ares electric motorcycle (11:00) — consumer vehicle; The Register on the EU suing IBM, Atos and Leonardo over its delayed smart border system (11:01) — procurement litigation over a biometric system already operating; Defense News on France ordering two military Earth-observation satellites for more than 1.5 billion euros (11:13:15) — conventional spy-satellite replacement, no AI angle. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 122 documents (was 110). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1475,6 +1475,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261110_register_royal_navy_autonomous_boat_squadron",
+          "html": "<strong>Royal Navy stands up first autonomous boat squadron</strong> Per The Register, Britain's Royal Navy has formally commissioned its first uncrewed boat squadron, replacing the experimental Project Beehive and running seaborne drones on front-line operations, including Kraken K3 Scout boats whose maker pitches them for anti-ship and anti-submarine missions. Fleet Commander Vice-Admiral Steve Moorhouse said “A hybrid navy is about giving our people better tools. It means more reach, more striking power and more options.” The boats are a mix of remotely piloted and autonomous craft with no new decision-making autonomy described, so Skynet holds. (The Register)",
+          "plain": "Royal Navy stands up first autonomous boat squadron Per The Register, Britain's Royal Navy has formally commissioned its first uncrewed boat squadron, replacing the experimental Project Beehive and running seaborne drones on front-line operations, including Kraken K3 Scout boats whose maker pitches them for anti-ship and anti-submarine missions. Fleet Commander Vice-Admiral Steve Moorhouse said “A hybrid navy is about giving our people better tools. It means more reach, more striking power and more options.” The boats are a mix of remotely piloted and autonomous craft with no new decision-making autonomy described, so Skynet holds. (The Register)",
+          "source": "The Register",
+          "url": "https://www.theregister.com/offbeat/2026/11/10/royal-navy-stands-up-first-autonomous-boat-squadron/5308494",
+          "date": "2026-11-10",
+          "tags": [
+            "royal_navy",
+            "uncrewed_surface_vessels",
+            "autonomous_boats",
+            "hybrid_navy",
+            "kraken"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261109_twz_lucas_robotic_micro_factories",
           "html": "<strong>LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed</strong> Per TWZ, the Pentagon awarded Machina an 18-month contract to prove it can build LUCAS one-way attack drone airframes at deployed locations with its RoboCraftsman robotic cells, each making an airframe in two to five days. Machina's CEO says “the agentic AI agents can explore and generate whole different versions of an airframe,” letting the system “easily generate 20, 30, 40, 50 different designs just in software.” A prove-out contract with test setbacks, not robots mass-producing weapons at the front yet, so Skynet holds. (TWZ)",
           "plain": "LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed Per TWZ, the Pentagon awarded Machina an 18-month contract to prove it can build LUCAS one-way attack drone airframes at deployed locations with its RoboCraftsman robotic cells, each making an airframe in two to five days. Machina's CEO says “the agentic AI agents can explore and generate whole different versions of an airframe,” letting the system “easily generate 20, 30, 40, 50 different designs just in software.” A prove-out contract with test setbacks, not robots mass-producing weapons at the front yet, so Skynet holds. (TWZ)",
@@ -1833,29 +1850,19 @@
           ],
           "subcatId": "ai_capabilities",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261026_scmp_chinese_video_ai_visual_quality_safeguards_hku",
-          "html": "<strong>Chinese video AI beats US rivals’ visual quality, but lags on safeguards: study</strong> Per SCMP, a University of Hong Kong study ranked ByteDance’s Seedance 2.0 Pro first among 12 AI video-generation models on visual quality, ahead of Google DeepMind’s Veo and OpenAI’s Sora, while finding some high-performing models lagged on content safety/safeguards. A China–US capability comparison rather than a newly demonstrated autonomous weapons leap, so the Skynet score holds. (SCMP)",
-          "plain": "Chinese video AI beats US rivals’ visual quality, but lags on safeguards: study Per SCMP, a University of Hong Kong study ranked ByteDance’s Seedance 2.0 Pro first among 12 AI video-generation models on visual quality, ahead of Google DeepMind’s Veo and OpenAI’s Sora, while finding some high-performing models lagged on content safety/safeguards. A China–US capability comparison rather than a newly demonstrated autonomous weapons leap, so the Skynet score holds. (SCMP)",
-          "source": "SCMP",
-          "url": "https://www.scmp.com/tech/tech-trends/article/3372107/chinese-video-ai-models-beat-us-rivals-visual-quality-lag-safeguards-hku-study",
-          "date": "2026-10-26",
-          "tags": [
-            "china_ai",
-            "video_ai",
-            "bytedance",
-            "seedance",
-            "safeguards",
-            "hku"
-          ],
-          "subcatId": "ai_capabilities",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-11-10_scan_1415_dublin",
+      "at": "2026-11-10T14:15:01.399Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-10_scan_1415_dublin"
+    },
     {
       "id": "patch_2026-11-10_scan_1010_dublin",
       "at": "2026-11-10T10:10:33.475Z",
@@ -2647,14 +2654,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-31_scan_2008_dublin"
-    },
-    {
-      "id": "patch_2026-10-31_scan_1804_dublin",
-      "at": "2026-10-31T18:03:33.178Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-31_scan_1804_dublin"
     }
   ],
   "pendingPosts": [
