@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-10T04:12:22.299Z",
+    "lastUpdated": "2026-11-10T06:08:36.970Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-10T04:12:00+00:00",
-    "lastScanSummary": "Scan ~04:12 GMT, Tue 10 Nov (site-only; covers 02:06 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register on Cisco and IBM building Anthropic's bug-finding Mythos model into their security products, exposing its capabilities without handing customers the model (published 00:00:20 GMT; settled 03:00:20) — a controlled defensive product integration, with Anthropic reporting misalignment risks remain low after prerelease testing; TWZ on Kratos saying MQ-58 Valkyrie drones now cost about $6 million to $8 million each (00:39:57; settled 03:39:57) — pricing for drone wingmen already known on the board, no new autonomy claim. Also below bar: three Verge pieces on the Nvidia CEO spy scandal, covering the known facts, the White House account, and his influence over AI chip export policy (23:07:59 to 23:51:58 Mon) — political and corporate fallout, no AI system incident. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 110 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-10T06:08:00+00:00",
+    "lastScanSummary": "Scan ~06:08 GMT, Tue 10 Nov (site-only; covers 04:12 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion; no new settled AI-war or rogue-AI story cleared the bar in that window. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 110 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1857,6 +1857,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-10_scan_0608_dublin",
+      "at": "2026-11-10T06:08:36.970Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-10_scan_0608_dublin"
+    },
+    {
       "id": "patch_2026-11-10_scan_0412_dublin",
       "at": "2026-11-10T04:12:22.299Z",
       "by": "apply-patch",
@@ -2647,14 +2655,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-31_scan_1410_dublin"
-    },
-    {
-      "id": "patch_2026-10-31_scan_1208_dublin",
-      "at": "2026-10-31T12:08:23.001Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-31_scan_1208_dublin"
     }
   ],
   "pendingPosts": [
