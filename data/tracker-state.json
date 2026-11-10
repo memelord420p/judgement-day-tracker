@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-10T14:15:01.399Z",
+    "lastUpdated": "2026-11-10T16:14:43.896Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-10T14:15:00+00:00",
-    "lastScanSummary": "Scan ~14:15 GMT, Tue 10 Nov (site-only; covers 10:10 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). Promoted to Skynet: The Register 'Royal Navy stands up first autonomous boat squadron' (published 10:15 GMT; settled over three hours; two matching full saves; quotes from visible article text). The Royal Navy commissioned its first operational uncrewed boat squadron to run seaborne drones on front-line operations; the craft mix remote piloting and autonomy with no new decision-making autonomy described, so Skynet holds. Board: the 26 Oct headline on Chinese video-AI quality safeguards rolled off the 20-item Skynet board. Held below bar: The Register on Microsoft retiring free education email licences from 2028 (09:29) — licensing change, no AI angle; The Verge first ride on the Real Motors Project Ares electric motorcycle (11:00) — consumer vehicle; The Register on the EU suing IBM, Atos and Leonardo over its delayed smart border system (11:01) — procurement litigation over a biometric system already operating; Defense News on France ordering two military Earth-observation satellites for more than 1.5 billion euros (11:13:15) — conventional spy-satellite replacement, no AI angle. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 122 documents (was 110). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-10T16:14:00+00:00",
+    "lastScanSummary": "Scan ~16:14 GMT, Tue 10 Nov (site-only; covers 14:15 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register on Google DeepMind using its AlphaProof Code multi-agent system to formally verify Signal's messaging security, with Gemini Carbon agents generating 6.5 million lines of Lean proof under human review (published 12:00 GMT; settled 15:00) — a defensive, human-in-the-loop verification result that took a team of five four weeks, no autonomy or self-improvement step; The Register on 12 to 13 million UK smart meters needing replacement for the 2G and 3G switch-off (12:38:51) — telecoms infrastructure cost, no AI angle; The Register on a ransomware attack restricting most Vanderbilt University systems (13:00) — conventional cybercrime, no AI role reported. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 122 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1856,6 +1856,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-10_scan_1614_dublin",
+      "at": "2026-11-10T16:14:43.896Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-10_scan_1614_dublin"
+    },
+    {
       "id": "patch_2026-11-10_scan_1415_dublin",
       "at": "2026-11-10T14:15:01.399Z",
       "by": "apply-patch",
@@ -2646,14 +2654,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-31_scan_2204_dublin"
-    },
-    {
-      "id": "patch_2026-10-31_scan_2008_dublin",
-      "at": "2026-10-31T20:07:19.893Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-31_scan_2008_dublin"
     }
   ],
   "pendingPosts": [
