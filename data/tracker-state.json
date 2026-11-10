@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-10T08:12:47.277Z",
+    "lastUpdated": "2026-11-10T10:10:33.475Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-10T08:12:00+00:00",
-    "lastScanSummary": "Scan ~08:12 GMT, Tue 10 Nov (site-only; covers 06:08 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register on Cisco saying all its future products will integrate with its Cloud Control management platform, which reaches the EU, UK and Australia in February 2027 (published 03:32:40 GMT; settled 06:32:40) — a network-management product roadmap, no AI-war or rogue-AI development. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 110 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-10T10:10:00+00:00",
+    "lastScanSummary": "Scan ~10:10 GMT, Tue 10 Nov (site-only; covers 08:12 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: Defense One on the White House nominating Palantir security chief Michael LoSapio to lead CISA, the federal civilian cyberdefense agency that works with critical infrastructure operators (published 03:26 GMT; settled 06:26) — a personnel nomination awaiting Senate action, no AI-war or rogue-AI development. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 110 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1857,6 +1857,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-10_scan_1010_dublin",
+      "at": "2026-11-10T10:10:33.475Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-10_scan_1010_dublin"
+    },
+    {
       "id": "patch_2026-11-10_scan_0812_dublin",
       "at": "2026-11-10T08:12:47.277Z",
       "by": "apply-patch",
@@ -2647,14 +2655,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-31_scan_1804_dublin"
-    },
-    {
-      "id": "patch_2026-10-31_scan_1609_dublin",
-      "at": "2026-10-31T16:09:52.678Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-31_scan_1609_dublin"
     }
   ],
   "pendingPosts": [
