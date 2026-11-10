@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-10T20:13:45.268Z",
+    "lastUpdated": "2026-11-10T22:08:04.680Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-10T20:13:00+00:00",
-    "lastScanSummary": "Scan ~20:13 GMT, Tue 10 Nov (site-only; covers 18:11 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: Defense News on an open-source investigation tracking Russian cargo ships carrying tanks, armored vehicles and rocket launchers to African ports (15:24:07 GMT) — conventional arms logistics; The Register on AI inference firm Fireworks AI disclosing a second breach that exposed billing records, datasets and incomplete model weights (15:28) — cybercrime against an AI company, no AI system acting on its own; Defense News on a GAO report that the Pentagon still cannot track millions of F-35 spare parts (15:41:12) — logistics oversight; Defense One on the defense secretary defending his record against impeachment articles at a rare briefing (15:41) — political dispute; Breaking Defense commentary arguing for a maritime-first British defense strategy (16:14:31) — opinion; The Verge on eBay appearing to block third-party AI shopping agents from its site (16:20:30) — platform access policy; The Register on AMD's Verano CPU built to feed its next GPU servers (17:00) and its returning Epyc X chips for technical computing (17:10) — chip roadmaps, no capability leap. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 123 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-10T22:08:00+00:00",
+    "lastScanSummary": "Scan ~22:08 GMT, Tue 10 Nov (site-only; covers 20:13 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). Promoted to Skynet: Defense News 'First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers' (published 18:17:13 GMT; settled over three hours; two matching full saves; quotes from visible article text). Shield AI's Hivemind autonomy software flew multiple Air Force collaborative combat drones in formation and ran beyond-visual-range counter-air tactics for the first time; it was a company-announced test with operators in the loop and few details, so Skynet holds. Board: the 27 Oct headline on China's state-owned data group fuelling its AI race rolled off the 20-item Skynet board. Held below bar: The Register on AMD's Zen 6 cores with up to 256 cores and 20 to 31 percent IPC gains (17:20) — chip roadmap; The Verge on Anthropic launching meeting, spreadsheet and whiteboard tools for office workers (17:30) — productivity software; The Verge on indie festival jurors rejecting games made with generative AI (17:32:47) — industry dispute; The Verge on ChatGPT Business Agents that answer questions for companies (18:00) — customer-service feature; The Register on Mozilla's Thundermail early access (18:13:57) — email service; The Register on Autark, a teenager's open tool where a manager agent delegates tasks to other AI agents (18:31:53) — hobby orchestration tool, no capability leap; The Register on attackers exploiting Barracuda email gateway flaws (18:51:35) — conventional security; Defense News on Ukraine pressing for faster US interceptor deliveries as Russia strikes its power grid (18:57:04) — conventional air defense; The Verge commentary on espionage risk around Nvidia's CEO (19:04:05) — opinion; TWZ on a General Atomics concept to pack glide munitions inside an AIM-174B missile (19:04:35) — weapons concept, no autonomy claim; Breaking Defense on the pending UK military satellite contract decision (19:06:19) — procurement. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 124 documents (was 123). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1475,6 +1475,23 @@
       "id": "skynet",
       "headlines": [
         {
+          "id": "skynet_hl_20261110_defensenews_cca_formation_air_combat_hivemind",
+          "html": "<strong>First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers</strong> Per Defense News, Shield AI's Hivemind autonomy software flew multiple U.S. Air Force Collaborative Combat Aircraft in a multi-ship formation and ran beyond-visual-range counter-air tactics in an Oct. 26 exercise, the first time the semi-autonomous drones have done so. Shield's Todd Wesley said “We are excited that the aircraft and mission systems are reaching a level of integration to start showing what Hivemind can really do.” A company-announced test with Air Force operators in the loop, and the release did not say how many aircraft flew or which CCA took part, so Skynet holds. (Defense News)",
+          "plain": "First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers Per Defense News, Shield AI's Hivemind autonomy software flew multiple U.S. Air Force Collaborative Combat Aircraft in a multi-ship formation and ran beyond-visual-range counter-air tactics in an Oct. 26 exercise, the first time the semi-autonomous drones have done so. Shield's Todd Wesley said “We are excited that the aircraft and mission systems are reaching a level of integration to start showing what Hivemind can really do.” A company-announced test with Air Force operators in the loop, and the release did not say how many aircraft flew or which CCA took part, so Skynet holds. (Defense News)",
+          "source": "Defense News",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/11/10/first-ever-collaborative-combat-aircraft-fly-in-formation-demonstrate-air-combat-maneuvers/",
+          "date": "2026-11-10",
+          "tags": [
+            "collaborative_combat_aircraft",
+            "hivemind",
+            "shield_ai",
+            "autonomous_air_combat",
+            "usaf"
+          ],
+          "subcatId": "military_ai_autonomous_weapons",
+          "fighterId": "skynet"
+        },
+        {
           "id": "skynet_hl_20261110_register_royal_navy_autonomous_boat_squadron",
           "html": "<strong>Royal Navy stands up first autonomous boat squadron</strong> Per The Register, Britain's Royal Navy has formally commissioned its first uncrewed boat squadron, replacing the experimental Project Beehive and running seaborne drones on front-line operations, including Kraken K3 Scout boats whose maker pitches them for anti-ship and anti-submarine missions. Fleet Commander Vice-Admiral Steve Moorhouse said “A hybrid navy is about giving our people better tools. It means more reach, more striking power and more options.” The boats are a mix of remotely piloted and autonomous craft with no new decision-making autonomy described, so Skynet holds. (The Register)",
           "plain": "Royal Navy stands up first autonomous boat squadron Per The Register, Britain's Royal Navy has formally commissioned its first uncrewed boat squadron, replacing the experimental Project Beehive and running seaborne drones on front-line operations, including Kraken K3 Scout boats whose maker pitches them for anti-ship and anti-submarine missions. Fleet Commander Vice-Admiral Steve Moorhouse said “A hybrid navy is about giving our people better tools. It means more reach, more striking power and more options.” The boats are a mix of remotely piloted and autonomous craft with no new decision-making autonomy described, so Skynet holds. (The Register)",
@@ -1832,29 +1849,19 @@
           ],
           "subcatId": "ai_capabilities",
           "fighterId": "skynet"
-        },
-        {
-          "id": "skynet_hl_20261027_scmp_china_ai_data_fuel_national_data_group",
-          "html": "<strong>China’s AI race needs data fuel. Can a new state-owned giant deliver?</strong> Per SCMP, Beijing inaugurated a centrally managed national data group — a state-owned enterprise in Xiongan New Area — to turn China’s data stores into fuel for artificial intelligence; Vice-Premier Ding Xuexiang called it a “major strategic decision”. A national data-infrastructure play for the AI race rather than a newly demonstrated autonomous agent or model leap abroad, so the Skynet score holds. (SCMP)",
-          "plain": "China’s AI race needs data fuel. Can a new state-owned giant deliver? Per SCMP, Beijing inaugurated a centrally managed national data group — a state-owned enterprise in Xiongan New Area — to turn China’s data stores into fuel for artificial intelligence; Vice-Premier Ding Xuexiang called it a “major strategic decision”. A national data-infrastructure play for the AI race rather than a newly demonstrated autonomous agent or model leap abroad, so the Skynet score holds. (SCMP)",
-          "source": "SCMP",
-          "url": "https://www.scmp.com/tech/policy/article/3372159/chinas-ai-race-needs-data-fuel-can-new-state-owned-giant-deliver",
-          "date": "2026-10-27",
-          "tags": [
-            "china",
-            "data",
-            "state_owned",
-            "ai_fuel",
-            "xiongan",
-            "ding_xuexiang"
-          ],
-          "subcatId": "ai_capabilities",
-          "fighterId": "skynet"
         }
       ]
     }
   },
   "changelog": [
+    {
+      "id": "patch_2026-11-10_scan_2208_dublin",
+      "at": "2026-11-10T22:08:04.680Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-10_scan_2208_dublin"
+    },
     {
       "id": "patch_2026-11-10_scan_2013_dublin",
       "at": "2026-11-10T20:13:45.268Z",
@@ -2646,14 +2653,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-11-01_scan_0405_dublin"
-    },
-    {
-      "id": "patch_2026-11-01_scan_0204_dublin",
-      "at": "2026-11-01T02:04:47.945Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-11-01_scan_0204_dublin"
     }
   ],
   "pendingPosts": [
