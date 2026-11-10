@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-09T22:10:46.248Z",
+    "lastUpdated": "2026-11-10T00:13:39.394Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-09T22:10:00+00:00",
-    "lastScanSummary": "Scan ~22:10 GMT, Mon 9 Nov (site-only; covers 20:13 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). Promoted to Skynet: TWZ 'LUCAS Drones To Be Built In Containerized Robotic Micro Factories Designed To Be Forward Deployed' (published 17:29:46 GMT; settled over three hours; two matching full saves; quotes from visible article text). Machina won an 18-month Pentagon contract to prove robotic cells can build low-cost one-way attack drone airframes near the front, with its CEO saying AI agents generate airframe designs in software; a prove-out with test setbacks, so Skynet holds. Board: the 26 Oct headline on the Navy rebranding artificial intelligence rolled off the 20-item Skynet board. Held below bar: Breaking Defense on the Army fielding launched-effects drones to 11 of 12 divisions (17:21:48) — fielding of operator-launched systems with no autonomy claim reported; The Register on researchers hijacking automakers' Android apps to unlock cars remotely (17:31) — conventional security research; The Verge commentary on Nvidia's CEO and chip-export concerns (17:36:08) — opinion, no new facts; Defense News on Optics11 fiber-optic underwater sensing trials with navies (17:52:01) — sensing hardware, no AI angle. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 110 documents (was 109). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-10T00:13:00+00:00",
+    "lastScanSummary": "Scan ~00:13 GMT, Tue 10 Nov (site-only; covers 22:10 Mon to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: Breaking Defense on agentic SI tools for the battlefield, with troops building software on the fly while humans keep strike and targeting decisions (published 20:15:47 GMT Mon; settled 23:15:47) — vision and doctrine piece, nothing fielded; Breaking Defense on Korean Air Aerospace delivering two demonstrator aircraft for its Collaborative Combat Aircraft bid, with flight tests due later (19:19:25; settled 22:19:25) — demonstrator programme, no new autonomy claim; TWZ on the Air Force seeking counter-drone netting for F-35 shelters at Tyndall (19:16:18; settled 22:16:18) — passive base defence market research. Also below bar: Breaking Defense on a GAO finding that more than 17,000 F-35 parts are missing from inventory records (19:41:23) and The Register on attackers abusing a trusted AWS integration to steal customer secrets (19:59:50) — oversight and conventional supply-chain intrusion, no AI attacker reported. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 110 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1857,6 +1857,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-10_scan_0013_dublin",
+      "at": "2026-11-10T00:13:39.394Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-10_scan_0013_dublin"
+    },
+    {
       "id": "patch_2026-11-09_scan_2210_dublin",
       "at": "2026-11-09T22:10:46.248Z",
       "by": "apply-patch",
@@ -2647,14 +2655,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-10-31_scan_0809_dublin"
-    },
-    {
-      "id": "patch_2026-10-31_scan_0606_dublin",
-      "at": "2026-10-31T06:06:29.674Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-31_scan_0606_dublin"
     }
   ],
   "pendingPosts": [
