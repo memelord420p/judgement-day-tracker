@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-10T16:14:43.896Z",
+    "lastUpdated": "2026-11-10T18:11:43.935Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-10T16:14:00+00:00",
-    "lastScanSummary": "Scan ~16:14 GMT, Tue 10 Nov (site-only; covers 14:15 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register on Google DeepMind using its AlphaProof Code multi-agent system to formally verify Signal's messaging security, with Gemini Carbon agents generating 6.5 million lines of Lean proof under human review (published 12:00 GMT; settled 15:00) — a defensive, human-in-the-loop verification result that took a team of five four weeks, no autonomy or self-improvement step; The Register on 12 to 13 million UK smart meters needing replacement for the 2G and 3G switch-off (12:38:51) — telecoms infrastructure cost, no AI angle; The Register on a ransomware attack restricting most Vanderbilt University systems (13:00) — conventional cybercrime, no AI role reported. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 122 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-10T18:11:00+00:00",
+    "lastScanSummary": "Scan ~18:11 GMT, Tue 10 Nov (site-only; covers 16:14 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: Breaking Defense and Defense News on the defense secretary dismissing eight House impeachment articles as a political farce at his first Pentagon briefing since May (13:17:55 and 14:43:42 GMT) — political dispute, no AI angle; a sponsored Breaking Defense piece on joint forces running disconnected communications systems (13:24) — industry content; The Register on Google patching the eighth actively exploited Chrome zero-day of 2026 (13:28) — conventional browser security; The Register on Stanford's AI100 panel report reviewing five years of AI change and admitting it will be out of date on release (14:00) — retrospective survey, no new capability; The Verge on Adobe letting third-party AI agents work inside Creative Cloud apps (14:00) — creative-software product features; Defense News on Britain saying its bases are safe after US refueling planes left RAF Mildenhall (14:11:56) — force posture, no AI angle; The Register on Fujitsu's Post Office Horizon contract extension (14:45:11) — IT contract; The Verge on Reddit's AI-organized product reviews hub (15:00) — shopping feature. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 123 documents (was 122). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1856,6 +1856,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-10_scan_1811_dublin",
+      "at": "2026-11-10T18:11:43.935Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-10_scan_1811_dublin"
+    },
+    {
       "id": "patch_2026-11-10_scan_1614_dublin",
       "at": "2026-11-10T16:14:43.896Z",
       "by": "apply-patch",
@@ -2646,14 +2654,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-11-01_scan_0006_dublin"
-    },
-    {
-      "id": "patch_2026-10-31_scan_2204_dublin",
-      "at": "2026-10-31T22:04:29.452Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-10-31_scan_2204_dublin"
     }
   ],
   "pendingPosts": [
