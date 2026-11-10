@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-10T18:11:43.935Z",
+    "lastUpdated": "2026-11-10T20:13:45.268Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-10T18:11:00+00:00",
-    "lastScanSummary": "Scan ~18:11 GMT, Tue 10 Nov (site-only; covers 16:14 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: Breaking Defense and Defense News on the defense secretary dismissing eight House impeachment articles as a political farce at his first Pentagon briefing since May (13:17:55 and 14:43:42 GMT) — political dispute, no AI angle; a sponsored Breaking Defense piece on joint forces running disconnected communications systems (13:24) — industry content; The Register on Google patching the eighth actively exploited Chrome zero-day of 2026 (13:28) — conventional browser security; The Register on Stanford's AI100 panel report reviewing five years of AI change and admitting it will be out of date on release (14:00) — retrospective survey, no new capability; The Verge on Adobe letting third-party AI agents work inside Creative Cloud apps (14:00) — creative-software product features; Defense News on Britain saying its bases are safe after US refueling planes left RAF Mildenhall (14:11:56) — force posture, no AI angle; The Register on Fujitsu's Post Office Horizon contract extension (14:45:11) — IT contract; The Verge on Reddit's AI-organized product reviews hub (15:00) — shopping feature. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 123 documents (was 122). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-10T20:13:00+00:00",
+    "lastScanSummary": "Scan ~20:13 GMT, Tue 10 Nov (site-only; covers 18:11 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: Defense News on an open-source investigation tracking Russian cargo ships carrying tanks, armored vehicles and rocket launchers to African ports (15:24:07 GMT) — conventional arms logistics; The Register on AI inference firm Fireworks AI disclosing a second breach that exposed billing records, datasets and incomplete model weights (15:28) — cybercrime against an AI company, no AI system acting on its own; Defense News on a GAO report that the Pentagon still cannot track millions of F-35 spare parts (15:41:12) — logistics oversight; Defense One on the defense secretary defending his record against impeachment articles at a rare briefing (15:41) — political dispute; Breaking Defense commentary arguing for a maritime-first British defense strategy (16:14:31) — opinion; The Verge on eBay appearing to block third-party AI shopping agents from its site (16:20:30) — platform access policy; The Register on AMD's Verano CPU built to feed its next GPU servers (17:00) and its returning Epyc X chips for technical computing (17:10) — chip roadmaps, no capability leap. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 123 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1856,6 +1856,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-10_scan_2013_dublin",
+      "at": "2026-11-10T20:13:45.268Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-10_scan_2013_dublin"
+    },
+    {
       "id": "patch_2026-11-10_scan_1811_dublin",
       "at": "2026-11-10T18:11:43.935Z",
       "by": "apply-patch",
@@ -2646,14 +2654,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-11-01_scan_0204_dublin"
-    },
-    {
-      "id": "patch_2026-11-01_scan_0006_dublin",
-      "at": "2026-11-01T00:06:28.525Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-11-01_scan_0006_dublin"
     }
   ],
   "pendingPosts": [
