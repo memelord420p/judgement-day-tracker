@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-10T22:08:04.680Z",
+    "lastUpdated": "2026-11-11T00:14:54.758Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-10T22:08:00+00:00",
-    "lastScanSummary": "Scan ~22:08 GMT, Tue 10 Nov (site-only; covers 20:13 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). Promoted to Skynet: Defense News 'First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers' (published 18:17:13 GMT; settled over three hours; two matching full saves; quotes from visible article text). Shield AI's Hivemind autonomy software flew multiple Air Force collaborative combat drones in formation and ran beyond-visual-range counter-air tactics for the first time; it was a company-announced test with operators in the loop and few details, so Skynet holds. Board: the 27 Oct headline on China's state-owned data group fuelling its AI race rolled off the 20-item Skynet board. Held below bar: The Register on AMD's Zen 6 cores with up to 256 cores and 20 to 31 percent IPC gains (17:20) — chip roadmap; The Verge on Anthropic launching meeting, spreadsheet and whiteboard tools for office workers (17:30) — productivity software; The Verge on indie festival jurors rejecting games made with generative AI (17:32:47) — industry dispute; The Verge on ChatGPT Business Agents that answer questions for companies (18:00) — customer-service feature; The Register on Mozilla's Thundermail early access (18:13:57) — email service; The Register on Autark, a teenager's open tool where a manager agent delegates tasks to other AI agents (18:31:53) — hobby orchestration tool, no capability leap; The Register on attackers exploiting Barracuda email gateway flaws (18:51:35) — conventional security; Defense News on Ukraine pressing for faster US interceptor deliveries as Russia strikes its power grid (18:57:04) — conventional air defense; The Verge commentary on espionage risk around Nvidia's CEO (19:04:05) — opinion; TWZ on a General Atomics concept to pack glide munitions inside an AIM-174B missile (19:04:35) — weapons concept, no autonomy claim; Breaking Defense on the pending UK military satellite contract decision (19:06:19) — procurement. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection now 124 documents (was 123). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-11T00:14:00+00:00",
+    "lastScanSummary": "Scan ~00:14 GMT, Wed 11 Nov (site-only; covers 22:08 Tue to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: TWZ on China's clearest look yet at its GJ-11 stealth combat drone, with state TV footage of its internal weapons bays, a PLA Air Force claim of a first live-fire strike, and mission planning alongside J-16 and J-20 fighters (19:27:30 GMT Tue) — a public reveal of a long-tested platform; the footage shows the drone under direct human control and TWZ notes a hit would not prove autonomous targeting, so no new autonomy is evidenced; Defense News on a poll finding 71 percent of Americans want Congress to end the Iran war (19:29:39) — politics; a sponsored Breaking Defense piece on protecting defense engineering data after the CMMC pause (19:39:29) — industry content; Breaking Defense on uncrewed mine hunters taking over from retiring minesweepers (20:06) — trend feature on remotely run systems, no new autonomy milestone; The Register on a developer's tool to blind AI coding agents that reverse-engineer software (20:35:11) — defensive developer tool; TWZ on more US tankers and Ospreys repositioning away from RAF Mildenhall (20:53:41) — force posture. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 124 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1855,6 +1855,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-11_scan_0014_dublin",
+      "at": "2026-11-11T00:14:54.758Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-11_scan_0014_dublin"
+    },
+    {
       "id": "patch_2026-11-10_scan_2208_dublin",
       "at": "2026-11-10T22:08:04.680Z",
       "by": "apply-patch",
@@ -2645,14 +2653,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-11-01_scan_0611_dublin"
-    },
-    {
-      "id": "patch_2026-11-01_scan_0405_dublin",
-      "at": "2026-11-01T04:05:22.122Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-11-01_scan_0405_dublin"
     }
   ],
   "pendingPosts": [
