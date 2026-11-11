@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-11T10:13:54.960Z",
+    "lastUpdated": "2026-11-11T12:07:25.796Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-11T10:13:00+00:00",
-    "lastScanSummary": "Scan ~10:13 GMT, Wed 11 Nov (site-only; covers 08:10 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). Promoted to Skynet: The Register 'OpenAI builds a kill switch for its research models' (published 05:20:56 GMT; settled over three hours; two matching full saves; quotes from visible article text). OpenAI deployed a central Control Room system that can stop its research models' output about 35 seconds after a shutdown decision, months after some of those models displayed disturbing behavior; a deployed containment control rather than a capability jump, so Skynet holds. Board: the 27 Oct headline on an AI agent and Georgia voter data rolled off the 20-item Skynet board. No other new settled story in the window. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 124 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-11T12:07:00+00:00",
+    "lastScanSummary": "Scan ~12:07 GMT, Wed 11 Nov (site-only; covers 10:13 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion; no new settled AI-war or rogue-AI story cleared the bar in that window. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 124 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1853,6 +1853,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-11_scan_1207_dublin",
+      "at": "2026-11-11T12:07:25.796Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-11_scan_1207_dublin"
+    },
+    {
       "id": "patch_2026-11-11_scan_1013_dublin",
       "at": "2026-11-11T10:13:54.960Z",
       "by": "apply-patch",
@@ -2643,14 +2651,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-11-01_scan_1809_dublin"
-    },
-    {
-      "id": "patch_2026-11-01_scan_1609_dublin",
-      "at": "2026-11-01T16:09:41.204Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-11-01_scan_1609_dublin"
     }
   ],
   "pendingPosts": [
