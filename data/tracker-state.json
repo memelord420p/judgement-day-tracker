@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-11T00:14:54.758Z",
+    "lastUpdated": "2026-11-11T02:10:46.741Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-11T00:14:00+00:00",
-    "lastScanSummary": "Scan ~00:14 GMT, Wed 11 Nov (site-only; covers 22:08 Tue to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: TWZ on China's clearest look yet at its GJ-11 stealth combat drone, with state TV footage of its internal weapons bays, a PLA Air Force claim of a first live-fire strike, and mission planning alongside J-16 and J-20 fighters (19:27:30 GMT Tue) — a public reveal of a long-tested platform; the footage shows the drone under direct human control and TWZ notes a hit would not prove autonomous targeting, so no new autonomy is evidenced; Defense News on a poll finding 71 percent of Americans want Congress to end the Iran war (19:29:39) — politics; a sponsored Breaking Defense piece on protecting defense engineering data after the CMMC pause (19:39:29) — industry content; Breaking Defense on uncrewed mine hunters taking over from retiring minesweepers (20:06) — trend feature on remotely run systems, no new autonomy milestone; The Register on a developer's tool to blind AI coding agents that reverse-engineer software (20:35:11) — defensive developer tool; TWZ on more US tankers and Ospreys repositioning away from RAF Mildenhall (20:53:41) — force posture. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 124 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-11T02:10:00+00:00",
+    "lastScanSummary": "Scan ~02:10 GMT, Wed 11 Nov (site-only; covers 00:14 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion. Below bar: The Register on Amazon launching Ring Robotics, an indoor home security drone and a wheeled business patrol robot that map rooms and patrol autonomously using cloud and on-device vision models (21:45:45 GMT Tue) — a consumer surveillance product with privacy concerns but no new capability beyond existing security robots; the rover ships 16 Dec and the drone still lacks FCC authorization; The Register on Microsoft's November Patch Tuesday fixing over 1,000 bugs with one exploited Outlook flaw (22:37:01) — conventional security; The Register on VMware leading a Kubernetes working group on workload portability standards (22:52:56) — infrastructure software. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 32 documents (unchanged); public inspection 124 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1855,6 +1855,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-11_scan_0210_dublin",
+      "at": "2026-11-11T02:10:46.741Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-11_scan_0210_dublin"
+    },
+    {
       "id": "patch_2026-11-11_scan_0014_dublin",
       "at": "2026-11-11T00:14:54.758Z",
       "by": "apply-patch",
@@ -2645,14 +2653,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-11-01_scan_0812_dublin"
-    },
-    {
-      "id": "patch_2026-11-01_scan_0611_dublin",
-      "at": "2026-11-01T06:11:39.627Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-11-01_scan_0611_dublin"
     }
   ],
   "pendingPosts": [
