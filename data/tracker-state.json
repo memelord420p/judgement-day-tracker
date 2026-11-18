@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-18T20:12:56.443Z",
+    "lastUpdated": "2026-11-18T22:19:38.234Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-18T20:12:00+00:00",
-    "lastScanSummary": "Scan ~20:12 GMT, Wed 18 Nov (site-only; covers 18:17 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion; no new settled AI-war or rogue-AI story cleared the bar in that window. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 37 documents (unchanged); public inspection 100 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-18T22:19:00+00:00",
+    "lastScanSummary": "Scan ~22:19 GMT, Wed 18 Nov (site-only; covers 20:12 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). Promoted to T-800: The Register 'California tells Waymo to take the next exit after freeway mishaps' (published 17:45:00 GMT; settled over three hours; two matching full saves; quotes from visible article text; independently corroborated by The Verge, 17 Nov). California's DMV barred Waymo from driverless freeway trips after construction-zone incursions, an operational safety restriction rather than a new capability, so T-800 holds. Board: the 23 Oct headline on Germany changing course on plans to buy the MQ-28 wingman rolled off the 20-item T-800 board. Federal Register AI search since 8 Oct: 37 documents (unchanged); public inspection 100 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -372,6 +372,24 @@
       "id": "t800",
       "headlines": [
         {
+          "id": "t800_hl_20261118_register_california_waymo_freeway_ban",
+          "html": "<strong>California tells Waymo to take the next exit after freeway mishaps</strong> Per The Register, California's DMV banned Waymo from offering driverless trips on its freeways after robotaxis entered active construction zones, calling the operations an “imminent hazard to public safety.” The ban followed two incidents, including three driverless cars entering a construction zone on US 101 near Burlingame on November 5; Waymo then paused freeway driving nationwide, while surface-street service continues. A real safety restriction on deployed driverless vehicles, but a temporary operational ban after mishaps that involved no injuries or collisions, so T-800 holds. (The Register)",
+          "plain": "California tells Waymo to take the next exit after freeway mishaps Per The Register, California's DMV banned Waymo from offering driverless trips on its freeways after robotaxis entered active construction zones, calling the operations an “imminent hazard to public safety.” The ban followed two incidents, including three driverless cars entering a construction zone on US 101 near Burlingame on November 5; Waymo then paused freeway driving nationwide, while surface-street service continues. A real safety restriction on deployed driverless vehicles, but a temporary operational ban after mishaps that involved no injuries or collisions, so T-800 holds. (The Register)",
+          "source": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/18/california-tells-waymo-to-take-the-next-exit-after-freeway-mishaps/5310841",
+          "date": "2026-11-18",
+          "tags": [
+            "waymo",
+            "robotaxi",
+            "california_dmv",
+            "freeway_ban",
+            "autonomous_vehicles",
+            "safety"
+          ],
+          "subcatId": "autonomy_regulation",
+          "fighterId": "t800"
+        },
+        {
           "id": "t800_hl_20261028_militarynews_navy_gpsfree_autonomous_ship_landing",
           "html": "<strong>Navy flies drones without GPS, lands autonomously on moving ships</strong> Per MilitaryNews.com (Norfolk Navy Flagship), the Naval Air Warfare Center Aircraft Division (NAWCAD) successfully proved an unmanned system can navigate missions and land aboard Navy ships without GPS or pilot control. The live-flight demonstration showed a tactical drone flying mission tasks and executing recoveries on a pitching vessel at sea even when satellite navigation is jammed or unavailable, using commercial-standard cameras, motion sensors, and electronics. NAWCAD Commander Rear Adm. Todd Evans told MilitaryNews.com: “In contested areas where satellites and communications are jammed, autonomy gives significant advantage to our sailors,” and “Breakthroughs like this help us scale unmanned capability fast and affordably across a distributed fleet.” Aerospace engineer Peter Arslanian said: “In a high-end maritime conflict, GPS is the first operational link an adversary attempts to sever,” and that a modular adaptable system on the UAS expands where the fleet can deploy unmanned systems “with a simple software upgrade rather than expensive modifications to space-constrained ships.” Software is ready for operational testing on fleet platforms, with plans to scale to larger unmanned systems including tactical resupply. Serious read: GPS-denied shipboard recoveries without multimillion-dollar deck radar. Comedy read: the drone learned to stick the landing on a moving runway while the satellites were out to lunch.",
           "plain": "Navy flies drones without GPS, lands autonomously on moving ships Per MilitaryNews.com (Norfolk Navy Flagship), the Naval Air Warfare Center Aircraft Division (NAWCAD) successfully proved an unmanned system can navigate missions and land aboard Navy ships without GPS or pilot control. The live-flight demonstration showed a tactical drone flying mission tasks and executing recoveries on a pitching vessel at sea even when satellite navigation is jammed or unavailable, using commercial-standard cameras, motion sensors, and electronics. NAWCAD Commander Rear Adm. Todd Evans told MilitaryNews.com: “In contested areas where satellites and communications are jammed, autonomy gives significant advantage to our sailors,” and “Breakthroughs like this help us scale unmanned capability fast and affordably across a distributed fleet.” Aerospace engineer Peter Arslanian said: “In a high-end maritime conflict, GPS is the first operational link an adversary attempts to sever,” and that a modular adaptable system on the UAS expands where the fleet can deploy unmanned systems “with a simple software upgrade rather than expensive modifications to space-constrained ships.” Software is ready for operational testing on fleet platforms, with plans to scale to larger unmanned systems including tactical resupply. Serious read: GPS-denied shipboard recoveries without multimillion-dollar deck radar. Comedy read: the drone learned to stick the landing on a moving runway while the satellites were out to lunch.",
@@ -712,23 +730,6 @@
             "supply_chain"
           ],
           "subcatId": "robotics_policy",
-          "fighterId": "t800"
-        },
-        {
-          "id": "t800_hl_20261016_breakingdefense_germany_mq28_ghost_bat_cca",
-          "html": "<strong>Germany changes course on plans to buy MQ-28 drone wingman: Boeing official</strong> Per Breaking Defense, Germany&#x27;s defence ministry has told Boeing it &quot;will not be directly procuring the company’s MQ-28 Ghost Bat drone wingman&quot; as Berlin reworks its plans to buy Collaborative Combat Aircraft. &quot;The new wingmen will fly alongside fighter jets and carry out strike missions&quot;; Germany had aimed to field them by 2029, but that timeline now looks in doubt, with rival uncrewed wingmen from other firms expected to compete. (Breaking Defense)",
-          "plain": "Germany changes course on plans to buy MQ-28 drone wingman: Boeing official Per Breaking Defense, Germany's defence ministry has told Boeing it \"will not be directly procuring the company’s MQ-28 Ghost Bat drone wingman\" as Berlin reworks its plans to buy Collaborative Combat Aircraft. \"The new wingmen will fly alongside fighter jets and carry out strike missions\"; Germany had aimed to field them by 2029, but that timeline now looks in doubt, with rival uncrewed wingmen from other firms expected to compete. (Breaking Defense)",
-          "source": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/10/germany-changes-course-on-plans-to-buy-mq-28-drone-wingman-boeing-official/",
-          "date": "2026-10-23",
-          "tags": [
-            "military_ai",
-            "uncrewed_aircraft",
-            "collaborative_combat_aircraft",
-            "germany",
-            "boeing"
-          ],
-          "subcatId": "military_autonomy",
           "fighterId": "t800"
         }
       ],
@@ -1853,6 +1854,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-18_scan_2219_dublin",
+      "at": "2026-11-18T22:19:38.234Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-18_scan_2219_dublin"
+    },
+    {
       "id": "patch_2026-11-18_scan_2012_dublin",
       "at": "2026-11-18T20:12:56.443Z",
       "by": "apply-patch",
@@ -2643,14 +2652,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-11-10_scan_1614_dublin"
-    },
-    {
-      "id": "patch_2026-11-10_scan_1415_dublin",
-      "at": "2026-11-10T14:15:01.399Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-11-10_scan_1415_dublin"
     }
   ],
   "pendingPosts": [
