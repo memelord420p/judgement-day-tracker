@@ -6,10 +6,10 @@
     "tagline": "CHOOSE YOUR MACHINE",
     "description": "How close is real-world tech to Terminator fiction? Track progress toward T-800 humanoids, T-1000 liquid metal, and Skynet-level AI — with live research headlines.",
     "status": "MONITORING",
-    "lastUpdated": "2026-11-20T18:19:50.169Z",
+    "lastUpdated": "2026-11-20T20:13:50.074Z",
     "lastUpdatedLabel": "NOV 2026",
-    "lastScanAt": "2026-11-20T18:19:00+00:00",
-    "lastScanSummary": "Scan ~18:19 GMT, Fri 20 Nov (site-only; covers 16:15 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion; no new settled AI-war or rogue-AI story cleared the bar in that window. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 42 documents (unchanged); public inspection 93 documents (up from 91). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
+    "lastScanAt": "2026-11-20T20:13:00+00:00",
+    "lastScanSummary": "Scan ~20:13 GMT, Fri 20 Nov (site-only; covers 18:19 to now from cache-busted feeds of six outlets plus Federal Register checks, not an exhaustive sweep). No promotion; no new settled AI-war or rogue-AI story cleared the bar in that window. Board unchanged; nothing rolled off. Federal Register AI search since 8 Oct: 42 documents (unchanged); public inspection 93 documents (unchanged). Scores hold: T-800 33%, T-1000 5%, Skynet 53%.",
     "dataSource": "judgment-day-watch-2h-scan",
     "updatedBy": "judgment-day-watch",
     "timezone": "Europe/Dublin"
@@ -1854,6 +1854,14 @@
   },
   "changelog": [
     {
+      "id": "patch_2026-11-20_scan_2013_dublin",
+      "at": "2026-11-20T20:13:50.074Z",
+      "by": "apply-patch",
+      "type": "patch",
+      "summary": "Applied patch",
+      "patchId": "patch_2026-11-20_scan_2013_dublin"
+    },
+    {
       "id": "patch_2026-11-20_scan_1819_dublin",
       "at": "2026-11-20T18:19:50.169Z",
       "by": "apply-patch",
@@ -2644,14 +2652,6 @@
       "type": "patch",
       "summary": "Applied patch",
       "patchId": "patch_2026-11-12_scan_1413_dublin"
-    },
-    {
-      "id": "patch_2026-11-12_scan_1214_dublin",
-      "at": "2026-11-12T12:14:06.457Z",
-      "by": "apply-patch",
-      "type": "patch",
-      "summary": "Applied patch",
-      "patchId": "patch_2026-11-12_scan_1214_dublin"
     }
   ],
   "pendingPosts": [
